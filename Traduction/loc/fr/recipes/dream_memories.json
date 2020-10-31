@@ -1,0 +1,43 @@
+{
+    "recipes": [
+
+
+        {
+            id: "dreampleasantmemory",
+extends: ["dreampleasantmemory"],
+            label: "Garder un agréable souvenir",
+            
+            
+            
+            startdescription: "La douce tranquillité d'une compréhension commune ? Un moment dans la lumière de l'hiver ?",
+            description: "Cela pourrait m'aider.",
+            
+            
+        },
+        {
+            id: "dreampassionatememory",
+extends: ["dreampassionatememory"],
+            label: "Un souvenir passionné",
+            
+            
+            
+            startdescription: "Halètements partagés, membres emmêlés ? Chaleur dans la pénombre secrète ?",
+            description: "Cela pourrait me distraire.",
+            
+            
+        },
+
+        {
+            id: "dreambittersweetmemory",
+extends: ["dreambittersweetmemory"],
+            label: "Un souvenir doux-amer",
+            
+            
+            
+            startdescription: "Un arrangement que l'on n'ose pas parler évoquer ? Une querelle, et ses conséquences ?",
+            description: "Cela pourrait me faire hésiter.",
+            
+            
+        },
+    ]
+}

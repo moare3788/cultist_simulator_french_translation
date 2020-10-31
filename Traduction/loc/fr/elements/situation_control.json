@@ -1,0 +1,50 @@
+{
+    "elements": [
+        {
+            id: "insight",
+extends: ["insight"],
+            label: "Compréhension",
+            description: "Un aperçu de ce mystère.",
+            
+        },
+        {
+            id: "bid",
+extends: ["bid"],
+            label: "Enchère",
+            description: "Une offre placée dans une maison de vente aux enchères.",
+            
+        },
+        {
+            id: "abductioninprogress",
+extends: ["abductioninprogress"],
+            label: "Une cellule surveillée",
+            description: "La pensée, dit-on, est libre, mais la pensée est enchaînée au corps.",
+            
+            
+        },
+        {
+            id: "assassinationinprogress.player",
+extends: ["assassinationinprogress.player"],
+            label: "Un assassinat",
+            description: "Cela se terminera par un décès. Ce pourrait être ma mort.",
+            
+            
+        },
+        {
+            id: "assassinationinprogress.follower",
+extends: ["assassinationinprogress.follower"],
+            label: "Un assassinat",
+            description: "Cela se terminera par un décès - le leur ou le nôtre.",
+            
+            
+        },
+        {
+            id: "scandalinprogress",
+extends: ["scandalinprogress"],
+            label: "Rumeurs sur le mal",
+            description: "Ce qu'ils disent n'est que l'ombre de la vérité, mais c'est par notre ombre que nous sommes découverts.",
+            
+            
+        }
+    ]
+}

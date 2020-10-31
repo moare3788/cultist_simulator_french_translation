@@ -1,0 +1,215 @@
+{
+    "decks": [
+        {
+            id: "stagriddles",
+extends: ["stagriddles"],
+            
+            
+            resetonexhaustion: false,
+            comments: "mais cela ne doit être tiré qu'une fois."
+        },
+
+
+        {
+            id: "mansus_wood",
+extends: ["mansus_wood"],
+            
+            drawmessages: {
+                influencemoth: "'Au milieu du voyage de notre vie, je me suis retrouvé dans un bois sombre sans chemin. Il est difficile d'exprimer à quel point ce bois était sauvage, dur et impénétrable... Je ne me souviens pas exactement de ce qui s'est passé, la nuit dernière, dans le noir battant entre les troncs des arbres, où des choses ailées bougeaient sous mes mains. Mais maintenant, ce matin, mon cerveau s'emballe de fragments : IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI RUM IMUS NOC TE ET CON SUMI MUR -'",
+                fragmentsecrethistories: "J'ai marché dans le Bois hier soir, les volatiles voletaient au loin, et des choses velues ont empli ma bouche et mes oreilles, et j'ai ressenti l'envie de tomber à quatre pattes tel un loup le nez dans les racines. Mais je me suis rappelé que je marche debout le jour et que je connais le feu, l'acier et les mots, et j'ai enfin trouvé où le Velours avait caché un secret sur l'écorce des arbres, sous la mousse. Je l'ai lu alors du bout des doigts, et je pense maintenant que je pourrais l'écrire en entier.",
+                rumour: "'Alors que je retournais dans les profondeurs, apparut, devant mes yeux, un homme dont la bouche était scellée. Quand je l'ai vu, dans le grand vide, j'ai crié...' Je pense que la nuit dernière, j'ai rencontré une autre âme dans le Bois. Je ne me souviendrai jamais exactement de ce que nous avons dit, l'un à l'autre, mais je pense que nous nous reconnaîtrons dans le monde éveillé.",
+            },
+            defaultdrawmessages: {},
+            
+        },
+
+        {
+            id: "mansus_wood1",
+extends: ["mansus_wood1"],
+            
+            drawmessages: {
+                influencegrail: "Le puits dans le bois n'est jamais sec, mais il n'est jamais vide. Une nuit, il peut se soulever avec des racines rampantes ; une autre nuit, il palpite avec une mousse brillante. Les nuits de pleine lune, ses eaux sont étouffées par les corps gras et tachetés des papillons de nuit. La nuit dernière, je l'ai vue déborder de sang sombre et visqueux. Des lambeaux gélatineux ont dérivé à sa surface ; des caillots de matière du Graal.",
+                vitality: "Le Puits dans le bois est sacré pour le Graal, l'Heure qui a faim, et pour le Velours, l'Heure qui garde les secrets... ce soir, à mon approche, il s'est soulevé avec la mousse du Velours, luttant contre des vagues d'un vert profond et vibrant, palpitant encore et encore de sa gorge. Elle a déferlé autour de mes mollets, s'est élevée jusqu'à mes cuisses, et ce matin je sens encore le souffle du velours, fort en moi.",
+                fragmentsecrethistoriesb: "Le Velours est fort au puits dans le Bois, et le Velours est l'heure qui garde les secrets ; mais de temps en temps elle laisse tomber un petit secret, comme une miette à un festin. Hier soir, j'ai trouvé une pierre recouverte de mousse, sur laquelle était écrit les secrets d'une autre histoire. Je pourrais remercier le Velours, mais il serait plus sage de ne pas attirer son attention.",
+                rumour: "Tant de choses surgissent du puits dans le bois. Hier soir, il était rempli de racines vermoulues. Les arbres se sont regroupés et ont murmuré. Peut-être accueillaient-ils l'afflux. J'ai trouvé une âme endormie prise au piège dans les racines, et je les ai aidés à se libérer. Quand ils se réveilleront, ils se souviendront de mon visage, comme je me souviens du leur."
+            },
+            defaultdrawmessages: {},
+            
+
+        },
+
+        {
+            id: "mansus_wood2",
+extends: ["mansus_wood2"],
+            
+            drawmessages: {
+                influenceknock: "Hier soir, je suis venu dans le Bois, sur le haut rocher déchiqueté appelé le Temple de la Roue. Son flanc, taché de lichen noir et du signe de l'Oeil, s'est ouvert comme une bouche sous mes mains, et j'ai marché dans l'espace de chuchotement qui s'y trouvait. La pierre des Dieux qui étaient, la première des Heures, a presque entièrement disparu maintenant, mais ici leurs voix demeurent : Roue, Silex, Marée, les autres sans nom.",
+                influenceheart: "Dans le bois, au-delà des murs du Mansus, un rocher déchiqueté s'élève comme les restes pétrifiés d'un géant dansant. J'ai passé ma main le long de son flanc, par-dessus le signes de l'Oeil, le lichen et les graffitis grossiers des petites puissances du Bois, et j'ai senti le frémissement de la Roue qui est passée. Elle est passée, mais quelque chose continue.",
+                fragmentsecrethistoriesb: "Dans mon sommeil, je suis arrivé au haut rocher déchiqueté que l'on appelle encore le Temple de la Roue, bien que l'Heure appelée Roue soit depuis longtemps éteinte. Une autre main avait gravé un secret dans la lanterne noire qui se trouvait sur son flanc. J'ai gravé ce secret dans ma mémoire pour le conserver au réveil, avant que le Velours ne sorte des profondeurs du Bois de velours et ne l'efface. Le Velours est jaloux de ses secrets.",
+                rumour: "Je suis venu au Temple de la Roue, ce rocher haut et déchiqueté, ce mémorial aux dieux morts. Ceux qui s'enlèvent la vie se jettent parfois du haut de ce rocher dans un rêve. J'ai trouvé une autre âme endormie, grattant le signe de l'Oeil dans le lichen à son apogée. Je ne me souviens pas de ce qui s'est passé entre nous, mais je reconnaîtrai leur visage dans le monde éveillé."
+            },
+            defaultdrawmessages: {},
+            
+        },
+        {
+            id: "mansus_whitedoor",
+extends: ["mansus_whitedoor"],
+            
+            drawmessages: {
+                influencewinterc: "La nuit dernière, la Porte blanche était brillante comme un miroir, lumineuse comme la neige fraîche, lumineuse comme la lune glacée. Je me souviens de sa luminosité, mais c'est de son froid que je me souviens le plus. J'ai posé ma joue contre elle. Je sens encore la douleur de son froid dans mon crâne.",
+                fragmentsecrethistoriesb: "Beaucoup de Morts entrent dans le Mansus par la Porte Blanche. Ils errent dans ses couloirs en silence jusqu'à ce qu'ils soient perdus. Certains s'embrassent, d'autres se dévorent, d'autres encore se frayent un chemin dans les rêves des vivants. Quelques-uns gravent leurs souvenirs sur la pierre du Mansus où elle est tendre. Ils la grattent avec leurs ongles, vous voyez. Hier soir, j'ai lu un de ces souvenirs. ",
+                restlessness: "Certains Morts se perdent dans le Bois, d'autres s'élèvent plus haut, mais beaucoup - tellement - passent la Porte Blanche dans la Maison, et se taisent à jamais. La nuit dernière, ils se sont pressés à l'entrée. Nos bouches étaient des blessures cicatrisées. Leurs yeux ont parcouru ma peau. Leurs mains ont cherché ma chaleur, mais mon toucher les a brûlées, et elles se sont retirées. Leur empressement m'a infecté."
+            },
+            defaultdrawmessages: {},
+            
+        },
+        {
+            id: "mansus_whitedoor1",
+extends: ["mansus_whitedoor1"],
+            
+            drawmessages: {
+                influenceknockc: "La nuit dernière, dans le grand Pavillon par-delà de l'étendue grise aux Frontières, une femme qui se faisait autrefois appeler Teresa Galmier s'est assise sur des coussins dorés et m'a offert une coupe de corne de vin de rêve. 'Le vin est imaginaire,' expliqua-t-elle, 'mais la coupe ne l'est pas. Pour naviguer sur le Mansus, il faut comprendre la distinction. Peut-être qu'un jour vous me rejoindrez dans le pèlerinage, ou je vous rejoindrai. Alors, partageons un secret -' et son souffle me chatouillait l'oreille.",
+                fragmentsecrethistoriesc: "Hier soir, j'ai visité la loge du Chevalier Sage. Mon hôtesse s'est révélée être une femme élégante, aux cheveux courts et aux lunettes noires à la mode. Non', admet-elle, 'je n'en ai plus besoin, pas plus que je n'ai besoin d'yeux. Laissez-moi mes sentiments. Mais vous êtes venue pour la connaissance, je suppose ? Voici une histoire que j'ai entendue à l'époque de Kerisham. Vous êtes le bienvenu. Souvenez-vous seulement de moi, si vous venez pour faire le pèlerinage.'",
+                glimmering: "Je me souviens de mon rêve. C'était la Loge de la soie bleue, battant au vent des Frontières au bord du Mansus, et voici sa maîtresse, qui m'accueille comme elle accueille tous les voyageurs. 'La compagnie est agréable,' confie-t-elle, 'mais mon Christopher me manque encore. Dix ans ! Dix ans, et ce n'est pas assez. Mais nous n'aurions pas pu rester longtemps ensemble - non sans nous toucher. Et vous savez ce qui se passe quand un homme de Long couche avec une femme de Long. Ou peut-être que vous ne le savez pas. J'espère que vous ne le savez pas. Je ne vous le dirai pas, au cas où. Je vais vous faire un petit cadeau.'",
+                erudition: "Dans le rêve de la nuit dernière, j'étais dans la loge du Chevalier Sage, derrière la Porte Blanche - il est difficile de se rappeler exactement comment j'y suis arrivé - et la maîtresse des lieux, la femme aux lunettes noires, hochait la tête comme si je lui avais posé une question difficile. Bien sûr, je ne l'avais pas fait. J'ai perdu la parole lorsque j'ai passé la Porte Blanche. 'Comment est-ce que je peux parler ?' m'a-t-elle dit. 'Je ne suis pas venu ici par la Porte Blanche. Je ne suis pas fière de ce que j'ai fait pour venir ici. Alors laissez-moi vous parler d'autre chose.'",
+                fascination: "Hier soir, dans le bleu éclatant de la Loge du Sage Chevalier, je me suis assis sur des coussins de velours et j'ai regardé deux morts se battre avec des épées brillantes. 'Ils sont venus avec ce lieu', a dit la femme qui règne ici maintenant, celle qui se faisait autrefois appeler Galmier. Je n'étais pas le Chevalier-Sage, si c'est ce que vous vous demandez ! Il est allé plus haut dans le Mansus, bien avant que je ne vienne ici. Mon attention s'est détournée. Les épées scintillent comme l'eau qui tombe, les morts bougent comme des danseurs.",
+                favour: "La nuit dernière, j'ai rêvé d'un pavillon de soie bleue surplombant le labyrinthe nuageux des Frontières. J'ai écouté la maîtresse des lieux parler des autres visiteurs. 'Le Bureau de la répression est venu ici, le saviez-vous ? Je pense qu'ils espèrent me recruter comme allié.' Elle grogne avec dérision. 'Après ce qu'ils ont essayé de faire à Christopher ? Mais leur folie est votre fortune. Je vais vous dire quelque chose qui pourrait vous aider, si jamais le Bureau vous ennuie."
+            },
+            defaultdrawmessages: {},
+            
+        },
+        {
+            id: "mansus_whitedoor2",
+extends: ["mansus_whitedoor2"],
+            
+            drawmessages: {
+                influencelanternc: "'Les arts invisibles,'  Christopher Illopoly aurait fait remarquer que 'les cigarettes sont aussi rentables que le macramé, aussi éthiques que la contrebande de tabac et, en général, aussi bénéfiques que la roulette. Pourtant, il y a toujours le Verger des Lumières'. Et en effet, le Verger, avec ses fruits éclatants et ses brumes paisibles, est un endroit auquel on aspire. Hier soir, j'y ai marché dans les heures paisibles de la nuit profonde. Même après mon réveil, je porte encore un peu de la gloire du vieux Soleil.",
+                glimmering: "Le Soleil dans sa Splendeur, l'Heure qui a autrefois dirigé le Mansus, était connu pour marcher dans le Verger, avant sa terrible division. Parfois, ses restes marchent encore ici - parfois je vois le rayonnement froid du Meniscate à travers les arbres, ou le rayonnement plus froid du Soleil en Haillons. S'ils venaient à me tomber dessus, ce serait peut-être ma fin, mais les voir au loin est un don de perspicacité.",
+                influenceheartc: "Les Heures ont été qualifiées d'impitoyables, mais elles permettent aux dormeurs, parfois, de se promener dans le Verger des Lumières, où chaque fruit brille comme un coucher de soleil, où les racines des arbres sont façonnées pour un repos paisible, où la brume apaise le cœur. J'y étais hier soir, et le goût des fruits persiste, vif et doux comme le passage du printemps à l'été.",
+                fragmentsecrethistoriesc: "Hier soir, j'ai marché dans le Verger des Lumières. J'ai cueilli le fruit (qui est toujours mûr) et l'ai consommé en deux bouchées (le goût est inoubliable). En léchant le jus rougeoyant de mes doigts, j'ai vu un message gravé dans l'écorce de l'arbre. À mon réveil, j'ai enregistré ce message - tout ce dont je me souviens - dans mon journal."
+            },
+            defaultdrawmessages: {},
+            
+        },
+
+        {
+            id: "mansus_stagdoor",
+extends: ["mansus_stagdoor"],
+            
+            drawmessages: {
+                influenceknocke: "Pendant mon sommeil, j'ai passé mes doigts le long des cicatrices de la Porte du Cerf. 'C'est nous qui l'avons brisée', dit soudain Ghirbi. Devant les dieux qui étaient en chair et en os, le Mansus était interdit aux mortels. Nous avons été les premiers à le savoir.' Il recommence à pleurer des larmes fondues. J'aurais aimé que ce ne soit pas le cas. J'aurais aimé mourir dans le monde... J'ai oublié ce qu'il a dit d'autre. Mais je me souviens de la forme des fissures de la Porte du cerf, et à partir de ce jour, les portes vont craindre mon contact.",
+                fragmentsecrethistoriesc: "Hier soir, Ghirbi était bavard. Il a évoqué, de sa voix de bariton, les histoires qu'il avait entendues dans le monde éveillé. J'ai écouté, jusqu'à ce que ses histoires se mettent à pleurer.",
+                influenceforgec: "Ghirbi pleurait à nouveau. J'ai ramassé ses larmes fondues dans ma paume en forme de coupe. Dans le rêve, ma peau a pelé et s'est boursouflée, mais seulement dans le rêve."
+            },
+            defaultdrawmessages: {},
+            
+        },
+        {
+            id: "mansus_stagdoor1",
+extends: ["mansus_stagdoor1"],
+            
+            drawmessages: {
+                influenceedgee: "De l'endroit où mes rêves m'ont emmené la nuit dernière, ceci a été écrit : 'L'ascension est de verre. Les murs sont des couteaux. Chaque pas est du sang.' Je n'ai pas grimpé loin. La douleur était trop grande. Quand je me suis réveillé, cette douleur est restée avec moi - une douleur que je pourrais utiliser à des fins occultes, si je me dépêche.",
+                influencegrailc: "L'Ascension des Couteaux est appelée l'Escalier Tranchant, et la Mère des Miroirs, et la Fête du Graal. Si l'on regarde sous l'escalier, comme je l'ai fait la nuit dernière dans mes rêves, on comprend ce nom de famille. Il tire une dîme de sang des pieds de ceux qui montent. Les Empousai - certains en forme d'hommes, beaucoup en forme de femmes - attendent sous la vitre de l'escalier pour satisfaire leur faim. Je ne me suis pas approché, je n'ai fait aucun bruit, j'ai seulement observé.",
+                influencewintere: "J'ai visité l'Ascension des Couteaux hier soir, la plus dure des routes qui traversent la Maison. Elle est sacrée pour les Meniscate et le Soleil en Haillons depuis l'Intercalate, lorsque le vrai Soleil a été divisé. Quand je me suis réveillé, ma chambre était glacée. Le froid avait brisé la vitre."
+            },
+            defaultdrawmessages: {},
+            
+        },
+        {
+            id: "mansus_stagdoor2",
+extends: ["mansus_stagdoor2"],
+            
+            drawmessages: {
+                fascination: "J'ai rêvé du Mansus derrière la Porte Blanche, du grand espace au-dessus du Verger, de l'espace qui domine les Limites, de l'espace où le Vagabond a un jour peint sa Rivière. Des bateaux peints passaient sur la Rivière peinte. J'ai rencontré les yeux peints d'un capitaine peint. Il a salué, et le mouvement était comme le déplacement des nuages. La voile du navire était ambrée et les yeux du capitaine du vert de l'orge et du bleu de l'aigue-marine. Maintenant que je suis éveillé, je vois encore ces couleurs.",
+                fragmentsecrethistoriesd: "Il y a une grande chambre dans le Mansus, dans laquelle coule une rivière peinte. Le Vagabond, dit-on, l'aurait peinte de mémoire dans les années précédant son départ de la Chambre. Il y a certainement des histoires cachées dans sa conception. Je les ai tracées de ma main hier soir. Il y avait des fragments de peinture aigue-marine sous mes ongles, des taches de feuille d'or, quand j'ai eu fini.",
+                eruditionplus: "La Rivière peinte s'étend d'une grande chambre près de la Porte blanche, loin à travers le Mansus, jusqu'à son bord extrême où elle entre dans un delta ceint de nuages lointains. J'ai parcouru la moitié de sa longueur la nuit dernière avec un capitaine au visage austère sous une voile rouillée. Alors que les nuages s'élevaient devant nous, les marins ont entonnés des chants nostalgiques, et ont serré les voiles pour utiliser au mieux le vent peint. Et pendant tout ce temps, le capitaine et moi avons parlé des secrets de la Maison du Soleil..."
+            },
+            defaultdrawmessages: {},
+            
+        },
+
+        {
+            id: "mansus_spiderdoor",
+extends: ["mansus_spiderdoor"],
+            
+            drawmessages: {
+                influencegraile: "Le TROISIÈME de la Porte de l'Araignée est le deuxième après celui du Graal, ou peut-être est-ce même la même chose. Je l'ai passée hier soir, mais je n'ai pas pénétré plus loin dans le Mansus. J'ai passé une heure la nuit dernière à rêver de son gosier, et ce matin je suis en feu avec des appétits avides.",
+                influencehearte: "La nuit dernière, j'ai parcouru l'amas d'organes de la Porte de l'Araignée. J'ai trouvé un nœud de vitalité particulière - tout ce qui reste de quelqu'un de courageux, ou de quelqu'un de trahi. Alors que le TROISIÈME de la Porte de l'Araignée était encore calme, je l'ai ramené à la maison dans un repli de mon âme.",
+                fragmentsecrethistoriesd: "La guerre des routes s'étendit jusqu'au Mansus. Dans les couloirs derrière la Porte de l'Araignée, le maçon-sorcier qui s'est fait appeler Hubris Glamore a chroniqué ses escarmouches, en des kilomètres de lignes de mémoires obsédantes et ramifiés dans la pierre du rêve du Mansus. La nuit dernière, je l'ai retracé, en lisant les campagnes des Enfants de la Flamme maîtrisée, la vaillante défense de la Sororité du Noeud, l'alliance avec le Vagabond, les furieuses querelles du Graal et de la Forge...",
+                favour: "La nuit dernière, derrière la Porte de l'Araignée, j'ai trouvé un agent de l'ordre qui s'était égaré dans un rêve imprudent. Les choses qui marchent sur les Sables de soie, cette grisaille dans laquelle la Porte est enchâssée, ont un goût particulier pour les policiers. Il a crié jusqu'à ce que je le libère, mais je ne l'ai pas libéré avant qu'il ne m'ait dit quelque chose d'utile..."
+            },
+            defaultdrawmessages: {},
+            
+        },
+        {
+            id: "mansus_spiderdoor1",
+extends: ["mansus_spiderdoor1"],
+            
+            drawmessages: {
+                influenceforgeg: "Hier soir, dans le Mansus, j'ai visité la forge de Malleary, dont les machines et les allées vous changent pour toujours. J'ai observé les mouvements du coucher de soleil et je suis entré dans la joie ambrée, la joie blanche et la joie bleue et j'ai été soumis aux lumières de la calcination et la Forge des Jours m'a touché de ses doigts brûlés et je me lève de mon lit avec la certitude que toutes les nuits, toutes les nuits, toutes les nuits doivent se terminer.",
+                fragmentsecrethistoriese: "Hier soir, dans le Mansus, j'ai visité la forge de Malleary, dont les marteaux et les creusets vous changent pour toujours, et pendant neuf battements mon cœur s'est arrêté alors qu'il entrait dans les feux de la Forge, et les passions de la Forge y entraient. Je me suis réveillé avec l'aube, et ses pauvres couleurs divisées m'inspirent des souvenirs de la passion de la Forge pour le Soleil, de la malédiction du Vagabond, de la profonde nostalgie du Graal... autant de demi-souvenirs.",
+                ingredientforgef: "Hier soir, dans le Mansus, j'ai visité la forge de Malleary, dont les feux vous changent pour toujours. La lumière de la Forge est tombée sur moi, mon cœur a bouilli et, à mon réveil, mon sang a brûlé en moi au point que j'ai dû le verser dans une coupe avant qu'il ne me submerge et voilà, dix gouttes de ce sang n'étaient pas exactement du sang, à moins que ce ne soit le Sang du Soleil. Peut-être ai-je trouvé la coupe et que le sang n'est pas le mien. La Forge se souvient.",
+                influencelanterne: "Hier soir, dans le Mansus, j'ai visité la forge de Malleary, dont les impulsions et des rotations vous changent pour toujours. Il y a là beaucoup de radiations, des feux et de la Forge, de ses Noms et de ses instruments, mais une lueur s'attarde derrière toutes comme une musique qui s'estompe : la dernière lumière du Soleil en Splendeur, répandue dans les moments de sa Division, ici où la Forge est la plus forte. Maintenant que je me suis réveillé, je vois ce rayonnement encore. "
+            },
+            defaultdrawmessages: {},
+            
+        },
+        {
+            id: "mansus_spiderdoor2",
+extends: ["mansus_spiderdoor2"],
+            
+            drawmessages: {
+                influenceknockg: "Hier soir, je suis venu au Concursum, le carrefour du Mansus, qui a été appelé la Chambre des voies. De là, les Heures peuvent passer à n'importe quel endroit du Mansus. C'est là que la Hache Cornue m'a parlé d'une voix plus vieille que tout être vivant, et elle m'a dit : il y a une Porte qui va s'ouvrir pendant un petit moment. C'est son heure, et voici une autre division.",
+                influencelanterne: "Hier soir, je suis venu au Concursum, le noyau du Mansus, que l'on a appelé la Chambre des Révélations, dont les miroirs sont sans fin et dont les chemins sont vastes. De là, les Heures peuvent voir tout ce qui se passe dans le Mansus. J'ai vu la lumière du Gardien dans le bleu de l'horizon, comme un soleil sous la mer.",
+                influencemothe: "Hier soir, je suis venu au Concursum, le coeur du Mansus, qui s'est appelé la Chambre des choix, où chaque chemin que l'on ne prend pas est un avenir mort-né. Dans le bleu du ciel de la Chambre, j'ai vu passer la Soeur-et-la-Sorcière, leurs quatre mains tissant deux chemins pour n'en faire qu'un. Je me suis réveillé avec mes passions déformées en un noeud. Il y a quelque chose que je dois faire ; il y a toujours quelque chose que je dois faire.",
+                influencewintere: "Hier soir, je suis venu au Concursum, l'endroit où aboutissent tous les couloirs du Mansus, qui a été appelé la Chambre des conclusions. Ici, les Heures se rencontrent dans l'effort ou l'exécution ou la résignation. Dans le saphir du couchant de la lumière de la Chambre, j'ai vu passer le Soleil en Haillons avec sa couronne brisée et sa suite silencieuse, et ce matin, je me suis réveillé en tremblant.",
+                fragmentsecrethistoriesc: "La nuit dernière, je suis venu au Concursum, le méridien du Mansus, qui a été appelé la Chambre des Histoires.  J'y ai parlé avec une adepte morte depuis longtemps. Elle m'a parlé de sa fuite à travers la Chambre, de ces dizaines de décennies et plus, des façons dont les morts survivent en dehors des Heures et se souviennent des histoires non approuvées, et ce matin je me souviens de la fin d'une de ses histoires.",
+                fascination: "Hier soir, je suis venu au Concursum, l'espace au centre du Mansus, qui a été appelé la Chambre des Miroirs. De là, les Heures peuvent passer à n'importe quel endroit du Mansus. J'ai vu le Meniscate s'élever dans la gloire de cobalt de la lumière de la Chambre, danseuse agile, lune brillante, et elle a reflété mon visage dans le sien et ce matin, c'est tout ce que je peux voir."
+            },
+            defaultdrawmessages: {},
+            
+        },
+        {
+            id: "mansus_peacockdoor",
+extends: ["mansus_peacockdoor"],
+            
+            drawmessages: {
+                scholarvak: "Hier soir, j'ai ouvert la Porte du Paon, et après, elle m'a parlé. 'Je suis Vak,' se vantait-elle, 'la langue et la déesse. Je suis la seule entrée dans la lumière secrète. J'ai été vénérée devant vous, singes debout, et je le serai encore quand vous serez tous de la cendre laide. Écoutez, et je vous le prouverai.' Je me suis réveillé avec la bouche pleine de mots. ",
+                fragmentsecrethistoriese: "Hier soir, j'ai ouvert la Porte du Paon, et au-delà, dans les espaces lumineux de la Maison, j'ai rencontré un adepte en pèlerinage : 'Je suis presque prêt', ont-ils dit, 'à passer au sommet de la Maison, à préparer l'ascension finale. Peut-être vous joindrez-vous à moi. J'aurai besoin d'alliés, pour me battre à ma place. Voici une histoire pour vous aider à vous élever.'",
+                influencelanterng: "Hier soir, j'ai satisfait la Porte du Paon, et mon action a attiré l'attention d'une certaine Heure. Dans les espaces dorés du Mansus au-delà, j'ai entendu la promesse du Fleuriste, et sa promesse est la suivante : il ne peut pas me faire de mal, et il ne peut pas me trouver, mais si je viens seulement à lui, il satisfera mon désir comme j'ai satisfait celui de la Porte du Paon. En vertu de cette promesse, mes yeux se sont ouverts et ce matin je vois la gloire."
+            },
+            defaultdrawmessages: {},
+            
+        },
+        {
+            id: "mansus_peacockdoor1",
+extends: ["mansus_peacockdoor1"],
+            
+            drawmessages: {
+                influencegrailg: "Quand on rêve de l'Eglise rouge, on entend les voix des Noms du Graal, des Assoiffés et des Ivoirés, des Charmants et des autres. 'Tous les empousai ne sont pas des femmes,' pourrait-on entendre dire. 'La faim des femmes n'est pas plus profonde que celle des hommes. Mais une mère n'est jamais loin de son enfant à sa naissance, et ce n'est pas toujours le cas d'un père. Approchez-vous, et nous vous montrerons ce que nous voulons dire.'",
+                ingredientgraild: "Lorsque j'ai visité l'Église rouge hier soir, ils m'ont dit, entre leurs griffes et leurs caresses, que le Fleuriste était venu mais dernièrement, avec son nectar et sa promesse. Je me suis réveillé dans des draps détrempés, avec le nectar d'amarante dans la main. J'en ai capturé ce que je pouvais - seulement quelques gouttes, mais ce sera suffisant.",
+                fragmentsecrethistoriesf: "J'ai revu l'église rouge hier soir, avec ses bancs d'os, les vitraux aux tons de rubis, l'autel d'or qui bat comme un coeur. Cette nuit-là, les Noms du Graal se sont réunis pour parler de ceux qui, depuis longtemps, ont renoncé aux plaisirs de la chambre à coucher - sauf entre un homme et un homme, ou une femme et une femme. 'Ils continuent à payer le tribut du plaisir,' disait un Ivoiré. 'Ils ne portent pas de fruits', a dit Lovely. 'Si seulement la Forge et le Soleil s'étaient unis', se lamentait un Assoiffé. Puis ils tombèrent dans les commérages du Long de la Maison de Léthé, et leurs actes dans le désert. Je m'en souviens encore.",
+                favour: "Chacun des vitraux de l'Église rouge est consacré à un appétit particulier, et les scènes qu'ils montrent sont issues de la vie. Hier soir, dans l'un des vitraux les plus laids, j'ai vu les appétits d'une certaine figure publique satisfaits en privé. Je sais qu'il ne voudra pas que cette information soit rendue publique. Peut-être me fera-t-il preuve d'une certaine considération.",
+                fascination: "Hier soir, j'ai visité l'église rouge, où le Graal organise ses fêtes. La lumière à travers les vitraux représentait tous les spectres du rouge et les Noms du Graal ont fait naître un nouveau désir qui n'avait jusqu'à aujourd'hui aucun nom. J'en garde le souvenir, et ce matin tout ce que je vois est teinté de rubis."
+            },
+            defaultdrawmessages: {},
+            
+        },
+        {
+            id: "mansus_peacockdoor2",
+extends: ["mansus_peacockdoor2"],
+            
+            drawmessages: {
+                influencewinterg: "Hier soir, j'ai visité le Musée du ver, qui se trouve à la fois dans le Mansus (pour la sécurité) et à l'extérieur (pour la sûreté). Les Heures ont chargé le Colonel de sa défense, et même le Lionsmith ne le défie pas ici. L'hiver est l'aspect le plus important de cet endroit. Les vers prospèrent là où les choses se terminent, mais on peut aussi y mettre fin, et il le faut, si l'on veut que le Mansus dure. Ce matin, la froide certitude de la main du colonel repose encore sur mon épaule.",
+                fragmentsecrethistoriesf: "La taille du Mansus est discutable, et c'est ainsi qu'hier soir, au Musée du ver, j'ai vu l'un des vers qui ont pris Vienne, mis en cage à côté d'un ver pris dans l'âme d'un enfant. Dans les rêves, ils sont plus visibles qu'au réveil, lisses et sombres comme des joyaux. Les murs portent des histoires de la première et de la deuxième guerre des vers. La troisième est trop récente pour être contée dans les Histoires.",
+                dread: "La nuit dernière, j'ai rêvé du Musée du ver. Les Heures l'ont mis en garde et averti, mais elles l'ont laissé ouvert aux adeptes mortels qui peuvent faire leurs preuves en l'atteignant. Peut-être espèrent-ils inspirer de la répulsion envers les choses qui se sont développées dans le cadavre du Soleil. Ces choses sont toujours là, toujours en train de mourir, jamais mortes. Elles sont venues de Nulle part, disent les avertissements, et si elles terminent leur travail, le Mansus sera Nulle part, un jour."
+            },
+            defaultdrawmessages: {},
+            
+        },
+
+
+
+    ]
+}

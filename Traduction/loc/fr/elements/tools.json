@@ -1,0 +1,353 @@
+{
+    "elements": [
+        {
+            id: "dropzone",
+extends: ["dropzone"],
+            label: "DropZone",
+            description: "",
+            
+            
+
+        },
+        {
+            id: "tooledgeb",
+extends: ["tooledgeb"],
+            label: "Balle de météorite",
+            description: "Des balles en taénite sont parfois extraites des squelettes de bêtes inhabituelles, à travers l'Europe, le Moyen-Orient et l'Inde. Certains ont chassé des monstres.",
+            
+            
+        },
+        {
+            id: "tooledged",
+extends: ["tooledged"],
+            label: "La lame de Biedde",
+            description: "Une coupure de cette lame ne cessera pas de saigner tant que la blessure ne sera pas cicatrisée. On raconte que Biedde était un chirurgien-coutelier ambulant dans le Toulouse du XVIIIe siècle. Un autre affirme que Biedde n'est que la batardisation d'un mot arabe signifiant 'moustique'.",
+            
+            
+        },
+        {
+            id: "tooledgef",
+extends: ["tooledgef"],
+            label: "Éclat furieux",
+            description: "Lorsque le Lionsmith s'est retourné contre le colonel, il a écrasé sa propre épée à coups de poing. Chaque petit fragment de cette arme vibre encore de rage.",
+            
+            
+        },
+        {
+            id: "toolforgeb",
+extends: ["toolforgeb"],
+            label: "Amulette de Cinabre",
+            description: "L'écarlate est la couleur de la chaleur. Le mercure détient une clé pour une dissolution ultime.",
+            
+            
+        },
+        {
+            id: "toolforged",
+extends: ["toolforged"],
+            label: "Malleus Imperative",
+            description: "Un minuscule os d'oreille, noirci par une chaleur intense. Appliqué correctement, il peut fissurer la pierre.",
+            
+            
+        },
+        {
+            id: "toolforgef",
+extends: ["toolforgef"],
+            label: "Étincelle de carcasse",
+            description: "Un vestige d'un plus grand rayonnement, qui brille doucement en se désintégrant. Une possible particule du Soleil divisé.",
+            
+            
+        },
+        {
+            id: "toolgrailmoth",
+extends: ["toolgrailmoth"],
+            label: "Amulette Chuchotante",
+            description: "Il sait ce que je désire; ou j'imagine qu'il le fait.",
+            
+            
+        },
+        {
+            id: "toolgrailb",
+extends: ["toolgrailb"],
+            label: "Gants tachés",
+            description: "Quels usages en ont-ils connus ? Quelles leçons pourraient-ils me donner ?",
+            
+            comments: "Not unique; we can get an extra one from the Dancer legacy."
+        },
+        {
+            id: "toolgraild",
+extends: ["toolgraild"],
+            label: "Polos sacrés",
+            description: "La couronne d'une mère sauvage, tachée de son essence, tissée de bouts de cheveux et bénie de mouchetures de peau.",
+            
+            
+        },
+        {
+            id: "toolgrailf",
+extends: ["toolgrailf"],
+            label: "Murmure du calice",
+            description: "Les nuits où l'on boit au calice, on n'est pas certain, après coup, de ce que l'on a fait. Mais, nous pouvons être assurés que c'est ce qui a toujours été fait, et si nous ne nous en souvenons pas, nos enfants le feront, dans leurs rêves les plus sombres.",
+            
+            
+        },
+        {
+            id: "toolheartb",
+extends: ["toolheartb"],
+            label: "L'idole de Marruvine",
+            description: "Les Marruvii fabriquaient de petites idoles en bois pour apaiser les sorcières jumelles qu'ils craignaient dans leur lac. Le lac est presque à sec maintenant, mais les idoles et les sorcières jumelles sont toujours là, cachées grâce à l'aspect du Coeur.",
+            
+            comments: "Not unique; we can get an extra one from the Dancer legacy."
+        },
+        {
+            id: "toolheartd",
+extends: ["toolheartd"],
+            label: "Tympan de veille",
+            description: "Dans le bosquet où ils écorchaient le tonnerre, ils faisaient vibrer leurs instruments pour susciter la frénésie. Le pouvoir s'accroche encore, comme un parfum.",
+            
+            
+        },
+        {
+            id: "toolheartf",
+extends: ["toolheartf"],
+            label: "Peau-de-roi Bodhrán",
+            description: "Dans les forêts profondes, le monarque a renoncé à la dernière chose qu'il devait donner, et l'outil a donc été façonné pour garder leur terre à jamais en sécurité. Puis, bien sûr, un empire l'a volé, comme le font les empires.",
+            
+            
+        },
+        {
+            id: "toolknockb",
+extends: ["toolknockb"],
+            label: "Icone de St Agnès",
+            description: "Sainte Agnès de Bohême était réputée pour son pieux dévouement à la mortification de la chair. Cette icône en donne une vision macabre.",
+            
+            
+        },
+        {
+            id: "toolknockd",
+extends: ["toolknockd"],
+            label: "Linteau Consacré",
+            description: "C'est le crâne d'une porte par laquelle le pouvoir est passé.",
+            
+            
+        },
+        {
+            id: "toolknockf",
+extends: ["toolknockf"],
+            label: "Frangiclave",
+            description: "Il y a des clés qui ouvrent les portes; puis il y a des clés qui les détruisent.",
+            
+            
+        },
+
+        {
+            id: "toollanternb",
+extends: ["toollanternb"],
+            label: "Pierre de Midi",
+            description: "Port Midi, dit-on, n'est plus ce qu'elle était; mais cette pierre polie conserve encore l'éclat du coucher de soleil.",
+            
+            
+            comments: "Not unique; we can get multiples if cracked ones are supplied."
+        },
+        {
+            id: "toollanternd",
+extends: ["toollanternd"],
+            label: "Mirroir perplexe",
+            description: "Une multiplicité de points de vue ! Une multitude de points de vue ! Regarde-moi et réjouis-toi de la dissolution de tes sens !",
+            
+            
+            comments: "Not unique; we can get multiples if cracked ones are supplied."
+        },
+        {
+            id: "toollanternf",
+extends: ["toollanternf"],
+            label: "Verre du Guetteur",
+            description: "Le miroir dans lequel on ne regarde pas deux fois.",
+            
+            
+            comments: "Not unique; we can get multiples if cracked ones are supplied.",
+            
+        },
+
+        {
+            id: "toolmothb",
+extends: ["toolmothb"],
+            label: "Poupée Wingèd",
+            description: "Dans un grenier au-dessus d'une maison squelettique, il y avait une fenêtre. À côté de la fenêtre, il y avait une boîte. Dans la boîte, il y avait un pansement. Dans le bandage, il y avait une torsade de cheveux coagulés. Dans les cheveux était enroulée une poupée, car la fenêtre n'avait jamais été ouverte.",
+            
+        },
+        {
+            id: "toolmothd",
+extends: ["toolmothd"],
+            label: "Masque tacheté",
+            description: "Dans la forêt où la lune ne pouvait pas aller, les branches des arbres étaient tissées ensemble comme des bandages ou des amants. La lune pouvait se changer en fourmi ou en oiseau ou en sa soeur, mais la forêt ne cédait pas à ses pénétrations, quelles que soient ses caresses. Un jour, nous sommes venus avec nos ciseaux, et nous avons coupé les branches jusqu'à ce que la lune et le sang fassent tomber les feuilles pourries sur le sol de la forêt.",
+            
+            
+        },
+        {
+            id: "toolmothf",
+extends: ["toolmothf"],
+            label: "Ciseaux Alakapurine",
+            description: "Au Nord, il y a une ville d'une grande richesse où habitait un protecteur du monde. Un jour, il se tut. Ces ciseaux ont été utilisés pour lui prendre d'abord ses cheveux, puis ses doigts et enfin ce qui restait.",
+            
+            
+        },
+        {
+            id: "toolsecrethistoriesb",
+extends: ["toolsecrethistoriesb"],
+            label: "Curiosité paradoxale",
+            description: "Parfois, il est difficile de savoir avec certitude si une flèche a tué l'impératrice Hérodiade ou l'impératrice Eudokia. Parfois, il est possible qu'une horloge en bronze doré ait été volée dans le pillage de Vienne alors qu'elle reposait en sécurité dans les voûtes de Rome.",
+            
+            
+        },
+        {
+            id: "toolsecrethistoriesd",
+extends: ["toolsecrethistoriesd"],
+            label: "Atlas des Rêves",
+            description: "La forme du monde change dans chaque passé, mais la forme du Mansus se reflète dans chacun d'eux. On ne peut pas cartographier le Mansus, mais on peut tenter de cartographier ses reflets.",
+            
+            
+        },
+
+        {
+            id: "toolwinterb",
+extends: ["toolwinterb"],
+            label: "Flute d'os",
+            description: "Le son cessera.",
+            
+            
+        },
+        {
+            id: "toolwinterd",
+extends: ["toolwinterd"],
+            label: "Manacle d'Elagabaline",
+            description: "Il ne renonce pas à son emprise.",
+            
+            
+        },
+        {
+            id: "toolwinterf",
+extends: ["toolwinterf"],
+            label: "La Cloche de la division",
+            description: "D'abord, sa voix, et après, rien.",
+            
+            
+        },
+
+
+        {
+            id: "toollanternbcracked",
+extends: ["toollanternbcracked"],
+            label: "Pierre de Midi fissurée",
+            description: "Port Midi, dit-on, n'est plus ce qu'elle était, mais cette pierre conserve encore une lueur d'ambre. Elle a été fissurée. Un adepte de la Forge pourrait la restaurer, avec des ressources suffisantes - ou je pourrais utiliser le pouvoir qu'elle contient encore.",
+            
+        },
+        {
+            id: "toollanterndcracked",
+extends: ["toollanterndcracked"],
+            label: "Miroir perplexe fissuré",
+            description: "Une profonde fissure traverse le métal chatoyant. Un adepte de la Forge pourrait la réparer, avec des ressources suffisantes - ou je pourrais utiliser la puissance qui y reste.",
+            
+        },
+        {
+            id: "toollanternfcracked",
+extends: ["toollanternfcracked"],
+            label: "Verre du Guetteur fissuré",
+            description: "Un adepte de la Forge pourrait le réparer, mais le coût serait élevé - ou je pourrais utiliser la puissance qui y reste.",
+            
+        },
+        {
+            id: "paintingmasteredge",
+extends: ["paintingmasteredge"],
+            label: "'Colonel et Lionsmith'",
+            description: "Depuis Issus, ils se battent .",
+            
+            
+        },
+        {
+            id: "paintingmasterforge",
+extends: ["paintingmasterforge"],
+            label: "'La Forge des Jours'",
+            description: "Si la Forge pouvait regretter, elle regretterait l'Intercalate, mais dans tous ses autres travaux, elle connaît la joie.",
+            
+            
+        },
+        {
+            id: "paintingmastergrail",
+extends: ["paintingmastergrail"],
+            label: "'Le Graal Rouge'",
+            description: "Elle n'a pas fendu le Soleil, mais ici on peut imaginer comment elle a dû le désirer.",
+            
+            
+        },
+        {
+            id: "paintingmasterheart",
+extends: ["paintingmasterheart"],
+            label: "'La Soeur-et-la-Sorcière'",
+            description: "Elle a été un couple de Passereau, mais la voici telle qu'elle voudrait se noyer.",
+            
+            
+        },
+        {
+            id: "paintingmasterknock",
+extends: ["paintingmasterknock"],
+            label: "'La mère des Fourmis'",
+            description: "Même à l'époque de l'Elam, elle avait commencé à apparaître ainsi.",
+            
+            
+        },
+        {
+            id: "paintingmasterlantern",
+extends: ["paintingmasterlantern"],
+            label: "'La Porte-dans-l'Oeil'",
+            description: "Il vient de la Gloire. Nous ne pouvons nous empêcher de voir.",
+            
+            
+        },
+        {
+            id: "paintingmastermoth",
+extends: ["paintingmastermoth"],
+            label: "'La Phalène'",
+            description: "Dans les forêts du premier continent, nos ancêtres se maudissaient avec leur propre dieu.",
+            
+            
+        },
+        {
+            id: "paintingmastersecrethistories",
+extends: ["paintingmastersecrethistories"],
+            label: "'Teresa et Christopher'",
+            description: "L'amour, comme le Mansus, défie les frontières.",
+            
+            
+        },
+        {
+            id: "paintingmasterwinter",
+extends: ["paintingmasterwinter"],
+            label: "'Le Loup-Divisé'",
+            description: "CAPUT GERAT LUPINUM. Le Soleil a été divisé, et voici sa blessure.",
+            
+            
+        },
+
+
+
+        {
+            id: "canvas.pale",
+extends: ["canvas.pale"],
+            label: "Une toile pâle",
+            description: "Je dois y aller très prudemment. Les souvenirs que je dois transmettre s'envoleront de la toile si je les représente trop fortement. Je retrouverai ces souvenirs dans la chair des morts... et peut-être même, s'il le faut, dans ma propre chair mourante.",
+            
+        },
+
+
+        {
+            id: "painting.palest",
+extends: ["painting.palest"],
+            label: "La peinture blême",
+            description: "'Six ont été perdus, il en reste trente.' La toile n'est pas blanche. Regardez bien, et vous verrez les formes suggérées des Heures perdues depuis longtemps, marchant sur le chemin sinueux qui mène à la porte de Nulle-part. Regardez de trop près, et vous vous retrouvez perdu à pleurer.",
+            
+        },
+
+
+
+
+    ]
+}

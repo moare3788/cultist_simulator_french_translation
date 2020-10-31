@@ -1,0 +1,228 @@
+{
+    "recipes": [
+        {
+            id: "explorevaultseal_hiddendoor_encounter",
+extends: ["explorevaultseal_hiddendoor_encounter"],
+            
+            label: "Un passage caché",
+            startdescription: "Il doit y avoir une porte ici. Mais sans de la Lanterne ou de la Clé, nous ne pouvons pas la découvrir.",
+            
+            slots: [
+                {
+                    id: "Assistance",
+extends: ["Assistance"],
+                    label: "Assistance",
+                    description: "Les Fonds sont essentiels pour les expéditions. Les Adeptes me permettront de franchir des obstacles.",
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultseal_hiddendoor_highlantern",
+extends: ["explorevaultseal_hiddendoor_highlantern"],
+            
+            
+            label: "Nous faisons appel au Guetteur, qui illumine",
+            startdescription: "Nous trouverons presque certainement cette Porte Cachée.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultseal_hiddendoor_midlantern",
+extends: ["explorevaultseal_hiddendoor_midlantern"],
+            
+            
+            label: "Nous faisons appel au Guetteur, qui navigue",
+            startdescription: "Nos sens sont aiguisés. Nous devrions trouver cette Porte Cachée.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultseal_hiddendoor_lowlantern",
+extends: ["explorevaultseal_hiddendoor_lowlantern"],
+            
+            
+            label: "Nous faisons appel au Guetteur, qui n'est pas compatissant",
+            startdescription: "Nous portons la lumière. Nous pourrions trouver cette Porte Cachée. Ce sera difficile.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultseal_hiddendoor_highknock",
+extends: ["explorevaultseal_hiddendoor_highknock"],
+            
+            
+            label: "Nous faisons appel au Corbeau-de-Plage, qui voit ce qui est perdu",
+            startdescription: "Nous avons une certaine capacité en matière d'ouverture. Nous trouverons sûrement cette Porte Cachée.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultseal_hiddendoor_midknock",
+extends: ["explorevaultseal_hiddendoor_midknock"],
+            
+            
+            label: "Nous faisons appel au Corbeau-de-Plage, qui ouvre la terre",
+            startdescription: "Nous sommes habiles à découvrir des chemins dissimulés. Nous trouverons probablement cette Porte Cachée.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultseal_hiddendoor_lowknock",
+extends: ["explorevaultseal_hiddendoor_lowknock"],
+            
+            
+            label: "Nous faisons appel au Corbeau-de-Plage, à qui appartient ce qui n'est pas possédé",
+            startdescription: "Nous avons une certaine capacité en matière d'ouverture. Nous pourrions trouver cette Porte Cachée. Ce sera difficile.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultseal_hiddendoor_success",
+extends: ["explorevaultseal_hiddendoor_success"],
+            
+            label: "Un chemin à travers la porte cachée",
+            startdescription: "De faibles lignes dans la pierre; une surface qui cède à la pression. Nous l'avons trouvé ! La Porte Cachée bouge, avec un frisson grinçant et une pluie de poussière.",
+            description: ".",
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultseal_hiddendoor_failure",
+extends: ["explorevaultseal_hiddendoor_failure"],
+            
+            label: "Une recherche infructueuse",
+            startdescription: "Où se trouve-t-elle ? Nous pourrions utiliser plus de Clé, ou Lanterne.",
+            description: ".",
+            
+            
+            
+        },
+
+
+
+        {
+            id: "explorevaultseal_wardeddoor_encounter",
+extends: ["explorevaultseal_wardeddoor_encounter"],
+            
+            label: "Une porte surveillée",
+            startdescription: "Cette porte a tenu bon pendant longtemps. À moins que nous n'amenions de la Forge ou de la Clé, elle tiendra bon encore longtemps.",
+            
+            slots: [
+                {
+                    id: "Assistance",
+extends: ["Assistance"],
+                    label: "Assistance",
+                    description: "Les Fonds sont essentiels pour les expéditions. Les Adeptes me permettront de franchir des obstacles.",
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultseal_wardeddoor_highforge",
+extends: ["explorevaultseal_wardeddoor_highforge"],
+            
+            
+            label: "Nous faisons appel à la Forge des Jours, qui terminera toutes les nuits",
+            startdescription: "Nous allons sûrement briser cette porte blindé.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultseal_wardeddoor_midforge",
+extends: ["explorevaultseal_wardeddoor_midforge"],
+            
+            
+            label: "Nous faisons appel à la Forge des Jours, qui met fin à ce qui ne changera pas",
+            startdescription: "Nos outils sont prêts. Nous devrions être en mesure de pénétrer cette porte blindée.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultseal_wardeddoor_lowforge",
+extends: ["explorevaultseal_wardeddoor_lowforge"],
+            
+            
+            label: "Nous faisons appel à la Forge des Jours, qui refait avec le feu",
+            startdescription: "Nous sommes prêts avec le feu de la Forge. Nous pourrions être capables de pénétrer cette porte blindée. Ce sera difficile.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultseal_wardeddoor_highknock",
+extends: ["explorevaultseal_wardeddoor_highknock"],
+            
+            
+            label: "Nous faisons appel à la Hache Cornue, qui attend au seuil",
+            startdescription: "Nous avons une certaine capacité en matière d'ouverture. Nous allons sûrement briser cette porte blindée.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultseal_wardeddoor_midknock",
+extends: ["explorevaultseal_wardeddoor_midknock"],
+            
+            
+            label: "Nous faisons appel à la Hache Cornue, qui autorise le passage lorsque le passage doit être autorisé",
+            startdescription: "We are skilled in uncovering warded ways. We'll probably penetrate this Warded Door.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultseal_wardeddoor_lowknock",
+extends: ["explorevaultseal_wardeddoor_lowknock"],
+            
+            
+            label: "Nous faisons appel à la Hache Cornue, qui porte deux lames",
+            startdescription: "We have some ability in the matter of opening. We might be able to penetrate this Warded Door. It'll be a struggle.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultseal_wardeddoor_success",
+extends: ["explorevaultseal_wardeddoor_success"],
+            
+            label: "La Mort d'une Porte",
+            startdescription: "Toutes les portes doivent s'ouvrir, comme toutes les vies doivent prendre fin. Cette porte a trouvé sa fin, ici, aujourd'hui.",
+            description: ".",
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultseal_wardeddoor_failure",
+extends: ["explorevaultseal_wardeddoor_failure"],
+            
+            label: "Les Finalités des Portes",
+            startdescription: "Doors have two purposes: to open, and to remain closed. Today, this door remains true to its second purpose.",
+            description: ".",
+            
+            
+            
+        },
+
+    ]
+}

@@ -1,0 +1,338 @@
+{
+    "recipes": [
+
+
+
+        {
+            id: "exploremovehq",
+extends: ["exploremovehq"],
+            
+            label: "Un changement de locaux",
+            startdescription: "Déplacer le quartier général de notre organisation vers un nouveau lieu. [Cela permettra de déplacer votre quartier général de façon permanente. Aucun retour n'est possible. Cela peut réduire la Notoriété.]",
+            description: "Aucune adresse n'est jamais vraiment permanente. Comme nos corps, nous les quittons tous à la fin. Mais pour l'instant, c'est la maison.",
+            
+            
+            slots: [
+                {
+                    id: "coldtrail",
+extends: ["coldtrail"],
+                    label: "Une piste froide",
+                    description: "Lorsque nous déménageons, le Bureau de répression peut perdre du temps à enquêter sur notre ancien emplacement.",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+
+        {
+            id: "explorehq.townhouse",
+extends: ["explorehq.townhouse"],
+            
+            label: "FNORD",
+            startdescription: "FNORD",
+            description: "FNORD",
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorehq.hospital",
+extends: ["explorehq.hospital"],
+            
+            label: "Où il s'ouvre",
+            startdescription: "Les premiers gardiens de ce lieu pratiquaient leurs incisions et leurs dissections jusqu'à ce que le monde se sépare comme la peau d'un fruit. Ces ouvertures ont depuis longtemps guéri, mais rien ne guérit jamais complètement.",
+            description: "Il y a toujours un malaise, au début, mais nous avons veillé à ce que tout soit fait proprement, et nous pouvons toucher la lumière qui émane de la Mère-des-Fourmis.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorehq.mithraeum",
+extends: ["explorehq.mithraeum"],
+            
+            label: "Le soleil sous nos pieds",
+            startdescription: "C'était un lieu saint du Soleil Inconquis, le Soleil Indivisible. Avec la plus pure des bougies, nous pouvons toucher la lumière qui nage encore dans la pierre.",
+            description: "Le lucide, le translucide, le souvenir de la splendeur. Beaucoup est perdu, et beaucoup reste du Soleil invisible et indivisible.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorehq.church",
+extends: ["explorehq.church"],
+            
+            label: "Les blessures de la sagesse",
+            startdescription: "'Toutes les portes ne sont pas des blessures, mais chaque blessure est une porte'. L'histoire de ce lieu est riche à la fois de blessures et de portes. Avec les bons matériaux, nous pouvons adoucir l'air, une fois que nous serons à l'air libre.",
+            description: "Ce soir, aucune porte de cette église ne se fermera ; aucune serrure ne nécessitera de clé ; et chaque coeur sera ouvert.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorehq.bookshop",
+extends: ["explorehq.bookshop"],
+            
+            label: "Le foyer protégé",
+            startdescription: "Nous chaufferons les espaces derrière le magasin à la lumière du feu, nous les animerons avec le sifflet de la bouilloire et le bourdonnement du gramophone. Toutes nos célébrations ne nécessitent pas l'effusion de sang.",
+            description: "Les librairies réconfortent les anxieux, les ignorants et les esprits troublés. Même après que Morland ait apporté ici ses curieuses marchandises, ce réconfort persiste. Ce soir, l'Heure appelée Thunderskin avance doucement.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorehq.warehouse",
+extends: ["explorehq.warehouse"],
+            
+            label: "En mémoire des machines",
+            startdescription: "Avant d'être un entrepôt, c'était un manoir de machines: une maison de vapeur et de fer et, de temps en temps, de la chair déchirée et des cris. Nous verserons des huiles pour commémorer cette époque. ",
+            description: "Une fois de plus nous avons des flammes, une fois de plus nous avons du fer, et une fois de plus la chair connaîtra le baiser de la chaleur ; mais nulle part elle ne se montrera, pas à la lumière du jour. Loin au-dessus, loin en dessous, la Forge des Jours effectue ses purifications.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "explorelocationbookdealer",
+extends: ["explorelocationbookdealer"],
+            label: "Ajouter à votre bibliothèque",
+            
+            
+            
+            
+            startdescription: "Il faut du temps pour trier l'or de l'écume, le blé de l'ivraie, le sang de l'eau. Si j'achète suffisamment de livres, je trouverai quelque chose d'intéressant.",
+            description: "J'ai trouvé quelque chose de remarquable.",
+            
+            
+            
+        },
+        {
+            id: "explorelocationbookdealer_exhausted",
+extends: ["explorelocationbookdealer_exhausted"],
+            label: "Morland's ferme !",
+            
+            
+            description: "'Je passe à autre chose', vous informe Mlle Morland. Mon stock est largement épuisé, et le Bureau de la répression s'y intéresse. C'est donc un adieu. Ce dernier livre n'a pas de sens, mais j'ai mis quelques documents intéressants de coté, pour vous remercier de votre habitude.'",
+            
+            
+            
+        },
+        {
+            id: "explorelocationauctionhouse",
+extends: ["explorelocationauctionhouse"],
+            label: "Assister à une vente aux enchères chez Oriflamme",
+            
+            
+            
+            
+            startdescription: "Nous sommes perchés sur d'inquiétantes chaises de Rietveld dans une salle de vente aux enchères sans fenêtre aux murs orange vif, attendant que le commissaire-priseur annonce son offre. L'odeur de la peinture fraiche fait tourner la tête. Cliquez sur Start pour voir ce qui est proposé ou ajoutez un article que vous souhaitez vendre.]",
+            description: ".",
+
+            
+            
+            
+        },
+
+        {
+            id: "explorelocationstreetsstrange",
+extends: ["explorelocationstreetsstrange"],
+            label: "Explorer un étrange enchevêtrement de rues au clair de la lune.",
+            
+            
+
+            
+            startdescription: "Les rues sont étranges à l'Heure appelée Meniscate.",
+            description: "Des visions m'apparaissent avec grâce - une fenêtre sur un bois, un jardin de glace, un soleil frissonnant, une femme de verre. Je rentrerai chez moi, à contrecœur.",
+            
+            
+        },
+        {
+            id: "explorefollower",
+extends: ["explorefollower"],
+            label: "Explorer la ville",
+            
+            
+            
+            
+            startdescription: "Des rues bondées le jour, un labyrinthe enveloppé de brouillard la nuit. Je vais mettre mes serviteurs à la recherche d'opportunités.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "explorerumour",
+extends: ["explorerumour"],
+            label: "Traquer une rumeur",
+            
+            
+            
+            
+            startdescription: "Je pense qu'à la fin de cette histoire, je trouverai peut-être quelqu'un qui écoutera ce que j'ai à dire.",
+            description: "Une adresse peu prometteuse : mais un résident prometteur.",
+            
+            
+        },
+        {
+            id: "explorehealth",
+extends: ["explorehealth"],
+            label: "Explorer la ville",
+            
+            
+            
+            
+            
+            startdescription: "Des rues bondées le jour, un labyrinthe enveloppé de brouillard la nuit. Je marcherai dans les rues, à la recherche de secrets, jusqu'à ce que je ne puisse plus marcher.",
+            description: ".",
+            
+            
+        },
+
+
+        {
+            id: "explorefindcriminal",
+extends: ["explorefindcriminal"],
+            label: "Un mercenaire ?",
+            
+            
+            
+            
+            
+            
+        },
+        {
+            id: "explorechoosepaycriminal",
+extends: ["explorechoosepaycriminal"],
+            label: "Un mercenaire ?",
+            
+            startdescription: "J'ai trouvé quelqu'un que je pourrais payer pour mettre en oeuvre des nécessités regrettables. [Ajouter des Fonds pour l'engager, pour une durée limitée.]",
+            slots: [
+                {
+                    id: "Payment",
+extends: ["Payment"],
+                    label: "Paiement",
+                    
+                    
+                }
+            ],
+            
+            
+            description: "Il ne vaut mieux pas. Je dois faire attention mes fréquentations.",
+            
+        },
+        {
+            id: "explorepaycriminal",
+extends: ["explorepaycriminal"],
+            label: "Un mercenaire",
+            
+            
+            startdescription: "Cela achètera sa fidélité, pour l'instant.",
+            
+        },
+
+
+        {
+
+            id: "explorefindplace",
+extends: ["explorefindplace"],
+            label: "Un lieu négligé ?",
+            
+            
+            startdescription: "J'ai peut-être trouvé un endroit inhabituel.",
+            description: ".",
+            
+            
+            
+        },
+
+
+
+        {
+            id: "explore.searchgraveyard.self",
+extends: ["explore.searchgraveyard.self"],
+            
+            
+            
+            
+            label: "Une exhumation",
+            startdescription: "Des fouilles furtives à la douce lumière d'une lanterne.",
+            description: "La pelle frappe le bois. C'est bon signe. Si le cercueil est trop pourri, les restes sont généralement peu nombreux.",
+            
+            
+        },
+
+        {
+            id: "explore.searchgraveyard.follower",
+extends: ["explore.searchgraveyard.follower"],
+            
+            
+            
+            label: "Une exhumation",
+            startdescription: "Des fouilles furtives à la douce lumière d'une lanterne.",
+            description: "La pelle frappe le bois. C'est bon signe. Si le cercueil est trop pourri, les restes sont généralement peu nombreux.",
+            
+            
+        },
+
+        {
+            id: "explore.searchgraveyard.closing.self",
+extends: ["explore.searchgraveyard.closing.self"],
+            
+            
+            
+            
+            label: "Une exhumation prudente",
+            startdescription: "Se faufiler à travers les ombres mouvantes. N'allumez pas de lampe. Soyez prudents..",
+            description: "Je creuse dans l'obscurité, jusqu'à ce que je trouve assez pour continuer.",
+            
+            
+        },
+
+        {
+            id: "explore.searchgraveyard.closing.follower",
+extends: ["explore.searchgraveyard.closing.follower"],
+            
+            
+            
+            label: "Une exhumation prudente",
+            startdescription: "Volez à travers les ombres mouvantes. N'allumez pas de lampe. Soyez prudents..",
+            description: "Je creuse dans l'obscurité, jusqu'à ce que je trouve assez pour continuer.",
+            
+            
+        },
+
+
+
+        {
+            id: "explore.fleeting",
+extends: ["explore.fleeting"],
+            
+            
+            label: "Laisser les souvenirs guider mes pas",
+            startdescription: "Mes pensées vont errer et je les suivrai. De vieilles émotions viendront s'y nicher.",
+            description: "La mémoire est un labyrinthe, et en son coeur se cache un jardin.",
+            
+            
+
+            
+            
+        }
+
+
+
+    ]
+}

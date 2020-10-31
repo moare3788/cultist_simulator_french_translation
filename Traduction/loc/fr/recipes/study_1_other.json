@@ -1,0 +1,82 @@
+{
+    "recipes": [
+
+        {
+            id: "studybenefactorwill",
+extends: ["studybenefactorwill"],
+            label: "Étudier les documents d'un cher disparu",
+
+
+
+             
+            startdescription: "Cette situation exige une certaine discrétion. L'association a considéré notre association comme inappropriée.",
+            description: "Nos relations n'ont jamais été formalisées. Il serait impensable que j'hérite d'une partie importante de la succession. Néanmoins, j'ai été bien pourvu.",
+
+
+        },
+        {
+            id: "studybenefactorwill_suspicion",
+extends: ["studybenefactorwill_suspicion"],
+            label: ".",
+
+             
+            description: "Quelque chose a mal tourné. Nos anciennes connaissances traversent la rue quand je passe. Un journal fait allusion à un acte criminel. Le notaire ne me reçoit pas. Je ne peux espérer aucun legs, et le pire est peut-être à venir.",
+
+        },
+
+
+        {
+            id: "study.welland.defeated",
+extends: ["study.welland.defeated"],
+             
+            label: "Comme à Issus",
+            startdescription: "J'ai la possibilité de me retourner contre notre façonneur, comme l'a fait le Lionsmith contre le colonel. [Cela empêchera votre personnage précédent de s'élever, mais vous donnera l'occasion de remporter une victoire standard de la Forge. Cela n'aura pas d'autre effet.]",
+            description: "La chaîne de loyauté est brisée. Mes disciples ne se douteront de rien. Lorsque notre Façonneur pourra revenir de son exil, je serai parti, ou je serai à jamais.",
+             
+             
+             
+             
+        },
+
+        {
+            id: "study.tryphon.defeated",
+extends: ["study.tryphon.defeated"],
+             
+            label: "Le choix des menus",
+            startdescription: "Si je consomme ce qui reste de Lady Tryphon, je ne serai pas consommé. [Cela empêchera votre personnage précédent de s'élever, mais vous donnera la possibilité de remporter une victoire standard du Graal. Cela n'aura pas d'autre effet.]",
+            description: "Le goût est vif sur ma langue. Il n'y aura pas de Vitulation pour notre Délice. Mes disciples serviront mes désirs. Pour l'instant, je dévorerai ; je ne serai pas dévoré.",
+             
+             
+             
+             
+        },
+
+        {
+            id: "study.diarist.defeated",
+extends: ["study.diarist.defeated"],
+             
+            label: "Une porte se ferme",
+            startdescription: "Le journaliste m'a donné les moyens d'abandonner notre Illuminé au Mansus. [Cela empêchera votre personnage précédent de s'élever, mais vous donnera l'occasion de remporter une victoire standard de la Lanterne. Cela n'aura pas d'autre effet.]",
+            description: "J'ai fermé la porte de mon oeil. Je l'ai scellée avec de la cire. Cet oeil est aveugle, mais l'autre voit de nouveaux horizons. Notre organisation servira une autre fin. Peut-être qu'un jour, je saluerai notre fondateur comme un pair.",
+             
+             
+             
+             
+        },
+
+        {
+            id: "study.julian.defeated",
+extends: ["study.julian.defeated"],
+             
+            label: "Vide et seul",
+            startdescription: "'Une pierre de plus dans le mur du Mansus.' C'est tout ce que je suis ? Y a-t-il autre chose ? [Cela empêchera votre personnage précédent de s'élever et ajoutera de la Peur au plateau. Cela n'aura aucun autre effet.]",
+            description: "Je vivrai ma vie selon mes choix. Ce que je suis, c'est ce que je serai, jusqu'à ce que je ne sois plus rien du tout.",
+             
+             
+             
+             
+        },
+
+
+    ]
+}

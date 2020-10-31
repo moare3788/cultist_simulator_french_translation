@@ -1,0 +1,34 @@
+{
+    "elements": [
+        {
+            id: "lunatic",
+extends: ["lunatic"],
+            label: "Un pauvre fou",
+            
+            description: "Une expérience accablante a privé cet individu de ses sens. Il va bientôt disparaître, pour ne plus jamais être revu.",
+            
+            
+        },
+        {
+            id: "genericprisonerm",
+extends: ["genericprisonerm"],
+            label: "Un prisonnier malchanceux",
+            
+            description: "Quelqu'un est tombé dans vos griffes. Il ne survivra pas éternellement.",
+            
+            
+            
+        },
+        {
+            id: "genericprisonerf",
+extends: ["genericprisonerf"],
+            label: "Un prisonnier malchanceux",
+            
+            description: "Quelqu'un est tombé dans vos griffes. Il ne survivra pas éternellement.",
+            
+            
+            
+        },
+
+    ]
+}

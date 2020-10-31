@@ -1,0 +1,183 @@
+{
+    "elements": [
+
+
+        {
+            id: "ingredientedgeb",
+extends: ["ingredientedgeb"],
+            label: "Eclat de Martensite",
+            description: "Le chrysme sacré de l'épée. Aussi un attrayant vert argenté.",
+            
+        },
+        {
+            id: "ingredientedged",
+extends: ["ingredientedged"],
+            label: "Grains labhitiques",
+            description: "Les labhites sont les plus jeunes des serviteurs du Lionsmith. Lorsqu'ils sont réduits en poudre, ils conservent leur puissance mais pas leur beauté.",
+            
+        },
+        {
+            id: "ingredientedgef",
+extends: ["ingredientedgef"],
+            label: "Croc de Skaptodon",
+            description: "Il est rare que le Lionsmith crée des skaptodons, maintenant ; mais ils sont difficiles à tuer, et ils vivent très longtemps.",
+            
+        },
+
+        {
+            id: "ingredientforgeb",
+extends: ["ingredientforgeb"],
+            label: "Sels noirs amers",
+            description: "Aucun chimiste ordinaire ne pourrait produire ces cristaux à l'éclat sombre - pas sans la contribution de la Forge.",
+            
+        },
+        {
+            id: "ingredientforged",
+extends: ["ingredientforged"],
+            label: "Essence Xanthotique",
+            description: "Dans certaines opérations de la Forge, on dit que la lumière du soleil l'emporte sur celle de la lune, lorsque nous passons du Meniscate au Madrugad. Cette essence était autrefois du mercure, mais aujourd'hui, c'est le bel or d'un après-midi d'été. Joli.",
+            
+        },
+        {
+            id: "ingredientforgef",
+extends: ["ingredientforgef"],
+            label: "Essence Iotique",
+            description: "Dans les dernières opérations de la Forge, le Madrugad a produit la véritable Forge des Jours, et l'essence commence à rougir. Un jour, peut-être, elle ne rougira pas, mais pour I' instant, nous avons cela. ",
+            
+        },
+
+        {
+            id: "ingredientgrailb",
+extends: ["ingredientgrailb"],
+            label: "Pigment vital",
+            description: "Il n'est pas habituel qu'un rouge aussi rouge survive à la mort du corps.",
+            
+        },
+        {
+            id: "ingredientgraild",
+extends: ["ingredientgraild"],
+            label: "Nectar d'amarante",
+            description: "Un des nombreux cadeaux du Fleuriste. A une époque plus brillante, il aurait pu conférer l'immortalité. Dans cette histoire malheureuse, elle reste une douceur inégalée.",
+            
+        },
+        {
+            id: "ingredientgrailf",
+extends: ["ingredientgrailf"],
+            label: "Cals d'écriture",
+            description: "Posez votre main sur ces plis en lambeaux et sentez leur chaleur ; laissez votre main dessus, et il explorera les possibilités d'étreinte.",
+            
+        },
+
+        {
+            id: "ingredientheartb",
+extends: ["ingredientheartb"],
+            label: "Poussière de perle de rose",
+            description: "Les perles sont sacrées pour la Soeur-et-la-Sorcière, surtout celles de cette couleur. Elles ont été utilisées dans des rites de protection, entre autres.",
+            
+        },
+        {
+            id: "ingredientheartd",
+extends: ["ingredientheartd"],
+            label: "Huile du baiser de la Sorcière",
+            description: "La formule reste inchangée depuis l'époque où Hécate était vénéré aux carrefours.",
+            
+        },
+        {
+            id: "ingredientheartf",
+extends: ["ingredientheartf"],
+            label: "Vrai sang de St Januarius",
+            description: "Le Thunderskin protégeait celui qu'ils appelaient Januarius, contre les périls de tous les passés. Aujourd'hui encore, son sang continue de danser.",
+            
+            
+        },
+
+        {
+            id: "ingredientknockb",
+extends: ["ingredientknockb"],
+            label: "Teinture byzantine",
+            description: "Le violet profond ne se porte que dans les Histoires où la teinture tyrienne n'était pas assez riche pour les empereurs. Il est difficile d'interdire l'accès à une personne portant cette couleur.",
+            
+        },
+        {
+            id: "ingredientknockd",
+extends: ["ingredientknockd"],
+            label: "Venin sthénique",
+            description: "De temps en temps, la Mère des Fourmis a également été appelée la Fille des Venins. Cette substance ouvre le corps en d'innombrables endroits.",
+            
+        },
+        {
+            id: "ingredientknockf",
+extends: ["ingredientknockf"],
+            label: "Azoth",
+            description: "Ne le stockez que dans des récipients contenant un élément pur et ne le laissez jamais se réchauffer. Ce n'est peut-être pas le solvant final que les alchimistes recherchaient. Mais cela suffira, pour nos besoins.",
+            
+        },
+
+        {
+            id: "ingredientlanternb",
+extends: ["ingredientlanternb"],
+            label: "Refulginate",
+            description: "Un blanc si pur qu'il reste visible même dans l'obscurité la plus totale.",
+            
+        },
+        {
+            id: "ingredientlanternd",
+extends: ["ingredientlanternd"],
+            label: "Toxine du doigt de verre",
+            description: "'Ce qui est dedans, dehors ; ce qui est dehors, dedans'. Un poison sacré pour les élus de Meniscate.",
+            
+        },
+        {
+            id: "ingredientlanternf",
+extends: ["ingredientlanternf"],
+            label: "Ichor Vitreux",
+            description: "Un fluide pâle et vigilant qui peut être recueilli, parfois, à l'ouverture de l'Oeil dans la Porte.",
+            
+        },
+
+        {
+            id: "ingredientmothb",
+extends: ["ingredientmothb"],
+            label: "Pigment pie",
+            description: "A partir d'ailes écrasées de rares lépidoptères. 'Peindre en noir ou en blanc, c'est ce qu'il faut faire.'",
+            
+        },
+        {
+            id: "ingredientmothd",
+extends: ["ingredientmothd"],
+            label: "Cuireux",
+            description: "Une liqueur sombre et sirupeuse très appréciée dans les villages forestiers sans nom. 'La langue et l'œil, et maintenant nous commençons ! Oublie ton nom, oublie ta peau.'",
+            
+        },
+        {
+            id: "ingredientmothf",
+extends: ["ingredientmothf"],
+            label: "Hémolymphe sacrée",
+            description: "De faibles traces d'une substance énigmatique déversée lors de la perpétration d'un crime ancien, scellée dans une ampoule de verre. 'Qui se souviendra du fils du barbier ?' ",
+            
+            
+        },
+
+        {
+            id: "ingredientwinterb",
+extends: ["ingredientwinterb"],
+            label: "Huile de cendre grise",
+            description: "La couleur précise des heures où l'on ne peut dormir.",
+            
+        },
+        {
+            id: "ingredientwinterd",
+extends: ["ingredientwinterd"],
+            label: "Neige de loup",
+            description: "Il fait bien trop froid pour le fondre autrement que dans le soleil de midi le plus chaud. Il va, très progressivement, consumer la chair humaine.",
+            
+        },
+        {
+            id: "ingredientwinterf",
+extends: ["ingredientwinterf"],
+            label: "Vers de guet",
+            description: "Un petit pot de restes larvaires rabougris et desséchés de la première guerre des vers, d'un rang aussi élevé que la puissance qui habite les heures mortes.",
+            
+        },
+    ]
+}

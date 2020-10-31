@@ -1,0 +1,122 @@
+{
+    "recipes": [
+        {
+            id: "workbytjobstart",
+extends: ["workbytjobstart"],
+            label: "Une journée en or de travail occasionnel",
+            
+            
+            
+            
+            startdescription: "Il est possible que je fasse quelque chose aujourd'hui.",
+            description: "Tout se passe à merveille. Bien que la santé de papa ne s'améliore pas. [<b>Exploration</b> debloquée.]",
+            
+            
+        },
+        {
+            id: "workbytjob",
+extends: ["workbytjob"],
+            label: "Une journée en or de travail occasionnel",
+            
+            
+            
+            
+            startdescription: "Il est possible que je fasse quelque chose aujourd'hui.",
+            description: "Tout se passe à merveille. Bien que la santé de papa ne s'améliore pas encore.",
+            
+            
+        },
+
+        {
+            id: "workbytjobend",
+extends: ["workbytjobend"],
+            label: "Un nuage à l'horizon",
+            
+            startdescription: "Papa m'a convoqué ! Je dois courir à son chevet. Toutes les affaires familiales sont suspendues, pour l'instant.",
+            
+            
+            
+        },
+
+        {
+            id: "workbytjobepilogue",
+extends: ["workbytjobepilogue"],
+            label: "Des nouvelles épouvantables",
+            
+            
+            
+            startdescription: "Papa est mort ! Personne ne me dira exactement comment. Mais le patrimoine est sous sequestre. Mon argent de poche est bloqué pendant la succession et ainsi de suite. On ne peut qu'espérer que cela sera réglé avant que les factures ne soient dues. ",
+            description: "Les affaires du testament ont été réglées... mais les affaires de papa ont été rongées par les dettes comme le bois par les vers. Personne ne semble savoir exactement à quoi il a dépensé l'argent. Mais le notaire m'envoie des papiers, apparemment.",
+            
+            
+        },
+
+        {
+            id: "bytopenexplore",
+extends: ["bytopenexplore"],
+            label: "Un monde de possibilités !",
+            
+            startdescription: "Certaines sortes de déchirures m'introduisent dans certains endroits.",
+            description: "Si jamais j'ai du mal à décider comment dépenser mon argent, les bonnes personnes de ces endroits peuvent certainement m'aider !",
+            
+            
+            
+        },
+
+        {
+            id: "bytopenstudy",
+extends: ["bytopenstudy"],
+            label: "Documents déroutants",
+            
+            startdescription: "Je vais recevoir des papiers trouvés parmi les affaires de papa, qui pourraient peut-être nous éclairer sur l'endroit exact où est passé tout l'argent.",
+            
+            description: "J'ai reçu les documents. Pauvre papa. Page après page, des gribouillis désespérés sur une maison invisible, les couleurs du sommeil et les dieux cachées derrière le monde... mais savez-vous que plus je lis, plus cela a du sens... enfin, pas 'du sens'. Cela n'a pas de sens. Mais ça tient la route. Et voici le journal de papa.",
+            
+            
+            
+        },
+
+
+        {
+            id: "bytstudydiary",
+extends: ["bytstudydiary"],
+            label: "L'étude d'un journal intime troublant",
+            
+            
+
+            
+            
+            startdescription: "Le journal de papa. C'est un catalogue d'obsessions. Mais peut-être que cela donnera une sorte de sens aux événements récents ?",
+            description: "Le nom de #PREVIOUSCHARACTERNAME# apparaît encore et encore dans ces pages. Cela évoquait 'un lieu d'impossibilité', une 'source d'avenir'... 'un qui a coupé l'oeil'. Et, sur la dernière page, il y a une adresse de correspondance, et un nom.",
+            
+            
+        },
+        {
+            id: "bytopendream",
+extends: ["bytopendream"],
+            label: "La maison sans murs",
+            
+            
+            startdescription: "Les rêves commencent. Papa en parle, et il dit que son père avant lui avait été si troublé. Quelque chose dans notre sang ; une mélancolie mordante qui tue l'âme.",
+            description: "Je rêve d'une lumière qui se ratatine, d'un soleil qui croque la neige mais ne la fait pas fondre. Quand je me réveille, ma chambre est toujours froide.",
+            
+            
+            
+        },
+
+
+        {
+            id: "bytopentalk",
+extends: ["bytopentalk"],
+            label: "Entrer en contact avec un étranger",
+            
+            startdescription: "J'ai contacté la personne dont le nom figure dans ce document troublant. Je n'ai guère de raisons de croire qu'il pourra m'éclairer sur la nature de ce qui s'est passé auparavant. Mais peut-être peut-il m'aider pour ce qui est à venir.",
+            description: "Ma nouvelle connaissance parle avec autorité de Papa. Il savait qu'il était mourant. Il avait espéré goûter à des plaisirs inconnus avant sa fin - des plaisirs refusés dans une société digne de ce nom. Ma nouvelle connaissance me suggère de finir ce qu'il a commencé - que si je le fais, je pourrais me sauver du désespoir qui hante ma famille.",
+            
+            
+            
+        },
+
+
+    ]
+}

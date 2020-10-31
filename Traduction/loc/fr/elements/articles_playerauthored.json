@@ -1,0 +1,205 @@
+{
+    "elements": [
+        {
+            id: "articleedgec",
+extends: ["articleedgec"],
+            label: "Pointe: Une enquête très approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articleforgec",
+extends: ["articleforgec"],
+            label: "Forge: Une enquête très approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articlegrailc",
+extends: ["articlegrailc"],
+            label: "Graal: Une enquête très approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articleheartc",
+extends: ["articleheartc"],
+            label: "Coeur: Une enquête très approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articleknockc",
+extends: ["articleknockc"],
+            label: "Clé:  Une enquête très approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articlelanternc",
+extends: ["articlelanternc"],
+            label: "Lanterne: Une enquête très approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articlemothc",
+extends: ["articlemothc"],
+            label: "Phalène: Une enquête très approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articlesecrethistoriesc",
+extends: ["articlesecrethistoriesc"],
+            label: "'Concernant les histoires: Une discussion très fructueuse'",
+            description: "Un travail très substantiel sur les événements non écrits qui ont façonné le monde de l'éveil et du rêve. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articlewinterc",
+extends: ["articlewinterc"],
+            label: "Le Blanc: Une enquête très approfondie",
+            description: "Plus c'est profond, plus c'est court. [Parlez à votre patron pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articleedgeb",
+extends: ["articleedgeb"],
+            label: "Pointe: Une enquête approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articleforgeb",
+extends: ["articleforgeb"],
+            label: "Forge: Une enquête approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articlegrailb",
+extends: ["articlegrailb"],
+            label: "Graal: Une enquête approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articleheartb",
+extends: ["articleheartb"],
+            label: "Coeur: Une enquête approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articleknockb",
+extends: ["articleknockb"],
+            label: "Clé: Une enquête approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articlelanternb",
+extends: ["articlelanternb"],
+            label: "Lanterne: Une enquête approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articlemothb",
+extends: ["articlemothb"],
+            label: "Phalène: Une enquête approfondie",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articlesecrethistoriesb",
+extends: ["articlesecrethistoriesb"],
+            label: "'Concernant les histoires: Une enquête approfondie'",
+            description: "Des informations obscures sur les vérités réprimées de nombreux passés. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articlewinterb",
+extends: ["articlewinterb"],
+            label: "Le Blanc: Une enquête approfondie",
+            description: "Vous avez dit tout ce qui est nécessaire. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articleedgea",
+extends: ["articleedgea"],
+            label: "Pointe: Une brève discussion",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articleforgea",
+extends: ["articleforgea"],
+            label: "Forge: Une brève discussion",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articlegraila",
+extends: ["articlegraila"],
+            label: "Graal: Une brève discussion",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articlehearta",
+extends: ["articlehearta"],
+            label: "Coeur: Une brève discussion",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articleknocka",
+extends: ["articleknocka"],
+            label: "Clé:  Une brève discussion",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articlelanterna",
+extends: ["articlelanterna"],
+            label: "Lanterne: Une brève discussion",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articlemotha",
+extends: ["articlemotha"],
+            label: "Phalène: Une brève discussion",
+            description: "Votre propre travail, sous forme de manuscrit. [Parlez à votre mécène pour être payé pour cela.]",
+            
+        },
+
+        {
+            id: "articlesecrethistoriesa",
+extends: ["articlesecrethistoriesa"],
+            label: "Histoires Secrètes: Une brève discussion",
+            description: "Des informations sur des histoires qui sont généralement supprimées.  [Parlez à votre parrain pour être payé pour cela.]",
+            
+        },
+        {
+            id: "articlewintera",
+extends: ["articlewintera"],
+            label: "Le Blanc: Une brève discussion",
+            description: "Une présentation succincte de l'hiver. [Parlez à votre patron pour être payé pour cela.]",
+            
+        }
+    ]
+}

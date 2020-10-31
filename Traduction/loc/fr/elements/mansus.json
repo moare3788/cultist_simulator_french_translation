@@ -1,0 +1,84 @@
+{
+    "elements": [
+        {
+            id: "waywood",
+extends: ["waywood"],
+            label: "Chemin du Bois",
+            description: "J'ai appris le chemin du Bois, l'enchevêtrement de ténèbres qui se développe autour des murs du Mansus (bien que le Mansus n'ait pas de murs). Je peux rêver avec cela pour retourner dans la Forêt.",
+            
+            
+        },
+        {
+            id: "waywhite",
+extends: ["waywhite"],
+            label: "Chemin de La Porte Blanche",
+            description: "Dans mes rêves, j'ai passé la Porte Blanche, qu'on a appelée la Porte des Os et la Porte d'Ivoire. Ma voix reste à l'extérieur de la Maison chaque fois que j'y entre.",
+            
+            
+        },
+        {
+            id: "waystagbefore_1",
+extends: ["waystagbefore_1"],
+            label: "L'énigme de la Porte du Cerf",
+            description: "'Qu'est-ce qui peut être perdu ?' Répondez à cette énigme pour passer la Porte du Cerf, et être considéré comme un Initié.",
+            
+            
+        },
+        {
+            id: "waystagbefore_2",
+extends: ["waystagbefore_2"],
+            label: "L'énigme de la Porte du Cerf",
+            description: "'Où trouve-t-on la miséricorde ?' Répondez à cette énigme pour passer la Porte du cerf, et être considéré comme un Initié.",
+            
+            
+        },
+        {
+            id: "waystagbefore_3",
+extends: ["waystagbefore_3"],
+            label: "L'énigme de la Porte du Cerf",
+            description: "'Quels sont les mots qui adoucissent le sacrifice ?' Répondez à cette énigme pour passer la Porte du cerf, et être considéré comme un Initié.",
+            
+            
+        },
+        {
+            id: "waystagbefore_4",
+extends: ["waystagbefore_4"],
+            label: "L'énigme de la Porte du Cerf",
+            description: "'Qu'est-ce qui doit s'ouvrir, avant que cette voie ne s'ouvre ?' Répondez à cette énigme pour passer la Porte du Cerf, et être considéré comme un Initié.",
+            
+            
+        },
+        {
+            id: "waystagbefore_5",
+extends: ["waystagbefore_5"],
+            label: "L'énigme de la Porte du Cerf",
+            description: "'Où est la reine qui n'est pas née ?' Répondez à cette énigme pour passer la Porte du Cerf, et être considéré comme un Initié.",
+            
+            
+        },
+        {
+            id: "waystag_after",
+extends: ["waystag_after"],
+            label: "Chemin à travers la Porte du Cerf",
+            description: "Dans mes rêves, j'ai trouvé le chemin de la Porte du Cerf, parfois appelée la Porte de la Corne ou la Porte de l'Adepte. J'ai répondu à son énigme, et je suis compté parmi les Initiés.",
+            
+            
+        },
+        {
+            id: "wayspider",
+extends: ["wayspider"],
+            label: "Chemin de la Porte de l'Araignée",
+            description: "Dans mes rêves, j'ai trouvé le chemin de la Porte de l'Araignée, parfois appelée la Porte sanglante ou, de façon plus informelle, la Mauvaise Porte.",
+            
+            
+        },
+        {
+            id: "waypeacock",
+extends: ["waypeacock"],
+            label: "Chemin de la Porte du Paon",
+            description: "Dans mes rêves, j'ai trouvé le chemin de la Porte du Paon, parfois appelée la Porte des Yeux, ou le Désarroi de la Fierté.",
+            
+            
+        },
+    ]
+}

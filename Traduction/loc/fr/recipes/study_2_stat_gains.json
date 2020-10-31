@@ -1,0 +1,429 @@
+{
+    "recipes": [
+
+        {
+            id: "studyincreasehealthstarter",
+extends: ["studyincreasehealthstarter"],
+            label: "Exercer le corps",
+            
+            
+            startdescription: "Je suis plein de vitalité. Si je consacre un peu de temps à l'exercice, j'en tirerai profit.",
+            description: "Je suis devenu plus fort. J'ai gagné en Santé, mais il sera plus difficile de gagner en Santé la prochaine fois.]",
+            
+            
+            
+            
+        },
+        {
+            id: "studyincreasevitalitytoplus",
+extends: ["studyincreasevitalitytoplus"],
+            label: "Exercer le corps",
+            
+            
+            startdescription: "Je suis plein de vitalité. Si je consacre un peu de temps à l'exercice, j'en tirerai profit.",
+            description: "Je suis devenu plus fort. [Utilisez cette leçon apprise avec votre compétence de force.]",
+            
+            
+            
+        },
+
+        {
+            id: "studyincreasevitalitywithinfluencehearttoplus",
+extends: ["studyincreasevitalitywithinfluencehearttoplus"],
+            label: "Exercer le corps",
+            
+            
+            startdescription: "Je suis plein de vitalité, et la saison est appropriée. Si je consacre un peu de temps à l'exercice, j'en tirerai profit. [Si vous ajoutez la croyance appropriée, cela vous permettra de créer une influence occulte plus puissante à la place.]",
+            description: "Je suis prêt à devenir plus fort. [Utilisez cette leçon apprise avec votre compétence de force.]",
+            
+            
+            
+        },
+        {
+            id: "studyincreasehealthskilla",
+extends: ["studyincreasehealthskilla"],
+            label: "Exercer le corps: plus fort...",
+            
+            
+            
+            startdescription: "Je vais devenir encore plus fort.",
+            description: "La machine, mon corps, vibre de puissance.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasehealthskillb",
+extends: ["studyincreasehealthskillb"],
+            label: "Exercer le corps: plus fort encore...",
+            
+            
+            
+            startdescription: "Je vais devenir plus fort encore.",
+            description: "Je pourrais porter un homme à travers une rivière, maintenant; ou l'étrangler.",
+            
+            
+            
+        },
+
+
+        {
+            id: "studyincreasehealthskill_to_d_edge",
+extends: ["studyincreasehealthskill_to_d_edge"],
+            label: "Exercer le corps: Une force supérieure",
+            
+            
+            startdescription: "Je suivrai les traces du Lionsmith, qui devient de plus en plus fort, et du Colonel, qui ne recule pas devant les cicatrices.",
+            description: "Mon coeur bat avec la fermeté d'un tambour et la certitude de la sentence d'un juge.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasehealthskill_to_d_forge",
+extends: ["studyincreasehealthskill_to_d_forge"],
+            label: "Exercer le corps: Une force supérieure",
+            
+            
+            startdescription: "Je brûlerai avec la force de la Forge des Jours.",
+            description: "Mon coeur bat avec la fermeté d'un tambour et la certitude de la sentence d'un juge.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasehealthskill_to_d_grail",
+extends: ["studyincreasehealthskill_to_d_grail"],
+            label: "Exercer le corps: Une grâce plus profonde",
+            
+            
+            startdescription: "Je vais goûter à ce que le Graal m'a prescrit. Je serai agile, épineux et doux.",
+            description: "Aucune tempête ne peut briser l'arbre qui se plie.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasehealthskill_to_d_heart",
+extends: ["studyincreasehealthskill_to_d_heart"],
+            label: "Exercer le corps: Une grâce plus profonde",
+            
+            
+            comments: "ugh: heart influence from vitalityplus",
+            startdescription: "Je suivrai la voix du Thunderskin.",
+            description: "Aucune tempête ne peut briser l'arbre qui se plie.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasehealthskill_to_d_moth",
+extends: ["studyincreasehealthskill_to_d_moth"],
+            label: "Exercer le corps: Une grâce plus profonde",
+            
+            
+            startdescription: "Par le feu nous volons, et il ne nous consumera pas.",
+            description: "Aucune tempête ne peut briser l'arbre qui se plie.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasereasonstarter",
+extends: ["studyincreasereasonstarter"],
+            label: "Exercer l'esprit",
+            
+            
+            startdescription: "J'ai relevé des faits bizarres, ici et là. Si je passe du temps à étudier ce que j'ai appris, je pourrais augmenter ma Raison.",
+            description: "Mon esprit, la bibliothèque. [J'ai gagné de la Raison, mais il sera plus difficile de gagner de la Raison la prochaine fois.]",
+            
+            
+            
+            
+        },
+        {
+            id: "studyincreaseeruditiontoplus",
+extends: ["studyincreaseeruditiontoplus"],
+            label: "Exercer l'esprit",
+            
+            
+            startdescription: "J'ai relevé des faits bizarres, ici et là. Si je passe du temps à étudier ce que j'ai appris, je pourrais augmenter ma Raison.",
+            description: "Mon esprit, la bibliothèque. [Utilisez cette leçon apprise avec votre compétence de Savoirs.]",
+            
+            
+            
+        },
+        {
+            id: "studyincreaseeruditionwithlanterninfluencetoplus",
+extends: ["studyincreaseeruditionwithlanterninfluencetoplus"],
+            label: "La lumière de l'esprit",
+            
+            
+            startdescription: "J'ai relevé des faits bizarres, ici et là... et en cette saison de luminosité particulière, je pourrais augmenter ma Raison. [Si vous ajoutez la croyance appropriée, cela vous permettra de créer une Influence occulte plus puissante à la place.]",
+            description: "Mon esprit, la bibliothèque. [Utilisez cette leçon apprise avec votre compétence de Savoirs.]",
+            
+            
+            
+        },
+
+        {
+            id: "studyincreasereasonskilla",
+extends: ["studyincreasereasonskilla"],
+            label: "Exercer l'esprit: Plus sage...",
+            
+            
+            
+            startdescription: "La connaissance est un mur de cité construit pierre par pierre. Mais qu'est-ce qui attend dans l'obscurité au-delà des murs ? Pourquoi aurions-nous besoin d'une forteresse, si ce n'est que nous avons quelque chose à craindre ?",
+            description: "J'ai remanié les limites de mon ignorance.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasereasonskillb",
+extends: ["studyincreasereasonskillb"],
+            label: "Exercer l'esprit: Encore plus sage...",
+            
+            
+            
+            startdescription: "Je vais devenir plus sage encore.",
+            description: "Mon esprit est un paradis de miroirs, dans lequel tout est clair, même les choses que je préfère ne pas voir.",
+            
+            
+            
+        },
+
+        {
+            id: "studyincreasereasonskill_to_d_lantern",
+extends: ["studyincreasereasonskill_to_d_lantern"],
+            label: "Exercer l'esprit: Une illumination plus vive",
+            
+            
+            startdescription: "Je vais suivre les traces du Guetteur.",
+            description: "Plus je m'élève, plus je vois.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasereasonskill_to_d_winter",
+extends: ["studyincreasereasonskill_to_d_winter"],
+            label: "Exercer l'esprit: Une concentration plus profonde",
+            
+            
+            startdescription: "Je vais écouter la voix du Madrugad.",
+            description: "La sérénité est la vertu.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasereasonskill_to_d_knock",
+extends: ["studyincreasereasonskill_to_d_knock"],
+            label: "Exercer l'esprit: Une illumination plus vive",
+            
+            
+            startdescription: "Je vais franchir le seuil où la Hache Cornue attend.",
+            description: "Plus je m'élève, plus je vois.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasereasonskill_to_d_secrethistories",
+extends: ["studyincreasereasonskill_to_d_secrethistories"],
+            label: "Exercer l'esprit: Une concentration plus profonde",
+            
+            
+            startdescription: "Personne ne se souvient de toutes les histoires; en conséquence, personne ne peut les oublier toutes.",
+            description: "La sérénité est la vertu.",
+            
+            
+            
+        },
+
+
+        {
+            id: "studyincreasereasonskill_to_d_forge",
+extends: ["studyincreasereasonskill_to_d_forge"],
+            label: "Exercer l'esprit: Une illumination plus vive",
+            
+            
+            startdescription: "Je vais me réinventer, pour illuminer la nuit de l'ignorance.",
+            description: "Plus je m'élève, plus je vois.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasereasonskill_to_d_edge",
+extends: ["studyincreasereasonskill_to_d_edge"],
+            label: "Exercer l'esprit: Une concentration plus profonde",
+            
+            
+            startdescription: "Je serai implacable, je ne serai pas renié.",
+            description: "La sérénité est la vertu.",
+            
+            
+            
+        },
+
+
+        {
+            id: "studyincreasepassionstarter",
+extends: ["studyincreasepassionstarter"],
+            label: "Nourrir mon imaginaire",
+            
+            
+            startdescription: "'Les tigres de la colère sont plus sages que les chevaux de l'instruction.' Si je passais du temps à étudier ce que j'ai appris, je pourrais accroître ma passion et acquérir une compétence.",
+            description: "Il y a plus de fenêtres dans mon âme; mais la lumière du soleil n'est pas la seule chose qui passe à travers une fenêtre. [J'ai gagné de la Passion, mais ce sera plus difficile de gagner de la Passion la prochaine fois.]",
+            
+            
+            
+            
+        },
+        {
+            id: "studyincreaseglimmeringtoplus",
+extends: ["studyincreaseglimmeringtoplus"],
+            label: "Nourrir mon imaginaire",
+            
+            
+            startdescription: "'Les tigres de la colère sont plus sages que les chevaux de l'instruction.' Si je passais du temps à étudier ce que j'ai appris, je pourrais travailler à accroître ma passion.",
+            description: "Il y a plus de fenêtres dans mon âme ; mais la lumière du soleil n'est pas la seule chose qui passe à travers une fenêtre. [Utilisez cette leçon apprise avec votre compétence d'Imagination.]",
+            
+            
+            
+        },
+
+        {
+            id: "studyincreaseglimmeringwithmothinfluencetoplus",
+extends: ["studyincreaseglimmeringwithmothinfluencetoplus"],
+            label: "Nourrir mon imaginaire",
+            
+            
+            startdescription: "'Les tigres de la colère sont plus sages que les chevaux de l'instruction.' En cette saison aux élans inattendus, je pourrais travailler à accroître ma Passion. [Si vous ajoutez la croyance appropriée, cela vous permettra de créer une influence occulte plus puissante à la place.]",
+            description: "Il y a plus de fenêtres dans mon âme ; mais la lumière du soleil n'est pas la seule chose qui passe à travers une fenêtre. [Utilisez cette leçon apprise avec votre compétence d'Imagination.]",
+            
+            
+            
+        },
+
+        {
+            id: "studyincreasepassionskilla",
+extends: ["studyincreasepassionskilla"],
+            label: "Nourrir mon imaginaire: Plus intense...",
+            
+            
+            
+            startdescription: "'Qui désire mais n'agit pas, engendre la peste.'",
+            description: "Mes désirs sont de plus en plus nombreux. Il se peut qu'ils soient toujours plus nombreux que mes actions.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasepassionskillb",
+extends: ["studyincreasepassionskillb"],
+            label: "Nourrir mon imaginaire: Plus intense...",
+            
+            
+            
+            startdescription: "'Plutôt assassiner un nourrisson dans son berceau que d'avoir des désirs inassouvis.'",
+            description: "En d'autres temps, j'aurais été un voyant, ou un hérétique.",
+            
+            
+            
+        },
+
+        {
+            id: "studyincreasepassionskill_to_d_moth",
+extends: ["studyincreasepassionskill_to_d_moth"],
+            label: "Exercer son imaginaire: Déraisonnable",
+            
+            
+            startdescription: "couper mes cheveux, couper mes liens.",
+            description: "Apportez-moi vos réponses, et je les vaincrai par mes questions...",
+            
+            
+            
+        },
+        {
+            id: "studyincreasepassionskill_to_d_heart",
+extends: ["studyincreasepassionskill_to_d_heart"],
+            label: "Exercer son imaginaire: Déraisonnable",
+            
+            
+            startdescription: "Le Thunderskin a promis : nous ne cessons pas, ce qui ne cesse pas.",
+            description: "Apportez-moi vos réponses, et je les vaincrai par mes questions...",
+            
+            
+            
+        },
+        {
+            id: "studyincreasepassionskill_to_d_knock",
+extends: ["studyincreasepassionskill_to_d_knock"],
+            label: "Exercer son imaginaire: Folie",
+            
+            
+            startdescription: "'Le pommier ne demande jamais au hêtre comment il va pousser, ni au lion, au cheval, comment il va prendre sa proie.'",
+            description: "Et maintenant, mon âme est prête.",
+            
+            
+            
+        },
+        {
+            id: "studyincreasepassionskill_to_d_grail",
+extends: ["studyincreasepassionskill_to_d_grail"],
+            label: "Exercer son imaginaire: Folie",
+            
+            
+            startdescription: "'Qui désire mais n'agit pas, engendre la peste.'",
+            description: "Et maintenant, mon âme est prête.",
+            
+            
+            
+        },
+
+
+        {
+            id: "studyhealth",
+extends: ["studyhealth"],
+            label: "Air frais et exercice physique",
+            
+            
+            comments: "lore limiter added in case we use health for researching lore at some point",
+            
+            startdescription: "Les longues marches détruisent les toiles d'araignée.",
+            description: "J'ai négligé mes études, mais je me tiens un peu plus droit.",
+            
+            
+        },
+        {
+            id: "studyreason",
+extends: ["studyreason"],
+            label: "Lire ce qui est à portée de main",
+            
+            
+            comments: "lore limiter added because we use reason for researching (splitting) lore",
+            
+            startdescription: "Le monde est inondé de mots imprimés. Même les journaux contiennent des connaissances, parfois.",
+            description: "Les mots contenaient des connaissances. Maintenant, je la contient. C'est un peu comme le vol et un peu comme la fête et un peu comme la progression d'une maladie infectieuse.",
+            
+            
+        },
+        {
+            id: "studypassion",
+extends: ["studypassion"],
+            label: "Lire de la littérature sentimentale",
+            
+            
+            comments: "lore limiter added in case we use passion for researching lore at some point",
+            
+            startdescription: "Si je projetais d'apprendre quelque chose, je ne lirais pas ce genre de choses.",
+            description: "J'ai passé le temps. J'ai eu tendance à pleurer, puis à rire. Pendant ce temps, le monde continue.",
+            
+            
+        },
+
+    ]
+}

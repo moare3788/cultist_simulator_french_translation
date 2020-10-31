@@ -1,0 +1,132 @@
+{
+    "elements": [
+
+        {
+            id: "legacydetectivejob",
+extends: ["legacydetectivejob"],
+            label: "Poste d'inspecteur",
+            description: "J'occupe un poste important dans les forces de police de la capitale.",
+            
+            
+        },
+        {
+            id: "legacydetectivejob_matured",
+extends: ["legacydetectivejob_matured"],
+            label: "Poste d'inspecteur",
+            description: "J'occupe un poste important dans les forces de police de la capitale, bien que j'aie été détaché au Bureau de la répression.",
+            
+            slots: [
+                {
+                    id: "target",
+extends: ["target"],
+                    label: "Sujet",
+                    
+                    description: "Tant que je n'ai pas de preuves, je dois commencer par observer personnellement ma proie.",
+                    
+                },
+                {
+                    id: "meticulous",
+extends: ["meticulous"],
+                    label: "Méticuleux",
+                    description: "Plus de Raison donnera à mon enquête une meilleure chance de succès.",
+                    
+                    
+                },
+                {
+                    id: "vigilant",
+extends: ["vigilant"],
+                    label: "Vigilant",
+                    description: "Plus de Raison donnera à mon enquête une meilleure chance de succès.",
+                    
+                    
+                },
+                {
+                    id: "singleminded",
+extends: ["singleminded"],
+                    label: "Singulier",
+                    description: "Plus de Raison donnera à mon enquête une meilleure chance de succès.",
+                    
+                    
+                },
+            ],
+            
+            
+            
+            
+
+        },
+
+        {
+            id: "legacydetectivejob_suspended",
+extends: ["legacydetectivejob_suspended"],
+            label: "Inspecteur de police [Suspendu]",
+            description: "Mon absence a été remarquée. J'ai été suspendu. [Plaidez votre cause rapidement, ou perdez votre poste pour toujours.]",
+            slots: [
+                {
+                    id: "passion",
+extends: ["passion"],
+                    label: "Passion",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+        {
+            id: "legacydetectivejob_disgraced",
+extends: ["legacydetectivejob_disgraced"],
+            label: "Inspecteur de police [En disgrâce]",
+            description: "J'ai perdu mon poste. Il est peu probable que je la regagne. Je dois trouver ma propre voie dans le monde civil.",
+            
+            
+        },
+        {
+            id: "legacydetective_plotitem",
+extends: ["legacydetective_plotitem"],
+            label: "Affaires classées",
+            
+            description: "Un dossier sur l'énigmatique #PREVIOUSCHARACTERNAME#. Je l'ai scellé moi-même. Je ne connais que trop bien son contenu. Si je les consultais à nouveau, les rêves pourraient recommencer."
+        },
+        {
+            id: "myevidence",
+extends: ["myevidence"],
+            label: "Preuves provisoires",
+            description: "J'ai des preuves des activités de ma proie.",
+            
+            
+            
+        },
+        {
+            id: "myevidenceb",
+extends: ["myevidenceb"],
+            label: "Preuves accablantes",
+            description: "J'ai des preuves irréfutables des activités de ma proie.",
+            
+            
+        },
+
+        {
+            id: "legacydetective_plotitem_ing",
+extends: ["legacydetective_plotitem_ing"],
+            label: "Dossiers brulés",
+            description: "C'est presque fini ! Je pourrais l'arracher aux flammes - ",
+            
+            
+            
+        },
+
+        {
+            id: "legacydetective_plotitem_backup",
+extends: ["legacydetective_plotitem_backup"],
+            label: "Dossiers troublants",
+            
+            
+            description: "Les preuves contiennent le genre de détails qui pourraient vous hérisser le poil, si on était intéressé par de telles choses. Je ne devrais pas le lire. Les rêves pourraient recommencer."
+        },
+
+    ]
+}

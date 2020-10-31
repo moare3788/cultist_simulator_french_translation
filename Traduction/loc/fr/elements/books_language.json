@@ -1,0 +1,68 @@
+{
+    "elements": [
+
+        {
+            id: "textbooklatin",
+extends: ["textbooklatin"],
+            label: "La grammaire latine de Gildersleeve",
+            
+            description: "Tout ce dont vous avez besoin pour rafraîchir vos connaissances en latin."
+        },
+        {
+            id: "textbookfucine",
+extends: ["textbookfucine"],
+            label: "Le journal d'Alessandro LaCroce",
+            
+            description: "Le prince Alessandro LaCroce a passé des années à étudier en secret les tablettes découvertes dans les marais de Fucine, en Italie centrale. Son travail vous permettra de déchiffrer les textes de Fucine.",
+            
+        },
+        {
+            id: "textbookgreek",
+extends: ["textbookgreek"],
+            label: "Kühner et Gerth",
+            
+            description: "Kühner et Gerth's 'Ausführliche Grammatik der griechischen Sprache' - une grammaire grecque. Une arme essentielle pour une lutte féroce avec une langue difficile."
+        },
+        {
+            id: "textbookphrygian",
+extends: ["textbookphrygian"],
+            label: "Les inscriptions de Velshorn",
+            
+            description: "Un poème épique et surtout érotique décrivant les liens d'un musicien téméraire avec la Mère Rouge et son écorchement éventuel - en grec et en phrygien. L'intrépide Cal Velshorn a trouvé ces inscriptions sur le mur d'un temple à Halicarnasse, mais la même inscription a été retrouvée dans un nombre surprenant d'autres endroits. [Si vous parlez grec, vous pouvez utiliser cette inscription pour apprendre le phrygien.]",
+            
+        },
+        {
+            id: "textbookaramaic",
+extends: ["textbookaramaic"],
+            label: "LE RÉCIT AUTHENTIQUE ET UNIQUE DU MAGE VON BRANDT SUR LA VRAIE LANGUE DE LA VRAIE TERRE DU TOUT PUISSANT",
+            
+            description: "Écrit avec enthousiasme et un peu de précipitation par un homme en proie à un enthousiasme transcendantaliste, mais néanmoins un guide utile de l'araméen."
+        },
+        {
+            id: "textbookmandaic",
+extends: ["textbookmandaic"],
+            label: "La pierre d'août",
+            
+            description: "Un énorme bol, grand comme un gong, sculpté dans du basalte noir, portant une incantation contre les démons dans le Mandéen profond. Le dessous porte la même incantation en araméen. [Si vous parlez l'araméen, vous pouvez l'utiliser pour apprendre le mandaïque profond.]",
+            
+        },
+        {
+            id: "textbooksanskrit",
+extends: ["textbooksanskrit"],
+            label: "Le lecteur sanskrit de Gartside",
+            
+            description: "Un livre éclairé qui trace un chemin prudent à travers les fourrés d'une langue vaste et complexe."
+        },
+        {
+            id: "textbookvak",
+extends: ["textbookvak"],
+            label: "L'Uyrus",
+            
+            description: "Une sculpture en ivoire élaborée d'une complexité impossible. Autour et à travers ses surfaces, des inscriptions en sanskrit s'enroulent en spirale contre des lignes de Vak correspondantes. Si vous parlez sanskrit, vous pouvez l'utiliser pour apprendre le vak, la première langue du monde.]",
+            
+        },
+
+
+
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "recipes": [
+
+        {
+            id: "explore_vaultrendingmountains1_setup",
+extends: ["explore_vaultrendingmountains1_setup"],
+            label: "Commencer une expédition: La Fosse du chasseur",
+            
+            
+            
+
+            startdescription: "Les labyrinthes de pièges des Tribus Déchirantes. Nous devrons escalader les montagnes et nous frayer un chemin à travers leur territoire. Après cela, sans doute, il y aura autre chose. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous êtes à court de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultrendingmountains2_setup",
+extends: ["explore_vaultrendingmountains2_setup"],
+            label: "Commencer une expédition: Le gardien de la neige",
+            
+            
+            
+
+            startdescription: "Nous allons braver les neiges de la montagne pour atteindre le temple. Si les morts se lèvent contre nous, nous les combattrons. Mais il y a une malignité ici que nous devons détruire, ou elle nous suivra chez nous. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultrendingmountains3_setup",
+extends: ["explore_vaultrendingmountains3_setup"],
+            label: "Commencer une expédition: l'oeil d'Ikirmawi",
+            
+            
+            
+
+            startdescription: "Les Montagnes déchiquetées se dressent entre nous et l'observatoire. La porte sera scellée et interdite d'accès. Les visions que nous y trouverons pourraient déchirer nos sens. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultrendingmountains4_setup",
+extends: ["explore_vaultrendingmountains4_setup"],
+            label: "Commencer une expédition: le Mausolée des loups",
+            
+            
+            
+
+            startdescription: "Le Soleil est-il jamais venu ici, quand sa mort a été prononcée ? Peut-être cette annonce était-elle prématurée. En tout cas, si nous usurpons sa course, nous devrons affronter des avalanches, des fantômes furieux et une porte scellée par des architectes chevronnés. Soyons prêts. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultrendingmountainsdefault_setup",
+extends: ["explore_vaultrendingmountainsdefault_setup"],
+            label: "Commencer une expédition: Les tombes des Rois sans ombre",
+            
+            
+            
+
+            startdescription: "Nous devons pénétrer dans les montagnes, passer les gardiens, et braver la malédiction que les Rois sans ombre ont laissée derrière eux. Peut-être trouverons-nous alors des trésors. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explorevaultrendingmountains1_success",
+extends: ["explorevaultrendingmountains1_success"],
+            label: "La mémoire de la guerre",
+            
+            
+            
+            
+            startdescription: "Dans les profondeurs effondrées de la Fosse du chasseur, nous avons trouvé une pièce où des scènes de bataille sont peintes sur les murs. Voici les sanctuaires de tous les plus grands chasseurs des Tribus Déchirantes.",
+            description: "Ce sont les trophées que les chasseurs ont gagnés. Toutes les bêtes qu'ils ont tuées ne sont pas des bêtes qui parcourent la terre de nos jours.",
+            
+            
+        },
+
+        {
+            id: "explorevaultrendingmountains2_success",
+extends: ["explorevaultrendingmountains2_success"],
+            label: "Le vêtement de l'autel",
+            
+            
+            
+            
+            startdescription: "L'intérieur du temple palpite de champignons luminescents. Nous devons les arracher de l'autel avec nos mains gantées avant de pouvoir piller l'endroit. Il fait aussi froid que de la chair glacée par la pluie. Nos gants sont maintenant tachés de lumière. Notre souffle s'embrume dans le froid du temple.",
+            description: "Des trésors que des prêtres inconnus ont laissés ici, et un pitoyable tas d'os. Un sacrifice ? Ou bien un voyageur a terminé sa visite ici ? L'acide des champignons rougeoyants a gravé son squelette.",
+            
+            
+        },
+        {
+            id: "explorevaultrendingmountains3_success",
+extends: ["explorevaultrendingmountains3_success"],
+            label: "Le progrès des cieux",
+            
+            
+            
+            
+            startdescription: "Le grand télescope a rouillé et est tombé du dôme. Les lentilles se sont fissurées. Mais les lumières pâles tournent lentement au-dessus du sol, comme des lampes tenues en l'air par des danseurs. Peut-être imitent-ils le cortège des corps célestes. Peut-être leur mouvement pleure-t-il le passage du Soleil.",
+            description: "Le chef des astronomes qui habitait ici devait être un praticien des arts invisibles. Dans ses quartiers, dans une boîte en bois de cèdre sous le lit en décomposition, on trouve ce que nous recherchions.",
+            
+            
+        },
+
+
+        {
+            id: "explorevaultrendingmountains4_success",
+extends: ["explorevaultrendingmountains4_success"],
+            label: "L'avènement du loup",
+            
+            
+            
+            
+            startdescription: "Le murmure des morts est silencieux, mais un autre son résonne dans le Mausolée: un faible hurlement déclinant, comme du métal se déchirant dans la coque d'un navire, baissant en fréquence jusqu'à ce qu'il fasse vibrer nos os. Ce pourrait être presque le vent, mais ce n'est pas le cas. Nous ne devrions pas rester ici trop longtemps.",
+            description: "Le froid dans l'air s'intensifie, jusqu'à ce que notre peau se craquelle avec le gel. Au cœur du Mausolée se trouve un bol de marbre blanc sur un socle de granit. Il est rempli de neige dont le contact brûle la peau - et enfoui en elle, des objets remarquables. Étaient-ils cachés ici ? Ou étaient-ils des offrandes ? Rien d'autre que des restes.",
+            
+            
+        },
+
+        {
+            id: "explorevaultrendingmountainsdefault_success",
+extends: ["explorevaultrendingmountainsdefault_success"],
+            label: "Ce qu'il reste",
+            
+            
+            
+            
+            startdescription: "Nous roulons la pierre de côté, et la lumière inonde le tombeau. Voici le roi, séché au cuir effrité et à l'os émietté. Il ne bouge pas. Celui-ci n'était pas immortel.",
+            description: "Les Rois sans ombre n'ont été enterrés qu'avec leurs trésors les plus personnels. Ils ne s'attendaient à aucun luxe dans l'au-delà. Voici une minuscule cache des choses auxquelles ce roi tenait.",
+            
+            
+            
+        },
+
+    ]
+}

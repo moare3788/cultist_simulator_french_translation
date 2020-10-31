@@ -1,0 +1,1525 @@
+{
+    "elements": [
+        {
+            id: "auclair_a",
+extends: ["auclair_a"],
+            label: "Auclair, une Connaissance",
+            
+            description: "Auclair a un aspect érudit et une tendance morbide. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "auclair_b",
+extends: ["auclair_b"],
+            label: "Auclair, un Adepte",
+            
+            
+            description: "Auclair est calme, méticuleuse et sans remords.",
+            
+            
+
+        },
+        {
+            id: "auclair_c",
+extends: ["auclair_c"],
+            label: "Auclair, un Disciple",
+            
+            description: "Auclair parle rarement. Elle choisit ses mots avec soin. Même ses mouvements sont devenus économes. On ne la voit jamais cligner des yeux.",
+            
+            
+            
+        },
+        {
+            id: "auclair_d",
+extends: ["auclair_d"],
+            label: "Une femme décharnée, qui se tait",
+            
+            description: "L'air est glacé, les bougies s'éteignent, les bruits de la rue sont étouffés. Il y a quelqu'un ici.",
+            
+            
+            
+        },
+
+
+        {
+            id: "cat_a",
+extends: ["cat_a"],
+            label: "Cat Caro, une Connaissance",
+            
+            description: "'Cat Caro', suis son propre style, gagne sa vie comme médium de scène et voyante. Elle peut avoir des talents plus profonds. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "cat_b",
+extends: ["cat_b"],
+            label: "Cat Caro, une Adepte",
+            
+            
+            description: "Une femme aux yeux brillants et attentifs qui se souvient parfaitement de ses rêves.",
+            
+            
+
+        },
+        {
+            id: "cat_c",
+extends: ["cat_c"],
+            label: "Cat Caro, une Disciple",
+            
+            description: "Elle se produit encore parfois dans les théâtres. 'Cat Caro', disent les affiches, 'trouve le chemin ; Cat Caro connaît le chemin.'",
+            
+            
+            
+        },
+        {
+            id: "cat_d",
+extends: ["cat_d"],
+            label: "Cat Caro, une Voyante",
+            
+            description: "Les archéologues trouvent des trésors dans les tombes. Les fermiers apportent les récoltes des champs. Qu'est-ce que Cat Caro déterre en rêve ?",
+            
+            
+            
+        },
+        {
+            id: "clifton_a",
+extends: ["clifton_a"],
+            label: "'Pope' Clifton, une Connaissance",
+            
+            description: "Un catholique peu orthodoxe et braillard, avec un côté mystique et une barbe non taillée. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "clifton_b",
+extends: ["clifton_b"],
+            label: "'Pope' Clifton, un Adepte",
+            
+            
+            description: "Maintenant, Clifton improvise de nouvelles prières riches en métaphores solaires. Il crie toujours comme un soldat et boit toujours comme un marin.",
+            
+            
+
+        },
+
+        {
+            id: "clifton_c",
+extends: ["clifton_c"],
+            label: "'Pope' Clifton, un Disciple",
+            
+            description: "La dévotion de Clifton s'est considérablement enrichie. Ses yeux sont devenus larges et brillants. Sa voix est devenue encore plus forte.",
+            
+            
+            
+        },
+        {
+            id: "clifton_d",
+extends: ["clifton_d"],
+            label: "Clifton, un Voyant",
+            
+            description: "Clifton récite toujours ses prières, mais elles sont devenues aussi étranges que de vieux miroirs. Il se lève chaque matin pour saluer l'aube. Il la regarde en face, et vous dit exactement ce qu'il voit.",
+            
+            
+            
+        },
+
+        {
+            id: "clovette_a",
+extends: ["clovette_a"],
+            label: "Clovette, une Connaissance",
+            
+            description: "Clovette est heureuse d'une manière qui ne souffre aucun contre-argument au bonheur. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "clovette_b",
+extends: ["clovette_b"],
+            label: "Clovette, une Adepte",
+            
+            
+            description: "Le bonheur déterminé de Clovette frise désormais le fanatisme.",
+            
+            
+        },
+        {
+            id: "clovette_c",
+extends: ["clovette_c"],
+            label: "Clovette, une Disciple",
+            
+            description: "L'optimisme de Clovette est décourageant. Elle manie sa joie comme un marteau.",
+            
+            
+            
+        },
+        {
+            id: "clovette_d",
+extends: ["clovette_d"],
+            label: "Clovette, une Tarentelliste",
+            
+            description: "Clovette est toujours en mouvement. Elle rit facilement. Son sourire est le croissant au bord de la lune.",
+            
+            
+            
+        },
+        {
+            id: "connie_c",
+extends: ["connie_c"],
+            label: "Connie, une Disciple",
+            
+            description: "Connie a trouvé un dernier tour auquel elle n'a pas pu résister... ou peut-être qu'elle profite de la vie.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "connie_d",
+extends: ["connie_d"],
+            label: "Connie, une Conquérante",
+            
+            description: "Ce n'est pas dans la nature de Connie de servir. Un jour, elle se soulèvera comme une rivière en crue. Mais pour l'instant, elle s'abaisse pour conquérir.",
+            
+            
+            
+            
+        },
+        {
+            id: "dorothy_a",
+extends: ["dorothy_a"],
+            label: "Dorothy, une Connaissance",
+            
+            description: "Dorothy est une personne enthousiaste qui a une habitude de lecture hétéroclite. Elle est fascinée par mes indices sur les formes cachées sous la Peau du Monde. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "dorothy_b",
+extends: ["dorothy_b"],
+            label: "Dorothy, une Adepte",
+            
+            
+            description: "Dorothy est du genre enthousiaste, et j'ai tourné son enthousiasme à notre avantage.",
+            
+            
+        },
+        {
+            id: "dorothy_c",
+extends: ["dorothy_c"],
+            label: "Dorothy, une Disciple",
+            
+            description: "L'enthousiasme de Dorothy est devenu une obsession. Elle ne cessera pas ; et comme elle aime danser.",
+            
+            
+            
+        },
+        {
+            id: "dorothy_d",
+extends: ["dorothy_d"],
+            label: "Dorothy, une Tarantelliste",
+            
+            description: "Quand Dorothy bouge, on entend le tambour. Quand elle parle, nous voyons la danse. Sa détermination est son bouclier et son arme.",
+            
+            
+            
+        },
+
+        {
+            id: "douglas_b",
+extends: ["douglas_b"],
+            label: "Douglas, un Adepte",
+            
+            
+            description: "Douglas a échangé la Force contre la Forge.",
+            
+            
+            
+        },
+        {
+            id: "douglas_c",
+extends: ["douglas_c"],
+            label: "Douglas, un Disciple",
+            
+            description: "Douglas n'aime pas les marteaux. Ils lui rappellent un incident. Mais il utilise les instruments comme il se doit.",
+            
+            
+            
+            
+        },
+        {
+            id: "douglas_d",
+extends: ["douglas_d"],
+            label: "Douglas, un Évolué",
+            
+            description: "Douglas a tellement changé. Ses yeux brillent comme les fenêtres d'une forge dans le brouillard. Sa voix est le cliquetis du charbon dans la goulotte. Son bras est long.",
+            
+            
+            
+            
+        },
+        {
+            id: "elridge_a",
+extends: ["elridge_a"],
+            label: "Elridge, une Connaissance",
+            
+            description: "Un homme élégant aux habitudes inélégantes. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "elridge_b",
+extends: ["elridge_b"],
+            label: "Elridge, un Adepte",
+            
+            
+            description: "Elridge a presque appris à ne pas se curer les dents avec son couteau pendant une conversation. Il n'a pas encore appris à laisser son couteau dans sa botte.",
+            
+            
+
+        },
+        {
+            id: "elridge_c",
+extends: ["elridge_c"],
+            label: "Elridge, un Disciple",
+            
+            description: "Elridge attend patiemment qu'il soit temps de poignarder à nouveau quelqu'un.",
+            
+            
+            
+        },
+        {
+            id: "elridge_d",
+extends: ["elridge_d"],
+            label: "Elridge, un Assassin",
+            
+            description: "Elridge n'est jamais vu avec une tache de sang sur sa personne. Pas une tache.",
+            
+            
+            
+        },
+        {
+            id: "enid_a",
+extends: ["enid_a"],
+            label: "Enid, une Connaissance",
+            
+            description: "Enid parle doucement, et parfois son regard ne se concentre pas sur ce qui est visible. Il se peut que vous ayez fait les mêmes rêves. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "enid_b",
+extends: ["enid_b"],
+            label: "Enid, une Adepte",
+            
+            
+            description: "Enid parle doucement, et parfois son regard ne se concentre pas sur ce qui est visible. Elle voit des choses que les autres ne voient pas..",
+            
+            
+        },
+        {
+            id: "enid_c",
+extends: ["enid_c"],
+            label: "Enid, une Disciple",
+            
+            description: "Enid voit ce que les autres ne voient pas. Cela devient difficile pour elle, mais c'est très utile.",
+            
+            
+            
+        },
+        {
+            id: "enid_d",
+extends: ["enid_d"],
+            label: "Enid, une Clé",
+            
+            description: "Enid voit les écarts entre les choses, et les arts qu'elle a appris lui permettent, parfois, de placer ses doigts dans cet écart.",
+            
+            
+            
+        },
+        {
+            id: "laidlaw_a",
+extends: ["laidlaw_a"],
+            label: "Laidlaw, une Connaissance",
+            
+            description: "Laidlaw est un bricoleur et un mécanicien avec un don étrange. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "laidlaw_b",
+extends: ["laidlaw_b"],
+            label: "Laidlaw, un Adepte",
+            
+            
+            description: "Laidlaw a commencé à comprendre les limites de l'ingéniosité et le pouvoir du sacrifice.",
+            
+            
+
+        },
+
+        {
+            id: "laidlaw_c",
+extends: ["laidlaw_c"],
+            label: "Laidlaw, un Disciple",
+            
+            description: "Laidlaw a appris les utilisations ingénieuses du feu et du cuivre, de la cire et de l'acide.",
+            
+            
+            
+        },
+        {
+            id: "laidlaw_d",
+extends: ["laidlaw_d"],
+            label: "Laidlaw, un Évolué",
+            
+            description: "Laidlaw peut transformer ce qui est brisé en ce qui est nécessaire.",
+            
+            
+            
+        },
+
+        {
+            id: "leo_a",
+extends: ["leo_a"],
+            label: "Leo, une Connaissance",
+            
+            description: "Leo est une personne sérieuse qui s'intéresse aux sciences occultes. Il s'accroche à vos conseils sur les arts invisibles. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "leo_b",
+extends: ["leo_b"],
+            label: "Leo, un Adepte",
+            
+            
+            description: "Leo est un type sérieux, mais il est prêt à faire ce qu'il doit.",
+            
+            
+        },
+        {
+            id: "leo_c",
+extends: ["leo_c"],
+            label: "Leo, un Disciple",
+            
+            description: "Leo aspire toujours à préserver ce qui est bon et précieux ; mais il comprend que pour protéger ses idéaux, il faut parfois faire des choses douteuses.",
+            
+            
+            
+        },
+        {
+            id: "leo_d",
+extends: ["leo_d"],
+            label: "Leo, un Tarantelliste",
+            
+            description: "Leo préservera, à tout prix. Il ne cessera pas.",
+            
+            
+            
+        },
+        {
+            id: "natalia_c",
+extends: ["natalia_c"],
+            label: "Natalia, une Disciple",
+            
+            description: "Natalia ne suit jamais sans poser de questions - mais pour l'instant, elle suit.",
+            
+            
+            
+            
+        },
+        {
+            id: "natalia_d",
+extends: ["natalia_d"],
+            label: "Natalia, une Sage",
+            
+            description: "Natalia s'est engagée dans la voie la plus brillante qu'elle puisse trouver.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "neville_a",
+extends: ["neville_a"],
+            label: "Neville, une Connaissance",
+            
+            description: "Neville fait une pause avant de parler et bronche facilement. Il rit chaque fois qu'il pense que vous avez fait une blague. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "neville_b",
+extends: ["neville_b"],
+            label: "Neville, un Adepte",
+            
+            
+            description: "Neville fait une pause avant de parler et sursaute facilement. Il est sensible aux questions plus profondes.",
+            
+            
+        },
+        {
+            id: "neville_c",
+extends: ["neville_c"],
+            label: "Neville, un Disciple",
+            
+            description: "Le regard de Neville est devenu furtif, et sa voix est parfois stridente. Il parle librement de ses rêves.",
+            
+            
+            
+        },
+        {
+            id: "neville_d",
+extends: ["neville_d"],
+            label: "Neville, une Clé",
+            
+            description: "Dans ses rêves, Neville voit les failles où le monde et ses voies peuvent être ouverts.",
+            
+            
+            
+        },
+
+        {
+            id: "porter_a",
+extends: ["porter_a"],
+            label: "Porter, une Connaissance",
+            
+            description: "Porter était barbier, jusqu'au procès. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "porter_b",
+extends: ["porter_b"],
+            label: "Porter, un Adepte",
+            
+            
+            description: "Porter manie son rasoir et ses ciseaux, au grand avantage de ses amis.",
+            
+            
+
+        },
+        {
+            id: "porter_c",
+extends: ["porter_c"],
+            label: "Porter, un Disciple",
+            
+            description: "Porter passe inaperçu, jusqu'à ce qu'il soit prêt.",
+            
+            
+            
+        },
+        {
+            id: "porter_d",
+extends: ["porter_d"],
+            label: "Porter, un Contorsioniste",
+            
+            description: "Porter, comme une araignée, se trouve dans les endroits les plus inattendus.",
+            
+            
+            
+        },
+
+        {
+            id: "renira_a",
+extends: ["renira_a"],
+            label: "Renira, une Connaissance",
+            
+            description: "Renira a été déclarée non coupable à trois reprises dans trois juridictions différentes. Elle ne sera probablement jamais reconnue coupable de quoi que ce soit. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "renira_b",
+extends: ["renira_b"],
+            label: "Renira, une Adepte",
+            
+            
+            description: "Renira continue de poursuivre discrètement ses appétits, bien que ses ambitions aient évolué. ",
+            
+            
+
+        },
+
+        {
+            id: "renira_c",
+extends: ["renira_c"],
+            label: "Renira, une Disciple",
+            
+            description: "Renira suscite l'admiration partout où elle va. Elle réserve ses attentions à ceux qui méritent l'admiration en retour.",
+            
+            
+            
+        },
+        {
+            id: "renira_d",
+extends: ["renira_d"],
+            label: "Renira, une Hédoniste",
+            
+            description: "Renira reçoit des cadeaux de ses admirateurs presque tous les jours. Certains sont des fleurs, d'autres de la poésie. Parfois, elle reçoit des bijoux ; parfois, des cadeaux désespérés enveloppés dans du papier crêpe taché de sang.",
+            
+            
+            
+        },
+        {
+            id: "rose_a",
+extends: ["rose_a"],
+            label: "Rose, une Connaissance",
+            
+            description: "Rose est sournoise, et elle vous reconnaît comme quelqu'un d'inhabituel. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "rose_b",
+extends: ["rose_b"],
+            label: "Rose, une Adepte",
+            
+            
+            description: "Rose est sournoise, mais loyale.",
+            
+            
+        },
+        {
+            id: "rose_c",
+extends: ["rose_c"],
+            label: "Rose, une Disciple",
+            
+            description: "Rose a aiguisé sa ruse au plus haut point.",
+            
+            
+            
+        },
+        {
+            id: "rose_d",
+extends: ["rose_d"],
+            label: "Rose, une Assassin",
+            
+            description: "La veille de la rencontre entre Rose et son sujet, ce dernier recevra un paquet contenant une seule rose jaune.",
+            
+            
+            
+        },
+
+        {
+            id: "saliba_a",
+extends: ["saliba_a"],
+            label: "Saliba, une Connaissance",
+            
+            description: "Saliba est un homme aux appétits prodigieux. Il a dépassé depuis longtemps le stade où leur satisfaction lui a donné un quelconque plaisir ; mais il a tellement appris. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "saliba_b",
+extends: ["saliba_b"],
+            label: "Saliba, un Adepte",
+            
+            
+            description: "Saliba comprend le sang. Il ne comprend pas encore la naissance.",
+            
+            
+
+        },
+
+        {
+            id: "saliba_c",
+extends: ["saliba_c"],
+            label: "Saliba, un Disciple",
+            
+            description: "Les plaisirs de Saliba sont enfermés dans une pièce sans fenêtre. Ses compagnons reviennent vers lui encore et encore, même si à chaque fois ils sont un peu moins.",
+            
+            
+            
+        },
+        {
+            id: "saliba_d",
+extends: ["saliba_d"],
+            label: "Saliba, une Hédoniste",
+            
+            description: "Le charisme de Saliba frappe avec la force d'un marteau. Il est horriblement difficile de refuser ses désirs.",
+            
+            
+            
+        },
+        {
+            id: "slee_a",
+extends: ["slee_a"],
+            label: "Slee, une Connaissance",
+            
+            description: "Craig Slee, l'astronome et poète d'avant-garde, a développé un intérêt pour l'ésotérisme alors que sa santé décline. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "slee_b",
+extends: ["slee_b"],
+            label: "Slee, un Adepte",
+            
+            
+            description: "Slee parle sérieusement de ses théories à tous ceux qui l'écoutent : les étoiles comme de minuscules blessures, et le Soleil comme une hémorragie de gloire. Sa poésie est plus excentrique que jamais.",
+            
+            
+        },
+
+        {
+            id: "slee_c",
+extends: ["slee_c"],
+            label: "Slee, un Disciple",
+            
+            description: "Les maux de tête de Slee sont devenus handicapants, mais ses théories deviennent de plus en plus pratiques. Sa poésie s'améliore aussi.",
+            
+            
+            
+        },
+        {
+            id: "slee_d",
+extends: ["slee_d"],
+            label: "Slee, un Voyant",
+            
+            description: "Slee parle exclusivement en mathématiques et en poésie. Les deux sont convaincants : il est de plus en plus difficile de faire la différence.",
+            
+            
+            
+        },
+
+        {
+            id: "spencer_c",
+extends: ["spencer_c"],
+            label: "Spencer, un Disciple",
+            
+            description: "Spencer porte une petite icône de Sainte Agnès sur une chaîne autour de son cou, qui repose sur la cicatrice au-dessus de son cœur.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "spencer_d",
+extends: ["spencer_d"],
+            label: "Spencer, un Héraut",
+            
+            description: "Certains suivent la Voie, et certains sont la Voie pour d'autres. Spencer ne nous dit plus qu'il a pris une décision : il suggère plutôt que la décision l'a prise lui.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "sylvia_a",
+extends: ["sylvia_a"],
+            label: "Sylvia, une Connaissance",
+            
+            description: "Sylvia a perdu son œil dans les bois à l'âge de neuf ans. Chaque année, à la Chandeleur, elle retourne à l'endroit où elle l'a enterré. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "sylvia_b",
+extends: ["sylvia_b"],
+            label: "Sylvia, une Adepte",
+            
+            
+            description: "Sylvia a une connaissance approfondie des toits, du fleuve à marée basse, du whisky irlandais et des tours de passe-passe.",
+            
+            
+
+        },
+        {
+            id: "sylvia_c",
+extends: ["sylvia_c"],
+            label: "Sylvia, une Disciple",
+            
+            description: "La tactique préférée de Sylvia est de sourire et de fermer les yeux. Il est remarquable de voir à quelle fréquence son interlocuteur laisse échapper exactement ce qu'il pense.",
+            
+            
+            
+        },
+        {
+            id: "sylvia_d",
+extends: ["sylvia_d"],
+            label: "Sylvia, une Contorsioniste",
+            
+            description: "Sylvia a appris à sortir d'un endroit presque avant d'y entrer. Parfois, elle laisse des feuilles mortes sous le rebord de la fenêtre. Parfois, elle écrit son nom là où il ne sera pas trouvé.",
+            
+            
+            
+        },
+        {
+            id: "tristan_a",
+extends: ["tristan_a"],
+            label: "Tristan, une Connaissance",
+            
+            description: "Tristan n'aime pas les distractions. Tristan fait en sorte que les choses se fassent. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "tristan_b",
+extends: ["tristan_b"],
+            label: "Tristan, un Adepte",
+            
+            
+            description: "Tristan déteste les distractions ; Tristan aime les résultats.",
+            
+            
+        },
+        {
+            id: "tristan_c",
+extends: ["tristan_c"],
+            label: "Tristan, un Disciple",
+            
+            description: "Tristan fera ce qui est nécessaire. Pour créer, il faut parfois d'abord détruire.",
+            
+            
+            
+        },
+        {
+            id: "tristan_d",
+extends: ["tristan_d"],
+            label: "Tristan, un Évolué",
+            
+            description: "A une autre époque, Tristan aurait pu être forgeron. Dans une autre vie, il aurait pu être un fabricant de bombes.",
+            
+            
+            
+        },
+
+        {
+            id: "valciane_a",
+extends: ["valciane_a"],
+            label: "Valciane, une Connaissance",
+            
+            description: "Valciane exploite son établissement depuis près de vingt ans. Elle n'a jamais employé un assistant. Ses mains sont terriblement fortes. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "valciane_b",
+extends: ["valciane_b"],
+            label: "Valciane, une Adepte",
+            
+            
+            description: "Les ingéniosités de Valciane sont infinies, et son emprise est plus forte que celle d'un forgeron.",
+            
+            
+
+        },
+
+        {
+            id: "valciane_c",
+extends: ["valciane_c"],
+            label: "Valciane, une Disciple",
+            
+            description: "Valciane n'est pas une machine. Nous en sommes raisonnablement convaincus, car on l'a vue, de temps en temps, commettre des erreurs tout à fait humaines.",
+            
+            
+            
+        },
+        {
+            id: "valciane_d",
+extends: ["valciane_d"],
+            label: "Valciane, une Évoluée",
+            
+            description: "Valciane a commencé à travailler sans outils. 'Ils se mettent en travers du chemin', dit-elle.",
+            
+            
+            
+        },
+        {
+            id: "victor_a",
+extends: ["victor_a"],
+            label: "Victor, une Connaissance",
+            
+            description: "Victor est un homme rusé et il sait reconnaître une opportunité inhabituelle quand il la voit. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "victor_b",
+extends: ["victor_b"],
+            label: "Victor, un Adepte",
+            
+            
+            description: "Victor est un homme rusé, mais loyal.",
+            
+            
+        },
+        {
+            id: "victor_c",
+extends: ["victor_c"],
+            label: "Victor, un Disciple",
+            
+            description: "Victor a aiguisé sa ruse au plus haut point.",
+            
+            
+            
+        },
+        {
+            id: "victor_d",
+extends: ["victor_d"],
+            label: "Victor, un Assassin",
+            
+            description: "Victor aime faire connaissance avec ses sujets, afin de pouvoir s'excuser personnellement auprès d'eux, juste avant la fin.",
+            
+            
+            
+        },
+
+        {
+            id: "violet_a",
+extends: ["violet_a"],
+            label: "Violet, une Connaissance",
+            
+            description: "Violet a toujours donné de son temps sans compter, soulageant la douleur des mourants. [Vous pouvez peut-être recruter cette connaissance comme disciple.]",
+            
+            
+            
+        },
+        {
+            id: "violet_b",
+extends: ["violet_b"],
+            label: "Violet, une Adepte",
+            
+            
+            description: "Violet aime peindre. Elle a un don, bien qu'elle ait toujours été très modeste à ce sujet. Elle ne met jamais de figures humaines dans ses peintures. Il y a suffisamment de gens dans le monde.",
+            
+            
+
+        },
+
+        {
+            id: "violet_c",
+extends: ["violet_c"],
+            label: "Violet, une Disciple",
+            
+            description: "Violet est toujours très prudente.",
+            
+            
+            
+        },
+        {
+            id: "violet_d",
+extends: ["violet_d"],
+            label: "Une femme au visage aimable, silencieuse",
+            
+            description: "Dormez, maintenant. Ne vous inquiétez pas..",
+            
+            
+            
+        },
+
+        {
+            id: "ysabet_a",
+extends: ["ysabet_a"],
+            label: "Ysabet, une Connaissance",
+            
+            description: "Ysabet a toujours été plus à l'aise au clair de lune. Elle a une excellente vision nocturne. Elle est souvent négligée en plein jour [Vous pourriez peut-être recruter cette connaissance comme Adepte.]",
+            
+            
+            
+        },
+        {
+            id: "ysabet_b",
+extends: ["ysabet_b"],
+            label: "Ysabet, une Adepte",
+            
+            
+            description: "Ysabet dort par à-coups. Elle se lève au crépuscule pour faire les choses que fait une Ysabet.",
+            
+            
+
+        },
+        {
+            id: "ysabet_c",
+extends: ["ysabet_c"],
+            label: "Ysabet, une Disciple",
+            
+            description: "Ysabet était là il y a un instant. Juste ici. C'est presque certain.",
+            
+            
+            
+        },
+        {
+            id: "ysabet_d",
+extends: ["ysabet_d"],
+            label: "Ysabet, une Contorsioniste",
+            
+            description: "Ysabet ne ment jamais, à présent. elle n'en a pas besoin.",
+            
+            
+            
+        },
+
+        {
+            id: "zachary_c",
+extends: ["zachary_c"],
+            label: "Zachary, un Disciple",
+            
+            description: "Le raisonnement de Zachary est toujours aussi certain, mais maintenant, il est plus froid.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "zachary_d",
+extends: ["zachary_d"],
+            label: "Zachary, une Conclusion",
+            
+            description: "Zachary a choisi sa fin.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "auclair_p",
+extends: ["auclair_p"],
+            label: "Auclair, une Prisonière",
+            
+            description: "Auclair ne parle pas et ne mange pas.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "cat_p",
+extends: ["cat_p"],
+            label: "Cat Caro, une Prisonière",
+            
+            description: "La femme qui se faisait appeler 'Cat Caro' dort chaque fois qu'elle le peut.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "clifton_p",
+extends: ["clifton_p"],
+            label: "'Pope' Clifton, un Prisonier",
+            
+            description: "Clifton rugit et maudit, mais les barreaux tiennent, et les murs sont épais.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "clovette_p",
+extends: ["clovette_p"],
+            label: "Clovette, une Prisonière",
+            
+            description: "Clovette attend que les choses changent.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "dorothy_p",
+extends: ["dorothy_p"],
+            label: "Dorothy, une Prisonière",
+            
+            description: "Les constantes supplications de Dorothy usent les nerfs.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "douglas_p",
+extends: ["douglas_p"],
+            label: "Douglas, un Prisonier",
+            
+            description: "Douglas secoue tristement la tête. Je n'aurais jamais pensé que je finirais du mauvais côté des barreaux. J'aurais dû écouter ma vieille mère.'",
+            
+            
+            
+            
+            
+            
+        },
+        {
+            id: "enid_p",
+extends: ["enid_p"],
+            label: "Enid, une Prisonière",
+            
+            description: "Enid ne parle plus.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "elridge_p",
+extends: ["elridge_p"],
+            label: "Elridge, un Prisonier",
+            
+            description: "Elridge n'a pas le droit d'utiliser une cuillère ou une assiette. Il est probablement peu judicieux de lui permettre même les légumes les plus coupants.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "laidlaw_p",
+extends: ["laidlaw_p"],
+            label: "Laidlaw, un Prisonier",
+            
+            description: "La porte de Laidlaw est verrouillée, pas fermée. Nous savons que c'est mieux ainsi.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "leo_p",
+extends: ["leo_p"],
+            label: "Leo, un Prisonier",
+            
+            description: "Leo ne comprend pas ce qu'il a fait de mal.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "neville_p",
+extends: ["neville_p"],
+            label: "Neville, un Prisonier",
+            
+            description: "Neville pleure.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "porter_p",
+extends: ["porter_p"],
+            label: "Porter, un Prisonier",
+            
+            description: "Porter attend, immobile comme un lézard.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "renira_p",
+extends: ["renira_p"],
+            label: "Renira, une Prisonière",
+            
+            description: "Renira trouve toujours le moyen de passer le temps.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "rose_p",
+extends: ["rose_p"],
+            label: "Rose, une Prisonière",
+            
+            description: "Rose n'a pas renoncé. Je la soupçonne de cacher des couverts.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "slee_p",
+extends: ["slee_p"],
+            label: "Slee, un Prisonier",
+            
+            description: "Slee écrit de la poésie sur les murs, de façon obsessionnelle. Si nous ne fournissons pas d'encre, il utilise ce qu'il peut.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "tristan_p",
+extends: ["tristan_p"],
+            label: "Tristan, un Prisonier",
+            
+            description: "Tristan tirera le meilleur parti de sa situation.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "saliba_p",
+extends: ["saliba_p"],
+            label: "Saliba, un Prisonier",
+            
+            description: "La colère de Saliba brûle comme de la lave enfouie.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "sylvia_p",
+extends: ["sylvia_p"],
+            label: "Sylvia, une Prisonière",
+            
+            description: "Nous surveillons Sylvia toutes les heures, au cas où.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "valciane_p",
+extends: ["valciane_p"],
+            label: "Valciane, une Prisonière",
+            
+            description: "Il est très important de ne jamais se mettre à portée de Valciane.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "victor_p",
+extends: ["victor_p"],
+            label: "Victor, un Prisonier",
+            
+            description: "Les yeux de Victor sont des puits de rage.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "violet_p",
+extends: ["violet_p"],
+            label: "Violet, une Prisonière",
+            
+            description: "Violet insiste sur le fait qu'elle va bien. Elle va bien.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "ysabet_p",
+extends: ["ysabet_p"],
+            label: "Ysabet, une Prisonière",
+            
+            description: "Si Ysabet pleure, elle le fait avec les yeux secs.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "generic_a",
+extends: ["generic_a"],
+            label: "Un parasite",
+            
+            description: "Facilement manipulable, mais ils ne seront probablement jamais très nombreux. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+            comments: "legacy element to keep saves valid",
+            
+        },
+        {
+            id: "generic_a_edge",
+extends: ["generic_a_edge"],
+            label: "Un parasite",
+            
+            
+            description: "Facilement manipulable, mais ils ne seront probablement jamais très nombreux. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+        },
+        {
+            id: "generic_a_forge",
+extends: ["generic_a_forge"],
+            label: "Un parasite",
+            
+            
+            description: "Facilement manipulable, mais ils ne seront probablement jamais très nombreux. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+        },
+        {
+            id: "generic_a_grail",
+extends: ["generic_a_grail"],
+            label: "Un parasite",
+            
+            
+            description: "Facilement manipulable, mais ils ne seront probablement jamais très nombreux. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+        },
+        {
+            id: "generic_a_heart",
+extends: ["generic_a_heart"],
+            label: "Un parasite",
+            
+            
+            description: "Facilement manipulable, mais ils ne seront probablement jamais très nombreux. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+        },
+        {
+            id: "generic_a_knock",
+extends: ["generic_a_knock"],
+            label: "Un parasite",
+            
+            
+            description: "Facilement manipulable, mais ils ne seront probablement jamais très nombreux. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+        },
+        {
+            id: "generic_a_lantern",
+extends: ["generic_a_lantern"],
+            label: "Un parasite",
+            
+            
+            description: "Facilement manipulable, mais ils ne seront probablement jamais très nombreux. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+        },
+        {
+            id: "generic_a_moth",
+extends: ["generic_a_moth"],
+            label: "Un parasite",
+            
+            
+            description: "Facilement manipulable, mais ils ne seront probablement jamais très nombreux. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+        },
+        {
+            id: "generic_a_winter",
+extends: ["generic_a_winter"],
+            label: "Un parasite",
+            
+            
+            description: "Facilement manipulable, mais ils ne seront probablement jamais très nombreux. [Vous pouvez peut-être recruter cette connaissance comme Adepte.]",
+            
+        },
+        {
+            id: "generic_b",
+extends: ["generic_b"],
+            label: "Un pion",
+            
+            
+            description: "Celui-ci est loyal, mais manque d'initiative.",
+            comments: "Il s'agit d'un élément d'héritage pour supporter les anciennes économies.",
+            
+        },
+        {
+            id: "generic_b_edge",
+extends: ["generic_b_edge"],
+            label: "Un pion",
+            
+            
+            description: "Celui-ci est loyal, mais manque d'initiative.",
+            
+        },
+        {
+            id: "generic_b_forge",
+extends: ["generic_b_forge"],
+            label: "Un pion",
+            
+            
+            description: "Celui-ci est loyal, mais manque d'initiative.",
+            
+        },
+        {
+            id: "generic_b_grail",
+extends: ["generic_b_grail"],
+            label: "Un pion",
+            
+            
+            description: "Celui-ci est loyal, mais manque d'initiative.",
+            
+        },
+        {
+            id: "generic_b_heart",
+extends: ["generic_b_heart"],
+            label: "Un pion",
+            
+            
+            description: "Celui-ci est loyal, mais manque d'initiative.",
+            
+        },
+        {
+            id: "generic_b_knock",
+extends: ["generic_b_knock"],
+            label: "Un pion",
+            
+            
+            description: "Celui-ci est loyal, mais manque d'initiative.",
+            
+        },
+        {
+            id: "generic_b_lantern",
+extends: ["generic_b_lantern"],
+            label: "Un pion",
+            
+            
+            description: "Celui-ci est loyal, mais manque d'initiative.",
+            
+        },
+        {
+            id: "generic_b_moth",
+extends: ["generic_b_moth"],
+            label: "Un pion",
+            
+            
+            description: "Celui-ci est loyal, mais manque d'initiative.",
+            
+        },
+        {
+            id: "generic_b_winter",
+extends: ["generic_b_winter"],
+            label: "Un pion",
+            
+            
+            description: "Celui-ci est loyal, mais manque d'initiative.",
+            
+        },
+        {
+            id: "generic_c_edge",
+extends: ["generic_c_edge"],
+            label: "Un solide Disciple",
+            
+            
+            description: "La loyauté, et les muscles.",
+            
+        },
+        {
+            id: "generic_c_forge",
+extends: ["generic_c_forge"],
+            label: "Un Disciple utile",
+            
+            
+            description: "Loyal, et bon avec ses mains.",
+            
+        },
+        {
+            id: "generic_c_grail",
+extends: ["generic_c_grail"],
+            label: "Un Disciple avide",
+            
+            
+            description: "Loyal, mais avide.",
+            
+        },
+        {
+            id: "generic_c_heart",
+extends: ["generic_c_heart"],
+            label: "Un Disciple plein de vie",
+            
+            
+            description: "Loyal, et toujours prêt avec un sourire.",
+            
+        },
+        {
+            id: "generic_c_knock",
+extends: ["generic_c_knock"],
+            label: "Un Disciple habile",
+            
+            
+            description: "Loyal, et habile avec les serrures.",
+            
+        },
+
+        {
+            id: "generic_c_lantern",
+extends: ["generic_c_lantern"],
+            label: "Un Disciple prometteur",
+            
+            
+            description: "Loyal et clairvoyant.",
+            
+        },
+        {
+            id: "generic_c_moth",
+extends: ["generic_c_moth"],
+            label: "Un Disciple imprévisible",
+            
+            
+            description: "Loyal, bien que curieux ; curieux même pour un de nos semblables.",
+           
+        },
+        {
+            id: "generic_c_winter",
+extends: ["generic_c_winter"],
+            label: "Un Disciple discret",
+            
+            
+            description: "Loyal, et silencieux comme la neige qui tombe.",
+            
+        },
+
+        {
+            id: "generic_p",
+extends: ["generic_p"],
+            label: "Un Adepte trahi",
+            
+            description: "Celui-ci s'insurge faiblement contre leur sort.",
+            
+            
+            
+            
+        },
+
+
+
+
+    ]
+}

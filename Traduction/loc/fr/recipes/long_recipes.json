@@ -1,0 +1,342 @@
+{
+    "recipes": [
+
+        {
+            id: "long.spawn.forge",
+extends: ["long.spawn.forge"],
+            label: "Quelqu'un est arrivé",
+
+            startdescription: "Dans les flammes des bougies, dans les feux de foyer, dans le balancement suspendu de la fumée, les présages sont certains. Un grand ennemi de notre Façonneur est arrivé dans la ville - quelqu'un qui empêcherait notre Oeuvre.",
+
+             
+
+             
+        },
+
+        {
+            id: "long.spawn.grail",
+extends: ["long.spawn.grail"],
+            label: "Quelqu'un est arrivé",
+
+            startdescription: "Nous sommes avertis par l'altération des saveurs, par la chute des gouttes de sang, par les naissances prodigieuses signalées dans les quartiers des docks. Un grand ennemi de notre Délice est arrivé dans la ville - quelqu'un qui empêcherait notre Oeuvre.",
+
+             
+
+             
+        },
+
+        {
+            id: "long.spawn.lantern",
+extends: ["long.spawn.lantern"],
+            label: "Quelqu'un est arrivé",
+
+            startdescription: "Nous sommes avertis par les couleurs du soleil, par l'occultation de la lune, par la fracture de la lentille. Un grand ennemi de notre Illuminé est arrivé dans la ville - quelqu'un qui empêcherait notre Oeuvre.",
+
+             
+
+             
+        },
+
+        {
+            id: "long.cycle",
+extends: ["long.cycle"],
+            label: "Quelqu'un observe",
+
+
+            startdescription: "L'immortel dans l'ombre réfléchit à son prochain mouvement.",
+             
+            slots: [
+                {
+                    id: "longlesson",
+extends: ["longlesson"],
+                    label: "Leçons",
+                    description: "À mesure que nous provoquons notre ennemi et qu'il apprend de nous, ses attaques deviendront de plus en plus meurtrières.",
+                     
+                     
+                }
+            ],
+
+             
+             
+        },
+
+
+        {
+            id: "expelspy",
+extends: ["expelspy"],
+             
+            label: "Dans la nuit",
+             
+            startdescription: "Notre espion nous est revenu.",
+             
+        },
+
+        {
+            id: "long.upgrade.might",
+extends: ["long.upgrade.might"],
+             
+            label: "Un plus grand pouvoir",
+            startdescription: "Le pouvoir du Long s'accroît.",
+             
+             
+             
+             
+             
+        },
+
+
+
+        {
+            id: "long.upgrade.connections",
+extends: ["long.upgrade.connections"],
+             
+            label: "Des liens plus étroits",
+            startdescription: "Ce Long développe son réseau de relations.",
+             
+             
+             
+             
+             
+        },
+
+
+        {
+            id: "long.upgrade.dreamwork",
+extends: ["long.upgrade.dreamwork"],
+             
+            label: "La lumière des étoiles, en plein essor",
+            startdescription: "Ce Long a trouvé son chemin plus profondément dans mes rêves.",
+             
+             
+             
+             
+             
+        },
+
+
+        {
+            id: "long.selectstrategy",
+extends: ["long.selectstrategy"],
+             
+            label: "Une décision",
+            startdescription: "Notre ennemi immortel a décidé d'une ligne de conduite.",
+             
+             
+             
+             
+             
+             
+        },
+
+        {
+            id: "long.preparestrategy.preference.assault",
+extends: ["long.preparestrategy.preference.assault"],
+            label: "Une décision",
+             
+             
+             
+             
+        },
+
+        {
+            id: "long.preparestrategy.preference.intrigue",
+extends: ["long.preparestrategy.preference.intrigue"],
+            label: "Une décision",
+             
+             
+             
+             
+        },
+
+        {
+            id: "long.preparestrategy.preference.dreamwork",
+extends: ["long.preparestrategy.preference.dreamwork"],
+            label: "Une décision",
+             
+             
+             
+             
+        },
+
+
+
+        {
+            id: "long.preparestrategy",
+extends: ["long.preparestrategy"],
+             
+            label: "Préparation d'une action",
+            startdescription: "Notre ennemi immortel prépare sa prochaine action.\n\n [ Ajouter un Adepte fort en <sprite name=knock> <sprite name=lantern> pour essayer de découvrir la stratégie du Long. Ajouter un Adepte fort en <sprite name=edge> <sprite name=forge> pour tenter de retarder les assauts, <sprite name=grail> <sprite name=heart> pour Intrigues, <sprite name=moth> <sprite name=winter> pour les attaques de la lumière des étoiles. ]",
+            slots: [
+                {
+                    id: "spy",
+extends: ["spy"],
+                    label: "Espionner",
+                    description: "Les espions peuvent prendre connaissance des plans du Long. Si vous connaissez ou devinez la nature de ces plans, les bons espions peuvent les retarder.",
+                     
+                }
+            ],
+             
+             
+             
+             
+             
+        },
+
+        {
+            id: "expelallspies",
+extends: ["expelallspies"],
+             
+            label: "Parce que nous sommes trop nombreux",
+             
+            startdescription: "Notre ennemi est vigilant. Nous avons envoyé trop d'observateurs - si nous en envoyons plus de deux, tous échoueront.",
+             
+        },
+
+        {
+            id: "expelallspies_beforeconfrontation.might",
+extends: ["expelallspies_beforeconfrontation.might"],
+             
+            label: "Avant la tempête",
+             
+            startdescription: "Notre ennemi est presque prêt à nous attaquer de manière directe. Nous avons rappelé nos espions.",
+             
+        },
+
+        {
+            id: "expelallspies_beforeconfrontation.connections",
+extends: ["expelallspies_beforeconfrontation.connections"],
+             
+            label: "Avant la tempête",
+             
+            startdescription: "Notre ennemi est presque prêt à nous attaquer de manière directe. Nous avons rappelé nos espions.",
+             
+        },
+
+
+
+        {
+            id: "expelallspies_beforeconfrontation.dreamwork",
+extends: ["expelallspies_beforeconfrontation.dreamwork"],
+             
+            label: "Avant la tempête",
+             
+            startdescription: "Notre ennemi est presque prêt à nous attaquer de manière directe. Nous avons rappelé nos espions.",
+             
+        },
+
+
+
+
+
+
+        {
+            id: "long.spyonstrategy.success",
+extends: ["long.spyonstrategy.success"],
+             
+            label: "Un rapport de notre espion",
+             
+             
+            startdescription: "Les contours de la stratégie du Long commencent à se préciser.",
+             
+             
+             
+        },
+
+
+        {
+            id: "long.revealidentity.success.might",
+extends: ["long.revealidentity.success.might"],
+             
+            label: "L'identité de notre ennemi",
+             
+             
+        },
+
+        {
+            id: "long.revealidentity.success.connections",
+extends: ["long.revealidentity.success.connections"],
+             
+            label: "L'identité de notre ennemi",
+             
+             
+        },
+
+
+        {
+            id: "long.revealidentity.success.dreamwork",
+extends: ["long.revealidentity.success.dreamwork"],
+             
+            label: "L'identité de notre ennemi",
+             
+             
+        },
+
+
+
+        {
+            id: "long.revealidentity.success",
+extends: ["long.revealidentity.success"],
+             
+            label: "L'identité de notre ennemi",
+            startdescription: "@#welland_unknown|Notre ennemi est un certain capitaine Welland, un Long de la Forge qui a combattu sous de nombreux noms dans de nombreuses guerres. Il a fait preuve d'allégeance à la fois au Lionsmith et à la Forge des Jours. Il a une préférence pour l'attaque directe, mais ce n'est pas un simple soldat. @#tryphon_unknown|Notre ennemi est une certaine Lady Tryphon, une Long du Graal qui a laissé une traînée d'âmes brisées à travers les meilleurs hôtels du continent.\n Elle est la bien-aimée du Graal et du Fleuriste. Elle est enclin à l'intrigue, mais elle n'est pas étrangère à la violence. #diarist_unknown|Notre ennemi est le Long de la Lanterne appelé le Diariste, qui comme tous ses semblables a abandonné sa forme physique pour le Mansus. Il a connu la faveur du Colonel et du Meniscate. Il préférera nous frapper par le biais des rêves, mais il ne fait aucun doute qu'il a aussi des alliés dans le monde éveillé. #julian_unknown|Notre ennemi est un Long de l'Hiver identifié par les initiales 'J.C'. Ses motivations sont obscures: il a toujours professé l'alignement sur les Oubliés et leurs successeurs, qui n'ont rien à voir avec les guerres des Heures. Mais le voici, pour nous gâcher la journée.@",
+             
+             
+             
+        },
+
+
+        {
+            id: "long.delayaction.success.assault",
+extends: ["long.delayaction.success.assault"],
+             
+            label: "Un assaut retardé",
+            startdescription: "Nous avons deviné que le Long avait l'intention de lancer un assaut; nous l'avons un peu retardé. [Cela n'est possible qu'une fois par action.]",
+             
+             
+             
+             
+             
+        },
+
+        {
+            id: "long.delayaction.success.intrigue",
+extends: ["long.delayaction.success.intrigue"],
+             
+            label: "Une intrigue repoussée !",
+            startdescription: "Nous avons deviné que le Long avait l'intention de lancer une intrigue; nous l'avons un peu retardée. [Cela n'est possible qu'une fois par action.]",
+             
+             
+             
+             
+             
+        },
+
+        {
+            id: "long.delayaction.success.dreams",
+extends: ["long.delayaction.success.dreams"],
+             
+            label: "La Lune, Occultée",
+            startdescription: "Nous avons deviné que le Long avait l'intention de nous atteindre par le biais de nos rêves; nous avons un peu retardé cela. [Cela n'est possible qu'une fois par action.]",
+             
+             
+             
+             
+             
+        },
+
+
+        {
+            id: "long.delayaction.success",
+extends: ["long.delayaction.success"],
+             
+            label: "Notre espion a retardé notre ennemi",
+            comments: "This generic recipe is included only for backwards compatibility with beta folks",
+            startdescription: "Ils peuvent ralentir l'action du Long, mais pas l'empêcher. [Cela n'est possible qu'une fois par action.]",
+             
+             
+             
+             
+        },
+
+    ]
+}

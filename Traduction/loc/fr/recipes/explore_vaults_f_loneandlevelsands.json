@@ -1,0 +1,145 @@
+{
+    "recipes": [
+
+        {
+            id: "explore_vaultloneandlevelsands1_setup",
+extends: ["explore_vaultloneandlevelsands1_setup"],
+            label: "Commencer une expédition: l'étoile brisée",
+            
+            
+            
+            startdescription: "Une étoile est tombée au plus profond du désert. Elle n'a pas tout à fait détruit le lieu sacré qu'elle a frappé. Les trésors de l'ancien autel peuvent rester, cachés sous la tombe de l'étoile. Mais nous devons nous approcher de l'étoile avec prudence: elle résonne encore d'énergies venant de l'extérieur du monde. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultloneandlevelsands2_setup",
+extends: ["explore_vaultloneandlevelsands2_setup"],
+            label: "Commencer une expédition: Le tombeau de Lagun",
+            
+            
+            
+
+            startdescription: "Le tombeau de Lagun sera difficile à trouver dans le désert. Nous devons nous orienter en suivant les étoiles. Sa porte a longtemps résisté aux assauts des pilleurs de tombes. Nous devons apporter toute la force possible. Il y aura probablement une malédiction. Nous devons nous y préparer. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultloneandlevelsands3_setup",
+extends: ["explore_vaultloneandlevelsands3_setup"],
+            label: "Commencer une expédition: Messana",
+            
+            
+            
+            startdescription: "Messana, où les villageois restent couramment vifs et vigoureux après leur centième année. Ils résisteront aux tentatives de percer leurs secrets et ils peuvent avoir des malédictions à leur disposition - si nous arrivons à traverser le désert pour les atteindre. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultloneandlevelsands4_setup",
+extends: ["explore_vaultloneandlevelsands4_setup"],
+            label: "Commencer une expédition: le Temple des sept spirales",
+            
+            
+            
+
+            startdescription: "'Le site ne tolérera aucune vie', dit le journal de Zane Marc Gentis. Nous n'y trouverons donc pas de serpents. Mais l'endroit semble maudit, et Gentis a consigné une porte que son expédition n'a pas pu ouvrir. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultloneandlevelsandsdefault_setup",
+extends: ["explore_vaultloneandlevelsandsdefault_setup"],
+            label: "Commencer une expédition: Miah",
+            
+            
+            
+
+            startdescription: "La ville, Miah, a depuis longtemps été engloutie dans le désert. Seuls des fantômes arpentent ses rues. Tout ce qui y restera sera bien caché. Et la malédiction du Vagabond plane sur tout cela: sa vengeance sur l'endroit qui lui a fait tant de mal. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explorevaultloneandlevelsands1_success",
+extends: ["explorevaultloneandlevelsands1_success"],
+            label: "L'ouverture de la pierre",
+            
+            
+            
+            
+            startdescription: "La météorite gît dans le temple brisé, striée comme une créature marine, lissée par son passage dans l'atmosphère. L'ancien autel a dû être détruit il y a des siècles, mais la météorite réagit à notre contact. Elle bourdonne comme des fils dans le vent. Sa surface se déplace, et elle s'ouvre comme un oeil - ",
+            description: "Que s'est-il passé ? La météorite est froide, close et silencieuse. Des siècles de sable reposent sur elle. Mais voici entre nos mains les trésors que nous y avons trouvés.",
+            
+            
+        },
+
+        {
+            id: "explorevaultloneandlevelsands2_success",
+extends: ["explorevaultloneandlevelsands2_success"],
+            label: "La fin de Lagun",
+            
+            
+            
+            
+            startdescription: "Dans la chambre centrale, Lagun, le Long, autrefois immortel, est allongé paisiblement, nu, sur une civière en bois de santal. Il est parfaitement conservé - un homme mince, à la peau sombre et en excellente santé physique - mais à notre approche, il s'effrite en flocons noircis comme des feuilles mortes. Des objets scintillent sur les restes.",
+            description: "Nous trouvons une montre de poche, un livre, une quantité de monnaie algérienne - tous de notre propre époque. Il a dû aller et venir à plusieurs reprises de cet endroit avant de se résigner à son dernier repos. Au dos de la montre, nous voyons gravé l'oeil fermé de la longue société appelée les Oubliés...",
+            
+            
+            
+        },
+        {
+            id: "explorevaultloneandlevelsands3_success",
+extends: ["explorevaultloneandlevelsands3_success"],
+            label: "Un festin de Long",
+            
+            
+            
+            
+            startdescription: "Sous le grenier à blé, nous trouvons le secret le plus profond de Messana: un autel sur lequel sont exposés des segments d'un corps humain embaumé. Il n'en reste pas grand-chose. Les visiteurs ont dû s'en régaler pendant des années. Est-ce de la chair de Long ? Cela pourrait expliquer leur longévité.",
+            description: "Les objets intéressants sont exposés sur les murs. Il peut s'agir de trophées de voyageurs peu avisés ou de biens appartenant au Long. Rien n'indique si le Long était une victime consentante, un ancêtre ou un prisonnier, et nous n'apprendrons rien des villageois maintenant. Une inscription en grec sur l'autel dit: POUR LA CRUE.",
+            
+            
+        },
+
+
+        {
+            id: "explorevaultloneandlevelsands4_success",
+extends: ["explorevaultloneandlevelsands4_success"],
+            label: "Les spirales de Dieu",
+            
+            
+            
+            
+            startdescription: "'Les sept spirales', dit le journal de Gentis, mais l'idole qui se trouve à l'intérieur est un impossible amas de serpent de pierre - spirale sur spirale, un noeud qui étourdit l'âme. La méchanceté se tortille dans les coins du temple. Nous devrions fouiller l'endroit rapidement, avant que ses influences ne nous submergent.",
+            description: "Le temple est aussi propre que s'il venait d'être balayé. Aucun sable n'a franchi le seuil, aucune poussière ne s'est déposée sur les horribles replis de l'idole. Nous trouvons des choses cachées ici et là au milieu des spirales, comme si on nous les avait laissées pour que nous les trouvions, ou comme si l'idole s'était enroulée autour d'elles.",
+            
+            
+        },
+
+        {
+            id: "explorevaultloneandlevelsandsdefault_success",
+extends: ["explorevaultloneandlevelsandsdefault_success"],
+            label: "La ville n'est plus",
+            
+            
+            
+            
+            startdescription: "Le vent de Miah est un vent capricieux. Il tire sur nos vêtements comme un enfant dans le besoin; il nous jette du sable au visage; il gémit parmi les pierres couvertes de poussière. La désolation de la ville n'est pas tout à fait absolue. Il y a des piliers, des arcs, des statues aveuglées par le sable, des marches qui ne mènent nulle part.",
+            description: "On trouve des reliques dans une chambre abandonnée qui aurait pu être aussi bien une cave qu'un sanctuaire. Les murs sont fissurés et du sable a coulé à travers. Lorsque nous remontons à la surface, le vent se lève. Il nous soulève presque du sol. Peut-etre que nous lui avons manqué.",
+            
+            
+            
+        },
+
+    ]
+}

@@ -1,0 +1,588 @@
+{
+    "elements": [
+
+        {
+            id: "hunger",
+extends: ["hunger"],
+            label: "Faim",
+            
+            slots: [
+                {
+                    id: "nourishment",
+extends: ["nourishment"],
+                    label: "Nourriture",
+                    
+                    description: "Pour récupérer, je dois manger.",
+                    
+                }
+            ],
+            description: "J'ai besoin de repos et de nourriture, si je veux me rétablir. Mais quand ma bouche se vide, quand ma vision se trouble, je vois la coupe rouge ; et de temps en temps elle me parle. [Rêver avec la Faim avant que la carte ne s'efface vous permettra de retrouver la Santé.]",
+            
+            
+            
+        },
+        {
+            id: "health",
+extends: ["health"],
+            label: "Santé",
+            
+            
+            
+            description: "C'est mon corps. Il y a d'autres corps, mais celui-ci est le mien, et mon esprit en a besoin comme un champignon a besoin de terre. [Avec assez de Vitalité, vous pouvez gagner plus de Santé.]"
+        },
+        {
+            id: "vitality",
+extends: ["vitality"],
+            label: "Vitalité",
+            slots: [
+                {
+                    id: "morevitality",
+extends: ["morevitality"],
+                    label: "Plus de Vitalité",
+                    
+                    description: "Avec suffisamment de Vitalité - ou parfois quelque chose de plus exotique - je peux améliorer ma Santé.",
+                    
+                }
+            ],
+            
+            description: "L'exercice, ou quelque chose de plus rare, m'a revigoré. [Utilisez avec une autre Vitalité pour améliorer vos capacités. Cela ne dure que trois minutes, s'il n'est pas utilisé.]",
+            
+            
+        },
+        {
+            id: "vitalityplus",
+extends: ["vitalityplus"],
+            label: "Vitalité: une leçon apprise",
+            
+            description: "Je suis prêt à m'améliorer. [Utilisez ceci avec votre compétence Force pour améliorer la compétence et gagner en Santé. Elle dure jusqu'à cinq minutes avant de se décomposer pour redevenir une Vitalité.]",
+            
+            
+            
+        },
+
+        {
+            id: "restlessness",
+extends: ["restlessness"],
+            label: "Nervosité",
+            
+            description: "Un désir ardent m'habite. Je sens que j'ai envie de faire... <i>quelque chose</i>. Quoi, exactement ?",
+            
+            
+        },
+        {
+            id: "bloodshed",
+extends: ["bloodshed"],
+            label: "Effusion de sang",
+            description: "Le sang a été versé.",
+            
+        },
+
+        {
+            id: "injury",
+extends: ["injury"],
+            label: "Une blessure",
+            
+            slots: [
+                {
+                    id: "medicines",
+extends: ["medicines"],
+                    label: "Médicaments, ou...",
+                    
+                    description: "Je pourrais payer pour une visite chez le médecin...",
+                    
+                    
+                },
+                {
+                    id: "vitality",
+extends: ["vitality"],
+                    label: "...Vitalité",
+                    description: "...mais j'ai peut-être juste besoin d'un peu de repos.",
+                    
+                    
+                }
+            ],
+            description: "J'ai besoin de repos et de nourriture, si je veux me rétablir. Mais la Mère des Fourmis est très attentive aux blessures. [Rêver avec une Blessure avant que la carte ne s'efface vous permettra également de recouvrer la Santé.]",
+            
+            
+            
+        },
+        {
+            id: "disillusionment",
+extends: ["disillusionment"],
+            label: "Passion (Désillusionné)",
+            description: "Je suis allé à l'encontre de mes propres principes, ou de mes propres préférences. [Cette carte ne peut pas être utilisée, mais elle sera récupérée au bout de soixante secondes.]",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "passionexhausted",
+extends: ["passionexhausted"],
+            label: "Passion (Épuisé)",
+            description: "Ma Passion brule faiblement. [Cette carte ne peut pas être utilisée, mais elle récupère après soixante secondes.]",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "fatigue",
+extends: ["fatigue"],
+            label: "Santé (Fatigué)",
+            
+            description: "Cette carte ne peut pas être utilisée, mais elle sera récupérée au bout de soixante secondes. Je peux la récupérer plus rapidement en Rêvant.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "affliction",
+extends: ["affliction"],
+            label: "Une Affliction",
+            
+            
+            slots: [
+                {
+                    id: "medicine",
+extends: ["medicine"],
+                    label: "Médicaments, ou...",
+                    
+                    description: "Je pourrais payer pour une visite chez le médecin...",
+                    
+                },
+                {
+                    id: "vitality",
+extends: ["vitality"],
+                    label: "...Vitalité",
+                    
+                    description: "...mais j'ai peut-être juste besoin d'un peu de repos.",
+                    
+                }
+            ],
+            description: "La maladie m'a rendu faible. J'ai besoin de repos et de nourriture, si je veux me rétablir. [Rêvez d'une Affliction pour la transformer en Santé, avant que la carte ne se désintègre.]",
+            
+            
+        },
+        {
+            id: "reason",
+extends: ["reason"],
+            label: "Raison",
+            
+            
+            description: "'Aucun organisme vivant ne peut continuer longtemps à exister de manière saine dans des conditions de réalité absolue.' - Shirley Jackson [ Avec l'Erudition, vous pouvez Étudier pour gagner plus de Raison.]",
+
+        },
+        {
+            id: "concentration",
+extends: ["concentration"],
+            label: "Raison [Diminué]",
+            description: "Mon esprit est fatigué. [Cette carte ne peut pas être utilisée, mais elle récupère après soixante secondes.]",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "erudition",
+extends: ["erudition"],
+            label: "Erudition",
+            slots: [
+                {
+                    id: "moreerudition",
+extends: ["moreerudition"],
+                    label: "Plus d'Erudition",
+                    
+                    description: "Avec suffisamment d'Erudition - ou parfois quelque chose de plus exotique - je peux augmenter ma Raison.",
+                    
+                }
+            ],
+            
+            description: "J'absorbe le savoir comme une ombre absorbe la lumière. Je suis peut-être sur le point d'être promu. [L'érudition peut être utilisée avec l'Etude pour obtenir de la Raison. Elle ne dure que trois minutes, si elle n'est pas utilisée.]",
+            
+            
+        },
+
+        {
+            id: "eruditionplus",
+extends: ["eruditionplus"],
+            label: "Erudition: Leçon apprise",
+            
+            description: "Je suis prêt à m'améliorer. [Utilisez ceci avec votre compétence d'Erudition pour améliorer la compétence et gagner de la Raison. Cela peut durer jusqu'à cinq minutes avant de se décomposer en une Erudition.]",
+            
+            
+            
+        },
+        {
+            id: "dread",
+extends: ["dread"],
+            label: "Peur",
+            
+            slots: [
+                {
+                    id: "reminders",
+extends: ["reminders"],
+                    label: "Souvenirs",
+                    
+                    
+                    description: "J'ai besoin d'un peu de paix, ou d'un moment de bonheur. [Trop de Peur vous détruira. Le Contentement peut la guérir.]"
+                },
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Je peux peut-être utiliser ma Peur pour renforcer une Influence dangereuse.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissance",
+                    description: "Je dois comprendre les Influences au travail, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans le domaine concerné.]",
+                    
+                    
+                }
+            ],
+            description: "J'en ai trop vu. Une Peur sans nom ronge mes espoirs de ses dents ; une horreur existentielle.",
+            
+            
+        },
+        {
+            id: "passion",
+extends: ["passion"],
+            label: "Passion",
+            
+            
+            description: "'Les esprits ternes ne sont jamais ni intuitifs ni mathématiques.' - Blaise Pascal [ Avec assez de Scintillements, vous pouvez Etudier pour gagner plus de Passion. ]",
+            
+        },
+
+
+        {
+            id: "decrepitude",
+extends: ["decrepitude"],
+            label: "Décrépitude",
+            description: "Certaines blessures ne guérissent jamais tout à fait. [Les Blessures non traitées et la Faim deviennent une Décrépitude, qui ne redevient pas de la Santé. La Décrépitude demeure jusqu'à la mort..]",
+            
+            
+            slots: [
+                {
+                    id: "consume",
+extends: ["consume"],
+                    label: "Consumer",
+                    
+                    
+                    
+                }
+            ]
+        },
+
+        {
+            id: "glimmering",
+extends: ["glimmering"],
+            label: "Scintillement",
+            slots: [
+                {
+                    id: "moreglimmering",
+extends: ["moreglimmering"],
+                    label: "Plus de Scintillement",
+                    
+                    description: "Avec suffisamment de Scintillements - ou parfois quelque chose de plus exotique - je peux augmenter ma Passion.",
+                    
+                }
+            ],
+            
+            description: "Mes émotions sont plus fortes que d'habitude. Il y a des choses que je ne comprendrai jamais, et ces choses seront toujours précieuses, mais pour l'instant je suis plus proche d'elles. [Le scintillement peut être utilisé avec Étudier pour gagner de la Passion. Il ne dure que trois minutes, s'il n'est pas utilisé..]",
+            
+            
+        },
+
+        {
+            id: "glimmeringplus",
+extends: ["glimmeringplus"],
+            label: "Scintillement: Leçon Apprise",
+            
+            description: "Je suis prêt à m'améliorer. [Utilisez ceci avec votre compétence Imagination pour améliorer la compétence et gagner en Passion. Il peut durer jusqu'à cinq minutes avant de se décomposer en un Scintillement.]",
+            
+            
+            
+        },
+        {
+            id: "fascination",
+extends: ["fascination"],
+            label: "Fascination",
+            
+            slots: [
+                {
+                    id: "reminders",
+extends: ["reminders"],
+                    label: "Souvenirs",
+                    
+                    
+                    description: "La réalité grise stabilisera mon âme."
+                },
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Je peux peut-être utiliser ma Fascination pour renforcer une Influence alléchante.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissance",
+                    description: "Je dois comprendre les influences au travail, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans le domaine concerné.]",
+                    
+                    
+                }
+            ],
+            description: "La lumière FUIT à travers les FISSURES. Mon esprit est plus LUMINEUX qu'il ne l'a JAMAIS été. PLUS JE M'ÉLÈVE, PLUS JE VOIS.",
+            
+            
+        },
+        {
+            id: "scholarlatin",
+extends: ["scholarlatin"],
+            label: "Érudit: Latin",
+            
+            slots: [
+                {
+                    id: "Text",
+extends: ["Text"],
+                    label: "Texte non traduit",
+                    
+                    
+                }
+            ],
+            description: "Une langue morte : morte comme un diamant. [Certains livres doivent être traduits avant de pouvoir être lus.]",
+            
+        },
+        {
+            id: "scholarfucine",
+extends: ["scholarfucine"],
+            label: "Érudit: Fucine",
+            
+            slots: [
+                {
+                    id: "Text",
+extends: ["Text"],
+                    label: "Texte non traduit",
+                    
+                    
+                }
+            ],
+            description: "Un peuple vivait à l'est du lac perdu Fucino. Horace a averti que le pays des sorcières était le leur. C'était leur langue, appelée par certains 'la langue sèche' et par d'autres 'la langue des sorcières' [Certains livres doivent être traduits avant de pouvoir être lus.]",
+            
+        },
+        {
+            id: "scholargreek",
+extends: ["scholargreek"],
+            label: "Érudit: Grec",
+            
+            slots: [
+                {
+                    id: "Text",
+extends: ["Text"],
+                    label: "Texte non traduit",
+                    
+                    
+                }
+            ],
+            description: "Vous connaissez sans doute toutes les variétés de grec, de ses origines à Byzance. Mais c'est une bonne chose que vous ayez ces ouvrages de référence. [Certains livres doivent être traduits avant de pouvoir être lus.]",
+            
+        },
+        {
+            id: "scholarphrygian",
+extends: ["scholarphrygian"],
+            label: "Érudit: Phrygien",
+            slots: [
+                {
+                    id: "Text",
+extends: ["Text"],
+                    label: "Texte non traduit",
+                    
+                    
+                }
+            ],
+            
+            description: "Les Phrygiens vénéraient la Grande Mère, que nous appelons le Graal. C'est dans leur pays que naquit la Sœur du Nœud, et c'est dans cette langue qu'elle supplia le Thunderskin lors de son ascension. [Certains livres doivent être traduits avant de pouvoir être lus.]",
+            
+        },
+        {
+            id: "scholararamaic",
+extends: ["scholararamaic"],
+            label: "Érudit: Araméen",
+            slots: [
+                {
+                    id: "Text",
+extends: ["Text"],
+                    label: "Texte non traduit",
+                    
+                    
+                }
+            ],
+            
+            description: "La langue d'Aram, et de ses nombreux enfants depuis trois mille ans et plus. [Certains livres doivent être traduits avant de pouvoir être lus.]",
+            
+        },
+        {
+            id: "scholarmandaic",
+extends: ["scholarmandaic"],
+            label: "Érudit: Mandaique profond",
+            slots: [
+                {
+                    id: "Text",
+extends: ["Text"],
+                    label: "Texte non traduit",
+                    
+                    
+                }
+            ],
+            
+            description: "Le scénario le plus secret des rites les plus intimes des sectes profondes du désert profond. La langue natale, dit-on, de la Mère des Fourmis elle-même. [Certains livres doivent être traduits avant de pouvoir être lus.]",
+            
+        },
+        {
+            id: "scholarsanskrit",
+extends: ["scholarsanskrit"],
+            label: "Érudit: Sanskrit",
+            slots: [
+                {
+                    id: "Text",
+extends: ["Text"],
+                    label: "Texte non traduit",
+                    
+                    
+                }
+            ],
+            
+            description: "La langue sacrée du sous-continent. La porte de quatre mille ans de poésie, de cérémonie et de mystère s'ouvre maintenant devant vous, si vous pouvez vous débattre dans les circonvolutions de lotus de son vocabulaire. [Certains livres doivent être traduits avant de pouvoir être lus.]",
+            
+        },
+        {
+            id: "scholarvak",
+extends: ["scholarvak"],
+            label: "Érudit: Vak",
+            slots: [
+                {
+                    id: "Text",
+extends: ["Text"],
+                    label: "Texte non traduit",
+                    
+                    
+                }
+            ],
+            
+            description: "Avant que les dieux ne naissent du sang, avant que le singe ne se tienne debout, c'était la langue entendue dans la Maison du Soleil. [Certains livres doivent être traduits avant de pouvoir être lus.]",
+            
+        },
+
+        {
+            id: "fleeting",
+extends: ["fleeting"],
+            label: "Souvenir fugace",
+            description: "Un moment dans le temps. Dans un autre moment, il aura disparu.",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Je peux peut-être trouver quelque chose dans mes souvenirs pour renforcer une Influence éphémère.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissance",
+                    description: "Je dois comprendre les influences au travail, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans le domaine concerné.]",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "contentment",
+extends: ["contentment"],
+            label: "Contentement",
+            description: "Je suis heureux, je crois. [Le Contentement protège de la Peur ; mais le Contentement ne dure pas.]",
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Je peux peut-être utiliser mon Contentement pour renforcer une influence positive."
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissance",
+                    description: "Je dois comprendre les influences au travail, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans le domaine concerné.]"
+                }
+            ]
+        },
+
+        {
+            id: "scar_edge",
+extends: ["scar_edge"],
+            label: "Cicatrice: Expérience brutale",
+            description: "FAUST : Je pense que l'enfer est une fable. MEPHISTOPHELES : Ay, pense encore, jusqu'à ce que l'expérience te fasse changer d'avis. [Vous avez fait un sacrifice permanent pour obtenir du pouvoir.]"
+        },
+
+        {
+            id: "scar_knock",
+extends: ["scar_knock"],
+            label: "Cicatrice: Fistule à moitié cicatrisée",
+            description: "Toutes les portes ne sont pas des blessures, mais toutes les blessures sont des portes. [Vous avez fait un sacrifice permanent pour obtenir du pouvoir.]"
+        },
+        {
+            id: "scar_winter",
+extends: ["scar_winter"],
+            label: "Cicatrice: Vieille blessure",
+            description: "Approchez-vous du coucher de soleil et voyez les premières étoiles de la nuit. [Vous avez fait un sacrifice permanent pour obtenir du pouvoir.]"
+        },
+        {
+            id: "scar_heart",
+extends: ["scar_heart"],
+            label: "Cicatrice: Un coeur perdu",
+            description: "J'ai tellement de vie en moi. Il m'est difficile de ne pas bouger. Quand je suis assis, mes articulations me brûlent. Je sais que si je m'arrête, je pourrais m'arrêter pour toujours. [Vous avez fait un sacrifice permanent pour obtenir du pouvoir. Attention : contrairement à la Santé, cette carte ne satisfera pas la Maladie ou la Famine.]"
+        },
+        {
+            id: "scar_heart_fatigued",
+extends: ["scar_heart_fatigued"],
+            label: "Cicatrice: Un coeur perdu (accablé)",
+            description: "Mes artères chantent, mes veines brûlent. Je ne peux pas me pousser plus loin. [Attendez.]"
+        },
+        {
+            id: "scar_moth",
+extends: ["scar_moth"],
+            label: "Cicatrice: Un caractère souple",
+            description: "J'ai porté tant de signes. À chaque nouvelle apparence, il est plus difficile de se souvenir de mon visage d'origine. Même le cartilage s'assouplit quand j'ai le moral à zéro. [Vous avez fait un sacrifice permanent pour obtenir du pouvoir.]"
+        },
+        {
+            id: "scar_moth_fatigued",
+extends: ["scar_moth_fatigued"],
+            label: "Cicatrice: Un caractère souple (accablé)",
+            description: "A chaque nouvelle expression, mes traits ondulent comme l'eau. Si je ne fais pas attention, je me diluerai entièrement. [Attendez.]"
+        },
+
+        {
+            id: "scar_lantern",
+extends: ["scar_lantern"],
+            label: "Cicatrice: Une transparence",
+            description: "Parfois, je suis désormais beau sous ma peau. Quand je me penche à angle droit - quand mes vêtements tombent de côté - quand l'œil est vif - ma forme est une révélation parfaite. [Vous avez fait un sacrifice permanent pour obtenir du pouvoir.]"
+        },
+    ]
+}

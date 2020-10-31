@@ -1,0 +1,216 @@
+{
+    "decks": [
+        {
+            id: "seasonevents",
+extends: ["seasonevents"],
+            label: "Saisons",
+            description: "Chaque fois que le temps passe, un événement inattendu peut se produire.",
+            
+            
+            
+        },
+        {
+            id: "cabaretevents",
+extends: ["cabaretevents"],
+            label: "Une soirée au Club",
+            description: "Chaque soirée apporte des plaisirs différents, et parfois des périls.",
+            
+            
+            
+        },
+        {
+            id: "roserewards",
+extends: ["roserewards"],
+            label: "La récompense du romantisme",
+            description: "Alors, maintenant, quand ?",
+            
+            
+        },
+        {
+            id: "dreamreasonresults",
+extends: ["dreamreasonresults"],
+            label: "L'arrière-pays des Rêves",
+            description: "Le sommeil apporte généralement le repos et la paix ; mais pas toujours. Pas toujours.",
+            
+            
+        },
+        {
+            id: "paintingresultsbasic",
+extends: ["paintingresultsbasic"],
+            label: "La récompense de l'art",
+            description: "La peinture peut apporter le contentement, ou parfois, un nouveau type de compréhension.",
+            
+            
+        },
+        {
+            id: "paintingresults",
+extends: ["paintingresults"],
+            label: "La récompense de l'art",
+            description: "La peinture apporte souvent le contentement. Parfois, mon travail attire l'attention.",
+            
+            
+        },
+        {
+            id: "paintingresultsreputation",
+extends: ["paintingresultsreputation"],
+            label: "La récompense de la gloire",
+            description: "C'est là que se trouve l'argent.",
+            
+            
+        },
+
+        {
+            id: "ecdysisrewards",
+extends: ["ecdysisrewards"],
+            label: "Les propositions à la fermeture",
+            description: "Le Club garantit un minimum, mais le public propose parfois ses propres contributions.",
+            
+            
+        },
+
+        {
+            id: "robberyrewards",
+extends: ["robberyrewards"],
+            label: "Le salaire du péché",
+            description: "Mes serviteurs me ramènent généralement des petits trésors, parfois de la camelote, rarement quelque chose d'extraordinaire.",
+            
+            
+        },
+        {
+            id: "exploreevents",
+extends: ["exploreevents"],
+            label: "Explorer la Capitale",
+            description: "En cherchant dans la ville, on peut trouver...",
+            
+            
+        },
+
+
+        {
+            id: "schemeevents",
+extends: ["schemeevents"],
+            label: "Stratégie potentielle",
+            description: "Mes intrigues rivales...",
+            
+            
+        },
+        {
+            id: "talkevents",
+extends: ["talkevents"],
+            label: "Rencontres de minuit",
+            description: "Je pourrais trouver des recrues, des alliés ou des rivaux.",
+            
+            
+        },
+        {
+            id: "citysecrets",
+extends: ["citysecrets"],
+            label: "Secrets de la ville",
+            description: "Des lieux faciles à surveiller.",
+            
+            
+        },
+        {
+            id: "streetsstrangefinds",
+extends: ["streetsstrangefinds"],
+            label: "Rues étranges",
+            description: "Perspectives et influences.",
+            
+            
+        },
+        {
+            id: "troublemakerconversations",
+extends: ["troublemakerconversations"],
+            label: "Conversations avec un fauteur de troubles",
+            description: "Que pourrais-je apprendre ?",
+            
+            
+        },
+
+        {
+            id: "forgelong",
+extends: ["forgelong"],
+            label: "Un ennemi au travail",
+            description: "Notre ennemi choisira une approche générale, que nous pourrons peut-être deviner - mais nous ne connaîtrons jamais les détails de leur plan tant qu'ils ne l'auront pas exécuté.",
+            
+            
+        },
+
+        {
+            id: "graillong",
+extends: ["graillong"],
+            label: "Un ennemi au travail",
+            description: "Notre ennemi choisira une approche générale, que nous pourrons peut-être deviner - mais nous ne connaîtrons jamais les détails de leur plan tant qu'ils ne l'auront pas exécuté.",
+            
+            
+        },
+
+        {
+            id: "lanternlong",
+extends: ["lanternlong"],
+            label: "Un ennemi au travail",
+            description: "Notre ennemi choisira une approche générale, que nous pourrons peut-être deviner - mais nous ne connaîtrons jamais les détails de leur plan tant qu'ils ne l'auront pas exécuté.",
+            
+            
+        },
+
+        {
+            id: "long.strategies",
+extends: ["long.strategies"],
+            label: "Un ennemi au travail",
+            description: "Notre ennemi choisira une approche générale, que nous pourrons peut-être deviner - mais nous ne connaîtrons jamais les détails de leur plan tant qu'ils ne l'auront pas exécuté.",
+            
+            
+            
+        },
+
+
+        {
+            id: "long.strategies.preference.assault",
+extends: ["long.strategies.preference.assault"],
+            label: "Un ennemi au travail",
+            description: "Notre ennemi choisira une approche générale, que nous pourrons peut-être deviner - mais nous ne connaîtrons jamais les détails de leur plan tant qu'ils ne l'auront pas exécuté.",
+            
+            
+            
+        },
+        {
+            id: "long.strategies.preference.intrigue",
+extends: ["long.strategies.preference.intrigue"],
+            label: "Un ennemi au travail",
+            description: "Notre ennemi choisira une approche générale, que nous pourrons peut-être deviner - mais nous ne connaîtrons jamais les détails de leur plan tant qu'ils ne l'auront pas exécuté.",
+            
+            
+            
+        },
+
+        {
+            id: "long.strategies.preference.dreamwork",
+extends: ["long.strategies.preference.dreamwork"],
+            label: "Un ennemi au travail",
+            description: "Notre ennemi choisira une approche générale, que nous pourrons peut-être deviner - mais nous ne connaîtrons jamais les détails de leur plan tant qu'ils ne l'auront pas exécuté.",
+            
+            
+            
+        },
+
+        {
+            id: "priest.repevent",
+extends: ["priest.repevent"],
+            label: "Les Passions de la Congrégation",
+            description: "Qu'est-ce que cela va donner ?",
+            
+            
+        },
+
+        {
+            id: "ghoul.memory",
+extends: ["ghoul.memory"],
+            label: "Souvenirs",
+            description: "Je me souviendrai de ce que tous les autres ont oublié",
+            
+            
+        },
+
+    ]
+}

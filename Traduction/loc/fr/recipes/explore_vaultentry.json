@@ -1,0 +1,115 @@
+{
+    "recipes": [
+
+
+
+
+        {
+            id: "explorevault_expeditionbegun",
+extends: ["explorevault_expeditionbegun"],
+            label: "L'expédition prend son envol",
+            
+            
+            startdescription: "J'ai donné à mes agents la possibilité de participer. Espérons que cela se terminera bien pour nous tous.",
+            description: ".",
+            
+            
+        },
+
+
+
+
+        {
+            id: "explorevaulttick",
+extends: ["explorevaulttick"],
+            comments: "On ne peut pas réussir tant que toutes les alternatives ne sont pas disponibles. Cela signifie qu'il n'y a pas d'obstacles, >0 Adeptes et >0 Fonds.",
+            label: "L'expédition se poursuit",
+            
+            slots: [
+                {
+                    id: "Assistance",
+extends: ["Assistance"],
+                    label: "Assistance",
+                    description: "Les Fonds sont essentiels pour les expéditions. Les Adeptes vaincront les obstacles.",
+                    
+                }
+            ],
+            startdescription: "Nos plans d'expédition pour le prochain défi. Cela consommera des Fonds; je peux ajouter des Fonds maintenant, ou je pourrais envoyer un autre Adepte.",
+            description: ".",
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "explorevaultfailure_nofunds",
+extends: ["explorevaultfailure_nofunds"],
+            
+            label: "Difficultés logistiques",
+            startdescription: "Les approvisionnements sont faibles. Si je n'envoie pas plus de Fonds, nous devrons abandonner l'expédition.",
+            description: "Nous pourrons réessayer, quand la poussière sera retombée.",
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultfailure_nofollowers",
+extends: ["explorevaultfailure_nofollowers"],
+            
+            label: "Aucun voyageur n'est revenu",
+            startdescription: "Aucun membre de l'expédition ne subsiste. Je dois envoyer de l'aide, sinon cette expédition sera terminée.",
+            description: "Personne n'est revenu. Je peux tenter à nouveau l'expédition. Je peux même réutiliser les fournitures.",
+            
+            
+            
+        },
+        {
+            id: "explorevaultsuccesslink",
+extends: ["explorevaultsuccesslink"],
+            label: "Des trésors se trouvent devant nous",
+            
+            
+            comments: "Separate recipe link to remove the confusing slot from Success, next.",
+            
+        },
+
+        {
+            id: "explorevaultsuccess",
+extends: ["explorevaultsuccess"],
+            label: "Des trésors se trouvent devant nous",
+            
+            startdescription: "Succès ! J'en saurai plus bientôt...",
+            description: ".",
+            
+            
+        },
+        {
+            id: "explorevault_casualty",
+extends: ["explorevault_casualty"],
+            
+            label: "Un membre de l'expédition est blessé !",
+            startdescription: "Nos effectifs diminuent.",
+            description: "Leurs blessures sont graves. [Soigner un Adepte blessé avec Parler.]",
+            
+            
+            
+            
+        },
+        {
+            id: "explorevault_casualty_summoning",
+extends: ["explorevault_casualty_summoning"],
+            
+            
+            label: "Mon invocation a été rejetée !",
+            description: "C'est banni, ou détruit.",
+            
+        }
+
+
+
+    ]
+}

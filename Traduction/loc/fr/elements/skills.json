@@ -1,0 +1,601 @@
+{
+    "elements": [
+        {
+            id: "skillhealtha",
+extends: ["skillhealtha"],
+            label: "Compétence: un Physique plus fort",
+            
+            description: "J'ai bénéficié de l'exercice physique. [Utilisez ceci avec deux Leçons apprises pour gagner plus de Santé.]",
+            slots: [
+                {
+                    id: "Santé",
+extends: ["Santé"],
+                    
+                    description: "Je dois y consacrer mon énergie.",
+                    
+                },
+                {
+                    id: "V1",
+extends: ["V1"],
+                    
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Suis-je prêt à devenir plus fort ?",
+                    
+                },
+                {
+                    id: "V2",
+extends: ["V2"],
+                    
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Suis-je prêt à devenir plus fort ?",
+                    
+                },
+
+            ],
+            
+        },
+        {
+            id: "skillhealthb",
+extends: ["skillhealthb"],
+            label: "Compétence: un Physique endurci",
+            description: "Vous ne le savez peut-être pas en me regardant, mais je suis devenu fort comme un forgeron ou un soldat. [Utilisez ceci avec trois Leçons apprises pour gagner plus de Santé.]",
+            
+            
+            slots: [
+                {
+                    id: "Santé",
+extends: ["Santé"],
+                    
+                    description: "Je dois y consacrer mon énergie.",
+                    
+                },
+                {
+                    id: "V1",
+extends: ["V1"],
+                    
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Dois-je encore me renforcer ? [Utilisez ceci avec trois Leçons apprises pour gagner plus de Santé.]",
+                    
+                },
+                {
+                    id: "V2",
+extends: ["V2"],
+                    
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Dois-je encore me renforcer ?",
+                    
+                },
+                {
+                    id: "V3",
+extends: ["V3"],
+                    
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Dois-je encore me renforcer ?",
+                    
+                }
+            ],
+        },
+        {
+            id: "skillhealthc",
+extends: ["skillhealthc"],
+            label: "Compétence: un Physique d'acier",
+            description: "Il y a maintenant beaucoup de choses que je pourrais écraser de mes poings. [Utilisez ceci avec quatre Leçons apprises pour gagner plus de Santé.]",
+            
+            slots: [
+                {
+                    id: "Santé",
+extends: ["Santé"],
+                    
+                    description: "Je dois y consacrer mon énergie.",
+                    
+                },
+                {
+                    id: "specialisation",
+extends: ["specialisation"],
+                    
+                    label: "Quelque chose de plus",
+                    
+                    description: "Si je connais la bonne Croyance, je peux utiliser les arts invisibles pour aller encore plus loin. Je dois choisir entre la force et la grâce.",
+                    
+                },
+                {
+                    id: "V1",
+extends: ["V1"],
+                    
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Pourrais-je devenir encore plus sain ? [Utilisez ceci avec quatre Leçons apprises pour gagner plus de Santé.]",
+                    
+                },
+                {
+                    id: "V2",
+extends: ["V2"],
+                    
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Pourrais-je devenir encore plus sain ?",
+                    
+                },
+                {
+                    id: "V3",
+extends: ["V3"],
+                    
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Pourrais-je devenir encore plus sain ?",
+                    
+                },
+                {
+                    id: "V4",
+extends: ["V4"],
+                    
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Pourrais-je devenir encore plus sain ?",
+                    
+                }
+            ],
+        },
+        {
+            id: "skillhealthd_strength",
+extends: ["skillhealthd_strength"],
+            label: "Compétence: un Physique incomparable",
+            description: "Je me déplace comme une montagne et je frappe comme le ciel. 'Maîtriser les autres, c'est la force. Se maîtriser soi-même, c'est la puissance.' [La Santé et la Compétence ne peuvent pas s'accroître davantage.]",
+            
+            slots: [
+                {
+                    id: "Santé",
+extends: ["Santé"],
+                    
+                    description: "Je dois y consacrer mon énergie.",
+                    
+                }
+            ],
+        },
+        {
+            id: "skillhealthd_grace",
+extends: ["skillhealthd_grace"],
+            label: "Compétence: un Physique sans faille",
+            description: "Une machine parfaite. Des muscles d'ivoire sous une peau de satin. 'D'ici, je ne peux que me dégrader.' [La Santé et la Compétence ne peuvent pas s'accroître davantage.]",
+            
+            slots: [
+                {
+                    id: "Santé",
+extends: ["Santé"],
+                    
+                    description: "Je dois y consacrer mon énergie.",
+                    
+                }
+            ],
+        },
+
+
+        {
+            id: "skillreasona",
+extends: ["skillreasona"],
+            label: "Compétence: Savoirs",
+            
+            description: "Je déborde de citations intelligentes. [Utilisez ceci avec deux Leçons apprises pour gagner plus de Raison.]",
+            slots: [
+                {
+                    id: "e1",
+extends: ["e1"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Dois-je me remplir l'esprit de plus de connaissances ?",
+                    
+                },
+                {
+                    id: "e2",
+extends: ["e2"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Dois-je me remplir l'esprit de plus de connaissances ?",
+                    
+                },
+            ],
+            
+        },
+        {
+            id: "skillreasonb",
+extends: ["skillreasonb"],
+            label: "Compétence: Savoirs remarquables",
+            description: "J'ai assez appris pour savoir le peu que je sais. [Utilisez ceci avec trois Leçons apprises pour gagner plus de Raison.]",
+            
+            
+            slots: [
+                {
+                    id: "e1",
+extends: ["e1"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Pourrais-je en apprendre davantage ?",
+                    
+                },
+                {
+                    id: "e2",
+extends: ["e2"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Pourrais-je en apprendre davantage ?",
+                    
+                },
+                {
+                    id: "e3",
+extends: ["e3"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Pourrais-je en apprendre davantage ?",
+                    
+                },
+            ],
+        },
+        {
+            id: "skillreasonc",
+extends: ["skillreasonc"],
+            label: "Compétence: Savoirs approfondis",
+            description: "Mon crâne grince avec toutes les connaissances que j'ai acquises. [Utilisez ceci avec quatre Leçons apprises pour gagner plus de Raison.]",
+            
+            slots: [
+                {
+                    id: "specialisation",
+extends: ["specialisation"],
+                    
+                    label: "Quelque chose de plus",
+                    
+                    description: "Si je connais la bonne Croyance, je peux utiliser les arts invisibles pour aller encore plus loin. Je dois choisir entre l'illumination et la concentration.",
+                    
+                },
+                {
+                    id: "e1",
+extends: ["e1"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Puis-je affûter davantage ma Raison ?",
+                    
+                },
+                {
+                    id: "e2",
+extends: ["e2"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Puis-je affûter davantage ma Raison ?",
+                    
+                },
+                {
+                    id: "e3",
+extends: ["e3"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Puis-je affûter davantage ma Raison ?",
+                    
+                },
+                {
+                    id: "e4",
+extends: ["e4"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Puis-je affûter davantage ma Raison ?",
+                    
+                }
+            ],
+        },
+        {
+            id: "skillreasond_illumination",
+extends: ["skillreasond_illumination"],
+            label: "Compétence: un esprit rare",
+            description: "Mon esprit est de verre, et ma mémoire est légère. [La Raison et la Compétence ne peuvent pas s'accroître davantage.]",
+            
+            
+        },
+        {
+            id: "skillreasond_concentration",
+extends: ["skillreasond_concentration"],
+            label: "Compétence: une intensité silencieuse",
+            description: "Cette immobilité glaciale est l'immobilité de la certitude. [La Raison et la Compétence ne peuvent pas s'accroître davantage.]",
+            
+            
+        },
+
+
+        {
+            id: "skillpassiona",
+extends: ["skillpassiona"],
+            label: "Compétence: une imagination débordante",
+            
+            description: "Mes rêveries dépassent parfois mes rêves. [Utilisez ceci avec Travail pour Peindre, ou avec Étude et deux Leçons apprises pour gagner plus de Passion.]",
+            slots: [
+                {
+                    id: "G1",
+extends: ["G1"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Suis-je prêt à nourrir davantage mes passions ?",
+                    
+                },
+                {
+                    id: "G2",
+extends: ["G2"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Suis-je prêt à nourrir davantage mes passions ?",
+                    
+                },
+                {
+                    id: "painting1",
+extends: ["painting1"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                },
+                {
+                    id: "painting2",
+extends: ["painting2"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                }
+            ],
+            
+        },
+        {
+            id: "skillpassionb",
+extends: ["skillpassionb"],
+            label: "Compétence: une imagination débridée",
+            description: "Il m'est arrivé de casser six crayons en une journée. [Utilisez ceci avec Travail pour Peindre, ou avec Étude et trois Leçons apprises pour gagner plus de Passion.]",
+            
+            
+            slots: [
+                {
+                    id: "G1",
+extends: ["G1"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Que pourrais-je voir, que pourrais-je être ? [Utilisez ceci avec trois Leçons apprises pour gagner plus de Passion.]",
+                    
+                },
+                {
+                    id: "G2",
+extends: ["G2"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Que pourrais-je voir, que pourrais-je être ?",
+                    
+                },
+                {
+                    id: "G3",
+extends: ["G3"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Que pourrais-je voir, que pourrais-je être ?",
+                    
+                },
+                {
+                    id: "painting1",
+extends: ["painting1"],
+                    label: "L'art ou le Pain",
+                    description : "Je peux employer la passion pour faire le meilleur travail possible; où, si j'ai une réputation, je peux peindre quelque chose pour gagner de l'attention.",
+                    
+                },
+                {
+                    id: "painting2",
+extends: ["painting2"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                },
+                {
+                    id: "painting3",
+extends: ["painting3"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                }
+            ],
+        },
+        {
+            id: "skillpassionc",
+extends: ["skillpassionc"],
+            label: "Compétence: une imagination fébrile",
+            description: "Les fantômes chevauchent mon esprit éveillé. [Utilisez ceci avec quatre Leçons apprises pour gagner plus de Passion.]",
+            
+            slots: [
+                {
+                    id: "specialisation",
+extends: ["specialisation"],
+                    
+                    label: "Quelque chose de plus",
+                    
+                    description: "Si je connais la bonne Croyance, je peux utiliser les arts invisibles pour aller encore plus loin. Je dois choisir entre la déraison et la folie.",
+                    
+                },
+                {
+                    id: "G1",
+extends: ["G1"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Quelles visions furieuses reste-t-il ? [Utilisez ceci avec Travail pour Peindre, ou avec Étude et quatre Leçons apprises pour gagner plus de Passion.]",
+                    
+                },
+                {
+                    id: "G2",
+extends: ["G2"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Quelles visions furieuses reste-t-il ?",
+                    
+                },
+                {
+                    id: "G3",
+extends: ["G3"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Quelles visions furieuses reste-t-il ?",
+                    
+                },
+                {
+                    id: "G4",
+extends: ["G4"],
+                    label: "Une leçon apprise",
+                    
+                    
+                    description: "Quelles visions furieuses reste-t-il ?",
+                    
+                },
+                {
+                    id: "painting1",
+extends: ["painting1"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                },
+                {
+                    id: "painting2",
+extends: ["painting2"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                },
+                {
+                    id: "painting3",
+extends: ["painting3"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                },
+                {
+                    id: "painting4",
+extends: ["painting4"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                }
+            ],
+        },
+
+        {
+            id: "skillpassiond_unreason",
+extends: ["skillpassiond_unreason"],
+            label: "Compétence: Jamais-Plus",
+            description: "Plus, plus, plus, plus, pl... - [Passion et Compétence ne peuvent pas s'accroître davantage.]",
+            
+            slots: [
+                {
+                    id: "painting1",
+extends: ["painting1"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                },
+                {
+                    id: "painting2",
+extends: ["painting2"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                },
+                {
+                    id: "painting3",
+extends: ["painting3"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention",
+                    
+                },
+                {
+                    id: "painting4",
+extends: ["painting4"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                }
+            ],
+            
+
+        },
+        {
+            id: "skillpassiond_folly",
+extends: ["skillpassiond_folly"],
+            label: "Compétence: une Âme Libre",
+            description: "'Voici qu'ils se tiennent à ma porte et frappent ; 'si j'entends quelque voix, j'ouvrirai la porte, ils entreront chez moi, ils souperont avec eux et ils seront avec moi'. [La Passion et la Compétence ne peuvent pas s'accroître davantage.]",
+            
+            slots: [
+                {
+                    id: "painting1",
+extends: ["painting1"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                },
+                {
+                    id: "painting2",
+extends: ["painting2"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                },
+                {
+                    id: "painting3",
+extends: ["painting3"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                },
+                {
+                    id: "painting4",
+extends: ["painting4"],
+                    label: "L'art ou le Pain",
+                    
+                    description: "Je peux employer la Passion pour faire le meilleur travail possible ; ou si j'ai une réputation, je peux peindre quelque chose pour attirer l'attention.",
+                    
+                }
+            ],
+            
+        },
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "recipes": [
+        {
+            id: "translatehint",
+extends: ["translatehint"],
+            label: "Tenter de traduire un texte ?",
+            
+            
+            startdescription: "Si j'ai un texte dans cette langue, je peux commencer à le traduire.",
+            
+            
+        },
+        {
+            id: "translate",
+extends: ["translate"],
+            label: "Commencer la traduction d'un texte",
+            
+            
+            startdescription: "Verrouillez la porte de l'étude. Le travail commence. ",
+            description: "J'ai préparé le texte pour qu'il soit étudié.",
+            
+            
+        }
+    ]
+}

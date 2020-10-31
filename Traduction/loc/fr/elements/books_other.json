@@ -1,0 +1,27 @@
+{
+    "elements": [
+        {
+            id: "textbookreason",
+extends: ["textbookreason"],
+            label: "Un recueil d'essais",
+            
+            description: "Si l'esprit est une lame, ceci est une pierre à aiguiser. [Étudier pour obtenir une Érudition: Leçon apprise, que vous pourrez peut-être utiliser pour augmenter la Raison.]"
+        },
+        {
+            id: "textbookpassion",
+extends: ["textbookpassion"],
+            label: "Un recueil de poésie",
+            
+            description: "'Le poète se fait voyant par un immense, long et délibéré dérèglement de tous les sens...' Le contraire de la sagesse, heureusement. [Étudiez pour obtenir un Scintillement: Leçon apprise, que vous pourrez peut-être utiliser pour augmenter la passion.]"
+        },
+        {
+            id: "genericrubbishbook",
+extends: ["genericrubbishbook"],
+            label: "Quelque chose de profondement mysterieux",
+            
+            description: "Un affreux soufflé de rumeurs à moitié digérées sur les 'Mondes secrets' et la non-pertinence de la morale contemporaine, incluant un catalogue de débauches improbables, et probablement inventées. [Si je l'ai acheté dans un magasin, cela signifie probablement qu'il ne reste plus rien d'intéressant en stock.]."
+        }
+
+
+    ]
+}

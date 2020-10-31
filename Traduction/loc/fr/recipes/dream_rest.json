@@ -1,0 +1,221 @@
+{
+    "recipes": [
+
+
+
+        {
+            id: "dream.poison.fascination.longlesson.trap",
+extends: ["dream.poison.fascination.longlesson.trap"],
+            
+            label: "Un ennemi toujours vigilant",
+            startdescription: "Notre ennemi a appris de mes rêves.",
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "dreamhealth",
+extends: ["dreamhealth"],
+            label: "Tôt dans la nuit",
+            
+            
+            
+            
+            startdescription: "Avec un peu de chance, je me réveillerai en pleine forme. [Parfois, cela apportera du Contentement. Souvent, cela ne fera rien. Parfois, cela créera de la Peur ou de la Fascination.]",
+            description: "Quelquefois, j'ai rêvé d'une grande femme avec un manteau couleur sable, qui se tient au pied du lit, souriant en me regardant dormir. Dans ce rêve, elle tourne la tête avec la rapidité d'un oiseau, et ses doigts fléchissent comme des serres. Je ne crois pas avoir rêvé d'elle la nuit dernière. Si je l'avais fait, je n'aurais pas pu dormir aussi profondément.",
+            
+            
+        },
+        {
+            id: "dreamhealthcontentment",
+extends: ["dreamhealthcontentment"],
+            label: "Tôt dans la nuit",
+            
+            
+            description: "Le sommeil est un long océan sombre, mais parfois, lorsque nous atteignons le rivage le plus éloigné, il y a la lumière d'une lampe.",
+            
+        },
+        {
+            id: "dreamhealthdread",
+extends: ["dreamhealthdread"],
+            label: "Tôt dans la nuit",
+            
+            
+            description: "Au pays des deux rivières, à l'époque de Rimush et de Naram-Sin, on racontait l'histoire d'une femme hurlante qui dévorait les enfants d'autres mères. La nuit dernière, il y avait des hurlements dans mes rêves.",
+            
+        },
+        {
+            id: "dreamhealthfascination",
+extends: ["dreamhealthfascination"],
+            label: "Tôt dans la nuit",
+            
+            
+            description: "Imaginez une boîte de miroirs, où chaque miroir contient une lumière plus douce. Imaginez maintenant que dans le septième miroir, il n'y a qu'une aube ordinaire, un lit ordinaire, les débuts ternes d'une journée ordinaire. Imaginez cela, et aspirez à la lumière.",
+            
+        },
+        {
+            id: "recoverhunger",
+extends: ["recoverhunger"],
+            label: "Reprendre des forces",
+            
+            
+            
+            
+            startdescription: "J'ai passé un certain temps sans nourriture. Je dois manger avec précaution.",
+            description: "Mes forces reviennent. L'obscurité aux coins de ma vision a disparu.",
+            
+            
+        },
+        {
+            id: "recoverfatigue",
+extends: ["recoverfatigue"],
+            label: "Une sieste pour se remettre de la Fatigue",
+            
+            
+            
+            startdescription: "J'ai juste besoin d'un peu de temps pour récupérer mes forces.",
+            description: "Je suis revigoré.",
+            
+            
+        },
+
+        {
+            id: "recover.apostlegrail.pillar2",
+extends: ["recover.apostlegrail.pillar2"],
+            
+            label: "Le rêve de la fin",
+            startdescription: "Je consomme la petite fiole de sang, je m'allonge, je ferme les yeux. Demain, je serai plus fort.",
+            description: "Je suis bien remis - plus que cela - je suis somptueux. La sclère de mes yeux, les veines de mes poignets, nagent avec de magnifiques sérums. Quand la Vitulation arrivera, je serai la pièce maîtresse, pour notre Délice, pour prouver leur appétit, pour mettre en scène le Graal.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "recoverillhealthfunds",
+extends: ["recoverillhealthfunds"],
+            label: "Santé",
+            
+            
+            
+            
+            startdescription: "Le médicament est sombre et amer comme du goudron. Il serait facile de soupçonner que je suis empoisonné.",
+            description: "La chambre du malade est petite et sent le renfermé. Il est temps de se lever.",
+            
+            
+        },
+        {
+            id: "recoverillhealthfundsvitality",
+extends: ["recoverillhealthfundsvitality"],
+            label: "Santé",
+            
+            
+            
+            
+            startdescription: "Tout ce dont j'ai besoin maintenant, c'est de temps.",
+            description: "La chambre du malade est petite et sent le renfermé. Il est temps de se lever.",
+            
+            
+        },
+
+        {
+            id: "reducedread",
+extends: ["reducedread"],
+            label: "Se libérer l'esprit",
+            
+            
+            
+            startdescription: "Je me souviens que j'étais différent, avant.",
+            description: "Le soleil bouge encore. Le vent marche encore. Mes carnets sont la clé du labyrinthe.",
+            
+            
+        },
+
+        {
+            id: "reducefascination",
+extends: ["reducefascination"],
+            label: "Sang-froid",
+            
+            
+            
+            startdescription: ".",
+            description: "L'air est devenu poisseux. Je suis de nouveau chez moi, dans cette chair grumeleuse. Meilleur, peut-être.",
+            
+            
+        },
+
+        {
+            id: "reducefascinationfleeting",
+extends: ["reducefascinationfleeting"],
+            label: "Sang-froid",
+            
+            
+            
+            startdescription: ".",
+            description: "L'air est devenu poisseux. Je suis de nouveau chez moi, dans cette chair grumeleuse. Meilleur, peut-être.",
+            
+            
+        },
+
+
+
+        {
+            id: "dreamfunds",
+extends: ["dreamfunds"],
+            label: "Acheter une teinture d'opium",
+            
+            
+            
+            startdescription: "En période de crise exceptionnelle, il m'arrive de me rendre chez un pharmacien discret, pour acheter une teinture d'opium et faire de beaux rêves. Mais seulement en temps de crise. [C'est une façon coûteuse et risquée de gagner du Contentement. Cela peut provoquer de la Maladie ou du Désespoir.]",
+            description: "Oh, cette paix profonde. Mais je ne devrais pas recommencer.",
+            
+            
+            
+        },
+
+        {
+            id: "dream.decrepitude",
+extends: ["dream.decrepitude"],
+            
+            label: "Mesures désespérées",
+            startdescription: "Mon âme hante ma chair défaillante comme un bruissement de marécage. Mon coeur ralentit, et un jour il cessera. Peut-être que si je consommais une substance exotique, il pourrait retrouver la force perdue. Mais cela semble peu probable.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "dream.decrepitude.ingredientheartf",
+extends: ["dream.decrepitude.ingredientheartf"],
+            
+            label: "La décapitation de Januarius",
+            startdescription: "A la faible odeur de rouille du sang, mon coeur bondit, douloureux comme un lever de soleil perçant.",
+            description: "Saint Janvier a ouvert la porte des ans et la porte des agonies, et par cette double porte, la douleur et l'histoire fuient.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "dream.decrepitude.failure",
+extends: ["dream.decrepitude.failure"],
+            
+            label: "Rien que le goût le plus étrange",
+            startdescription: "Mon coeur bat la chamade. Je n'ai obtenu aucun avantage - sauf, je suppose, des connaissances durement acquises.",
+            
+        }
+
+
+
+    ]
+}

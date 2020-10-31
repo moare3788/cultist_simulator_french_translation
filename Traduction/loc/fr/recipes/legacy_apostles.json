@@ -1,0 +1,219 @@
+{
+    "recipes": [
+        {
+            id: "workapostleforgejob",
+extends: ["workapostleforgejob"],
+            label: "Examiner mes ressources",
+            
+            
+            
+            
+            startdescription: "Notre organisation dispose d'assez de ressources...",
+            description: "...pour un certain temps, mais je devrai trouver d'autres moyens de financement.",
+            
+            
+        },
+
+        {
+            id: "apostleforgeopentalk",
+extends: ["apostleforgeopentalk"],
+            label: "Notre cause",
+            
+            
+            startdescription: "Je ne suis pas seul.",
+            
+            description: "Mes alliés ; mon façonneur.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "apostleforgeopenstudy",
+extends: ["apostleforgeopenstudy"],
+            label: "De quoi est-ce que je me rappelle ?",
+            
+            startdescription: "On m'a confié des secrets.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "apostleforgeopenexplore",
+extends: ["apostleforgeopenexplore"],
+            label: "Un point de départ",
+            
+            startdescription: "Où en étions-nous ?",
+            description: "Dans notre lieu de rencontre, je vais examiner les ordres qui m'ont été donnés.",
+            
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "apostleforgeopendream",
+extends: ["apostleforgeopendream"],
+            label: "Tonnerre au loin",
+            
+            startdescription: "Que va-t-il se passer ? Qui va venir ?",
+            description: "Notre Façonneur souhaite changer l'ordre du monde, et même celui du Mansus. Il y aura une opposition.",
+            
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "workapostlegrailjob",
+extends: ["workapostlegrailjob"],
+            label: "Examiner mes ressources",
+            
+            
+            
+            
+            startdescription: "Notre organisation dispose d'assez de ressources...",
+            description: "...pour un certain temps, mais je devrai trouver d'autres moyens de financement. Et ma santé est maintenant très mauvaise. Je ne peux qu'espérer que notre Délice me soutiendra.",
+            
+            
+        },
+
+        {
+            id: "apostlegrailopentalk",
+extends: ["apostlegrailopentalk"],
+            label: "Notre cause",
+            
+            
+            startdescription: "Je ne suis pas seul.",
+            
+            description: "Mes alliés ; mon Délice.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "apostlegrailopenstudy",
+extends: ["apostlegrailopenstudy"],
+            label: "De quoi est-ce que je me rappelle ?",
+            
+            startdescription: "On m'a confié des secrets.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "apostlegrailopenexplore",
+extends: ["apostlegrailopenexplore"],
+            label: "Un point de départ",
+            
+            startdescription: "Où en étions-nous ?",
+            description: "Dans notre lieu de rencontre, je vais examiner les ordres qui m'ont été donnés.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "apostlegrailopendream",
+extends: ["apostlegrailopendream"],
+            label: "Lumière au loin",
+            
+            startdescription: "Que va-t-il se passer ? Qui va venir ?",
+            description: "Notre Délice souhaite changer l'ordre du monde, et même celui du Mansus. Il y aura une opposition.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "workapostlelanternjob",
+extends: ["workapostlelanternjob"],
+            label: "Ce que je dois faire",
+            
+            
+            
+            
+            startdescription: "Je reviens à moi avec un paquet. Est-ce une journée de rêve ?",
+            description: "Un paquet, avec des Fonds. Voici mes instructions, dans une mince enveloppe bleu ciel. C'est suffisant. Mes autres souvenirs ne sont pas utiles pour le moment.",
+            
+            
+        },
+
+        {
+            id: "apostlelanternopentalk",
+extends: ["apostlelanternopentalk"],
+            label: "Notre cause",
+            
+            
+            startdescription: "Je me souviens de ces noms, même si je ne les ai jamais entendus.",
+            
+            description: "Mes alliés ; mon Illuminé.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "apostlelanternopenstudy",
+extends: ["apostlelanternopenstudy"],
+            label: "De quoi est-ce que je me rappelle ?",
+            
+            startdescription: "On m'a confié des secrets.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "apostlelanternopenexplore",
+extends: ["apostlelanternopenexplore"],
+            label: "Un point de départ",
+            
+            startdescription: "Où en étions-nous ?",
+            description: "C'est l'endroit que j'ai vu, dans la lumière au bord du sommeil.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "apostlelanternopendream",
+extends: ["apostlelanternopendream"],
+            label: "Lumière au loin",
+            
+            startdescription: "Que va-t-il se passer ? Qui va venir ?",
+            description: "Mes rêves me prévenaient qu'il y aurait une opposition à l'Illuminé. Tous les rêves qui m'ont été envoyés sont vrais.",
+            
+            
+            
+            
+        },
+
+
+
+    ]
+}

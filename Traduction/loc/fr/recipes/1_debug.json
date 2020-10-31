@@ -1,0 +1,489 @@
+{
+    "recipes": [
+
+        {
+            id: "internaldecktest",
+extends: ["internaldecktest"],
+            
+            label: "x",
+            startdescription: "?",
+            description: "!",
+            
+        },
+
+
+
+        {
+            id: "bi",
+extends: ["bi"],
+            
+            label: "map",
+            startdescription: "map",
+            
+            
+        },
+
+
+        {
+            id: "droo",
+extends: ["droo"],
+            
+            label: "Order Sushi from Deliveroo",
+            startdescription: "This will bring delicious sushi straight to your door in a few minutes. The best thing about it is that you'll receive constant updates on the location of your sushi!",
+            description: "This will bring delicious sushi straight to your door in a few minutes. The best thing about it is that you'll receive constant updates on the location of your sushi!",
+
+            slots: [
+                {
+                    id: "funds",
+extends: ["funds"],
+                    label: "Order",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "droostart",
+extends: ["droostart"],
+            
+            
+            label: "The Restaurant Is Preparing Your Order",
+            startdescription: "Mm, sushi!",
+            
+            
+        },
+
+        {
+            id: "droogo",
+extends: ["droogo"],
+            
+            
+            
+        },
+
+
+        {
+            id: "droogosickness",
+extends: ["droogosickness"],
+            
+            label: "Your Rider Is Waiting At The Restaurant",
+            startdescription: "Not long now!",
+            
+            
+            
+            
+        },
+        {
+            id: "droogodespair",
+extends: ["droogodespair"],
+            
+            label: "Assigning a Rider to your Order",
+            startdescription: "Wonder who it'll be?",
+            
+            
+            
+            
+        },
+        {
+            id: "droogovisions",
+extends: ["droogovisions"],
+            
+            label: "A Rider Has Been Assigned To Your Order",
+            startdescription: "Cool! They should be at the restaurant soon.",
+            
+            
+            
+            
+        },
+        {
+            id: "droogoambition",
+extends: ["droogoambition"],
+            
+            label: "Your Rider Is Waiting At The Restaurant",
+            startdescription: "Cool! It must be nearly on its way.",
+            
+            
+            
+            
+        },
+        {
+            id: "droogoardours",
+extends: ["droogoardours"],
+            
+            label: "A Call From A Deliveroo Support Person?",
+            startdescription: "They say the restaurant said I wanted to cancel my order? Weird. No matter - I told them I don't want to cancel, and I'm sure it'll be okay.",
+            
+            
+            
+            
+        },
+        {
+            id: "droogosuspicion",
+extends: ["droogosuspicion"],
+            
+            label: "A Rider Has Been Assigned To Your Order",
+            startdescription: "Cool! They should be at the restaurant soon.",
+            
+            
+            
+            
+        },
+        {
+            id: "droogosilence",
+extends: ["droogosilence"],
+            
+            label: "'Your Order Has Been Cancelled",
+            startdescription: "Here's your money back! We apologise for any inconvenience caused. If you'd like to try again, it'll be £15 cheaper next time!'",
+            
+            
+            
+        },
+
+        {
+            id: "debugsnare",
+extends: ["debugsnare"],
+            
+            label: "Create Great Snares",
+
+            
+            
+            
+        },
+        {
+            id: "debugsnareaddmutation",
+extends: ["debugsnareaddmutation"],
+            
+            label: "Create Great Snares+",
+
+            
+            
+        },
+
+
+        {
+            id: "_testexpelled",
+extends: ["_testexpelled"],
+            
+            startdescription: "test expelled",
+            description: "end test expelled",
+            
+        },
+        {
+            id: "_testmutations",
+extends: ["_testmutations"],
+            label: "Testing mutation",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "_adeptskit",
+extends: ["_adeptskit"],
+            label: "Adept's Kit",
+            
+            
+            
+        },
+        {
+            id: "_memoryvault",
+extends: ["_memoryvault"],
+            label: "Retrieve stored things",
+            
+            
+            startdescription: "This is what we had:",
+            
+            
+        },
+        {
+            id: "_ascensionending",
+extends: ["_ascensionending"],
+            label: "Display Ascension Ending",
+            
+            
+            
+            startdescription: "Here I go",
+            description: "Ending text coming",
+            
+            
+            
+        },
+        {
+            id: "_arrest",
+extends: ["_arrest"],
+            label: "Display Imprisonment Ending",
+            
+            
+            startdescription: "Here I go",
+            description: "Ending text coming",
+            
+            
+            
+        },
+        {
+            id: "_mansustest",
+extends: ["_mansustest"],
+            label: "Test Mansus effect",
+            
+            
+            
+            startdescription: "Mansus entry will occur on completion",
+            description: "Mansus entry occurs as this appears",
+            
+            
+            
+        },
+        {
+            id: "_mansusteststag",
+extends: ["_mansusteststag"],
+            label: "Test Mansus effect",
+            
+            
+            
+            startdescription: "Mansus entry will occur on completion",
+            description: "Mansus entry occurs as this appears",
+            
+            
+            
+        },
+        {
+            id: "_mansustestpeacock",
+extends: ["_mansustestpeacock"],
+            label: "Test Mansus effect",
+            
+            
+            
+            startdescription: "Mansus entry will occur on completion",
+            description: "Mansus entry occurs as this appears",
+            
+            
+            
+        },
+        {
+            id: "_mansustestgate",
+extends: ["_mansustestgate"],
+            label: "Test Mansus effect",
+            
+            
+            
+            startdescription: "Mansus entry will occur on completion",
+            description: "Mansus entry occurs as this appears",
+            
+            
+            
+        },
+        {
+            id: "_mansustestspider",
+extends: ["_mansustestspider"],
+            label: "Test Mansus effect",
+            
+            
+            
+            startdescription: "Mansus entry will occur on completion",
+            description: "Mansus entry occurs as this appears",
+            
+            
+            
+        },
+        {
+            id: "_mansustestwhite",
+extends: ["_mansustestwhite"],
+            label: "Test Mansus effect",
+            
+            
+            
+            startdescription: "Mansus entry will occur on completion",
+            description: "Mansus entry occurs as this appears",
+            
+            
+            
+        },
+        {
+            id: "_mansustest2",
+extends: ["_mansustest2"],
+            label: "Test Mansus effect for door",
+            
+            
+            
+            startdescription: "Mansus entry will occur on completion",
+            description: "Mansus entry occurs as this appears",
+            
+            
+            
+        },
+        {
+            id: "_dream",
+extends: ["_dream"],
+            label: "Create Dream token",
+            
+            
+            
+            startdescription: ".",
+            description: "...",
+            
+            
+        },
+        {
+            id: "_study",
+extends: ["_study"],
+            label: "Create study token",
+            
+            
+            
+            startdescription: ".",
+            description: "...",
+            
+            
+        },
+        {
+            id: "_talk",
+extends: ["_talk"],
+            label: "Create talk token",
+            
+            
+            
+            startdescription: ".",
+            description: "...",
+            
+            
+        },
+
+        {
+            id: "_explore",
+extends: ["_explore"],
+            label: "Create explore token",
+            
+            
+            
+            startdescription: ".",
+            description: "...",
+            
+            
+        },
+        {
+            id: "testdeathcountdown",
+extends: ["testdeathcountdown"],
+            label: "No Health is left",
+            
+            
+            
+            startdescription: "My life is slipping away -",
+            description: "Where will they find me? I am not here.",
+            
+        },
+        {
+            id: "testemptyresults",
+extends: ["testemptyresults"],
+            label: "'In so far as one denies what is, one is possessed by what is not.' - Le Guin",
+            
+            
+            startdescription: "test empty coming up -",
+            description: "Nothing here, verb stuck open.",
+            
+            
+        },
+        {
+            id: "wolfatthedooreats_work",
+extends: ["wolfatthedooreats_work"],
+            label: "Here is the Wolf",
+            
+            
+            
+            startdescription: "We hear his howls...",
+            description: "...and then his growls.",
+            
+            
+        },
+        {
+            id: "wolfatthedooreats_dream",
+extends: ["wolfatthedooreats_dream"],
+            label: "Here is the Wolf",
+            
+            
+            
+            startdescription: "We hear his howls...",
+            description: "...and then his growls.",
+            
+            
+        },
+
+        {
+            id: "wolfatthedooreats_study",
+extends: ["wolfatthedooreats_study"],
+            label: "Here is the Wolf",
+            
+            
+            
+            startdescription: "We hear his howls...",
+            description: "...and then his growls.",
+            
+            
+        },
+
+        {
+            id: "wolfatthedooreats_explore",
+extends: ["wolfatthedooreats_explore"],
+            label: "Here is the Wolf",
+            
+            
+            
+            startdescription: "We hear his howls...",
+            description: "...and then his growls.",
+            
+            
+        },
+
+        {
+            id: "wolfatthedooreats_talk",
+extends: ["wolfatthedooreats_talk"],
+            label: "Here is the Wolf",
+            
+            
+            
+            startdescription: "We hear his howls...",
+            description: "...and then his growls.",
+            
+            
+        },
+
+      
+        {
+            id: "_long.dreamconfrontation",
+extends: ["_long.dreamconfrontation"],
+            
+            startdescription: "Let's fight in the Mansus",
+            
+            
+            
+
+        },
+        {
+            id: "_long.dreamconfrontation.skillup",
+extends: ["_long.dreamconfrontation.skillup"],
+            
+            startdescription: "Let's skill up the Long first",
+            
+            
+            
+
+        },
+
+
+
+        {
+            id: "_ghoulmemories",
+extends: ["_ghoulmemories"],
+            
+            label: "MEMORIES",
+            startdescription: "ALL ALONE IN THE A BYSS",
+            
+            
+        }
+
+
+    ]
+}

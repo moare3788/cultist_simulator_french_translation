@@ -1,0 +1,1336 @@
+{
+    "recipes": [
+
+        {
+            id: "talktofollower_attemptheal",
+extends: ["talktofollower_attemptheal"],
+            label: "Tenter de guérir un Adepte",
+            
+            startdescription: "Compassion ou facilité ?",
+            description: "Je ne pouvais ou ne voulais pas fournir d'assistance médicale.",
+            
+            slots: [
+                {
+                    id: "Healing",
+extends: ["Healing"],
+                    label: "Soigner",
+                    description: "Les Fonds permettront d'acheter des médicaments.",
+                    
+                }
+            ],
+            
+            
+            
+        },
+        {
+            id: "talktofollower_heal",
+extends: ["talktofollower_heal"],
+            label: "Achever la guérison d'un Adepte",
+            startdescription: "Peut-être que maintenant, il survivra. Mais il y a des limites à ce que le corps humain peut supporter.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "givescar_edge",
+extends: ["givescar_edge"],
+            
+            label: "Les leçons de l'expérience",
+            description: "The wound is healed. The scar remains. But each scar, as the scholar Shulga once observed, is a lesson.",
+            
+            
+        },
+        {
+            id: "givescar_knock",
+extends: ["givescar_knock"],
+            label: "La Porte de la douleur",
+            
+            description: "La blessure est guérie - autant qu'elle le sera jamais. Une porte de la douleur et de l'éventualité demeure.",
+            
+            
+        },
+        {
+            id: "givescar_winter",
+extends: ["givescar_winter"],
+            
+            label: "Le début de la fing",
+            description: "La blessure est cicatrisée, mais celui-ci est passé très près de la mort. Le silence l'a touché, comme la neige.",
+            
+            
+        },
+        {
+            id: "deathscar_edge",
+extends: ["deathscar_edge"],
+            
+            label: "La mort: une défaite",
+            
+            description: "Celui-ci a fait preuve de courage et d'endurance.En fin de compte, cela n'a pas suffi. [Votre adepte a acquis trois cicatrices de Pointe, et est mort.]",
+            
+        },
+        {
+            id: "deathscar_knock",
+extends: ["deathscar_knock"],
+            
+            label: "La mort: une ouverture",
+            
+            description: "Pour fonctionner efficacement, il faut garder son intérieur à l'intérieur, et décourager ce qui est à l'extérieur de rentrer à l'intérieur. Lorsqu'une quantité suffisante de ce qui est à l'intérieur passe à l'extérieur, on n'est plus une entité en activité.[Votre adepte a reçu trois cicatrices de la Clé, et est mort.]",
+            
+        },
+        {
+            id: "deathscar_winter",
+extends: ["deathscar_winter"],
+            
+            label: "La mort: une fin",
+            
+            description: "L'année tourne vers l'Ouest, vers l'Hiver. Celui-ci a choisi de fermer les yeux. [Votre Adepte a reçu trois cicatrices de l'Hiver, et est mort.]",
+            
+        },
+
+
+        {
+            id: "talktofollower",
+extends: ["talktofollower"],
+            label: "Discuter des affaires occultes avec un Adepte",
+            
+            
+            slots: [
+                {
+                    id: "Subject",
+extends: ["Subject"],
+                    label: "Sujet",
+                    description: "Notre culte, pour les affaires du culte; une cible; ou un autre sujet.",
+                    
+                }
+            ],
+            comments: "Nous avons des indices en amont pour le recrutement/la promotion, et nous ne voulons pas que cela passe outre, d'où la limitation de la société.",
+            
+            startdescription: "Des conversations importantes dans une salle de réunion enfumée. Que dois-je attendre de mon Adepte ? [Ajoutez votre culte, pour les envoyer en mission de culte; envoyez-les après des ennemis; ou soulevez une autre question.]",
+            description: "Rien, alors.",
+            
+            
+        },
+
+
+        {
+            id: "talktohireling_rehire",
+extends: ["talktohireling_rehire"],
+            
+            label: "Proposez à ce mercenaire un autre paiement.",
+            
+            startdescription: "Je pourrais payer pour prolonger la période de service de ce mercenaire.",
+            description: "Très bien. Dans les mêmes conditions qu'auparavant.'",
+            
+            
+            
+            
+        },
+
+        {
+            id: "talktodevotee_refire",
+extends: ["talktodevotee_refire"],
+            
+            label: "Redonner la foi à ce fidèle.",
+            
+            startdescription: "Si la foi de mes fidèles vacille, je peux utiliser la Ferveur pour enflammer à nouveau leur enthousiasme.",
+            description: "'Oublieriez-vous vos rêves si rapidement ?'",
+            
+            
+            
+        },
+
+
+        {
+            id: "A_talktofollower_cantgivetool",
+extends: ["A_talktofollower_cantgivetool"],
+            label: "Peu judicieux, ou non autorisé ?",
+            
+            
+            startdescription: "J'ai déjà fait un cadeau à cet Adepte. [Un Adepte ne peut pas recevoir un second cadeau.]",
+        },
+
+        {
+            id: "A_talktofollower_givetool_router",
+extends: ["A_talktofollower_givetool_router"],
+            label: "Offrir un Outil à un Adepte",
+            
+            
+            startdescription: "Le pouvoir passera de mes mains aux siennes. [Cela augmentera l'Aspect correspondant d'un Adepte, mais vous ne pourrez jamais récupérer l'outil, ni lui offrir un deuxième outil. Un cadeau réduira le ressentiment.]",
+            description: ".",
+            
+        },
+
+        {
+            id: "L_give_tool_edgeb",
+extends: ["L_give_tool_edgeb"],
+            label: "Un petit cadeau de Pointe",
+            
+            description: "Autour du cou, sur une bande de tendons de tigre séché.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_edged",
+extends: ["L_give_tool_edged"],
+            label: "Un cadeau significatif de Pointe",
+            
+            description: "A proximité de la main, mais enveloppée pour éviter le contact du sang qui pourrait le stimuler.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_edgef",
+extends: ["L_give_tool_edgef"],
+            label: "Un grand cadeau de Pointe",
+            
+            description: "Enterré quelque part, il ne peut pas inciter à la rébellion.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_forgeb",
+extends: ["L_give_tool_forgeb"],
+            label: "Un petit cadeau de Forge",
+            
+            description: "A conserver: autour du cou, sur une chaîne de fins maillons d'acier.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_forged",
+extends: ["L_give_tool_forged"],
+            label: "Un cadeau significatif de Forge",
+            
+            description: "A conserver: dans un cerceau de fer, fixé à la chair.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_forgef",
+extends: ["L_give_tool_forgef"],
+            label: "Un grand cadeau de Forge",
+            
+            description: "A conserver: dans la lampe d'un sanctuaire privé.",
+            
+            
+            
+        },
+        {
+            id: "L_give_tool_grailmoth",
+extends: ["L_give_tool_grailmoth"],
+            label: "Un petit cadeau de Graal et de Phalène",
+            
+            description: "A conserver: sous le cou, au-dessus de la taille, dans le creux central de la poitrine.",
+            
+            
+            
+        },
+
+
+        {
+            id: "L_give_tool_grailb",
+extends: ["L_give_tool_grailb"],
+            label: "Un petit cadeau de Graal",
+            
+            description: "A conserver: à ne jamais porter en plein jour, et au clair de lune, mais avec la plus grande prudence.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_graild",
+extends: ["L_give_tool_graild"],
+            label: "Un cadeau significatif de Graal",
+            
+            description: "A conserver: dans cet anneau, ma servante tissera ses propres cheveux, pour que son prochain propriétaire les brûle.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_grailf",
+extends: ["L_give_tool_grailf"],
+            label: "Un grand cadeau de Grail",
+            
+            description: "A conserver: dans la cave, à côté du vin plus rare.",
+            
+            
+            
+        },
+
+
+        {
+            id: "L_give_tool_heartb",
+extends: ["L_give_tool_heartb"],
+            label: "Un petit cadeau de Coeur",
+            
+            description: "A porter: dans un bandage, comme un nourrisson bien élevé.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_heartd",
+extends: ["L_give_tool_heartd"],
+            label: "Un cadeau significatif de Coeur",
+            
+            description: "A conserver: enveloppé serré, afin qu'il ne frissonne pas prématurément.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_heartf",
+extends: ["L_give_tool_heartf"],
+            label: "Un grand cadeau de Coeur",
+            
+            description: "A conserver: au-dessus de la cheminée, ou avant le seuil.",
+            
+            
+            
+        },
+
+
+        {
+            id: "L_give_tool_knockb",
+extends: ["L_give_tool_knockb"],
+            label: "Un petit cadeau de Clé",
+            
+            description: "A conserver: autour du cou, sur une longue bande de serpent séché.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_knockd",
+extends: ["L_give_tool_knockd"],
+            label: "Un cadeau significatif de Clé",
+            
+            description: "A conserver: devant la porte qui ne doit pas être ouverte.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_knockf",
+extends: ["L_give_tool_knockf"],
+            label: "Un grand cadeau de Clé",
+            
+            description: "On ne peut pas l'enfermer. Gardez-le dans la main ou sous la langue.",
+            
+            
+            
+        },
+
+
+        {
+            id: "L_give_tool_lanternb",
+extends: ["L_give_tool_lanternb"],
+            label: "Un petit cadeau de Lanterne",
+            
+            description: "A conserver: autour du cou, sur un fil d'or.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_lanternd",
+extends: ["L_give_tool_lanternd"],
+            label: "Un cadeau significatif de Lanterne",
+            
+            description: "Où qu'il soit conservé, il sera visible dans les reflets épars des disciples.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_lanternf",
+extends: ["L_give_tool_lanternf"],
+            label: "Un grand cadeau de Lanterne",
+            
+            description: "A conserver: dans une pièce sans fenêtre, dans laquelle aucune lumière n'est jamais admise.",
+            
+            
+            
+        },
+
+
+        {
+            id: "L_give_tool_mothb",
+extends: ["L_give_tool_mothb"],
+            label: "Un petit cadeau de Phalène",
+            
+            description: "A conserver: dans une touffe de cheveux, dans un pansement, dans une boîte, dans un endroit que nous ne visitons que lorsque nous sommes prêts.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_mothd",
+extends: ["L_give_tool_mothd"],
+            label: "Un cadeau significatif de Phalène",
+            
+            description: "A conserver: sur le visage blanc d'une tête de mannequin, toujours face au mur.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_mothf",
+extends: ["L_give_tool_mothf"],
+            label: "Un grand cadeau de Phalène",
+            
+            description: "A conserver: dans un bol en cuivre rempli d'eau, mélangée à trois gouttes de sang et trois mèches de cheveux, rafraîchie chaque semaine; et une aiguille en fer, afin qu'ils puissent toujours être alignés au nord.",
+            
+            
+            
+        },
+
+
+        {
+            id: "L_give_tool_secrethistoriesb",
+extends: ["L_give_tool_secrethistoriesb"],
+            label: "Un petit cadeau en commemoration des Histoires Secrètes",
+            
+            description: "Parfois, un même objet peut être conservé dans plusieurs endroits.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_secrethistoriesd",
+extends: ["L_give_tool_secrethistoriesd"],
+            label: "Un cadeau significatif en commemoration des Histoires Secrètes",
+            
+            description: "A conserver: entre deux miroirs, sous une lumière qui ne doit pas être éteinte.",
+            
+            
+            
+        },
+
+
+
+        {
+            id: "L_give_tool_winterb",
+extends: ["L_give_tool_winterb"],
+            label: "Un petit cadeau d'Hiver",
+            
+            description: "Gardés dans un endroit silencieux.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_winterd",
+extends: ["L_give_tool_winterd"],
+            label: "Un cadeau significatif d'Hiver",
+            
+            description: "Gardés dans un endroit vide.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_winterf",
+extends: ["L_give_tool_winterf"],
+            label: "Un grand cadeau d'Hiver",
+            
+            description: "Gardé dans un endroit vide et silencieux.",
+            
+            
+            
+        },
+
+        {
+            id: "L_give_tool_other",
+extends: ["L_give_tool_other"],
+            label: "Tous les cadeaux ne conviennent pas",
+            
+            description: "C'est quelque chose qui ne peut pas être donné; ou quelque chose que personne n'accepterait.",
+        },
+
+
+        {
+            id: "A_talktofollower_locationcabaret_lustsensation",
+extends: ["A_talktofollower_locationcabaret_lustsensation"],
+            label: "Invitez-les à une soirée au Club Ecdysis",
+            
+            
+            startdescription: "@#uqrose|Rose sourit. 'Merci. J'aime beaucoup le Club. Mon frère m'y emmenait souvent.' #uqsaliba|Saliba m'examine, des pieds à la tête. Il enroule ses doigts dans la paume de ses mains, dans ses poings, puis les assouplit. 'Bien, ' dit-il.. #uqvictor|Victor fait un clin d'œil. 'Oui, allons-y. Ma soeur aimait bien le Club. Je cherchais une occasion de revenir.' #uqviolet|Violette rit. Le ricanement devient un gloussement ravi qui se termine par une toux. Elle se reprend, et place un doigt sous mon menton, pour me regarder directement dans les yeux. 'Oh, oui,' dit-elle. #uqrenira|Renira ne dit pas un mot. Elle s'étire seulement de façon splendide et se lève pour sortir de la pièce. Mais elle me renvoie un long regard par-dessus son épaule en partant.@",
+            description: "Si je pense à commencer un flirt, alors c'est vraiment l'endroit idéal. Si moi et la personne qui m'accompagne partageons les mêmes sensibilités. [Pour commencer une liaison avec ce personnage, montrez-lui que vos désirs les plus profonds sont partagés.]",
+            
+        },
+
+        {
+            id: "A_talktofollower_locationcabaret_lustchange",
+extends: ["A_talktofollower_locationcabaret_lustchange"],
+            label: "Invitez-les à une soirée au Club Ecdysis",
+            
+            
+            startdescription: "@#uqporter|Porter hausse les épaules en mâchant une racine de réglisse. 'C'est vrai,' dit-il.. #uqysabet|Ysabet penche la tête de manière réfléchie. 'Je pourrais le faire,' dit-elle. Elle hésite le temps d'un battement d'aile de chauve-souris. 'Ce serait magnifique,' ajoute-t-elle. #uqclovette|Clovette tape dans ses mains. J'ai cru que tu ne le demanderais jamais !' #uqdorothy|Dorothy hoche la tête de manière décisive, deux fois, trois fois. 'C'est le moment, ' dit-elle doucement.. #uqsylvia|Sylvia baille. Elle soulève le bord de son cache-oeil pour gratter une démangeaison dans la cavité en dessous. 'Déchirant,' dit-elle d'une voix trainante. #uqleo|Leo baisse la tête. Il me regarde, puis il regarde le sol. 'Je serais ravi,' dit-il, très formellement, en fixant le sol.@",
+            description: "La personne qui m'accompagne a le souffle court lorsqu'il regarde le spectacle sur scène; pas particulièrement lorsque les corps des interprètes sont dénudés, mais surtout lorsque certaines transformations se manifestent. [Pour commencer une liaison avec ce personnage, montrez-lui que vos désirs les plus profonds sont partagés.]",
+            
+        },
+
+        {
+            id: "A_talktofollower_locationstreetsstrange_lustenlightenment",
+extends: ["A_talktofollower_locationstreetsstrange_lustenlightenment"],
+            label: "Invitez-les à parcourir des rues étranges",
+            
+            
+            startdescription: "@#uqauclair|Auclair élève son visage et oriente sa bouche en un sourire clair et lumineux. 'Ravie,' dit-elle.. #uqcat|Cat soulève sa tasse de thé, la boit jusqu'à la lie, incline la tasse pour l'étudier de façon critique. 'Pourquoi pas,' dit-elle. 'Pourquoi pas, en effet.' #uqclifton|Clifton rote et s'essuie la bouche. 'C'est bien vrai,' dit-il avec approbation. #uqenid|Enid regarde vers le haut, directement dans mes yeux, avec une soudaine luminosité dans le regard. 'Oui,' dit-elle.. #uqneville|Neville déglutit. 'Vraiment ? Merci. Je veux dire, oui, bien sûr !' #uqslee|Pendant un instant, Slee a l'air aussi alarmé que si j'avais suggéré une intervention chirurgicale. Puis il hoche la tête, sincèrement. 'Je me demande ce qui va se passer,' dit-il. @", description: "La lumière est argentée, la brise est fraîche, le silence de la nuit invite les mots comme le velours sombre invite le toucher du doigt. [Pour commencer une liaison avec ce personnage, montrez-lui que vos désirs les plus profonds sont partagés.]",
+            
+        },
+
+        {
+            id: "A_talktofollower_locationauctionhouse_lustpower",
+extends: ["A_talktofollower_locationauctionhouse_lustpower"],
+            label: "Invitez-les à une soirée chez Oriflamme",
+            
+            
+            startdescription: "@#uqtristan|Tristan acquiesce avec insistance, sans parler. #uqvalciane|Valciane fait un signe de tête brusque, mais ses yeux brillent comme le charbon quand on ouvre la porte d'un four. #uqelridge|Elridge ferme son couteau d'un clic et concentre toute son attention sur moi. 'Oui, s'il vous plaît,' dit-il.. #uqlaidlaw|Laidlaw rayonne. 'Ça a l'air joli !'@",
+            description: "Certains préfèrent les promenades au clair de lune. D'autres préfèrent la musique douce. Mais il y a ceux qui aiment l'opulence, la bonne compagnie et le doux clic des opérations du pouvoir. [Pour commencer une liaison avec ce personnage, montrez-lui que vos désirs les plus profonds sont partagés.]",
+            
+        },
+
+
+        {
+            id: "A_talktofollower_locationcabaret_notinterested",
+extends: ["A_talktofollower_locationcabaret_notinterested"],
+            label: "Invitez-les à une soirée au Club Ecdysis",
+            
+            
+            startdescription: "'Je... ne pense pas que ce soit pour moi.'",
+            description: "[Votre Adepte n'a aucun intérêt particulier pour cet endroit.]"
+        },
+
+        {
+            id: "A_talktofollower_locationauctionhouse_notinterested",
+extends: ["A_talktofollower_locationauctionhouse_notinterested"],
+            label: "Invitez-les à une soirée chez Oriflamme",
+            
+            
+            startdescription: "'Je... ne pense pas que ce soit pour moi.'",
+            description: "[Votre Adepte n'a aucun intérêt particulier pour cet endroit.]"
+        },
+
+        {
+            id: "A_talktofollower_locationstreetsstrange_notinterested",
+extends: ["A_talktofollower_locationstreetsstrange_notinterested"],
+            label: "Invitez-les à se promener dans un lieu insolite.",
+            
+            
+            startdescription: "'Je... ne pense pas que ce soit pour moi.'",
+            description: "[Votre Adepte n'a aucun intérêt particulier pour cet endroit.]"
+        },
+
+
+
+        {
+            id: "followeraction_repairtoollanternbcracked",
+extends: ["followeraction_repairtoollanternbcracked"],
+            label: "Réparer une Pierre de Midi fissurée",
+            
+            
+            startdescription: "Nous pouvons commencer à réparer cela, mais il faudra des Fonds pour acheter les matériaux nécessaires.",
+            description: ".",
+            
+        },
+
+        {
+            id: "followeraction_repairtoollanternbcracked_attempt",
+extends: ["followeraction_repairtoollanternbcracked_attempt"],
+            label: "Réparer une Pierre de Midi fissurée",
+            
+            slots: [
+                {
+                    id: "matériaux",
+extends: ["matériaux"],
+                    label: "matériaux",
+                    description: "Essences rares et poudres spéciales",
+                    
+                }
+            ],
+            startdescription: "Mon Adepte a besoin de Fonds pour accomplir sa tâche.",
+            description: "Je ne pouvais pas fournir les matériaux dont mon Adepte avait besoin. La pierre reste irrécupérable.",
+            
+            
+        },
+        {
+            id: "followeraction_repairtoollanternbcracked_succeed",
+extends: ["followeraction_repairtoollanternbcracked_succeed"],
+            label: "Réparer une Pierre de Midi fissurée",
+            
+            
+            startdescription: "Mon Adepte est à l'oeuvre sur la pierre.",
+            description: "La pierre est réparée ! Elle brille à nouveau comme autrefois.",
+            
+        },
+
+
+        {
+            id: "followeraction_repairtoollanterndcracked",
+extends: ["followeraction_repairtoollanterndcracked"],
+            label: "Réparer un miroir sauvage fissuré",
+            
+            
+            startdescription: "Nous pouvons commencer à réparer cela, mais il faudra au moins un Spintria de bronze pour acheter les matériaux nécessaires.",
+            description: ".",
+            
+        },
+
+        {
+            id: "followeraction_repairtoollanterndcracked_attempt",
+extends: ["followeraction_repairtoollanterndcracked_attempt"],
+            label: "Réparer un miroir sauvage fissuré",
+            
+            slots: [
+                {
+                    id: "matériaux",
+extends: ["matériaux"],
+                    label: "matériaux",
+                    description: "Métaux rares et teintes improbables",
+                    
+                }
+            ],
+            startdescription: "Mon Adepte a besoin d'un Spintria de Bronze, ou mieux, pour accomplir sa tâche.",
+            description: "Je ne pouvais pas fournir les matériaux dont mon Adepte avait besoin. Le miroir est irrécupérable.",
+            
+            
+        },
+        {
+            id: "followeraction_repairtoollanterndcracked_succeed",
+extends: ["followeraction_repairtoollanterndcracked_succeed"],
+            label: "Réparer un miroir sauvage fissuré",
+            
+            
+            startdescription: "Mon Adepte est à l'oeuvre sur le miroir.",
+            description: "Le miroir est réparé ! Il brille à nouveau comme autrefois.",
+            
+        },
+
+
+
+
+        {
+            id: "followeraction_repairtoollanternfcracked",
+extends: ["followeraction_repairtoollanternfcracked"],
+            label: "Réparer le verre du Guetteur fissuré",
+            
+            
+            startdescription: "Nous pouvons commencer à réparer cela, mais il faudra au moins un Spintria d'argent pour acheter les matériaux nécessaires.",
+            description: ".",
+            
+        },
+
+        {
+            id: "followeraction_repairtoollanternfcracked_attempt",
+extends: ["followeraction_repairtoollanternfcracked_attempt"],
+            label: "Réparer le verre d'un Guetteur fissuré",
+            
+            slots: [
+                {
+                    id: "matériaux",
+extends: ["matériaux"],
+                    label: "matériaux",
+                    description: "Chansons brillantes et alliages exotiques",
+                    
+                }
+            ],
+            startdescription: "Mon Adepte a besoin d'un Spintria d'argent, ou mieux, pour accomplir sa tâche.",
+            description: "Je ne pouvais pas fournir les matériaux dont mon Adepte avait besoin. Le miroir est irrécupérable.",
+            
+            
+        },
+        {
+            id: "followeraction_repairtoollanternfcracked_succeed",
+extends: ["followeraction_repairtoollanternfcracked_succeed"],
+            label: "Réparer le verre du Guetteur fissuré",
+            
+            
+            startdescription: "Mon Adepte est à l'oeuvre sur le miroir.",
+            description: "Le miroir est réparé ! Il brille à nouveau comme autrefois.",
+            
+        },
+
+        {
+            id: "followeraction.repair.greatwork.sabotaged",
+extends: ["followeraction.repair.greatwork.sabotaged"],
+            label: "Réparer un élément saboté du Grand Oeuvre",
+            
+            
+            startdescription: "Nous pouvons commencer à réparer cela, mais il faudra un Spintria d'argent pour acheter les matériaux nécessaires.",
+            description: ".",
+            
+        },
+
+
+
+        {
+            id: "followeraction.repair.greatwork.sabotaged.attempt",
+extends: ["followeraction.repair.greatwork.sabotaged.attempt"],
+            label: "Réparer un élément saboté du Grand Oeuvre",
+            
+            slots: [
+                {
+                    id: "matériaux",
+extends: ["matériaux"],
+                    label: "matériaux",
+                    description: "Métaux et merceries",
+                    
+                }
+            ],
+            startdescription: "Mon Adepte a besoin d'un Spintria d'argent pour accomplir sa tâche.",
+            description: "Je ne pouvais pas fournir les matériaux dont mon Adepte avait besoin. L'oeuvre reste fragilisée.",
+            
+            
+        },
+        {
+            id: "followeraction.repair.greatwork.sabotaged.succeed",
+extends: ["followeraction.repair.greatwork.sabotaged.succeed"],
+            label: "Réparer un élément saboté du Grand Oeuvre",
+            
+            
+            startdescription: "My follower is at work,",
+            description: "Le Grand Oeuvre va continuer !",
+            
+        },
+
+        {
+            id: "A_follower_settrap_independent",
+extends: ["A_follower_settrap_independent"],
+            
+            label: "Créer un piège pour ralentir ou vaincre un Rival",
+            startdescription: "Les rivaux ne rôdent pas dans les rues comme des chasseurs. Ils ne nous rencontreront qu'en terrain neutre. Pour en vaincre un, nous devons préparer un piège dans lequel ils pourraient tomber. [Pointe, Forge, Phalène ou Hiver sont utiles pour créer des pièges. Une fois créé, un piège peut être utilisé lorsqu'un Indépendant fait une tentative sur n'importe quelle chambre forte.]",
+            
+            comments: "Follower requirement isn't redundant... cos we also link here from conversations with Independents.",
+            
+            
+        },
+
+        {
+            id: "A_follower_settrap_vault",
+extends: ["A_follower_settrap_vault"],
+            
+            label: "Créer un piège pour ralentir ou vaincre un Rival",
+            startdescription: "Les rivaux ne rôdent pas dans les rues comme des chasseurs. Ils ne nous rencontreront qu'en terrain neutre. Pour en vaincre un, nous devons préparer un piège dans lequel ils pourraient tomber. [Pointe, Forge, Phalène ou Hiver sont utiles pour créer des pièges. Une fois créé, un piège peut être utilisé lorsqu'un Indépendant fait une tentative sur n'importe quelle chambre forte.]",
+            
+            
+        },
+
+
+        {
+            id: "L_createsnare_great",
+extends: ["L_createsnare_great"],
+            
+            label: "Un piège périlleux",
+            description: "Mon Adepte a mis en place une embuscade particulièrement astucieuse - qui réussira presque certainement.",
+            
+            
+        },
+
+        {
+            id: "L_createsnare_good",
+extends: ["L_createsnare_good"],
+            
+            label: "Un piège astucieux",
+            description: "Mon Adepte a mis en place une embuscade astucieuse - qui aura probablement du succès.",
+            
+            
+        },
+
+        {
+            id: "L_createsnare_poor",
+extends: ["L_createsnare_poor"],
+            
+            label: "Un piège adéquat",
+            description: "Mon Adepte a préparé un stratagème qui - avec beaucoup de chance - pourrait faire échouer les plans d'un rival.",
+            
+            
+        },
+        {
+            id: "L_createsnare_rubbish",
+extends: ["L_createsnare_rubbish"],
+            
+            label: "Une tentative désespérée",
+            description: "Le plan de mon Adepte est au mieux excentrique et au pire incompétent, mais peut-être qu'un ennemi y tombera.",
+            
+        },
+
+
+
+
+
+
+        {
+            id: "followeraction_abducthighedge",
+extends: ["followeraction_abducthighedge"],
+            label: "Affaires du Culte: Enlever un étranger",
+            
+            startdescription: "Un assassin peut facilement enlever une victime dans la rue.",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "followeraction_abductmidedge",
+extends: ["followeraction_abductmidedge"],
+            label: "Affaires du Culte: Enlever un étranger",
+            
+            startdescription: "Un Disciple compétent peut probablement enlever une victime imprudente.",
+            
+            
+        },
+        {
+            id: "followeraction_abductlowedge",
+extends: ["followeraction_abductlowedge"],
+            label: "Affaires du Culte: Enlever un étranger",
+            
+            startdescription: "Mon Fidèle aura du mal à enlever une victime, mais il aura peut-être de la chance.",
+            
+            
+        },
+
+
+        {
+            id: "followeraction_abductsuccess",
+extends: ["followeraction_abductsuccess"],
+            label: "Tentative d'enlèvement",
+            
+            startdescription: "J'attends des nouvelles...",
+            description: "Mon serviteur est revenu, avec un prisonnier soigneusement emballé.",
+            
+            
+            
+        },
+
+        {
+            id: "followeraction_abductfailure",
+extends: ["followeraction_abductfailure"],
+            label: "Tentative d'enlèvement",
+            
+            startdescription: "J'attends des nouvelles...",
+            description: "Mon serviteur est revenu, les mains vides.",
+            
+            
+            
+        },
+        {
+            id: "followeraction_abductfailure_losefollower",
+extends: ["followeraction_abductfailure_losefollower"],
+            label: "Tentative d'enlèvement",
+            
+            startdescription: "J'attends des nouvelles....",
+            description: "Mon serviteur est revenu, les mains vides et grièvement blessé. Sa victime a fait preuve de courage. [Utilisez <b>Parler<b> pour guérir un Adepte blessé.]",
+            
+            
+            
+        },
+
+
+        {
+            id: "followeraction_murderhighwinter",
+extends: ["followeraction_murderhighwinter"],
+            label: "Affaires du Culte: Assassiner un étranger",
+            
+            startdescription: "Celui-ci rentre presque toujours avec un décès de plus à son actif.",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "followeraction_murdermidwinter",
+extends: ["followeraction_murdermidwinter"],
+            label: "Affaires du Culte: Assassiner un étranger",
+            
+            startdescription: "Un Disciple compétent peut probablement revenir avec un cadavre frais.",
+            
+            
+        },
+        {
+            id: "followeraction_murderlowwinter",
+extends: ["followeraction_murderlowwinter"],
+            label: "Affaires du Culte: Assassiner un étranger",
+            
+            startdescription: "Mon fidèle peut très facilement échouer.",
+            
+            
+        },
+
+
+        {
+            id: "followeraction_murdersuccess",
+extends: ["followeraction_murdersuccess"],
+            label: "Tentative d'assassinat...",
+            
+            startdescription: "J'attends des nouvelles....",
+            description: "Mon serviteur est revenu, avec un cadavre frais et ce qui lui appartenait.",
+            
+            
+            
+        },
+
+        {
+            id: "followeraction_murderfailure",
+extends: ["followeraction_murderfailure"],
+            label: "Tentative d'assassinat...",
+            
+            startdescription: "J'attends des nouvelles....",
+            description: "Mon serviteur est revenu, les mains vides.",
+            
+            
+            
+        },
+        {
+            id: "followeraction_murderfailure_losefollower",
+extends: ["followeraction_murderfailure_losefollower"],
+            label: "Tentative d'assassinat...",
+            
+            startdescription: "J'attends des nouvelles....",
+            description: "Mon serviteur est revenu pour signaler son échec. Il tient à peine debout. Sa victime s'est battue. [Utilisez <b>Parler<b> pour guérir un Adepte blessé]",
+            
+            
+            
+        },
+
+
+        {
+            id: "followeraction_craftworkhighforge",
+extends: ["followeraction_craftworkhighforge"],
+            label: "Affaires du Culte: Artisanat",
+            
+            startdescription: "Mon Artisan peut gagner des Fonds dans des laboratoires illégaux et des usines clandestines. Il arrive parfois que quelque chose tourne mal.",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "followeraction_craftworkmidforge",
+extends: ["followeraction_craftworkmidforge"],
+            label: "Affaires du Culte: Artisanat",
+            
+            startdescription: "Mon Disciple peut probablement gagner des Fonds dans des laboratoires illégaux et des usines clandestines - mais il y a un risque d'accident.",
+            
+            
+        },
+        {
+            id: "followeraction_craftworklowforge",
+extends: ["followeraction_craftworklowforge"],
+            label: "Affaires du Culte: Artisanat",
+            
+            startdescription: "Mon Fidèle pourrait gagner des Fonds dans des laboratoires illégaux et des usines clandestines... s'il a de la chance.",
+            
+            
+        },
+
+
+        {
+            id: "followeraction_craftworksuccess",
+extends: ["followeraction_craftworksuccess"],
+            label: "Travailler sous contrat...",
+            
+            startdescription: "Il existe dans cette ville des dispositifs qui défient la loi du pays. Il y en a quelques-uns qui défient les lois de la nature. Certains sont très dangereux.",
+            description: "Mon Adepte est revenu avec la récompense de son travail.",
+            
+            
+        },
+
+        {
+            id: "followeraction_craftworkfailure",
+extends: ["followeraction_craftworkfailure"],
+            label: "Travailler sous contrat...",
+            
+            startdescription: "Il existe dans cette ville des dispositifs qui défient la loi du pays. Il y en a quelques-uns qui défient les lois de la nature. Certains sont très dangereux.",
+            description: "Mon Adepte est revenu les mains vides. La tâche d'aujourd'hui étaient au-delà de ses capacités.",
+            
+            
+            
+        },
+        {
+            id: "followeraction_craftworkfailure_losefollower",
+extends: ["followeraction_craftworkfailure_losefollower"],
+            label: "Travailler sous contrat...",
+            
+            startdescription: "Il existe dans cette ville des dispositifs qui défient la loi du pays. Il y en a quelques-uns qui défient les lois de la nature. Certains sont très dangereux.",
+            description: "Il y a eu un accident. [Utilisez <b>Parler<b> pour guérir un Adepte blessé.]",
+            
+            
+        },
+
+
+        {
+            id: "followeraction_seducehighgrail",
+extends: ["followeraction_seducehighgrail"],
+            label: "Affaires du Culte: Séduire un étranger",
+            
+            startdescription: "Personne ne se refuse un Hédoniste. Presque personne.",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "followeraction_seducemidgrail",
+extends: ["followeraction_seducemidgrail"],
+            label: "Affaires du Culte: Séduire un étranger",
+            
+            startdescription: "Un Disciple suffisamment persuasif peut probablement inciter une personne sensible à revenir vers nous.",
+            
+            
+        },
+        {
+            id: "followeraction_seducelowgrail",
+extends: ["followeraction_seducelowgrail"],
+            label: "Affaires du Culte: Séduire un étranger",
+            
+            startdescription: "Mon Fidèle pourrait être en mesure d'attirer une victime vers nous.",
+            
+            
+        },
+
+
+        {
+            id: "followeraction_seducesuccess",
+extends: ["followeraction_seducesuccess"],
+            label: "Tentative de séduction",
+            
+            startdescription: "Dehors, dans la nuit, mon Adepte murmure des mots qui, parfois, peuvent avoir un sens. Même si sa victime sait que ces mots sont des mensonges, elle peut ne pas s'en soucier.",
+            description: "Mon serviteur est revenu, accompagné d'un prisonnier que le plaisir à rendu docile.",
+            
+            
+            
+        },
+
+        {
+            id: "followeraction_seducefailure",
+extends: ["followeraction_seducefailure"],
+            label: "Tentative de séduction",
+            
+            startdescription: "Dehors, dans la nuit, mon Adepte murmure des mots qui, parfois, peuvent avoir un sens. Même si sa victime sait que ces mots sont des mensonges, elle peut ne pas s'en soucier.",
+            description: "Mon serviteur est revenu, les mains vides.",
+            
+            
+            
+        },
+        {
+            id: "followeraction_seducefailure_losefollower",
+extends: ["followeraction_seducefailure_losefollower"],
+            label: "Tentative de séduction",
+            
+            startdescription: "Dehors, dans la nuit, mon Adepte murmure des mots qui, parfois, peuvent avoir un sens. Même si sa victime sait que ces mots sont des mensonges, elle peut ne pas s'en soucier.",
+            description: "Mon serviteur est revenu, à demi-conscient, saignant abondamment. Il semble qu'un prétendant rival se soit opposé à ses efforts. [Utilisez <b>Parler<b> pour guérir un Adepte blessé.]",
+            
+            
+            
+        },
+
+
+
+        {
+            id: "followeraction_burglehighknock",
+extends: ["followeraction_burglehighknock"],
+            label: "Affaires du Culte: Cambriolage",
+            
+            startdescription: "Ma Clé devrait être capable de vaincre n'importe quelle serrure dans cette ville.",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "followeraction_burglemidknock",
+extends: ["followeraction_burglemidknock"],
+            label: "Affaires du Culte: Cambriolage",
+            
+            startdescription: "Mon Disciple peut probablement utiliser ses talents pour dérober des trésors à des gens qui ne se doutent de rien.",
+            
+            
+        },
+        {
+            id: "followeraction_burglelowknock",
+extends: ["followeraction_burglelowknock"],
+            label: "Affaires du Culte: Cambriolage",
+            
+            startdescription: "Mon Fidèle pourrait être en mesure de dérober des trésors à des gens qui ne se doutent de rien... s'il a de la chance.",
+            
+            
+        },
+
+
+        {
+            id: "followeraction_burglesuccess",
+extends: ["followeraction_burglesuccess"],
+            label: "Effraction, intrusion, retour à la maison...",
+            
+            startdescription: "Dans des caves et des greniers, dans des cloisons secrètes et des placards scellés, les riches et les moins riches cachent leurs trésors.",
+            description: "Mon Adepte est revenu avec son butin.",
+            
+            
+            
+        },
+
+        {
+            id: "followeraction_burglefailure",
+extends: ["followeraction_burglefailure"],
+            label: "Effraction, intrusion, retour à la maison...",
+            
+            startdescription: "Dans des caves et des greniers, dans des cloisons secrètes et des placards scellés, les riches et les moins riches cachent leurs trésors.",
+            description: "Mon Adepte est revenu les mains vides. La tâches d'aujourd'hui étaient au-delà de ses capacités.",
+            
+            
+            
+        },
+        {
+            id: "followeraction_burglefailure_losefollower",
+extends: ["followeraction_burglefailure_losefollower"],
+            label: "Effraction, intrusion, retour à la maison...",
+            
+            startdescription: "Dans des caves et des greniers, dans des cloisons secrètes et des placards scellés, les riches et les moins riches cachent leurs trésors.",
+            description: "Il y a eu un accident. [Utilisez <b>Parler<b> pour guérir un Adepte blessé.]",
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "followeraction_charmhighheart",
+extends: ["followeraction_charmhighheart"],
+            label: "Affaires du Culte: Charme",
+            
+            startdescription: "Tout le monde n'est pas favorable à nos objectifs, mais mon Tarantelliste est populaire en tout lieu. Si nous avons des problèmes avec notre réputation, il est presque certain qu'il peut les régler.",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "followeraction_charmmidheart",
+extends: ["followeraction_charmmidheart"],
+            label: "Affaires du Culte: Charme",
+            
+            startdescription: "Tout le monde n'est pas favorable à nos objectifs, mais si nous avons des problèmes avec notre réputation, notre Disciple peut probablement les régler.",
+            
+            
+        },
+        {
+            id: "followeraction_charmlowheart",
+extends: ["followeraction_charmlowheart"],
+            label: "Affaires du Culte: Charme",
+            
+            startdescription: "Tout le monde n'est pas favorable à nos objectifs, mais si nous avons des problèmes avec notre réputation, notre Fidèle peut les régler. ",
+            
+            
+        },
+
+
+        {
+            id: "followeraction_charmsuccess",
+extends: ["followeraction_charmsuccess"],
+            label: "Discours sincères, conversation agréable",
+            
+            slots: [
+                {
+                    id: "Reputation",
+extends: ["Reputation"],
+                    label: "Réputation",
+                    
+                    
+                }
+            ],
+            startdescription: "Les normes de la société ne peuvent s'appliquer à nous. Mais peut-être n'insisterons-nous pas sur ce point. Peut-être compterons-nous sur le charme et la bonne humeur. J'ai énoncé avec élégance des platitudes sur les grands principes de notre organisation.",
+            description: "L'optimisme est l'épice qui préserve.",
+            
+            
+        },
+
+        {
+            id: "followeraction_charmfailure",
+extends: ["followeraction_charmfailure"],
+            label: "Discours sincères, conversation agréable",
+            
+            slots: [
+                {
+                    id: "Reputation",
+extends: ["Reputation"],
+                    label: "Réputation",
+                    
+                    
+                }
+            ],
+            startdescription: "Les normes de la société ne peuvent s'appliquer à nous. Mais peut-être n'insisterons-nous pas sur ce point. Peut-être compterons-nous sur le charme et la bonne humeur. J'ai énoncé avec élégance des platitudes sur les grands principes de notre organisation.",
+            description: "Personne ne nous comprend, ou alors ils nous comprennent que trop bien.",
+            
+            
+        },
+
+
+
+        {
+            id: "followeraction_auguryhighlantern",
+extends: ["followeraction_auguryhighlantern"],
+            label: "Affaires du Culte: Augures",
+            
+            startdescription: "Mon Voyant peut déterminer les moments et les lieux où le pouvoir sera disponible pour nos usages. Cela présente un petit risque.",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "followeraction_augurymidlantern",
+extends: ["followeraction_augurymidlantern"],
+            label: "Affaires du Culte: Augures",
+            
+            startdescription: "Mon Disciple peut probablement déterminer les moments et les lieux où le pouvoir sera disponible pour nos usages: mais en matière de Mansus, il y a toujours un danger.",
+            
+            
+        },
+        {
+            id: "followeraction_augurylowlantern",
+extends: ["followeraction_augurylowlantern"],
+            label: "Affaires du Culte: Augures",
+            
+            startdescription: "Mon Fidèle pourrait être en mesure de déterminer les moments et les lieux où le pouvoir sera disponible pour nos usages: mais en ce qui concerne le Mansus, il y a toujours un danger.",
+            
+            
+        },
+
+
+        {
+            id: "followeraction_augurysuccess",
+extends: ["followeraction_augurysuccess"],
+            label: "Sous la Peau du Monde",
+            
+            startdescription: "Heures d'étude et de méditation...",
+            description: "Mon Adepte a trouvé un moyen supplémentaire d'aligner notre travail sur le plus important travail des Heures.",
+            
+            
+            
+        },
+
+        {
+            id: "followeraction_auguryfailure",
+extends: ["followeraction_auguryfailure"],
+            label: "Sous la Peau du Monde",
+            
+            startdescription: "Heures d'étude et de méditation...",
+            description: "Mon Adepte a commis une erreur dangereuse. Son esprit est toujours intact, mais la lumière du Mansus a touché le monde ici.",
+            
+            
+            
+        },
+        {
+            id: "followeraction_auguryfailure_losefollower",
+extends: ["followeraction_auguryfailure_losefollower"],
+            label: "Sous la Peau du Monde",
+            
+            startdescription: "Heures d'étude et de méditation...",
+            description: "Mon Adepte a commis une erreur dangereuse. La lumière du Mansus a touché le monde ici. Ses défenses psychiques s'effondrent dans le chaos, et nous avons dû le maîtriser avant qu'il ne puisse se faire plus de mal. Il retrouvera ses sens avec le temps, mais il est gravement blessé. [Utilisez <b>Parler<b> pour guérir un Adepte blessé.]",
+            
+            
+            
+        },
+
+
+
+        {
+            id: "followeraction_hoodwinkhighmoth",
+extends: ["followeraction_hoodwinkhighmoth"],
+            label: "Affaires du Culte: Clin d'oeil sous la capuche",
+            
+            startdescription: "La ruse de mon Contorsionneur suffit à éloigner les imbéciles de leur trésor aussi facilement que de cueillir des poires dans un verger (bien que même un verger de poires présente parfois des dangers. Comme des guêpes par exemple.)",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "followeraction_hoodwinkmidmoth",
+extends: ["followeraction_hoodwinkmidmoth"],
+            label: "Affaires du Culte: Clin d'oeil sous la capuche",
+            
+            startdescription: "Mon Disciple peut probablement utiliser ses talents pour éloigner les imbéciles de leurs trésors.",
+            
+            
+        },
+        {
+            id: "followeraction_hoodwinklowmoth",
+extends: ["followeraction_hoodwinklowmoth"],
+            label: "Affaires du Culte: Clin d'oeil sous la capuche",
+            
+            startdescription: "Mon Fidèle pourrait être capable d'éloigner les imbéciles de leurs trésors... S'il a de la chance.",
+            
+            
+        },
+
+
+        {
+            id: "followeraction_hoodwinksuccess",
+extends: ["followeraction_hoodwinksuccess"],
+            label: "Tromperie et confusion",
+            
+            startdescription: "Mon Adepte tente une supercherie profitable.",
+            description: "Une supercherie réussie ! Voici les récompenses.",
+            
+            
+            
+        },
+
+        {
+            id: "followeraction_hoodwinkfailure",
+extends: ["followeraction_hoodwinkfailure"],
+            label: "Tromperie et confusion",
+            
+            startdescription: "Mon Adepte tente une supercherie profitable.",
+            description: "Mon Adepte est revenu les mains vides. Son plan a été démantelé.",
+            
+            
+            
+        },
+        {
+            id: "followeraction_hoodwinkfailure_losefollower",
+extends: ["followeraction_hoodwinkfailure_losefollower"],
+            label: "Tromperie et confusion",
+            
+            startdescription: "Mon Adepte tente une supercherie profitable.",
+            description: "Je commençais à m'inquiéter du fait que mon Adepte ait organisé sa propre disparition. Mais il semble que sa supercherie ait été détectée. Sa victime était furieuse, et mon Adepte s'en est à peine sorti vivant. [Utilisez <b>Parler<b> pour guérir un Adepte blessé.]",
+            
+            
+            
+        },
+
+
+
+
+    ]
+}

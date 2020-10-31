@@ -1,0 +1,180 @@
+{
+    "recipes": [
+
+        {
+            id: "explore_vaultlandbeyondforest1_setup",
+extends: ["explore_vaultlandbeyondforest1_setup"],
+            label: "Commencer une expédition: la grotte aux bougies",
+            
+            
+            
+
+            startdescription: "L'ascension de la grotte par les hauts cols sera dangereuse. Ce qui attend en bas dans l'obscurité est probablement encore plus dangereux. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+            id: "explore_vaultlandbeyondforest2_setup",
+extends: ["explore_vaultlandbeyondforest2_setup"],
+            label: "Commencer une expédition: La citadelle de Voïvode",
+            
+            
+            
+
+            startdescription: "Le caveau du voïvode sera bien caché, et si les histoires sont vraies, ses victimes ne reposeront peut-être pas paisiblement dans l'obscurité des murs de la citadelle. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultlandbeyondforest3_setup",
+extends: ["explore_vaultlandbeyondforest3_setup"],
+            label: "Commencer une expédition: Le cirque permanent de Grunewald",
+            
+            
+            
+
+            startdescription: "Les gens du cirque seront prêts à prendre les armes contre nous, et le pouvoir dans le cirque, nous le craignons, peut être influencé par les Vers. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultlandbeyondforest4_setup",
+extends: ["explore_vaultlandbeyondforest4_setup"],
+            label: "Commencer une expédition: La tour Revek",
+            
+            
+            
+
+            startdescription: "Nous devrons chercher assidûment pour trouver les trésors qui pourraient subsister; et si la tour a vraiment été détruite lors d'une bataille entre adeptes, des influences dangereuses pourraient encore s'y accrocher. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+
+            id: "explore_vaultlandbeyondforest5_setup",
+extends: ["explore_vaultlandbeyondforest5_setup"],
+            label: "Commencer une expédition: La fondation Kusnetsov",
+            
+            
+            
+            startdescription: "Le voyage vers les bâtiments de la fondation n'est pas long, mais le terrain est difficile. Nous avons demandé à trois reprises l'autorisation de nous rendre sur place, et nous avons reçu à chaque fois une réponse moins amicale. Nul doute que le personnel tentera de nous interdire l'entrée. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+
+        {
+            id: "explore_vaultlandbeyondforestdefault_setup",
+extends: ["explore_vaultlandbeyondforestdefault_setup"],
+            label: "Commencer une expédition: Les prairies des lys érémures",
+            
+            
+            
+            startdescription: "Le chemin à travers les montagnes jusqu'à la haute prairie sera difficile. Les paysans des montagnes chercheront à nous chasser. Si nous rentrons chez nous sains et saufs, nous aurons peut-être du mal à nous débarrasser des visions de cet endroit. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explorevaultlandbeyondforest1_success",
+extends: ["explorevaultlandbeyondforest1_success"],
+            label: "Un nid de lumière",
+            
+            
+            
+            
+            startdescription: "Les tunnels sous la grotte sont lisses en raison du passage du grand serpent, et d'une obscurité étouffante jusqu'à ce que nous arrivions avec nos lanternes. Mais la chambre où il a fait son nid est étonnamment lumineuse. Des champignons luminescents inondent l'endroit d'un ersatz de lumière lunaire. Peut-être que les bougies l'ont attiré, et non repoussé.",
+            description: "Une petite cache de trésors, récoltés au fil des ans lors des repas du serpent. Il les a entassés en un amas scintillant.",
+            
+            
+        },
+
+        {
+            id: "explorevaultlandbeyondforest2_success",
+extends: ["explorevaultlandbeyondforest2_success"],
+            label: "Le tombeau vide",
+            
+            
+            
+            
+            startdescription: "Voici le mausolée du Voïvode. Des toiles d'araignée pendent comme de souples rideaux gris. Un grand sarcophage en grès se dresse à l'extrémité. Il est vide.",
+            description: "Quelqu'un a laissé un petit tas de trésors devant le sarcophage, comme une offrande. Il n'y a pas de traces de pas dans la poussière. Celui qui les a laissés est venu ici il y a longtemps, ou alors il n'a pas besoin de toucher le sol quand il passe.",
+            
+            
+        },
+
+
+        {
+            id: "explorevaultlandbeyondforest3_success",
+extends: ["explorevaultlandbeyondforest3_success"],
+            label: "Après le cirque",
+            
+            
+            
+            
+            startdescription: "Dans la tente rayée, s'enroulent des tératologies derrière des vitres tachées et sombres. Dans la tente grise, le brouillard qui s'égoutte nous rend nerveux comme un chat en chasse - le brouillard est un animal. Dans la tente noire et étoilée, de magnifiques pièces d'orfèvrerie et de sculpture habillés de costumes ornés de bijoux. Dans la tente rouge, le prêtre de cire dans le cercueil de verre, et les livres accrochés à sa poitrine -",
+            description: "Dans la tente rouge, une folie de papier. Les gens du cirque ont collé sur toutes les surfaces du papier bourré de diagrammes: les anatomies d'un autre temps, les dissections de l'ancien temps. L'endroit pue le Nulle-part. Nous devrions le brûler en partant. Une table à tréteaux contient un fouillis de trophées et de souvenirs.",
+            
+            
+        },
+
+
+        {
+            id: "explorevaultlandbeyondforest4_success",
+extends: ["explorevaultlandbeyondforest4_success"],
+            label: "Une conclusion tardive",
+            
+            
+            
+            
+            startdescription: "Sous la tour se trouve une cave exiguë aux murs d'ardoise fissurés. Les proportions - ce devrait être un cube parfait, mais il y a trop de coins. La lumière bleue s'infiltre à la jonction du plafond et du mur. Le sol fléchit, lentement, comme la peau d'une bulle. Quels espaces s'ouvrent en dessous ?",
+            description: "Mettez les livres dans un sac. Dépêchez-vous de vous agripper à la tour. Le ciel au dessus se couvre d'aurores de cobalt. Les collines alentour sont balayées par des frissons de lumière bleue. Les pierres de la tour émettent un son aigu et chantant lorsque nous partons. La foudre fend du ciel, et soudain tout est silencieux. La tour a disparu.",
+            
+            
+        },
+
+        {
+            id: "explorevaultlandbeyondforest5_success",
+extends: ["explorevaultlandbeyondforest5_success"],
+            label: "La fin des mots",
+            
+            
+            
+            
+            startdescription: "Le plafond de la bibliothèque s'est effondré il y a des années. De nombreux livres ont été réduits en bouillie par l'eau qui s'est écoulée. Quelque chose doit rester. ",
+            description: "Le portrait d'un homme souriant - peau sombre, yeux clairs, sans cheveux ni sourcils - veille sur la bibliothèque en ruine. Il est intitulé 'Ne vous occupez pas de moi' et signé d'un gribouillage sinueux indéchiffrable. La peinture s'écaille. Il nous regarde avec son sourire bienveillant alors que nous trouvons des trésors intacts parmi les livres gonflés sur les étagères.",
+            
+            
+        },
+
+
+        {
+            id: "explorevaultlandbeyondforestdefault_success",
+extends: ["explorevaultlandbeyondforestdefault_success"],
+            label: "L'alimentation des fleurs",
+            
+            
+            
+            
+            startdescription: "Nous avons trempé des chiffons dans de l'ammoniaque et nous les avons attachés autour de notre visage, pour atténuer l'odeur de lys érémure.  Pourtant, nos têtes tournent, nos corps répondent à une demi-douzaine de désirs contradictoires. Voici les os que nous avons recherchés. Pillons-les et sortons.",
+            description: "Les lys érémures sont blancs comme la roche des cavernes, blancs comme le givre, blancs comme des feuilles vierges. Il est difficile de détourner le regard. Nous fermerons les yeux et nous nous battrons pour récupérer nos trésors.",
+            
+            
+            
+        },
+
+    ]
+}

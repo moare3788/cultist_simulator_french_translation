@@ -1,0 +1,340 @@
+{
+    "recipes": [
+        {
+            id: "writeedgec",
+extends: ["writeedgec"],
+            label: "Rédiger un vaste traité sur les pratiques de la Pointe, et les Heures qui les régissent",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writeforgec",
+extends: ["writeforgec"],
+            label: "Rédiger un vaste traité sur la croyance des pratiques de la Forge",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writegrailc",
+extends: ["writegrailc"],
+            label: "Rédiger un vaste traité sur la croyance du Graal Rouge",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writeheartc",
+extends: ["writeheartc"],
+            label: "Rédiger un vaste traité sur la croyance du Coeur",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writeknockc",
+extends: ["writeknockc"],
+            label: "Rédiger un vaste traité sur la croyance de la Clé",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writelanternc",
+extends: ["writelanternc"],
+            label: "Rédiger un vaste traité sur la croyance de la Lanterne",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writemothc",
+extends: ["writemothc"],
+            label: "Rédiger un vaste traité sur la croyance de la Phalène",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writesecrethistoriesc",
+extends: ["writesecrethistoriesc"],
+            label: "Rédiger un vaste traité sur la croyance des Histoires Secrètes",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writewinterc",
+extends: ["writewinterc"],
+            label: "Rédiger un vaste traité sur la croyance Blanche",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writeedgeb",
+extends: ["writeedgeb"],
+            label: "Rédiger un important traité sur la croyance des pratiques de la Pointe",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writeforgeb",
+extends: ["writeforgeb"],
+            label: "Rédiger un important traité sur le principe de la Forge",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writegrailb",
+extends: ["writegrailb"],
+            label: "Rédiger un important traité sur les rites du Graal Rouge",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writeheartb",
+extends: ["writeheartb"],
+            label: "Rédiger un important traité sur la croyance du Coeur",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writeknockb",
+extends: ["writeknockb"],
+            label: "Rédiger un important traité sur les cérémonies d'ouverture de la Clé",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writelanternb",
+extends: ["writelanternb"],
+            label: "Rédiger un important traité sur la Lanterne",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writemothb",
+extends: ["writemothb"],
+            label: "Rédiger un important traité sur la Phalène",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writesecrethistoriesb",
+extends: ["writesecrethistoriesb"],
+            label: "Rédiger un important traité sur les Histoires Secrètes",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writewinterb",
+extends: ["writewinterb"],
+            label: "Rédiger un important traité sur la croyance blanche",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writeedgea",
+extends: ["writeedgea"],
+            label: "Rédiger un bref traité sur le principe de la Pointe",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writeforgea",
+extends: ["writeforgea"],
+            label: "Rédiger un bref traité sur le principe de la Forge",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writegraila",
+extends: ["writegraila"],
+            label: "Rédiger un bref traité sur la croyance du Graal Rouge",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writehearta",
+extends: ["writehearta"],
+            label: "Rédiger un bref traité sur la croyance du Coeur",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writeknocka",
+extends: ["writeknocka"],
+            label: "Rédiger un bref traité sur le principe de la Clé et les rites d'ouverture",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writelanterna",
+extends: ["writelanterna"],
+            label: "Rédiger un bref traité sur la croyance de la Lanterne",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writemotha",
+extends: ["writemotha"],
+            label: "Rédiger un bref traité sur la Phalène",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+
+        {
+            id: "writesecrethistoriesa",
+extends: ["writesecrethistoriesa"],
+            label: "Rédiger un bref traité sur les histoires Secrètes",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        },
+        {
+            id: "writewintera",
+extends: ["writewintera"],
+            label: "Rédiger un bref traité sur la croyance Blanche",
+            
+            
+            
+            startdescription: "Cela peut être utile pour une Commission.",
+            description: "J'ai terminé le manuscrit.",
+            
+            
+        }
+    ]
+}

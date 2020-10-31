@@ -1,0 +1,204 @@
+{
+    "recipes": [
+
+        {
+            id: "ambition.apostleforge.emitfuel",
+extends: ["ambition.apostleforge.emitfuel"],
+            
+            label: "Les indications de notre Façonneur",
+            
+            startdescription: "Notre Façonneur nous a favorisé en nous guidant. Nous devrions l'utiliser pour poursuivre le Grand Oeuvre.",
+            
+        },
+
+        {
+            id: "work.apostleforge.majorvictory.postbetrayal",
+extends: ["work.apostleforge.majorvictory.postbetrayal"],
+            
+            label: "Néanmoins, le Grand Oeuvre continu",
+            
+            startdescription: "POUR REFAIRE AVEC LE FEU; POUR METTRE FIN À CE QUI NE CHANGERA PAS; POUR METTRE FIN À TOUTES LES NUITS. Lorsque le briseur d'Aube se mettra à tourner, la rotation de la Terre ralentira, minutieusement. Echidna portera la clé dans ses mains serrées. La Boussole prononcera ses derniers mots. L'or bleu brûlera. La Porte Sauvage s'ouvrira. Notre Façonneur va mettre en scène la Forge. Et moi, je retournerai aux côtés de notre Façonneur. J'ai fait mon choix il y a longtemps. Je serai consumé.",
+            description: "",
+        },
+
+
+
+        {
+            id: "work.apostleforge.majorvictory",
+extends: ["work.apostleforge.majorvictory"],
+            
+            label: "Les derniers éléments du Grand Oeuvre",
+            
+            startdescription: "POUR REFAIRE AVEC LE FEU; POUR METTRE FIN À CE QUI NE CHANGERA PAS; POUR METTRE FIN À TOUTES LES NUITS. Lorsque le briseur d'Aube commencera à tourner, la rotation de la Terre ralentira, minutieusement. Echidna portera la clé dans ses mains serrées. La Boussole prononcera ses derniers mots. L'or bleu brûlera. La Porte Sauvage s'ouvrira. Notre Façonneur va mettre en scène la Forge. Et moi, je serai consumé.",
+            description: "",
+        },
+
+        {
+            id: "work.apostleforge.createcore",
+extends: ["work.apostleforge.createcore"],
+            
+            label: "Forger le noyau du briseur d'Aube",
+            startdescription: "Avec les indications de notre Façonneur, et une partie de l'ancien soleil, nous pouvons commencer la construction du briseur d'Aube.",
+            description: "Nous fredonnons en travaillant, la vieille chanson: ce qui ne changera pas finira. Enfin, le noyau est complet. L'Appareil sommeille. Les Mystères de la fabrication l'élèveront à la vie.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "work.apostleforge.awakencore",
+extends: ["work.apostleforge.awakencore"],
+            
+            label: "L'éveil du noyau du briseur d'Aube",
+            startdescription: "La Forge, le Madrugad et le Meniscate rappellent tous le Soleil. Nous allons construire leur mémoire comme une armature autour du Noyau, et elle vacillera en une terrible conscience.",
+            description: "L'appareil s'éveille au ronronnement de la vie, et comme toute vie, il connaît la faim. Seuls les produits les plus élevés de l'alchimie le nourriront.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "work.apostleforge.upgradeingredientforgeb",
+extends: ["work.apostleforge.upgradeingredientforgeb"],
+            
+            label: "Raffiner les Sels noirs Amers",
+            startdescription: "Avec les indications de notre Façonneur, nous pouvons perfectionner ce projet pour en faire quelque chose de plus grand.",
+            description: "Le noir se clarifie jusqu'à devenir jaune.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "work.apostleforge.upgradeingredientforged",
+extends: ["work.apostleforge.upgradeingredientforged"],
+            
+            label: "Raffiner l'essence xanthotiquee",
+            startdescription: "Avec les indications de notre Façonneur, nous pouvons perfectionner ce projet pour en faire quelque chose de plus grand.",
+            description: "Le jaune mûrit et devient rouge.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "work.apostleforge.prepareingredientforgef",
+extends: ["work.apostleforge.prepareingredientforgef"],
+            
+            label: "Raffiner l'Essence Iotique",
+            startdescription: "Avec les indications de notre Façonneur, nous pouvons perfectionner ce projet pour en faire quelque chose de plus grand.",
+            description: "Le rouge vibre jusqu'à devenir bleu.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "work.apostleforge.baptisefollower",
+extends: ["work.apostleforge.baptisefollower"],
+            
+            label: "Choisir la boussole",
+            startdescription: "Avec l'aide de notre Façonneur, nous pouvons préparer un Adepte à trouver le chemin d'une faille dans le monde. Une fois celle-ci trouvée, il ne trouvera plus rien d'autre, plus jamais.",
+            description: "Les yeux, les braises. Le coeur, un temple en attente.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "explore.apostleforge.findflaw",
+extends: ["explore.apostleforge.findflaw"],
+            
+            label: "La faille dans le monde",
+            startdescription: "Peu d'yeux peuvent voir la faille, et ceux qui la voient une fois ne verront jamais rien d'autre.",
+            description: "C'est là que les histoires se rejoignent - la nature brute de la peau du monde. Chaque blessure ici sera un septuple mal. Si nous faisons exploser le dispositif du briseur d'Aube ici, il pourrait faire tourner la Clé Mordante dans la serrure de la Porte Sauvage, et notre Façonneur passera comme les dieux qui étaient de pierre.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "talk.apostleforge.sulochanaechidna",
+extends: ["talk.apostleforge.sulochanaechidna"],
+            
+            label: "Une introduction à Mme E.",
+            startdescription: "'Votre Façonneur veut passer la Porte Sauvage ? Sait-il vraiment ce qu'il fait ?  J'ai vu l'essai des Long de la Forge. En général, ils échouent. Mais je vais voir ce que je peux faire. J'ai une soeur qui détient la clé que vous désirez. Je la contacterai... mais cela prendra du temps.'",
+            description: "",
+            
+            
+            
+        },
+
+
+        {
+            id: "talk.apostleforge.echidna",
+extends: ["talk.apostleforge.echidna"],
+            
+            label: "Requête adressée à Mme E.",
+            startdescription: "'Bien sûr que je peux aider, Gamin. Tu as de la chance d'être venu me voir. Je suis beaucoup plus accommodante que nos autres soeurs. Mais je veux quelqu'un de savoureux... à moins que tu ne me donnes une bonne raison.'",
+            description: "'Non ? Je resterai dans les environs encore un petit moment.'",
+            
+            slots: [
+                {
+                    id: "sacrifice",
+extends: ["sacrifice"],
+                    label: "Quelqu'un de savoureux, ou une bonne Raison",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "talk.apostleforge.echidnahelp.independent",
+extends: ["talk.apostleforge.echidnahelp.independent"],
+            
+            label: "Quelqu'un de savoureux",
+            startdescription: "'Y a-t-il eu une dispute entre vous deux ? Ne vous inquiétez pas, je vais tout arranger. Mais écoutez, je suis une femme de parole, mais je ne suis pas une femme patiente.  Attendez d'être prêt, et alors je rencontrerai votre savoureux petit problème.'",
+            description: "'Prenez ceci. Ne le perdez pas. Je serai là.'",
+            
+            
+            
+        },
+
+        {
+            id: "talk.apostleforge.echidnahelp",
+extends: ["talk.apostleforge.echidnahelp"],
+            
+            label: "Quelqu'un de savoureux",
+            startdescription: "'Oh, parfait. Écoutez, cependant - je suis une femme de parole, mais je ne suis pas une femme patiente. Ne me donnez pas votre ami avant d'être prêt.'",
+            description: "'Prenez ceci. Ne le perdez pas. Je serai là.'",
+            
+            
+            
+        },
+
+        {
+            id: "talk.apostleforge.echidnahelp.sthydra",
+extends: ["talk.apostleforge.echidnahelp.sthydra"],
+            
+            label: "Une bonne Raison",
+            startdescription: "'Je vois que nous sommes tous les deux des serpents venimeux. Comme ma soeur aime à le dire: Ligeia se souvient. Je vais vous faire plaisir. (Vous êtes-vous déjà demandé pourquoi c'était cinq et non sept ? Deux histoires manquantes. Pourquoi seulement deux ? Mais nous n'avons pas le temps pour ça maintenant. Je ne suis pas une femme patiente). Ne me demandez pas mon aide avant d'être prêt.'",
+            description: "'Prenez ceci. Ne le perdez pas. Je serai là.'",
+            
+            
+            
+        },
+
+
+
+
+    ]
+}

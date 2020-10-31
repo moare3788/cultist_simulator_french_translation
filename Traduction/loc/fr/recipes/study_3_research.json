@@ -1,0 +1,1247 @@
+{
+    "recipes": [
+        {
+            id: "studyknocklore",
+extends: ["studyknocklore"],
+            label: "Étudier la croyance qui ouvre",
+            
+            
+            
+
+            
+            startdescription: "Il y a des incantations de séparation, où l'espace entre les mots est aussi puissant que les syllabes elles-mêmes. Lorsqu'une chose est ouverte, nous connaissons sa nature. [Toute croyance étudiée avec la Clé devient de la Clé.]",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "studyupgradelore_edge",
+extends: ["studyupgradelore_edge"],
+            label: "Étudier la croyance du Couteau",
+            
+            
+            
+            
+            startdescription: "Toutes les grandes luttes se terminent par la mort. La croyance du Couteau contient les leçons de ces luttes.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "studysubvertlore_edgetowinter",
+extends: ["studysubvertlore_edgetowinter"],
+            label: "Corrompre la croyance du Couteau",
+            
+            
+            
+            
+            startdescription: "Toutes les choses ont une fin. Je méditerai sur le triomphe de la patience sur la force. [Cela créera de la croyance de l'Hiver au lieu de celle de la Pointe.]",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "studyforgelore",
+extends: ["studyforgelore"],
+            label: "Étudier la croyance qui brûle",
+            
+            
+            
+
+            
+            startdescription: "Très peu de gens savent que les forgerons et les meurtriers récitent les mêmes prières. Je vais examiner ces prières.",
+
+            
+            
+        },
+
+        {
+            id: "studysubvertlore_forgetoedge",
+extends: ["studysubvertlore_forgetoedge"],
+            label: "Corrompre la croyance qui brûle",
+            
+            
+            
+
+            
+            startdescription: "L'Heure appelée Lionsmith a brisé sa propre épée pour échapper à la domination de son maître. Tout peut être surmonté, avec une force suffisante. [Cela créera de la croyance de la Pointe au lieu de la Forge.]",
+
+            
+            
+        },
+
+        {
+            id: "studygraillore",
+extends: ["studygraillore"],
+            label: "Étudier la croyance succulente",
+            
+            
+            
+
+            
+            startdescription: "Certains mots demandent à être prononcés. Il est tentant de consacrer du temps à leur examen - tentant, et peut-être utile.",
+
+            
+            
+        },
+
+
+        {
+            id: "studysubvertlore_grailtomoth",
+extends: ["studysubvertlore_grailtomoth"],
+            label: "Corrompre la croyance succulente",
+            
+            
+            
+
+            
+            startdescription: "On prétend que le Graal est né du premier sacrifice. Mais la Phalène en sait plus. [Cela va créer de la croyance de la Phalène au lieu du Graal.]",
+
+            
+            
+        },
+
+
+        {
+            id: "studyheartlore",
+extends: ["studyheartlore"],
+            label: "Étudier la croyance incessante",
+            
+            
+            
+
+            
+            startdescription: "Il y a des leçons que l'anatomiste, le danseur et le chaman apprennent tous.",
+
+            
+            
+        },
+
+        {
+            id: "studysubvertlore_hearttograil",
+extends: ["studysubvertlore_hearttograil"],
+            label: "Corrompre la croyance incessante",
+            
+            
+            
+
+            
+            startdescription: "Ce qui ne cesse pas succombera, enfin, à la tentation. [Cela créera de la croyance du Graal au lieu du Coeur.]",
+
+            
+            
+        },
+
+
+        {
+            id: "studylanternlore",
+extends: ["studylanternlore"],
+            label: "Étudier la croyance de la Gloire",
+            
+            
+            
+
+            
+            startdescription: "Il existe un proverbe parmi les praticiens des arts invisibles: 'La Gloire visite la maison sans murs.' J'aimerais en savoir plus sur la Gloire.",
+
+            
+            
+        },
+        {
+            id: "studysubvertlore_lanterntoforge",
+extends: ["studysubvertlore_lanterntoforge"],
+            label: "Corrompre la croyance de la Gloire",
+            
+            
+            
+
+            
+            startdescription: "Le mage Julian Coseley prétend que la Forge des Jours a fendu le Soleil. Il avait peut-être raison. [Cela va créer de la croyance de la Forge au lieu de la Lanterne.]",
+
+            
+            
+        },
+        {
+            id: "studymothlore",
+extends: ["studymothlore"],
+            label: "Étudier la croyance du Bois",
+            
+            
+            
+
+            
+            startdescription: "Quand le souffle se fait noir, quand la brume tend la peau, quand les bois marchent en hiver, on entend ces mots.",
+
+            
+            
+        },
+
+        {
+            id: "studysubvertlore_mothtolantern",
+extends: ["studysubvertlore_mothtolantern"],
+            label: "Corrompre la croyance du Bois",
+            
+            
+            
+
+            
+            startdescription: "La Gloire est une question, et la Phalène répond toujours: Oui. [Cela créera une croyance de la Lanterne au lieu de la Phalène.]",
+
+            
+            
+        },
+
+        {
+            id: "studysecrethistorieslore",
+extends: ["studysecrethistorieslore"],
+            label: "Étudier les Histoires",
+            
+            
+            
+
+            
+            startdescription: "L'histoire est moins certaine que ce qu'on nous enseigne. Je peux apprendre de l'étude de ses frontières floues.",
+
+            
+            
+        },
+        {
+            id: "studywinterlore",
+extends: ["studywinterlore"],
+            label: "Étudier la croyance dépenaillée",
+            
+            
+            
+
+            
+            startdescription: "Ce sont les mots qui refroidissent l'air et boivent la couleur de ma peau.",
+
+            
+            
+        },
+        {
+            id: "subvertwinterlore",
+extends: ["subvertwinterlore"],
+            label: "Corrompre la croyance dépenaillée",
+            
+            
+            
+
+            
+            startdescription: "Même dans la neige, dans le silence, dans le blanc sans couleurs, la vie ne cessera jamais tout à fait. [Cela créera une croyance du Coeur au lieu de l'Hiver.]",
+
+            
+            
+        },
+
+        {
+            id: "studyproject_upgrade_edge",
+extends: ["studyproject_upgrade_edge"],
+            label: "La croyance du Couteau",
+            
+            
+            
+            
+            description: "J'ai accru ma maîtrise de la croyance du Couteau, que nous appelons par son aspect, Pointe."
+        },
+
+
+
+        {
+            id: "studyproject_upgrade_forge",
+extends: ["studyproject_upgrade_forge"],
+            label: "La croyance qui brûle",
+            
+            
+            
+            
+            description: "J'ai accru ma maîtrise de la croyance qui brûle, que nous appelons par son aspect, Forge."
+        },
+        {
+            id: "studyproject_upgrade_grail",
+extends: ["studyproject_upgrade_grail"],
+            label: "La croyance succulente",
+            
+            
+            
+            
+            description: "J'ai accru ma maîtrise de la croyance succulente, que nous appelons par son aspect, Graal."
+        },
+        {
+            id: "studyproject_upgrade_heart",
+extends: ["studyproject_upgrade_heart"],
+            label: "La croyance incessante",
+            
+            
+            
+            
+            description: "J'ai accru ma maîtrise de la croyance incessante, que nous appelons par son aspect, Coeur."
+        },
+        {
+            id: "studyproject_upgrade_lantern",
+extends: ["studyproject_upgrade_lantern"],
+            label: "La croyance de la Gloire",
+            
+            
+            
+            
+            description: "J'ai accru ma maîtrise de la croyance de la Gloire, que nous appelons par son aspect, Lanterne."
+        },
+        {
+            id: "studyproject_upgrade_moth",
+extends: ["studyproject_upgrade_moth"],
+            label: "La croyance du Bois",
+            
+            
+            
+            
+            description: "J'ai accru ma maîtrise de la croyance du bois, que nous appelons par son aspect, Phalène."
+        },
+        {
+            id: "studyproject_upgrade_secrethistories",
+extends: ["studyproject_upgrade_secrethistories"],
+            label: "La croyance de l'Histoire",
+            
+            
+            
+            
+            description: "J'ai approfondi ma connaissance des Histoires Secrètes qui se cachent derrière celle que nous connaissons."
+        },
+        {
+            id: "studyproject_upgrade_winter",
+extends: ["studyproject_upgrade_winter"],
+            label: "La croyance dépenaillée",
+            
+            
+            
+            
+            description: "J'ai accru ma maîtrise de la croyance dépenaillée, que nous appelons par son aspect, Hiver."
+        },
+
+
+
+        {
+            id: "studyproject_subvert_edgetowinter",
+extends: ["studyproject_subvert_edgetowinter"],
+            label: "Toutes les choses ont une fin",
+            
+            
+            
+            
+            description: "La patience vainc la force. J'ai corrompu ma croyance de la Pointe au profit de l'Hiver."
+        },
+
+        {
+            id: "studyproject_subvert_forgetoedge",
+extends: ["studyproject_subvert_forgetoedge"],
+            label: "La force l'emporte sur tout",
+            
+            
+            
+            
+            description: "J'ai brisé ce en quoi je croyais auparavant. C'est ainsi que j'ai corrompu ma croyance de la Forge au profit de la Pointe."
+        },
+        {
+            id: "studyproject_subvert_grailtomoth",
+extends: ["studyproject_subvert_grailtomoth"],
+            label: "La faim est une folie",
+            
+            
+            
+            
+            description: "Même le Graal Rouge est en proie au bourdonnement dans le cerveau. J'ai corrompu ma croyance du Graal au profit de la Phalène."
+        },
+        {
+            id: "studyproject_subvert_hearttograil",
+extends: ["studyproject_subvert_hearttograil"],
+            label: "Ce qui ne cesse pas doit finir par aboutir",
+            
+            
+            
+            
+            description: "Tout ce qui bouge doit succomber à la faim. J'ai corrompu ma croyance du Coeur au profit du Graal."
+        },
+        {
+            id: "studyproject_subvert_lanterntoforge",
+extends: ["studyproject_subvert_lanterntoforge"],
+            label: "Crépuscule à midi",
+            
+            
+            
+            
+            description: "Il y a des arts dans la Forge qui peuvent fendre même le soleil. J'ai corrompu ma croyance de la Lanterne en Forge."
+        },
+        {
+            id: "studyproject_subvert_mothtolantern",
+extends: ["studyproject_subvert_mothtolantern"],
+            label: "La lumière d'en haut",
+            
+            
+            
+            
+            description: "La Gloire est une question, et la Phalène répond toujours Oui. J'ai corrompu ma croyance de la Phalène au profit de la Lanterne."
+        },
+
+        {
+            id: "studyproject_subvert_wintertoheart",
+extends: ["studyproject_subvert_wintertoheart"],
+            label: "La vie en dessous",
+            
+            
+            
+            
+            description: "L'hiver qui arrive doit enfin céder le pas au printemps. J'ai corrompu ma croyance de l'Hiver au profit du Coeur."
+        },
+
+        {
+            id: "studyproject_upgrade_subvert_knock",
+extends: ["studyproject_upgrade_subvert_knock"],
+            label: "Tout doit être ouvert",
+            
+            
+            
+            
+            description: "Quand on ouvre une chose, on apprend sa nature. J'ai approfondi ma compréhension de la croyance qui ouvre, que nous appelons par son aspect, Clé.",
+            
+        },
+        {
+            id: "studyproject_upgrade_subvert_knock_remove_spare_knock",
+extends: ["studyproject_upgrade_subvert_knock_remove_spare_knock"],
+            label: "Tout doit être ouvert",
+            comments: "This exists to remove a Knock lore, if we were combining Knock lores rather than Knock + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
+            
+            
+            
+            description: "."
+        },
+
+
+
+        {
+            id: "studyresearchconsolation",
+extends: ["studyresearchconsolation"],
+            label: "Les leçons de l'expérience",
+            
+            
+            
+            
+            startdescription: ".",
+            description: "Cette fois, cette recherche a échoué. Mais j'ai tiré les enseignements de l'expérience.",
+            
+            
+        },
+
+        {
+            id: "studydowngradefragmentedgeb",
+extends: ["studydowngradefragmentedgeb"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de le séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+        {
+            id: "studydowngradefragmentedgec",
+extends: ["studydowngradefragmentedgec"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentedged",
+extends: ["studydowngradefragmentedged"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentedgee",
+extends: ["studydowngradefragmentedgee"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentedgef",
+extends: ["studydowngradefragmentedgef"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentedgeg",
+extends: ["studydowngradefragmentedgeg"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+
+
+
+
+        {
+            id: "studydowngradefragmentforgeb",
+extends: ["studydowngradefragmentforgeb"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+        {
+            id: "studydowngradefragmentforgec",
+extends: ["studydowngradefragmentforgec"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentforged",
+extends: ["studydowngradefragmentforged"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentforgee",
+extends: ["studydowngradefragmentforgee"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentforgef",
+extends: ["studydowngradefragmentforgef"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentforgeg",
+extends: ["studydowngradefragmentforgeg"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "studydowngradefragmentgrailb",
+extends: ["studydowngradefragmentgrailb"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+        {
+            id: "studydowngradefragmentgrailc",
+extends: ["studydowngradefragmentgrailc"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentgraild",
+extends: ["studydowngradefragmentgraild"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentgraile",
+extends: ["studydowngradefragmentgraile"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentgrailf",
+extends: ["studydowngradefragmentgrailf"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentgrailg",
+extends: ["studydowngradefragmentgrailg"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+
+
+
+
+        {
+            id: "studydowngradefragmentheartb",
+extends: ["studydowngradefragmentheartb"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+        {
+            id: "studydowngradefragmentheartc",
+extends: ["studydowngradefragmentheartc"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentheartd",
+extends: ["studydowngradefragmentheartd"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmenthearte",
+extends: ["studydowngradefragmenthearte"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentheartf",
+extends: ["studydowngradefragmentheartf"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentheartg",
+extends: ["studydowngradefragmentheartg"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+
+
+
+
+
+
+        {
+            id: "studydowngradefragmentknockb",
+extends: ["studydowngradefragmentknockb"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+        {
+            id: "studydowngradefragmentknockc",
+extends: ["studydowngradefragmentknockc"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentknockd",
+extends: ["studydowngradefragmentknockd"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentknocke",
+extends: ["studydowngradefragmentknocke"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentknockf",
+extends: ["studydowngradefragmentknockf"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentknockg",
+extends: ["studydowngradefragmentknockg"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+
+
+
+
+
+        {
+            id: "studydowngradefragmentlanternb",
+extends: ["studydowngradefragmentlanternb"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+        {
+            id: "studydowngradefragmentlanternc",
+extends: ["studydowngradefragmentlanternc"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentlanternd",
+extends: ["studydowngradefragmentlanternd"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentlanterne",
+extends: ["studydowngradefragmentlanterne"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentlanternf",
+extends: ["studydowngradefragmentlanternf"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentlanterng",
+extends: ["studydowngradefragmentlanterng"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+
+
+
+
+        {
+            id: "studydowngradefragmentmothb",
+extends: ["studydowngradefragmentmothb"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+        {
+            id: "studydowngradefragmentmothc",
+extends: ["studydowngradefragmentmothc"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentmothd",
+extends: ["studydowngradefragmentmothd"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentmothe",
+extends: ["studydowngradefragmentmothe"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentmothf",
+extends: ["studydowngradefragmentmothf"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentmothg",
+extends: ["studydowngradefragmentmothg"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+
+
+
+
+
+
+        {
+            id: "studydowngradefragmentsecrethistoriesb",
+extends: ["studydowngradefragmentsecrethistoriesb"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+        {
+            id: "studydowngradefragmentsecrethistoriesc",
+extends: ["studydowngradefragmentsecrethistoriesc"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentsecrethistoriesd",
+extends: ["studydowngradefragmentsecrethistoriesd"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentsecrethistoriese",
+extends: ["studydowngradefragmentsecrethistoriese"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentsecrethistoriesf",
+extends: ["studydowngradefragmentsecrethistoriesf"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentsecrethistoriesg",
+extends: ["studydowngradefragmentsecrethistoriesg"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+
+
+
+
+
+        {
+            id: "studydowngradefragmentwinterb",
+extends: ["studydowngradefragmentwinterb"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+
+        {
+            id: "studydowngradefragmentwinterc",
+extends: ["studydowngradefragmentwinterc"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentwinterd",
+extends: ["studydowngradefragmentwinterd"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentwintere",
+extends: ["studydowngradefragmentwintere"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentwinterf",
+extends: ["studydowngradefragmentwinterf"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+        {
+            id: "studydowngradefragmentwinterg",
+extends: ["studydowngradefragmentwinterg"],
+            label: "Retour aux fondamentaux",
+            
+            
+            comments: "Cela ne participe pas au cycle de recherche - c'est 'un et c'est fait'.",
+            
+            startdescription: "Parfois, j'ai besoin de revenir à une compréhension plus élémentaire d'un aspect particulier de la croyance. [Cela divisera la croyance en deux fragments de niveau inférieur. Vous pouvez les recombiner plus tard, mais ce ne sera pas aussi facile que de les séparer.]",
+            description: "L'analyse est une sorte de vivisection. La Raison est le couteau.",
+            
+            
+            
+        },
+    ]
+}

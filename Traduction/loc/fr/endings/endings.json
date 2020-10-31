@@ -1,0 +1,544 @@
+{
+    "endings": [
+
+        {
+            id: "majorforgevictory",
+extends: ["majorforgevictory"],
+            label: "LE JOUR",
+            description: "La Porte Sauvage est une vieille blessure, et elle ne s'ouvre pas facilement, mais une fois de plus elle s'ouvre. Même les dieux de la pierre l'ont empruntée, et combien l'ont fait avant eux ? Notre Créateur passe à la fois la Porte et le Portail, et il est devenu un Nom de la Forge, et une seule place s'est ouverte dans les rangs de Long. Ce n'est pas pour moi. Je ne suis nulle part. Nulle part est éclairé par des lampes de néphrite noir. Dans Nulle part, nous entendons les voix qui prophétisent. Il fait très froid dans Nulle part. Mais il est toujours possible d'être plus mort encore. \n[Félicitations pour cette grande victoire. Peut-être un joueur sur vingt a-t-il déjà remporté une victoire, même mineure: ils sont encore moins nombreux à s'élever jusqu'ici. Nous, et Janus, vous saluons.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "majorgrailvictory",
+extends: ["majorgrailvictory"],
+            label: "LA CELEBRATION REUSSIE",
+            description: "J'ai été la clé de voûte d'un événement somptueux, et même si je suis dispersé, je connais la joie. Ma joie habitera à jamais dans les chambres du Graal, comme elles le méritent si mûrement, et je ne vivrai nulle part, là où l'Applebright m'a trouvé. Elle a rassemblé mes derniers fragments pour me caresser, me consoler et me restaurer dans ses riches paniers de nutriments, et elle me promet que parfois, lorsqu'elle sera la Sorcière et que je serai en elle, elle me montrera à nouveau le monde. \n[Félicitations pour cette grande victoire. Peut-être un joueur sur vingt a-t-il déjà remporté une victoire, même mineure: ils sont encore moins nombreux à s'élever jusqu'ici. Nous, et Janus, vous saluons.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "majorlanternvictory",
+extends: ["majorlanternvictory"],
+            label: "DE LA TROISIÈME FAÇON",
+            description: "La Gloire est une question, et nous avons tous, les Témoins et moi, répondu Oui, en alimentant notre Illuminé. Ils sont la lumière maintenant dans la main du Gardien, plus Glorieux que jamais, et nous sommes de la cire et des coquilles d'œuf. Mais le pèlerinage secret de la Chaîne nous rassemblera un par un et nous rassemblera à l'image de celui qui regarde et n'agit pas. Notre temps est passé et le sien n'est pas encore venu, mais je pense que, très bientôt, elle nous proposera un arrangement. \n[Félicitations pour cette grande victoire. Peut-être un joueur sur vingt a-t-il déjà remporté une victoire, même mineure: ils sont encore moins nombreux à s'élever jusqu'ici. Nous, et Janus, vous saluons].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "minorforgevictory",
+extends: ["minorforgevictory"],
+            label: "L'embrasement du coeur",
+            description: "Durant quelques temps, je vis hautes salles du Mansus, puis je reviens par la Porte des Tricuspides, et mon corps s'agite dans les cendres. Je suis chauve et impérissable comme le marbre, et le feu de la Forge brûle encore en moi. Je porte la Force Formatrice. Je ne vieillirai pas. Peut-être me rebellerai-je. Peut-être qu'un jour, je m'élèverai encore plus haut. \n[Félicitations pour cette victoire de la Force. Vous avez mis le jeu à genoux. Il y a d'autres voies.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "minorgrailvictory",
+extends: ["minorgrailvictory"],
+            label: "La célébration de la vraie naissance",
+            description: "J'habite un peu dans les hautes pièces du Mansus, puis je reviens par la Porte tricuspide, et je me débarrasse des oripeaux collants de ma vieille chair. Mon nouveau corps est lisse à l'extérieur et rouge à l'intérieur comme un fruit sucré. Mes membres sont solides comme des câbles. Mes sens sont des couteaux. Je ne vais pas vieillir. Je parcourrai le monde au service du Graal, en festoyant, en grandissant. Peut-être me rebellerai-je. Peut-être qu'un jour, je m'élèverai encore plus haut. \n[Félicitations pour cette victoire standard des Sens. Vous avez mis le jeu à genoux. Il y a d'autres voies.]",
+            
+            
+            
+            
+        },
+        {
+            id: "minorlanternvictory",
+extends: ["minorlanternvictory"],
+            label: "L'Incursion",
+            description: "J'ai franchi la Porte des Tricuspides, et je suis entré dans les hautes salles du Mansus. La Gloire est très proche ici. Elle fuit à travers le tissu de la Maison pour apporter sa lumière. J'ai marché derrière le Gardien: j'ai vu son ombre sur la Pierre. J'entends parfois les Heures débattre les unes avec les autres sur la question des destinées du monde. Je ne vivrai pas. Je ne mourrai pas. Peut-être qu'un jour, je m'élèverai encore plus haut. \n[Félicitations pour cette victoire standard de l'Illumination. Vous avez mis le jeu à genoux. Il y a d'autres voies.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "minorheartvictory",
+extends: ["minorheartvictory"],
+            label: "LA VIE, POUR L'ÉTERNITÉ",
+            description: "La douleur s'estompe, tout comme ma voix, mais maintenant mon cœur va parler pour moi. Dans la balance du Temps, il sera pesé contre une plume, et il ne manquera de rien. Dans ma forme finale, je passerai la Porte des Tricuspides et j'ajouterai le battement de mon coeur au refrain de Thunderskin. Notre rythme est le rythme des Heures: et les Heures ont promis que nous supporterons le monde sans cesse. Je me déplace éternellement à travers le Mansus, et dans l'éternité est assurée ma constance. \n[Félicitations pour une victoire standard de Transformation: Plume. Vous avez mis le jeu à genoux. Il y a d'autres voies.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "minormothvictory",
+extends: ["minormothvictory"],
+            label: "LES CHOSES QUI ONT DES AILES",
+            description: "La Croix de Carapace a disparu, éteinte comme le dodo ou le dragon. Seuls les humains restent. Mais mes ailes se déploient encore, ma peau s'est durcie en écailles et les facettes de mes yeux brillent encore de l'anthracite. Je n'ai pas passé la Porte des Tricuspides, je suis descendu dans la mort et je suis revenu vivant. Ici, dans l'obscurité, nous resterons, là où on ne peut pas nous voir, jusqu'à ce que nous ne puissions plus rejeter la Gloire. Dans le feu, nous volons. La Croix est imaginaire, le changement ne l'est pas. \n[Félicitations pour une victoire standard de Transformation: Ecaille. Vous avez mis le jeu à genoux. Il y a d'autres voies].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "minormeniscatevictory",
+extends: ["minormeniscatevictory"],
+            label: "DANS LA MAISON DE LA LUNE",
+            description: "J'étais équilibré - trop parfaitement équilibré - entre le changement et l'éternité - et donc la Meniscate m'a favorisé. J'ai donc passé la Porte du Sommet, dans la Maison de la Lune qui est le moi-ombre du Mansus. Ici, elle est vide et immobile, mais ici la Roue tourne encore. Je ne suis pas longue - je ne suis qu'un reflet - mais parfois je suis le reflet de la Sorcière, et parfois de la Soeur, et quand le Soleil renaîtra, la Méniscate me ramènera à la maison. Ce qui est à l'intérieur, au dehors ; ce qui est au dehors, à l'intérieur. Toujours. \n[Félicitations pour cette victoire de Transformation: Balance. Vous avez trouvé un secret. Il y a d'autres voies].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "minorforgevictorywithrisen",
+extends: ["minorforgevictorywithrisen"],
+            label: "L'EMBRASEMENT DU COEUR",
+            description: "Je reste un peu dans les hautes pièces du Mansus, puis je reviens par la Porte des Tricuspides, et mon corps s'agite dans les cendres. Je suis chauve et impérissable comme le marbre, et le feu de la Forge brûle encore en moi. Je porte la Force Formatrice... et autre chose encore. La chair de mon bien-aimé mort a été consumée dans les flammes, et maintenant elles feront toujours partie de moi, comme l'étain qui durcit le bronze. Nous ne vieillirons pas. Peut-être nous rebellerons-nous. Peut-être qu'un jour, nous nous élèverons encore plus haut. \n[Félicitations pour cette victoire alternative du Pouvoir. Vous avez mis le jeu à genoux. Il y a d'autres voies.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "minorgrailvictorywithrisen",
+extends: ["minorgrailvictorywithrisen"],
+            label: "LA CELEBRATION DE LA VRAIE NAISSANCE",
+            description: "J'habite un peu dans les hautes pièces du Mansus, puis je reviens par la Porte tricuspide, et je me débarrasse des chiffons collants de ma vieille chair. Mon nouveau corps est lisse à l'extérieur et rouge à l'intérieur comme un fruit sucré. Mes membres sont solides comme des câbles. Mes sens sont des couteaux. Je ne vais pas vieillir. Je parcourrai le monde au service du Graal, festoyant, grandissant, et mon bien-aimé mort marchera à mes côtés, participant à mes festins, jusqu'à ce qu'ils deviennent quelque chose de tout à fait nouveau. Peut-être nous rebellerons-nous. Peut-être qu'un jour, nous nous élèverons encore plus haut. \n[Félicitations pour cette victoire alternative des Sens. Vous avez mis le jeu à genoux. Il y a d'autres voies.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "minorlanternvictorywithrisen",
+extends: ["minorlanternvictorywithrisen"],
+            label: "L'INCURSION",
+            description: "J'ai franchi la Porte des Tricuspides, et je suis entré dans les hautes salles du Mansus. Je ne vivrai pas, mais je ne mourrai pas non plus. Mon bien-aimé mort me suit comme une ombre - et dans le noyau sanctifié de cette lumière, les ombres brûlent d'autant plus profondément. La Gloire est très proche ici. Elle fuit à travers le tissu de la Maison pour apporter sa lumière. Un jour - peut-être bientôt - le pèlerinage se terminera, et le Gardien permettra à sept âmes de monter plus haut. L'Heure appelée Vagabond sera la première. Peut-être que ma compagne et moi la rejoindrons. \n[Félicitations pour cette victoire alternative de l'Illumination. Vous avez mis le jeu à genoux. Il y a d'autres voies].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "minorheartvictorywithrisen",
+extends: ["minorheartvictorywithrisen"],
+            label: "LA VIE, POUR L'ÉTERNITÉ",
+            description: "La douleur s'estompe, tout comme ma voix, mais maintenant mon coeur va parler pour moi. Dans la balance du temps, il sera pesé contre une plume, et il ne manquera de rien. Dans ma forme définitive, je passerai la Porte des Tricuspides, comme mon bien-aimé mort se traîne comme un drapeau dans la tempête, et j'ajouterai le battement de mon coeur au refrain de Thunderskin. Notre rythme est le rythme des Heures: et les Heures ont promis que nous supporterons le monde sans cesse. Mon bien-aimé d'autrefois m'encerclera comme le Graal a revêtu le Thunderskin, et c'est peut-être toujours ce qui était prévu. Nous nous déplaçons éternellement à travers le Mansus, et notre constance est assurée dans l'éternité. \n[Félicitations pour cette victoire alternative de la Transformation: Plume. Vous avez mis le jeu à genoux. Il y a d'autres voies].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "minormothvictorywithrisen",
+extends: ["minormothvictorywithrisen"],
+            label: "LES CHOSES QUI ONT DES AILES",
+            description: "La Croix de Carapace a disparu, éteinte comme le dodo ou le dragon. Seuls les humains restent. Mais mes ailes se déploient encore, ma peau s'est durcie en écailles et les facettes de mes yeux brillent encore de l'anthracite. Mon bien-aimé mort s'accroupit à côté de moi: l'ombre de ce que je suis devenu. Nous n'avons pas passé la Porte des Tricuspides, nous sommes descendus dans la mort et sommes revenus vivants. Ici, dans l'obscurité, nous resterons, là où on ne nous voit pas, jusqu'à ce que nous ne puissions plus rejeter la Gloire. Dans le feu, nous volons. La Croix est imaginaire, le changement ne l'est pas. \n[Félicitations pour cette victoire alternative de l'Ecaille. Vous avez mis le jeu à genoux. Il y a d'autres voies].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "minormeniscatevictorywithrisen",
+extends: ["minormeniscatevictorywithrisen"],
+            label: "DANS LA MAISON DE LA LUNE",
+            description: "J'étais équilibré - trop parfaitement équilibré - entre le changement et l'éternité - et donc la Meniscate m'a favorisé, ainsi que mon amour, mon ombre, ma réflexion. Nous avons donc passé la Porte du Sommet, dans la Maison de la Lune qui est le moi-ombre du Mansus. Ici, elle est vide et immobile, mais ici, la Roue tourne encore. Je ne suis pas longue - je ne suis qu'un reflet - mais parfois je suis le reflet de la Sorcière, et parfois ma bien-aimée - qui était la Soeur - et quand le Soleil renaîtra, la Méniscate nous ramènera à la maison. Ce qui est à l'intérieur, à l'extérieur ; ce qui est à l'extérieur, à l'intérieur. Toujours. \n[Félicitations pour cette victoire de Transformation: Balance. Vous avez trouvé un secret. Il y a d'autres voies].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "longnightmareending",
+extends: ["longnightmareending"],
+            label: "Dissolution",
+            description: "Je ne pouvais pas le supporter. C'est fini. \n[Les cauchemars de Long vous ont conduit à la dissolution.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "deathofthebody",
+extends: ["deathofthebody"],
+            label: "Mon corps est mort",
+            description: "Où me trouveront-ils ? Je ne suis pas ici. En fin de compte, mes forces étaient insuffisantes pour soutenir mon coeur défaillant \n[j'étais malade ou affamé, et je n'avais plus de santé. J'aurais dû m'assurer que j'avais de l'argent pour acheter des produits de première nécessité ; j'aurais pu utiliser le Rêve pour me reposer et me remettre de ma faiblesse].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "despairending",
+extends: ["despairending"],
+            label: "Pas plus",
+            description: "Le désespoir, le loup qui dévore la pensée. Suis-je vivant, ou suis-je mort ? Cela n'a plus d'importance. \n[J'ai permis au Désespoir d'accumuler 3 Peur ou Blessure.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "visionsending",
+extends: ["visionsending"],
+            label: "Gloire",
+            description: "D'abord, c'était les rêves. Puis ce furent les visions. Maintenant, c'est tout. Je n'ai plus aucune idée de ce qui est réel, et de ce qui ne l'est pas. \n[J'ai permis à la Vision d'accumuler 3 Fascination.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "wintersacrifice",
+extends: ["wintersacrifice"],
+            label: "Aller en paix",
+            description: "Dans la chambre haute de la maison où je suis emmené, mon souffle s'embue et mes yeux se ramollissent. La lumière dans la pièce est la lumière au bout du soleil. C'est une belle fin. \n[J'ai flirté avec les pouvoirs de l'hiver.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "arrest",
+extends: ["arrest"],
+            label: "Obstacles sous le soleil",
+            description: "La nature de mes crimes était vague, et le procès litigieux. Mais il y a un consensus sur le fait que j'ai fait quelque chose que je ne devrais pas. J'aurais aimé qu'il en soit autrement. J'aurais aimé pouvoir faire <i>tout</i> je ne devrais pas. \n[De nombreux chasseurs ont des faiblesses spécifiques. Peut-être pouvez-vous utiliser ces faiblesses pour les arrêter avant qu'ils ne vous jugent].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "rivalascension",
+extends: ["rivalascension"],
+            label: "PAS ASSEZ DE TEMPS",
+            description: "J'ai peut-être attendu trop longtemps. Ou peut-être que cette victoire ne m'a jamais été destinée. Une autre s'est élevée à ma place. Là où ils se sont élevés, je vais diminuer, jusqu'à ce que je ne sois plus qu'un souvenir. Peut-être un autre vengera ma défaite. \n[Quelqu'un d'autre vous a dépassé, a changé le monde, et a gagné.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "rivalascensionapostle",
+extends: ["rivalascensionapostle"],
+            label: "TROP LONG",
+            description: "Un rival s'est élevé jusqu'à l'immortalité. Ils vont s'allier avec l'ennemi immortel qui nous poursuit déjà. Nous ne pouvons pas nous opposer à deux immortels. Le projet de notre fondateur a pris fin, et avec lui, mon service. \n[L'ascension rivale exclut une victoire de l'Apôtre.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "workvictory",
+extends: ["workvictory"],
+            label: "Soleil couchant",
+            description: "J'ai mon feu, mes livres, mon horloge, ma fenêtre sur le monde où ils font d'autres choses. J'aurais pu être malheureux. Je ne suis pas malheureux. C'était une vie réussie, et quand elle sera terminée, la douce terre remplira ma bouche, plus douce que des éclats. \n[On pourrait considérer cela comme une victoire.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "workvictoryb",
+extends: ["workvictoryb"],
+            label: "Submergé d'ambition",
+            description: "Je vais m'élever, et encore plus haut. Mes affaires vont prospérer. Je remplirai une belle maison de choses élégantes. Je serai honoré par mes pairs et calomnié par mes rivaux. Je m'habituerai à la sonorité de mon nom. Puis un jour, je mourrai, et quelque temps après, mon nom ne sera plus entendu. \n[Cela pourrait être considéré comme une victoire mineure.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "workvictorymarriage",
+extends: ["workvictorymarriage"],
+            label: "UNE NOUVELLE VIE",
+            description: "J'étais pauvre, et maintenant je suis riche. J'étais quelque chose de commun, et maintenant je suis quelque chose de rare. Les matins d'été, les collines devant la fenêtre de ma chambre sont vertes de soleil et les matins d'hiver, elles sont blanches de neige et, par-dessus tout, c'est le bruit des rires de nos héritiers et le bruit du vent. Le vent fait claquer les vantaux et s'engouffre dans les collines et disparaît. \n[Cela pourrait être considéré comme une victoire mineure.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "turnasidevictory",
+extends: ["turnasidevictory"],
+            label: "APRES LE BONHEUR",
+            description: "XXX",
+            comment: "turnasidevictory n'est pas mentionné dans le JSON, où que ce soit. Il est laissé au cas où quelqu'un aurait un fichier de sauvegarde au mauvais moment.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "tristanvictory",
+extends: ["tristanvictory"],
+            label: "JAMAIS D'APRÈS: TRISTAN",
+            description: "Notre chair peut se fatiguer. Nous pouvons vieillir. Mais je ne le regretterai pas. Il est gravé dans ma mémoire: les traits sûrs et forts des notes manuscrites ; la forme qu'il laisse dans les oreillers ; le gonflement souple de ses bras par le feu. Le plus lumineux de tous est son corps à côté du mien, au ras des flammes de l'aube. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "valcianevictory",
+extends: ["valcianevictory"],
+            label: "JAMAIS D'APRÈS: VALCIANE",
+            description: "Elle remplit nos vies de choses bien faites: des trésors de porcelaine, de nacre, de verre soufflé. Certains sont le fruit de son travail. D'autres sont des souvenirs de voyages à l'étranger. Ils s'amassent en tas autour de notre maison, formant de curieux passages. Mais je la trouve au milieu des labyrinthes qu'elle construit. Elle veut vraiment qu'on la trouve. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "laidlawvictory",
+extends: ["laidlawvictory"],
+            label: "JAMAIS D'APRÈS: LAIDLAW",
+            description: "Nous avons nos modèles. Nos visites à la maison de vente aux enchères, les films vacillants que nous regardons ensemble, le rythme que nous connaissons dans la nuit. Mais il est aussi imprévisible que le scintillement du bois dans l'âtre. Quand crachera-t-il la braise la prochaine fois ? Quand ses feux se refroidiront-ils ? Je me façonne autour de ses flambées. Nous trouvons, nous pensons, un moyen. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "elridgevictory",
+extends: ["elridgevictory"],
+            label: "JAMAIS D'APRÈS: ELRIDGE",
+            description: "Notre maison est ordonnée, polie, contrôlée. Il sait toujours où se trouvent les outils dont nous avons besoin. Il sait ensuite les nettoyer, les remettre en place. Parfois, je dois attendre, pendant qu'il fait les choses qu'il doit faire. Mais quand il a fini, il peut me regarder et je peux lui donner sa récompense. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "rosevictory",
+extends: ["rosevictory"],
+            label: "JAMAIS D'APRÈS: ROSE",
+            description: "Nos vies sont heureuses. Nous semblons être un couple approprié. Il y a, bien sûr, les visites de son frère - mais elle se sent seule quand je voyage et a besoin de compagnie. Quand je reviens, ses yeux sont plus doux qu'avant, et elle embrasse du vin et du caramel. \n[Cela pourrait être considéré comme une victoire. Mais la maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "victorvictory",
+extends: ["victorvictory"],
+            label: "JAMAIS D'APRÈS: VICTOR",
+            description: "Nos soirées ensemble sont des choses élégantes. Le balayage de la cage d'escalier brillait d'or. Les soupirs du public près de la scène. Le fente de nos couteaux, plus loin, à travers le filet. Nous croisons souvent sa soeur, dont les goûts reflètent les nôtres. Mais quand nous sommes à nouveau seuls, il me dévoile son regard. Il m'offre des baisers, des caresses, du caramel. Nous sommes heureux, je pense. \n[Cela pourrait être considéré comme une victoire. Mais la maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "salibavictory",
+extends: ["salibavictory"],
+            label: "JAMAIS D'APRÈS: SALIBA",
+            description: "Je ne dirais pas que cela s'est mal terminé. Mais il y a peu de moi, maintenant. Nos activités extérieures ont diminué avec le temps, et je sais que c'est aussi le cas pour moi. À mesure que je diminue, mon amant s'intéresse de plus en plus à moi: ces jours-ci, il ne quitte presque plus mon côté, et moi, sa chambre. Bientôt, me dit-il, une tache humide sous son oeil. Bientôt. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "reniravictory",
+extends: ["reniravictory"],
+            label: "JAMAIS D'APRÈS: RENIRA",
+            description: "Je suis ivre avec elle. Les épaules dénudées à l'opéra, cent sourires de rubis à travers un restaurant bondé. Son sourire s'estompe si je suis surpris, même pour une courte durée, à admirer une autre jolie chose. Mais elle sait qu'elle est le cœur battant de ma personne, la force vitale de mon travail. Je suis perdu dans ses beaux bras, sa bouche est douce comme la myrrhe. Son cœur est le mien. Ma déesse. Elle. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "violetvictory",
+extends: ["violetvictory"],
+            label: "JAMAIS D'APRÈS: VIOLET",
+            description: "La maison est animée par des bougies. Mais elles ne durent jamais aussi longtemps. Elle est couchée avec moi dans l'obscurité des gouttières, alors que nos fenêtres se givrent de souffle, de glace, du silence de la nuit. Un par un, nous éteignons les flammes et écoutons le son du néant, serrés dans les bras l'un de l'autre. \n[Cela pourrait être considéré comme une victoire. Mais la maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "auclairvictory",
+extends: ["auclairvictory"],
+            label: "JAMAIS D'APRÈS: AUCLAIR",
+            description: "Mon esprit est encombré par elle. Les catéchismes sur la soupe, les dialogues de la vie quotidienne. Ce qui était autrefois des promenades sous la lune est maintenant notre souvenir le plus cher, celui d'elle et de moi avant que nous nous connaissions vraiment. Maintenant, nous savons. Nous sommes maintenant des érudits du coeur. Maintenant, nous sommes l'un pour l'autre. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un lieu pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "enidvictory",
+extends: ["enidvictory"],
+            label: "JAMAIS D'APRÈS: ENID",
+            description: "Elle ne parle pas, quand elle est triste. Mais elle est souvent triste. Je sais maintenant comment me placer, comment laisser ma main, et comment faire reposer ce joli cou sur mon épaule. Nos vies sont tachetées de moments comme celui-ci, de non-dits, d'invisibles, de nous. Et le matin, quand la veille de sa naissance est ouverte et large, elle sourit comme elle seule sait le faire et je suis bien récompensé. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "nevillevictory",
+extends: ["nevillevictory"],
+            label: "JAMAIS D'APRÈS: NEVILLE",
+            description: "Je trouve des notes parmi mes papiers, des chocolats à mon bureau. Quand nous dînons, il s'assoit près de moi, peu importe les remontrances du serveur. Je l'ai parfois surpris, à l'aube, en train de caresser une mèche de mes cheveux. Je l'embrasse alors, je le fais mien. Il me remercie ensuite. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "catvictory",
+extends: ["catvictory"],
+            label: "JAMAIS D'APRÈS: CAT",
+            description: "Notre maison est toujours remplie de ce dont nous avons besoin, avant même que je sache que nous en avons besoin. Il est difficile de savoir si mes désirs sont anticipés avant que je n'en sois conscient, ou si elle les façonne dès le départ. Mais il m'arrive de la surprendre perdue dans ses pensées, auréolée de lumière et de fumée. Je sais qu'il faut bouger calmement, et que je dois tinter nos tasses ensemble quand je les porte, afin qu'elle ne soit pas effrayée. Elle se moque de moi pour cela, mais veille à ce que je fasse de beaux rêves. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "cliftonvictory",
+extends: ["cliftonvictory"],
+            label: "JAMAIS D'APRÈS: CLIFTON",
+            description: "Il est difficile de dire, avec lui, s'il faut rire ou pleurer. Parfois, il arrive à l'aube, en dégoulinant de cigarettes turques. D'autres fois, il recouvre notre maison de lampes suspendues, et peut ou non persuader un gramophone malmené de jouer. Ces nuits-là, nous dégustons de la nourriture, puis nous nous retrouvons dans la pénombre scintillante de la nuit. \n[On pourrait considérer cela comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux].",
+            
+            
+            
+            
+        },
+
+        {
+            id: "sleevictory",
+extends: ["sleevictory"],
+            label: "JAMAIS D'APRÈS: SLEE",
+            description: "Notre maison est jonchée de ses notes. Elles évoquent la grandeur de l'amour, de la naissance, de tout. Parmi cela, nous rions de ses rimes et tombons ivres au lit. Quand nous nous réveillons, nous sommes dans un cocon, au chaud dans les creux des uns et des autres. Parfois, je pousse un bout de papier de la couverture. Parfois, je le laisse rester. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "portervictory",
+extends: ["portervictory"],
+            label: "JAMAIS D'APRÈS: PORTER",
+            description: "Il est très précis sur ce qu'il fait et ce qu'il n'aime pas. J'apprends ses manières: dessiner des cercles sur l'oreiller, se vexer jusqu'à ce qu'il allume sa pipe, adoucir son humeur avec des délices sucrés. Je ne saisirai jamais complètement cet homme, car il ne me saisira pas. Mais nos années sont tachetées de ce que certains pourraient appeler de l'amour, et cela suffit. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un lieu pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "ysabetvictory",
+extends: ["ysabetvictory"],
+            label: "JAMAIS D'APRÈS: YSABET",
+            description: "Nos vies sont des jours riches et chaotiques. Je note les rendez-vous dans son agenda plusieurs heures avant notre rencontre, mais elle est toujours rarement à l'heure. Je m'allonge dans le lit, je l'attends, pour me réveiller à l'aube, alors qu'elle glisse, froide, à côté de moi. Mais son sourire est chaud contre mon cou. Ses yeux sont chauds d'amour pour moi. Notre maison est le lieu de tous les battements d'ailes, et elle doit battre des ailes. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un lieu pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "sylviavictory",
+extends: ["sylviavictory"],
+            label: "JAMAIS D'APRÈS: SYLVIA",
+            description: "La vie n'est pas facile avec elle. Il y a des disputes. Il y a des moments où j'erre dans les rues, à la recherche de n'importe quelle fenêtre lumineuse - cette nuit-là - qui l'encadre et une autre. Mais à son retour, elle est d'un charme impitoyable. Il y a toujours une raison. Nous sommes réunis, encore et encore, et nous effaçons le monde avec le désir. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un endroit pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "clovettevictory",
+extends: ["clovettevictory"],
+            label: "JAMAIS D'APRÈS: CLOVETTE",
+            description: "Ma vie suit le chemin de sa joie - puissante, impitoyable, la sienne. Je dois parfois lui rappeler nos vœux, mais elle est toujours pleine de regrets et toujours irrésistible. Je suis riche de la lueur de son attention, une fois que je l'ai tirée des fêtes auxquelles nous assistons chaque soir. Et quand elle est à moi, oh, je suis à elle, et nos battements de coeur s'accélèrent ensemble. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un lieu pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "dorothyvictory",
+extends: ["dorothyvictory"],
+            label: "JAMAIS D'APRÈS: DOROTHY",
+            description: "Il y a des accalmies dans la musique entre nous, mais il y a beaucoup plus de crescendos que de chutes. Nous vivons ensemble, nous voyageons ensemble, nous tombons naturellement d'un pas parfait. Avant de dormir, nous dansons souvent, au rythme lent et bas des rues à l'extérieur. Ces nuits-là, nous faisons les mêmes rêves roses et nous nous réveillons, rougis, à l'aube. \n[Cela pourrait être considéré comme une victoire. Mais la Maison n'est pas un lieu pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "leovictory",
+extends: ["leovictory"],
+            label: "JAMAIS D'APRÈS: LEO",
+            description: "Son amour est irrépressible. Il pousse comme des mauvaises herbes dans les endroits ensoleillés et ne peut être contraint. Je n'étais pas tout à fait certain, pour commencer, de ce qu'était la lune et de ce qu'était l'homme. Mais il a semé la richesse dans notre maison. Il l'a remplie de bibelots de notre vie commune. Il est la mélodie de l'amour, et je l'entends maintenant. \n[Cela pourrait être considéré comme une victoire. Mais la maison n'est pas un lieu pour les amoureux.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "XXX",
+extends: ["XXX"],
+            label: "XXX",
+            description: "XXX",
+            
+            
+            
+            
+        },
+
+    ]
+}

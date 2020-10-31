@@ -1,0 +1,212 @@
+{
+    "recipes": [
+
+        {
+            id: "explore_vaultcontinent1_setup",
+extends: ["explore_vaultcontinent1_setup"],
+            label: "Commencer une expédition: Chateau Raveline",
+            
+            
+            
+
+            startdescription: "Le lointain et délabré château des Comtes de Raveline a été pillé il y a longtemps. Nous avons trouvé des indices indiquant qu'il n'a pas été complètement fouillé. Il y a peut-être une pièce secrète. De même, il se peut qu'il y ait une malédiction. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+            id: "explore_vaultcontinent2_setup",
+extends: ["explore_vaultcontinent2_setup"],
+            label: "Commencer une expédition: L'abbaye de Fermier",
+            
+            
+            
+
+            startdescription: "L'abbaye de Fermier, repliée dans la forêt comme un écrin caché dans une robe verte. Si nous parvenons à traverser la forêt, nous devrons encore affronter les moines. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultcontinent3_setup",
+extends: ["explore_vaultcontinent3_setup"],
+            label: "Commencer une expédition: Le bois Orthos",
+            
+            
+            
+
+            startdescription: "Dans le coeur noir du bois d'Orthos, on pourrait trouver l'arbre où le corbeau masqué a rencontré ses pairs. Mais la forêt elle-même est un péril, et les clans cannibales qui y vivent en sont un autre. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultcontinent4_setup",
+extends: ["explore_vaultcontinent4_setup"],
+            label: "Commencer une expédition: La collection Vanderschaaf",
+            
+            
+            
+
+            startdescription: "La porte de la salle des peintures de la collection Vanderschaaf est fermée à clé et surveillée. On dit que le bâtiment est 'hanté par les fleurs'. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+
+
+        {
+
+            id: "explore_vaultcontinent5_setup",
+extends: ["explore_vaultcontinent5_setup"],
+            label: "Commencer une expédition: La maison Forman",
+            
+            
+            
+
+            startdescription: "Incontestablement, ce sombre manoir est hanté. Le dernier visiteur a vu et fui les morts avant qu'ils ne puissent le toucher avec leurs mains effilochées. Le visiteur précédent prétendait n'avoir rien vu, mais il est mort de désespoir exactement un an plus tard, jour pour jour. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+
+            id: "explore_vaultcontinent6_setup",
+extends: ["explore_vaultcontinent6_setup"],
+            label: "Commencer une expédition: Le grenier du chasseur de clés",
+            
+            
+            
+            startdescription: "Une fois à Vienne, on entend dire que le chasseur de clés n'a pas été vu depuis de nombreux jours. Un ivrogne local insiste sur le fait qu'un grand serpent est entré dans la maison pour le dévorer. Il est certain que la maison n'est pas éclairée et est barricadée, et qu'il y a une odeur de nid de reptile. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+
+        {
+            id: "explore_vaultcontinentdefault_setup",
+extends: ["explore_vaultcontinentdefault_setup"],
+            label: "Commencer une expédition: Les Pierres immémoriales",
+            
+            
+            
+            startdescription: "Les chercheurs de trésors qui visitent les Pierres doivent pénétrer dans la forêt qui les dissimule, se battre avec les habitants qui les vénèrent et enfin se préparer à creuser, pour trouver une porte cachée. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explorevaultcontinent1_success",
+extends: ["explorevaultcontinent1_success"],
+            label: "La fin de l'enfance",
+            
+            
+            
+            
+            startdescription: "Derrière une tapisserie en décomposition de loups chassant des hommes, un mur de lambris. Dans le mur de lambris, une porte secrète. Le ressort est cassé depuis longtemps, bien sûr. Nous avons dû l'enfoncer à coups de marteau.",
+            description: "Les derniers trésors des Comtes de Raveline reposent ici, dans une salle étonnamment aérée. Les hautes fenêtres de la lucarne ont été brisées depuis longtemps, et le sol est jonché de feuilles et de débris, mais autrefois l'endroit était meublé comme une pouponnière. Voici un berceau, avec le squelette d'un chiot.",
+            
+            
+        },
+
+        {
+            id: "explorevaultcontinent2_success",
+extends: ["explorevaultcontinent2_success"],
+            label: "Sous les rameaux",
+            
+            
+            
+            
+            startdescription: "Les moines et leurs tourments sont derrière nous. Ici, dans la cour de leur chapelle, un grand if s'élève à côté d'un autel de granit, couvert comme un sarcophage. Qu'y a-t-il à l'intérieur ?",
+            description: "L'espace à l'intérieur de l'autel est rempli de tasses cassées, toutes peintes en rouge, toutes griffonnées de vils graffitis ou souillées d'une autre manière. Les moines ont dû organiser de grandes cérémonies détestables et ont conservé les restes comme trophées. D'autres trésors sont enterrés parmi les corps des coupes.",
+            
+            
+        },
+
+
+        {
+            id: "explorevaultcontinent3_success",
+extends: ["explorevaultcontinent3_success"],
+            label: "La mémoire des corbeaux",
+            
+            
+            
+            
+            startdescription: "C'est le grand chêne où le corbeau masqué se perchait autrefois. La foudre l'a fendu de la tête au coeur, et l'arbre carbonisé est en train de pourrir. Il grouille de vers de la longueur d'un doigt. Quelque chose brille dans la masse de racines mortes.",
+            description: "Une racine s'enroule autour d'un oeuf de plomb de la taille d'un enfant. Il a peut-être été plaqué avec un autre métal, autrefois, mais le temps a effacé toute trace de revêtement. Après un effort, les moitiés de l'oeuf se séparent pour révéler son contenu.",
+            
+            
+        },
+
+
+        {
+            id: "explorevaultcontinent4_success",
+extends: ["explorevaultcontinent4_success"],
+            label: "Dans la chambre peinte",
+            
+            
+            
+            
+            startdescription: "Les murs de la Chambre peinte portent des scènes de guerre de toutes les grandes histoires - Vienne tombant aux mains des Vers, les Souverains de la Flamme enlacée brûlant les soldats martyrs de la Sororité du Noeud, la rencontre d'Alexandre et du Roi sans ombre. Le long d'un mur, une étagère est remplie de bric-à-brac et de curiosités.",
+            description: "Un livre de fleurs pressées dégageant un parfum particulier; trois Baedekers âgés; une collection de papillons peints en noir et blanc; et les vrais trésors. Une bizarrerie dans un coffret de verre et un coffret de livres rares.",
+            
+            
+        },
+
+        {
+            id: "explorevaultcontinent5_success",
+extends: ["explorevaultcontinent5_success"],
+            label: "Les moulages",
+            
+            
+            
+            
+            startdescription: "Dans la pièce qui donne sur la vitre sale du jardin d'hiver brisé, des formes tordues jaune pâle comme des asticots s'allongent sur des plaques de bois. Ce sont les plâtres que Forman a fait des pauvres âmes habitées par les créatures qu'il a étudiées. Sur certaines des figures, les trous d'entrée sont visibles sur la surface concernée. Dans d'autres, on peut supposer que les créatures sont entrées par l'oreille, la bouche ou ailleurs. ",
+            description: "La salle est vide. Mais enfin, quand on a la chance de casser un des plâtres, on trouve les trésors de la bibliothèque de Forman, cachés dans l'abdomen jaunâtre du personnage.",
+            
+            
+        },
+
+        {
+            id: "explorevaultcontinent6_success",
+extends: ["explorevaultcontinent6_success"],
+            label: "Les cendres aériennes",
+            
+            
+            
+            
+            startdescription: "La pièce pue le musc de serpent et le papier brûlé. Quelqu'un a complètement détruit tous les documents qu'il a pu trouver. Ils ont même nettoyé les murs. Les cendres froides étouffent la cheminée. Il ne reste aucune trace de la pauvre âme qui a loué cet endroit.",
+            description: "Un seul coin de papier enroulé au feu a survécu aux flammes. Dans une main tremblante, on peut lire: 'Lady K. Calcédoine verte. Trilobé. Feuilles de printemps en fi -' Mais, de manière inattendue, dans une valise à côté des flammes, un petit trésor de livres survit. Celui qui a détruit les journaux du chasseur de clés n'a pas vu la nécessité de brûler ces livres.",
+            
+            
+        },
+
+
+        {
+            id: "explorevaultcontinentdefault_success",
+extends: ["explorevaultcontinentdefault_success"],
+            label: "Sous la pierre",
+            
+            
+            
+            
+            startdescription: "Le clair de lune blanchit l'herbe pour l'hiver. Tout autour, les pierres se dressent. Ici, dans le tumulus, sous le gazon, se trouve une pierre qui fait office de trappe. Nous devons y mettre toute notre force. ",
+            description: "La chambre à l'intérieur du tumulus s'est à moitié effondrée avec les années. De grosses araignées blanches grouillent sous la lumière de nos lampes, d'une lenteur insolente. Les reliefs de pierre sont fissurés et ruissellent. Mais voici le trou béant, avec ses trésors.",
+            
+            
+            
+        },
+
+    ]
+}

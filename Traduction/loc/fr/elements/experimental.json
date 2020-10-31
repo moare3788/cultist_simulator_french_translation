@@ -1,0 +1,62 @@
+{
+    "elements": [
+        {
+            id: "owl",
+extends: ["owl"],
+            label: "La chouette sans chapeau",
+            
+            description: "La Chouette dit que notre dernier personnage était #PREVIOUSCHARACTERNAME#, notre dernier désir était #LAST_DESIRE#, notre dernier meilleur servant était #LAST_FOLLOWER# et notre dernier livre était #LAST_BOOK#.",
+            
+
+        },
+        {
+            id: "wolfatthedoor",
+extends: ["wolfatthedoor"],
+            label: "LES LOUPS QUI VIVENT DANS LA GRANDE MAISON",
+            description: "Le loup accepte tout, puis dévore tout, quoi qu'il arrive.",
+            
+
+        },
+        {
+            id: "wolf",
+extends: ["wolf"],
+            
+            
+            description: "",
+            
+
+        },
+        {
+            id: "lionweb",
+extends: ["lionweb"],
+            label: "Le Lion sur la toile",
+            comments: "L'information vit dans le ciel.",
+            
+
+        },
+        {
+            id: "boarwords",
+extends: ["boarwords"],
+            label: "Le sanglier dans les mots",
+            comments: "Les titres sont criminels.",
+            
+
+        },
+        {
+            id: "worldbull",
+extends: ["worldbull"],
+            label: "Le monde dans le taureau",
+            comments: "Le crime Au début",
+            
+
+        },
+        {
+            id: "notaworm",
+extends: ["notaworm"],
+            label: "Peut-être un oiseau",
+            comments: "Nous attendons S.T.E.",
+            
+
+        },
+    ]
+}

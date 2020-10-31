@@ -1,0 +1,395 @@
+{
+    "recipes": [
+        {
+            id: "workdetectivejob_start",
+extends: ["workdetectivejob_start"],
+            label: "A la gare",
+            
+            
+            
+            
+
+            
+            startdescription: "Une fois de plus, j'ai été détaché au Bureau de la répression, le bureau du gouvernement qui s'occupe des crimes 'occultes'. Le Bureau a une mauvaise réputation.",
+            description: "Le Bureau a identifié une personne gênante sur laquelle je dois enquêter. J'ai le souffle coupé quand je vois ce nom. Il y a eu un autre cas, dont je ne me souviens que trop bien...",
+            
+            
+            
+        },
+
+        {
+            id: "detectiveopendream",
+extends: ["detectiveopendream"],
+            label: "Rêver...",
+            
+            startdescription: "Le Bureau de la répression publie des mémorandums sur les dangers des rêves. Chaque semaine, il y en a un nouveau.",
+            description: "'Compte-rendu des rêves de clair de lune. Rêves d'une forêt nocturne. Tirez vos rideaux pour être réveillé par le soleil. Ne vous coupez pas les cheveux avant de dormir. Ne dormez jamais devant un miroir brisé.'",
+            
+            
+            
+        },
+
+
+        {
+            id: "workdetectivejob_matured_investigate_hint",
+extends: ["workdetectivejob_matured_investigate_hint"],
+            label: "Poursuivre une enquête ?",
+            
+            
+            startdescription: "Si j'applique ma Raison, je peux peut-être en apprendre davantage sur mon objectif.",
+            
+            
+        },
+
+        {
+            id: "workdetectivejob_matured_pursuepromotion",
+extends: ["workdetectivejob_matured_pursuepromotion"],
+            label: "Une sorte d'Ascension",
+            
+            
+            startdescription: "J'ai gagné les faveurs des autorités. Je pourrais m'en servir pour obtenir une promotion dans la hiérarchie du Bureau lui-même. [C'est une fin de victoire mineure.]",
+            description: "Fin.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "workdetectivejob_matured_investigate",
+extends: ["workdetectivejob_matured_investigate"],
+            label: "Poursuivre une enquête",
+            
+            
+            
+            
+            startdescription: "Enquêter sur une cible. Plus j'utilise de Raison, plus j'ai de chances de réussir.",
+            description: "Mon enquête n'a révélé aucune nouvelle piste.",
+            
+            
+            
+        },
+
+
+        {
+            id: "workdetectivejob_matured_investigate_threereason_success",
+extends: ["workdetectivejob_matured_investigate_threereason_success"],
+            label: "Progrès !",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "workdetectivejob_matured_investigate_tworeason_success",
+extends: ["workdetectivejob_matured_investigate_tworeason_success"],
+            label: "Progrès !",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "workdetectivejob_matured_investigate_onereason_success",
+extends: ["workdetectivejob_matured_investigate_onereason_success"],
+            label: "Progrès !",
+            
+            
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "workdetectivejob_matured_investigate_successresults",
+extends: ["workdetectivejob_matured_investigate_successresults"],
+            label: "Progrès !",
+            
+            
+            
+            description: "Le cliquetis constant des portes qui se ferment, les taches d'humidité sur les murs de la gare, l'odeur du cirage des bottes et des gendarmes mal lavés. Tout cela se réduit à une seule vérité cristalline. J'ai fait des progrès, et j'ai mérité le paiement d'heures supplémentaires.",
+            
+        },
+
+        {
+            id: "workdetectivejob_matured_attemptsolvecase",
+extends: ["workdetectivejob_matured_attemptsolvecase"],
+            label: "Résoudre l'affaire",
+            
+            
+            slots: [
+                {
+                    id: "Culprit",
+extends: ["Culprit"],
+                    label: "Culpabilité",
+                    
+                    
+                }
+            ],
+            startdescription: "J'ai remis mon témoignage au directeur général adjoint du Bureau de la répression...",
+            description: "J'ai fourni au Bureau de la répression suffisamment de preuves pour procéder à une arrestation... mais il n'y a personne à arrêter.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "workdetectivejob_matured_solvecase_withbackup",
+extends: ["workdetectivejob_matured_solvecase_withbackup"],
+            label: "Résoudre l'affaire",
+            
+            
+            
+            startdescription: "J'ai remis mon témoignage au directeur général adjoint du Bureau de la répression. En ce moment, je peux supposer que des hommes au visage dur, en civil, frappent à la porte de ma carrière.",
+            description: "Le Bureau de la répression tient ses procès à huis clos, et ils ne sont pas cléments. Ma carrière disparaît du monde. Je viens me suis gagné une promotion. ",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "workdetectivejob_matured_solvecase",
+extends: ["workdetectivejob_matured_solvecase"],
+            label: "Résoudre l'affaire",
+            
+            
+            startdescription: "J'ai remis mon témoignage au directeur général adjoint du Bureau de la répression. En ce moment, je peux supposer que des hommes au visage dur, en civil, frappent à la porte de ma carrière.",
+            description: "Le Bureau de la répression tient ses procès à huis clos, et ils ne sont pas cléments. Ma carrière disparaît du monde. Je me suis gagné une promotion. ",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "workdetectivejob_newrival",
+extends: ["workdetectivejob_newrival"],
+            label: "Un autre mécréant ?",
+            
+            startdescription: "Cela va-t-il se terminer un jour ? Pourrons-nous un jour qualifier la loi, la ville, le monde de 'sûrs' ?",
+            description: "Il existe des rapports - des rapports troublants - sur celui-ci.",
+            
+            
+            
+        },
+
+        {
+            id: "workdetectivejob_newrival_recruit",
+extends: ["workdetectivejob_newrival_recruit"],
+            label: "Un autre mécréant ?",
+            
+            startdescription: ".",
+            description: ".",
+            
+            
+        },
+
+
+
+        {
+            id: "workdetectivejob_start_promote_lever_believer",
+extends: ["workdetectivejob_start_promote_lever_believer"],
+            comments: "laissé sans nom pour des raisons de rétrocompatibilité",
+            label: "Se méfier...",
+            
+            
+            
+            
+        },
+
+        {
+            id: "workdetectivejob_start_promote_lever_disciple",
+extends: ["workdetectivejob_start_promote_lever_disciple"],
+            comments: "left unrenamed for backwards compatibility",
+            label: "Se méfier...",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "workdetectivejob_start_rebellion",
+extends: ["workdetectivejob_start_rebellion"],
+            comments: "left unrenamed for backwards compatibility",
+            label: "Se méfier...",
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "workdetectivejob_matured_plead",
+extends: ["workdetectivejob_matured_plead"],
+            label: "Plaider pour la réintégration !",
+            
+            
+            startdescription: "Pourquoi ne comprennent-ils pas ?",
+            description: "J'ai été réintégré... pour l'instant.",
+            
+            
+            
+        },
+
+
+        {
+            id: "workdetectivejob_epilogue",
+extends: ["workdetectivejob_epilogue"],
+            label: "",
+            
+            
+            startdescription: "J'ai perdu mon emploi",
+            description: "",
+            
+        },
+
+
+        {
+            id: "legacydetectiveplotitem_tempt",
+extends: ["legacydetectiveplotitem_tempt"],
+            label: "L'odeur des pages",
+            
+            
+            
+        },
+        {
+            id: "legacydetectiveplotitem_tempt_addslot",
+extends: ["legacydetectiveplotitem_tempt_addslot"],
+            label: "L'odeur des pages",
+            
+            slots: [
+                {
+                    id: "resist",
+extends: ["resist"],
+                    label: "Résister",
+                    description: "Il est difficile de résister à la tentation de relire le dossier. Ajouter une Raison pour renforcer votre résistance.",
+                    
+                }
+            ],
+            startdescription: "Je ne peux pas oublier ce que j'ai vu dans le dossier sur #PREVIOUSCHARACTERNAME#. [Il est difficile de résister à la tentation de relire le dossier. Ajouter une Raison pour renforcer votre résistance.]",
+            description: "Les pages tournent si facilement. C'est comme si on épluchait un fruit ou qu'on déballait un cadeau secret. A la fin, mes mains sont tachées d'encre. Mon cerveau est en ébullition. Qu'est-ce que j'ai fait ?",
+            
+            
+            
+            
+        },
+
+        {
+            id: "legacydetectiveplotitem_tempt_resist",
+extends: ["legacydetectiveplotitem_tempt_resist"],
+            label: "L'odeur des pages",
+            
+            
+            startdescription: "Je suis la discipline. Je suis la discipline incarnée. Je n'ai pas tenu aussi longtemps pour abandonner aussi facilement.",
+            
+            description: "La tentation est passée, pour l'instant."
+        },
+
+
+
+
+        {
+            id: "detectiveopenstudy",
+extends: ["detectiveopenstudy"],
+            label: "Étudier...",
+            
+            
+            startdescription: "Parfois, j'ai un peu de temps pour m'améliorer.",
+            description: "Sans doute, quelque part, je peux trouver du matériel pour étudier.",
+            
+            
+            
+        },
+
+
+        {
+            id: "detectiveopenexplore",
+extends: ["detectiveopenexplore"],
+            label: "Explorer...",
+            
+            startdescription: "J'ai une carte de la capitale sur le mur de mon bureau, hérissée d'épingles à tête noire, parsemée d'annotations.",
+            description: "Je connais bien cette ville, mais il faudrait une vie entière pour la connaître complètement.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "detectiveopentalk",
+extends: ["detectiveopentalk"],
+            label: "Parler...",
+            
+            startdescription: "Je pourrais nouer ou rompre une amitié.",
+            description: "",
+            
+            
+            
+        },
+
+
+        {
+            id: "detectivestudy_plotitem",
+extends: ["detectivestudy_plotitem"],
+            label: "Je ne devrais pas ouvrir le dossier",
+            
+            
+            
+            
+            startdescription: "JE NE DOIS PAS LE RELIRE. Il m'a fallu des semaines pour oublier les rapports, les instructions - que Dieu me vienne en aide, les croquis.",
+            description: "Les pages tournent si facilement. C'est comme si on épluchait un fruit ou qu'on déballait un cadeau secret. A la fin, mes mains sont tachées d'encre. Mon cerveau est en ébullition. Qu'est-ce que j'ai fait ?",
+            
+            
+            
+        },
+
+
+        {
+            id: "detectivestudy_plotitem_afterfirsttime",
+extends: ["detectivestudy_plotitem_afterfirsttime"],
+            label: "Je ne devrais pas ouvrir le dossier",
+            
+            
+            
+            
+            startdescription: "JE NE DOIS PAS LE RELIRE. Il m'a fallu des semaines pour oublier les rapports, les instructions - que Dieu me vienne en aide, les croquis.",
+            description: "Les pages tournent si facilement. C'est comme si on épluchait un fruit ou qu'on déballait un cadeau secret. A la fin, mes mains sont tachées d'encre. Mon cerveau est en ébullition. Qu'est-ce que j'ai fait ?",
+            
+            
+            
+        },
+
+        {
+            id: "detectivework_plotitem",
+extends: ["detectivework_plotitem"],
+            label: "Brûler le dossier",
+            
+            
+            
+            startdescription: "C'est une preuve. Nous ne brûlons pas les preuves habituellement. Mais c'est peut-être mieux.",
+            description: "Les pages noircissent, une à une, se courbant comme des doigts qui se ferment. J'ai ouvert la fenêtre de mon bureau. La fumée se dissipe et se perd. Qu'est-ce que j'ai fait exactement ?",
+            
+            
+        },
+
+
+
+    ]
+}

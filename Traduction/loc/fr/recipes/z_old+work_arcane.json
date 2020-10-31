@@ -1,0 +1,103 @@
+{
+    "recipes": [
+        {
+            id: "conjurationpower",
+extends: ["conjurationpower"],
+            label: "La Clé de mon Coeur",
+            
+            
+            
+            startdescription: "Je peux utiliser ce rite pour offrir mon corps à une Heure ? Le pouvoir vient avec eux comme un parfum. Bien sûr... Je ne sais pas quelle Heure pourrait venir.",
+            description: "Le rituel est terminé. La Porte s'ouvre.",
+            
+            
+            comments: "legacy",
+            
+        },
+        {
+            id: "conjurationpowerclue",
+extends: ["conjurationpowerclue"],
+            label: "La Clé de mon Coeur ?",
+            
+            
+            
+            startdescription: "Puis-je utiliser ce rite pour offrir mon corps à une Heure ? Le pouvoir vient avec eux comme un parfum.",
+            description: "Cela n'a pas fonctionné. J'ai besoin d'une autre invocation également - quelque chose pour ouvrir la voie. Et cela exige un sacrifice volontaire.",
+            
+            
+            comments: "legacy",
+            
+        },
+        {
+            id: "conjurationenlightenment",
+extends: ["conjurationenlightenment"],
+            label: "La Porte dans mes Rêves",
+            
+            
+            
+            startdescription: "Je peux utiliser ce rite pour suivre les traces du Guetteur, et découvrir la Maison sans Murs.",
+            description: "Le rituel est terminé. La Porte s'ouvre.",
+            
+            
+            comments: "legacy",
+            
+        },
+        {
+            id: "conjurationenlightenmentclue",
+extends: ["conjurationenlightenmentclue"],
+            label: "La Porte dans mes Rêves ?",
+            
+            
+            startdescription: "Puis-je utiliser ce rite pour suivre les traces du Guetteur et découvrir la maison sans murs ?",
+            description: "Cela n'a pas fonctionné. Je dois également faire appel à un autre pouvoir, un pouvoir d'ouverture. Et j'aurai besoin de Fonds, pour acheter les bougies en cire rare qui éclaireront le chemin du Guetteur.",
+            
+            
+            comments: "legacy",
+            
+        },
+        {
+            id: "ascensionpowerapromotion",
+extends: ["ascensionpowerapromotion"],
+            label: "LE GRAAL ROUGE ARRIVE",
+            
+            
+            slots: [
+                {
+                    id: "Dedication",
+extends: ["Dedication"],
+                    label: "Dévouement",
+                    
+                }
+            ],
+            startdescription: "Mon coeur se gonfle, mon sang brûle. Je suis très proche. Je dois me dévouer avec plus de ferveur.",
+            description: "Le rite a échoué ! J'étais proche - aussi proche que la flamme d'une bougie, que le sang d'un coeur. Je dois essayer à nouveau.",
+            
+            
+            comments: "legacy",
+            
+        },
+        {
+            id: "ascensionenlightenmentapromotion",
+extends: ["ascensionenlightenmentapromotion"],
+            label: "J'ENTENDS LES PAS DU GUETTEUR",
+            
+            
+            
+            slots: [
+                {
+                    id: "Dedication",
+extends: ["Dedication"],
+                    label: "Dévouement",
+                    
+                }
+            ],
+            startdescription: "Les murs du monde tremblent comme de la soie. Je suis très proche. Toutes mes pensées doivent converger.",
+            description: "Je l'ai touché du bout des doigts, la compréhension que je recherche. Si proche. Je dois essayer à nouveau.",
+            
+            
+            comments: "legacy",
+            
+        },
+
+    ]
+}

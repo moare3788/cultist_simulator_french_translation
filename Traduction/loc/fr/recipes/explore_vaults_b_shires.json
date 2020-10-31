@@ -1,0 +1,181 @@
+{
+    "recipes": [
+
+        {
+            id: "explore_vaultshires1_setup",
+extends: ["explore_vaultshires1_setup"],
+            label: "Commencer une expédition: Le lac de Gladwyn",
+            
+            
+            
+
+            startdescription: "Sous la surface du lac, ou dans un recoin au bord d'une falaise, il nous reste peut-être encore quelques vestiges. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+            id: "explore_vaultshires2_setup",
+extends: ["explore_vaultshires2_setup"],
+            label: "Commencer une expédition: Le marais de Lockwood",
+            
+            
+            
+
+            startdescription: "Dans les marécages. Quelque part, nous en sommes certains, se trouve un sanctuaire orné de précieux ornements. Si les locaux essaient de nous tuer, c'est que nous sommes probablement sur la bonne voie. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultshires3_setup",
+extends: ["explore_vaultshires3_setup"],
+            label: "Commencer une expédition: La colline de Crowkiss",
+            
+            
+            
+
+            startdescription: "Celui qui est venu ici avant nous avait marqué la porte dans le flanc de la colline. Et la voici peut-être encore, mais elle est scellée à la fois par une pierre et un sortilège. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultshires4_setup",
+extends: ["explore_vaultshires4_setup"],
+            label: "Commencer une expédition: L'éraflure de Keglin",
+            
+            
+            
+
+            startdescription: "Nous nous préparons à la descente. Nous apportons de la corde, des outils, de la lumière; nous nous armons contre tout ce qui peut encore bouger en bas. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+
+            id: "explore_vaultshires5_setup",
+extends: ["explore_vaultshires5_setup"],
+            label: "Commencer une expédition: L'auberge Gwaer",
+            
+            
+            
+
+            startdescription: "Nous pouvons réserver des chambres à l'auberge assez facilement, mais nous pouvons nous attendre à ce que les locaux - s'ils devinent nos intentions - deviennent désagréables. Et si la bibliothèque est toujours là, elle sera bien cachée. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultshiresdefault_setup",
+extends: ["explore_vaultshiresdefault_setup"],
+            label: "Commencer une expédition: Kerisham",
+            
+            
+            
+
+            startdescription: "Glisser le long des rues jusqu'à une maison de ville autrefois splendide. Jusqu'au jardin situé à l'arrière. Des histoires étranges circulent sur la femme qui vit ici. Elle pourrait être une adepte, une collectionneuse, ou même la chose rare appelée <i>empousa</i>. Nous devons être vigilants. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explorevaultshires1_success",
+extends: ["explorevaultshires1_success"],
+            label: "La Chapelle Racine",
+            
+            
+            
+            
+            startdescription: "Il y a des ruines sous l'eau - juste en dessous, à gué. Le lac s'est un peu élevé pendant toutes ces années, mais pas assez pour nous empêcher d'entrer.",
+            description: "La crypte de la chapelle est inondée, l'eau est souillée de vieux cadavres, mais nous remontons enfin un coffre scellé à la cire. Au XVIIIe siècle ? Pas plus vieux que ça. Voyons ce qu'il y a à l'intérieur.",
+            
+            
+        },
+
+        {
+            id: "explorevaultshires2_success",
+extends: ["explorevaultshires2_success"],
+            label: "Le sanctuaire de l'Anneau-d'If",
+            
+            
+            
+            
+            startdescription: "Ici, sur un rocher plat, à quelques centimètres au-dessus du marécage, se trouve un trône sculpté dans du bois d'if, recouvert de champignons, orné de cuivre terni. C'est le sanctuaire que nous recherchons.",
+            description: "La peinture vert pâle souligne les cercles rituels sur le rocher. Les restes des sacrifices passés s'étalent sous nos pieds alors que nous fouillons le sanctuaire. Dans un petit creux du trône repose un paquet imbibé d'huile.",
+            
+            
+        },
+
+
+        {
+            id: "explorevaultshires3_success",
+extends: ["explorevaultshires3_success"],
+            label: "La fin du Guerrier",
+            
+            
+            
+            
+            startdescription: "Il est presque possible de se tenir debout dans cet endroit, mais l'air est vicié et nos lampes brûlent peu. Voici le guerrier-roi qui se tient sur la pierre funéraire, ses os brisés pour l'empêcher de marcher. Les orbites de son crâne sont recouvertes de bronze.",
+            description: "D'autres ont été ici avant nous - le pouvoir est toujours là, et ils l'ont sans doute utilisé lors de leurs cérémonies. Ils ont pris certains des trésors funéraires du roi guerrier, mais ont laissé quelque chose qui leur appartenait.",
+            
+            
+            
+        },
+
+
+        {
+            id: "explorevaultshires4_success",
+extends: ["explorevaultshires4_success"],
+            label: "Il était une fois une dame",
+            
+            
+            
+            
+            startdescription: "L'air est vicié et la poussière s'infiltre de façon inquiétante dans la roche, mais les morts restent immobiles. Cette chambre, avec ses figures de craie et ses taches anciennes, semble prometteuse.",
+            description: "Dans un sarcophage tapissé de plomb se trouve le squelette d'une femme. Elle n'a pas été enterrée ici: on dirait qu'elle a rampé pour mourir... quelque chose est arrivé à son crâne, poussant la mâchoire comme le museau d'une bête. Des morceaux de linge pourri enveloppent ses os. Des trésors se trouvent parmi les restes de ses mains serrées contre ses côtes.",
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultshires5_success",
+extends: ["explorevaultshires5_success"],
+            label: "La bibliothèque blanche",
+            
+            
+            
+            
+            startdescription: "La pièce est décolorée et calme. Les chaises sont en bois pâle; la table est recouverte de marbre blanc. Un faible courant d'air souffle à travers le battant mal ajusté qui fait face à la mer. En hiver, il doit faire un froid insupportable. Une vitrine en verre peint de blanc contient une étagère de livres, curieusement enveloppés dans des serpentins de fil de cuivre.",
+            description: "Certains de ces livres sont de la pornographie exotique du XVIIIe siècle. D'autres sont des carnets de botanistes. Certains, cependant, ont une valeur pour nos études. Une note jaunâtre au dos de l'un d'entre eux dit: 'Regardez-moi. - JC.'",
+            
+            
+        },
+
+        {
+            id: "explorevaultshiresdefault_success",
+extends: ["explorevaultshiresdefault_success"],
+            label: "La dernière pièce",
+            
+            
+            
+            
+            startdescription: "Rien ne nous barre la route. Fouillez d'abord la cave, puis les pièces supérieures. Nous ne voulons pas être piégés.",
+            description: "Au dernier étage se trouve un autel du Soleil Divisé - qui pourrait être une des nombreuses Heures. Emportez les objets qui y sont exposés dans un sac de toile, et hâtons-nous de rejoindre les ruelles.",
+            
+            
+            
+        },
+
+    ]
+}

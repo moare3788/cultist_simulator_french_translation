@@ -1,0 +1,112 @@
+{
+    "recipes": [
+
+
+
+        {
+            id: "explorecabaret",
+extends: ["explorecabaret"],
+            
+            label: "Visiter le Club Ecdysis",
+            
+            startdescription: "L'entrée se perd sous de doux rideaux de carmin, de cinabre et d'incarnadine. Au-dessus de la porte, la devise du club: 'IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI.' Elle a été rendue comme suit : 'Dans le cercle de la nuit nous volons, jusqu'à ce que le feu nous réjouisse'.",
+            description: ".",
+            
+            
+            
+            
+        },
+        {
+            id: "cabaretpleasure",
+extends: ["cabaretpleasure"],
+            label: "Plaisirs nocturnes au Cabaret",
+            
+            
+            startdescription: "Les boissons, les chansons, la lumière ; les murs voûtés, la brume bleu des cigarettes, la pression et le balancement de la chair vêtue et dévêtue.",
+            description: "J'ai acheté du plaisir. Je rentre à la maison aux heures impies et je m'écroule dans mon lit.",
+            
+            
+        },
+        {
+            id: "cabaretallure",
+extends: ["cabaretallure"],
+            label: "Séduction au Club Ecdysis",
+            
+            
+            startdescription: "Dans le spectacle de ce soir, 'Amethyst', un chasseur brandissant un filet poursuit une femme aux ailes voilées à travers un labyrinthe de danseuses vêtues de feuilles. Chaque mouvement est lent comme sous l'eau",
+            description: "Les lumières s'éteignent, très progressivement, à la fin du spectacle. Il n'y a pas d'applaudissements. Nous nous enfonçons chacun dans la rue, seuls avec notre rêve.",
+            
+            
+            
+        },
+        {
+            id: "cabareteducation",
+extends: ["cabareteducation"],
+            label: "Les enseignements du Cabaret",
+            
+            
+            startdescription: "Le spectacle de ce soir est une histoire désastreuse et chaste. Le public se tourne vers la conversation.",
+            description: "J'ai passé la soirée à échanger des théories avec une table pleine de charlatans, de poseurs et - peut-être - d'initiés. Certaines de ces théories sont peut-être vraies.",
+            
+            
+            
+        },
+        {
+            id: "cabaretglimpse",
+extends: ["cabaretglimpse"],
+            label: "Un aperçu de quelque chose d'étrange au Club Ecdysis",
+            
+            
+            startdescription: "Les coulisses des représentations de ce soir sont peintes avec des images cauchemardesques de Piranesi - de vastes et impossibles prisons souterraines. Les danseurs sont masqués comme des monstres, rapides comme l'éclair, chaque mouvement étant animé d'une intention malveillante.",
+            description: "Les danseurs dépassent les décors, les traversent, semblent se déplacer sur leurs escaliers et leurs passerelles. Leurs corps sont maculés de la peinture du décor. Un grognement s'élève du public. 'Les murs de la Maison...'",
+            
+            
+        },
+        {
+            id: "cabaretharm",
+extends: ["cabaretharm"],
+            label: "Une consommation blessante au Club Ecdysis",
+            
+            
+            startdescription: "Ce soir, les artistes passent parmi le public, jonglant avec des couteaux ou des bouteilles de verre rouge, se penchant pour distribuer des chuchotements ou d'autres cadeaux.",
+            description: "Un danseur a pressé une coupe en verre rouge sur ma bouche. Son rebord était tranchant. Ma bouche saigne. Mais le vin qui était à l'intérieur était fort -",
+            
+            
+            
+        },
+        {
+            id: "cabaretexposure",
+extends: ["cabaretexposure"],
+            label: "Une interruption au Club Ecdysis",
+            
+            
+            startdescription: "Le spectacle a à peine commencé qu'un gémissement de terreur s'élève du public !",
+            description: "Le spectacle se termine immédiatement; les lumières s'allument; on nous fait sortir de nos sièges et on nous pousse dans la rue. On ne sait jamais ce qui s'est passé, mais le personnel du Club semble préparé, comme si cela s'était déjà produit auparavant. Les lumières s'allument aux fenêtres voisines et les passants jettent un coup d'œil à la foule des invités qui se dispersent dans la nuit.",
+            
+            
+        },
+        {
+            id: "cabarethunger",
+extends: ["cabarethunger"],
+            label: "L'appetit du Club Ecdysis",
+            
+            
+            startdescription: "Une danseuse entre sur scène par la gauche, enveloppé dans des bandages rouges serrés comme des tendons. Elle en enlève un. Un autre. Un autre. Un autre - ",
+            description: "Ce doit être une ruse. On ne peut pas enlever des vêtements si délicatement jusqu'à ce que les os sous la peau soient visibles. L'os est rose comme la chair d'une pêche. Les organes sont imbriqués comme des raisins. Les lumières s'éteignent, vacillent, disparaissent, et l'étoile rouge de la scène avec elles. Toutes nos lèvres sont sèches.",
+            
+            
+        },
+        {
+            id: "cabaretfey",
+extends: ["cabaretfey"],
+            label: "Les mystères du Club Ecdysis",
+            
+            
+            startdescription: "'La Couronne' annonce le maître de cérémonie. Une danseuse ondule sur la scène, dépliant ses bras. Des phalènes vivantes coulent à flot de sa bouche !",
+            description: "Des phalènes blanches traversent la salle. Ils se perchent sur les rebords des verres à vin et sirotent. Le public applaudit. La femme sur scène bouge comme si elle avait trop de membres. Les phalènes se pressent sur mes bras, se nichent contre mon épaule. Dans un instant, je vais sortir et regarder les étoiles claires et froides : je suppose que j'ai tout rêvé. Les fumées du Club sont traîtresses.",
+            
+            
+            
+        }
+    ]
+}

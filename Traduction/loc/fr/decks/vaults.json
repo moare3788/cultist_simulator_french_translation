@@ -1,0 +1,71 @@
+{
+    "decks": [
+        {
+            id: "locationscapital",
+extends: ["locationscapital"],
+            label: "Lieux cachés dans la Capitale",
+            description: "Des lieux à portée de main.",
+            
+            
+            resetonexhaustion: false
+        },
+        {
+            id: "vaultsshires",
+extends: ["vaultsshires"],
+            label: "Lieux cachés en province",
+            description: "Une occasion de passer une journée à la campagne, peut-être.",
+            
+            
+            resetonexhaustion: false
+        },
+        {
+            id: "vaultscontinent",
+extends: ["vaultscontinent"],
+            label: "Lieux cachés sur le continent",
+            description: "Un monde plus vaste se trouve de l'autre côté de l'étroite mer.",
+            
+            
+            resetonexhaustion: false
+        },
+
+        {
+            id: "vaultslandbeyondforest",
+extends: ["vaultslandbeyondforest"],
+            label: "Lieux cachés dans les terres par-delà la forêt",
+            description: "Un patchwork de possibilités dans un pays hanté par les montagnes.",
+            
+            
+            resetonexhaustion: false
+        },
+
+        {
+            id: "vaultsrendingmountains",
+extends: ["vaultsrendingmountains"],
+            label: "Lieux cachés dans les montagnes en ruine",
+            description: "Des voûtes et des temples éloignés et dangereux.",
+            
+            
+            resetonexhaustion: false
+        },
+
+        {
+            id: "vaultsloneandlevelsands",
+extends: ["vaultsloneandlevelsands"],
+            label: "Lieux cachés des Dunes solitaires et des Sables uniformes",
+            description: "C'est là que se trouvent les trésors de l'Antiquité, pour ceux qui peuvent les saisir.",
+            
+            
+            resetonexhaustion: false
+        },
+
+        {
+            id: "vaultseveningisles",
+extends: ["vaultseveningisles"],
+            label: "Lieux cachés dans les îles du soir",
+            description: "Îles non cartographiées dans le voisinage de Port Midi.",
+            
+            
+            resetonexhaustion: false
+        },
+    ]
+}

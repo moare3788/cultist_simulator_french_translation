@@ -1,0 +1,805 @@
+{
+    "recipes": [
+        {
+
+            id: "dreamstartingpassion",
+extends: ["dreamstartingpassion"],
+            label: "Le chemin éclairé par la lune",
+            
+            
+            slots: [
+                {
+                    id: "Lore",
+extends: ["Lore"],
+                    label: "Croyance",
+                    description: "Si je m'adonne à une pratique occulte avant de dormir, je pourrais trouver le chemin d'un rêve plus profond.",
+                    
+                }
+            ],
+            startdescription: "Je connais ce rêve. Une route culmine au sommet d'une colline, et l'air est d'un éclat argenté -",
+            description: "Des champs déchiquetés, le clin d'oeil d'une rivière. Un frisson.",
+            
+        },
+        {
+            id: "dreamreachwoodmoth",
+extends: ["dreamreachwoodmoth"],
+            label: "Le chemin de Thyrsine",
+            
+            
+            comments: "exigence 3, et non 2, car il y a déjà des Phalènes dans le mélange.",
+            startdescription: "Je pourrais me couper une mèche de cheveux avant de dormir, pour honorer un pouvoir du Bois.",
+            description: "La route s'enfonce dans les arbres. Des ailes pâles se déplacent dans le bois. Je trébuche sur les racines, à présent. Il est tentant de se mettre à quatre pattes, pour éviter les branches basses. Alors que leurs doigts restent dans mes cheveux, la lune passe derrière les feuilles noires. Je n'oublierai pas le chemin qui mène à cet endroit.",
+            
+            
+
+        },
+        {
+            id: "dreamreachwoodknock",
+extends: ["dreamreachwoodknock"],
+            label: "Le chemin du serpent",
+            
+            
+            startdescription: "Le Serrurier fait souvent le Rêve après que la plante du pied soit blessée - surtout si celle-ci a été mordue par un serpent.  Je pourrais essayer cela.",
+            description: "Je boite le long de la route, et c'est ainsi que je vois le serpent dans le fossé. Je le suis à travers les décharges et dans la mare. Est-ce des cheveux qui me brossent le visage, ou de la mousse qui pend ? Je me penche pour rester près de la terre, comme mon guide. Je n'oublierai pas le chemin qui mène à cet endroit.",
+            
+            
+        },
+
+        {
+            id: "dreamreachwoodlantern",
+extends: ["dreamreachwoodlantern"],
+            label: "Le chemin décoloré",
+            
+            
+            startdescription: "Je pourrais dormir dans une chambre sans couleurs: blanchir les draps, blanchir les murs, me teindre les cheveux et peindre ma peau.",
+            description: "'La couleur n'existe que là où il y a de la lumière': et le Bois est l'endroit où la lumière n'éclaire pas. Dans le rêve, je ferme les yeux, et je marche, trébuchant, me faisant des bleus aux pieds et aux genoux. Enfin, le sous-bois devant moi devient trop épais pour passer, et quand j'ouvre les yeux, je suis à la dérive parmi les arbres noirs. Les ombres flottent. Mes pieds connaîtront le chemin du retour à cet endroit.",
+            
+            
+        },
+        {
+            id: "dreamusewoodway",
+extends: ["dreamusewoodway"],
+            label: "Le chemin du Bois",
+            
+            
+            slots: [
+                {
+                    id: "Path",
+extends: ["Path"],
+                    label: "Chemin",
+                    description: "Utilisez la Passion pour entrer dans le Bois - ou, avec la bonne croyance, trouvez le chemin de la Porte Blanche, la porte où les morts se pressent.",
+                    
+                }
+            ],
+            startdescription: "Si j'ai assez de Passion, je peux marcher sur la route des rêves vers le Bois. Si j'ai les bonnes connaissances, je peux peut-être trouver le chemin au-delà.",
+            description: "Les eaux du Bois sont froides et profondes, mais jamais claires. La mémoire seule ne m'y conduira pas. Je dois engager ma Passion. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+            
+            
+
+            
+        },
+        {
+            id: "dreamenterwood",
+extends: ["dreamenterwood"],
+            label: "Entrer dans le Bois",
+            
+            
+            
+            startdescription: "Maintenant, je passe entre des arbres à l'écorce balafrée. La lune passe derrière les branches, tandis que leurs doigts restent dans mes cheveux. Je trébuche sur les racines, maintenant. Il est tentant de se mettre à quatre pattes, pour éviter les branches basses. Des ailes pâles bougent, au plus profond de la nuit.",
+            description: ".",
+            
+            
+            
+            
+        },
+
+        {
+            id: "dreamnotquitereachwhitelantern",
+extends: ["dreamnotquitereachwhitelantern"],
+            label: "La lumière dans le Bois: pas assez !",
+            
+            
+            startdescription: "Il y a une Maison dans le Bois. Je le sais. Voici une lumière à travers les arbres - ",
+            description: "Ma peau de rêve est percée d'épines de rêves. Mon lit sera taché de sang à mon réveil. C'est la bonne approche, mais je dois en savoir plus pour aller plus loin. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+            
+
+            
+        },
+
+        {
+            id: "dreamreachwhitelantern",
+extends: ["dreamreachwhitelantern"],
+            label: "À l'approche de la Porte Blanche",
+            
+            
+            startdescription: "Il y a une Maison dans le Bois. Je sais quelque chose de cette Maison. Assez pour trouver mon chemin vers sa lumière ?",
+            description: "Ce sont les Frontières de la Maison, avec ses brumes et ses traces. C'est le rocher appelé le Temple de la Roue, haut comme une flèche d'église, taché de lichen noir et barbouillé de signes de l'Oeil. Je l'entoure, et là, devant moi, se trouve la Porte Blanche. La lumière de la Maison fuit sur ses bords.",
+            
+            
+            
+        },
+        {
+            id: "dreamnotquitereachwhiteknock",
+extends: ["dreamnotquitereachwhiteknock"],
+            label: "La lumière dans le Bois: pas assez !",
+            
+            
+            startdescription: "Il y a une Maison dans le Bois. Je le sais. Voici une lumière à travers les arbres - ",
+            description: "Ma peau de rêve est percée d'épines de rêves. Mon lit sera taché de sang à mon réveil. C'est la bonne approche, mais je dois en savoir plus pour aller plus loin. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "dreamreachwhiteknock",
+extends: ["dreamreachwhiteknock"],
+            label: "À l'approche de la Porte Blanche",
+            
+            
+            startdescription: "Il y a une Maison dans le Bois. Je connais assez de secrets de la Clé pour trouver les chemins cachés à travers les arbres enchevêtrés.",
+            description: "Ce sont les Frontières de la Maison, avec ses brumes et ses traces. C'est le rocher appelé le Temple de la Roue, haut comme une flèche d'église, taché de lichen noir et barbouillé de signes de l'Oeil. Je la contourne, et là devant moi se trouve la Porte Blanche: ouverte, comme on l'a prévu il y a si longtemps.",
+            
+            
+            
+        },
+
+        {
+            id: "dreamnotquitereachwhitewinter",
+extends: ["dreamnotquitereachwhitewinter"],
+            label: "La lumière dans le Bois: pas assez !",
+            
+            
+            startdescription: "Il y a une Maison dans le Bois. Je le sais. Voici une lumière à travers les arbres - ",
+            description: "Ma peau de rêve est percée d'épines de rêves. Mon lit sera taché de sang à mon réveil. C'est la bonne approche, mais je dois en savoir plus pour aller plus loin. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+            
+
+            
+        },
+
+        {
+            id: "dreamreachwhitewinter",
+extends: ["dreamreachwhitewinter"],
+            label: "À l'approche de la Porte Blanche",
+            
+            
+            startdescription: "Il y a une Maison dans le Bois, et une porte où vont parfois les Morts. J'ai lu les chemins que prennent les morts.",
+            description: "Ce sont les Frontières de la Maison, avec ses brumes et ses traces. C'est le rocher appelé le Temple de la Roue, haut comme une flèche d'église, taché de lichen noir et barbouillé de signes de l'Oeil. Je la contourne, et là devant moi se trouve la Porte Blanche, qui brille comme la lune en Hiver.",
+            
+            
+            
+        },
+
+        {
+            id: "dreamusewhiteway",
+extends: ["dreamusewhiteway"],
+            label: "Le chemin vers la Porte Blanche",
+            
+            
+            slots: [
+                {
+                    id: "Ascent",
+extends: ["Ascent"],
+                    label: "Ascension",
+                    description: "Investir dans la Santé pour passer la Porte blanche - ou suivre le désir jusqu'à la Porte du Cerf, la porte du Savoir.",
+                    
+                }
+            ],
+            startdescription: "Dans mes rêves, je connais le chemin de la Porte Blanche, à travers les Frontières. Mais ce chemin est peuplé de Morts qui passent par là. J'aurai besoin de la Santé pour résister à leur froid.",
+            description: "Le chemin étroit est encombré de formes lentes - l'air frissonne de leurs soupirs. Mon sang est épaissi par le froid. Je dois faire demi-tour. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+            
+            
+            
+            
+        },
+        {
+            id: "dreamenterwhite",
+extends: ["dreamenterwhite"],
+            label: "Entrer par la Porte Blanche",
+            
+            
+            
+            startdescription: "Maintenant, je peux approcher la Porte Blanche à travers les Frontières. Je peux maintenant y appuyer mes doigts, sentir son froid, la regarder s'ouvrir. Lorsqu'elle s'ouvre, ma bouche se referme, se resserre, se cicatrise comme une difformité oubliée. Autour de moi et sur moi, se trouve la lumière cobalt du Mansus...",
+            description: ".",
+            
+            
+            
+            
+        },
+
+        {
+            id: "dreamreachstagfirst",
+extends: ["dreamreachstagfirst"],
+            label: "Vers la porte du Cerf",
+            
+            
+            
+            startdescription: "L'ascension est lente. Des vents venus de nulle part m'assaillent. Ma peau est tachée de lumière. Le bois frissonne de mouvement, loin en dessous.",
+            description: "La Porte du Cerf : une barrière hérissée de cornes ensanglantées, assez grande pour qu'un navire puisse la franchir. Elles ont été brisées il y a longtemps, et même maintenant les cicatrices ne sont pas tout à fait guéries. Dans une déclivité à côté de la porte repose une vaste tête dorée et blessée. Sa bouche serait assez grande pour m'avaler, si sa mâchoire n'était pas brisée. Il s'agit d'un Nom, Ghirbi. Il commence à entonner son énigme. ",
+            
+            
+            
+            
+        },
+
+        {
+            id: "dreamreachstagsubsequent",
+extends: ["dreamreachstagsubsequent"],
+            label: "À la porte du Cerf, encore une fois",
+            
+            
+            startdescription: "J'ai déjà fait cette ascension. Elle ne me profitera pas. Je devrais répondre à l'énigme si je le dois, ou utiliser le chemin de la Porte du Cerf si je le peux.",
+            description: "La Porte du Cerf : une barrière hérissée de cornes ensanglantées, assez grande pour qu'un navire puisse la franchir. Elles ont été brisées il y a longtemps, et même maintenant les cicatrices ne sont pas tout à fait guéries. Dans une déclivité à côté de la porte repose la vaste tête dorée et blessée, Ghirbi. Il m'a donné son énigme, à laquelle je dois répondre si je veux entrer par la Porte du Cerf. [Rêver de l'énigme pour y répondre, ou Chemin: la Porte du Cerf si vous avez déjà répondu.]",
+            
+            
+            
+        },
+
+        {
+            id: "dream_answerstagriddle_router",
+extends: ["dream_answerstagriddle_router"],
+            
+            label: "L'énigme de Ghirbi",
+            
+            slots: [
+                {
+                    id: "Answer",
+extends: ["Answer"],
+                    label: "Réponse",
+                    
+                }
+            ],
+            startdescription: "Dans mon rêve, je me tiendrai à nouveau devant la Porte du Cerf : une barrière hérissée de cornes ensanglantées, brisées depuis longtemps, pas encore tout à fait guérie. Cette vaste tête dorée, Ghirbi, attendra la réponse à mon énigme.",
+            description: "La Tête est silencieuse. La Porte reste fermée. Maintenant, je dérive dans vers d'autres rêves.",
+            
+            
+            
+            
+            comments: "Route through this to answer riddle.",
+            
+        },
+        {
+            id: "dream_answerstagriddle_1",
+extends: ["dream_answerstagriddle_1"],
+            label: "Un fil dans un Labyrinthe",
+            
+            
+            startdescription: "'Il y a de nombreuses réponses à cette question, comme le savent ceux qui perdent leur peau. Voici la mienne...'",
+            description: "La Porte se déchire. La lumière du Guetteur inonde le couloir à l'intérieur. La Tête, Ghirbi, gémit. Des larmes de laiton fondu sortent de ses yeux et roulent sur ses joues, brûlant le sol en dessous. Je peux entrer !",
+            
+            
+        },
+
+        {
+            id: "dream_answerstagriddle_2",
+extends: ["dream_answerstagriddle_2"],
+            label: "Une réponse implacable",
+            
+            
+            startdescription: "'Seulement dans l'ombre.'",
+            description: "La Porte se déchire. La lumière du Guetteur inonde le couloir à l'intérieur. La Tête, Ghirbi, gémit. Des larmes de laiton fondu sortent de ses yeux et roulent sur ses joues, brûlant le sol en dessous. Je peux entrer !",
+            
+            
+        },
+
+        {
+            id: "dream_answerstagriddle_3",
+extends: ["dream_answerstagriddle_3"],
+            
+            label: "Une réponse désirable",
+            
+            startdescription: "'Voici ces paroles...'",
+            description: "La Porte se brise. La lumière du Guetteur inonde le couloir à l'intérieur. La tête, Ghirbi, gémit. Des larmes de laiton fondu sortent de ses yeux et roulent sur ses joues, brûlant le sol en dessous. Je peux entrer !",
+            
+            
+        },
+
+        {
+            id: "dream_answerstagriddle_4",
+extends: ["dream_answerstagriddle_4"],
+            
+            label: "Une réponse du Serpent",
+            
+            startdescription: "'Moi-même, je dois être ouvert. Voyez mon sang qui est versé.'",
+            description: "La Porte se déchire. La lumière du Guetteur inonde le couloir à l'intérieur. La Tête, Ghirbi, gémit. Des larmes de laiton fondu sortent de ses yeux et roulent sur ses joues, brûlant le sol en dessous. Je peux entrer !",
+            
+            
+        },
+
+        {
+            id: "dream_answerstagriddle_5",
+extends: ["dream_answerstagriddle_5"],
+            
+            label: "Une réponse de l'Histoire",
+            
+            startdescription: "'Son coeur est enfoui dans une autre histoire.'",
+            description: "La Porte se déchire. La lumière du Guetteur inonde le couloir à l'intérieur. La Tête, Ghirbi, gémit. Des larmes de laiton fondu sortent de ses yeux et roulent sur ses joues, brûlant le sol en dessous. Je peux entrer !",
+            
+            
+        },
+
+        {
+            id: "dream_wronganswerstagriddle",
+extends: ["dream_wronganswerstagriddle"],
+            
+            label: "Ce n'est pas la réponse",
+            
+            startdescription: "Ghirbi est tombé bien bas. Il ne peut pas entrer dans la Chambre, et l'une de ses rares satisfactions est d'interdire l'entrée. Il a trop d'honneur pour se moquer de moi, mais je vois la satisfaction dans ses yeux d'or. 'Ce n'est pas,' dit-il avec délectation, 'la réponse.'",
+            description: "Je suis réveillé. Mes yeux sont ouverts, et la Porte du Cerf reste fermée. Maintenant, je dérive vers d'autres rêves.",
+            
+        },
+
+        {
+            id: "dreamusestagway",
+extends: ["dreamusestagway"],
+            label: "Le chemin vers la porte du Cerf",
+            
+            
+            slots: [
+                {
+                    id: "Ascent",
+extends: ["Ascent"],
+                    label: "Ascension",
+                    description: "Investir de la Raison pour passer la Porte du Cerf - ou, avec la bonne croyance, trouver le chemin de la Porte de l'Araignée, la porte où le sang est répandu.",
+                    
+                }
+            ],
+            startdescription: "Dans mes rêves, je connais le chemin qui mène à la Porte du Cerf, à travers le labyrinthe des Frontières. Ghirbi me laisse passer, mais le chemin est toujours un mystère. J'aurai besoin de la Raison.",
+            description: "Ici, dans les hautes routes sèches des Frontières, se trouvent les fissures et les pièges complexes de dix mille ans de temps. Ma raison me fait défaut. Je me réveillerai sans voir la Porte. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "dreamenterstag",
+extends: ["dreamenterstag"],
+            label: "Entrer par la porte du Cerf",
+            
+            
+            
+            
+            startdescription: "La Porte du Cerf est la porte de l'Adepte. La franchir, c'est s'initier au premier vrai mystère de la Maison du Soleil. La Tête, Ghirbi, pleure pour me voir entrer là où elle ne peut pas : mais elle doit me laisser passer. Les battants cicatrisés de la Porte s'ouvrent.",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "dreamnotquitereachspiderlantern",
+extends: ["dreamnotquitereachspiderlantern"],
+            label: "Les Sables soyeux : Pas assez !",
+            
+            
+            startdescription: "Dans les rêves, les Sables soyeux sont l'endroit qui murmure. Les grains gris tamisent, les mauvaises herbes grises frémissent. J'ai lu les traces angulaires qu'il faut suivre, les habitants des Sables, voûtés, invisibles, qui marchent lentement - ",
+            description: "Les Sables avalent mes pas. Ils se précipitent pour obstruer ma bouche et remplir mes yeux... Je me réveillerai avec la langue gonflée et la gorge sèche. C'est la bonne approche, mais je dois en savoir plus pour voyager plus haut. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+            
+        },
+
+        {
+            id: "dreamreachspiderlantern",
+extends: ["dreamreachspiderlantern"],
+            label: "À l'approche de la porte de l'Araignée",
+            
+            
+            startdescription: "Dans les rêves, les Sables soyeux sont l'endroit qui murmure. Les grains gris tamisent, les mauvaises herbes grises frémissent. J'ai lu les traces anguleuses qu'il faut suivre, celles des habitants des Sables, voûtés, invisibles, qui avancent lentement - ",
+            description: "Les Sables s'écoulent comme de l'eau, et sous la pierre d'où les dieux sont nés, il y a si longtemps. Devant, la Porte brille comme la pluie, sa surface noire est perlée de sang, chaque goutte bombée comme une tique gonflée.",
+            
+            
+        },
+        {
+            id: "dreamnotquitereachspiderknock",
+extends: ["dreamnotquitereachspiderknock"],
+            label: "Les Sables soyeux : Pas assez !",
+            
+            
+            startdescription: "Dans les rêves, les Sables soyeux sont l'endroit qui murmure. Les grains gris tamisent, les mauvaises herbes grises frémissent. Je connais les mots qui ouvrent le vent - ",
+            description: "Les Sables avalent mes pas. Ils se précipitent pour obstruer ma bouche et remplir mes yeux... Je me réveillerai avec la langue gonflée et la gorge sèche. C'est la bonne approche, mais je dois en savoir plus pour voyager plus haut. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+
+            
+        },
+
+        {
+            id: "dreamreachspiderknock",
+extends: ["dreamreachspiderknock"],
+            label: "À l'approche de la porte de l'Araignée",
+            
+            
+            startdescription: "Dans les rêves, les Sables soyeux sont l'endroit qui murmure. Les grains gris tamisent, les mauvaises herbes grises frémissent. Je connais les mots qui ouvrent le vent, alors les Sables me permettront de passer - ",
+            description: "Les Sables s'écoulent comme de l'eau, et sous la pierre d'où les dieux sont nés, il y a si longtemps. Devant, la Porte brille comme la pluie, sa surface noire est perlée de sang, chaque goutte bombée comme une tique gonflée.",
+            
+            
+        },
+
+        {
+            id: "dreamnotquitereachspidergrail",
+extends: ["dreamnotquitereachspidergrail"],
+            label: "Les Sables soyeux : Pas assez !",
+            
+            
+            startdescription: "Dans les rêves, les Sables soyeux sont l'endroit qui murmure. Les grains gris tamisent, les mauvaises herbes grises frémissent. LA SOIF est le seul guide à travers les Sables - ma SOIF, ou la SOIF de la Porte de l'Araignée -",
+            description: "Les Sables avalent mes pas. Ils se précipitent pour obstruer ma bouche et remplir mes yeux... Je me réveillerai avec la langue gonflée et la gorge sèche. C'est la bonne approche, mais je dois en savoir plus pour voyager plus haut. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+
+            
+        },
+
+        {
+            id: "dreamreachspidergrail",
+extends: ["dreamreachspidergrail"],
+            label: "À l'approche de la porte de l'Araignée",
+            
+            
+            startdescription: "Dans les rêves, les Sables soyeux sont l'endroit qui murmure. Les grains gris tamisent, les mauvaises herbes grises frémissent. LA SOIF est le seul guide à travers les Sables - ma SOIF, ou la SOIF de la Porte de l'Araignée -",
+            description: "Les Sables s'écoulent comme de l'eau, et sous la pierre d'où les dieux sont nés, il y a si longtemps. Devant, la Porte brille comme la pluie, sa surface noire est perlée de sang, chaque goutte bombée comme une tique gonflée.",
+            
+            
+        },
+
+        {
+            id: "dreamusespiderway",
+extends: ["dreamusespiderway"],
+            label: "Le chemin vers la porte de l'Araignée",
+            
+            
+            slots: [
+                {
+                    id: "Ascent",
+extends: ["Ascent"],
+                    label: "Ascension",
+                    description: "Offrir un sacrifice de sang pour satisfaire la SOIF de la Porte de l'Araignée - ou, avec la bonne croyance, trouver le chemin de la Porte du Paon, la porte où la lumière se déverse comme du sang.",
+                    
+                }
+            ],
+            startdescription: "Dans mes rêves, je connais le chemin qui mène des Sables soyeux à la Porte de l'Araignée. Si j'étouffe sa SOIF en versant du sang frais avant de dormir, elle s'ouvrira à moi.",
+            description: "Ici, dans les plis du rêve, se trouve la porte, d'un noir éclatant comme l'abdomen d'une guêpe solitaire, toujours marquée de taches de sang de plus en plus petites. Je n'ai pas étanché sa SOIF, et elle ne s'ouvre pas. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "dreamenterspider",
+extends: ["dreamenterspider"],
+            label: "Passer la Porte de l'Araignée",
+            
+            
+            
+            startdescription: "La Porte de l'Araignée est toujours ASSOIFFÉE. Toujours. Le sang que j'ai donné s'écoule en filets et se répand à travers la peau du monde, et la Porte le boit et un moment de contentement fait gonfler son ouverture jusqu'à ce que je puisse passer.",
+            
+            
+            description: ".",
+            
+            
+        },
+        {
+            id: "dreamnotquitereachpeacocklantern",
+extends: ["dreamnotquitereachpeacocklantern"],
+            label: "Jardin de verre : Pas assez !",
+            
+            
+            startdescription: "La lumière du Soleil divisé pénètre dans mon rêve, mais pas assez pour dégeler les fleurs de givre du Jardin de verre, depuis longtemps mortes. Chaque pas que je fais réduit une autre plante en poudre. C'est ainsi que les Heures les plus brillantes sont arrivées, mais maintenant c'est silencieux, ici dans les nuages - ",
+            description: "Le froid du Jardin de verre me pénètre de tous les pores. Je m'éveillerai bleuie de froid. C'est la bonne approche, mais je dois en savoir plus pour voyager plus haut. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+        },
+
+        {
+            id: "dreamreachpeacocklantern",
+extends: ["dreamreachpeacocklantern"],
+            label: "Jardin de verre: À l'approche de la Porte du Paon",
+            
+            
+            startdescription: "La lumière du Soleil divisé pénètre dans mon rêve, mais pas assez pour dégeler les fleurs de givre du Jardin de verre, depuis longtemps mortes. Chaque pas que je fais réduit une autre plante en poudre. C'est ainsi que les Heures les plus brillantes sont arrivées, mais maintenant c'est silencieux, ici dans les nuages - ",
+            description: "La Porte du Paon: fière et brillante améthyste, son éclat teinte les formes pâles comme la neige du Jardin de verre. C'est le point culminant où les mortels peuvent pénétrer dans le Mansus. Aucune fissure n'entache sa surface. Ce n'est pas une porte qui s'ouvre, même si, dit-on, elle peut laisser passer la lumière.",
+            
+            
+        },
+        {
+            id: "dreamnotquitereachpeacockknock",
+extends: ["dreamnotquitereachpeacockknock"],
+            label: "Jardin de verre : Pas assez !",
+            
+            
+            startdescription: "La lumière du Soleil divisé pénètre dans mon rêve, mais pas assez pour dégeler les fleurs de givre du Jardin de verre, depuis longtemps mortes. Chaque pas que je fais réduit une autre plante en poudre. Je connais presque le chemin - ",
+            description: "Le froid du Jardin de verre me pénètre de tous les pores. Je m'éveillerai bleuie de froid. C'est la bonne approche, mais je dois en savoir plus pour voyager plus haut. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+        },
+
+        {
+            id: "dreamreachpeacockknock",
+extends: ["dreamreachpeacockknock"],
+            label: "Jardin de verre: À l'approche de la Porte du Paon",
+            
+            
+            startdescription: "La lumière du Soleil divisé pénètre dans mon rêve, mais pas assez pour dégeler les fleurs de givre du Jardin de verre, depuis longtemps mortes. Chaque pas que je fais réduit une autre plante en poudre. J'avancerai avec précaution. Je connais le chemin - ",
+            description: "La Porte du Paon: fière et brillante améthyste, son éclat teinte les formes pâles comme la neige du Jardin de verre. C'est le point culminant où les mortels peuvent pénétrer dans le Mansus. Aucune fissure n'entache sa surface. Ce n'est pas une porte qui s'ouvre, même si, dit-on, elle peut laisser passer la lumière.",
+            
+            
+        },
+
+        {
+            id: "dreamnotquitereachpeacockedge",
+extends: ["dreamnotquitereachpeacockedge"],
+            label: "Jardin de verre : Pas assez !",
+            
+            
+            startdescription: "La lumière du Soleil divisé pénètre dans mon rêve, mais pas assez pour dégeler les fleurs de givre du Jardin de verre, depuis longtemps mortes. Chaque pas que je fais réduit une autre plante en poudre. C'est ainsi que cela doit se passer - ",
+            description: "La Porte du Paon : fière et brillante améthyste, son éclat teinte les formes pâles comme la neige du Jardin de verre. C'est le point culminant où les mortels peuvent pénétrer dans le Mansus. Aucune fissure n'entache sa surface. Ce n'est pas une porte qui s'ouvre, même si, dit-on, elle peut laisser passer la lumière. Maintenant, je dérive vers d'autres rêves.",
+            
+            
+
+            
+        },
+
+        {
+            id: "dreamreachpeacockedge",
+extends: ["dreamreachpeacockedge"],
+            label: "Jardin de verre: À l'approche de la Porte du Paon",
+            
+            
+            startdescription: "La lumière du Soleil divisé pénètre dans mon rêve, mais pas assez pour dégeler les fleurs de givre du Jardin de verre, depuis longtemps mortes. Chaque pas que je fais réduit une autre plante en poudre. C'est ainsi que cela doit se passer. Je choisirai mes pas avec soin, comme le veut la croyance -",
+            description: "La Porte du Paon: fière et brillante améthyste, son éclat teinte les formes pâles comme la neige du Jardin de verre. C'est le point culminant où les mortels peuvent pénétrer dans le Mansus. Aucune fissure n'entache sa surface. Ce n'est pas une porte qui s'ouvre, même si, dit-on, elle peut laisser passer la lumière.",
+            
+            
+        },
+
+        {
+            id: "dreamusepeacockway",
+extends: ["dreamusepeacockway"],
+            label: "Le chemin de la Porte du Paon",
+            
+            
+            slots: [
+                {
+                    id: "Ascent",
+extends: ["Ascent"],
+                    label: "Ascension",
+                    description: "La Porte du Paon ne s'ouvre pas.",
+                    
+                }
+            ],
+            startdescription: "Dans mes rêves, je connais le chemin qui mène à travers le Jardin de verre jusqu'à la Porte du Paon : la plus admirable des Portes, celle qui brille comme un miroir. Peut-être qu'avec les bonnes ressources, je peux la franchir. ",
+            description: "La Porte du Paon est pourpre comme la gemme la plus douce, comme le fruit le plus mûr, comme la prose la plus profonde. Elle prend mon reflet et ne renvoie rien. Quand je me réveillerai, je ne me souviendrai pas de mon rêve.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "dreamenterpeacockmirror",
+extends: ["dreamenterpeacockmirror"],
+            label: "Franchir la Porte du Paon",
+            
+            
+            
+            startdescription: "La Porte du Paon reflète le miroir que je tiens dans mon sommeil, et le miroir reflète la Porte du Paon. Déjà un frisson sensuel ondule sa surface. Elle a mal à se rompre, et quand elle sera satisfaite, j'entrerai.",
+            description: ".",
+            
+            
+            
+            
+        },
+
+        {
+            id: "dreamenterpeacockfrangiclave",
+extends: ["dreamenterpeacockfrangiclave"],
+            label: "Franchir la Porte du Paon",
+            
+            
+            
+            startdescription: "Un diapason anime la clé dans ma main; la Porte du Paon gémit en réponse. Déjà un frisson sensuel fait onduler sa surface. Elle a mal à se rompre, et quand elle sera satisfaite, j'entrerai.",
+            description: ".",
+            
+            
+            
+        },
+
+
+        {
+            id: "poison.long.way.trap",
+extends: ["poison.long.way.trap"],
+            
+            label: "Le regard sur le chemin",
+            startdescription: "Le Long a placé des cartographes invisibles à la porte, pour m'observer quand je passe et me cartographier comme un pays à moitié connu.",
+            
+            
+            
+        },
+
+
+
+        {
+            id: "dreamheartvictoryintro",
+extends: ["dreamheartvictoryintro"],
+            label: "Tambours dans la tempête",
+            
+            
+            startdescription: "Le vent se lève et le toit s'agite alors que je m'installe pour dormir. Il y a une herbe amère qui va m'aider à sortir de mon corps. Le Bois s'ouvre autour de moi, mais avec mes nouveaux yeux, je vois maintenant un autre chemin. Celle qui s'appelle Marinette attend le long de ce chemin, avec la Clé qui me terminera et me commencera.",
+            
+            
+            
+            slots: [
+                {
+                    id: "beloved",
+extends: ["beloved"],
+                    label: "Bien-aimé",
+                    
+                    
+                    
+                }
+            ],
+            
+
+        },
+
+        {
+            id: "dreamheartvictory",
+extends: ["dreamheartvictory"],
+            label: "La Porte de la Peau du Roi",
+            
+            
+            startdescription: "Marinette attend à l'ombre d'un pin, la peau sombre luisante, l'os blanc scintillant, les griffes brillantes comme du laiton. Elle porte une Clef rouge qui pourrait être un couteau ensanglanté ou une blessure de rubis. Lorsqu'elle l'apporte, la douleur est entièrement rouge.",
+            
+            
+        },
+
+        {
+            id: "dreamheartvictory_withrisen",
+extends: ["dreamheartvictory_withrisen"],
+            label: "La Porte de la Peau du Roi",
+            
+            
+            startdescription: "Marinette attend à l'ombre d'un pin, la peau sombre luisante, l'os blanc scintillant, les griffes brillantes comme du laiton. Elle porte une Clef rouge qui pourrait être un couteau ensanglanté ou une blessure de rubis. Lorsqu'elle l'apporte, la douleur est entièrement rouge.\n In the dark place beneath the trees, my dead beloved watches, with their skin which is dappled, their eyes which are lamps.",
+            
+            
+        },
+
+        {
+            id: "dreammothvictoryintro",
+extends: ["dreammothvictoryintro"],
+            label: "Tambours dans la tempête",
+            
+            
+            startdescription: "Je m'enfonce dans les sentiers familiers du sommeil, jusqu'à ce que le Bois se dégage devant moi avec ses arbres qui s'agrippent et ses chemins bordés d'ombres. La Porte du Bois se trouve sous les eaux du puits. Je le sais maintenant. Je ne peux pas la franchir vivant et je ne peux pas la franchir mort. La Méduse, qui n'est ni vivante ni morte, me dégagera le chemin. Je me mets en marche.",
+            
+            
+            
+            slots: [
+                {
+                    id: "beloved",
+extends: ["beloved"],
+                    label: "Bien-aimé",
+                    
+                    
+                    
+                }
+            ],
+            
+        },
+
+        {
+            id: "dreammothvictory",
+extends: ["dreammothvictory"],
+            label: "La Porte dans le Bois",
+            
+            
+            startdescription: "Le clair de lune sépare les arbres pour noircir ce que le puits retient, pour limer les racines des arbres, pour toucher les membres jumeaux de Méduse où elle attend près du puits. Elle lève ses bras dégoulinants, qui tiennent une Clé pâle, se tordant comme un ver de terre. Je m'agenouille, comme un cerf élaphe, et offre mon cou. Une goutte de sang se déverse dans le puits; puis Méduse commence à sculpter ma nouvelle forme.",
+            
+            
+        },
+        {
+            id: "dreammothvictory_withrisen",
+extends: ["dreammothvictory_withrisen"],
+            label: "La Porte dans le Bois",
+            
+            
+            startdescription: "Le clair de lune sépare les arbres pour noircir ce que le puits retient, pour limer les racines des arbres, pour toucher les membres jumeaux de Méduse où elle attend près du puits. Elle lève ses bras dégoulinants, qui tiennent une Clé pâle, se tordant comme un ver de terre. Je m'agenouille, comme un cerf élaphe, et offre mon cou. Une goutte de sang se déverse dans le puits; puis Méduse commence à sculpter ma nouvelle forme.\n\nDans l'obscurité sous les arbres, mes guetteurs morts bien-aimées, avec leur peau qui est tachetée, leurs yeux qui sont des phares.",
+            
+            
+        },
+
+        {
+            id: "dreammeniscatevictoryintro",
+extends: ["dreammeniscatevictoryintro"],
+            label: "Hors les murs",
+            
+            
+            startdescription: "Je m'enfonce dans les sentiers familiers du sommeil, jusqu'à ce que le Bois se dégage devant moi avec ses arbres qui s'agrippent et ses chemins bordés d'ombres. Mais ce n'est pas le Bois que je connais. Ce sont tous des bouleaux, blancs comme le clair de lune, et le clair de lune est noir comme l'encre. Sous sa pression, l'écorce blanche des arbres commencent à se boursoufler, puis à saigner. Je me mets à trotter, puis à galoper. Je dois atteindre le Puits, avant de me réveiller, ou avant quelque chose de pire - ",
+            
+            
+            
+            slots: [
+                {
+                    id: "beloved",
+extends: ["beloved"],
+                    label: "Bien-aimé",
+                    
+                    
+                    
+                }
+            ],
+            
+        },
+
+
+        {
+            id: "dreammeniscatevictory",
+extends: ["dreammeniscatevictory"],
+            label: "Trois",
+            
+            
+            startdescription: "Ma peau est en lambeaux maintenant. Le puits est devant, mais la lune change, elle est noire, elle est dorée, elle est perlée. Le sang du Puits est un miroir rouge, et trois d'entre eux se lèvent, et leurs visages sont les miens, sont cornus comme la Lune, le plus grand tient une clé de saphir noir et quand il déchire ma peau, mon corps se fend comme l'éclair, et CE QUI EST AU-DEDANS, AU-DEHORS, CE QUI EST AU-DEHORS, AU-DEDANS -",
+            
+            
+        },
+
+        {
+            id: "dreammeniscatevictory_withrisen",
+extends: ["dreammeniscatevictory_withrisen"],
+            label: "Trois",
+            
+            
+            startdescription: "Ma peau est en lambeaux maintenant. Le puits est devant, mais la lune change, elle est noire, elle est dorée, elle est perlée. Le sang du Puits est un miroir rouge, et trois d'entre eux se lèvent, et leurs visages sont les miens, sont cornus comme la Lune, le plus grand tient une clé de saphir noir et quand il déchire ma peau, mon corps se fend comme l'éclair, et CE QUI EST AU-DEDANS, AU-DEHORS, CE QUI EST AU-DEHORS, AU-DEDANS -",
+            
+            
+        },
+
+
+        {
+            id: "belovedfarewelldream",
+extends: ["belovedfarewelldream"],
+            label: "Le choix du Seuil",
+            
+            
+            startdescription: "L'adieu final. Ils resteront, et je monterai.",
+            slots: [
+                {
+                    id: "decision",
+extends: ["decision"],
+                    label: "Décision",
+                    description: "[Ajoutez de la passion pour vous détourner de votre ascension... et vivre comme un mortel avec votre bien-aimé. Ne rien faire pour continuer.]",
+                    
+                }
+            ],
+            
+            
+
+        },
+
+        {
+            id: "imnotinlovedream",
+extends: ["imnotinlovedream"],
+            label: "Dévouement",
+            startdescription: "Peut-être m'aiment-ils. Peut-être que je les aime. Peut-être que rien de tout cela ne compte.",
+            
+            
+            
+        },
+
+
+    ]
+
+}

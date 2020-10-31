@@ -1,0 +1,761 @@
+{
+    "elements": [
+        {
+            id: "influenceedge",
+extends: ["influenceedge"],
+            label: "Un air enivrant",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de la Pointe pour les intensifier. Ou, Étudiez comment l'influence de l'Hiver l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Les sens sont aiguisés. [Une influence de second ordre: apparente pour le perspicace, instantanément reconnaissable pour un Adepte. Elle peut être utilisée dans certains rites pour invoquer des serviteurs.]",
+            
+            
+        },
+        {
+            id: "influenceedgec",
+extends: ["influenceedgec"],
+            label: "Un air de renouveau",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de la Pointe pour les intensifier. Ou, Étudiez comment l'influence de l'Hiver l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Les passions sont réveillées. [Une influence de sixième ordre: les signes sont indéniables. Ils peuvent être utilisés dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influenceedgee",
+extends: ["influenceedgee"],
+            label: "Un air de fureur",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de la Pointe pour les intensifier. Ou, Étudiez comment l'influence de l'Hiver l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "La colère est implicite dans toutes les formes. [Une influence du dixième ordre ! Un noeud de pouvoir et de péril qui s'accumule. Il peut être utilisé dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influenceedgeg",
+extends: ["influenceedgeg"],
+            label: "Une résolution",
+            
+            description: "Qui peut éviter le caractère définitif d'une bataille ? [Une influence du quinzième ordre ! C'est peut-être l'attention personnelle d'une Heure. Elle peut être utilisée dans certains rites pour invoquer des serviteurs.]",
+            
+            
+        },
+
+        {
+            id: "influenceforge",
+extends: ["influenceforge"],
+            label: "Une chaleur croissante",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de la Forge pour les intensifier. Ou, Étudier comment l'influence de la Pointe l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Une brume et un chatoiement. [Une influence de second ordre: apparente pour le perspicace, instantanément reconnaissable pour un Adepte. Elle peut être utilisée dans certains rites pour invoquer des serviteurs, et certains serviteurs la laisseront subsister lorsqu'ils seront détruits.]",
+            
+            
+        },
+        {
+            id: "influenceforgec",
+extends: ["influenceforgec"],
+            label: "Une chaleur étouffante",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de la Forge pour les intensifier. Ou, Étudier comment l'influence de la Pointe l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "La possibilité d'étincelles. [Une influence de sixième ordre: les signes sont indéniables. Ils peuvent être utilisés dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influenceforgee",
+extends: ["influenceforgee"],
+            label: "Une chaleur exaltante",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de la Forge pour les intensifier. Ou, Étudier comment l'influence de la Pointe l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "C'est l'aura au bord du volcan. [Une influence du dixième ordre ! Un noeud de puissance et de péril qui s'accumule. Il peut être utilisé dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influenceforgeg",
+extends: ["influenceforgeg"],
+            label: "Une incandescence",
+            
+            description: "Le changement suit le feu. [Une influence du quinzième ordre ! C'est peut-être l'attention personnelle d'une Heure. Elle peut être utilisée dans certains rites pour invoquer des serviteurs.]",
+            
+            
+        },
+
+
+        {
+            id: "influencegrail",
+extends: ["influencegrail"],
+            label: "Une conscience de l'appétit",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires du Graal pour les intensifier. Ou, Étudier comment l'influence de la teigne l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Chaque sens est intensifié; chaque sensation, approfondie. [Une influence de second ordre: apparente pour le perspicace, instantanément reconnaissable pour un Adepte. Elle peut être utilisée dans certains rites pour invoquer des serviteurs, et certains serviteurs la laisseront subsister lorsqu'ils seront détruits.]",
+            
+            
+        },
+        {
+            id: "influencegrailc",
+extends: ["influencegrailc"],
+            label: "Une urgence de l'appétit",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires du Graal pour les intensifier. Ou, Étudier comment l'influence de la teigne l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Il est difficile de se contrôler. [Une influence de sixième ordre: des résonances ou des correspondances importantes. Elle peut être utilisée dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influencegraile",
+extends: ["influencegraile"],
+            label: "Un impératif de l'appétit",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires du Graal pour les intensifier. Ou, Étudier comment l'influence de la teigne l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Les lèvres ont du mal à savourer, les doigts ont du mal à s'agripper. [Une influence du dixième ordre ! Un noeud de pouvoir et de péril. Il peut être utilisé dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influencegrailg",
+extends: ["influencegrailg"],
+            label: "Une incarnation",
+            
+            description: "L'air même est succulent de possibilités. Percez-le, et il pourrait saigner. [Une influence du quinzième ordre ! Cela pourrait être l'attention personnelle d'une Heure. Cela peut être utilisé dans certains rites pour invoquer des serviteurs.]",
+            
+            
+        },
+
+        {
+            id: "influenceheart",
+extends: ["influenceheart"],
+            label: "Airs tremblants",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires du Coeur pour les intensifier. Ou, Étudiez comment l'influence de la Phalène l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Les orteils tapent. Tout est vif et tout va bien. [Une influence de second ordre: apparente pour le perspicace, instantanément reconnaissable pour un Adepte. Elle peut être utilisée dans certains rites pour invoquer des serviteurs, et certains serviteurs la laisseront subsister lorsqu'ils seront détruits.]",
+            
+            
+            
+        },
+        {
+            id: "influenceheartc",
+extends: ["influenceheartc"],
+            label: "Airs palpitants",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires du Coeur pour les intensifier. Ou, Étudiez comment l'influence de la Phalène l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Une puissance montante; une énergie rassurante. [Une influence de sixième ordre: des résonances ou des correspondances significatives. Elle peut être utilisée dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influencehearte",
+extends: ["influencehearte"],
+            label: "Airs percutants",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires du Coeur pour les intensifier. Ou, Étudiez comment l'influence de la Phalène l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Le coeur bouge, le monde bouge. [Une influence du dixième ordre ! Un noeud de pouvoir et de péril qui s'accumule. Il peut être utilisé dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influenceheartg",
+extends: ["influenceheartg"],
+            label: "Une imminence",
+            
+            description: "Le ciel est un tambour, la terre est prête pour son extase. [Une influence du quinzième ordre ! C'est peut-être l'attention personnelle d'une Heure. Elle peut être utilisée dans certains rites pour invoquer des serviteurs.]",
+            
+            
+        },
+
+        {
+            id: "sicknessprotection",
+extends: ["sicknessprotection"],
+            label: "Un sursis",
+            description: "Toute chair échoue. Mais on m'a promis que ma chair échouerait un peu plus tard. [C'est une ultime assurance contre la maladie, s'il ne vous reste plus de Santé.]",
+        },
+
+        {
+            id: "influenceknock",
+extends: ["influenceknock"],
+            label: "Faille subtile",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Avec une pression suffisante, la peau du monde se déchirera. Ajoutez n'importe quelle influence pour la corrompre à un niveau de Clé supérieur.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Les lacets se défont -- les fenêtres s'ouvrent -- les serrures s'ouvrent comme si elles étaient huilées. [Une influence de second ordre: apparente pour le perspicace, instantanément reconnaissable pour un Adepte. Elle peut être utilisée dans certains rites pour invoquer des serviteurs.]",
+            
+            
+        },
+        {
+            id: "influenceknockc",
+extends: ["influenceknockc"],
+            label: "Fracture subtile",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Avec une pression suffisante, la peau du monde se déchirera. Ajoutez n'importe quelle influence pour la corrompre à un niveau de Clé supérieur.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Les nuages se séparent -- les murs craquent -- les vieilles blessures font mal. [Une influence du sixième ordre: résonances ou correspondances importantes. Ceci peut être utilisé dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influenceknocke",
+extends: ["influenceknocke"],
+            label: "Rupture subtile",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Avec une pression suffisante, la peau du monde se déchirera. Ajoutez n'importe quelle influence pour la corrompre à un niveau de Clé supérieur.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "La géométrie se déforme -- les portes s'ouvrent -- les serpents bouillonnent de la terre ! [Une influence du dixième ordre ! Un noeud de puissance et de péril. Il peut être utilisé dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influenceknockg",
+extends: ["influenceknockg"],
+            label: "Mauvaise Porte",
+            
+            description: "Il y a une Porte que l'on ne doit pas ouvrir, et même maintenant que ses gonds sont soulevés -- [Une influence du quinzième ordre ! C'est peut-être l'attention personnelle d'une Heure. Elle peut être utilisée dans certains rites pour invoquer des serviteurs.]",
+            
+            
+        },
+
+        {
+            id: "influencelantern",
+extends: ["influencelantern"],
+            label: "Une conscience du rayonnement",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de la Lanterne pour les intensifier. Ou, Étudiez comment l'influence de Forge l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Il y a une lumière derrière le monde, une lumière au-dessus du Mansus, une lumière qui pénètre à la fois le verre et la peau. Elle est présente ici. [Une influence de second ordre: apparente pour le perspicace, instantanément reconnaissable pour un Adepte. Elle peut être utilisée dans certains rites pour invoquer des serviteurs, et certains serviteurs la laisseront subsister lorsqu'ils seront détruits.  Si elle n'est pas utilisée, elle deviendra Fascination.]",
+            
+            
+            
+        },
+        {
+            id: "influencelanternc",
+extends: ["influencelanternc"],
+            label: "Une intensité du rayonnement",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de la Lanterne pour les intensifier. Ou, Étudiez comment l'influence de Forge l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "La lumière déshydrate la peau et imprègne l'air. [Une influence du sixième ordre: des résonances ou des correspondances notables. Elle peut être utilisée dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influencelanterne",
+extends: ["influencelanterne"],
+            label: "Un flambeau de rayonnement",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de la Lanterne pour les intensifier. Ou, Étudiez comment l'influence de Forge l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Toutes les couleurs sont devenues brillantes comme de nouvelles teintes, mais maintenant elles commencent toutes à saigner vers le blanc. [Une influence du dixième ordre ! Un noeud de pouvoir et de péril. Il peut être utilisé dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influencelanterng",
+extends: ["influencelanterng"],
+            label: "Une splendeur",
+            
+            
+            description: "Couvrez vos yeux, si vous le souhaitez. Cela ne servira à rien. [Une influence du quinzième ordre ! Cela pourrait être l'attention personnelle d'une Heure. Elle peut être utilisée dans certains rites pour invoquer des serviteurs.]",
+            
+        },
+
+        {
+            id: "influencemoth",
+extends: ["influencemoth"],
+            label: "Un bourdonnement dans le cerveau",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les concordances de deux influences de Phalène correspondantes pour les intensifier. Ou, Étudiez comment l'influence de la Lanterne l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "in gi rum imus noc te et con sumi [Une influence de second ordre: apparente pour le perspicace, instantanément reconnaissable pour un Adepte. Elle peut être utilisée dans certains rites pour invoquer des serviteurs, et certains serviteurs la laisseront subsister lorsqu'ils seront détruits.]",
+            
+            
+            
+        },
+        {
+            id: "influencemothc",
+extends: ["influencemothc"],
+            label: "Un cliquetis dans l'âme",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de la Phalène pour les intensifier. Ou, Étudiez comment l'influence de la Lanterne l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Oh les amis que nous avons joués et les peaux que nous avons faites; ils en ont toujours besoin ! [Une influence de sixième ordre: des résonances ou des correspondances significatives. Elle peut être utilisée dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influencemothe",
+extends: ["influencemothe"],
+            label: "Un hurlement dans le coeur",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de la Phalène pour les intensifier. Ou, Étudiez comment l'influence de la Lanterne l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Les émotions déforment nos pensées. Une passion cède à la suivante comme des feuilles dans l'emprise du vent ! [Une influence du dixième ordre ! Un noeud de puissance et de péril qui se resserre. Il peut être utilisé dans certains rites pour invoquer des serviteurs.]",
+            
+            
+            
+        },
+        {
+            id: "influencemothg",
+extends: ["influencemothg"],
+            label: "Ce vieux désir",
+            
+            description: "
+            please",
+            
+            
+        },
+
+        {
+            id: "influencewinter",
+extends: ["influencewinter"],
+            label: "Une atmosphère froide",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de l'Hiver pour les intensifier. Ou, Étudiez comment l'influence du Coeur l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "Un froid particulier persiste dans ma chambre. [Une influence de second ordre: apparente pour le perspicace, instantanément reconnaissable pour un Adepte. Elle peut être utilisée dans certains rites pour invoquer des serviteurs, et certains serviteurs la laisseront persister lorsqu'ils seront détruits.]",
+            
+            
+            
+        },
+        {
+            id: "influencewinterc",
+extends: ["influencewinterc"],
+            label: "Une atmosphère glaciale",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de l'Hiver pour les intensifier. Ou, Étudiez comment l'influence du Coeur l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "L'air fait craquer la peau. Le givre marque le verre. [Une influence du sixième ordre: les signes sont indéniables. On peut l'utiliser dans certains rites pour invoquer des serviteurs. Si elle n'est pas utilisée, elle devient de la Peur.]",
+            
+            
+            
+        },
+        {
+            id: "influencewintere",
+extends: ["influencewintere"],
+            label: "Une atmosphère amère",
+            
+            slots: [
+                {
+                    id: "with",
+extends: ["with"],
+                    label: "Avec",
+                    description: "Étudiez les correspondances de deux influences similaires de l'Hiver pour les intensifier. Ou, Étudiez comment l'influence du Coeur l'affecte pour la corrompre.",
+                    
+                    
+                },
+                {
+                    id: "knowledge",
+extends: ["knowledge"],
+                    label: "Connaissances",
+                    description: "Je dois comprendre les influences à l'oeuvre, si je veux les renforcer ou les corrompre. [Vous aurez besoin d'une bonne base dans la croyance concernée.]",
+                    
+                    
+                }
+            ],
+            description: "L'hiver traverse les vêtements, traverse la peau, se niche dans les veines. [Une influence du dixième ordre ! Un noeud de pouvoir et de péril qui s'accumule. Il peut être utilisé dans certains rites pour invoquer des serviteurs. S'il n'est pas utilisé, il devient de la Peur.]",
+            
+            
+            
+        },
+        {
+            id: "influencewinterg",
+extends: ["influencewinterg"],
+            label: "Gel parfait",
+            
+            description: "Le monde est toujours aussi glacé. Chaque mouvement est une aventure. [Une influence du quinzième ordre ! C'est peut-être l'attention personnelle d'une Heure. Elle peut être utilisée dans certains rites pour invoquer des serviteurs. Si elle n'est pas utilisée, elle deviendra de la Peur.]",
+            
+            
+        },
+
+    ]
+}

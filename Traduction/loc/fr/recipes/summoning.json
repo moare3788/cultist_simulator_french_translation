@@ -1,0 +1,323 @@
+{
+    "recipes": [
+
+
+
+        {
+            id: "summon_spirit_wintera_edge",
+extends: ["summon_spirit_wintera_edge"],
+            label: "Appel au Cartographe des Cicatrices pour élever un cadavre à la demi-vie",
+            
+            
+            
+            startdescription: "Une force de destruction va infuser sa chair, afin qu'elle rejoigne le Ressuscité brisé. Je dois commencer le processus. Je vais préparer mon marteau.",
+            description: "Le cadavre gémit à ses pieds: ou ce qui reste de ses pieds. J'ai conjuré un Ressuscité brisé.",
+            
+            
+            comments: "il est possible qu'un cadavre présente une mutation négative de son adepte - par exemple, si l'adepte est blessé. Déshabillons-le, au cas où. Nous pourrions ajouter une mutation pour perdre les blessures en suspens, mais je me méfie de trop en faire.",
+            
+        },
+        {
+            id: "summon_spirit_wintera_moth",
+extends: ["summon_spirit_wintera_moth"],
+            label: "Appel à l'Anneau-d'If pour élever un cadavre à la demi-vie",
+            
+            
+            
+            startdescription: "Je dois d'abord planter les graines: sous les paupières, sous la langue, dans toutes les ouvertures secrètes du corps. Il s'éveillera comme un Ressuscité.",
+            description: "Le cadavre se balance à ses pieds. Ses yeux se révulsent. La sève coule de sa bouche. Il s'épanouit, il s'est levé.",
+            
+            
+            comments: "it's possible for a corpse to have a negative follower mutation - eg, if the follower is wounded. Let's strip it out, just in case. We could add a mutation to lose any outstanding wounds too, but I'm leery of messing too much.",
+            
+        },
+
+        {
+            id: "renew_spirit_wintera_edge",
+extends: ["renew_spirit_wintera_edge"],
+            label: "Faire appel au Cartographe des Cicatrices pour renouveler la demi-vie d'un cadavre",
+            
+            
+            
+            startdescription: "Ce n'est pas vraiment un rite de renouvellement, mais plutôt de report. L'hiver peut être reporté, mais pas nié.",
+            description: "Les processus de décomposition sont retardés - les énergies mobiles sont réengagées. Le cadavre fera encore dix centaines de pas avant de tomber.",
+            
+            
+        },
+        {
+            id: "renew_spirit_wintera_moth",
+extends: ["renew_spirit_wintera_moth"],
+            label: "Faire appel à l'Anneau-d'If pour renouveler la demi-vie d'un cadavre",
+            
+            
+            
+            startdescription: "La nouvelle vie au sein du cadavre lutte pour être libre. Je vais la contenir un peu plus longtemps.",
+            description: "La lumière dans les yeux du cadavre devient moins sauvage. Ses vrilles sont réprimées. Pour un instant, je pense qu'elle va parler.",
+            
+            
+        },
+
+        {
+            id: "summon_spirit_forgee_edge",
+extends: ["summon_spirit_forgee_edge"],
+            label: "Invoquer une des émanations du Nom de la Forge des Jours",
+            
+            
+            
+            
+            startdescription: "Le Roi Creuset ne viendra que lorsque la pièce brillera de l'aspect appelé Forge. Il a également besoin de la Lanterne, pour la lumière de la Gloire qu'il prétend connaître.",
+            
+            
+            
+        },
+        {
+            id: "summon_spirit_forgee_edge.success",
+extends: ["summon_spirit_forgee_edge.success"],
+            label: "Invoquer une des émanations du Nom de la Forge des Jours",
+            
+            description: "Il peut se cacher dans la flamme d'une bougie s'il le faut. Mais il est là, dans toute sa splendeur de feu de joie. Après lui avoir parlé, la peau de mon visage et de mes mains sera rose, comme si elle avait été trop exposée au soleil.",
+            
+            
+        },
+        {
+            id: "summon_spirit_graile_edge",
+extends: ["summon_spirit_graile_edge"],
+            label: "Invoquer une des émanations du Nom du Graal Rouge",
+            
+            
+            
+            
+            startdescription: "Ezeem ne peut entrer que là où la puissance du Graal est forte; et il ne choisira d'entrer que lorsqu'il sera invoqué avec la Forge, avec laquelle il a si souvent flirté. ",
+            
+            
+            
+        },
+        {
+            id: "summon_spirit_graile_edge.success",
+extends: ["summon_spirit_graile_edge.success"],
+            label: "Invoquer une des émanations du Nom du Graal Rouge",
+            
+            description: "Tant de riches arômes, comme un festin dans l'air ! mais d'abord, et surtout, le sang.",
+            
+            
+        },
+        {
+            id: "summon_spirit_lanterne_secret",
+extends: ["summon_spirit_lanterne_secret"],
+            label: "Invoquez le Nom mystérieux connu comme le Baldomerian",
+            
+            
+            
+            
+            startdescription: "Une force puissante de la Lanterne pour attirer l'attention du Baldomerian, et un goût taquin de secrets pour qu'elle se rapproche.",
+            description: "La Baldomerian a les épaules bombées d'un érudit, la voix claire d'un instituteur et les taches de rousseur d'un voyageur sur le continent. Elle manque juste d'une ombre.",
+            
+            
+            comments: "Teresa doesn't struggle; she's always up for a chat"
+        },
+        {
+            id: "summon_spirit_forgec_winter",
+extends: ["summon_spirit_forgec_winter"],
+            label: "Invoquer une créature sournoise enfumée mi-Forge mi-Hiver",
+            
+            
+            
+            startdescription: "Forge pour l'invocation de l'esprit de fumée, Hiver pour sa liaison. Elle doit savoir qui la gouvernera.",
+            
+            
+            
+        },
+        {
+            id: "summon_spirit_forgec_winter.success",
+extends: ["summon_spirit_forgec_winter.success"],
+            label: "Invoquer une créature sournoise enfumée mi-Forge mi-Hiver",
+            
+            description: "Tous les enfants de la Forge ne sont pas brillants. Ses rebuts et ses bâtards se rassemblent dans les limites comme des écailles de marteau dans les fissures d'un sol de forge. En voici un maintenant.",
+            
+            
+        },
+        {
+            id: "summon_spirit_grailc_moth",
+extends: ["summon_spirit_grailc_moth"],
+            label: "Invoquez l'une des créatures les plus déroutantes du Graal Rouge",
+            
+            
+            
+            startdescription: "Le Graal pour la source du Prophète brut, et un peu de Phalène, pour sa dépendance au chaos.",
+            
+            
+            
+        },
+        {
+            id: "summon_spirit_grailc_moth.success",
+extends: ["summon_spirit_grailc_moth.success"],
+            label: "Invoquez l'une des créatures les plus déroutantes du Graal Rouge",
+            
+            description: "Il entre dans le monde, un membre à la fois, en quête comme un serpent, croassant comme un corbeau, palpitant comme une veine. Il se blottira contre ma jambe, si je le laisse faire, et je devrai ensuite me débarrasser de mes chaussures.",
+            
+            
+        },
+        {
+            id: "summon_spirit_lanternc_edge",
+extends: ["summon_spirit_lanternc_edge"],
+            label: "Invoquer un Invers, créature mi-Lanterne mi-Pointe",
+            
+            
+            
+            startdescription: "Un Invers était autrefois un mortel vivant, puis un mortel mort, et maintenant c'est autre chose. Leur invocation nécessite de la Lanterne, pour la lumière qui les a attirés vers le Mansus, et de la Pointe, pour les efforts qu'ils ont endurés dans les miroirs.",
+            
+            
+            
+        },
+        {
+            id: "summon_spirit_lanternc_edge.success",
+extends: ["summon_spirit_lanternc_edge.success"],
+            label: "Invoquer un Invers, créature mi-Lanterne mi-Pointe",
+            
+            description: "Les Invers ne s'adonnent pas à des entrées tape-à-l'œil. Un regard vivant les fera voler en éclats. Je sais que c'est là, et cela suffit pour l'instant.",
+            
+            
+        },
+        {
+            id: "summon_spirit_heartc_edge",
+extends: ["summon_spirit_heartc_edge"],
+            label: "Invoquez une créature du Thunderskin",
+            
+            
+            
+            startdescription: "Le Percussigant, impitoyable et joyeux ! Le Coeur l'amènera, la Pointe le contraindra.",
+            
+            
+            
+        },
+        {
+            id: "summon_spirit_heartc_edge.success",
+extends: ["summon_spirit_heartc_edge.success"],
+            label: "Invoquez une créature du Thunderskin",
+            
+            description: "D'abord le bruit, le bruit sourd, le cliquetis et le cri des cérémonies auxquelles il assiste dans le Bois. Le voici maintenant, se frayant un chemin à travers la peau du monde, comme un ours sans tête qui se débat.",
+            
+            
+        },
+        {
+            id: "summon_spirit_winterd_edge",
+extends: ["summon_spirit_winterd_edge"],
+            label: "Invoquez un serviteur du Soleil-en-Haillons",
+            
+            
+            
+            startdescription: "Un froid d'Hiver profond pour nommer et dessiner la 'Servante-dans-le-Miroir'. Pointe, pour égaler sa vive cruauté.",
+            
+            
+            
+        },
+        {
+            id: "summon_spirit_winterd_edge.success",
+extends: ["summon_spirit_winterd_edge.success"],
+            label: "Invoquez un serviteur du Soleil-en-Haillons",
+            
+            description: "La chose qui était une femme n'a pas d'expression propre. Les mouvements de ses yeux et de sa bouche correspondent toujours aux miens, comme si je me regardais dans un miroir. Ses ongles sont pointus comme du verre.",
+            
+            
+        },
+        {
+            id: "summon_spirit_winterb_heart",
+extends: ["summon_spirit_winterb_heart"],
+            label: "Invoquer un des Morts sans voix",
+            
+            
+            
+            startdescription: "Ce sont les Morts qui ne descendent ni ne montent, mais qui restent dans le Mansus et rêvent de l'Hiver. La puissance de l'Hiver, ainsi qu'un peu de la chaleur du Coeur, les attireront ici.",
+            
+            
+            
+        },
+        {
+            id: "summon_spirit_winterb_heart.success",
+extends: ["summon_spirit_winterb_heart.success"],
+            label: "Invoquer un des Morts sans voix",
+            
+            description: "Une forme sombre chaulée par la lumière de l'hiver. Elle ne parle pas, mais ses yeux sont avides, ils regardent, ils regardent. Les Morts se languissent toujours du monde, finalement.",
+            
+            
+        },
+
+        {
+            id: "summoninglosingcontrol",
+extends: ["summoninglosingcontrol"],
+            label: "Invocation: un esprit rebelle",
+            
+            
+            startdescription: "L'invocation résiste à mon contrôle ! Je pourrais utiliser la Raison pour le rejeter en toute sécurité, ce qui est toujours fiable. Je pourrais essayer de réaffirmer mon contrôle avec la Passion, ce qui n'est pas fiable. Ou je pourrais laisser ce qui doit arriver, arriver.",
+            description: "Ça a échappé à mon contrôle !",
+            
+            slots: [
+                {
+                    id: "Effort",
+extends: ["Effort"],
+                    label: "Effort",
+                    description: "Je pourrais utiliser la Raison pour le rejeter en toute sécurité, ce qui est toujours fiable. Je pourrais essayer de réaffirmer le contrôle avec la Passion, ce qui n'est pas fiable. Ou je pourrais laisser ce qui doit arriver, arriver.",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "summoningshutitdown",
+extends: ["summoningshutitdown"],
+            label: "Invocation: Renvoyer à la maison",
+            
+            
+            
+            
+            startdescription: "Prononcez les mots de révocation. Fermez bien le cercle. Effacez toute trace.",
+            description: "Il a disparu. Nous sommes en sécurité.",
+            
+        },
+        {
+            id: "summoningfightformastery",
+extends: ["summoningfightformastery"],
+            label: "Invocation: En quête de maîtrise",
+            
+            startdescription: "Les choses du monde extérieur ont de nombreuses armes: couteaux et énigmes, feu et désespoir. J'ai mes propres armes. [Cela fonctionne généralement, mais pas toujours.]",
+            description: "",
+            
+            
+            
+            
+        },
+        {
+            id: "summoningescaped",
+extends: ["summoningescaped"],
+            label: "Invocation: une brèche !",
+
+            
+            
+            startdescription: "C'est libre !",
+            description: "Mon invocation a échappé à mon contrôle, et fera sans doute des ravages - ",
+            
+            
+        },
+
+        {
+            id: "summoningmasteryregained",
+extends: ["summoningmasteryregained"],
+            label: "Invocation: Maîtrise retrouvée !",
+            
+            
+            
+            startdescription: "J'ai réussi !",
+            description: "Mon invocation obéira à mes souhaits - pour l'instant.",
+            
+        }
+
+
+
+
+
+
+    ]
+}

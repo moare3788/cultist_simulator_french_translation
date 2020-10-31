@@ -1,0 +1,461 @@
+{
+    "elements": [
+        {
+            id: "ritetoolconsumeingredient",
+extends: ["ritetoolconsumeingredient"],
+            label: "Rite de la fête de la mer",
+            
+            slots: [
+                {
+                    id: "Invocation",
+extends: ["Invocation"],
+                    label: "Invocation",
+                    
+                    
+                    description: "Quels sont les mots ?"
+                },
+                {
+                    id: "Instrument",
+extends: ["Instrument"],
+                    label: "Instrument",
+                    
+                    
+                    description: "Quel est notre instrument ?"
+                },
+                {
+                    id: "Offering",
+extends: ["Offering"],
+                    label: "Offre",
+                    
+                    
+                    
+                    description: "À quoi allons-nous renoncer ?"
+                },
+                {
+                    id: "Desire",
+extends: ["Desire"],
+                    label: "Désir",
+                    
+                    
+                    description: "Que pourrais-je devenir ? [Ce slot n'accepte que l'étape finale de l'Ascension. Si vous avez atteint la Sixième Marque, ajoutez votre Ascension à cette case pour réaliser un Grand Oeuvre.]"
+                }
+            ],
+            description: "Ce rite invite la Sorcière-et-la-Soeur à combler le fossé entre ce qui est et ce qui pourrait être. L'adepte verse, ou lance, une offrande dans l'eau: de préférence, mais pas essentiellement, la mer.",
+            
+        },
+        {
+            id: "ritetoolconsumeinfluence",
+extends: ["ritetoolconsumeinfluence"],
+            label: "Rite de la Carte",
+            
+            slots: [
+                {
+                    id: "Invocation",
+extends: ["Invocation"],
+                    label: "Invocation",
+                    
+                    
+                    description: "Quels sont les mots ?"
+                },
+                {
+                    id: "Offering",
+extends: ["Offering"],
+                    label: "Offre",
+                    
+                    
+                    description: "Quelle sera l'influence exercée ?",
+                    
+                },
+                {
+                    id: "Instrument",
+extends: ["Instrument"],
+                    label: "Instrument",
+                    
+                    
+                    description: "Quel est notre instrument ?"
+                },
+                {
+                    id: "Desire",
+extends: ["Desire"],
+                    label: "Désir",
+                    
+                    
+                    description: "Que pourrais-je devenir ? [Ce slot n'accepte que l'étape finale de l'Ascension. Si vous avez atteint la Sixième Marque, ajoutez votre Ascension à cette case pour réaliser un Grand Oeuvre.]"
+                }
+            ],
+            description: "Le Vagabond est la seule Heure qui n'entre jamais dans le Mansus. Ce rite doit être accompli au bon endroit, au bon moment, et le Vagabond s'appropriera ce droit.",
+            
+        },
+
+        {
+            id: "ritetoolconsumefollower",
+extends: ["ritetoolconsumefollower"],
+            label: "Rite de l'âme du Creuset",
+            comments: "endgame rite",
+            
+            slots: [
+                {
+                    id: "Invocation",
+extends: ["Invocation"],
+                    label: "Invocation",
+                    
+                    
+                    description: "Quels sont les mots ?"
+                },
+                {
+                    id: "Victim",
+extends: ["Victim"],
+                    label: "Victime",
+                    
+                    
+                    
+                    description: "Il doit toujours y avoir un volontaire pour payer le sang."
+                },
+                {
+                    id: "Instrument",
+extends: ["Instrument"],
+                    label: "Instrument",
+                    
+                    
+                    description: "Sur quoi le sang sera-t-il versé ?"
+                },
+                {
+                    id: "Desire",
+extends: ["Desire"],
+                    label: "Désir",
+                    
+                    
+                    description: "Que pourrais-je devenir ? [Ce slot n'accepte que l'étape finale de l'Ascension. Si vous avez atteint la Sixième Marque, ajoutez votre Ascension à cette case pour réaliser un Grand Oeuvre.]"
+                }
+            ],
+            description: "Ce rite utilise un instrument de pouvoir pour mettre le feu au sang: le feu est la lésion dans la Peau du Monde. L'assistant en sort rarement indemne.",
+            
+        },
+        {
+            id: "ritetoolfollowerconsumelore",
+extends: ["ritetoolfollowerconsumelore"],
+            label: "Rite de la douleur du Guetteur",
+            comments: "endgame rite",
+            
+            slots: [
+                {
+                    id: "Sacrifice",
+extends: ["Sacrifice"],
+                    label: "Sacrifice",
+                    
+                    
+                    
+                    description: "Qu'allons-nous oublier ?"
+                },
+                {
+                    id: "Assistant",
+extends: ["Assistant"],
+                    label: "Assistant",
+                    
+                    
+                    description: "Qui prononcera les mots ?"
+                },
+                {
+                    id: "Instrument",
+extends: ["Instrument"],
+                    label: "Instrument",
+                    
+                    
+                    description: "Quel est notre instrument ?"
+                },
+                {
+                    id: "Desire",
+extends: ["Desire"],
+                    label: "Désir",
+                    
+                    
+                    description: "Que pourrais-je devenir ? [Ce slot n'accepte que l'étape finale de l'Ascension. Si vous avez atteint la Sixième Marque, ajoutez votre Ascension à cette case pour réaliser un Grand Oeuvre.]"
+                }
+            ],
+            description: "Ce rite rappelle la perte du Guetteur, qui se promène dans la maison qui n'a pas de murs. (La lumière passe devant lui et l'ombre derrière. Il ne doit pas vous voir.) L'instrument du pouvoir est utilisé pour le sommer d'accepter son sacrifice: une connaissance précieuse provenant du plus profond de vos pensées. L'assistant doit prononcer les mots sur lesquels repose votre santé mentale, alors choisissez quelqu'un en qui vous avez confiance.",
+            
+        },
+
+        {
+            id: "ritefollowerconsumetool",
+extends: ["ritefollowerconsumetool"],
+            label: "Rite de la lutte Rebelle",
+            
+            slots: [
+                {
+                    id: "Invocation",
+extends: ["Invocation"],
+                    label: "Invocation",
+                    
+                    
+                    description: "Quels sont les mots ?"
+                },
+                {
+                    id: "Assistant",
+extends: ["Assistant"],
+                    label: "Assistant",
+                    
+                    
+                    description: "Qui prononcera les mots ?"
+                },
+                {
+                    id: "Offering",
+extends: ["Offering"],
+                    label: "Offre",
+                    
+                    
+                    
+                    description: "À quoi allons-nous renoncer ?"
+                },
+                {
+                    id: "Desire",
+extends: ["Desire"],
+                    label: "Désir",
+                    
+                    
+                    description: "Que pourrais-je devenir ? [Ce slot n'accepte que l'étape finale de l'Ascension. Si vous avez atteint la Sixième Marque, ajoutez votre Ascension à cette case pour réaliser un Grand Oeuvre.]"
+                }
+            ],
+            description: "Ce rite met en pratique un enseignement de la Forge des Jours: l'artisan ne peut atteindre son but le plus élevé qu'en détruisant son outil le plus précieux. Le Lionsmith le savait lorsqu'il a brisé son épée devant le colonel. Mon assistant doit donc détruire un instrument choisi avec soin.",
+            
+        },
+
+        {
+            id: "ritefollowerconsumeingredient",
+extends: ["ritefollowerconsumeingredient"],
+            label: "Rite de la Miséricorde de la Mère",
+            
+            slots: [
+                {
+                    id: "Invocation",
+extends: ["Invocation"],
+                    label: "Invocation",
+                    
+                    
+                    description: "Quels sont les mots ?"
+                },
+                {
+                    id: "Assistant",
+extends: ["Assistant"],
+                    label: "Assistant",
+                    
+                    
+                    description: "Qui prononcera les mots ?"
+                },
+                {
+                    id: "Offering",
+extends: ["Offering"],
+                    label: "Offre",
+                    
+                    
+                    description: "Que sera-t-il offert ?",
+                    
+                },
+                {
+                    id: "Desire",
+extends: ["Desire"],
+                    label: "Désir",
+                    
+                    
+                    description: "Que pourrais-je devenir ? [Ce slot n'accepte que l'étape finale de l'Ascension. Si vous avez atteint la Sixième Marque, ajoutez votre Ascension à cette case pour réaliser un Grand Oeuvre.]"
+                }
+            ],
+            description: "L'assistant est offert en sacrifice à la Mère des Fourmis. Mais la Mère connaît aussi bien la guérison que le poison, et elle sera miséricordieuse, acceptant le substitut d'une offrande moindre. En général. L'expérience n'est pas rassurante pour l'assistant.",
+            
+        },
+        {
+            id: "riteinfluenceconsumeingredient",
+extends: ["riteinfluenceconsumeingredient"],
+            label: "Rite de l'extinction du Corbeau",
+            
+            slots: [
+                {
+                    id: "Invocation",
+extends: ["Invocation"],
+                    label: "Invocation",
+                    
+                    
+                    description: "Quels sont les mots ?"
+                },
+                {
+                    id: "Influence",
+extends: ["Influence"],
+                    label: "Influence",
+                    
+                    
+                    description: "Quel pouvoir sera présent ?"
+                },
+                {
+                    id: "Offering",
+extends: ["Offering"],
+                    label: "Offre",
+                    
+                    
+                    description: "Que sera-t-il offert ?",
+                    
+                },
+                {
+                    id: "Desire",
+extends: ["Desire"],
+                    label: "Désir",
+                    
+                    
+                    description: "Que pourrais-je devenir ? [Ce slot n'accepte que l'étape finale de l'Ascension. Si vous avez atteint la Sixième Marque, ajoutez votre Ascension à cette case pour réaliser un Grand Oeuvre.]"
+                }
+            ],
+            description: "Ce rite invoque le Corbeau-de-Plage au lever du soleil ou de la lune. Le Corbeau accepte le sacrifice et rend les dons de la terre.",
+            
+        },
+        {
+            id: "ritefollowerconsumeinfluence",
+extends: ["ritefollowerconsumeinfluence"],
+            label: "Rite du coucher du Soleil",
+            
+            slots: [
+                {
+                    id: "Invocation",
+extends: ["Invocation"],
+                    label: "Invocation",
+                    
+                    
+                    description: "Quels sont les mots ?"
+                },
+                {
+                    id: "Assistant",
+extends: ["Assistant"],
+                    label: "Assistant",
+                    
+                    
+                    description: "Qui prononcera les mots ?"
+                },
+                {
+                    id: "Offering",
+extends: ["Offering"],
+                    label: "Offre",
+                    
+                    
+                    
+                    description: "Quelle influence sera consumée ?"
+                },
+                {
+                    id: "Desire",
+extends: ["Desire"],
+                    label: "Désir",
+                    
+                    
+                    description: "Que pourrais-je devenir ? [Ce slot n'accepte que l'étape finale de l'Ascension. Si vous avez atteint la Sixième Marque, ajoutez votre Ascension à cette case pour réaliser un Grand Oeuvre.]"
+                }
+            ],
+            description: "L'assistant doit pleurer des larmes d'émotion véritable, qui sont aspergées à l'endroit où se trouve l'influence. Si tout est bien fait, le Soleil-en-Haillons consumera l'influence, reconnaîtra une fin et apportera son aide.",
+            
+        },
+        {
+            id: "riteinfluenceconsumefollower",
+extends: ["riteinfluenceconsumefollower"],
+            label: "Rite de la division de la Bête",
+            
+            slots: [
+                {
+                    id: "Invocation",
+extends: ["Invocation"],
+                    label: "Invocation",
+                    
+                    
+                    description: "Quels sont les mots ?"
+                },
+                {
+                    id: "Victim",
+extends: ["Victim"],
+                    label: "Victime",
+                    
+                    
+                    description: "Qui sera divisé ?",
+                    
+                },
+                {
+                    id: "Influence",
+extends: ["Influence"],
+                    label: "Influence",
+                    
+                    
+                    description: "Quel pouvoir sera présent ?"
+                },
+                {
+                    id: "Desire",
+extends: ["Desire"],
+                    label: "Désir",
+                    
+                    
+                    description: "Que pourrais-je devenir ? [Ce slot n'accepte que l'étape finale de l'Ascension. Si vous avez atteint la Sixième Marque, ajoutez votre Ascension à cette case pour réaliser un Grand Oeuvre.]"
+                }
+            ],
+            description: "Le nom de l'assistant leur est enlevé dans un lieu, ou à une occasion, de pouvoir; et il est divisé en neuf parties. Autrefois, on les chassait aussi comme un animal, mais les temps ont changé.",
+            
+        },
+        {
+            id: "riteconsumetoolingredientfollowerinfluence",
+extends: ["riteconsumetoolingredientfollowerinfluence"],
+            label: "Rite de l'Intercalate",
+            
+            slots: [
+                {
+                    id: "Sacrifice",
+extends: ["Sacrifice"],
+                    label: "Sacrifice",
+                    
+                    
+                    description: "Quelque chose à perdre.",
+                    
+                },
+                {
+                    id: "Offering",
+extends: ["Offering"],
+                    label: "Offre",
+                    
+                    
+                    description: "Quelque chose à perdre.",
+                    
+                },
+                {
+                    id: "Surrender",
+extends: ["Surrender"],
+                    label: "Renonciation",
+                    
+                    
+                    description: "Quelque chose à perdre.",
+                    
+                },
+                {
+                    id: "Dissolution",
+extends: ["Dissolution"],
+                    label: "Dissolution",
+                    
+                    
+                    description: "Quelque chose à perdre.",
+                    
+                },
+                {
+                    id: "Grief",
+extends: ["Grief"],
+                    label: "Deuil",
+                    
+                    
+                    description: "Quelque chose à perdre.",
+                    
+                },
+                {
+                    id: "Desire",
+extends: ["Desire"],
+                    label: "Désir",
+                    
+                    
+                    description: "Que pourrais-je devenir ? [Ce slot n'accepte que l'étape finale de l'Ascension. Si vous avez atteint la Sixième Marque, ajoutez votre Ascension à cette case pour réaliser un Grand Oeuvre.]"
+                }
+            ],
+            description: "Ce rite récapitule le sort abominable du Soleil. Il est utilisé dans les cas extrêmes par des adeptes insensés.",
+            
+        },
+
+
+    ]
+}

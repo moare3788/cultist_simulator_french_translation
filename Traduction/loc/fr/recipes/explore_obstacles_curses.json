@@ -1,0 +1,461 @@
+{
+    "recipes": [
+        {
+            id: "explorevaultcurse_dread_encounter",
+extends: ["explorevaultcurse_dread_encounter"],
+            
+            label: "La Malédiction de l'âme desséchée",
+            startdescription: "Les trésors qui nous attendent se trouvent sous la Malédiction de l'âme desséchée. Sans Lanterne ou Coeur, elle peut nous suivre et nous dessécher l'esprit.",
+            
+            slots: [
+                {
+                    id: "Assistance",
+extends: ["Assistance"],
+                    label: "Assistance",
+                    description: "Les Fonds sont essentiels pour les expéditions. Les Adeptes me permettront de franchir des obstacles.",
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultcurse_dread_highheart",
+extends: ["explorevaultcurse_dread_highheart"],
+            
+            
+            label: "Nous faisons appel à l'Anneau-d'If, qui est renouvelé",
+            startdescription: "Nous sommes assez forts en Coeur pour être presque entièrement protégés contre la malédiction.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultcurse_dread_midheart",
+extends: ["explorevaultcurse_dread_midheart"],
+            
+            
+            label: "Nous faisons appel à l'Anneau-d'If, qui englobe",
+            startdescription: "Nous avons assez de l'aspect Coeur pour lever la malédiction... probablement.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultcurse_dread_lowheart",
+extends: ["explorevaultcurse_dread_lowheart"],
+            
+            
+            label: "Nous faisons appel à l'Anneau-d'If, qui est succulent",
+            startdescription: "Peut-être que le pouvoir de cette vieille et féconde Heure, l'Anneau-d'If, peut nous protéger de la Malédiction. Peut-être pas.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_dread_highlantern",
+extends: ["explorevaultcurse_dread_highlantern"],
+            
+            
+            label: "Nous faisons appel au Colonel, qui ne peut être refusé",
+            startdescription: "Le Colonel est une Heure féroce, mais une puissance qui connaît la Lumière, et il a survécu à pire. Sa puissance nous protégera sûrement.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_dread_midlantern",
+extends: ["explorevaultcurse_dread_midlantern"],
+            
+            
+            label: "Nous faisons appel au Colonel, qui a des cicatrices",
+            startdescription: "Le Colonel est une Heure scarifiée, mais une puissance qui connaît la Lumière, et il a survécu à pire. Sa puissance devrait nous protéger.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_dread_lowlantern",
+extends: ["explorevaultcurse_dread_lowlantern"],
+            
+            
+            label: "Nous faisons appel au Colonel, qui est aveugle",
+            startdescription: "Le Colonel est une Heure qui connaît la Lumière, mais s'en souvient-il ? Sa puissance pourrait encore nous protéger.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_dread_success",
+extends: ["explorevaultcurse_dread_success"],
+            
+            label: "La malédiction se dissipe",
+            startdescription: "Notre pouvoir est plus fort que celui qui existait ici. La malédiction ne nous affectera pas.",
+            description: ".",
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultcurse_dread_failure",
+extends: ["explorevaultcurse_dread_failure"],
+            
+            label: "La malédiction se ressère",
+            startdescription: "Il y a un prix à payer lorsqu'on pénètre dans un endroit comme celui-ci. Un jour prochain, la malédiction se resserrera autour de nous.",
+            description: ".",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultcurse_visions_encounter",
+extends: ["explorevaultcurse_visions_encounter"],
+            
+            label: "La malédiction du Cinquième Oeil",
+            startdescription: "Les trésors à venir sont protégés par la Malédiction du Cinquième Oeil. Sans Hiver ni Coeur, elle peut nous suivre et ouvrir l'oeil de l'âme.",
+            
+            slots: [
+                {
+                    id: "Assistance",
+extends: ["Assistance"],
+                    label: "Assistance",
+                    description: "Les Fonds sont essentiels pour les expéditions. Les Adeptes me permettront de franchir des obstacles.",
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultcurse_visions_highheart",
+extends: ["explorevaultcurse_visions_highheart"],
+            
+            
+            label: "Nous faisons appel à l'Anneau-d'If, qui est renouvelé",
+            startdescription: "Nous sommes assez forts en Coeur pour être presque entièrement protégés contre la Malédiction.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultcurse_visions_midheart",
+extends: ["explorevaultcurse_visions_midheart"],
+            
+            
+            label: "Nous faisons appel à l'Anneau-d'If, qui englobe",
+            startdescription: "Nous avons assez de l'aspect Coeur pour lever la malédiction... probablement.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultcurse_visions_lowheart",
+extends: ["explorevaultcurse_visions_lowheart"],
+            
+            
+            label: "Nous faisons appel à l'Anneau-d'If, qui est succulent",
+            startdescription: "Peut-être que le pouvoir de cette vieille et féconde Heure, l'Anneau-d'If, peut nous protéger de la Malédiction. Peut-être pas.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_visions_highwinter",
+extends: ["explorevaultcurse_visions_highwinter"],
+            
+            
+            label: "Nous faisons appel à l'Élégie, à qui on ne peut plus rien enlever",
+            startdescription: "L'Élégie sait ce qui est déjà perdu. Son pouvoir nous protégera presque sûrement.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_visions_midwinter",
+extends: ["explorevaultcurse_visions_midwinter"],
+            
+            
+            label: "Nous faisons appel à l'Élégie, qui ne peut être trompé",
+            startdescription: "L'Élégie sépare le souvenir du vrai. Son pouvoir devrait nous protéger.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_visions_lowwinter",
+extends: ["explorevaultcurse_visions_lowwinter"],
+            
+            
+            label: "Nous faisons appel à l'Élégie, qui appelle chacun des Morts par son nom",
+            startdescription: "L'ironie et la tristesse de l'Élégie pourraient encore réprimer les visions. Qui sait ?",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_visions_success",
+extends: ["explorevaultcurse_visions_success"],
+            
+            label: "La Malédiction se dissipe",
+            startdescription: "Notre pouvoir est plus fort que celui qui existait ici. La malédiction ne nous touchera pas.",
+            description: ".",
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultcurse_visions_failure",
+extends: ["explorevaultcurse_visions_failure"],
+            
+            label: "La malédiction s'abat sur nous",
+            startdescription: "Il y a un prix à payer lorsqu'on pénètre dans un endroit comme celui-ci. Un jour prochain, la malédiction se resserrera autour de nous.",
+            description: ".",
+            
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "explorevaultcurse_affliction_encounter",
+extends: ["explorevaultcurse_affliction_encounter"],
+            
+            label: "Le Souffle Rampant",
+            startdescription: "Les trésors qui nous attendent sont protégés par la Malédiction du Souffle Rampant. Sans Graal ni Coeur, elle peut nous suivre et s'installer comme des spores dans nos poumons.",
+            
+            slots: [
+                {
+                    id: "Assistance",
+extends: ["Assistance"],
+                    label: "Assistance",
+                    description: "Les Fonds sont essentiels pour les expéditions. Les Adeptes me permettront de franchir des obstacles.",
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultcurse_affliction_highheart",
+extends: ["explorevaultcurse_affliction_highheart"],
+            
+            
+            label: "Le Souffle Rampant",
+            startdescription: "Nous sommes presque sûrement assez forts en Coeur pour être à l'abri de la Malédiction.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultcurse_affliction_midheart",
+extends: ["explorevaultcurse_affliction_midheart"],
+            
+            
+            label: "Nous faisons appel à l'Anneau-d'If, qui englobe",
+            startdescription: "Nous avons assez de l'aspect Coeur pour lever la malédiction... probablement.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultcurse_affliction_lowheart",
+extends: ["explorevaultcurse_affliction_lowheart"],
+            
+            
+            label: "Nous faisons appel à l'Anneau-d'If, qui est succulent",
+            startdescription: "Peut-être que le pouvoir de cette vieille et féconde Heure, l'Anneau-d'If, peut nous protéger de la Malédiction. Peut-être pas.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_affliction_highgrail",
+extends: ["explorevaultcurse_affliction_highgrail"],
+            
+            
+            label: "Nous faisons appel au Graal Rouge, qui donne la vie",
+            startdescription: "La vigueur du Graal Rouge nous protégera presque sûrement de la Malédiction.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_affliction_midgrail",
+extends: ["explorevaultcurse_affliction_midgrail"],
+            
+            
+            label: "Nous appelons le Graal Rouge, qui prend la vie",
+            startdescription: "La faim du Graal Rouge devrait nous protéger de la Malédiction",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_affliction_lowgrail",
+extends: ["explorevaultcurse_affliction_lowgrail"],
+            
+            
+            label: "Nous appelons le Graal Rouge, qui n'est pas rassasié",
+            startdescription: "Le Graal Rouge pourrait nous protéger de la Malédiction. C'est une Heure imprévisible.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_affliction_success",
+extends: ["explorevaultcurse_affliction_success"],
+            
+            label: "La Malédiction se dissipe",
+            startdescription: "Notre pouvoir est plus fort que celui qui existait ici. La Malédiction ne nous touchera pas.",
+            description: ".",
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultcurse_affliction_failure",
+extends: ["explorevaultcurse_affliction_failure"],
+            
+            label: "La malédiction se ressère",
+            startdescription: "Il y a un prix à payer lorsqu'on pénètre dans un endroit comme celui-ci. Un jour prochain, la Malédiction se resserrera autour de nous.",
+            description: ".",
+            
+            
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "explorevaultcurse_nowhere_encounter",
+extends: ["explorevaultcurse_nowhere_encounter"],
+            
+            label: "La Malédiction venue de Nulle-part",
+            startdescription: "Voici un endroit où la peau du monde a jauni de fièvre. De la lanterne ou de la Phalène pourraient nous protéger. Rien d'autre ne le pourrait. ",
+            
+            slots: [
+                {
+                    id: "Assistance",
+extends: ["Assistance"],
+                    label: "Assistance",
+                    description: "Les Fonds sont essentiels pour les expéditions. Les Adeptes me permettront de franchir des obstacles.",
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultcurse_nowhere_highmoth",
+extends: ["explorevaultcurse_nowhere_highmoth"],
+            
+            
+            label: "Nous faisons appel la Grive Rieuse, qui ne peut être épuisée",
+            startdescription: "Nous sommes presque sûrement assez forts en Phalène pour être à l'abri de la Malédiction.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultcurse_nowhere_midmoth",
+extends: ["explorevaultcurse_nowhere_midmoth"],
+            
+            
+            label: "Nous faisons appel la Grive Rieuse, qui ne peut pas être retenue",
+            startdescription: "On peut implorer l'Heure appelée la Grive rieuse pour éloigner cette malédiction. Nous serons sûrement en sécurité.",
+            description: ".",
+            
+        },
+        {
+            id: "explorevaultcurse_nowhere_lowmoth",
+extends: ["explorevaultcurse_nowhere_lowmoth"],
+            
+            
+            label: "Nous faisons appel à la Grive Rieuse, qui raconte son histoire à ceux qui veulent et à ceux qui ne veulent pas",
+            startdescription: "La Grive Rieuse est puissante de la Phalène, et n'est pas fiable.  Peut-être nous protégera-t-elle.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_nowhere_highlantern",
+extends: ["explorevaultcurse_nowhere_highlantern"],
+            
+            
+            label: "Nous faisons appel au Soleil-en-Haillons, qui brûle encore",
+            startdescription: "Le Soleil-en-Haillons donne de la lumière à la Lanterne. Il est presque sûr que cette malédiction se terminera ici.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_nowhere_midlantern",
+extends: ["explorevaultcurse_nowhere_midlantern"],
+            
+            
+            label: "Nous faisons appel au Soleil-en-Haillons, qui n'est plus ce qu'il était",
+            startdescription: "Le Soleil-en-Haillons, cette force froide et lasse, peut nous prêter la Lanterne. Il mettra fin à cette malédiction... probablement.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_nowhere_lowlantern",
+extends: ["explorevaultcurse_nowhere_lowlantern"],
+            
+            
+            label: "Nous faisons appel au Soleil-en-Haillons, qui est lointain",
+            startdescription: "Nous avons besoin de Lanterne pour mettre fin à la Malédiction, mais le Soleil-en-haillons ne peut nous en prêter qu'un peu.",
+            description: ".",
+            
+        },
+
+        {
+            id: "explorevaultcurse_nowhere_success",
+extends: ["explorevaultcurse_nowhere_success"],
+            
+            label: "La Malédiction se dissipe",
+            startdescription: "Notre pouvoir est plus fort que celui qui existait ici. La Malédiction ne nous touchera pas.",
+            description: ".",
+            
+            
+            
+            
+        },
+
+        {
+            id: "explorevaultcurse_nowhere_failure",
+extends: ["explorevaultcurse_nowhere_failure"],
+            
+            label: "La Malédiction se ressère",
+            startdescription: "Il y a un prix à payer lorsqu'on pénètre dans un endroit comme celui-ci. Un jour prochain, la malédiction se resserrera autour de nous.",
+            description: ".",
+            
+            
+            
+            
+            
+        },
+
+    ]
+}

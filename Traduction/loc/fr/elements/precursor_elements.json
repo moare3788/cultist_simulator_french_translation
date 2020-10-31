@@ -1,0 +1,92 @@
+{
+    "elements": [
+
+
+
+        {
+            id: "previtality",
+extends: ["previtality"],
+            label: "Vitalité",
+            description: "[La vitalité est en plein essor...]",
+            
+        },
+
+
+        {
+            id: "preerudition",
+extends: ["preerudition"],
+            label: "Erudition",
+            description: "[L'érudition naît d'un moment de compréhension...]",
+            
+        },
+
+        {
+            id: "prerestlessness",
+extends: ["prerestlessness"],
+            label: "Nervosité",
+            description: "[La nervosité vacille...]",
+            
+        },
+
+        {
+            id: "preglimmering",
+extends: ["preglimmering"],
+            label: "Scintillement",
+            description: "[Un scintillement se forme...]",
+            
+        },
+
+        {
+            id: "predread",
+extends: ["predread"],
+            label: "Peur",
+            description: "[La peur gèle mon esprit...]",
+            
+        },
+
+        {
+            id: "prefascination",
+extends: ["prefascination"],
+            label: "Fascination",
+            description: "[La fascination s'intensifie...]",
+            
+        },
+
+        {
+            id: "pre.fragmentedgeb",
+extends: ["pre.fragmentedgeb"],
+            label: "Indices: Tranchant",
+            description: "Je commence à comprendre quelque chose de nouveau sur les arts invisibles.",
+
+        },
+        {
+            id: "pre.fragmentforgeb",
+extends: ["pre.fragmentforgeb"],
+            label: "Indices: Forge",
+            description: "Je commence à comprendre quelque chose de nouveau sur les arts invisibles.",
+
+        },
+        {
+            id: "pre.fragmentgrailb",
+extends: ["pre.fragmentgrailb"],
+            label: "Indices: Graal",
+            description: "Je commence à comprendre quelque chose de nouveau sur les arts invisibles.",
+
+        },
+        {
+            id: "pre.fragmentheartb",
+extends: ["pre.fragmentheartb"],
+            label: "Indices: Coeur",
+            description: "Je commence à comprendre quelque chose de nouveau sur les arts invisibles.",
+
+        },
+        {
+            id: "pre.fragmentknockb",
+extends: ["pre.fragmentknockb"],
+            label: "Indices: Clé",
+            description: "Je commence à comprendre quelque chose de nouveau sur les arts invisibles.",
+
+        },
+
+    ]
+}

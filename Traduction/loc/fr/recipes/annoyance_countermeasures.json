@@ -1,0 +1,189 @@
+{
+    "recipes": [
+        {
+            id: "annoyanceseducehighgrail",
+extends: ["annoyanceseducehighgrail"],
+            label: "Envoyer un serviteur irrésistible pour piéger et déshonorer un gêneur",
+            
+            startdescription: "Je veux que ce gêneur disparaisse de mon chemin. Il pourrait même profiter de sa chute.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "annoyanceseducemidgrail",
+extends: ["annoyanceseducemidgrail"],
+            label: "Envoyer un serviteur séduisant pour piéger et déshonorer un gêneur",
+            
+            startdescription: "Chacun a une faiblesse pour un plaisir particulier. J'enverrai un serviteur qui comprend les nombreuses natures du plaisir. Il réussira très probablement.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "annoyanceseducelowgrail",
+extends: ["annoyanceseducelowgrail"],
+            label: "Envoyer un serviteur attirant pour piéger et déshonorer un gêneur",
+            
+            startdescription: "Qui sait si cela va réussir ? Il se peut que mon serviteur ne soit pas du tout attirant.",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "annoyanceseducesuccess",
+extends: ["annoyanceseducesuccess"],
+            label: "Offrir des tentations à un gêneur...",
+            
+            startdescription: "J'attends des nouvelles...",
+            description: "Mon serviteur est revenu. Il a trouvé une tentation particulière à laquelle notre gêneur a succombé volontiers ; au prix de la destruction totale de sa réputation.",
+            
+            
+        },
+
+
+
+        {
+            id: "annoyanceseducefailure",
+extends: ["annoyanceseducefailure"],
+            label: "Offrir des tentations à un gêneur...",
+            
+            startdescription: "J'attends des nouvelles...",
+            description: "Mon serviteur est revenu avec des nouvelles décevantes. Ils n'ont pas pu trouver un plaisir qui aurait tenté notre agacement dans la folie.",
+            
+        },
+
+
+
+        {
+            id: "annoyanceattackhighedge",
+extends: ["annoyanceattackhighedge"],
+            label: "Envoyer une Force inarrêtable pour assassiner un gêneur",
+            
+            startdescription: "Je n'ai plus de patience avec ce gêneur. A moins qu'il ne bénéficie d'une protection inhabituelle, il est déjà mort. Mais sa disparition va attirer l'attention.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "annoyanceattackmidedge",
+extends: ["annoyanceattackmidedge"],
+            label: "Envoyer un serviteur puissant pour assassiner un gêneur",
+            
+            startdescription: "Je n'ai plus de patience avec ce gêneur. Cela devrait mettre un terme à cette affaire. Mais il pourrait survivre, et cette tentative attirera l'attention. [L'échec tuera votre serviteur.]",
+            description: ".",
+            
+            
+        },
+        {
+            id: "annoyanceattacklowedge",
+extends: ["annoyanceattacklowedge"],
+            label: "Envoyer un serviteur pour assassiner un gêneur",
+            
+            startdescription: "Je veux que ce gêneur disparaisse. Mais cette approche est risquée : la force de mon serviteur est limitée. Le gêneur pourrait très facilement survivre, et la tentative attirera l'attention. [L'échec tuera votre serviteur.]",
+            description: ".",
+            
+            
+        },
+        {
+            id: "annoyanceattacknoedge",
+extends: ["annoyanceattacknoedge"],
+            label: "Envoyer quelqu'un d'inapte à assassiner un gêneur",
+            
+            startdescription: "Mon serviteur n'a pas l'aspect de la Pointe et est terriblement inadapté à l'attaque de ce gêneur. Il y a toutefois une petite chance qu'il réussisse. [Un échec tuera votre serviteur.]",
+            description: ".",
+            
+            
+        },
+
+
+        {
+            id: "annoyanceattacksuccess",
+extends: ["annoyanceattacksuccess"],
+            label: "Supprimer un gêneur...",
+            
+            startdescription: "J'attends des nouvelles...",
+            description: "Mon serviteur est revenu, avec un trophée. Le gêneur a disparu.",
+            
+            
+            
+
+            
+        },
+
+        {
+            id: "annoyancecapturesuccess",
+extends: ["annoyancecapturesuccess"],
+            label: "Supprimer un gêneur...",
+            
+            startdescription: "J'attends des nouvelles...",
+            description: "Mon serviteur est revenu, avec un prisonnier ! ...qui aura maintenant le temps de regretter ses choix.",
+            
+            
+            
+
+            
+        },
+
+
+        {
+            id: "annoyanceattackfailure",
+extends: ["annoyanceattackfailure"],
+            label: "Supprimer un gêneur...",
+            
+            startdescription: "J'attends des nouvelles...",
+            description: "Mon serviteur n'est pas revenu. Il a dû échouer. Cela peut s'avérer gênant.",
+            
+            
+        },
+
+
+
+
+        {
+            id: "annoyancederangemidmoth",
+extends: ["annoyancederangemidmoth"],
+            label: "Envoyer un serviteur sournois pour rendre fou un gêneur",
+            
+            startdescription: "Je veux que ce gêneur disparaisse de mon chemin. Ce projet réussira probablement, mais s'il échoue, il attirera l'attention.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "annoyancederangelowmoth",
+extends: ["annoyancederangelowmoth"],
+            label: "Envoyer un serviteur sournois pour rendre fou un gêneur",
+            
+            startdescription: "Je veux que ce gêneur disparaisse. Mais les capacités de mon serviteur sont limitées. Cela pourrait très bien échouer, et si cela arrive, cela attirera l'attention.",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "annoyancederangesuccess",
+extends: ["annoyancederangesuccess"],
+            label: "Terroriser un gêneur...",
+            
+            startdescription: "J'attends des nouvelles...",
+            description: "Mon serviteur est revenu. Le gêneur n'est plus capable de parler avec lucidité, et encore moins de m'ennuyer davantage.",
+            
+            
+        },
+
+
+
+        {
+            id: "annoyancederangefailure",
+extends: ["annoyancederangefailure"],
+            label: "Terroriser un gêneur...",
+            
+            startdescription: "J'attends des nouvelles...",
+            description: "Mon serviteur est revenu. Le gêneur s'est révélée plus résistant que nous ne l'avions prévu. Son esprit est intact.",
+            
+            
+        },
+    ]
+}

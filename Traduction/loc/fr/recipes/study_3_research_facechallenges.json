@@ -1,0 +1,590 @@
+{
+    "recipes": [
+
+
+        {
+            id: "studyresearch.entrypoint",
+extends: ["studyresearch.entrypoint"],
+            
+            label: "Dans la nuit",
+            startdescription: "La sagesse est un pays, et voici ses cartes. [Résoudre tous les défis sur ces deux fragments de croyance pour mener à bien un travail de recherche. Vous pouvez revenir à une tâche plus tard, si vous échouez.]",
+            description: ".",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "studyresearch.attemptsolve",
+extends: ["studyresearch.attemptsolve"],
+            
+            label: "Dans la nuit",
+            startdescription: "La sagesse est un pays, et ce sont ses cartes. [Résoudre tous les défis sur ces deux fragments de croyance pour mener à bien un travail de recherche. Vous pouvez revenir à une tâche plus tard, si vous échouez.]",
+            
+        },
+
+
+
+
+        {
+            id: "studyresearch.attemptsolve.challenge.knowledge",
+extends: ["studyresearch.attemptsolve.challenge.knowledge"],
+            
+            label: "Un défi: Connaissances",
+            
+            startdescription: "C'est un puzzle avec des pièces manquantes. Je pourrais trouver ces pièces dans les recoins bizarres du savoir. [Fournissez de l'Erudition, ou utilisez une Bibliothèque.]",
+            slots: [
+                {
+                    id: "solvechallenge",
+extends: ["solvechallenge"],
+                    label: "Solution",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "studyresearch.failed.challenge.knowledge",
+extends: ["studyresearch.failed.challenge.knowledge"],
+            
+            label: "Interruption !",
+            startdescription: "Mes recherches ont été bloquées, pour l'instant.",
+            
+            
+        },
+
+        {
+            id: "studyresearch.solved.challenge.knowledge",
+extends: ["studyresearch.solved.challenge.knowledge"],
+            
+            label: "Aha - !",
+            startdescription: " - Voilà, c'est fait. C'est tout ? [Vous avez résolu un défi de Connaissance.]",
+            
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "studyresearch.attemptsolve.challenge.intuition",
+extends: ["studyresearch.attemptsolve.challenge.intuition"],
+            
+            label: "Un défi: Intuition",
+            
+            startdescription: "C'est un puzzle avec des pièces manquantes. Je pourrais trouver ces pièces dans les recoins bizarres du savoir. [Fournissez du Scintillement, ou utilisez un Sanctuaire.]",
+            slots: [
+                {
+                    id: "solvechallenge",
+extends: ["solvechallenge"],
+                    label: "Solution",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "studyresearch.failed.challenge.intuition",
+extends: ["studyresearch.failed.challenge.intuition"],
+            
+            label: "Interruption !",
+            startdescription: "Mes recherches ont été bloquées, pour l'instant.",
+            
+            
+        },
+
+        {
+            id: "studyresearch.solved.challenge.intuition",
+extends: ["studyresearch.solved.challenge.intuition"],
+            
+            label: "Aha - !",
+            startdescription: " - Voilà, c'est fait. C'est tout ? [Vous avez résolu un défi d'Intuition.]",
+            
+            
+            
+            
+        },
+
+
+
+
+
+        {
+            id: "studyresearch.attemptsolve.challenge.grim",
+extends: ["studyresearch.attemptsolve.challenge.grim"],
+            
+            label: "Un défi: De sinistres leçons",
+            
+            startdescription: "C'est un puzzle avec des pièces manquantes. Je pourrais trouver ces pièces dans les recoins bizarres du savoir. [Fournissez de la Peur, utilisez une Fosse, ou utilisez la compétence Intensité Silencieuse. Cela pourrait générer de la Peur.]",
+            slots: [
+                {
+                    id: "solvechallenge",
+extends: ["solvechallenge"],
+                    label: "Solution",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "studyresearch.failed.challenge.grim",
+extends: ["studyresearch.failed.challenge.grim"],
+            
+            label: "Interruption !",
+            startdescription: "Mes recherches ont été bloquées, pour l'instant.",
+            
+            
+        },
+
+        {
+            id: "studyresearch.solved.challenge.grim",
+extends: ["studyresearch.solved.challenge.grim"],
+            
+            label: "Aha - !",
+            startdescription: " - Voilà, c'est fait. C'est tout ? [Vous avez résolu un sinistre défi.]",
+            
+            
+            
+            
+        },
+
+
+
+
+
+
+        {
+            id: "studyresearch.attemptsolve.challenge.obsessive",
+extends: ["studyresearch.attemptsolve.challenge.obsessive"],
+            
+            label: "Un défi: Recherche obsessionnelle",
+            
+            startdescription: "C'est un puzzle avec des pièces manquantes. Je pourrais trouver ces pièces dans les recoins bizarres du savoir. [Abandonnez la Raison, qui peut parfois être endommagée de façon permanente; ou utilisez une Bibliothèque; ou utilisez la compétence Jamais-Plus.]",
+            slots: [
+                {
+                    id: "solvechallenge",
+extends: ["solvechallenge"],
+                    label: "Solution",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "studyresearch.failed.challenge.obsessive",
+extends: ["studyresearch.failed.challenge.obsessive"],
+            
+            label: "Interruption !",
+            startdescription: "Mes recherches ont été bloquées, pour l'instant.",
+            
+            
+        },
+
+        {
+            id: "studyresearch.solved.challenge.obsessive",
+extends: ["studyresearch.solved.challenge.obsessive"],
+            
+            label: "Aha - !",
+            startdescription: " - Voilà, c'est fait. C'est tout ? [Vous avez résolu un défi obsessionnel.]",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "studyresearch.damagereason",
+extends: ["studyresearch.damagereason"],
+            
+            label: "Le fardeau de l'obsession",
+            startdescription: "J'ai aiguisé mes pensées comme une lame. Maintenant, la pointe de cette lame s'est brisée. [La Raison a été endommagée de façon permanente.]",
+            
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "studyresearch.attemptsolve.challenge.paradox",
+extends: ["studyresearch.attemptsolve.challenge.paradox"],
+            
+            label: "Un défi: Résolution paradoxale",
+            
+            startdescription: "C'est un puzzle avec des pièces manquantes. Je pourrais trouver ces pièces dans les recoins bizarres du savoir. [Abandonnez la Passion, qui peut parfois être endommagée; utilisez un Sanctuaire; ou utilisez une compétence Ame Ouverte.]",
+            slots: [
+                {
+                    id: "solvechallenge",
+extends: ["solvechallenge"],
+                    label: "Solution",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "studyresearch.failed.challenge.paradox",
+extends: ["studyresearch.failed.challenge.paradox"],
+            
+            label: "Interruption !",
+            startdescription: "Mes recherches ont été bloquées, pour l'instant.",
+            
+            
+        },
+
+        {
+            id: "studyresearch.solved.challenge.paradox",
+extends: ["studyresearch.solved.challenge.paradox"],
+            
+            label: "Aha - !",
+            startdescription: " - Voilà, c'est fait. C'est tout ? [Vous avez résolu un défi paradoxal.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "studyresearch.damagepassion",
+extends: ["studyresearch.damagepassion"],
+            
+            label: "Le Coeur du labyrinthe",
+            startdescription: "J'ai suivi mes passions à travers le labyrinthe, et me voilà au coeur de celui-ci. Le coeur du labyrinthe est un endroit noir et creux, carbonisé comme du bois. [La Passion a été endommagée de façon permanente.]",
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "studyresearch.attemptsolve.challenge.illumination",
+extends: ["studyresearch.attemptsolve.challenge.illumination"],
+            
+            label: "Un défi: Illumination",
+            
+            startdescription: "C'est un puzzle avec des pièces manquantes. Je pourrais trouver ces pièces dans les recoins bizarres du savoir. [Fournissez de la Fascination, qui peut se reproduire, utiliser une Bibliothèque ou employer une compétence Esprit Rare.]",
+            slots: [
+                {
+                    id: "solvechallenge",
+extends: ["solvechallenge"],
+                    label: "Solution",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "studyresearch.failed.challenge.illumination",
+extends: ["studyresearch.failed.challenge.illumination"],
+            
+            label: "Interruption !",
+            startdescription: "Mes recherches ont été bloquées, pour l'instant.",
+            
+            
+        },
+
+        {
+            id: "studyresearch.solved.challenge.illumination",
+extends: ["studyresearch.solved.challenge.illumination"],
+            
+            label: "Aha - !",
+            startdescription: " - Voilà, c'est fait. C'est tout ? [Vous avez résolu un défi de l'Illumination.]",
+            
+            
+            
+            
+        },
+
+
+
+
+
+        {
+            id: "studyresearch.attemptsolve.challenge.practical",
+extends: ["studyresearch.attemptsolve.challenge.practical"],
+            
+            label: "Un défi: Expérimentation pratique",
+            
+            startdescription: "C'est un puzzle avec des pièces manquantes. Je pourrais trouver ces pièces dans les recoins bizarres du savoir. [Risquez votre Santé, ou utilisez un prisonnier.]",
+            slots: [
+                {
+                    id: "solvechallenge",
+extends: ["solvechallenge"],
+                    label: "Solution",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "studyresearch.failed.challenge.practical",
+extends: ["studyresearch.failed.challenge.practical"],
+            
+            label: "Interruption !",
+            startdescription: "Mes recherches ont été bloquées, pour l'instant.",
+            
+            
+        },
+
+        {
+            id: "studyresearch.solved.challenge.practical",
+extends: ["studyresearch.solved.challenge.practical"],
+            
+            label: "Aha - !",
+            startdescription: " - Voilà, c'est fait. C'est tout ? [Vous avez résolu un défi Pratique.]",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "studyresearch.damagehealth",
+extends: ["studyresearch.damagehealth"],
+            
+            label: "Les dommages",
+            startdescription: "La douleur est un professeur, disent-ils, surtout si elle n'est pas douloureuse. [La Santé a été blessée.]",
+            
+            
+            
+            
+        },
+
+
+
+
+
+
+
+
+
+        {
+            id: "studyresearch.nochallengesremaining",
+extends: ["studyresearch.nochallengesremaining"],
+            
+            label: "Apercevoir la lumière",
+            startdescription: "Maintenant - maintenant je comprends !",
+            description: "",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "studyresearchtick",
+extends: ["studyresearchtick"],
+            comments: "L'exigence de 2 croyances signifie qu'elle n'est disponible que lorsque quelqu'un a associé deux fragments de croyance avec une recette antérieure. Cela permet d'accroître les possibilités de compréhension.",
+            label: "Une recherche prometteuse",
+            
+            
+            startdescription: "Ce projet a des possibilités. Lorsque les besoins en matière de recherche apparaissent, je dois les remplir pour avoir une Compréhension. Si j'obtiens trois Compréhension, je réussirai; sinon, je risque d'échouer.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "studyresearchneedsreason",
+extends: ["studyresearchneedsreason"],
+            label: "L'ombre de la confusion",
+            
+            
+            
+            slots: [
+                {
+                    id: "Reason",
+extends: ["Reason"],
+                    
+                    
+                }
+            ],
+            
+            startdescription: "La confusion brouille le chemin. Je dois utiliser davantage ma Raison.",
+            description: "Je dois utiliser ma Raison pour aider mes recherches.",
+            
+            
+            
+        },
+        {
+            id: "studyresearchreasonsuccess",
+extends: ["studyresearchreasonsuccess"],
+            label: "La lumière de l'intellect !",
+            
+            
+            
+            
+            startdescription: "La tâche occupe une place de plus en plus importante dans mon esprit. Mais mes efforts portent leurs fruits. [Compréhension acquise.].",
+            
+            
+        },
+        {
+            id: "studyresearchneedserudition",
+extends: ["studyresearchneedserudition"],
+            label: "Les pièces du puzzle",
+            
+            
+            
+            slots: [
+                {
+                    id: "Erudition",
+extends: ["Erudition"],
+                    
+                    
+                    
+                }
+            ],
+            
+            startdescription: "Mes recherches ont besoin d'Erudition.",
+            description: "Mes recherches ont besoin d'Erudition.",
+            
+            
+            
+        },
+        {
+            id: "studyresearcheruditionsuccess",
+extends: ["studyresearcheruditionsuccess"],
+            label: "Les pièces s'emboîtent !",
+            
+            
+            
+            
+            startdescription: "La Connaissance engendre la Connaissance. [Compréhension acquise.]",
+            
+        },
+        {
+            id: "studyresearchneedsglimmering",
+extends: ["studyresearchneedsglimmering"],
+            label: "Les portes de l'intuition",
+            
+            
+            
+            slots: [
+                {
+                    id: "Glimmering",
+extends: ["Glimmering"],
+                    
+                    
+                    
+                }
+            ],
+            
+            startdescription: "Mes recherches ont besoin de Scintillement.",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "studyresearchglimmeringsuccess",
+extends: ["studyresearchglimmeringsuccess"],
+            label: "Les portes de l'intuition sont ouvertes !",
+            
+            
+            
+            startdescription: "Parfois, les intuitions se trouvent dans des endroits inattendus. [Compréhension acquise.]",
+            
+            
+        },
+        {
+            id: "studyresearchearlyconclusion",
+extends: ["studyresearchearlyconclusion"],
+            
+            comments: "this is a passthrough / router for if Insight reaches 3,which routes directly to the conclusion",
+            
+            
+        },
+        {
+            id: "studyresearchconclusion",
+extends: ["studyresearchconclusion"],
+            
+            comments: "this is a passthrough / router which the player sees if they don't satisfy a research requirement.",
+            
+        },
+
+        {
+            id: "studyresearchmaxinsight",
+extends: ["studyresearchmaxinsight"],
+            label: "Recherche terminée, compréhension maximale",
+            
+            
+            
+            
+            startdescription: "COMMENCER studyresearchmaxinsight",
+            description: "COMPLETER studyresearchmaxinsight",
+            
+            comments: "Il ne s'agit pour l'instant que d'un passage, notamment par souci de cohérence.",
+        },
+        {
+            id: "studyresearchmoderateinsight",
+extends: ["studyresearchmoderateinsight"],
+            label: "Recherche terminée, une compréhension des connaissances",
+            
+            
+            
+            
+            startdescription: "COMMENCER studyresearchsomeinsight",
+            description: "COMPLETER studyresearchsomeinsight",
+            
+        },
+        {
+            id: "studyresearchminimalinsight",
+extends: ["studyresearchminimalinsight"],
+            label: "Recherche complète, compréhension minimale",
+            
+            
+            
+            
+            
+            startdescription: "COMMENCER studyresearchnoinsight",
+            description: "COMPLETER studyresearchnoinsight",
+            
+        },
+        {
+            id: "studyresearchsuccess",
+extends: ["studyresearchsuccess"],
+            label: "Succès !",
+            
+            
+            
+            
+            startdescription: ".",
+            description: "J'ai appris quelque chose de nouveau.",
+            
+            
+            
+        },
+
+    ]
+}

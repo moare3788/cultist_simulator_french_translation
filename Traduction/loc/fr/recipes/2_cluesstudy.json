@@ -1,0 +1,364 @@
+{
+    "recipes": [
+
+        {
+            id: "studyupgrade_downgrade_lore_hint",
+extends: ["studyupgrade_downgrade_lore_hint"],
+            label: "Améliorer ma connaissance des arts invisibles ?",
+            
+            
+            startdescription: "Si j'ai deux fragments de croyance de même niveau et de même aspect, je peux les étudier ensemble pour améliorer ma compréhension. Si j'utilise la raison, je peux analyser la croyance en la décomposant en fragments de niveau inférieur. Ou je peux utiliser un autre type de croyance pour la corrompre...",
+            
+            
+        },
+        {
+            id: "studyupgradelore_hint",
+extends: ["studyupgradelore_hint"],
+            label: "Améliorer ma connaissance des arts invisibles ?",
+            
+            
+            startdescription: "Si j'ai deux fragments de croyance de même niveau et de même aspect, je peux les étudier ensemble pour améliorer ma compréhension. Ou je peux utiliser un autre type de croyance pour la corrompre...",
+            
+            
+        },
+
+        {
+            id: "studyprealzabo_hint",
+extends: ["studyprealzabo_hint"],
+            label: "Une expérience audacieuse",
+            
+            
+            startdescription: "Je n'ai besoin que d'acheter quelques ingrédients finaux, et je peux ensuite préparer le mélange. Je dois faire appel à mon courage... et trouver un repas approprié.",
+            
+            
+        },
+
+        {
+            id: "studyalzabo_hint",
+extends: ["studyalzabo_hint"],
+            label: "Le festin de la colombe miellée",
+            
+            
+            startdescription: "Je peux consommer des restes, pour préserver un peu de leur savoir de la poussière. Il se peut que je doive encore le faire.",
+            
+            
+        },
+
+
+        {
+            id: "translatelatinhint",
+extends: ["translatelatinhint"],
+            label: "Traduire du latin ?",
+            
+            
+            startdescription: "Mes connaissances en latin sont trop limitées pour lire ceci. Je pourrais peut-être trouver un manuel ou engager un tuteur.",
+            
+            
+        },
+        {
+            id: "translategreekhint",
+extends: ["translategreekhint"],
+            label: "Traduire du grec ?",
+            
+            
+            startdescription: "Mes compétences en grec sont trop limitées pour lire ceci. Je pourrais peut-être trouver un manuel ou engager un tuteur.",
+            
+            
+        },
+
+        {
+            id: "translatearamaichint",
+extends: ["translatearamaichint"],
+            label: "Traduire de l'araméen ?",
+            
+            
+            startdescription: "Mes compétences en araméen sont trop limitées pour lire ceci. Je pourrais peut-être trouver un manuel ou engager un tuteur.",
+            
+            
+        },
+
+        {
+            id: "translatesanskrithint",
+extends: ["translatesanskrithint"],
+            label: "Traduire du sanskrit ?",
+            
+            
+            startdescription: "Mes compétences en sanskrit sont trop limitées pour lire ceci. Je pourrais peut-être trouver un manuel ou engager un tuteur.",
+            
+            
+        },
+
+
+        {
+            id: "translatefucinehint",
+extends: ["translatefucinehint"],
+            label: "Traduire du Fucine ?",
+            
+            
+            startdescription: "Je ne connais pas le Fucine; peut-être que personne de vivant ne la connaît. Il y a peut-être une pierre de Rosette quelque part... ou je pourrais trouver un tuteur qui n'est pas vivant, pas exactement.",
+            
+            
+        },
+        {
+            id: "translatephrygianhint",
+extends: ["translatephrygianhint"],
+            label: "Traduire du phrygien ?",
+            
+            
+            startdescription: "Je ne connais pas le Phrygien; peut-être que personne ne le connaît vivant. Il y a peut-être une pierre de Rosette quelque part... ou je pourrais trouver un tuteur qui n'est pas vivant, pas exactement.",
+            
+            
+        },
+
+        {
+            id: "translatemandaichint",
+extends: ["translatemandaichint"],
+            label: "Traduire du Mandaique profond ",
+            
+            
+            startdescription: "Je ne connais pas le Mandaique profond; peut-être que personne de vivant ne le connaît. Il pourrait y avoir une pierre de Rosette quelque part... ou je pourrais trouver un tuteur qui n'est pas vivant, pas exactement.",
+            
+            
+        },
+        {
+            id: "translatevakhint",
+extends: ["translatevakhint"],
+            label: "Traduire du Vak ?",
+            
+            
+            startdescription: "Je ne connais pas le Vak; peut-être que personne de vivant ne le connaît. Il y a peut-être une pierre de Rosette quelque part... ou je pourrais trouver un tuteur qui n'est pas vivant, pas exactement.",
+            
+            
+        },
+
+        {
+            id: "studyincreasehealthskilld_wronglore",
+extends: ["studyincreasehealthskilld_wronglore"],
+            label: "Entraîner le corps: des techniques secrètes ?",
+            
+            
+            startdescription: "Rien de ce qui se passe dans ce domaine ne sera utile ici. Je dois choisir autre chose.",
+            
+            
+        },
+
+        {
+            id: "increasehealthfurtherhint",
+extends: ["increasehealthfurtherhint"],
+            label: "Améliorer ma Santé ?",
+            
+            
+            startdescription: "Plus je gagne en santé, plus j'ai besoin de vitalité. [Utilisez les compétences: Physique pour améliorer encore la santé.]",
+
+            
+            
+        },
+        {
+            id: "increasereasonfurtherhint",
+extends: ["increasereasonfurtherhint"],
+            label: "Améliorer ma Raison ?",
+            
+            
+            startdescription: "Plus je gagne en Raison, plus j'aurai besoin de l'Erudition. [Utilisez la compétence: Erudition pour augmenter encore la Raison.]",
+
+            
+            
+        },
+
+        {
+            id: "increasepassionfurtherhint",
+extends: ["increasepassionfurtherhint"],
+            label: "Améliorer ma Passion ?",
+            
+            
+            startdescription: "Plus j'aurai de passion, plus j'aurai besoin d'une lumière étincelante. [Utilisez la compétence: l'imagination pour augmenter encore la passion.]",
+
+            
+            
+        },
+        {
+            id: "studyupgradeinfluences.apostlelanternhint",
+extends: ["studyupgradeinfluences.apostlelanternhint"],
+            label: "Entretenir l'émerveillement",
+            
+            
+            startdescription: "Avec le temps, même la plus grande des séductions va scintiller et grisonner. Je dois l'alimenter avec les couleurs de l'obsession.",
+            
+            
+        },
+
+        {
+            id: "studyupgradeinfluenceshint2",
+extends: ["studyupgradeinfluenceshint2"],
+            label: "Renforcer les influences ?",
+            
+            
+            startdescription: "Il pourrait être possible, avec la bonne combinaison d'influences, d'obtenir plus de pouvoir... mais seulement si j'ai la connaissance nécessaire des arts invisibles.",
+            
+            
+        },
+        {
+            id: "increasehealthfurtherhintpluswithskillneedslore",
+extends: ["increasehealthfurtherhintpluswithskillneedslore"],
+            label: "Augmenter mes compétences à quelque chose d'extraordinaire ?",
+            
+            
+            startdescription: "J'aurai besoin de suffisamment de connaissances... et de quelque chose de plus.",
+            
+            
+        },
+        {
+            id: "increasehealthfurtherhintpluswithskill",
+extends: ["increasehealthfurtherhintpluswithskill"],
+            label: "Améliorer ma Santé ?",
+            
+            
+            startdescription: "J'aurai besoin de plus de leçons.",
+
+            
+            
+        },
+        {
+            id: "increasehealthfurtherhintplus",
+extends: ["increasehealthfurtherhintplus"],
+            label: "Améliorer ma Santé ?",
+            
+            
+            startdescription: "Je vais devoir l'utiliser avec ma compétence Force.",
+
+            
+            
+        },
+
+        {
+            id: "increasehealthfurtherhint1",
+extends: ["increasehealthfurtherhint1"],
+            label: "Améliorer ma Santé ?",
+            
+            
+            startdescription: "Je vais avoir besoin de plus.",
+
+            
+            
+        },
+
+
+        {
+            id: "increasereasonfurtherhintpluswithskillneedslore",
+extends: ["increasereasonfurtherhintpluswithskillneedslore"],
+            label: "Augmenter mes compétences à quelque chose d'extraordinaire ?",
+            
+            
+            startdescription: "J'aurai besoin de suffisamment de connaissances... et de quelque chose de plus.",
+
+            
+            
+        },
+        {
+            id: "increasereasonfurtherhintpluswithskill",
+extends: ["increasereasonfurtherhintpluswithskill"],
+            label: "Améliorer ma Raison ?",
+            
+            
+            startdescription: "J'aurai besoin de plus de connaissances.",
+
+            
+            
+        },
+        {
+            id: "increasereasonfurtherhintplus",
+extends: ["increasereasonfurtherhintplus"],
+            label: "Améliorer ma Raison ?",
+            
+            
+            startdescription: "Je devrai l'utiliser avec mes compétences en matière d'érudition.",
+
+            
+            
+        },
+
+        {
+            id: "increasereasonfurtherhint1",
+extends: ["increasereasonfurtherhint1"],
+            label: "Améliorer ma Raison ?",
+            
+            
+            startdescription: "Il m'en faudra plus d'un.",
+
+            
+            
+        },
+
+        {
+            id: "increasepassionfurtherhintpluswithskillneedslore",
+extends: ["increasepassionfurtherhintpluswithskillneedslore"],
+            label: "Augmenter mes compétences à quelque chose d'extraordinaire ?",
+            
+            
+            startdescription: "J'aurai besoin de suffisamment de connaissances... et de quelque chose de plus.",
+
+            
+            
+        },
+
+        {
+            id: "increasepassionfurtherhintpluswithskill",
+extends: ["increasepassionfurtherhintpluswithskill"],
+            label: "Améliorer ma Passion ?",
+            
+            
+            startdescription: "J'aurai besoin de plus de connaissances.",
+
+            
+            
+        },
+        {
+            id: "increasepassionfurtherhintplus",
+extends: ["increasepassionfurtherhintplus"],
+            label: "Améliorer ma Passion ?",
+            
+            
+            startdescription: "Je vais devoir l'utiliser avec mon talent d'imagination.",
+
+            
+            
+        },
+
+        {
+            id: "increasepassionfurtherhint1",
+extends: ["increasepassionfurtherhint1"],
+            label: "Améliorer ma Passion ?",
+            
+            
+            startdescription: "Il m'en faudra plus d'un.",
+
+            
+            
+        },
+
+        {
+            id: "studyrestlessnesshint",
+extends: ["studyrestlessnesshint"],
+            label: "Étudier la Nervosité ?",
+            
+            
+            startdescription: "Pour étudier, il faut généralement rester assis sans bouger. La Nervosité est rarement l'alliée de l'érudition.",
+            
+            
+        },
+
+        {
+            id: "studyupgradeinfluenceshint1",
+extends: ["studyupgradeinfluenceshint1"],
+            label: "Renforcer les Influences ?",
+            
+            
+            startdescription: "Il pourrait être possible, avec la bonne combinaison d'influences, d'obtenir plus de pouvoir...",
+            
+            
+        },
+
+
+
+    ]
+}

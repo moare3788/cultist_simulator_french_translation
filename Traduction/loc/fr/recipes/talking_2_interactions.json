@@ -1,0 +1,287 @@
+{
+    "recipes": [
+        {
+            id: "lockfollowerincupboard",
+extends: ["lockfollowerincupboard"],
+            label: "Trahir et emprisonner un Adepte",
+            
+            
+            startdescription: "Celui-ci doit maintenant servir un autre objectif. Dans l'armoire, il ira.",
+            description: "J'ai enfermé celui-ci en toute sécurité. Quand ses cris et ses divagations s'atténueront, je le maîtriserai comme il se doit.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "sulochanachat",
+extends: ["sulochanachat"],
+            label: "Une discussion avec Sulochana",
+            
+            
+            slots: [
+                {
+                    id: "Subject",
+extends: ["Subject"],
+                    label: "Sujet",
+                    description: "Un sujet de conversation"
+                }
+            ],
+            startdescription: "@#ascensionlessonhearta|'Vous voulez en savoir plus ?' #ascensionlessonheartb|'Vous voulez en savoir plus ?' #ascensionlessonheartc|'Vous voulez en savoir plus ?' #ascensionlessonheartd|'Vous voulez en savoir plus ?' #ascensionlessonhearte|'Vous voulez en savoir plus ?' #ascensionlessonheartf|'Vous voulez en savoir plus ?' #ascensionlessonmotha|'Vous voulez en savoir plus ?' #ascensionlessonmothb|'Vous voulez en savoir plus ?' #ascensionlessonmothc|'Vous voulez en savoir plus ?' #ascensionlessonmothd|'Vous voulez en savoir plus ?' #ascensionlessonmothe|'Vous voulez en savoir plus ?' #ascensionlessonmothf|'Vous voulez en savoir plus ?' #|Sulochana éteint sa cigarette. 'Oui, si vous voulez étudier la linguistique avec moi. Oui, vous pouvez. Y a-t-il autre chose ?'@", description: "@#ascensionlessonhearta|'Ce n'est pas ma spécialité.' Sulochana sourit #ascensionlessonheartb|'Ce n'est pas ma spécialité.' Sulochana hausse les épaules comme un serpent. #ascensionlessonheartc|'Ce n'est pas ma spécialité.' Sulochana sourit. #ascensionlessonheartd|'Ce n'est pas ma spécialité.' Sulochana hausse les épaules comme un serpent. #ascensionlessonhearte|'Ce n'est pas ma spécialité.' Sulochana sourit. #ascensionlessonheartf|'Ce n'est pas ma spécialité.' Sulochana hausse les épaules comme un serpent. #ascensionlessonmotha|'La leçon est ce qu'elle est. Je suis votre employeur, pas votre professeur.' Sulochana s'étire. Ayez un peu de patience.' #ascensionlessonmothb|'La leçon est ce qu'elle est. Je suis votre employeur, pas votre professeur.' Sulochana s'étire. Ayez un peu de patience.' #ascensionlessonmothc|'La leçon est ce qu'elle est. Je suis votre employeur, pas votre professeur.' Sulochana s'étire. Ayez un peu de patience.' #ascensionlessonmothd|'La leçon est ce qu'elle est. Si vous voulez un professeur, parlez aux Oubliés.' Sulochana sourit de toutes ses dents. Non pas qu'ils vous parleront.' #ascensionlessonmothe|'La leçon est ce qu'elle est. Si vous voulez un professeur, parlez aux Oubliés.' Sulochana sourit de toutes ses dents. Non pas qu'ils vous parleront.' #ascensionlessonmothf|'La leçon est ce qu'elle est. Si vous voulez un professeur, parlez aux Oubliés.' Sulochana sourit de toutes ses dents. Non pas qu'ils vous parleront.' #|Est-elle déçue ? C'est difficile à dire, avec Sulochana.@",
+            
+            
+            
+        },
+
+        {
+            id: "sulochanachat_health",
+extends: ["sulochanachat_health"],
+            
+            label: "Sur les Forces du corps",
+            
+            startdescription: "'Vous êtes jeune. Félicitations.'",
+            description: "'Nous étions tous jeunes. Tous. C'est la seule chose que la plupart d'entre nous ont en commun.'"
+        },
+        {
+            id: "sulochanachat_passion",
+extends: ["sulochanachat_passion"],
+            label: "Sur la Passion",
+            
+            
+            startdescription: "'Oui, cela vous attirera des ennuis.'",
+            description: "'Vous avez du potentiel. Vous m'avez vu le voir. Le potentiel ne suffit pas. Autre chose ?'"
+        },
+        {
+            id: "sulochanachat_cabaret",
+extends: ["sulochanachat_cabaret"],
+            label: "Sur le Club Ecdysis",
+            
+            
+            startdescription: "'Oui ?'",
+            description: "'Il y a une route que vous pouvez emprunter qui commence là, dans ma maison. Si vous voulez en parler, retrouvez-moi là-bas.'"
+        },
+        {
+            id: "sulochanachat_desireheart_track",
+extends: ["sulochanachat_desireheart_track"],
+            label: "Sur la nouvelle Forme",
+            
+            
+            
+            startdescription: "'Vous cherchez à vous débarrasser de votre peau ?'",
+            description: "'La route que vous voulez emprunter est ce que nous appelons la Nouvelle Forme. Pas si nouvelle que ça, plus maintenant. Mais elle a du mérite, si vous pouvez supporter la douleur. Retrouvez-moi à mon domicile, et nous pourrons parler du partenaire dont vous aurez besoin à la fin. Voici l'adresse.'"
+        },
+        {
+            id: "sulochanachat_desiremoth_track",
+extends: ["sulochanachat_desiremoth_track"],
+            
+            label: "Sur la vieille Forme",
+            
+            
+            startdescription: "Maintenant - maintenant nous commençons à nous comprendre.",
+            description: "La route que vous voulez suivre est ce que nous appelons l'Ancienne Forme. Je l'ai parcourue moi-même, et elle m'a finalement amenée ici. Vous abandonnerez tout en cours de route. Vous aurez besoin de vous défaire de votre peau, et pas seulement une fois... Retrouvez-moi chez moi, et nous pourrons parler du partenaire dont vous aurez besoin à la fin. Voici l'adresse."
+        },
+        {
+            id: "sulochanachat_desire_change",
+extends: ["sulochanachat_desire_change"],
+            
+            label: "Sur le Désir",
+            
+            startdescription: "La danse, hm ?",
+            description: "Retrouvez-moi à mon domicile, et nous pourrons parler du partenaire dont vous aurez besoin à la fin. Voici l'adresse."
+        },
+        {
+            id: "sulochanachat_desire",
+extends: ["sulochanachat_desire"],
+            
+            label: "Sur le Désir",
+            
+            startdescription: "C'est ce qui vous motive ?",
+            description: "Nous n'avons pas de point commun dans ce domaine. J'ai choisi une autre voie il y a très longtemps. Mais si c'est une route que vous souhaitez emprunter... revenez me voir, au Club Ecdysis."
+        },
+        {
+            id: "sulochanachat_secrethistoriesrouter",
+extends: ["sulochanachat_secrethistoriesrouter"],
+            
+            label: "Sur les lieux secrets",
+            
+            startdescription: "À ce sujet...",
+            description: ".",
+            
+        },
+
+        {
+            id: "sulochanachat_secrethistoriesg",
+extends: ["sulochanachat_secrethistoriesg"],
+            
+            label: "Sur la route de l'Ivoire",
+            
+            startdescription: "'Vous devez aller à Port Midi ? Hah. Désolé de l'entendre. Sulochana parle avec un fiel inhabituel.",
+            description: "'Voici. Cette carte fonctionnera pendant un certain temps. Si certains d'entre eux me demandent, dites-leur que je viendrai chercher leurs enfants la prochaine fois.'",
+            
+        },
+
+        {
+            id: "sulochanachat_secrethistoriesf",
+extends: ["sulochanachat_secrethistoriesf"],
+            
+            label: "Sur la route du Pupille",
+            
+            startdescription: "'Vous devez aller voir Miah ? Laissez-moi vous rappeler de certaines dates.'",
+            description: "'Voici. C'est l'adresse d'une personne qui vous guidera. Si le Voleur de vues me demande... dites-lui de transmettre mes salutations à Kleido... vous savez quoi ? Ne dites rien sur moi. Voici votre adresse.'",
+            
+        },
+
+        {
+            id: "sulochanachat_secrethistoriese",
+extends: ["sulochanachat_secrethistoriese"],
+            
+            label: "Pas ici - ",
+            
+            startdescription: "'Les Rois sans ombre ? Non - '",
+            description: "'Il n'y a rien là pour quelqu'un de mon genre ou du vôtre. Aucune danse ne vaut la peine d'être dansée dans cet endroit. Vous devrez aller plus au sud.'",
+            
+        },
+
+        {
+            id: "sulochanachat_secrethistoriesd",
+extends: ["sulochanachat_secrethistoriesd"],
+            
+            label: "Sur la route des stigmates",
+            
+            startdescription: "'Vous avez besoin d'aller à Meadows ? Mm.'",
+            description: "'C'est la route la plus facile à cette époque de l'année. Mais elle ne sera pas facile. Amusez-vous bien.'",
+
+            
+        },
+
+        {
+            id: "sulochanachat_secrethistoriesc",
+extends: ["sulochanachat_secrethistoriesc"],
+            
+            label: "Sur la route d'Antumbra",
+            
+            startdescription: "'Vous voulez aller aux Pierres ?'",
+            description: "'Voici. Cela vous permettra d'atteindre le terminus, puis vous devrez marcher. Il y a une petite auberge où j'avais l'habitude de rester quand j'y allais. Mais je l'ai brûlée.' Elle allume une cigarette.",
+            
+        },
+
+        {
+            id: "sulochanachat_secrethistoriesb",
+extends: ["sulochanachat_secrethistoriesb"],
+            
+            label: "Sur la route de la perle",
+            
+            startdescription: "'Vous voulez aller à Kerisham ? Oui. Les trains son difficiles à trouver.'",
+            description: "Sulochana vous remet un bout de papier imprimé. 'Ce sont les horaires de ce mois-ci. Assurez-vous que vous êtes sur le bon quai. C'est beaucoup plus facile d'y aller maintenant, hm ? Il fut un temps où vous auriez dû passer la mauvaise porte, et j'ai mieux à faire.' Elle rit beaucoup.",
+            
+        },
+
+        {
+            id: "sulochanachat_secrethistoriesa",
+extends: ["sulochanachat_secrethistoriesa"],
+            
+            label: "Sur la route du changement",
+            
+            startdescription: "'Je peux vous aider à ce sujet... si vous voulez changer.'",
+            description: "'C'est toujours en mer que nous changeons en premier. Kerisham est un bon endroit, de nos jours. Puis de plus en plus loin. Pas en personne. Jamais en personne. En votre autre personne. N'hésitez pas à revenir vers moi avec plus de croyances, si vous n'êtes pas sûr de l'endroit où aller. Si vous cherchez autre chose que le changement... je ne peux pas vous aider.'",
+        },
+
+
+        {
+            id: "poppyoffer",
+extends: ["poppyoffer"],
+            label: "Parler à Poppy Lascelles",
+            
+            
+            slots: [
+                {
+                    id: "Consent",
+extends: ["Consent"],
+                    label: "Consentement",
+                    description: "Ajoutez de la Passion pour accepter, ou de la Raison pour interroger Poppy davantage.",
+                    
+                }
+            ],
+            
+            startdescription: "'Très cher, je voulais vous parler. Parfois, je finance des chercheurs en arts invisibles. J'aimerais vous offrir mon soutien. Une contribution substantielle. Et il vous suffira, un jour, de me présenter à quelqu'un qui mettra fin aux choses correctement.' Elle sourit, bienveillante. [Ajoutez <b>Passion</b> pour accepter, ou <b>Raison</b> pour l'interroger davantage.]",
+            description: "Je n'ai pas accepté l'offre de Poppy.",
+            
+            
+        },
+        {
+            id: "poppyofferaccept",
+extends: ["poppyofferaccept"],
+            label: "Accepter l'offre de Poppy",
+            
+            
+            startdescription: "'Oui, c'est tout à fait exact. Je reviendrai ce soir.'",
+            description: "Un petit paquet de petits trésors : un cadeau de Poppy. Elle me reverra dans la Saison des Haillons, pour que je fasse les présentations que j'ai promises.",
+            
+            
+        },
+        {
+            id: "poppyofferquery",
+extends: ["poppyofferquery"],
+            label: "Questionner Poppy plus précisément",
+            
+            
+            startdescription: "Quelqu'un qui mettra fin aux choses correctement ?",
+            description: "'Oui. Lorsque la Saison des Haillons reviendra, mon sponsor aura besoin de quelqu'un pour la fin. Vous pouvez fournir quelqu'un de suffisamment loyal, ou vous pouvez vous fournir vous-même. Comme vous préférez. Je ne veux pas vous causer d'ennuis.'",
+            
+        },
+        {
+            id: "poppytimebomb",
+extends: ["poppytimebomb"],
+            label: "La requête de Poppy",
+            
+            startdescription: "A la 'Saison des Haillons', Poppy sera de retour...",
+            description: ".",
+            
+            
+        },
+        {
+            id: "poppysafefornow",
+extends: ["poppysafefornow"],
+            
+            label: "Le silence de Poppy",
+            startdescription: "On voit Poppy en ville, assistant à des événements caritatifs, souriant gentiment.",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "poppywantssoul",
+extends: ["poppywantssoul"],
+            label: "Une visite amicale de Poppy",
+            
+            slots: [
+                {
+                    id: "Sacrifice",
+extends: ["Sacrifice"],
+                    label: "Sacrifice",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+            startdescription: "'C'est le moment, très cher. Le Soleil-en-Haillons exige sa conclusion. Est-ce que ce sera vous ? Ou avez-vous un ami ?'",
+            description: "."
+        },
+        {
+            id: "poppysatiated",
+extends: ["poppysatiated"],
+            
+            label: "Une conclusion appropriée",
+            
+            startdescription: "'Quel ami loyal vous avez ici ! Dites lui au revoir, maintenant.'",
+            description: "Mon Disciple est parti. Je reste. On voit Poppy Lascelles, ici et là. Elle a peut-être plus à me dire.",
+            
+        }
+    ]
+}

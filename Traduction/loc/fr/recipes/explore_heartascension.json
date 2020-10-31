@@ -1,0 +1,62 @@
+{
+    "recipes": [
+
+
+
+        {
+            id: "expeditionascensionheartb",
+extends: ["expeditionascensionheartb"],
+            label: "Nom du Serpent, Nom de la Soeur",
+            
+            
+            
+
+            
+            description: "Le nom du Serpent: Mon serpent lui-même a trouvé le vieux rêve où le Nom de la Mère des Fourmis, appelé Vieille Mère Angoisse, a rencontré sa fille Daha, qui avait une jumelle. Leurs pourparlers sont terminés depuis longtemps, mais je peux encore apprendre leur leçon. "
+        },
+        {
+            id: "expeditionascensionheartc",
+extends: ["expeditionascensionheartc"],
+            label: "Le nom du Velours",
+            
+            
+            
+            
+            description: "Le sang amènera la créature qu'ils appellent le jeune Chat Mature, sortie des racines de la Maison, à danser dans la nuit des Pierres. Mon chat le rejoindra ici, jusqu'à ce qu'il m'ait appris la fin de tous les pas.",
+        },
+        {
+            id: "expeditionascensionheartd",
+extends: ["expeditionascensionheartd"],
+            label: "Le nom du fleuriste",
+            
+            
+            
+            startdescription: "Teintes, abandonnées",
+            
+            description: "Mon moi renard s'enfoncera de plus en plus profondément dans les lys. Karpellus, le nom du fleuriste, m'attend au bord du ruisseau avec son corps affuté et sa couronne de roseaux. Là, il ouvrira les endroits en moi qui n'ont pas encore vu la lumière du jour. ",
+        },
+        {
+            id: "expeditionascensionhearte",
+extends: ["expeditionascensionhearte"],
+            label: "Une danse avec le Vagabond",
+            
+            
+            
+
+            
+            description: "La vue, abandonnée: Au début, la vieille femme n'est qu'une tache sur le sable, mais mon moi-aigle suit infailliblement cette tache, pour se percher sur son bras et accepter ses caresses. Je n'arrive pas à la regarder dans les yeux. Elle me gratte sous le menton et me secoue pour s'élever dans sa propre forme d'oiseau. Nous allons de plus en plus haut, jusqu'à ce que ma vision se transforme en or.'",
+        },
+        {
+            id: "expeditionascensionheartf",
+extends: ["expeditionascensionheartf"],
+            label: "Le nom de l'Élégie",
+            
+            
+            
+
+            
+            description: "Les os, abandonnés: Dans le cimetière de la route de Toussaint, il y a une tombe en marbre blanc que les habitants du coin gardent propre. Madame Rogier y dort une nuit sur trois, pour que Mlle Naenia, la plus douce des Noms de l'Élégie, puisse marcher dans ses rêves. Ma forme d'oiseau se perchera à la tête du tombeau, jusqu'à ce que Mlle Naenia soit assez proche pour que son souffle me touche.",
+        },
+
+    ]
+}

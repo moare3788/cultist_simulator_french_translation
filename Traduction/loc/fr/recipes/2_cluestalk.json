@@ -1,0 +1,273 @@
+{
+    "recipes": [
+        {
+            id: "recruitindependentresentmenthint",
+extends: ["recruitindependentresentmenthint"],
+            label: "Recruter un indépendant ?",
+            
+            
+
+            startdescription: "Non. Celui-ci n'a pas oublié ce qui s'est passé entre nous. Peut-être qu'un jour, si je ne leur fais plus de mal, leurs sentiments pourraient changer.",
+
+            
+            
+        },
+        {
+            id: "recruitindependenthint",
+extends: ["recruitindependenthint"],
+            label: "Recruter un indépendant ?",
+            
+            
+
+            startdescription: "Celui-ci pourrait se joindre à moi... si je peux rassembler l'aspect de notre culte, au vingt-et-unième degré. [Vous pouvez recruter un Franc-tireur, même d'une autre confession, si vous pouvez fournir suffisamment de puissance - mais vous devez inclure au moins un Outil comme cadeau aux indépendants.].",
+
+            
+            
+        },
+        {
+            id: "promoteto_d_edgehint",
+extends: ["promoteto_d_edgehint"],
+            label: "Exalter un Disciple ?",
+            
+            
+
+            startdescription: "Pour exalter un disciple à devenir un assassin, j'aurai besoin de Pointe au moins à la vingt-et-unième intensité. Dans tous les cas, seul le plus sauvage conviendra.",
+
+            
+            
+        },
+        {
+            id: "promoteto_d_forgehint",
+extends: ["promoteto_d_forgehint"],
+            label: "Exalter un Disciple ?",
+            
+            
+
+            startdescription: "Pour exalter un disciple à devenir un contorsionniste, j'aurai besoin de Forge au moins à la vingt-et-unième intensité. Dans tous les cas, seules les plus ingénieuses et les plus efficaces conviendront.",
+            
+            
+        },
+        {
+            id: "promoteto_d_grailhint",
+extends: ["promoteto_d_grailhint"],
+            label: "Exalter un Disciple ?",
+            
+            
+            startdescription: "Pour exalter un disciple à devenir un hédoniste, j'aurai besoin de Graal au moins à la vingt-et-unième intensité. En tout cas, seuls ceux qui ont les appétits les plus inconsolables conviendront.",
+
+            
+            
+        },
+        {
+            id: "promoteto_d_hearthint",
+extends: ["promoteto_d_hearthint"],
+            label: "Exalter un Disciple ?",
+            
+            
+
+
+            startdescription: "Pour exalter un disciple à devenir un tarentelliste, j'aurai besoin de Coeur au moins à la vingt-et-unième intensité. Dans tous les cas, seul le plus fougueux conviendra.",
+            
+            
+        },
+        {
+            id: "promoteto_d_knockhint",
+extends: ["promoteto_d_knockhint"],
+            label: "Exalter un Disciple ?",
+            
+            
+
+            startdescription: "Pour exalter un disciple à devenir une lé, j'ai besoin de Clé au moins à la vingt-et-unième intensité.  Dans tous les cas, seuls les plus doués conviendront.",
+            
+            
+        },
+        {
+            id: "promoteto_d_lanternhint",
+extends: ["promoteto_d_lanternhint"],
+            label: "Exalter un Disciple ?",
+            
+            
+
+
+            startdescription: "Pour exalter un disciple à devenir un voyant, j'aurai besoin de lanterne au moins à la vingt-et-unième intensité.  Dans tous les cas, seuls les plus clairvoyants conviendront.",
+
+            
+            
+        },
+        {
+            id: "promoteto_d_mothhint",
+extends: ["promoteto_d_mothhint"],
+            label: "Exalter un Disciple ?",
+            
+            
+
+
+            startdescription: "Pour exalter un disciple à devenir un changeur de peau, j'aurai besoin de Phalène au moins à la vingt-et-unième intensité.  En tout cas, seuls de très rares individus conviendront.",
+            
+            
+        },
+
+
+        {
+            id: "promoteto_d_winterhint",
+extends: ["promoteto_d_winterhint"],
+            label: "Exalter un Disciple ?",
+            
+            
+
+
+            startdescription: "Pour exalter un disciple à un degré qui n'a pas de nom, j'aurai besoin d'Hiver au moins à la vingt-et-unième intensité.  En tout cas, seules les âmes les plus sombres conviendront.",
+            
+            
+        },
+
+        {
+            id: "promotetodisciplehint",
+extends: ["promotetodisciplehint"],
+            label: "Promouvoir un Adepte ?",
+            
+            
+
+
+            startdescription: "Pour promouvoir un Adepte comme Disciple, je devrai fournir un aspect approprié pour la secte, au moins à la septième intensité.",
+            
+            
+        },
+        {
+            id: "talktobenefactorhint",
+extends: ["talktobenefactorhint"],
+            label: "Mon bienfaiteur insiste sur la discrétion",
+            
+            
+            startdescription: "'Nous ne pouvons pas parler ici, ma chère. Soyons discrets.'",
+            
+            
+        },
+        {
+            id: "recruitacquaintancenoculthint",
+extends: ["recruitacquaintancenoculthint"],
+            label: "Recruter un nouveau fidèle ?",
+            
+            
+            startdescription: "[Une fois que vous avez créé une secte, utilisez <b>PARLER</b> avec la secte pour recruter une Connaissance dans les rangs de votre secte.]",
+            
+            
+        },
+        {
+            id: "recruitacquaintancehint",
+extends: ["recruitacquaintancehint"],
+            label: "Recruter un nouveau fidèle ?",
+            
+            
+            startdescription: "Pour recruter un Adepte, il me faudra un peu de la puissance que nous vénérons. Je pourrais le tirer d'une influence, d'un outil, d'un ingrédient, ou simplement de la croyance.",
+            
+            
+        },
+
+        {
+            id: "talk_aladim_wantscommission",
+extends: ["talk_aladim_wantscommission"],
+            label: "Une Commission ?",
+            
+            
+            startdescription: "'Comment se présente cette mission ? J'attends avec impatience vos réflexions.'",
+            
+            
+        },
+        {
+            id: "talk_bechet_wantscommission",
+extends: ["talk_bechet_wantscommission"],
+            label: "Une Commission ?",
+            
+            
+            startdescription: "'Hello. Tu as quelque chose pour moi ? La mission ?'",
+            
+            
+        },
+        {
+            id: "talk_jannings_wantscommission",
+extends: ["talk_jannings_wantscommission"],
+            label: "Une Commission ?",
+            
+            
+            startdescription: "'S'il vous plaît, allez-vous conclure la mission ? Mes collègues ont un besoin urgent d'informations.'",
+            
+            
+        },
+        {
+            id: "talk_poppy_wantscommission",
+extends: ["talk_poppy_wantscommission"],
+            label: "Une Commission ?",
+            
+            
+            startdescription: "'Oh, dépêchez-vous avec cette mission ! J'ai hâte.'",
+            
+            
+        },
+
+        {
+            id: "fulfilcommission_aladimhint",
+extends: ["fulfilcommission_aladimhint"],
+            label: "Réaliser une mission pour le médecin ?",
+            
+            
+            startdescription: "'Mm. J'espérais plus' [Vérifiez les détails de la mission.]",
+            
+            
+            
+
+        },
+
+        {
+            id: "fulfilcommission_bechethint",
+extends: ["fulfilcommission_bechethint"],
+            label: "Réaliser une mission pour Mme Bechet?",
+            
+            
+            startdescription: "'Désolé, pas tout à fait. Je voulais quelque chose d'un peu différent' [Vérifiez les détails de la mission.]",
+            
+            
+            
+
+        },
+
+
+        {
+            id: "fulfilcommission_janningshint",
+extends: ["fulfilcommission_janningshint"],
+            label: "Réaliser une mission pour le comte ?",
+            
+            
+            startdescription: "'Non, non, non. Cela ne fera pas l'affaire. Mes instructions étaient très précises' [Vérifiez les détails de la mission.]",
+            
+            
+            
+
+        },
+
+        {
+            id: "fulfilcommission_poppyhint",
+extends: ["fulfilcommission_poppyhint"],
+            label: "Réaliser une mission pour Poppy?",
+            
+            
+            startdescription: "'Oh, mon Dieu. Je suis désolé. J'ai besoin de plus... d'aperçu.' [Vérifiez les détails de la mission.]",
+            
+            
+            
+
+        },
+
+        {
+            id: "talk_nointeraction_mortal",
+extends: ["talk_nointeraction_mortal"],
+            label: "Rien à dire ?",
+            
+            
+            startdescription: "'Je crois que nous n'avons rien à nous dire.'",
+            
+            
+        },
+
+    ]
+}

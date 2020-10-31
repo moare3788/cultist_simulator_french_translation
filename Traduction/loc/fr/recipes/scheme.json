@@ -1,0 +1,302 @@
+{
+    "recipes": [
+        {
+            id: "scheme_murderhunter",
+extends: ["scheme_murderhunter"],
+            label: "Un complot visant à assassiner un Chasseur est en cours",
+            
+            
+            
+            startdescription: "Un Rival a l'intention de tuer un Chasseur. Cela peut être à mon avantage... mais cela peut aussi attirer l'attention.",
+            
+            
+            
+        },
+
+        {
+            id: "scheme_murderhunter_grab",
+extends: ["scheme_murderhunter_grab"],
+            label: "Un complot visant à assassiner un Chasseur est en cours",
+            
+            slots: [
+                {
+                    id: "victim",
+extends: ["victim"],
+                    label: "Victime",
+                    
+                    
+                }
+            ],
+
+            
+            
+            
+            
+        },
+
+        {
+            id: "scheme_murderhunter_success",
+extends: ["scheme_murderhunter_success"],
+            label: "Quelqu'un a assassiné un chasseur !",
+            
+            
+            
+            
+            startdescription: "Cela peut me donner un peu de répit - mais cela pourrait à terme conduire le Bureau de la répression à ma porte.",
+            
+            
+        },
+
+
+        {
+            id: "scheme_murderhunter_failure",
+extends: ["scheme_murderhunter_failure"],
+            label: "Quelqu'un n'a pas réussi à assassiner un chasseur !",
+            
+            
+            
+            startdescription: "Cela pourrait à terme conduire le Bureau de la répression à ma porte.",
+            
+            
+        },
+
+        {
+            id: "scheme_murderhunter_nohunterfound",
+extends: ["scheme_murderhunter_nohunterfound"],
+            label: "Un complot visant à assassiner un chasseur a pris fin sans conséquences.",
+            
+
+            
+            startdescription: "C'était peut-être mieux ainsi.",
+            
+            
+        },
+
+        {
+            id: "scheme_expedition_debug",
+extends: ["scheme_expedition_debug"],
+            label: "FORCE EXP START",
+            
+            slots: [
+                {
+                    id: "target",
+extends: ["target"],
+                    label: "Acteurr",
+                    
+                }
+            ],
+
+            
+            
+            
+        },
+
+        {
+            id: "scheme_expedition_grab",
+extends: ["scheme_expedition_grab"],
+            label: "Un Rival envisage une expédition...",
+            
+            
+            slots: [
+                {
+                    id: "target",
+extends: ["target"],
+                    label: "Cible",
+                    
+                    
+                }
+            ],
+            
+            startdescription: "Mon Rival cherche des outils et des croyances pour sa propre ascension.",
+            
+            
+            
+        },
+
+        {
+            id: "scheme_expedition_prep",
+extends: ["scheme_expedition_prep"],
+            label: "Une occasion d'utiliser un piège",
+            
+            slots: [
+                {
+                    id: "snare",
+extends: ["snare"],
+                    label: "Embuscade",
+                    
+                }
+            ],
+            
+            startdescription: "Si je prépare un piège, je peux essayer de tendre une embuscade à mon Rival, de vaincre son expédition et même de le blesser...",
+            
+            
+            
+        },
+   
+        {
+            id: "scheme_expedition_snare_success",
+extends: ["scheme_expedition_snare_success"],
+            label: "Notre piège a fonctionné !",
+            
+            
+            startdescription: "Mon Rival est tombé dans notre piège ! Ils vont essayer de battre en retraite pour panser leurs blessures.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "scheme_expedition_snare_failure",
+extends: ["scheme_expedition_snare_failure"],
+            label: "Notre piège n'a pas fonctionné !",
+            
+
+            startdescription: "Mon Rival a échappé à notre piège...",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "scheme_expedition_success",
+extends: ["scheme_expedition_success"],
+            label: "Mon Rival a saccagé cet endroit...",
+            
+            
+            
+            startdescription: "Quoi qu'il ait cherché ici, il l'a trouvé.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "scheme_expedition_failure",
+extends: ["scheme_expedition_failure"],
+            label: "Mon Rival a échoué dans son expédition.",
+            
+            
+            
+            startdescription: "Quoi qu'il ait cherché ici, il ne l'a pas trouvé. Il a abandonné son expédition... pour l'instant.",
+            
+            
+        },
+        {
+            id: "scheme_activities",
+extends: ["scheme_activities"],
+            label: "Un Rival travaille dans l'ombre.",
+            
+            
+            
+            startdescription: "Il est toujours caché. Que fait-il exactement ? (La plupart du temps, cela se terminera de manière peu concluante, mais il arrive qu'un Rival parvienne à accroître son pouvoir en secret. Essayez de le faire sortir de sa cachette en laissant une Expédition ouverte.]",
+            description: "Mon Rival a commis une sorte de méfait. Le Bureau de répression peut en prendre note.",
+            
+            
+            
+        },
+        {
+            id: "scheme_calm",
+extends: ["scheme_calm"],
+            label: "L'humeur de mon Rival s'est adoucie.",
+            
+            
+            description: "Mon Rival observe les règles de la courtoisie professionnelle: J'ai reçu une lettre rédigée en termes prudents, bien qu'elle n'aborde rien de conséquent... pourrait-il y avoir un jour une occasion pour nous d'unir nos pouvoirs ? [Parfois, le ressentiment d'un Rival peut diminuer.]",
+            
+            
+            
+        },
+
+        {
+            id: "scheme_promotion",
+extends: ["scheme_promotion"],
+            label: "Mon Rival a avancé dans sa quête.",
+            
+            
+            
+            
+            description: "Mon Rival a acquis plus de croyances, plus de trésors, plus de relations... et à son tour, il est devenu autre chose.",
+            
+            
+        },
+
+        {
+            id: "scheme_promotion_ascension",
+extends: ["scheme_promotion_ascension"],
+            label: "Mon Rival s'efforce de passer la Porte des Tricuspides, et de s'élever à un niveau supérieur.",
+            
+            
+            
+            startdescription: "Un pas de plus vers son objectif. Un degré de plus dans la grande machinerie de la Maison du Soleil. [Attention: si l'Ascension de votre Rival atteint 7, il gagnera le jeu à votre place.]",
+            
+            
+            
+        },
+
+
+        {
+            id: "independent_scar",
+extends: ["independent_scar"],
+            label: "Un Rival a été blessé",
+            startdescription: "Mon Rival a subi un revers de fortune. Il a été marqué par sa défaite; il sera en colère contre moi. [Trois Blessures du même type tueront n'importe quel mortel.]",
+            
+            
+        },
+        {
+            id: "independent_givescar_edge",
+extends: ["independent_givescar_edge"],
+            
+            label: "Un revers pour un Rival",
+            
+            
+        },
+
+        {
+            id: "independent_givescar_knock",
+extends: ["independent_givescar_knock"],
+            label: "Un revers pour un Rival",
+            
+            
+            
+        },
+        {
+            id: "independent_givescar_winter",
+extends: ["independent_givescar_winter"],
+            
+            label: "Un revers pour un Rival",
+            
+            
+        },
+        {
+            id: "independent_deathscar_edge",
+extends: ["independent_deathscar_edge"],
+            
+            label: "La mort: une défaite",
+            
+            description: "Celui-ci a fait preuve de courage et d'endurance. Au final, cela n'a pas suffi. [Votre Rival a reçu trois Cicatrices de la Pointe et est mort.]",
+            
+        },
+        {
+            id: "independent_deathscar_knock",
+extends: ["independent_deathscar_knock"],
+            
+            label: "La mort: une ouverture",
+            
+            description: "Pour fonctionner efficacement, il faut garder son intérieur à l'intérieur, et décourager ce qui est à l'extérieur de rentrer à l'intérieur. Lorsqu'une quantité suffisante de ce qui est à l'intérieur passe à l'extérieur, on n'est plus une entité viable. [Votre Rival a acquis trois Cicatrices de la Clé et est mort.]",
+            
+        },
+        {
+            id: "independent_deathscar_winter",
+extends: ["independent_deathscar_winter"],
+            
+            label: "La mort: une fin",
+            
+            description: "La neige tombe doucement. Le coucher de soleil est une tache de lumière. [Votre Rival a acquis trois cicatrices d'Hiver, et est mort.]",
+            
+        },
+
+    ]
+}

@@ -1,0 +1,355 @@
+{
+    "recipes": [
+
+
+        {
+            id: "summoning_haunt_devourer",
+extends: ["summoning_haunt_devourer"],
+            
+            
+            startdescription: "Il est libre !",
+            
+            
+
+        },
+
+        {
+            id: "summoning_haunt_devourer_eatsmortal",
+extends: ["summoning_haunt_devourer_eatsmortal"],
+            label: "Un Dévoreur en fuite",
+            
+            startdescription: "Votre Invocation en fuite hante le quartier, cherchant des mortels à dévorer. Plus l'aspect 'dévorant' est élevé, plus il est probable qu'il fasse du mal à un mortel.]",
+            description: "La chose que vous avez invoquée est redevenue d'où elle vient. Elle ne vous fera plus de mal, pour l'instant.",
+            slots: [
+                {
+                    id: "Consuming",
+extends: ["Consuming"],
+                    label: "Consumer",
+                    
+                    
+                }
+            ],
+            comments: "Il n'est pas utilisé actuellement. Nous ne permettons qu'aux dévoreurs de détruire des preuves, et non de hanter les enquêteurs, de sorte que les personnes qui convoquent pourraient être irritées à juste titre.",
+            
+            
+        },
+
+
+
+        {
+            id: "devourer_haunting_mortal_highdevourer",
+extends: ["devourer_haunting_mortal_highdevourer"],
+            label: "Une Invocation en fuite se rapproche de sa victime",
+            
+            startdescription: "Plus près à chaque coup de l'horloge, comme un vent tourbillonnant, comme le remous de la rivière.",
+            description: "La mort est invisible, mais pas inaperçue.",
+            
+            
+            
+        },
+
+
+        {
+            id: "devourer_haunting_mortal_middevourer",
+extends: ["devourer_haunting_mortal_middevourer"],
+            label: "Une Invocation en fuite se referme sur sa victime",
+            
+            startdescription: "La victime saura que quelque chose ne va pas, à présent. Elle écoutera les bruits de la nuit et essaiera de se préparer.",
+            description: ". devourer_haunting_mortal_middevourer",
+            
+            
+            
+        },
+
+        {
+            id: "devourer_haunting_mortal_lowdevourer",
+extends: ["devourer_haunting_mortal_lowdevourer"],
+            label: "Une Invocation en fuite se referme sur sa victime",
+            
+            startdescription: "Cette chose n'est qu'une menace modérée, mais même une menace modérée peut parfois être mortelle.",
+            description: ". devourer_haunting_mortal_lowdevourer",
+            
+            comments: "La suppression de l'exigence 'Dévoreur' nous permet d'attraper des hantises à l'ancienne où un esprit n'est pas présent dans le verbe, sinon elles tournent en boucle pour toujours !",
+            
+            
+        },
+
+        {
+            id: "devourer_haunting_mortal_success",
+extends: ["devourer_haunting_mortal_success"],
+            label: "Une Invocation en fuite a fait une victime",
+            
+            startdescription: ".",
+            description: "Les premiers rayons de soleil tomberont sur les yeux ouverts d'un cadavre. Une invocation imprudente a souvent un prix : mais ce n'est pas toujours l'invocateur qui le paie.",
+            
+            
+        },
+        {
+            id: "devourer_haunting_mortal_failure",
+extends: ["devourer_haunting_mortal_failure"],
+            label: "Une Invocation en fuite a suscité l'horreur chez sa victime",
+            
+            startdescription: ".",
+            description: "La victime a survécu, après tout ! mais l'histoire de cette nuit va se répandre comme une tache.",
+            
+            
+        },
+
+
+        {
+            id: "summoning_haunt_devourer_damages_health",
+extends: ["summoning_haunt_devourer_damages_health"],
+            label: "Un Dévoreur en fuite",
+            
+            startdescription: "Votre Invocation en fuite tentera de vous prendre quelque chose, avant qu'elle ne retourne d'où elle vient sous la peau du monde. Plus l'aspect 'Dévoreur' est élevé, plus il est probable qu'elle vous fasse du mal.]",
+            description: "La chose que vous avez invoquée est redevenue d'où elle vient. Elle ne vous fera plus de mal, pour l'instant.",
+            slots: [
+                {
+                    id: "consuming",
+extends: ["consuming"],
+                    label: "Consumer",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+
+        {
+            id: "devourer_haunting_damageshealth_highdevourer",
+extends: ["devourer_haunting_damageshealth_highdevourer"],
+            label: "Une Invocation en fuite attend son moment",
+            
+            startdescription: "Est-ce que cela joue avec moi ?",
+            description: ".",
+            
+            
+            
+        },
+
+
+        {
+            id: "devourer_haunting_damageshealth_middevourer",
+extends: ["devourer_haunting_damageshealth_middevourer"],
+            label: "Une Invocation en fuite vous attend",
+            
+            startdescription: "Il y a tant de façons de défaire un corps humain. Ma peau se sent vulnérable comme une porte ouverte.",
+            description: ". devourer_haunting_damageshealth_middevourer",
+            
+            
+            
+        },
+
+        {
+            id: "devourer_haunting_damageshealth_lowdevourer",
+extends: ["devourer_haunting_damageshealth_lowdevourer"],
+            label: "Une Invocation en fuite vous attend",
+            
+            startdescription: "Je surveillerai les fenêtres et verrouillerai les portes, et je garderai du chêne et de l'argent près du lit. Cela pourrait suffire.",
+            description: ". devourer_haunting_damageshealth_lowdevourer",
+            
+            comments: "Leaving 'Devourer' requirement out of here allows us to catch old-style hauntings where a spirit is not present in the verb. otherwise they loop forever!",
+            
+            
+        },
+
+        {
+            id: "devourer_haunting_damageshealth_success",
+extends: ["devourer_haunting_damageshealth_success"],
+            label: "Une Invocation en fuite vous a attaqué",
+            
+            startdescription: ".",
+            description: "Je porterai une cicatrice, du genre de celle que l'on pourrait un jour photographier pour un musée. Et les voisins parleront ; ils parleront.",
+            
+            
+
+        },
+        {
+            id: "devourer_haunting_damageshealth_failure",
+extends: ["devourer_haunting_damageshealth_failure"],
+            label: "Une Invocation en fuite n'a pas réussie à vous atteindre",
+            
+            startdescription: ".",
+            description: "C'était trop pour moi ! Mais je ne pouvais pas faire face à cela en silence. Les gens vont parler.",
+            
+            
+        },
+
+
+
+        {
+            id: "summoning_haunt_deceiver",
+extends: ["summoning_haunt_deceiver"],
+            
+            
+            startdescription: "Il est libre !",
+            
+            
+            comments: "Actuellement, ce n'est pas appelé summoning_haunt_deceiver_derangesmortal, car les 'Deceivers' n'attaquent pas directement."
+
+        },
+
+        {
+            id: "summoning_haunt_deceiver_derangesreason",
+extends: ["summoning_haunt_deceiver_derangesreason"],
+            label: "Une Invocation en fuite",
+            
+            startdescription: "Votre Invocation en fuite vous hante, cherchant à vous pousser au désespoir -",
+            description: "La chose que vous avez invoquée est redevenue d'où elle vient. Elle ne vous fera plus de mal, pour l'instant.",
+            slots: [
+                {
+                    id: "Consuming",
+extends: ["Consuming"],
+                    label: "Consumer",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "deceiver_haunting_reason_highdeceiver",
+extends: ["deceiver_haunting_reason_highdeceiver"],
+            label: "Une Invocation en fuite vous attend",
+            
+            startdescription: "La santé mentale de l'homme est fragile, et cette chose est tout sauf séduisante.",
+            description: ".",
+            
+            
+        },
+
+
+        {
+            id: "deceiver_haunting_reason_middeceiver",
+extends: ["deceiver_haunting_reason_middeceiver"],
+            label: "Une Invocation en fuite vous attend",
+            
+            startdescription: "La santé mentale de l'homme est fragile, et cette chose est puissante.",
+            description: ". deceiver_haunting_reason_middeceiver",
+            
+            
+        },
+
+        {
+            id: "deceiver_haunting_reason_lowdeceiver",
+extends: ["deceiver_haunting_reason_lowdeceiver"],
+            label: "Une Invocation en fuite vous attend",
+            
+            startdescription: "La santé mentale de l'homme est fragile, mais cette chose pourrait peut-être causer plus de mal que de bien.",
+            description: ". deceiver_haunting_reason_lowedge",
+            
+            comments: "La suppression de l'exigence relative au 'Deceiver' nous permet d'attraper des hantises à l'ancienne où un esprit n'est pas présent dans le verbe, sinon elles tournent en boucle pour toujours !",
+            
+        },
+
+        {
+            id: "deceiver_haunting_reason_success",
+extends: ["deceiver_haunting_reason_success"],
+            label: "Une Invocation en fuite a ravagé vos rêves",
+            
+            startdescription: ".",
+            description: "Les événements de cette nuit resteront longtemps gravés dans votre mémoire ; et pendant des jours, les journaux interrogeront les habitants du quartier.",
+            
+            
+
+        },
+        {
+            id: "deceiver_haunting_reason_failure",
+extends: ["deceiver_haunting_reason_failure"],
+            label: "Une Invocation en fuite n'a pas réussi à briser votre détermination",
+            
+            startdescription: ".",
+            description: "Les événements de cette nuit resteront longtemps gravés dans votre mémoire ; mais ce qui vient d'au-delà du Réveil ne fait pas le poids face à vous. Pendant des jours, cependant, les journaux interrogeront les habitants du quartier.",
+            
+            
+        },
+
+
+        {
+            id: "summoning_haunt_deceiver_derangesmortal",
+extends: ["summoning_haunt_deceiver_derangesmortal"],
+            label: "Une Invocation en fuite",
+            
+            startdescription: "Votre Invocation en fuite hante le quartier, cherchant des mortels à déranger.",
+            description: "La chose que vous avez invoquée est redevenue d'où elle vient. Elle ne vous fera plus de mal, pour l'instant.",
+            
+            
+            slots: [
+                {
+                    id: "Consuming",
+extends: ["Consuming"],
+                    label: "Consumer",
+                    
+                    
+                }
+            ],
+            comments: "Ce n'est pas utilisé actuellement. Nous ne permettons aux invocations que de détruire des preuves, et non de hanter les enquêteurs, de sorte que les invocateurs peuvent être naturellement ennuyés.",
+            
+            
+        },
+
+
+
+        {
+            id: "deceiver_haunting_mortal_highedge",
+extends: ["deceiver_haunting_mortal_highedge"],
+            label: "Une Invocation en fuite se referme sur sa victime",
+            
+            startdescription: "La santé mentale de l'homme est fragile, et cette chose est tout sauf séduisante.",
+            description: ".",
+            
+            
+        },
+
+
+        {
+            id: "deceiver_haunting_mortal_midedge",
+extends: ["deceiver_haunting_mortal_midedge"],
+            label: "Une Invocation en fuite se referme sur sa victime",
+            
+            startdescription: "La santé mentale de l'homme est fragile, et cette chose est puissante.",
+            description: ". deceiver_haunting_mortal_midedge",
+            
+            
+        },
+
+        {
+            id: "deceiver_haunting_mortal_lowedge",
+extends: ["deceiver_haunting_mortal_lowedge"],
+            label: "Une Invocation en fuite se referme sur sa victime",
+            
+            startdescription: "La santé mentale de l'homme est fragile, mais cette chose pourrait peut-être causer plus de mal que de bien.",
+            description: ". deceiver_haunting_mortal_lowedge",
+            
+            
+        },
+
+        {
+            id: "deceiver_haunting_mortal_success",
+extends: ["deceiver_haunting_mortal_success"],
+            label: "Une Invocation en fuite a suscité l'horreur chez sa victime",
+            
+            startdescription: ".",
+            description: "Seul l'esprit le plus fort pouvait y survivre. Les journaux auront une histoire singulière à raconter.",
+            
+            
+        },
+        {
+            id: "deceiver_haunting_mortal_failure",
+extends: ["deceiver_haunting_mortal_failure"],
+            label: "Une Invocation en fuite a suscité l'horreur chez sa victime",
+            
+            startdescription: ".",
+            description: "La détermination de sa victime reste intacte. Les journaux auront une histoire singulière à raconter.",
+            
+            
+        }
+
+    ]
+}

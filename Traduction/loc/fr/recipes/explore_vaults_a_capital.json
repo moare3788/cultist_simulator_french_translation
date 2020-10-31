@@ -1,0 +1,176 @@
+{
+    "recipes": [
+
+        {
+            id: "explore_vaultcapital1_setup",
+extends: ["explore_vaultcapital1_setup"],
+            label: "Commencer une expédition: La collection de Strathcoyne",
+            
+            
+            
+            startdescription: "M. Strathcoyne a interdit l'accès à sa bibliothèque. C'est regrettable. Voyons ce que nous pouvons faire. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+            id: "explore_vaultcapital2_setup",
+extends: ["explore_vaultcapital2_setup"],
+            label: "Commencer une expédition: le Mithraeum oublié",
+            
+            
+            
+
+            startdescription: "Je suis convaincu que le Mithraeum détient encore des secrets que ses découvreurs n'ont jamais percés. Il est peu probable que ce soit dangereux, mais la recherche nécessitera des Fonds. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultcapital3_setup",
+extends: ["explore_vaultcapital3_setup"],
+            label: "Commencer une expédition: Cater & Hero Limited",
+            
+            
+            
+
+            startdescription: "Les murs de ce qui reste de l'usine peuvent s'effondrer à tout moment. Les bois noircis grincent de douleur. Nous devons nous équiper correctement et nous déplacer avec une prudence extrême. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultcapital4_setup",
+extends: ["explore_vaultcapital4_setup"],
+            label: "Commencer une expédition: Hôpital St Agnes",
+            
+            
+            
+
+            startdescription: "Seuls des échos parcourent maintenant les salles de l'hôpital, mais la malice s'attarde dans l'air. Nous devons chercher méticuleusement, pièce par pièce. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+
+            id: "explore_vaultcapital5_setup",
+extends: ["explore_vaultcapital5_setup"],
+            label: "Commencer une expédition: La Congrégation de St Félix de Schüren",
+            
+            
+            
+
+            startdescription: "L'appartenance à la Congrégation est strictement contrôlée. Elle peut même être héritée. La méthode la plus sûre consiste à cambrioler la résidence du ministre pendant qu'il effectue un office - mais les mères jurées de la congrégation gardent l'endroit par roulement, et elles ne se laissent pas facilement distraire. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explore_vaultcapitaldefault_setup",
+extends: ["explore_vaultcapitaldefault_setup"],
+            label: "Commencer une expédition: Le terrain vague",
+            
+            
+            
+
+            startdescription: "La loi n'atteint pas cette frange délabrée de la ville. La boue qui s'y trouve a fait de nombreuses victimes et il ne fait aucun doute que des criminels misérables ou d'autres individus s'installeront dans l'entrepôt. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explorevaultcapital1_success",
+extends: ["explorevaultcapital1_success"],
+            label: "Les trésors de Strathcoyne",
+            
+            
+            
+            
+            startdescription: "Le sanctuaire douillet de Strathcoyne. Un feu couve dans la cheminée. Des vitrines exposent des bibelots durement gagnés. Nous devons saisir ce que nous pouvons, vite ! Strathcoyne a peut-être déjà téléphoné à la police.",
+            description: "Dehors, dans la nuit ! Nous nous échappons sans être vus, mais le lendemain, on signale un incendie chez Strathcoyne. Quelqu'un a-t-il renversé du charbon incandescent sur le tapis ?  Ou Strathcoyne a-t-il détruit l'endroit lui-même, dans le cadre d'un projet plus vaste ?",
+            
+            
+        },
+
+        {
+            id: "explorevaultcapital2_success",
+extends: ["explorevaultcapital2_success"],
+            label: "Le sanctuaire des profondeurs",
+            
+            
+            
+            
+            startdescription: "Un espace solitaire, empreint du souvenir du sang. Nous avons trouvé la porte cachée que les plus hauts initiés ont utilisée.",
+            description: "L'autel s'incline vers l'arrière comme une mâchoire. Derrière, c'est l'espace-pyramide où seuls les chasseurs de soleil et les adeptes de l'aube peuvent aller... mais d'autres y sont aussi allés, beaucoup plus récemment. Ils ont laissé leurs trésors.",
+            
+            
+        },
+
+
+        {
+            id: "explorevaultcapital3_success",
+extends: ["explorevaultcapital3_success"],
+            label: "Bureau de Cater",
+            
+            
+            
+            
+            startdescription: "Voici la grande salle où M. Cater observait autrefois ses ouvriers sur le sol de l'usine. La vitre a disparu depuis longtemps, et les rats et les corbeaux ont fait de cet endroit leur champ de bataille, mais il y a peut-être encore quelque chose d'utile ici...",
+            description: "Deux planches se soulèvent pour révéler un creux sous le bureau de Cater ! Les rats se sont échappés, libérant ainsi les biscuits que l'entrepreneur stockait en prévision de la famine, mais ils n'ont pas pu pénétrer dans ce coffre en fer. Un simple pied de biche suffira à l'ouvrir.",
+            
+            
+        },
+
+
+        {
+            id: "explorevaultcapital4_success",
+extends: ["explorevaultcapital4_success"],
+            label: "La Chambre Violette",
+            
+            
+            
+            
+            startdescription: "Quel était cet endroit ? La porte ne portait aucun signe. Il n'y avait pas de fenêtres. Les murs étaient peints d'un riche violet - riche encore aujourd'hui après les ravages de la pluie à travers le plafond qui fuyait. Une chaise vermoulue a des lanières de cuir sur les accoudoirs. Le sol est en porcelaine, et il est recouvert d'un revêtement.",
+            description: "Il y a une armoire cadenassée dans le mur: elle ne résiste pas longtemps à nos efforts. Elle contient des instruments à pointe de silex et de verre - des instruments dont on ne s'attendrait pas à ce qu'un chirurgien les utilise. Elle contient d'autres objets qui nous intéressent plus particulièrement...",
+            
+            
+        },
+
+        {
+            id: "explorevaultcapital5_success",
+extends: ["explorevaultcapital5_success"],
+            label: "Dévotions secrètes",
+            
+            
+            
+            
+            startdescription: "La chambre à coucher du ministre est grande en proportion, mais peu meublée. Sous la fenêtre, une hache ornementale recouverte de plumes repose, à côté d'un calice tambour émaillé, sur un petit autel en bois d'if.",
+            description: "Sous l'autel, dans une boîte sécurisée par un triple noeud compliqué, nous trouvons un trésor de livres - et plus encore - un poignard recouvert de sang séché, un tortillon de tissu, un reste de cuir de quelque chose que le ministre a dû abandonner lors de son ordination.",
+            
+            
+            
+        },
+        {
+            id: "explorevaultcapitaldefault_success",
+extends: ["explorevaultcapitaldefault_success"],
+            label: "Une livraison retardée",
+            
+            
+            
+            
+            startdescription: "Une porte barrée, un espace restreint, une cargaison cachée.",
+            description: "Les guetteurs surveillaient des caisses scellées manifestement clandestines. Cette opération n'était pas légale: les propriétaires de la cargaison peuvent ne pas être satisfaits de notre intrusion.",
+            
+            
+        },
+
+    ]
+}

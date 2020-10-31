@@ -1,0 +1,248 @@
+{
+    "elements": [
+        {
+            id: "spirit_wintera_edge",
+extends: ["spirit_wintera_edge"],
+            label: "Ressuscité brisé",
+            
+            description: "Une force déchirante a ramené ce cadavre à la vie. Lorsqu'il bouge, il se brise comme du verre brisé. Ses poings sont des nids de griffes d'éclats d'os. Il ne tiendra pas longtemps.",
+            
+            
+
+        },
+        {
+            id: "spirit_wintera_moth",
+extends: ["spirit_wintera_moth"],
+            label: "Ressuscité bourgeonnant",
+            
+            description: "Les excroissances du Bois ont englobé les organes du cadavre, gonflé son crâne comme une gourde, enroulé autour de son coeur. Ses yeux sont humides de ruse, et il se déplace avec une grâce de marionnette saccadée. Ses os sont du bois pourri, et bientôt il prendra racine, mais d'ici là, il sera un serviteur rapide et discret.",
+            
+            
+        },
+        {
+            id: "spirit_winterb_heart",
+extends: ["spirit_winterb_heart"],
+            label: "Les Morts sans voix",
+            
+            description: "Parfois, les Morts entrent dans le Mansus par la Porte Blanche. À son seuil, ils déposent leur pouvoir de parole pour toujours. Rappelez-les au monde, et ils n'auront plus de voix, mais leurs peaux de poussière sont à vos ordres.",
+        },
+        {
+            id: "pre.spirit_winterb_heart",
+extends: ["pre.spirit_winterb_heart"],
+            label: "Les Morts sans voix",
+            
+            description: "Parfois, les Morts entrent dans le Mansus par la Porte Blanche. À son seuil, ils déposent leur pouvoir de parole pour toujours. Rappelez-les au monde, et ils n'auront plus de voix, mais leurs peaux de poussière sont à vos ordres.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "spirit_forgec_winter",
+extends: ["spirit_forgec_winter"],
+            label: "Caligine",
+            
+            description: "Aux coins de la Forge, dans les limites du Mansus, le feu de la Gloire rencontre les éléments inférieurs. Voici une fumée sournoise pour infecter les rêves de votre ennemi.",
+        },
+        {
+            id: "pre.spirit_forgec_winter",
+extends: ["pre.spirit_forgec_winter"],
+            label: "Caligine",
+            
+            description: "Aux coins de la Forge, dans les limites du Mansus, le feu de la Gloire rencontre les éléments inférieurs. Voici une fumée sournoise pour infecter les rêves de votre ennemi.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "spirit_grailc_moth",
+extends: ["spirit_grailc_moth"],
+            label: "Prophète brut",
+            
+            description: "Tantôt il divise, tantôt il unit, tantôt il prononce des paroles de mise en garde, tantôt il conseille sur l'appétit. Ses prophéties sont la confusion, ses chuchotements confondent.",
+        },
+        {
+            id: "pre.spirit_grailc_moth",
+extends: ["pre.spirit_grailc_moth"],
+            label: "Prophète brut",
+            
+            description: "Tantôt il divise, tantôt il unit, tantôt il prononce des paroles de mise en garde, tantôt il conseille sur l'appétit. Ses prophéties sont la confusion, ses chuchotements confondent.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "spirit_lanternc_edge",
+extends: ["spirit_lanternc_edge"],
+            label: "Invers",
+            
+            description: "Les Invers sont plus à l'aise derrière: derrière les coulisses, derrière les miroirs, derrière vous. Ils se glissent sous les portes et tuent avec du verre, mais ils ne peuvent pas survivre au regard d'un mortel vivant.",
+        },
+        {
+            id: "pre.spirit_lanternc_edge",
+extends: ["pre.spirit_lanternc_edge"],
+            label: "Hint",
+            
+            description: "Les Hinter sont plus à l'aise derrière: derrière les coulisses, derrière les miroirs, derrière vous. Ils se glissent sous les portes et tuent avec du verre, mais ils ne peuvent pas survivre au regard d'un mortel vivant.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "spirit_heartc_edge",
+extends: ["spirit_heartc_edge"],
+            label: "Percussigant",
+            
+            description: "Le Percussigant ! Il aime le frisson du sistrum, il aime le frémissement des tympans, il se souvient avec tendresse de l'écorchement de Marsyas, et ainsi il ne ne sera pas n'arrêtera pas de danser.",
+
+        },
+        {
+            id: "pre.spirit_heartc_edge",
+extends: ["pre.spirit_heartc_edge"],
+            label: "Percussigant",
+            
+            description: "Le Percussigant ! Il aime le frisson du sistrum, il aime le frémissement des tympans, il se souvient avec tendresse de l'écorchement de Marsyas, et ainsi il ne ne sera pas n'arrêtera pas de danser.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "spirit_winterd_edge",
+extends: ["spirit_winterd_edge"],
+            label: "Servante-dans-le-Miroir",
+            
+            description: "'L'ascension est de verre. Les murs sont des couteaux. Chaque pas est du sang.' Les Morts qui se reposent devant un miroir nouvellement fissuré, qui passent par la Porte du Paon, qui maîtrisent l'Escalier Tranchant: ces Morts entrent au service du Soleil-en-Haillons.",
+        },
+        {
+            id: "pre.spirit_winterd_edge",
+extends: ["pre.spirit_winterd_edge"],
+            label: "Servante-dans-le-Miroir",
+            
+            description: "'L'ascension est de verre. Les murs sont des couteaux. Chaque pas est du sang.' Les Morts qui se reposent devant un miroir nouvellement fissuré, qui passent par la Porte du Paon, qui maîtrisent l'Escalier Tranchant: ces Morts entrent au service du Soleil-en-Haillons.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "spirit_forgee_edge",
+extends: ["spirit_forgee_edge"],
+            label: "Roi Creuset",
+            
+            description: "'DANS LE DÉSERT, J'ATTENDS DANS LES RUINES QUE JE BRÛLE - LE MÉTAL EST DE L'EAU - LA PIERRE EST DE LA CIRE - LA CHAIR EST DE LA FUMÉE - ENTREZ EN MOI ET NE SOYEZ PLUS.'",
+            
+            
+        },
+        {
+            id: "pre.spirit_forgee_edge",
+extends: ["pre.spirit_forgee_edge"],
+            label: "Roi Creuset",
+            
+            description: "'DANS LE DÉSERT, J'ATTENDS DANS LES RUINES QUE JE BRÛLE - LE MÉTAL EST DE L'EAU - LA PIERRE EST DE LA CIRE - LA CHAIR EST DE LA FUMÉE - ENTREZ EN MOI ET NE SOYEZ PLUS.'",
+            
+            
+            
+            
+            
+            
+            
+        },
+        {
+            id: "spirit_graile_edge",
+extends: ["spirit_graile_edge"],
+            label: "Ezeem, le second Assoiffé",
+            
+            description: "'Changez-moi. Changez-moi. Changez-moi plus fort. Maintenant: <i> mon</i> tour.'",
+            
+            
+        },
+        {
+            id: "pre.spirit_graile_edge",
+extends: ["pre.spirit_graile_edge"],
+            label: "Ezeem, le second Assoiffé",
+            
+            description: "'Changez-moi. Changez-moi. Changez-moi plus fort. Maintenant: <i> mon</i> tour.'",
+            
+            
+            
+            
+            
+            
+            
+        },
+        {
+            id: "spirit_lanterne_secret",
+extends: ["spirit_lanterne_secret"],
+            label: "Teresa",
+            
+            description: "'Oh, le monde est plat; oh, mais il est plat ! Je ne vais pas rester longtemps. Je ne resterai pas longtemps. Dites-moi un secret.'",
+            
+            
+        },
+        {
+            id: "pre.spirit_lanterne_secret",
+extends: ["pre.spirit_lanterne_secret"],
+            label: "Teresa",
+            
+            description: "'Oh, le monde est plat; oh, mais il est plat ! Je ne vais pas rester longtemps. Je ne resterai pas longtemps. Dites-moi un secret.'",
+            
+            
+            
+            
+            
+            
+            
+        },
+        {
+            id: "spirit_forgee_edge.defunct",
+extends: ["spirit_forgee_edge.defunct"],
+            label: "Le Roi Creuset brûle lentement",
+            description: "Les feux du Roi Creuset ont baissé à une chaleur moindre, pour l'instant. Des traces noircies subsistent, comme les os du charbon.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "spirit_forgee_edge.consumed",
+extends: ["spirit_forgee_edge.consumed"],
+            label: "Un goût de cendre",
+            description: "J'ai consommé les traces que le Creuset a laissées dans le monde. A tout le moins, il sera offensé. Il pourrait même être enragé. Je ne devrais pas l'invoquer à nouveau.",
+            
+        },
+
+
+
+        {
+            id: "spirit_graile_edge.defunct",
+extends: ["spirit_graile_edge.defunct"],
+            label: "Ezeem boude",
+            description: "Ezeem ira bien, au final.",
+            
+            comments: "Cela ne devrait avoir aucun aspect. Nous ne voulons pas qu'il soit retiré ou utilisé - c'est seulement un bloqueur.",
+            
+        },
+        {
+            id: "spirit_lanterne_secret.defunct",
+extends: ["spirit_lanterne_secret.defunct"],
+            label: "Teresa se repose",
+            description: "Le Baldomerian s'est retiré à la Loge du Chevalier-Sage pour se reposer.",
+            
+            comments: "This shouldn't have any aspects. We don't want it to be removed or used - it's solely a blocker.",
+            
+        }
+
+
+    ]
+}

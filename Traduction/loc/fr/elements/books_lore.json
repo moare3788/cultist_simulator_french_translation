@@ -1,0 +1,899 @@
+{
+    "elements": [
+        {
+            id: "dehoris1",
+extends: ["dehoris1"],
+            
+            label: "De Horis (Book 1)",
+            
+            description: "Un catalogue occasionnellement cohérent des dieux secrets. Il s'agit de la traduction anglaise d'un volume traitant des pouvoirs du Bois."
+        },
+        {
+            id: "dehoris2",
+extends: ["dehoris2"],
+            
+            label: "De Horis (Book 2)",
+            
+            description: "Un catalogue occasionnellement cohérent des dieux secrets. Il s'agit de la traduction anglaise d'un volume décrivant l'inimitié entre le Lionsmith et le Tribun des Cicatrices."
+        },
+        {
+            id: "travellingatnight1",
+extends: ["travellingatnight1"],
+            
+            label: "Voyager de nuit (Vol. 1)",
+            
+            description: "Le journal des rêves annoté de Christopher Illopoly, parfois appelé 'le seul occultiste lisible': lettré, divertissant, déconcertant."
+        },
+        {
+            id: "travellingatnight2",
+extends: ["travellingatnight2"],
+            
+            label: "Voyager de nuit (Vol. 2)",
+            
+            description: "Le journal des rêves annoté de Christopher Illopoly, parfois appelé 'le seul occultiste lisible': lettré, divertissant, déconcertant. Il s'agit du second volume."
+        },
+        {
+            id: "travellingatnight3",
+extends: ["travellingatnight3"],
+            
+            label: "Voyager de nuit (Vol. 3)",
+            
+            description: "Le journal des rêves annoté de Christopher Illopoly, parfois appelé 'le seul occultiste lisible': lettré, divertissant, déconcertant. Il s'agit du troisième volume."
+        },
+        {
+            id: "sixlettersonnecessity",
+extends: ["sixlettersonnecessity"],
+            
+            label: "Les six lettres sur la nécessité",
+            
+            description: "Avertissements et confessions sur le coût des arts invisibles, adressés à un étudiant par le mage du XVIIe siècle (et réputé immortel) Julian Coseley."
+        },
+        {
+            id: "locksmithsdream1",
+extends: ["locksmithsdream1"],
+            
+            label: "Le rêve du Serrurier: Une lumière à travers le trou de la serrure",
+            
+            description: "Le premier volume de l'étude de Teresa Galmier sur les analogies dans les rêves mystiques des artisans."
+        },
+        {
+            id: "locksmithsdream2",
+extends: ["locksmithsdream2"],
+            
+            label: "Le rêve du Serrurier: Portions et proportions",
+            
+            description: "Le deuxième volume de l'étude de Teresa Galmier sur les analogies dans les rêves mystiques des artisans. Le frontispice a été tailladé au rasoir."
+        },
+        {
+            id: "locksmithsdream3",
+extends: ["locksmithsdream3"],
+            
+            label: "Le rêve du Serrurier: Trépassés",
+            
+            description: "Le troisième volume de l'étude de Teresa Galmier sur les analogies dans les rêves mystiques des artisans."
+        },
+        {
+            id: "locksmithsdream4",
+extends: ["locksmithsdream4"],
+            
+            label: "Le rêve du Serrurier: Réflexions volées",
+            
+            description: "Le quatrième volume de l'oeuvre de Teresa Galmier - non plus une discussion sur les rêves des artisans, mais un aperçu précieux d'autres oeuvres. Le ton est plus calme que celui de 'Trespassés', mais parfois craintif, voire paranoïaque. Ce volume a été publié en 1926, mais il a été presque immédiatement retiré et mis au pilon par l'éditeur - à la demande de l'auteur ou éventuellement des autorités, selon l'histoire que vous croyez. Quelques exemplaires ont survécu."
+        },
+        {
+            id: "locksmithsdream5",
+extends: ["locksmithsdream5"],
+            
+            label: "Le rêve du Serrurier: Incursus",
+            
+            description: "Le cinquième (et dernier ?) volume de l'oeuvre notoire de Teresa Galmier, qui a commencé par un examen des analogies dans les rêves mystiques des artisans mais est devenu un compte-rendu de son propre voyage occulte. Ce volume n'a jamais été publié ni, apparemment, même écrit."
+        },
+        {
+            id: "humoursofagentleman",
+extends: ["humoursofagentleman"],
+            
+            label: "Les humeurs d'un gentilhomme",
+            
+            description: "La comédie satirique de Samuel Savage, sur les intrigues du malheureux mais rusé John Sonne, sa maîtresse Maevelin, son amant Leo et le jeune Corvino."
+        },
+        {
+            id: "victoryofcrowns",
+extends: ["victoryofcrowns"],
+            
+            label: "La Victoire des couronnes",
+            
+            description: "Des récits erratiques, par un certain 'Arun', sur la chasse et la consommation de supposés immortels, par des sectes d'assassins de l'ombre. Publié à la fin du XIXe siècle."
+        },
+        {
+            id: "introductiontohistories",
+extends: ["introductiontohistories"],
+            
+            label: "Une introduction aux Histoires",
+            
+            description: "Le mystique et antiquaire Claude Hersault du XVIIe siècle décrit des incidents divergents dans cinq grandes Histoires."
+        },
+        {
+            id: "treatiseonunderplaces",
+extends: ["treatiseonunderplaces"],
+            
+            label: "Le traité sur les lieux souterrains",
+            
+            description: "Le mystique et antiquaire Claude Hersault décrit ici les 'limites' ou les 'lieux souterrains' aux frontières du rêve. Il prévient qu'ils se déplacent dans le temps."
+        },
+        {
+            id: "onthewhite",
+extends: ["onthewhite"],
+            
+            label: "Sur le blanc",
+            
+            description: "Solomon Husher écrit, peut-être de façon allégorique, sur l'Hiver, et sa longue et lente romance condamnée avec le Soleil. L'épigraphe est 'Coucher de soleil à midi'."
+        },
+        {
+            id: "waroftheroadscensored",
+extends: ["waroftheroadscensored"],
+            
+            label: "La guerre des routes, 1450-1580, ÉDITION CENSURÉE",
+            
+            description: "Willis-Ford décrit en détail la guerre des routes, un événement d'une autre histoire que la nôtre. Mais de nombreuses pages ont été supprimées, le nom de l'éditeur a été noirci et un sinistre passage agrafé à la couverture explique que Willis-Ford a été 'excisé'."
+        },
+        {
+            id: "queensoftherivers",
+extends: ["queensoftherivers"],
+            
+            label: "Les reines des rivières",
+            
+            description: "Une pièce contemporaine surréaliste de l'énigmatique Monica Medina, dans laquelle les reines des rivières sont assassinées, une par une."
+        },
+        {
+            id: "apolloandmarsyas",
+extends: ["apolloandmarsyas"],
+            
+            label: "Apollo et Marsyas",
+            
+            description: "Le libretto d'un opéra perdu concernant le conflit entre Apollon et Marsyas, et son issue tragique. Le librettiste n'est identifié que par ses initiales : RKNJL."
+        },
+        {
+            id: "skeletonsongs",
+extends: ["skeletonsongs"],
+            
+            label: "Les Chansons du Squelette",
+            
+            description: "Poèmes de gourmandise composés par la possible pseudonyme Arabella Dusk, la rumeur selon laquelle l'héritière, devenue madame, est devenue poétesse."
+        },
+        {
+            id: "ingofuntgod",
+extends: ["ingofuntgod"],
+            
+            label: "Le bûcher du Dieu imbrûlé",
+            
+            description: "Compilé par Hosty Tasmane à partir des traditions orales de la Perse rurale."
+        },
+
+        {
+            id: "debellismurorum",
+extends: ["debellismurorum"],
+            
+            label: "De Bellis Murorum",
+            
+            description: "Un poème épique du dix-huitième siècle par le pseudonyme 'Solipsistos'."
+        },
+
+        {
+            id: "onwhatiscontainedbysilver",
+extends: ["onwhatiscontainedbysilver"],
+            
+            label: "Sur ce que l'argent contient",
+            
+            description: "Un bestiaire terrible des horreurs que l'on trouve dans les miroirs. Il s'agit d'une édition récente d'un texte du IIIe siècle de 'Poemander'."
+        },
+        {
+            id: "truecompleteasclepian",
+extends: ["truecompleteasclepian"],
+            
+            label: "Un compte rendu fidèle et complet des mystères asclépiens des Racines de la Maison",
+            
+            description: "Descriptions des 'Mystères d'Asclépios', reproduites par une 'Rylee Grese' à partir - supposément - d'un texte beaucoup plus ancien. Il est peu probable qu'il soit authentique, mais il fait référence à 'La maison sans Murs et son Bois', juste là dans le prologue."
+        },
+
+
+        {
+            id: "geminiad",
+extends: ["geminiad"],
+            
+            label: "Les Gémeaux",
+            
+            description: "Un manuscrit fragile, illuminé par des formes jumelées d'une triste et lumineuse beauté, et par toutes les phases de la lune. Il est peut-être aussi vieux que le VIIe siècle, mais la langue - Fucine - est beaucoup plus ancienne. Du corail décore sa couverture et les bords de la page sont assez pointus pour trancher une gorge. [J'ai pris des notes en vue d'une traduction. Maintenant, je peux l'étudier.]"
+        },
+        {
+            id: "geminiadread",
+extends: ["geminiadread"],
+            
+            label: "Les Gémeaux [Lu]",
+            
+            description: "Un manuscrit fragile, illuminé par des formes jumelées d'une triste et lumineuse beauté, et par toutes les phases de la lune. Le corail orne la couverture et les bords de la page sont assez pointus pour trancher une gorge. [J'ai appris tout ce que je peux de ce livre, mais le livre lui-même a encore du pouvoir.]"
+        },
+        {
+            id: "orchidtransfigurations1",
+extends: ["orchidtransfigurations1"],
+            
+            label: "Les Transfigurations de l'orchidée, Vol 1: une festivité",
+            
+            description: "Le premier volume d'une compilation d'allégories quasi-rosicruciennes, prétendument par Robert Fludd. Il s'agit d'une traduction anglaise ultérieure."
+        },
+        {
+            id: "orchidtransfigurations2",
+extends: ["orchidtransfigurations2"],
+            
+            label: "Les Transfigurations de l'orchidée, Vol 2: une naissance",
+            
+            description: "Le deuxième volume d'une compilation d'allégories quasi-rosicruciennes, prétendument par Robert Fludd. Il s'agit d'une traduction anglaise ultérieure."
+        },
+        {
+            id: "orchidtransfigurations3",
+extends: ["orchidtransfigurations3"],
+            
+            label: "Les Transfigurations de l'orchidée, Vol 3: Midi",
+            
+            description: "Le troisième volume d'une compilation d'allégories quasi-rosicruciennes, prétendument par Robert Fludd. Il s'agit d'une traduction anglaise ultérieure."
+        },
+        {
+            id: "wainscothistories",
+extends: ["wainscothistories"],
+            
+            label: "Les histoires du lambris",
+            
+            description: "Sous-titré 'Histoires de derrière les murs': un ensemble d'histoires non traditionnelles compilées par William Gore, y compris des batailles qui ne sont généralement pas reconnues et des pays qui n'apparaissent sur aucune carte, racontées de manière ludique et apparemment fictive."
+        },
+
+        {
+            id: "chioneatabydos",
+extends: ["chioneatabydos"],
+            
+            label: "Chione à Abydos",
+            
+            description: "A play dealing with the nine-year sojourn of a snow-goddess in the Thracian city of Abydos, by 'Apollo Fireweaver'. It enjoyed success in London in its 1892 edition, when it was republished from - apparently - an older Greek text."
+        },
+        {
+            id: "irreproachabletraditionssocietynobleendeavour",
+extends: ["irreproachabletraditionssocietynobleendeavour"],
+            
+            label: "Les traditions irréprochables...",
+            description: "Les traditions irréprochables de la société de la noble entreprise. Les membres de la Société de la noble entreprise ont adopté des noms nobles lors de leur initiation : 'Parsival', 'Roland', 'Oisín'. Ils se sont inspirés de la Flamme en laisse, qui a donné à l'île de Grande-Bretagne une puissance si effroyable dans certaines histoires. Un certain Samuel Partridge a fait la chronique de leurs efforts.",
+            
+
+        },
+        {
+            id: "roseofnuriel",
+extends: ["roseofnuriel"],
+            
+            label: "La Rose de Nuriel",
+            
+            description: "Un volume d'enseignements rassemblés de la Sororité du Noeud, cet ordre arcane-contemplatif qui existait dans toutes les histoires, mais qui était très puissant dans certaines. Il a été consigné par 'Nuriel' et dédié à St Tryphon."
+        },
+        {
+            id: "roseofhypatia",
+extends: ["roseofhypatia"],
+            
+            label: "La Rose d'Hypatia",
+            
+            description: "Un volume d'enseignements rassemblés de la Sororité du Noeud, cet ordre arcane-contemplatif qui existait dans toutes les histoires, mais qui était très puissant dans certaines. Il a été consigné par 'Hypatia', et dédié à St Nympha."
+        },
+        {
+            id: "roseofwaznei",
+extends: ["roseofwaznei"],
+            
+            label: "La Rose de Waznei",
+            
+            description: "Les enseignements hérétiques d'une branche déshonorée de la Sororité du Noeud, cet ordre arcane-contemplatif qui a existé dans toutes les histoires. Il a été consigné par 'Waznei' et dédié à St Respicius."
+        },
+        {
+            id: "sunsetpassages",
+extends: ["sunsetpassages"],
+            
+            label: "Passages du crépuscule",
+            
+            description: "Un mélange de prières funéraires, de cérémonies et d'hymnes de l'église du Soleil Inconquis, qui a connu une ascension au cours des IIIe et IVe siècles. Elle a connu un schisme pendant l'Intercalate, lorsque le Soleil était divisé, et n'a pas survécu en tant que force significative."
+        },
+        {
+            id: "gospelzacchaeus",
+extends: ["gospelzacchaeus"],
+            
+            label: "L'Évangile de Zacchaeus",
+            
+            description: "Un récit extrêmement hétérodoxe du Messie nazaréen et de ses œuvres, décrivant son ascension vers le Mansus par l'ouverture de son corps."
+        },
+        {
+            id: "matthiasamethystloss",
+extends: ["matthiasamethystloss"],
+            
+            label: "Sur Matthias et l'Imago d'Améthyste: Perte",
+            
+            description: "Un récit d'une romance occulte. Un certain Para, fils d'Aaron, prétend avoir écrit ceci en un seul jour et une seule nuit dans le cadre de son initiation à la branche Damascène de la Maison du Léthé - cet ordre très discipliné d'immortels qui rejettent leur passé et leur avenir."
+        },
+        {
+            id: "matthiasamethysttransformation",
+extends: ["matthiasamethysttransformation"],
+            
+            label: "Sur Matthias et l'Imago d'Améthyste: Transformation",
+            
+            description: "Un récit d'une romance occulte. Un certain Iyavogos prétend avoir écrit ceci en une seule nuit dans le cadre de son initiation à la branche aleppine de la Maison du Léthé - cet ordre d'immortels qui n'appartenaient à aucune Heure."
+        },
+        {
+            id: "matthiasamethystpursuit",
+extends: ["matthiasamethystpursuit"],
+            
+            label: "Sur Matthias et l'Imago d'Améthyste: Poursuite",
+            
+            description: "Un récit d'une romance occulte. Un certain Mek prétend avoir écrit ceci en une seule nuit dans le cadre de son initiation à la branche Thébaine de la maison du Léthé - cet ordre d'immortels qui utilisaient les arts de l'eau pour se dissimuler."
+        },
+        {
+            id: "franklinbancroftdiaries",
+extends: ["franklinbancroftdiaries"],
+            
+            label: "Lord Franklin Bancroft: Journaux intimes, 1750-1790",
+            
+            description: "Lord Franklin Bancroft a été initié à l'art du Fleuriste par la 'sorcière des roses' Fionna Ayrshire. Il s'est élevé au rang de fournisseur de services occultes et de plaisirs secrets de la société, avant sa disparition brutale en 1790."
+        },
+        {
+            id: "indignitiesobliviate",
+extends: ["indignitiesobliviate"],
+            
+            label: "Les indignités perpétrées par la fraternité sournoise des Oubliés",
+            
+            description: "Il n'est pas clair si 'C.R.O.D', qui n'est identifié que par ses initiales, était en fait un initié de l'ordre des disciples immortels des Oubliés. Il a écrit au XVIe siècle, après que l'ordre - si l'on en croit ses dires - ait dépassé le faîte de sa puissance."
+        },
+        {
+            id: "furioustantra",
+extends: ["furioustantra"],
+            
+            label: "Le Tantra féroce",
+            
+            description: "Tel que transcrit plus tard par le médium et pyrotechnicien Jacob Oliver Topp-Mugglestone. La tradition veut qu'il l'ait trouvée brûlée dans l'écorce d'un chêne frappé par la foudre."
+        },
+        {
+            id: "devouredtantra",
+extends: ["devouredtantra"],
+            
+            label: "Le Tantra dévoré",
+            
+            description: "Le prêtre-diplomate Stanislav John Schaller l'a transcrit de la bibliothèque d'un Long Rouge, mais son manuscrit reste dans une collection privée à Kerisham."
+        },
+        {
+            id: "ceaselesstantra",
+extends: ["ceaselesstantra"],
+            
+            label: "Le Tantra inlassable",
+            
+            description: "Le chorégraphe d'avant-garde Nicholas Keirle aurait incorporé ce Tantra dans ses ballets menaçants."
+        },
+        {
+            id: "knownunknowntantra",
+extends: ["knownunknowntantra"],
+            
+            label: "Le Tantra Connu et Inconnu",
+            
+            description: "Carlos Garcia Sauri, le mystique extatique des Pyrénées, était connu pour réciter cela en trois langues, bien qu'il n'ait jamais visité le sous-continent."
+        },
+        {
+            id: "encirclingtantra",
+extends: ["encirclingtantra"],
+            
+            label: "Le Tantra qui encercle",
+            
+            description: "L'explorateur et entrepreneur T. Everett Duplantis a un jour tenté de piller le temple où se trouvait ce texte. Son sort est consigné dans une annexe."
+        },
+        {
+            id: "shavenlocktantra",
+extends: ["shavenlocktantra"],
+            
+            label: "Le Tantra de la mèche rasée",
+            
+            description: "Aussi connu sous le nom de 'Celui qui s'est rasé les cheveux'. Selon l'histoire, c'est la tradition que même les Vanaras, qui ont changé de forme, ont rejetée."
+        },
+        {
+            id: "tantraworms",
+extends: ["tantraworms"],
+            
+            label: "Le Tantra des Vers",
+            
+            description: "L'entomologiste Juliana Zawistowski a fini par insister sur le fait que ce texte a été écrit par des insectes habitant une peau humaine. Elle n'a jamais présenté de preuves à l'appui de sa thèse."
+        },
+        {
+            id: "bookofcentipede",
+extends: ["bookofcentipede"],
+            
+            label: "Le livre du Mille-pattes",
+            
+            description: "Au milieu des années 1860, une 'Madame Yi' a présenté un divertissement basé, selon elle, sur ce livre."
+        },
+        {
+            id: "accountkanishkspidersdoor",
+extends: ["accountkanishkspidersdoor"],
+            
+            label: "Le récit de Kanishk à la porte de l'Araignée",
+            
+            description: "Lok Kahuli, la victime et l'amant de Kanishk, a écrit ce récit, peut-être à titre posthume."
+        },
+        {
+            id: "stumm",
+extends: ["stumm"],
+            
+            label: "STUMM !",
+
+            slots: [
+                {
+                    id: "projector",
+extends: ["projector"],
+                    
+                    label: "Projecteur",
+                    description: "Je vais devoir acheter un projecteur pour regarder ça.",
+                    
+                    
+                }
+            ],
+            
+            description: "Une boîte de film-nitrate étiquetée STUMM ! - 'Silence' ou, peut-être, 'Muet'. Le nom du directeur, 'Jernik Krosse', est secrètement ajouté."
+        },
+        {
+            id: "vinzantinscriptions",
+extends: ["vinzantinscriptions"],
+            
+            label: "Les inscriptions de Vinzant",
+            
+            description: "Everett Vinzant les a transcrites d'une falaise en Anatolie, où il a célèbremment survécu à un éclair. Il est mort sept ans plus tard, jour pour jour. Ses os, selon la légende, étaient chauds au toucher."
+        },
+        {
+            id: "larquebinecodex",
+extends: ["larquebinecodex"],
+            
+            label: "Le Codex Larquebin",
+            
+            description: "Christoph Larquebus a affirmé avoir acheté deux exemplaires manuscrits du Codex à une famille de sorcières sur les rives de la mer de Marmara. Un troisième exemplaire a été 'donné à la mer'."
+        },
+        {
+            id: "againstsisterhoodknot",
+extends: ["againstsisterhoodknot"],
+            
+            label: "Contre la Sororité du Noeud et...",
+            
+            description: "'Contre la Sororité du Noeud et la folie de leurs coutumes dépravées'. Hieronymus Pseudo-Hypnerotomachus a écrit ce discours furieux sur l'influence sinistre de la communauté religieuse sur sa propre Église du Soleil Inconquis."
+        },
+        {
+            id: "morphycodex",
+extends: ["morphycodex"],
+            
+            label: "Le Codex de Morphy",
+            
+            description: "Dans laquelle une prêtresse de la Sororité du Noeud affirme avoir discerné le vrai sens de la naissance de Thunderskin."
+        },
+        {
+            id: "leoninetantra",
+extends: ["leoninetantra"],
+            
+            label: "Le Tantra Léonin",
+            
+            description: "Dans la traduction la plus célèbre du Tantra Léonin, Ashley Phillips est citée comme traductrice, mais son existence est explicitement niée dans le prologue. Cette confusion est caractéristique des livres qui mentionnent les Grands Princes encapuchonnés."
+        },
+        {
+            id: "incandescenttantra",
+extends: ["incandescenttantra"],
+            
+            label: "Le Tantra incandescent",
+            
+            description: "Michael Blockley, l'excentrique magnat du fer, aimait à citer ce tantra. Blockley est mort dans l'incendie d'une usine."
+        },
+        {
+            id: "thirstingtantra",
+extends: ["thirstingtantra"],
+            
+            label: "Le Tantra assoiffé",
+            
+            description: "C.G. Burial, le militant de la tempérance, en a publié des éléments dans un pamphlet, qui a dû être retiré et détruit après qu'il soit devenu trop populaire."
+        },
+        {
+            id: "flayedtantra",
+extends: ["flayedtantra"],
+            
+            label: "Le Tantra écorché",
+            
+            description: "Ce Tantra est consigné comme étant parlé par un individu énigmatique identifié comme 'Peel', avec beaucoup des qualités du naga mythologique. Le Tantra écorché a joué un rôle notable dans la pamphlétisation paranoïaque d'Alexander Sparrow."
+        },
+        {
+            id: "watchfultantra",
+extends: ["watchfultantra"],
+            
+            label: "Le Tantra vigilant",
+            
+            description: "Notoirement connu pour son implication dans la mort de Dafyd Jones et de Meredith Blaine, deux physiciens de la première heure qui prétendaient chacun posséder l'unique exemplaire et qui se sont finalement affrontés en duel à ce sujet en 1840."
+        },
+        {
+            id: "twinserpenttantra",
+extends: ["twinserpenttantra"],
+            
+            label: "Le Tantra des serpents jumeaux",
+            
+            description: "Juste avant le début de la Grande Guerre, 'Alexander Sparrow' - presque certainement un pseudonyme - a publié des tracts revendiquant l'influence des ' Princes Serpents' sur les affaires mondiales. Le texte intitulé le Tantra des serpents jumeaux a été sa principale source d'inspiration."
+        },
+        {
+            id: "firecircletantra",
+extends: ["firecircletantra"],
+            
+            label: "Le Tantra du cercle de feu",
+            
+            description: "La seule copie connue de ce document en Europe occidentale a été volée à la British Library en 1892. Un certain Harvey Hattington a avoué le crime et a prétendu l'avoir mangé, avec du beurre et de l'ail, dans un moment de caprice ingénieux."
+        },
+        {
+            id: "asthesunhiscourse",
+extends: ["asthesunhiscourse"],
+            
+            label: "Le soleil, sa course",
+            
+            description: "Joël du Pont, un soldat à la retraite et parfois gardien de péage, a écrit ce poème épique sur la décision fameusement inexplicable d'Alexandre à Issus de se retirer de la guerre avec les Achéménides, et son retour ultérieur en Macédoine."
+        },
+        {
+            id: "concursumdiaries",
+extends: ["concursumdiaries"],
+            
+            label: "Les journaux du Concursum",
+            
+            description: "Les journaux intimes de l'explorateur et meurtrier Lars Westergren. Il les a traduits en phrygien, pour des raisons de confidentialité."
+        },
+        {
+            id: "ironbook",
+extends: ["ironbook"],
+            
+            label: "Le livre de fer",
+            
+            description: "Un manuel de l'Ordo Limiae, un ordre de quasi-immortels qui maintenait une enclave secrète à la source du fleuve Limia, dans la province romaine d'Hispanie Gallaecia. Ce manuel a été rédigé par un certain Melerai Yivni, qui affirme avoir voyagé pour rejoindre l'Ordo depuis le 'Carrefour des eaux'."
+        },
+        {
+            id: "silverbook",
+extends: ["silverbook"],
+            
+            label: "Le livre d'argent",
+            
+            description: "Un manuel de l'Ordo Limiae, un ordre de quasi-immortels qui maintenait une enclave secrète à la source du fleuve Limia, dans la province romaine d'Hispanie Gallaecia. Ce manuel a été rédigé par un certain Burzghash, qui explique qu'il est venu rejoindre l'Ordo depuis la 'ville des aigles messagers' après avoir abandonné le service de la Colombe d'Ivoire."
+        },
+        {
+            id: "ivorybook",
+extends: ["ivorybook"],
+            
+            label: "Le livre d'ivoire",
+            
+            description: "Un manuel de l'Ordo Limiae, un ordre de quasi-immortels qui maintenait une enclave secrète à la source du fleuve Limia, dans la province romaine d'Hispanie Gallaecia. Ce manuel a été rédigé par un Kurenai, qui prétend avoir fui 'la tyrannie du trône du chrysanthème' pour traverser le monde et rejoindre l'Ordo."
+        },
+        {
+            id: "worlddoesnotweep",
+extends: ["worlddoesnotweep"],
+            
+            label: "Le monde ne pleure pas",
+            
+            description: "Joshua 'Brown' a trouvé ceci dans un puits à Hamath. On raconte qu'il a été abandonné par Alexandre lors de sa retraite d'Issus."
+        },
+        {
+            id: "deedsofthescarredcaptain",
+extends: ["deedsofthescarredcaptain"],
+            
+            label: "Les Exploits du capitaine à la cicatrice",
+            
+            description: "Assemblage minutieux par le soldat de fortune et ancien expéditeur de fonds, Pavel Shulga, pendant ses années en Grèce."
+        },
+        {
+            id: "bookofdissolution",
+extends: ["bookofdissolution"],
+            
+            label: "Le Livre de la Dissolution",
+            
+            description: "Alexander Probst, suivant le travail fondateur de Hosty Moor, a récupéré une copie de ce travail dans un temple de montagne en Perse. D'autres copies font surface de temps en temps, généralement fixées sur la roche."
+        },
+        {
+            id: "catalogueofunchartedpleasures",
+extends: ["catalogueofunchartedpleasures"],
+            
+            label: "Un catalogue de plaisirs inexplorés",
+            
+            description: "'Le gentilhomme noir' est le seul, et plutôt grandiose, auteur identifié de cette oeuvre souvent copiée."
+        },
+        {
+            id: "thosewhodonotsleep",
+extends: ["thosewhodonotsleep"],
+            
+            label: "Ceux qui ne dorment pas",
+            
+            description: "Le mystique Brodnax discute des origines de la Soeur-et-la-Sorcière, et de Thunderskin."
+        },
+        {
+            id: "theskythesoul",
+extends: ["theskythesoul"],
+            
+            label: "Le ciel, l'âme",
+            
+            description: "Le grand travail de Kalle, poète ascétique écrivant à la cour des Rois sans ombre."
+        },
+        {
+            id: "onthematterandthedeedsofserpents",
+extends: ["onthematterandthedeedsofserpents"],
+            
+            label: "Sur les affaires et les agissements des serpents",
+            
+            description: "Il s'agit probablement des 'Prophéties du Naga', traduites en anglais et illustrées par 'William Midnight' à Paris dans les années 1880, mais il présente un certain nombre de divergences par rapport à ce texte. Il semble assez récent par rapport aux textes du Vak."
+        },
+        {
+            id: "serenityofblackwood",
+extends: ["serenityofblackwood"],
+            
+            label: "La sérénité de la Forêt-Noire",
+            
+            description: "Une histoire allégorique de la Maison du Léthé, dont il est ici question, a été inspirée par le Mille-Pattes. 'Sereno Blackwood' est un pseudonyme occulte jusqu'à aujourd'hui."
+        },
+        {
+            id: "bookofthrones",
+extends: ["bookofthrones"],
+            
+            label: "Le Livre des Trônes",
+            
+            description: "Une légende de l'Empire sans ombre, transcrite par Alexander Peterhans à partir des annales d'un sanctuaire secret en Anatolie."
+        },
+        {
+            id: "secondglory",
+extends: ["secondglory"],
+            
+            label: "Une seconde Gloire",
+            
+            description: "Le prêtre Juceh célèbre l'extirpation des Dieux-qui-étaient, ces Heures qui ont précédé l'humanité."
+        },
+        {
+            id: "bookoftrueblood",
+extends: ["bookoftrueblood"],
+            
+            label: "Le livre du Vrai Sang",
+            
+            description: "Cassius le Thoman révèle les actions de la Légion sans nombre, l'armée secrète qui a protégé Rome contre l'Empire sans ombre."
+        },
+        {
+            id: "ingwoman",
+extends: ["ingwoman"],
+            
+            label: "La Femme qui brûle",
+            
+            description: "Une transcription en phrygien de la pièce de Menander le Victor, peut-être le dramaturge du même nom, avec commentaires."
+        },
+        {
+            id: "twentysixenticementsseventorments",
+extends: ["twentysixenticementsseventorments"],
+            
+            label: "Vingt-six incitations, sept tourments",
+            
+            description: "Le peintre Niels Frederik Malskaer, a notoirement tenté une série de peintures basées sur les Tourments. Au Cinquième Supplice, les exigences de la peinture étaient devenues si terribles qu'il est mort d'une hémorragie. Les diagrammes de ce texte sont heureusement moins détaillés."
+        },
+
+        {
+            id: "historyofshadowlesskings",
+extends: ["historyofshadowlesskings"],
+            
+            label: "Une histoire vraie et précise des Rois sans ombre",
+            
+            description: "'Une histoire vraie et précise des rois sans ombre, par Isaac de Karth.' Isaac décrit l'ascension millénaire de l'Empire sans ombre."
+        },
+
+        {
+            id: "highmysterieschurchsolar",
+extends: ["highmysterieschurchsolar"],
+            
+            label: "Les Grands Mystères de la Chambre Intime de notre Eglise Solaire",
+            
+            description: "'Les Grands Mystères de la Chambre Intérieure de notre Eglise Solaire'. Les rites secrets de l'Eglise du Soleil Inconquis, qui a détenu le pouvoir dans au moins deux Histoires.",
+        },
+
+        {
+            id: "medusaslament",
+extends: ["medusaslament"],
+            
+            label: "La complainte de Méduse",
+            
+            description: "A la mort de l'Heure appelée Sept Spirales, 'le Père de la Mère'."
+        },
+
+        {
+            id: "bookofmasks",
+extends: ["bookofmasks"],
+            
+            label: "Le Livre des Masques",
+            
+            description: "L'œuvre d'Athéna Vana sur l'Heure de l'escroquerie appelée le Vagabond, qui est également connue sous le nom de la Grive Rieuse, de Mille-pattes, de Pèlerin et sous de nombreux autres noms - ou, comme le dit Vana, de 'masques'."
+        },
+
+        {
+            id: "inthemountainsasupontheplain",
+extends: ["inthemountainsasupontheplain"],
+            
+            label: "Dans les montagnes...",
+            
+            description: "'Dans les montagnes comme dans la plaine, il ne peut y avoir de chemin là où aucun n'est passé'. Ninegala de Lagash décrit les secrets que l'on trouve dans les montagnes."
+        },
+
+        {
+            id: "memoryofgods",
+extends: ["memoryofgods"],
+            
+            label: "En mémoire des Dieux",
+            
+            description: "Une oeuvre de 'l'enfant de Barrow', un adepte gaulois anonyme qui a rejoint une organisation connue sous le nom d'Ordo Limiae, écrit avec regret la destruction des dieux-qui-étaient-pierre - les Heures qui ont précédé l'humanité."
+        },
+
+        {
+            id: "sevenfoldslayingsevencoiled",
+extends: ["sevenfoldslayingsevencoiled"],
+            
+            label: "Le septuple massacre des sept Spirales",
+            
+            description: "Un récit de la destruction d'une Heure primordiale, un dieu-qui-fut-pierre."
+        },
+
+        {
+            id: "bighuff",
+extends: ["bighuff"],
+            
+            label: "Mes Actions, mes Pouvoirs, mes Réalisations...",
+            
+            description: "'Mes actions, mes pouvoirs, mes réalisations et les injustices commises à mon égard'. Hokobald de Pocsind, anciennement de l'ordre des immortels appelé par certains la Maison du Lethe, règle ses comptes."
+        },
+
+        {
+            id: "dreamconspiracyskies",
+extends: ["dreamconspiracyskies"],
+            
+            label: "Le rêve de la conspiration du Ciel inférieur",
+            
+            description: "L'oracle déshonoré Damaon Azenaten passe au crible les contes de Pénélope de Gordien, l'œuvre du poète de la cour Kalle et les fragments interdits de l'œuvre de l'adepte Arrettrez, en identifiant des thèmes communs."
+        },
+
+        {
+            id: "bookwhitecat",
+extends: ["bookwhitecat"],
+            
+            label: "Le Livre du Chat Blanc",
+            
+            description: "Histoires apportées à Pénélope de Gordion par un chat blanc aveugle."
+        },
+
+        {
+            id: "focusamber",
+extends: ["focusamber"],
+            
+            label: "Le sujet de l'Ambre",
+            
+            description: "Omar, le Flamboyant, a passé sept ans à tenir un phare à Tyr, en expiation pour l'extinction d'une flamme sacrée. À la fin de son séjour, il était si terrifié par le feu qu'il ne pouvait pas supporter de partager une chambre avec une bougie. Cet ouvrage a été écrit en pénitence partielle."
+        },
+
+        {
+            id: "songscarapacecross",
+extends: ["songscarapacecross"],
+            
+            label: "Les chants de la Croix de Carapace",
+            
+            description: "Micah Xi, parfois appelé le mage du quartz, a gravé cette oeuvre à l'acide sur la pierre. Elle a été reproduite de nombreuses fois depuis, mais les reproductions ont souvent été perdues lors de glissements de terrain."
+        },
+        {
+            id: "originsofhours",
+extends: ["originsofhours"],
+            
+            label: "Les Origines des Heures",
+            
+            description: "Le sage et extatique Soham, un visiteur fréquent du Mansus, a affirmé avoir parlé avec le Corbeau-de-plage en personne. Soham a ensuite insisté pour que l'on procède à un enterrement dans le ciel."
+        },
+        {
+            id: "wherehasshegone",
+extends: ["wherehasshegone"],
+            
+            label: "Où est-elle allée ?",
+            
+            description: "'Le Speeth' - peut-être un seul adepte, peut-être un conseil d'érudits - émet des hypothèses sur des événements secrets à partir de preuves limitées avec une précision persuasive."
+        },
+        {
+            id: "bookextinguishedheart",
+extends: ["bookextinguishedheart"],
+            
+            label: "Le Livre du Coeur éteint",
+            
+            description: "Au temps des Rois sans ombre, Ennis Lazali a été exécuté pour avoir prophétisé la Division du Soleil. Si certains de ses ravisseurs sont devenus Long, ils se sentent sans doute un peu gênés maintenant."
+        },
+        {
+            id: "howendwillbegin",
+extends: ["howendwillbegin"],
+            
+            label: "Comment la Fin va commencer",
+            
+            description: "Une prophétie sur les Guerres des Routes, consignée dans le sous-continent à l'époque précédant les Grands Princes encapuchonnés."
+        },
+        {
+            id: "manneralchemistspared",
+extends: ["manneralchemistspared"],
+            
+            label: "La manière dont l'Alchimiste a été épargné",
+            
+            description: "En 1782, Anaël Verdier a utilisé ce texte comme base pour une présentation à l'Académie des sciences de Paris. Il a été exécuté en secret le lendemain matin sans procès."
+        },
+        {
+            id: "fivecreations",
+extends: ["fivecreations"],
+            
+            label: "Cinq créations",
+            
+            description: "Le chercheur itinérant Shohei a débattu de cinq origines possibles pour l'humanité avec une figure encapuchonnée depuis qu'elle prétend être le Corbeau-de-Plage. Shohei a plus tard affirmé que tous ces récits s'étaient révélés faux, mais le débat a néanmoins été consigné."
+        },
+        {
+            id: "commandspreservationallexists",
+extends: ["commandspreservationallexists"],
+            
+            label: "Commandements pour la préservation de tout ce qui existe",
+            
+            description: "Black Elie, Damascene Matriarch of the Sisterhood of the Knot, was imprisoned by the emperor Didius Julianus. She reportedly instructed that these secret doctrines be recorded in writing to preserve against their loss. Regrettably, the story goes, Didius Julianus ordered that the work be entombed with her in an unmarked sepulcher."
+        },
+        {
+            id: "timedivision",
+extends: ["timedivision"],
+            
+            label: "Le Temps de la Division",
+            
+            description: "Dans laquelle Amira Zahra prophétise les événements connus plus tard sous le nom d'Intercalate, lorsque l'Heure appelée Soleil-en-Splendeur sera divisée."
+        },
+        {
+            id: "manualdeparture",
+extends: ["manualdeparture"],
+            
+            label: "Un Manuel pour le départ",
+            
+            description: "L'auteur, qui s'identifie comme le Jekadu, prétend être l'un des grands princes encapuchonnés du pays du fleuve. Le style est informel, voire bavard."
+        },
+        {
+            id: "birdsong",
+extends: ["birdsong"],
+            
+            label: "Inaam, Kapigiginlupir, Garkie, Cryppys",
+            
+            description: "Dans lequel quatre personnages énigmatiques racontent les histoires qu'ils ont entendues au fil des ans au Roost, l'endroit secret où se réunissent les Heures aviformes."
+        },
+        {
+            id: "voyagesfo",
+extends: ["voyagesfo"],
+            
+            label: "Les voyages de Ferninshun d'Oreol",
+            
+            description: "Une sorte de récit de voyage."
+        },
+        {
+            id: "scarsky",
+extends: ["scarsky"],
+            
+            label: "La cicatrice dans le ciel",
+            
+            description: "Nyn a écrit ceci, et en est venu à le regretter."
+        },
+        {
+            id: "kitlingripe",
+extends: ["kitlingripe"],
+            
+            label: "La jeune vieille chatte et la tombe de Moldywarp (et autres histoires)",
+            
+            description: "Un tome abondamment illustré d'histoires d'enfants vaguement reliées entre elles, rassemblées par un certain N.K. Field. Peu d'entre elles sont adaptées aux enfants."
+        },
+        {
+            id: "raptintheking",
+extends: ["raptintheking"],
+            
+            label: "Extasié par le Roi",
+            
+            description: "Comptes rendus détaillés de James Colin Murphy sur les bacchanales secrètes et les danses extatiques observées dans les nécropoles et les cimetières d'Europe du Sud, d'Égypte et d'Anatolie. L'auteur est une goule qui se confesse, un mangeur de chair repenti: il prétend avoir été témoin des danses lors de son festin."
+        },
+        {
+            id: "vienneseconundra",
+extends: ["vienneseconundra"],
+            
+            label: "The Viennese Conundra",
+            
+            description: "Nico Van Driel describes odd events in Vienna - the disappearance of children; epidemics of parasite activity; animal mutilations; nightmares of worms; the activities of a charitable organisation, the New Ligeians, that funds the burial of the poor. She proposes peculiar connections between these activities."
+        }
+
+    ]
+}

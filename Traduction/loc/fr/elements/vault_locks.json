@@ -1,0 +1,172 @@
+{
+    "elements": [
+
+        {
+            id: "peril_treacherousground",
+extends: ["peril_treacherousground"],
+            label: "Un terrain glissant",
+            
+            description: "Des fosses et des bourbiers et des éboulements imprévisibles. On ne peut pas faire confiance à la terre ici. Nous aurons besoin de mains fortes ou d'une vue claire - Forge ou Lanterne."
+        },
+        {
+            id: "peril_forest",
+extends: ["peril_forest"],
+            label: "Une forêt en péril",
+            
+            description: "Il y a longtemps, les arbres primitifs s'étendaient d'un océan à l'autre. Quelques traces de leur règne subsistent encore - comme ce territoire dense et étouffant de racines et d'épines. Les aspects pratiques de Forge, ou les mystères de la Phalène, peuvent nous aider."
+        },
+        {
+            id: "peril_mountains",
+extends: ["peril_mountains"],
+            label: "Les Hautes Passes",
+            
+            description: "Des pentes sombres et gris-vert attirent l'attention sur des pics lointains aux arêtes enneigées qui s'étendent vers le ciel... ce sera le diable de trouver quoi que ce soit là-dedans. La Forge nous soutiendra, l'Hiver nous protégera."
+        },
+        {
+            id: "peril_desert",
+extends: ["peril_desert"],
+            label: "Désolation",
+            
+            description: "Une immense fournaise fauve à peine limitée par son horizon. La nuit, un désert froid d'étoiles. Nous devons y aller prudemment, avec la Forge pour façonner notre chemin ou le Graal pour nous protéger contre la soif."
+        },
+        {
+            id: "peril_sea",
+extends: ["peril_sea"],
+            label: "Une mer occidentale",
+            
+            description: "La plupart de ces îles sont bien connues des Chroniques, mais notre destination se trouve dans des régions sauvages et inexplorées. Nous aurons besoin de Coer ou de Forge pour survivre."
+        },
+
+        {
+            id: "seal_hiddendoor",
+extends: ["seal_hiddendoor"],
+            label: "Une Porte Derobée",
+            
+            description: "Les portes dérobées peuvent être trouvées avec Lanterne ou Clé."
+        },
+        {
+            id: "seal_wardeddoor",
+extends: ["seal_wardeddoor"],
+            label: "Une Porte Surveillée",
+            
+            description: "Un ingénieur, ou un adepte, a veillé à ce que cette porte ne s'ouvre pas facilement. Forge ou Clé la vaincront."
+        },
+
+        {
+            id: "guardian_serpent",
+extends: ["guardian_serpent"],
+            label: "Soeur cadette",
+            
+            description: "La Mère des Fourmis est née parmi les serpents. Elle a beaucoup de jeunes soeurs. Elle peut être vaincue au combat ; ou elle répondra au pouvoir de la Mère."
+        },
+        {
+            id: "guardian_watchers",
+extends: ["guardian_watchers"],
+            label: "Gardiens",
+            
+            description: "Mortels. Peut-être même des mortels ordinaires. Mais ils sont nombreux. Ils peuvent être combattus, séduits ou trompés."
+        },
+
+        {
+            id: "guardian_monks",
+extends: ["guardian_monks"],
+            label: "Moines",
+            
+            description: "Des contemplatifs bénis ou condamnés à servir ici. Ils sont liés par leurs voeux étranges. Nous pouvons les assassiner ou les tromper, mais ils ne se laisseront pas séduire."
+        },
+
+        {
+            id: "guardian_dead",
+extends: ["guardian_dead"],
+            label: "Les Morts enragés",
+            
+            description: "Tous les Morts ne reposent pas en paix. Ceux-là n'aiment pas notre intrusion. Nous pouvons les vaincre avec de la Pointe ; ou ils peuvent obéir à celui se présentera au nom de l'Hiver."
+        },
+
+
+        {
+            id: "guardian_serpent_pre",
+extends: ["guardian_serpent_pre"],
+            label: "Soeur cadette",
+            description: "La Mère des Fourmis est née parmi les serpents. Elle a beaucoup de jeunes soeurs. Elle peut être vaincue au combat ; ou elle répondra au pouvoir de la Mère.",
+            
+            
+        },
+        {
+            id: "guardian_watchers_pre",
+extends: ["guardian_watchers_pre"],
+            label: "Gardiens",
+            
+            description: "Mortels. Peut-être même des mortels ordinaires. Mais ils sont nombreux. Ils peuvent être combattus, séduits ou trompés.",
+            
+            
+        },
+
+        {
+            id: "guardian_monks_pre",
+extends: ["guardian_monks_pre"],
+            label: "Moines",
+            
+            description: "Des contemplatifs bénis ou condamnés à servir ici. Ils sont liés par leurs vœux étranges. Nous pouvons les assassiner ou les tromper, mais ils ne se laisseront pas séduire.",
+            
+            
+        },
+
+        {
+            id: "guardian_dead_pre",
+extends: ["guardian_dead_pre"],
+            label: "Les Morts enragés",
+            
+            description: "Tous les Morts ne reposent pas en paix. Ceux-là n'aiment pas notre intrusion. Nous pouvons les vaincre avec de la Pointe ; ou ils peuvent obéir à celui se présentera au nom de l'Hiver.",
+            
+            
+        },
+
+        {
+            id: "guardian_soucouyants",
+extends: ["guardian_soucouyants"],
+            label: "Soucouyants",
+            
+            description: "On pourrait les prendre pour des vieilles femmes, jusqu'à ce qu'elles se débarrassent de leur peau. Ce lieu est tout à fait à leur goût. Elles sont fortes comme des racines ancestrales. Presque autant que Long, mais elles peuvent être trompées, et elles se méfient beaucoup de la lumière."
+        },
+        {
+            id: "guardian_long",
+extends: ["guardian_long"],
+            label: "Long",
+            
+            description: "Il est très difficile de tuer quelqu'un qui a passé la Porte des Tricuspides. Et il y en a beaucoup. Mais peut-être pouvons-nous en tromper un, ou profiter des appétits de quelqu'un."
+        },
+
+        {
+            id: "curse_dread",
+extends: ["curse_dread"],
+            label: "La malédiction de l'Ame Desséchée",
+            
+            description: "Nous avons besoin de Coeur ou de Lanterne pour supprimer cette malédiction. Autrement, elle ne nous empêchera pas d'atteindre notre but, mais elle pourrait nous causer des ennuis plus tard."
+        },
+        {
+            id: "curse_visions",
+extends: ["curse_visions"],
+            label: "La malédiction du Cinquième Oeil",
+            
+            description: "Nous avons besoin de Coeur ou d'Hiver pour supprimer cette malédiction. Autrement, elle ne nous empêchera pas d'atteindre notre but, mais elle pourrait nous causer des ennuis plus tard."
+        },
+        {
+            id: "curse_affliction",
+extends: ["curse_affliction"],
+            label: "La malédiction du Souffle Rampant",
+            
+            description: "Nous avons besoin de Coeur ou de Graal pour supprimer cette malédiction. Autrement, elle ne nous empêchera pas d'atteindre notre but, mais elle pourrait nous causer des ennuis plus tard."
+        },
+        {
+            id: "curse_nowhere",
+extends: ["curse_nowhere"],
+            label: "Les Vers dans le Monde",
+            
+            description: "Nous avons besoin de Lanterne ou de Phalène pour supprimer cette malédiction. Autrement, elle ne nous empêchera pas d'atteindre notre but, mais elle pourrait nous causer des ennuis plus tard."
+        },
+
+
+
+    ]
+}

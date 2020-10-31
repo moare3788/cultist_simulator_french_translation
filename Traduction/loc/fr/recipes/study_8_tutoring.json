@@ -1,0 +1,223 @@
+{
+    "recipes": [
+
+        {
+            id: "studylatintutoring",
+extends: ["studylatintutoring"],
+            label: "Étudier le latin avec un tuteur",
+            
+            
+            slots: [
+                {
+                    id: "Costs",
+extends: ["Costs"],
+                    label: "Coûts",
+                    
+                }
+            ],
+            
+            startdescription: "Si je dois apprendre le latin, en voici un qui m'aidera; mais je devrai payer en spintriae, la monnaie du monde caché.",
+            description: "Les tuteurs ne travaillent pas gratuitement. Une autre fois.",
+            
+            
+        },
+        {
+            id: "studylatintutoringpaid",
+extends: ["studylatintutoringpaid"],
+            label: "Étudier le latin avec un tuteur",
+            
+            
+            
+            startdescription: "Ce sera suffisant. Je vais écouter attentivement.",
+            description: "La langue de Lucrèce 'Sur la nature des choses', d'Aquin 'Summa Theologiae' et du célèbre 'De Horis...'",
+        },
+
+        {
+            id: "studygreektutoring",
+extends: ["studygreektutoring"],
+            label: "Étudier le grec avec un tuteur",
+            
+            
+            slots: [
+                {
+                    id: "Costs",
+extends: ["Costs"],
+                    label: "Coûts",
+                    
+                }
+            ],
+            
+            startdescription: "Si je dois apprendre le grec, en voici un qui m'aidera; mais je devrai payer en spintriae, la monnaie du monde caché.",
+            description: "Les tuteurs ne travaillent pas gratuitement. Une autre fois.",
+            
+            
+        },
+        {
+            id: "studygreektutoringpaid",
+extends: ["studygreektutoringpaid"],
+            label: "Étudier le grec avec un tuteur",
+            
+            
+            
+            startdescription: "Ce sera suffisant. Je vais écouter attentivement.",
+            description: "Le langage de la métaphysique, de 'l'histoire secrète' de Procopius et du menaçant 'Sur ce que contient l'argent'...",
+        },
+
+        {
+            id: "studyaramaictutoring",
+extends: ["studyaramaictutoring"],
+            label: "Étudier l'araméen avec un professeur",
+            
+            
+            slots: [
+                {
+                    id: "Costs",
+extends: ["Costs"],
+                    label: "Coûts",
+                    
+                }
+            ],
+            
+            startdescription: "Si je dois apprendre l'araméen, en voici un qui m'aidera; mais je devrai payer en spintriae, la monnaie du monde caché.",
+            description: "Les tuteurs ne travaillent pas gratuitement. Une autre fois.",
+            
+            
+        },
+        {
+            id: "studyaramaictutoringpaid",
+extends: ["studyaramaictutoringpaid"],
+            label: "Étudier l'araméen avec un tuteur",
+            
+            
+            
+            startdescription: "Ce sera suffisant. Je vais écouter attentivement.",
+            description: "La langue des Visions d'Aram, du Livre de Daniel et du récit de Kanishk à la porte de l'Araignée."
+        },
+
+
+        {
+            id: "studysanskrittutoring",
+extends: ["studysanskrittutoring"],
+            label: "Étudier le sanskrit avec un tuteur",
+            
+            
+            slots: [
+                {
+                    id: "Costs",
+extends: ["Costs"],
+                    label: "Coûts",
+                    
+                }
+            ],
+            
+            startdescription: "Si je dois apprendre le sanskrit, en voici un qui m'aidera; mais je devrai payer en spintriae, la monnaie du monde caché.",
+            description: "Les tuteurs ne travaillent pas gratuitement. Une autre fois.",
+            
+            
+        },
+        {
+            id: "studysanskrittutoringpaid",
+extends: ["studysanskrittutoringpaid"],
+            label: "Étudier le sanskrit avec un tuteur",
+            
+            
+            
+            startdescription: "Ce sera suffisant. Je vais écouter attentivement.",
+            description: "La langue sacrée du sous-continent. La porte de quatre mille ans de poésie, de cérémonie et de mystère."
+        },
+        {
+            id: "studyfucinetutoringspirit",
+extends: ["studyfucinetutoringspirit"],
+            label: "Étudier le fucine avec un tuteur",
+            
+            
+            slots: [
+                {
+                    id: "Background",
+extends: ["Background"],
+                    label: "Contexte",
+                    
+                }
+            ],
+            
+            startdescription: "'Fucine ? Oui, je me débrouille en fucine. Je peux vous enseigner, si vous connaissez le latin. Mais si j'entends un bruit de la 'langue de sorcière', c'est terminé.'",
+            description: "Je n'ai pas les bases nécessaires.",
+            
+            
+        },
+        {
+            id: "studyfucinetutoringsuccessful",
+extends: ["studyfucinetutoringsuccessful"],
+            label: "Étudier le fucine avec un tuteur",
+            
+            
+            
+            startdescription: "Mon latin servira de base. J'apprendrai tout ce que je peux.",
+            description: "On ne peut pas parler fucine longtemps sans boire de l'eau. Elle dessèche les lèvres, elle assèche la gorge. Seul un peuple vivant près d'un lac pouvait le parler.",
+        },
+
+
+        {
+            id: "studyphrygiantutoringspirit",
+extends: ["studyphrygiantutoringspirit"],
+            label: "Étudier le phrygien avec un tuteur",
+            
+            
+            slots: [
+                {
+                    id: "Background",
+extends: ["Background"],
+                    label: "Contexte",
+                    
+                }
+            ],
+            
+            startdescription: "'Phrygien ! La langue de la Grande Mère ! Bien sûr. Si vous connaissez suffisamment le grec, je vous garantis que l'expérience de l'apprentissage du phrygien sera <i> très</i> agréable.'",
+            description: "Je n'ai pas les bases nécessaires.",
+            
+            
+        },
+        {
+            id: "studyphrygiantutoringsuccessful",
+extends: ["studyphrygiantutoringsuccessful"],
+            label: "Étudier le phrygien avec un tuteur",
+            
+            
+            
+            startdescription: "Mon grec servira de base. J'apprendrai tout ce que je peux.",
+            description: "Hérodote raconte la folle histoire d'un pharaon qui a découvert que la langue phrygienne était la première langue parlée par les humains. Il avait tort, bien sûr; c'était Vak. Mais tout le monde apprécie l'histoire.",
+        },
+
+        {
+            id: "studymandaictutoringspirit",
+extends: ["studymandaictutoringspirit"],
+            label: "Étudier le mandaïque profond avec un tuteur",
+            
+            
+            slots: [
+                {
+                    id: "Background",
+extends: ["Background"],
+                    label: "Contexte",
+                    
+                }
+            ],
+            
+            startdescription: "'ENSEMBLE, NOUS COMMÉMORERONS LA LANGUE DU DIEU IMBRÛLÉ.'",
+            description: "Je n'ai pas les bases nécessaires.",
+            
+            
+        },
+        {
+            id: "studymandaictutoringsuccessful",
+extends: ["studymandaictutoringsuccessful"],
+            label: "Étudier le mandaïque profond avec un tuteur",
+            
+            
+            
+            startdescription: "Mon araméen servira de base. J'apprendrai tout ce que je peux.",
+            description: "Dans une histoire, c'est la langue que parlaient les Rois sans ombre. Dans une autre, c'était la base des incantations des enfants de la Flamme enlacée.",
+        },
+
+    ]
+}

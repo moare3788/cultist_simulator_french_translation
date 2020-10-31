@@ -1,0 +1,1266 @@
+{
+    "recipes": [
+
+
+
+
+        {
+            id: "ascensionpower_upgradetoobsession",
+extends: ["ascensionpower_upgradetoobsession"],
+            label: "La Clé brûlante",
+            
+            
+            
+            startdescription: "Ce rite est la Clé qui permettra à la Forge des Jours d'entrer en moi. Je serai changé à jamais.",
+            description: "Le Rite est complet. Les Marques de la Forge sont sur moi. La première marque est ce que j'ai dit, et la seconde est ce que j'ai fait. Si j'inspecte mon corps, je trouverai la troisième. Je suis ébloui par de nouveaux besoins.",
+        },
+
+        {
+            comments: "male and female flavour; //TODO implement more elegantly",
+            id: "ascensionsensation_upgradetoobsessionm",
+extends: ["ascensionsensation_upgradetoobsessionm"],
+            label: "La Clé des soupirs",
+            
+            
+            
+            startdescription: "Ce Rite est la Clé qui permettra au Graal rouge d'entrer en moi. Je serai changé à jamais.",
+            description: "Le Rite est complet. Les Marques du Graal sont sur moi. La première marque est ce que j'ai dit, et la seconde est ce que j'ai fait. Si j'inspecte mon corps, je trouverai la troisième. Je frissonne de nouveaux appétits.",
+        },
+        {
+            comments: "male and female flavour; //TODO implement more elegantly",
+            id: "ascensionsensation_upgradetoobsessionf",
+extends: ["ascensionsensation_upgradetoobsessionf"],
+            label: "La Clé des soupirs",
+            
+            
+            
+            startdescription: "Ce Rite est la Clé qui permettra au Graal rouge d'entrer en moi. Je serai changé à jamais.",
+            description: "Ce Rite est la Clé qui permettra au Graal rouge d'entrer en moi. Je serai changé à jamais.",
+            
+            
+            
+        },
+        {
+            id: "ascensionsensation_switchpolarity_mtof",
+extends: ["ascensionsensation_switchpolarity_mtof"],
+            label: "Préférences",
+            
+            
+            
+            startdescription: "Je suis allé aussi loin que je le pouvais dans le rêve. Je dois effectuer le <b>Travail</b>. Mais peut-être, quand je songe à mes désirs, que ce ne sont pas vraiment les hommes qui me viennent à l'esprit...",
+            description: "Les goûts se modifient, les désirs changent, les pensées se plient à d'autres formes.",
+            
+            
+        },
+        {
+            id: "ascensionsensation_switchpolarity_ftom",
+extends: ["ascensionsensation_switchpolarity_ftom"],
+            label: "Préférencess",
+            
+            
+            
+            startdescription: "Je suis allé aussi loin que je le pouvais dans le rêve. Je dois effectuer le <b>Travail</b>. Mais peut-être, quand je songe à mes désirs, que ce ne sont pas vraiment les femmes qui me viennent à l'esprit...",
+            description: "Les goûts se modifient, les désirs changent, les pensées se plient à d'autres formes.",
+            
+            
+        },
+
+
+        {
+            id: "ascensionenlightenment_upgradetoobsession",
+extends: ["ascensionenlightenment_upgradetoobsession"],
+            label: "La Clé de l'Aveuglement",
+            
+            
+            
+            startdescription: "Ce rite est la Clé qui permettra au regard du Guetteur d'entrer en moi. Je serai changé à jamais.",
+            description: "Le Rite est complet. Les Marques du Gardien sont sur moi. La première Marque est ce que j'ai dit, et la seconde est ce que j'ai fait. Si j'inspecte mon corps, je trouverai la troisième. Ma faim a été affinée, maintenant.",
+            
+            
+            
+        },
+        {
+            id: "majorforgevictory",
+extends: ["majorforgevictory"],
+            label: "L'AUBE SE LÈVE",
+            
+            
+            
+            startdescription: "[Ce texte est disponible à l'arrivée des héritages avancés.]",
+            description: "N'oubliez pas que le texte de fin sera chargé.",
+            
+            
+        },
+        {
+            id: "minorforgevictory_trigger",
+extends: ["minorforgevictory_trigger"],
+            
+            label: "La Conflagration du Coeur",
+            startdescription: "J'ai été dans la flamme tant de fois. Les plaques de ma chair se déchirent les unes des autres. J'invoque maintenant la chaleur de la Forge, qui va m'arracher ce que j'étais. Je mourrai en passant la Porte des Tricuspides, mais la mort n'est pas la fin. Je serai immortel : un Long, favori de la Forge. [Tout Adepte utilisé dans le rituel sera consumé. Si vous vous souciez de ceux que vous pourriez laisser derrière vous, faites attention.]",
+            
+            
+            comments: "Nettoyer avant la pré-recette ; éliminer tout élément étranger qui pourrait perturber les déclencheurs finaux",
+            
+            
+            
+        },
+
+
+        {
+            id: "minorforgevictory_overture",
+extends: ["minorforgevictory_overture"],
+            label: "La Conflagration du Coeur",
+            
+
+            description: "Je suis en train de devenir un nom de feu. N'oubliez pas que le texte de fin sera chargé.",
+            
+            slots: [
+                {
+                    id: "beloved",
+extends: ["beloved"],
+                    label: "Bien-aimé",
+                    
+                    
+                    
+                }
+            ],
+            
+        },
+
+        {
+            id: "minorforgevictory",
+extends: ["minorforgevictory"],
+            label: "La Conflagration du Coeur",
+            
+            
+            
+        },
+        {
+            id: "minorforgevictorywithrisen",
+extends: ["minorforgevictorywithrisen"],
+            
+            label: "La Conflagration du Coeur",
+            
+            
+        },
+
+        {
+            id: "majorgrailvictory",
+extends: ["majorgrailvictory"],
+            label: "LA FÊTE EST IMMINENTE",
+            
+            
+            
+            startdescription: "[Ce texte est disponible à l'arrivée des héritages avancés.]",
+            description: "La fête commence. N'oubliez pas que le texte de fin sera chargé.",
+            
+            
+        },
+        {
+            id: "minorgrailvictory_withromanticsacrifice",
+extends: ["minorgrailvictory_withromanticsacrifice"],
+            label: "La Fête du Souvenir du Coeur",
+            
+            
+            startdescription: "Je suis gonflé de la vie des autres. Les coutures de mon corps commencent à se rompre. J'invoque maintenant le Graal Rouge, qui est la Mère des Montagnes, qui Consomme, qui est la Source. Il y a ici quelqu'un qui m'a aimé et que j'ai peut-être aimé, comme le Graal Rouge a peut-être aimé Thunderskin avant sa fin. Avec ce sacrifice, l'invocation est à la fois plus facile et plus terrible. En Son nom, je me donnerai naissance à moi-même. La Porte des Tricuspides s'ouvre. Je serai immortel : un Long, un favori du Graal, et l'on se souviendra de celui qui m'a aimé aussi longtemps que j'aurai enduré.",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "minorgrailvictory_trigger",
+extends: ["minorgrailvictory_trigger"],
+            
+            label: "La Fête de la Vraie Naissance",
+            startdescription: "Je suis gonflé de la vie des autres. Les coutures de mon corps commencent à se rompre. J'invoque maintenant le Graal Rouge, qui est la Mère des Montagnes, qui Consomme, qui est la Source. En Son nom, je vais me donner naissance. La Porte des Tricuspides s'ouvre. Je serai immortel : un Long, un favori du Graal. [Tout Adepte utilisé dans le rituel sera consumé. Si vous vous souciez de ceux que vous pourriez laisser derrière vous, faites attention.]",
+            
+            
+            comments: "Cleanup pre-recipe; remove any extraneous elements that might confuse final triggers",
+            
+            
+            
+
+        },
+
+        {
+            id: "minorgrailvictory_overture",
+extends: ["minorgrailvictory_overture"],
+            label: "La Fête de la Vraie Naissance",
+            
+            description: ".",
+            slots: [
+                {
+                    id: "beloved",
+extends: ["beloved"],
+                    label: "Bien-aimé",
+                    
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+            id: "minorgrailvictory",
+extends: ["minorgrailvictory"],
+            label: "La Fête de la Vraie Naissance",
+            
+            
+            
+        },
+
+        {
+            id: "minorgrailvictorywithrisen",
+extends: ["minorgrailvictorywithrisen"],
+            
+            label: "La Fête de la Vraie Naissance",
+            
+            
+        },
+
+
+        {
+            id: "majorlanternvictory",
+extends: ["majorlanternvictory"],
+            label: "LA LANTERNE",
+            
+            
+            
+            startdescription: "[Ce texte est disponible à l'arrivée des héritages avancés.]",
+            description: "j'approche de la Gloire. N'oubliez pas que le texte de fin sera chargé.",
+            
+            
+        },
+
+        {
+            id: "belovedfarewell",
+extends: ["belovedfarewell"],
+            label: "Le choix du Seuil",
+            
+            
+            startdescription: "L'adieu final. Ils resteront, et je monterai.",
+            slots: [
+                {
+                    id: "decision",
+extends: ["decision"],
+                    label: "Décision",
+                    description: "[Ajoutez de la Passion pour vous détourner de votre Ascension... et vivre comme un mortel avec votre bien-aimé. Ne rien faire pour continuer.]",
+                    
+                }
+            ],
+            
+            
+
+        },
+        {
+            id: "auclairvictory",
+extends: ["auclairvictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec votre bien-aimé Auclair.]",
+            description: ".",
+            
+        },
+        {
+            id: "catvictory",
+extends: ["catvictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Cat Caro.]",
+            description: ".",
+            
+        },
+        {
+            id: "clovettevictory",
+extends: ["clovettevictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Clovette.]",
+            description: ".",
+            
+        },
+        {
+            id: "cliftonvictory",
+extends: ["cliftonvictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Clifton.]",
+            description: ".",
+            
+        },
+        {
+            id: "dorothyvictory",
+extends: ["dorothyvictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Dorothy.]",
+            description: ".",
+            
+        },
+        {
+            id: "elridgevictory",
+extends: ["elridgevictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Elridge.]",
+            description: ".",
+            
+        },
+        {
+            id: "enidvictory",
+extends: ["enidvictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Enid.]",
+            description: ".",
+            
+        },
+        {
+            id: "laidlawvictory",
+extends: ["laidlawvictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Laidlaw.]",
+            description: ".",
+            
+        },
+        {
+            id: "leovictory",
+extends: ["leovictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Leo.]",
+            description: ".",
+            
+        },
+        {
+            id: "nevillevictory",
+extends: ["nevillevictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Neville.]",
+            description: ".",
+            
+        },
+        {
+            id: "portervictory",
+extends: ["portervictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Porter.]",
+            description: ".",
+            
+        },
+        {
+            id: "reniravictory",
+extends: ["reniravictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Renira.]",
+            description: ".",
+            
+        },
+        {
+            id: "rosevictory",
+extends: ["rosevictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Rose.]",
+            description: ".",
+            
+        },
+        {
+            id: "salibavictory",
+extends: ["salibavictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Saliba.]",
+            description: ".",
+            
+        },
+        {
+            id: "sleevictory",
+extends: ["sleevictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Slee.]",
+            description: ".",
+            
+        },
+        {
+            id: "sylviavictory",
+extends: ["sylviavictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Sylvia.]",
+            description: ".",
+            
+        },
+        {
+            id: "tristanvictory",
+extends: ["tristanvictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Tristan.]",
+            description: ".",
+            
+        },
+        {
+            id: "valcianevictory",
+extends: ["valcianevictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Valciane.]",
+            description: ".",
+            
+        },
+        {
+            id: "victorvictory",
+extends: ["victorvictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Victor.]",
+            description: ".",
+            
+        },
+        {
+            id: "violetvictory",
+extends: ["violetvictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Violet.]",
+            description: ".",
+            
+            
+            
+            
+        },
+        {
+            id: "ysabetvictory",
+extends: ["ysabetvictory"],
+            label: "L'Amour ?",
+            
+            
+            startdescription: "J'ai entendu une histoire une fois : celle d'une balance où un bol contenait un coeur et l'autre une plume. C'est le choix que je fais maintenant, bien que la plume soit éternelle. [Ce choix annulera votre Ascension, et fera le choix de vivre comme un mortel avec Ysabet.]",
+            description: ".",
+            
+            
+            
+            
+        },
+        {
+            id: "imnotinlove",
+extends: ["imnotinlove"],
+            label: "Dévouement",
+            startdescription: "Peut-être m'aiment-ils. Peut-être que je les aime. Peut-être que rien de tout cela ne compte.",
+            
+            
+            
+        },
+
+        {
+            id: "minorlanternvictory_trigger",
+extends: ["minorlanternvictory_trigger"],
+            
+            label: "L'Incursion",
+            startdescription: "Il reste peu de cette chair. Je passerai par la Porte Tricuspide et je ne reviendrai pas. Le Gardien m'attend. Sur ses traces, je trouverai la lumière de la Gloire. La compréhension est trop grande pour que mon âme la retienne, et donc mon âme s'ouvrira. Je ne serai pas immortel : Je serai plus que cela. [Tout Adepte utilisé dans le rituel sera consumé. Si vous vous souciez de ceux que vous pourriez laisser derrière vous, faites attention]",
+            
+            
+            comments: "Cleanup pre-recipe; remove any extraneous elements that might confuse final triggers",
+            
+            
+            
+
+        },
+        {
+            id: "minorlanternvictory_overture",
+extends: ["minorlanternvictory_overture"],
+            label: "L'Incursion",
+            
+            description: ".",
+            
+            slots: [
+                {
+                    id: "beloved",
+extends: ["beloved"],
+                    label: "Bien-aimé",
+                    
+                    
+                    
+                }
+            ],
+            
+            
+        },
+        {
+            id: "minorlanternvictory",
+extends: ["minorlanternvictory"],
+            label: "L'Incursion",
+            
+            
+            
+        },
+
+        {
+            id: "minorlanternvictorywithrisen",
+extends: ["minorlanternvictorywithrisen"],
+            
+            label: "L'Incursion",
+            
+            
+        },
+
+
+
+        {
+            id: "ambition",
+extends: ["ambition"],
+            
+            label: "Envie d'exotisme ?",
+            
+            slots: [
+                {
+                    id: "Obsessions",
+extends: ["Obsessions"],
+                    label: "Obsessions",
+                    description: "Des désirs plus profonds",
+                    
+                    
+                }
+            ],
+            startdescription: "Quelle faim nous pousse ?",
+            description: "",
+            
+            
+            
+        },
+        {
+            id: "L_independent",
+extends: ["L_independent"],
+            label: "Rivalité !",
+            
+            
+            
+            
+
+        },
+
+        {
+            id: "L_independent_router",
+extends: ["L_independent_router"],
+            label: "Rivalité !",
+            
+            
+            comments: "Cette exigence est strictement inutile, mais laissé ici juste au cas où nous déplacerions à nouveau les connexions de recettes - c'est un filtre important",
+            startdescription: "Ce rival s'élèvera avant moi. [Les occultistes indépendants tenteront de monopoliser l'attention des Heures. Ils peuvent aussi mener d'autres projets, que vous le vouliez ou non.]",
+            
+            
+        },
+
+        {
+            id: "L_ascension_rival",
+extends: ["L_ascension_rival"],
+            
+            
+            
+            label: "Un Prétendant Victorieux",
+            startdescription: "Les réalisations de mon Rival éclipsent les miennes. Il va maintenant s'élever jusqu'à prendre place dans la Maison du Soleil, tandis qu'ici, dans le monde, je resterai seul avec mes frustrations.",
+            
+            
+            
+        },
+
+        {
+            id: "L_ascension_rival_apostle",
+extends: ["L_ascension_rival_apostle"],
+            
+            
+            
+            label: "Trop d'ennemis",
+            startdescription: "Un ennemi immortel est un péril mortel. Deux ennemis immortels, c'est trop. Notre Grand Oeuvre a échoué.",
+            
+            
+            
+        },
+
+
+
+        {
+            id: "L_rebellion_activate",
+extends: ["L_rebellion_activate"],
+            label: "Rébellion !",
+            
+            
+            startdescription: "Trop ou pas assez ? Quoi que j'aie fait, cela a mis quelqu'un en colère au-delà de toute tolérance.",
+            description: "Un allié me quitte. Il n'est peut-être pas un ennemi - pas encore - pas exactement - mais il ne me servira plus.",
+            
+            
+        },
+        {
+            id: "L_rebellion_noactivation",
+extends: ["L_rebellion_noactivation"],
+            label: "Mécontentement",
+            
+            
+            startdescription: "Trop ou pas assez ? Quoi que j'aie fait, cela a mis en colère un allié.",
+            description: "Celui-ci a passé un certain temps dans une solitude boudeuse. Pour le moment, il va revenir au bercail.",
+            
+            
+        },
+
+        {
+            id: "ending.minorcrownedgrowthvictory",
+extends: ["ending.minorcrownedgrowthvictory"],
+            
+            label: "INFECTER ET DEVENIR",
+            
+            startdescription: "Mon appétit est devenu une chose qui me dépasse, mais qui ne m'est pas étrangère. Mon abdomen pullule de fécondité. Il est trop tard.",
+            
+            
+        },
+
+
+        {
+            id: "ascensionnotyet",
+extends: ["ascensionnotyet"],
+            label: "Frustrations de mortels",
+            
+            
+            slots: [
+                {
+                    id: "Temptations",
+extends: ["Temptations"],
+                    label: "Tentations",
+                    description: "Le feu doit être nourri",
+                    
+                    
+                }
+            ],
+            startdescription: "Quelle faim me pousse ?",
+            
+            description: "Pour l'instant, je n'ai que les besoins et les désirs de tout autre mortel. Mais qu'est-ce qui m'anime ?",
+            
+            
+        },
+
+
+        {
+            id: "ascensionhintpower2",
+extends: ["ascensionhintpower2"],
+            label: "Le Rugissement de la Forge",
+            
+            
+            startdescription: "Je n'ai jamais assez chaud, maintenant.",
+            description: "J'ai rêvé de la Forge, et j'aspire à la chaleur de ses flammes. Il est presque temps d'exécuter l'Oeuvre et de commencer la transformation - mais je dois avoir assez d'aspect de la Forge. <b>Exploration</b> pourrait en trouver plus.",
+            
+            
+        },
+        {
+            id: "ascensionhintenlightenment2",
+extends: ["ascensionhintenlightenment2"],
+            label: "La Lumière du Guetteur",
+            
+            
+            startdescription: "Dès le réveil, j'ai commencé à voir de nouvelles couleurs.",
+            description: "Ma curiosité devient un besoin physique. Mes yeux seront des seuils. Il est presque temps d'effectuer le Travail et de commencer la transformation - mais je dois avoir suffisamment d'aspect de la Lanterne. <b>Exploration</b> pourrait en trouver plus.",
+            
+            
+        },
+        {
+            id: "ascensionhintsensation2m",
+extends: ["ascensionhintsensation2m"],
+            label: "Le toucher du Graal",
+            
+            
+            startdescription: "Mes désirs évoluent.",
+            description: "Les merveilleuses marées du Graal se déplacent en moi. Il est presque temps d'exécuter le Travail et de commencer la transformation - mais je dois avoir assez d'Aspect du Graal. <b>Explorer</b> permettrait d'en trouver plus.",
+            
+            
+        },
+        {
+            id: "ascensionhintsensation2f",
+extends: ["ascensionhintsensation2f"],
+            label: "Le toucher du Graal",
+            
+            
+            startdescription: "Mes désirs évoluent.",
+            description: "Le Graal m'a touché de ses doigts merveilleux. Il est presque temps d'exécuter le travail et de commencer la transformation - mais je dois avoir assez d'aspect de Graal. <b>Exploration</b> pourrait en trouver plus.",
+            
+            
+        },
+
+
+
+        {
+            id: "ascensionhintpower1",
+extends: ["ascensionhintpower1"],
+            label: "La lueur de la Forge",
+            
+            
+            startdescription: "La faim brûle dans mon coeur - la faim du pouvoir que les arts invisibles pourraient apporter.",
+            description: "La Forge des Jours attend dans mes rêves. Si j'apprends les croyances de la Forge et que je rêve de cette tentation, je peux avancer dans mon projet. Le besoin me ronge.",
+            
+            
+        },
+        {
+            id: "ascensionhintenlightenment1",
+extends: ["ascensionhintenlightenment1"],
+            label: "Les empreintes du Guetteur",
+            
+            
+            startdescription: "La faim brille dans mon cerveau - la faim de la connaissance que les arts invisibles pourraient apporter.",
+            description: "Le Guetteur, qui est la Porte-dans-l'Oeil, attend dans mes rêves. Si j'apprends les croyances de la Lanterne, et que je rêve de cette tentation, je peux avancer dans mon projet. Le besoin me ronge.",
+            
+            
+        },
+        {
+            id: "ascensionhintsensation1",
+extends: ["ascensionhintsensation1"],
+            label: "Les murmures du Graal",
+            
+            
+            startdescription: "La faim rôde dans mon corps - la faim des plaisirs que les arts invisibles pourraient apporter.",
+            description: "La coupe rouge, la coupe de la noyade et de la dévoration, m'attend dans mes rêves. Si j'apprends les croyances du Graal, et que je rêve de cette tentation, je pourrais avancer dans mon projet. Le besoin me ronge.",
+            
+            
+        },
+
+
+
+        {
+            id: "ascensioncravingpower",
+extends: ["ascensioncravingpower"],
+            label: "La Chaleur qui façonne",
+            
+            
+            slots: [
+                {
+                    id: "Fuels",
+extends: ["Fuels"],
+                    label: "Combustibles",
+                    description: "Le feu doit être nourri",
+                    
+                    
+                }
+            ],
+            startdescription: "J'ai besoin de feux toujours plus chauds. Leur combustible est maintenant rare et coûteux. Si je ne peux pas me les offrir, le froid me rattrapera.",
+            
+            
+        },
+
+        {
+            id: "ascensionsuccesscravingpower_descend",
+extends: ["ascensionsuccesscravingpower_descend"],
+            label: "Les Cendres du changement",
+            
+            
+            slots: [
+                {
+                    id: "Pain",
+extends: ["Pain"],
+                    label: "Douleur",
+                    description: "Mon besoin me ronge",
+                    
+                    
+                }
+            ],
+            startdescription: "Je frissonne. Sans le feu, ma chair va s'amincir et s'affaiblir.",
+            description: "Ma force est moindre. Mon sang est plus froid. Je pense que même certaines de mes cicatrices guérissent. Je m'affaiblis.",
+            
+            
+            
+        },
+
+        {
+            id: "ascensioncravingpower_ascend",
+extends: ["ascensioncravingpower_ascend"],
+            label: "Une autre Marque",
+            
+            startdescription: "",
+            description: "Les flammes me désirent autant que je les désire. Leur contact est bien plus que de la douleur. J'ai une autre Marque.",
+            
+            
+        },
+
+
+
+        {
+            id: "ascensioncravingsensation",
+extends: ["ascensioncravingsensation"],
+            label: "Le Besoin Rouge",
+            
+            
+            slots: [
+                {
+                    id: "Sustenance",
+extends: ["Sustenance"],
+                    label: "Nourriture",
+                    description: "Ceux qui sont morts récemment, ou ceux qui sont vivants.",
+                    
+                    
+                }
+            ],
+            startdescription: "Une soif de sang ? Si seulement c'était aussi simple. Je les drainerai beaucoup plus intensément.",
+            
+            
+        },
+
+        {
+            id: "ascensionsuccesscravingsensation_descend",
+extends: ["ascensionsuccesscravingsensation_descend"],
+            label: "Le Désert à l'intérieur",
+            
+            
+            slots: [
+                {
+                    id: "Pain",
+extends: ["Pain"],
+                    label: "Douleur",
+                    description: "Mon besoin me ronge",
+                    
+                    
+                }
+            ],
+            startdescription: "Sans la vie des autres, ma propre vie se nourrira d'elle-même.",
+            description: "Mes fluides se diluent, ma chair se dessèche, mes changements défont, mes passions s'estompent. Je deviens moins que ce que je veux.",
+            
+            
+            
+        },
+
+
+        {
+            id: "ascensioncravingsensation_ascend",
+extends: ["ascensioncravingsensation_ascend"],
+            label: "Une autre Marque",
+            
+            
+            startdescription: "",
+            description: "Quand j'ai fini, la satisfaction est aussi profonde que la lune dans la mer. Une autre Marque bourgeonne en moi.",
+            
+        },
+
+
+
+        {
+            id: "ascensioncravingenlightenment",
+extends: ["ascensioncravingenlightenment"],
+            label: "Les curiosités de la Lumière",
+            
+            
+            slots: [
+                {
+                    id: "Conversation",
+extends: ["Conversation"],
+                    label: "Conversation",
+                    description: "Les derniers mots d'un esprit vivant.",
+                    
+                    
+                }
+            ],
+            startdescription: "Du temps seul dans une pièce silencieuse avec un esprit vivant. C'est tout ce dont j'ai besoin.",
+            
+            
+        },
+
+
+        {
+            id: "ascensionsuccesscravingenlightenment_descend",
+extends: ["ascensionsuccesscravingenlightenment_descend"],
+            label: "Le Désert à l'intérieur",
+            
+            
+            slots: [
+                {
+                    id: "Pain",
+extends: ["Pain"],
+                    label: "Douleur",
+                    description: "Mon besoin me ronge",
+                    
+                    
+                }
+            ],
+            startdescription: "Si je ne peux pas consumer les pensées d'un esprit vivant, mon besoin se retournera contre moi.",
+            description: "La lumière du Mansus s'affaiblit en moi. Je suis moins que ce que j'étais. J'ai besoin de parler. Je dois avoir ces conversations particulières.",
+            
+            
+            
+        },
+
+        {
+            id: "ascensioncravingenlightenment_ascend",
+extends: ["ascensioncravingenlightenment_ascend"],
+            label: "Une autre Marque",
+            
+            
+            startdescription: "",
+            description: "J'ai bu la lumière de leur esprit. Elle me fait vibrer et me remplit. Les Marques s'éclairent en moi.",
+            
+        },
+
+
+        {
+            id: "ascensioncravingremembrance",
+extends: ["ascensioncravingremembrance"],
+            label: "La Faim qui grandit dans la Terre Noire",
+            
+            
+            
+            startdescription: "Le goût - le goût particulier - le goût qui n'est ni juste ni mauvais - il vient encore me troubler la bouche. Ma langue va gonfler, mes lèvres vont noircir. L'élixir a fixé ses spores en moi, et seule la chair morte peut les étouffer.",
+            
+        },
+        {
+            id: "ascensioncravingremembrancenegative",
+extends: ["ascensioncravingremembrancenegative"],
+            label: "La Faim qui grandit dans la Terre Noire",
+            
+            
+            
+            startdescription: "Le goût - le goût particulier - le goût qui n'est ni juste ni mauvais - il vient encore me troubler la bouche. Ma langue va gonfler, mes lèvres vont noircir. L'élixir a fixé ses spores en moi, et seule la chair morte peut les étouffer.",
+            comments: "This is a safety measure for players who managed to allow their hunger to go negative with an old save.",
+            
+        },
+
+
+
+        {
+            id: "ascensioncravingchange_tryascendfroma",
+extends: ["ascensioncravingchange_tryascendfroma"],
+            label: "La Tentation du changement",
+            
+            
+            slots: [
+                {
+                    id: "Lesson",
+extends: ["Lesson"],
+                    label: "Leçon",
+                    description: "Abandonner, pour devenir",
+                    
+                    
+                }
+            ],
+            startdescription: "J'aspire à être autre chose, mais ai-je appris la leçon dont j'ai besoin devant les témoins que je dois avoir ?",
+            
+            
+        },
+
+        {
+            id: "ascensioncravingchange_heartlessonascendfroma",
+extends: ["ascensioncravingchange_heartlessonascendfroma"],
+            label: "Vêtements, abandonnés",
+            
+            
+            description: "Lorsque je renonce aux choix que j'ai faits, lorsque la lune filtrée par les arbres parcourt mes surfaces, je fais pousser la lumière comme une feuille.",
+            
+            
+            
+            
+        },
+        {
+            id: "ascensioncravingchange_mothlessonascendfroma",
+extends: ["ascensioncravingchange_mothlessonascendfroma"],
+            label: "Vêtements, abandonnés",
+            
+            
+            description: "J'écaille mon enveloppe pour qu'elle pousse. Voici la lune et me voici dans son oeil -",
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "ascensioncravingchange_tryascendfromb",
+extends: ["ascensioncravingchange_tryascendfromb"],
+            label: "Vers la deuxième Transformation",
+            
+            
+            slots: [
+                {
+                    id: "Lesson",
+extends: ["Lesson"],
+                    label: "Leçon",
+                    description: "Abandonner, pour devenir",
+                    
+                    
+                }
+            ],
+            startdescription: "La peau que je porte deviendra trop petite, et je dois donc commencer à l'abandonner. Je devrai envoyer une partie de moi-même pour apprendre.",
+            
+            
+        },
+
+        {
+            id: "ascensioncravingchange_heartlessonascendfromb",
+extends: ["ascensioncravingchange_heartlessonascendfromb"],
+            label: "Téguments, abandonnés",
+            
+            
+            description: "Ma peau la plus superficielle se libère en lambeaux et en taches, et moi aussi.",
+            
+            
+            
+            
+        },
+        {
+            id: "ascensioncravingchange_mothlessonascendfromb",
+extends: ["ascensioncravingchange_mothlessonascendfromb"],
+            label: "Téguments, abandonnés",
+            
+            
+            description: "Nous sommes tous des couches mais pas tant que ça",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "ascensioncravingchange_tryascendfromc",
+extends: ["ascensioncravingchange_tryascendfromc"],
+            label: "Vers la troisième Transformation",
+            
+            
+            slots: [
+                {
+                    id: "Lesson",
+extends: ["Lesson"],
+                    label: "Leçon",
+                    description: "Abandonner, pour devenir",
+                    
+                    
+                }
+            ],
+            startdescription: "On révèle, on dissimule, on révèle. Pour continuer, je dois apprendre une leçon de dissimulation.",
+            
+            
+        },
+
+        {
+            id: "ascensioncravingchange_heartlessonascendfromc",
+extends: ["ascensioncravingchange_heartlessonascendfromc"],
+            label: "Mes Pas, abandonnés",
+            
+            
+            description: "Sans pas à suivre, qui connaîtra notre destination ? Je souhaite tellement y aller.",
+            
+            
+            
+            
+        },
+        {
+            id: "ascensioncravingchange_mothlessonascendfromc",
+extends: ["ascensioncravingchange_mothlessonascendfromc"],
+            label: "Mes Pas, abandonnés",
+            
+            
+            description: "La plus ancienne leçon de Moldywarp : entre musique et silence",
+            comments: "absence de point final intentionnel",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "ascensioncravingchange_tryascendfromd",
+extends: ["ascensioncravingchange_tryascendfromd"],
+            label: "Vers la quatrième Transformation",
+            
+            
+            slots: [
+                {
+                    id: "Lesson",
+extends: ["Lesson"],
+                    label: "Leçon",
+                    description: "Abandonner, pour devenir",
+                    
+                    
+                }
+            ],
+            startdescription: "Pour le prochain changement, je dois prendre des dispositions pour accueillir les modifications.",
+            
+            
+        },
+
+        {
+            id: "ascensioncravingchange_heartlessonascendfromd",
+extends: ["ascensioncravingchange_heartlessonascendfromd"],
+            label: "Nuances abandonnées",
+            
+            
+            description: "Ma chair qui vient de pâlir est riche des sucs de la dissolution.",
+            
+            
+            
+            
+        },
+        {
+            id: "ascensioncravingchange_mothlessonascendfromd",
+extends: ["ascensioncravingchange_mothlessonascendfromd"],
+            label: "Nuances abandonnées",
+            
+            
+            description: "Quand je serai dans la dernière peau, tout ce moi va se dissoudre. Si vite.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "ascensioncravingchange_tryascendfrome",
+extends: ["ascensioncravingchange_tryascendfrome"],
+            label: "Vers la cinquième Transformation",
+            
+            
+            slots: [
+                {
+                    id: "Lesson",
+extends: ["Lesson"],
+                    label: "Leçon",
+                    description: "Abandonner, pour devenir",
+                    
+                    
+                }
+            ],
+            startdescription: "La porte que je vais franchir n'est jamais visible, ni à l'oeil qui se réveille, ni à l'oeil qui est fermé. Je dois abandonner ces yeux à celui qui connaît le chemin, afin de pouvoir voir.",
+            
+            
+        },
+
+        {
+            id: "ascensioncravingchange_heartlessonascendfrome",
+extends: ["ascensioncravingchange_heartlessonascendfrome"],
+            label: "La vue, abandonnée",
+            
+            
+            description: "Parfois, les yeux citrins de celui qui a subi cette transformation sont confondus avec les yeux illuminés de celui qui s'approche de l'Incursion. Mais jamais longtemps. ",
+            
+            
+            
+            
+        },
+        {
+            id: "ascensioncravingchange_mothlessonascendfrome",
+extends: ["ascensioncravingchange_mothlessonascendfrome"],
+            label: "La vue, abandonnée",
+            
+            
+            description: "J'entre maintenant dans ma dernière peau.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "ascensioncravingchange_tryascendfromg",
+extends: ["ascensioncravingchange_tryascendfromg"],
+            
+            label: "Le Pouls à l'intérieur",
+            
+            slots: [
+                {
+                    id: "Lesson",
+extends: ["Lesson"],
+                    label: "Leçon",
+                    description: "Abandonner, pour devenir",
+                    
+                    
+                }
+            ],
+            startdescription: "Je dois rêver bientôt, avant que mon âme n'éclate.",
+            
+        },
+
+        {
+            id: "ascensioncravingchange_tryascendfromf",
+extends: ["ascensioncravingchange_tryascendfromf"],
+            
+            label: "Vers la sixième Transformation",
+            
+            slots: [
+                {
+                    id: "Lesson",
+extends: ["Lesson"],
+                    label: "Leçon",
+                    description: "Abandonner, pour devenir",
+                    
+                    
+                }
+            ],
+            startdescription: "Les os sont toujours les derniers. Quand j'aurai appris comment ils changent, je serai prêt.",
+            
+            
+        },
+
+        {
+            id: "ascensioncravingchange_heartlessonascendfromf",
+extends: ["ascensioncravingchange_heartlessonascendfromf"],
+            label: "Os, abandonnés",
+            
+            
+            description: "Maintenant que le soleil s'est couché et que les ombres sont éteintes, il est temps de se souvenir, et je me souviendrai avec mes os, comme on me l'a appris. Je suis presque prêt.",
+            
+            
+            
+            
+        },
+        {
+            id: "ascensioncravingchange_mothlessonascendfromf",
+extends: ["ascensioncravingchange_mothlessonascendfromf"],
+            label: "Os, abandonnés",
+            
+            
+            description: "Maintenant que le soleil est tombé et que les ombres sont étalées comme de l'huile, mes os savent ce qui doit arriver à la fin. La fin est très proche.",
+
+            
+            
+            
+            
+        },
+
+        {
+            id: "ascensioncravingchange_noascension",
+extends: ["ascensioncravingchange_noascension"],
+            label: "Le même Moi",
+            
+            description: "Je ne suis pas plus avancé sur la voie du changement. C'est dans les mouvements des Formes secrètes que je dois trouver ma leçon.",
+            
+            
+        },
+
+
+
+
+
+
+    ]
+}

@@ -1,0 +1,280 @@
+{
+    "elements": [
+        {
+            id: "welland_unknown",
+extends: ["welland_unknown"],
+            label: "Une présence obscure",
+            description: "Leur pouvoir est formidable ; leur identité, encore inconnue. [Une fois que la puissance, les relations ou la Lumière stellaire de Long atteint 3, il peut être possible de les démasquer.]",
+            
+            
+        },
+        {
+            id: "tryphon_unknown",
+extends: ["tryphon_unknown"],
+            label: "Une présence obscure",
+            description: "Leur pouvoir est formidable ; leur identité, encore inconnue. [Une fois que la puissance, les relations ou la Lumière stellaire de Long atteint 3, il peut être possible de les démasquer.]",
+            
+            
+        },
+
+        {
+            id: "diarist_unknown",
+extends: ["diarist_unknown"],
+            label: "Une présence obscure",
+            description: "Leur pouvoir est formidable ; leur identité, encore inconnue. [Une fois que la puissance, les relations ou la Lumière stellaire de Long atteint 3, il peut être possible de les démasquer.]",
+            
+            
+        },
+
+        {
+            id: "julian_unknown",
+extends: ["julian_unknown"],
+            label: "Une présence obscure",
+            description: "Leur pouvoir est formidable ; leur identité, encore inconnue. [Une fois que la puissance, les relations ou la Lumière stellaire de Long atteint 3, il peut être possible de les démasquer.]",
+            
+            
+        },
+
+        {
+            id: "welland",
+extends: ["welland"],
+            label: "Capitaine Welland",
+            description: "'Ce n'est pas une noble entreprise.' [Welland est plus susceptible d'utiliser les attaques d'Assaut.]",
+            
+            
+            
+        },
+        {
+            id: "tryphon",
+extends: ["tryphon"],
+            label: "Lady Tryphon",
+            description: "'Non, il ne peut pas vous faire de mal ; il ne peut pas vous trouver. Mais je ne souffre pas d'une telle restriction.' [Tryphon est plus susceptible d'utiliser les attaques d'Intrigue.]",
+            
+            
+            
+        },
+
+        {
+            id: "diarist",
+extends: ["diarist"],
+            label: "Le journaliste",
+            description: "'Votre prétendant va vous faire une sacrée belle note en bas de page. Mais je n'en attendais pas plus.' [Le journaliste est plus susceptible d'utiliser les attaques de Lumière stellaire.]",
+            
+            
+            
+        },
+
+        {
+            id: "julian",
+extends: ["julian"],
+            label: "J.C.",
+            description: "'Plus de noms. C'est tout ; je suis désolé ; je n'ai pas le temps de faire la conversation.' [Julian utilisera plus fréquemment les temps de repos pour accroître ses capacités.]",
+            
+            
+            
+        },
+        {
+            id: "welland.defeated",
+extends: ["welland.defeated"],
+            label: "Une lettre de Welland",
+            description: "'SIR - (Il ne semble pas que Welland ait pensé qu'il aurait pu être battu par quelqu'un d'autre qu'un 'sir') Je suis  l'ennemi le plus dangereux que vous ayez jamais affronté, et j'ai vaincu des ennemis bien plus importants que vous. Vous méritez mieux que d'être du combustible pour bûcher. Je vous invite à briser vos chaînes, comme l'a fait le Lionsmith il y a si longtemps,et à vous lever pour prendre votre place en tant que Long. \r\n Je joins le secret que Darius a dit à Alexandre à Issus. Utilisez-le à bon escient.\r\n\r\nCordialement,\r\n\r\nW. '\r\n\r\n[Le secret est attaché. Vous pouvez l'utiliser pour vous libérer de votre Mentor.]",
+                slots:
+                [
+                    {
+                        id: "mentor",
+extends: ["mentor"],
+                        label: "Formateur",
+                    }
+                ],
+        },
+
+        {
+            id: "tryphon.defeated",
+extends: ["tryphon.defeated"],
+            label: "Une lettre de Lady Tryphon",
+            description: "'Mon amour, Je suis vaincu, et vous, mon vainqueur, avez gagné mon dévouement. Je joins un morceau de moi-même, et je pars à la rencontre de ma mort. Consommez ce qui reste de moi, et nous ne ferons plus qu'un, comme l'a toujours voulu le Fleuriste. Rejetez votre 'Délice'. Votre destin est bien plus grand. Vous vous demanderez: est-ce un dernier tour ? Un stratagème désespéré pour assurer votre trahison ? Je ne peux que répondre: goûtez-moi, et voyez.\r\n\r\nJe reste, votre délicieuse amie,\r\n\r\nT.E.' [ Si vous consommez le morceau ci-joint de Lady Tryphon, vous pouvez vous libérer de votre Mentor. ]",
+            slots: [
+                {
+                    id: "mentor",
+extends: ["mentor"],
+                    label: "Délice",
+                }
+            ],
+            
+        },
+
+        {
+            id: "diarist.defeated",
+extends: ["diarist.defeated"],
+            label: "Un rêve du journaliste",
+            description: "La lumière du soleil à travers la fenêtre ouest du Scriptorium est défaillante. Alors que le journaliste écrit sa dernière ligne, la chambre se refroidit de l'or vers le gris. Il ferme son petit livre en un clin d'oeil. 'La mort est abattue', explique-t-il, 'et je tombe déjà. Je ne vous en veux pas. Mais je vais vous dire, J'espère que votre Illuminé trébuchera et tombera au cours de l'ascension'. Le visage du journaliste s'efface, comme un homme qui n'écrit pas, et ses yeux ont déjà disparu. Il vous tend son petit livre. 'C'est votre dernière chance. Vous pouvez aller là où j'étais, ou là où vous allez. Je sais ce qui est le mieux.' Sa bouche se rouvre comme une fermeture éclair, et il est comme du papier blanc.\r\n\r\n[ Si vous étudiez le rêve du journal intime, vous pouvez vous libérer de votre Mentor. ]",
+            slots: [
+                {
+                    id: "mentor",
+extends: ["mentor"],
+                    label: "L'éclairé",
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "julian.defeated",
+extends: ["julian.defeated"],
+            label: "Une lettre de Julian Coseley",
+            description: "'Ennemi,\r\nJe ne suis pas si facilement détruit. Mais je reconnaîtrai que vous m'avez vaincu, et je vous récompenserai donc par mes conseils. Vous êtes un imbécile, doublé d'un imbécile pour placer une pierre de plus dans les murs du Mansus. Vous pouvez, si vous le souhaitez, jeter cette pierre dans la nuit.\r\n\r\nSi vous la jetez ainsi, vous mourrez vide et seul, comme tout le monde, comme le Long. Vous pourriez mourir libre. \r\n\r\n-Julian' \r\n\r\n[ Si vous prenez la leçon de Julian à coeur, vous pouvez vous libérer de votre Mentor. ]",
+            slots: [
+                {
+                    id: "mentor",
+extends: ["mentor"],
+                    label: "Fondateur",
+                }
+            ],
+            
+        },
+
+        {
+            id: "strategy.prep",
+extends: ["strategy.prep"],
+            label: "Préparatifs en cours",
+            description: "Notre ennemi immortel prépare une autre action. [Le Long a besoin de trois Préparatifs pour lancer une autre action.]",
+            
+        },
+
+        {
+            id: "strategy.prep.delayed",
+extends: ["strategy.prep.delayed"],
+            label: "Préparatifs gâchés !",
+            description: "Notre espion a perturbé un élément des préparatifs de notre ennemi. [Le Long a perdu un jeton de Préparatifs à cause de votre sabotage.]",
+            
+        },
+
+
+
+        {
+            id: "strategy.assault.concealed",
+extends: ["strategy.assault.concealed"],
+            label: "Les projets de Long",
+            description: "Le Long prépare sa prochaine action contre nous. Si nous envoyons un espion, nous pourrons peut-être découvrir quelque chose de leurs desseins.",
+            
+            
+            
+            
+        },
+        {
+            id: "strategy.intrigue.concealed",
+extends: ["strategy.intrigue.concealed"],
+            label: "Les projets de Long",
+            description: "Le Long prépare sa prochaine action contre nous. Si nous envoyons un espion, nous pourrons peut-être découvrir quelque chose de leurs desseins.",
+            
+            
+            
+            
+
+        },
+        {
+            id: "strategy.dreams.concealed",
+extends: ["strategy.dreams.concealed"],
+            label: "Les projets de Long",
+            description: "Le Long prépare sa prochaine action contre nous. Si nous envoyons un espion, nous pourrons peut-être découvrir quelque chose de leurs desseins.",
+            
+            
+            
+            
+
+        },
+        {
+            id: "strategy.downtime.concealed",
+extends: ["strategy.downtime.concealed"],
+            label: "Les projets de Long",
+            description: "Le Long prépare sa prochaine action contre nous. Si nous envoyons un espion, nous pourrons peut-être découvrir quelque chose de leurs desseins.",
+            
+            
+            
+            
+
+        },
+
+
+
+        {
+            id: "strategy.assault.revealed",
+extends: ["strategy.assault.revealed"],
+            label: "Les plans de Long dévoilés : Assaut",
+            description: "Notre ennemi a l'intention de lancer une certaine forme d'attaque directe, cette fois.",
+            
+            
+            
+        },
+        {
+            id: "strategy.intrigue.revealed",
+extends: ["strategy.intrigue.revealed"],
+            label: "Les plans de Long dévoilés : Intrigue",
+            description: "Notre ennemi a l'intention d'utiliser la ruse contre nous, cette fois.",
+            
+            
+            
+
+        },
+        {
+            id: "strategy.dreams.revealed",
+extends: ["strategy.dreams.revealed"],
+            label: "Les plans de Long dévoilés : Rêves",
+            description: "Notre ennemi nous trouvera à travers le Mansus, cette fois.",
+            
+            
+            
+
+        },
+        {
+            id: "strategy.downtime.revealed",
+extends: ["strategy.downtime.revealed"],
+            label: "Les plans de Long dévoilés : Répit",
+            description: "Notre ennemi ne tentera pas d'agir contre nous, cette fois-ci. Il se repose... et peut-être qu'en se reposant, il deviendra plus fort.",
+            
+            
+            
+        },
+
+
+        {
+            id: "strategy.dreams.preference",
+extends: ["strategy.dreams.preference"],
+            label: "Un pressentiment : les leçons de l'âme",
+            description: "Pour sa prochaine action, ce Long essaiera probablement de tirer les leçons de nos faiblesses en matière de rêves - même si ses plans lui dicteraient habituellement de faire autrement.",
+            comments: "This is currently unused - it became less relevant once tablereqs came in.",
+            
+            
+
+        },
+
+
+
+        {
+            id: "long.lesson.might",
+extends: ["long.lesson.might"],
+            label: "Augmentation de puissance",
+            
+            description: "Notre ennemi immortel nous prend plus au sérieux et a mis plus de moyens à sa disposition. [La puissance de l'ennemi Long augmentera, ce qui lui permettra de mener des assauts plus puissants.]"
+        },
+
+
+        {
+            id: "long.lesson.connections",
+extends: ["long.lesson.connections"],
+            label: "Plus de relations",
+            
+            description: "Notre ennemi immortel nous prend plus au sérieux et a mis plus de moyens à sa disposition. [Les relations de l'ennemi Long vont s'intensifier, ce qui lui permettra de mener des intrigues plus sournoises.]"
+        },
+
+        {
+            id: "long.lesson.dreamwork",
+extends: ["long.lesson.dreamwork"],
+            label: "Aperçu de l'âme",
+            
+            description: "Notre ennemi immortel a appris quelque chose de nous. [Un ennemi Long verra sa Lumière stellaire augmenter, ce qui lui donnera plus de puissance dans nos rêves.]",
+        },
+    ]
+}

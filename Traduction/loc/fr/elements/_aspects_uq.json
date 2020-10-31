@@ -1,0 +1,293 @@
+{
+    "elements": [
+        {
+            id: "uqauclair",
+extends: ["uqauclair"],
+            label: "Auclair",
+            description: "",
+            
+            
+        },
+
+        {
+            id: "uqcat",
+extends: ["uqcat"],
+            label: "Cat Caro",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqconnie",
+extends: ["uqconnie"],
+            label: "Connie",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqclovette",
+extends: ["uqclovette"],
+            label: "Clovette",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqclifton",
+extends: ["uqclifton"],
+            label: "Clifton",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqdouglas",
+extends: ["uqdouglas"],
+            label: "Douglas",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqdorothy",
+extends: ["uqdorothy"],
+            label: "Dorothy",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqelridge",
+extends: ["uqelridge"],
+            label: "Elridge",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqenid",
+extends: ["uqenid"],
+            label: "Enid",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqlaidlaw",
+extends: ["uqlaidlaw"],
+            label: "Laidlaw",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqleo",
+extends: ["uqleo"],
+            label: "Leo",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqnatalia",
+extends: ["uqnatalia"],
+            label: "Natalia",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqneville",
+extends: ["uqneville"],
+            label: "Neville",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqporter",
+extends: ["uqporter"],
+            label: "Porter",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqrenira",
+extends: ["uqrenira"],
+            label: "Renira",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqrose",
+extends: ["uqrose"],
+            label: "Rose",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqsaliba",
+extends: ["uqsaliba"],
+            label: "Saliba",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqslee",
+extends: ["uqslee"],
+            label: "Slee",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqspencer",
+extends: ["uqspencer"],
+            label: "Spencer",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqsylvia",
+extends: ["uqsylvia"],
+            label: "Sylvia",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqtristan",
+extends: ["uqtristan"],
+            label: "Tristan",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqvalciane",
+extends: ["uqvalciane"],
+            label: "Valciane",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqvictor",
+extends: ["uqvictor"],
+            label: "Victor",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqviolet",
+extends: ["uqviolet"],
+            label: "Violet",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqysabet",
+extends: ["uqysabet"],
+            label: "Ysabet",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqzachary",
+extends: ["uqzachary"],
+            label: "Zachary",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqbenefactorm",
+extends: ["uqbenefactorm"],
+            label: "Bienfaiteur, Male",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqbenefactorf",
+extends: ["uqbenefactorf"],
+            label: "Bienfaiteur, Female",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqcabaret",
+extends: ["uqcabaret"],
+            label: "Emplacement du cabaret",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqdesire",
+extends: ["uqdesire"],
+            label: "Désir",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqsending",
+extends: ["uqsending"],
+            label: "Envoi",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqvitulation",
+extends: ["uqvitulation"],
+            label: "Recette de Vitulation",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqthirdwaywitnesses",
+extends: ["uqthirdwaywitnesses"],
+            label: "Témoins de la troisième voie",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqspirit_forgee_edge",
+extends: ["uqspirit_forgee_edge"],
+            label: "Creuset du Roi",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqspirit_graile_edge",
+extends: ["uqspirit_graile_edge"],
+            label: "Ezeem, la deuxième Phase",
+            description: "",
+            
+            
+        },
+        {
+            id: "uqspirit_lanterne_secret",
+extends: ["uqspirit_lanterne_secret"],
+            label: "Teresa",
+            description: "",
+            
+            
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "recipes": [
+        {
+            id: "legacyphysicianwork",
+extends: ["legacyphysicianwork"],
+            label: "Travailler à l'Institut",
+            
+            
+            
+            
+            startdescription: "#PREVIOUSCHARACTERNAME# était - un patient difficile -. J'ai du m'absenter un certain temps, après cette affaire.",
+            description: "J'ai fini tôt. Le directeur a été sympathique. Mais je dois retourner travailler à plein temps, maintenant.",
+            
+            
+        },
+
+        {
+            id: "legacyphysicianopenstudy",
+extends: ["legacyphysicianopenstudy"],
+            
+            label: "Notes dans le cas de #PREVIOUSCHARACTERNAME#",
+            startdescription: "Mes notes débordent du tiroir du bureau où je les avais rangées.",
+            description: "Le patient a parlé de choses qui étaient dénuées de sens. La maison sans murs. Le soleil divisé. La lumière invisible. Mais quand je me rappelle comment il a parlé de cette lumière invisible, mon coeur s'emballe. Je ne peux plus ignorer mes notes. [Le <b>Temps</b> passe maintenant.]",
+            
+            
+            
+        },
+        {
+            id: "legacyphysicianstudynotes",
+extends: ["legacyphysicianstudynotes"],
+            
+            
+            label: "L'étude de mes notes dans le cas de #PREVIOUSCHARACTERNAME#",
+            startdescription: "En commençant à lire, je me souviens de la joie dans les yeux du patient, de la musique dans sa voix, mais aussi de l'odeur de la pièce où il se trouve.",
+            description: "D'étranges moments où les choses prennent sens. J'avais presque oublié cette curieuse discussion sur 'le chemin de Morland' -  mais maintenant, je réalise que c'était 'le chemin <i>vers</i> Morland'. J'ai entendu parler de ce Morland - un marchand de livres troublants. \n Le reste de ses divagations - ne signifient rien de plus qu'avant. Comment une maison peut-elle manquer de murs ? Quelle est cette gloire à laquelle il aspirait ? Mais je peux déjà sentir les rêves, qui m'attendent dans le sommeil.",
+            
+            
+            
+            comments: "The book dealer can be studied through the generic intro; there's a generic openexplore there",
+            
+        },
+        {
+            id: "legacyphysicianopendream",
+extends: ["legacyphysicianopendream"],
+            
+            label: "La lumière invisible",
+            startdescription: "Dans le sommeil, je suis un arbre tordu. Les phalènes rampent sur mon écorce. L'aube commence, bien que la lumière soit invisible. À son contact, je me redresse, pour atteindre le soleil.",
+            description: "Quand je me réveille, mon visage est couvert de larmes de joie. Cette lumière ! Plus propre que tout ce que je touche dans la vie éveillée. Mais j'ai vu ce que ces rêves ont fait à #PREVIOUSCHARACTERNAME# à la fin. Il ne serait ni sage ni sûr de les suivre.",
+            
+            
+            
+        },
+        {
+            id: "legacyphysicianhook",
+extends: ["legacyphysicianhook"],
+            
+            label: "Croire ?",
+            startdescription: "Je pourrais céder aux rêves. Mais ils <i>dévoreront</i> ma Raison.",
+            description: ".",
+            
+            slots: [
+                {
+                    id: "Temptation",
+extends: ["Temptation"],
+                    label: "Tentation",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+        {
+            id: "legacyphysicianhookfulfilment",
+extends: ["legacyphysicianhookfulfilment"],
+            
+            label: "L'oeil du Guetteur",
+            
+            startdescription: "Le Guetteur est la Porte-dans-l'Oeil. Pour ouvrir mon propre oeil, il faut faire un petit sacrifice.",
+            description: "J'ai manié le couteau en dormant. Il y a de la douleur, mais même la douleur est un signe. J'ai pansé la plaie. Je vais leur dire que c'était un accident. Dans le rêve, j'ai vu la Porte. Un jour, bientôt, je la passerai.",
+            
+            
+        },
+
+        {
+            id: "legacyphysicianopentalk",
+extends: ["legacyphysicianopentalk"],
+            label: "Des esprits proches",
+            
+            startdescription: "L'un des patients de l'Institut a également un oeil bandé. Une blessure auto-infligée, disent-ils. Peut-être que nous parlerons bientôt.",
+            description: "Ma blessure a guéri, et la sienne aussi. Il ne comprend pas pourquoi cela s'est produit. Mais il a rêvé de moi, cette nuit-là. Nous sommes connectés.",
+            
+            
+            
+        }
+
+
+    ]
+}

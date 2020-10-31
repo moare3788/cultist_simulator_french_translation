@@ -1,0 +1,20 @@
+{
+    "elements": [
+
+        {
+            id: "legacyphysicianjob",
+extends: ["legacyphysicianjob"],
+            description: "Aujourd'hui, je retourne au travail. ",
+            label: "Un poste à l'Institut",
+            
+        },
+
+        {
+            id: "legacyphysiciannotes",
+extends: ["legacyphysiciannotes"],
+            description: "Mon propre témoignage sur l'effroyable déclin de #PREVIOUSCHARACTERNAME#. Mon écriture se détériore à mesure que le dossier progresse.",
+            label: "Notes sur le cas de #PREVIOUSCHARACTERNAME#",
+            
+        },
+    ]
+}

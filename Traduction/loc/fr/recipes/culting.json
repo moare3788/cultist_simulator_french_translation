@@ -1,0 +1,708 @@
+{
+    "recipes": [
+
+
+        {
+            id: "recruitindependentedge",
+extends: ["recruitindependentedge"],
+            label: "Recruter un franc-tireur, en invoquant une grande puissance de la Pointe",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt à me rejoindre... si je renonce à un Outil en signe de respect. [Vous devez inclure un Outil, qui sera définitivement perdu.]",
+            description: "Nous avons préparé un couteau pour cette occasion.",
+            
+            
+            
+        },
+        {
+            id: "recruitindependentforge",
+extends: ["recruitindependentforge"],
+            label: "Recruter un franc-tireur, en invoquant une grande puissance de la Forge",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt à me rejoindre... si je renonce à un Outil en signe de respect. [Vous devez inclure un Outil, qui sera définitivement perdu.]",
+            description: "Le feu doit s'enflammer, assez fort pour brûler la peau des spectateurs.",
+            
+            
+            
+        },
+        {
+            id: "recruitindependentgrail",
+extends: ["recruitindependentgrail"],
+            label: "Recruter un franc-tireur, en invoquant une grande puissance du Graal",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt à me rejoindre... si je renonce à un Outil en signe de respect. [Vous devez inclure un Outil, qui sera définitivement perdu.]",
+            description: "Nous allons être rejoints; oh oui, nous allons être rejoints.",
+            
+            
+            
+        },
+        {
+            id: "recruitindependentheart",
+extends: ["recruitindependentheart"],
+            label: "Recruter un franc-tireur, en invoquant une grande puissance du Coeur",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt à me rejoindre... si je renonce à un Outil en signe de respect. [Vous devez inclure un Outil, qui sera définitivement perdu.]",
+            description: "Nous commençons maintenant ce qui ne finira pas.",
+            
+            
+            
+        },
+        {
+            id: "recruitindependentknock",
+extends: ["recruitindependentknock"],
+            label: "Recruter un franc-tireur, en invoquant une grande puissance de la Clé",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt à me rejoindre... si je renonce à un Outil en signe de respect. [Vous devez inclure un Outil, qui sera définitivement perdu.]",
+            description: "C'est une ouverture dont nous nous souviendrons tous.",
+            
+            
+            
+        },
+        {
+            id: "recruitindependentlantern",
+extends: ["recruitindependentlantern"],
+            label: "Recruter un franc-tireur, en invoquant une grande puissance de la Lanterne",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt à me rejoindre... si je renonce à un Outil en signe de respect. [Vous devez inclure un Outil, qui sera définitivement perdu.]",
+            description: "Une grande lumière, puis une grande obscurité.",
+            
+            
+            
+        },
+        {
+            id: "recruitindependentmoth",
+extends: ["recruitindependentmoth"],
+            label: "Recruter un franc-tireur, en invoquant une grande puissance de la Phalène",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt à me rejoindre... si je renonce à un Outil en signe de respect. [Vous devez inclure un Outil, qui sera définitivement perdu.]",
+            description: "Nous avons tous deux perdu notre peau.",
+            
+            
+            
+        },
+
+        {
+            id: "recruitindependentwinter",
+extends: ["recruitindependentwinter"],
+            label: "Recruter un franc-tireur, en invoquant une grande puissance de l'Hiver",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt à me rejoindre... si je renonce à un Outil en signe de respect. [Vous devez inclure un Outil, qui sera définitivement perdu.]",
+            description: "Cette cérémonie n'a pas besoin de mots.",
+            
+            
+            
+        },
+        {
+            id: "recruitacquaintanceedge",
+extends: ["recruitacquaintanceedge"],
+            label: "Recruter une connaissance, en invoquant la Pointe",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt.",
+            description: "Avant de prononcer les mots, le novice doit aiguiser un couteau suffisamment pour qu'il puisse séparer un fil en deux. S'il n'est pas assez aiguisé, ce sera dommage pour lui.",
+            
+            
+            
+        },
+        {
+            id: "recruitacquaintanceforge",
+extends: ["recruitacquaintanceforge"],
+            label: "Recruter une connaissance, en invoquant la Forge",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt.",
+            description: "La cérémonie exige une brûlure. Seulement une petite; mais il sera marqué à vie.",
+            
+            
+            
+        },
+        {
+            id: "recruitacquaintancegrail",
+extends: ["recruitacquaintancegrail"],
+            label: "Recruter une connaissance, en invoquant le Graal",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt.",
+            description: "Ils n'oublieront jamais la saveur que je leur ai fait découvrir.",
+            
+            
+            
+        },
+        {
+            id: "recruitacquaintanceheart",
+extends: ["recruitacquaintanceheart"],
+            label: "Recruter une connaissance, en invoquant le Coeur",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt.",
+            description: "La cérémonie résonne comme le tonnerre dans une église. Je la connais bien. Je l'ai écrite moi-même.",
+            
+            
+            
+        },
+        {
+            id: "recruitacquaintanceknock",
+extends: ["recruitacquaintanceknock"],
+            label: "Recruter une connaissance, en invoquant la Clé",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt.",
+            description: "Seulement une petite blessure. Juste assez pour rendre hommage aux pouvoirs qui ouvrent.",
+            
+            
+            
+        },
+        {
+            id: "recruitacquaintancelantern",
+extends: ["recruitacquaintancelantern"],
+            label: "Recruter une connaissance, en invoquant la Lanterne",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt.",
+            description: "Une douzaine de lumières flambent. Il n'y a pas de place pour l'ombre dans ces rites, et pas de place pour la miséricorde.",
+            
+            
+            
+        },
+        {
+            id: "recruitacquaintancemoth",
+extends: ["recruitacquaintancemoth"],
+            label: "Recruter une connaissance, en invoquant la Phalène",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt.",
+            description: "La Phalène perd sa peau. Le novice doit seulement se défaire de ses vêtements, et de son passé.",
+            
+            
+            
+        },
+
+        {
+            id: "recruitacquaintancewinter",
+extends: ["recruitacquaintancewinter"],
+            label: "Recruter une connaissance, en invoquant l'Hiver",
+            
+            
+            
+            
+            startdescription: "Celui-ci est prêt.",
+            description: "Je ne prononcerai que neuf mots exactement. Le novice ne dira rien du tout.",
+            
+            
+            
+        },
+
+
+        {
+            id: "promotetodiscipleedge",
+extends: ["promotetodiscipleedge"],
+            label: "Promouvoir un Fidèle en invoquant la Pointe",
+            
+            
+            
+            
+            startdescription: "Mon Adepte s'agenouillera comme un novice et se lèvera comme un initié. Je ferai moi-même prêter les serments nécessaires.",
+            description: "'Mes cicatrices sont des armes. En combattant, je m'élève vers la victoire. Il n'y a pas de défaite mais l'annihilation. À la lumière de la Pointe étincelante, nous nous connaissons nous-mêmes. Je m'engage au service du plus fort.'",
+            
+            
+        },
+        {
+            id: "promotetodiscipleforge",
+extends: ["promotetodiscipleforge"],
+            label: "Promouvoir un Fidèle en invoquant la Forge",
+            
+            
+            
+            
+            startdescription: "Mon Adepte s'agenouillera comme un novice et se lèvera comme un initié. Je ferai moi-même prêter les serments nécessaires.",
+            description: "'Je suis détruit. Je suis changé. Maintenant, je brûle ma peau, et c'est par ces marques que je serai connu. Je me voue à la flamme, et je ne reculerais devant aucun changement.'",
+            
+            
+        },
+        {
+            id: "promotetodisciplegrail",
+extends: ["promotetodisciplegrail"],
+            label: "Promouvoir un Fidèle en invoquant le Graal",
+            
+            
+            
+            
+            startdescription: "Mon Adepte s'agenouillera comme un novice et se lèvera comme un initié. Je ferai moi-même prêter les serments nécessaires.",
+            description: "Dans la douleur, nous naissons. Dans la faim, nous sommes embrassés. Dans la joie, nous sommes dévorés. Ce sont les portes du corps, et c'est Sa promesse: tout ce qui naît ne se décompose pas. En souvenir de cette promesse, nous nous donnons au Festin.",
+            
+            
+        },
+        {
+            id: "promotetodiscipleheart",
+extends: ["promotetodiscipleheart"],
+            label: "Promouvoir un Fidèle en invoquant la Coeur",
+            
+            
+            
+            
+            startdescription: "Mon Adepte s'agenouillera comme un novice et se lèvera comme un initié. Je ferai moi-même prêter les serments nécessaires.",
+            description: "'Nous cédons notre bouche au tonnerre. Nous cédons nos pieds à la danse. Nous cédons nos peaux à la nuit. Nous ne cessons pas, nous ne cessons pas, nous ne cessons pas.'",
+            
+            
+        },
+        {
+            id: "promotetodiscipleknock",
+extends: ["promotetodiscipleknock"],
+            label: "Promouvoir un Fidèle en invoquant la Clé",
+            
+            
+            
+            
+            startdescription: "Mon Adepte s'agenouillera comme un novice et se lèvera comme un initié. Je ferai moi-même prêter les serments nécessaires.",
+            description: "'A celle qui était de chair, j'offre mes blessures. À celle qui était de pierre, j'offre ce moment, où mon ancien moi se sépare de mon nouveau. À celle qui est venue de la Lumière, j'offre mes secrets. La porte est ouverte.'",
+            
+            
+        },
+        {
+            id: "promotetodisciplelantern",
+extends: ["promotetodisciplelantern"],
+            label: "Promouvoir un Fidèle en invoquant la Lanterne",
+            
+            
+            
+            
+            startdescription: "Mon Adepte s'agenouillera comme un novice et se lèvera comme un initié. Je ferai moi-même prêter les serments nécessaires.",
+            description: "'Il navigue. Maintenant, vous êtes la carte. Il illumine. Vous étiez l'obscurité. Il n'est pas compatissant. Vous ne ferez pas preuve de compassion. Notre boussole est la Connaissance et notre route est la Gloire.'",
+            
+            
+        },
+        {
+            id: "promotetodisciplemoth",
+extends: ["promotetodisciplemoth"],
+            label: "Promouvoir un Fidèle en invoquant la Phalène",
+            
+            
+            
+            
+            startdescription: "Mon Adepte s'agenouillera comme un novice et se lèvera comme un initié. Je ferai moi-même prêter les serments nécessaires.",
+            description: "'Maintenant les ciseaux, et ensuite le couteau. Maintenant le bois, et ensuite les os. Maintenant, le battement de la lune, et ensuite, le battement de l'âme. Il était de sang, et nous le serons aussi.'",
+            
+            
+        },
+
+        {
+            id: "promotetodisciplewinter",
+extends: ["promotetodisciplewinter"],
+            label: "Promouvoir un Fidèle en invoquant l'Hiver",
+            
+            
+            
+            
+            startdescription: "Mon Adepte s'agenouillera comme un novice et se lèvera comme un initié. Je ferai moi-même prêter les serments nécessaires.",
+            description: "'Maintenant, vous versez votre sang, comme le sang du Soleil a été versé. Maintenant, votre passé est séparé de votre avenir, comme le Loup l'a été. Vous n'êtes pas né. Votre office ne s'achève que par la dissolution. Lève-toi, en silence.'",
+            
+            
+        },
+
+
+        {
+            id: "promoteto_d_edge",
+extends: ["promoteto_d_edge"],
+            label: "Tentative d'exalter un Disciple en Assassin",
+            
+            
+            
+            
+            startdescription: "Seules quelques rares personnes - les plus aptes à servir dans nos arcanes - peuvent atteindre ce rang.",
+            description: "'Comme le Lionsmith s'est agenouillé devant le colonel, je m'agenouille maintenant. Mon office se termine par la mort, ou par la résolution des conflits .'",
+            
+            
+        },
+        {
+            id: "promoteto_d_forge",
+extends: ["promoteto_d_forge"],
+            label: "Tentative d'exalter un Disciple en Artisan",
+            
+            
+            
+            
+            startdescription: "Seules quelques rares personnes - les plus aptes à servir dans nos arcanes - peuvent atteindre ce rang.",
+            description: "'Je suis le marteau et l'enclume; je suis le contact du feu et la bénédiction du fer. Je m'engage à la conflagration finale.'",
+            
+            
+        },
+        {
+            id: "promoteto_d_grail",
+extends: ["promoteto_d_grail"],
+            label: "Tentative d'exalter un Disciple en Hédoniste",
+            
+            
+            
+            
+            startdescription: "Seules quelques rares personnes - les plus aptes à servir dans nos arcanes - peuvent atteindre ce rang.",
+            description: "'Par le Cuivre et le Corbeau, par Celle pour qui nous avons faim et Celle qui a faim pour nous, je m'engage à être la Fête et le Festin. Je serai dévoré et je dévorerai.'",
+            
+            
+        },
+        {
+            id: "promoteto_d_heart",
+extends: ["promoteto_d_heart"],
+            label: "Tentative d'exalter un Disciple en Tarantelliste",
+            
+            
+            
+            
+            startdescription: "Seules quelques rares personnes - les plus aptes à servir dans nos arcanes - peuvent atteindre ce rang.",
+            description: "'Par le Pin et le Couteau, par le Tambour et le Cercle, je m'engage à mener la Danse qui ne se termine pas. C'est mon office, mais en fin de compte, c'est seulement la Danse que je sers.'",
+            
+            
+        },
+        {
+            id: "promoteto_d_knock",
+extends: ["promoteto_d_knock"],
+            label: "Tentative d'exalter un Disciple en Clé",
+            
+            
+            
+            
+            startdescription: "Seules quelques rares personnes - les plus aptes à servir dans nos arcanes - peuvent atteindre ce rang.",
+            description: "'Aucune serrure ne résiste. Aucune porte ne résiste. Aucune barrière ne résiste. Aucun mur ne résiste. Aucune forteresse ne m'est inaccessible. Aucun pays ne m'est interdit. Aucune loi ne me lie, sauf la loi de la Mère. Je suis une Clé, et c'est mon destin.'",
+            
+            
+        },
+        {
+            id: "promoteto_d_lantern",
+extends: ["promoteto_d_lantern"],
+            label: "Tentative d'exalter un Disciple en Voyant",
+            
+            
+            
+            
+            startdescription: "Seules quelques rares personnes - les plus aptes à servir dans nos arcanes - peuvent atteindre ce rang.",
+            description: "'Je m'engage à éclairer la voie pour ceux qui veulent et pour ceux qui ne veulent pas. Je m'engage à naviguer. Je m'engage à éclairer. Je m'engage contre la miséricorde. Je m'engage à suivre le chemin qui m'est montré, quel qu'en soit le prix.'",
+            
+            
+        },
+        {
+            id: "promoteto_d_moth",
+extends: ["promoteto_d_moth"],
+            label: "Tentative d'exalter un Disciple en Contorsionniste",
+            
+            
+            
+            
+            startdescription: "Seules quelques rares personnes - les plus aptes à servir dans nos arcanes - peuvent atteindre ce rang.",
+            description: "'C'était mon passé, mais maintenant je suis changé. Ce sont mes vêtements, que j'ai mis de côté. Voici ma peau, mais elle m'est prêtée. Voici mon nom, qui n'est qu'un bandeau. Voici le Bois, où nous étranglons la lumière. J'étais là, et je ne suis plus là.'",
+            
+            
+        },
+
+        {
+            id: "promoteto_d_winter",
+extends: ["promoteto_d_winter"],
+            label: "Tentative d'exalter un Disciple",
+            
+            
+            
+            
+            startdescription: "Seules quelques rares personnes - les plus aptes à servir dans nos arcanes - peuvent atteindre ce rang.",
+            description: "'...?' '...?' '...?' '...' ",
+            
+            
+        },
+
+
+
+
+
+
+
+        {
+            id: "recruitacquaintanceclue",
+extends: ["recruitacquaintanceclue"],
+            label: "Recruter une connaissance ?",
+            
+            
+            startdescription: "Celui-ci pourrait être prêt à accéder au niveau suivant, si je peux fournir quelque chose de plus.",
+            
+            
+        },
+
+        {
+            id: "cultfoundation",
+extends: ["cultfoundation"],
+            label: "Choisir les principes fondateurs",
+            
+            
+            
+            
+            slots: [
+                {
+                    id: "Doctrine",
+extends: ["Doctrine"],
+                    label: "Doctrine",
+                    
+                    description: "Que recherchons-nous ?"
+                }
+            ],
+            startdescription: "Tradition et obsession - anciennes, nouvelles, ou les deux à la fois. [Ajoutez de la Croyance pour déterminer les principes fondateurs de votre secte.]",
+            description: "",
+            
+            
+            
+        },
+        {
+            id: "cultfoundationedge",
+extends: ["cultfoundationedge"],
+            label: "Établir l'Église de la Pointe étincelante",
+            
+            
+            
+            startdescription: "Une société occulte dédiée aux Heures de lutte et de conquête.",
+            
+        },
+        {
+            id: "cultfoundationforge",
+extends: ["cultfoundationforge"],
+            label: "Établir l'Ordre inébranlable",
+            
+            
+            
+            startdescription: "Une société occulte dédiée au feu qui change et façonne.",
+            
+        },
+        {
+            id: "cultfoundationgrail",
+extends: ["cultfoundationgrail"],
+            label: "Établir l'Ordre de la Coupe de sang",
+            
+            
+            
+            startdescription: "Une société occulte dédiée aux mystères de la naissance, du sang et de l'appétit.",
+            
+        },
+        {
+            id: "cultfoundationheart",
+extends: ["cultfoundationheart"],
+            label: "Établir le Temple éternel",
+            
+            
+            
+            startdescription: "Une société occulte dédiée au battement du tambour qui est éternel.",
+            
+        },
+        {
+            id: "cultfoundationknock",
+extends: ["cultfoundationknock"],
+            label: "Établir la Société de la Sainte Blessure",
+            
+            
+            
+
+            startdescription: "Une société occulte dédiée aux Heures qui ouvrent des portes.",
+            
+        },
+        {
+            id: "cultfoundationlantern",
+extends: ["cultfoundationlantern"],
+            label: "Établir le Miroir de la Gloire",
+            
+            
+            
+            startdescription: "Une société occulte dédiée à la compréhension de la Lumière qui s'échappe d'un lieu particulièrement intense.",
+            
+        },
+        {
+            id: "cultfoundationmoth",
+extends: ["cultfoundationmoth"],
+            label: "Créer le Club du Bois sauvage",
+            
+            
+            
+            startdescription: "Une société occulte dédiée au chaos, et aux heures inattendues.",
+            
+        },
+        {
+            id: "cultfoundationsecrethistories",
+extends: ["cultfoundationsecrethistories"],
+            label: "Créer la Société de St Hydra",
+            
+            
+            
+            startdescription: "Une société occulte dédiée à l'étude des cinq Histoires et de leurs mille branches semi-réelles.",
+            
+        },
+        {
+            id: "cultfoundationwinter",
+extends: ["cultfoundationwinter"],
+            label: "Établir les Enfants du Silence",
+            
+            
+            
+            startdescription: "Une société occulte dédiée au silence qui vient et au froid qui finit.",
+            
+        },
+
+        {
+            id: "cultfoundationwinter.prealzabo",
+extends: ["cultfoundationwinter.prealzabo"],
+            label: "Établir les Tours de la Colombe",
+            
+            
+            
+            startdescription: "Une société occulte dédiée à tout ce qui a été perdu, et à ce qui peut encore revenir.",
+            
+        },
+
+        {
+            id: "cultfoundationwinter.alzabo",
+extends: ["cultfoundationwinter.alzabo"],
+            label: "Établir les Tours de la Colombe",
+            
+            
+            
+            startdescription: "Une société occulte dédiée à tout ce qui a été perdu, et à ce qui peut encore revenir.",
+            
+        },
+        {
+            id: "cultfoundation_health",
+extends: ["cultfoundation_health"],
+            label: "Un sacrifice de la douleur",
+            
+            
+            slots: [
+                {
+                    id: "Health",
+extends: ["Health"],
+                    label: "Ma Santé",
+                    
+                    description: "Je dois donner de moi-même pour honorer le pouvoir que nous allons servir."
+                }
+            ],
+            
+            
+            startdescription: "L'Heure que nous allons servir exige de la douleur. Je dois donner de moi-même.",
+            description: "",
+            
+        },
+        {
+            id: "cultfoundation_fatigue",
+extends: ["cultfoundation_fatigue"],
+            label: "Un sacrifice de la douleur",
+            
+            
+            
+            comments: "most explicit way to resolve the damagehealth/injury/ingredient/fatigue society/cult inconsistency",
+            
+        },
+        {
+            id: "cultfoundation_reason",
+extends: ["cultfoundation_reason"],
+            label: "Une terrible clarté",
+            
+            
+            slots: [
+                {
+                    id: "Reason",
+extends: ["Reason"],
+                    label: "Ma Raison",
+                    
+                    description: "Je dois donner de moi-même pour honorer le pouvoir que nous allons servir."
+                }
+            ],
+            
+            
+            startdescription: "Notre objectif exige que nous reconnaissions des vérités qui refroidissent l'esprit. Je dois donner de moi-même.",
+            description: "",
+            
+        },
+
+        {
+            id: "cultfoundation_passion",
+extends: ["cultfoundation_passion"],
+            label: "Un gage de dévouement",
+            
+            
+            slots: [
+                {
+                    id: "Passion",
+extends: ["Passion"],
+                    label: "Ma Passion",
+                    
+                    description: "Je dois donner de moi-même pour honorer le pouvoir que nous allons servir."
+                }
+            ],
+            
+            
+            startdescription: "L'Heure que nous allons servir exige que nos passions soient consacrées à son objectif. Je dois donner de moi-même.",
+            description: "",
+            
+        },
+
+
+        {
+            id: "cultfoundation_firstrecruit",
+extends: ["cultfoundation_firstrecruit"],
+            label: "Ma première recrue",
+            
+            
+            slots: [
+                {
+                    id: "Recruit",
+extends: ["Recruit"],
+                    label: "Ma première recrue",
+                    
+                    
+                    description: "Quelqu'un de prêt."
+                }
+            ],
+            
+            startdescription: "Une secte avec un seul membre n'est qu'une habitude insolite. Je dois avoir une recrue.",
+            
+            
+        },
+
+        {
+            id: "cultfoundation_complete",
+extends: ["cultfoundation_complete"],
+            label: "NOTRE ASCENSION COMMENCE.",
+            
+            
+            description: "J'ai fondé ma secte. C'est un pas vers un plus grand pouvoir. [Utilisez votre secte pour recruter et promouvoir des Adeptes. Parlez de votre secte à vos Adeptes pour les envoyer en mission.]"
+        },
+
+
+    ]
+}

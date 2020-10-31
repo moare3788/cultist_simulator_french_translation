@@ -1,0 +1,27 @@
+{
+    "elements": [
+
+        {
+            id: "legacybytjob",
+extends: ["legacybytjob"],
+            description: "On s'adonne à l'écriture et à la peinture, mais on vit avant tout dans la certitude de son argent de poche.",
+            label: "Ceci et cela",
+            
+        },
+        {
+            id: "legacybytjobmatured",
+extends: ["legacybytjobmatured"],
+            description: "On s'adonne à l'écriture et à la peinture, mais on vit surtout dans la quasi-certitude de son allocation.",
+            label: "Ceci et cela",
+            
+            comments: "Existe pour permettre le passage à un cycle plus long immédiatement après la première utilisation."
+        },
+        {
+            id: "legacydiarylastcharacter",
+extends: ["legacydiarylastcharacter"],
+            
+            label: "Un journal chiffré",
+            description: "Ceci détaille une obsession croissante pour un individu du nom de #PREVIOUSCHARACTERNAME#."
+        }
+    ]
+}

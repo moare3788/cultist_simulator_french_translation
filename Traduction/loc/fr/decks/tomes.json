@@ -1,0 +1,29 @@
+{
+    "decks": [
+        {
+            id: "oneoffrewards",
+extends: ["oneoffrewards"],
+            label: "Une ferraille utile",
+            description: "Quelque chose de remarquable.",
+            
+            
+        },
+        {
+            id: "commontomes",
+extends: ["commontomes"],
+            label: "Oeuvres en circulation",
+            description: "Je pourrais trouver des livres en vente pour m'apprendre quelque chose sur les arts invisibles.",
+            
+            
+        },
+
+        {
+            id: "auctionedcommontomes",
+extends: ["auctionedcommontomes"],
+            label: "Oeuvres issues de collections",
+            description: "Je pourrais trouver une collection de livres un peu plus variée ici.",
+            
+            
+        }
+    ]
+}

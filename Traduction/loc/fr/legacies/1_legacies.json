@@ -1,0 +1,169 @@
+{
+    "legacies": [
+        {
+            id: "aspirant",
+extends: ["aspirant"],
+            label: "Aspirant",
+            description: "Le 28 juin, une fois de plus.",
+            startdescription: "Seul dans cette ville froide, avec mon éducation inutile, et mes rêves.\n Et maintenant? Pourrais-je devenir quelque chose de plus ?",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "brightyoungthing",
+extends: ["brightyoungthing"],
+            label: "Jeunesse dorée",
+            description: "Doté dès la naissance de richesses et de talents. Une vie de facilité, de confort et de plaisir s'étend devant nous comme un tapis d'ambre.",
+            startdescription: "J'ai raté l'aube. Comme je le fais généralement. Il y en aura encore beaucoup d'autres.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "physician",
+extends: ["physician"],
+            label: "Médecin",
+            description: "Alors que le patient s'enfonçait toujours plus dans son délire, j'ai pris de nombreuses notes. Dans la chaleur bourdonnante de la nuit, j'ai relu ces notes, et elles ont commencé, enfin, à avoir une sorte de sens.",
+            startdescription: "Aujourd'hui est le jour où je reprends mon poste à l'Institut. J'ai un poste, et une réputation. Cela devrait signifier quelque chose ; mais je commence à rêver d'autre chose.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "detective",
+extends: ["detective"],
+            label: "Détective",
+            description: "Je suis inspecteur dans la police de la capitale, chargé d'enquêter sur les choses les plus ignobles et les plus misérables qu'un être humain puisse faire à un autre.",
+            startdescription: "J'ai mis fin à la carrière de voleurs, d'assassins, de maîtres-chanteurs, d'incendiaires. Certains criminels font pire encore ; et certains matins, mes mains sont connues pour trembler.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "detectivepostpromotion",
+extends: ["detectivepostpromotion"],
+            label: "Détective",
+            description: "Je suis inspecteur dans la police de la capitale, chargé d'enquêter sur les choses les plus ignobles et les plus misérables qu'un être humain puisse faire à un autre.",
+            startdescription: "J'ai mis fin à la carrière de voleurs, d'assassins, de maîtres-chanteurs, d'incendiaires. Certains criminels font pire encore ; et certains matins, mes mains sont connues pour trembler.",
+            
+            
+            
+        },
+        {
+            id: "apostleforge",
+extends: ["apostleforge"],
+            label: "Apôtre Aestuant",
+            startdescription: "Celui qui nous a façonnés est monté à un niveau supérieur... dans une histoire, au moins. Le passé est incertain. Mais je vais m'occuper du creuset pour leur prochaine ascension.",
+            description: "Notre Grand Façonneur est devenu puissant - et ils ont de puissants ennemis. Ils resteront cachés, tandis que je leur servirai d'instrument.",
+         
+            
+        },
+        {
+            id: "apostlegrail",
+extends: ["apostlegrail"],
+            label: "Apôtre Obsonate",
+            startdescription: "Celui qui nous a nourris est monté à un niveau supérieur... dans une histoire, au moins. Le passé est incertain. Mais je vais préparer le festin pour leur prochaine ascension.",
+            description: "Notre Délice est devenu puissant - et ils ont de puissants ennemis. Ils resteront cachés, pendant que je leur servirai de vaisseau.",
+    
+            
+        },
+        {
+            id: "apostlelantern",
+extends: ["apostlelantern"],
+            label: "Apôtre Entheate",
+            startdescription: "L'illuminé attend dans la Maison du Soleil - il attend de se lever plus haut. Je suis leur main.",
+            description: "Je ne me souviens pas de ce qui s'est passé. Je ne me souviens pas de qui je suis. Mais les rêves m'ont appris ce que je dois faire.",
+
+            
+        },
+
+        {
+            id: "apostleforgewithrisen",
+extends: ["apostleforgewithrisen"],
+            label: "Apôtre Aestuant",
+            startdescription: "Celui qui nous a façonnés est monté à un niveau supérieur... dans une histoire, au moins. Le passé est incertain. Mais je vais m'occuper du creuset pour leur prochaine ascension.",
+            description: "Notre Grand Façonneur est devenu puissant - et ils ont de puissants ennemis. Ils resteront cachés, tandis que je leur servirai d'instrument.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "apostlegrailwithrisen",
+extends: ["apostlegrailwithrisen"],
+            label: "Apôtre Obsonate",
+            startdescription: "Celui qui nous a nourris est monté à un niveau supérieur... dans une histoire, au moins. Le passé est incertain. Mais je vais préparer le festin pour leur prochaine ascension.",
+            description: "Notre Délice est devenu puissant - et ils ont de puissants ennemis. Ils resteront cachés, pendant que je leur servirai de vaisseau.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "apostlelanternwithrisen",
+extends: ["apostlelanternwithrisen"],
+            label: "Apôtre Entheate",
+            startdescription: "L'illuminé attend dans la Maison du Soleil - il attend de se lever plus haut. Je suis leur main.",
+            description: "Je ne me souviens pas de ce qui s'est passé. Je ne me souviens pas de qui je suis. Mais les rêves m'ont appris ce que je dois faire.",
+            
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "auctioneer",
+extends: ["auctioneer"],
+            label: "Commissaire-priseur",
+            description: "--",
+            startdescription: "--",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "survivor",
+extends: ["survivor"],
+            label: "Survivant",
+            description: "Parfois, dans les miroirs, dans la foule, on voit le visage de celui qui est maintenant perdu.",
+            startdescription: "Note de départ hantée",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "cousin",
+extends: ["cousin"],
+            label: "Cousin",
+            description: "Un matin, quand le soleil est haut et que les miroirs sont tous scellés, on frappe à votre porte. \"Un bienfaiteur\", dira le monsieur en gris. \"Un legs. Vous ne saviez peut-être pas que vous étiez parents.\"",
+            startdescription: "Inheritor starting note",
+            
+            
+            
+            
+            
+        },
+
+
+    ]
+}

@@ -1,0 +1,429 @@
+{
+    "elements": [
+        {
+            id: "locationbookdealer",
+extends: ["locationbookdealer"],
+            label: "La boutique de Morland",
+            
+            slots: [
+                {
+                    id: "Cost",
+extends: ["Cost"],
+                    label: "Coût",
+                    
+                    
+                    
+                }
+            ],
+            description: "Les sombres paroles de Mlle Morland, qui s'occupe de livres rares et parfois dangereux.",
+            
+            
+        },
+        {
+            id: "locationbookdealer_exhausted",
+extends: ["locationbookdealer_exhausted"],
+            label: "La boutique de Morland [Fermé]",
+            description: "C'était l'adresse de Morland, le marchand de livres, mais je vais devoir chercher ailleurs la connaissance, maintenant.",
+            
+            slots: [
+                {
+                    id: "Ancien QG",
+extends: ["Ancien QG"],
+                    description: "Placer un ancien Quartier général ici pour l'abandonner et déménager dans ce nouveau lieu. Aucun retour ne sera possible.",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+        {
+            id: "locationauctionhouse",
+extends: ["locationauctionhouse"],
+            label: "Hôtel des ventes Oriflamme",
+            
+            description: "Oriflamme est spécialisé dans les curiosités, les parfums, les spécimens de taxidermie et les textes rares. Ses locaux sont neufs et exigus, depuis la destruction de l'ancien bâtiment lors d'un incendie inexpliqué. [Vous pouvez acheter ou vendre des objets chez Oriflamme.]",
+            slots: [
+                {
+                    id: "Sell",
+extends: ["Sell"],
+                    label: "Vendre",
+                    description: "Ajouter un article ici pour le mettre aux enchères.",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+            id: "locationcabaretclosed",
+extends: ["locationcabaretclosed"],
+            label: "Le Club Ecdysis [Fermé]",
+            description: "Un cabaret à la réputation occulte. Il n'ouvre que certains soirs de la semaine ; il rouvrira bientôt.",
+            
+
+            
+        },
+        {
+            id: "locationcabaret",
+extends: ["locationcabaret"],
+            label: "Le Club Ecdysis",
+            
+            description: "Un cabaret à la réputation occulte.",
+            slots: [
+                {
+                    id: "Entry",
+extends: ["Entry"],
+                    label: "Entrée",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+            id: "hq.abandoned",
+extends: ["hq.abandoned"],
+            label: "Quartier général abandonné",
+            description: "Oubliez ça, J.N.",
+            
+        },
+
+
+        {
+            id: "generichq",
+extends: ["generichq"],
+            label: "Quartier général ?",
+            
+            description: "[Les mécaniques du Quartier général ont changé.]",
+
+            
+        },
+
+        {
+            id: "hq.temporary",
+extends: ["hq.temporary"],
+            label: "Quartier général Temporaire",
+            
+            description: "Notre activité est confidentielle. Nous pourrions utiliser un endroit plus secret.",
+            slots: [
+                {
+                    id: "Cupboard",
+extends: ["Cupboard"],
+                    label: "Armoire",
+                    description: "Placer un Adepte ici pour le convertir, de façon permanente, en prisonnier.",
+                    
+                    
+                    
+                }
+            ],
+        },
+        {
+            id: "hq.townhouse",
+extends: ["hq.townhouse"],
+            label: "Opulent Maison de ville",
+            
+            description: "Nous fermons toujours les rideaux bien serrés avant de rouler les tapis et de marquer le sol à la craie.",
+            slots: [
+                {
+                    id: "Grenier",
+extends: ["Grenier"],
+                    description: "Placer un Adepte ici pour le convertir, de façon permanente, en prisonnier.",
+                    
+                    
+                    
+                },
+                {
+                    id: "funds",
+extends: ["funds"],
+                    label: "Fonds",
+                    description: "Placez des fonds ici pour augmenter l'influence de Graal.",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+        {
+            id: "hq.church",
+extends: ["hq.church"],
+            label: "Église Hétérodoxe",
+            
+            description: "Même le dimanche matin, il y a des bizarreries dans l'office, mais la plupart des étrangers ne le remarquent pas. Les étrangers ne sont pas invités aux cérémonies que nous organisons aux heures plus fraîches.",
+            slots: [
+                {
+                    id: "Sacristie",
+extends: ["Sacristie"],
+                    description: "Enfermer un Adepte pour le convertir, de façon permanente, en prisonnier.",
+                    
+                    
+                    
+                },
+                {
+                    id: "funds",
+extends: ["funds"],
+                    label: "Fonds",
+                    description: "Placez des fonds ici pour accroître l'influence de la Clé.",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "hq.mithraeum",
+extends: ["hq.mithraeum"],
+            label: "Mithraeum éclairé à la bougie",
+            
+            description: "Les initiés y célèbrent les Mystères depuis près de deux mille ans. Les mots changent, les dieux changent, mais à terme, il y a toujours du sang.",
+            slots: [
+                {
+                    id: "Chaînes",
+extends: ["Chaînes"],
+                    description: "Placer un Adepte ici pour le convertir, de façon permanente, en prisonnier.",
+                    
+                    
+                    
+                },
+                {
+                    id: "funds",
+extends: ["funds"],
+                    label: "Fonds",
+                    description: "Placez des fonds ici pour accroître l'influence de la Lanterne.",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "hq.hospital",
+extends: ["hq.hospital"],
+            label: "Maison violette",
+            
+            description: "Nous avons peint les murs dans la riche couleur de la chambre Violette. Nous avons nettoyé les toiles d'araignée et placé de discrets volets aux fenêtres. Et nous avons remplacé toutes les serrures.",
+            slots: [
+                {
+                    id: "Cellule",
+extends: ["Cellule"],
+                    description: "Placer un Adepte ici pour le convertir, de façon permanente, en prisonnier.",
+                    
+                    
+                    
+                },
+                {
+                    id: "funds",
+extends: ["funds"],
+                    label: "Fonds",
+                    description: "Placez des fonds ici pour accroître l'influence de la Clé.",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "hq.bookshop",
+extends: ["hq.bookshop"],
+            label: "Les salles à l'arrière d'une librairie",
+            
+            description: "Les éléments de moindre importance de Miss Morland y sont toujours stockés. Au fil du temps, des étrangers arrivent avec des livres à vendre, et parfois nous cédons à la curiosité.",
+            slots: [
+                {
+                    id: "Cellier",
+extends: ["Cellier"],
+                    description: "Placer un Adepte ici pour le convertir, de façon permanente, en prisonnier.",
+                    
+                    
+                    
+                },
+                {
+                    id: "funds",
+extends: ["funds"],
+                    label: "Fonds",
+                    description: "Placez des fonds ici pour accroître l'influence du Coeur.",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "hq.warehouse",
+extends: ["hq.warehouse"],
+            label: "Un entrepôt dans l'obscurité",
+            
+            description: "Les poutres sont rongées par les rats. Leur odeur a presque disparue sous la puanteur de la rivière. C'est loin de tout endroit où l'on voudrait aller. Toutes ces choses sont, à leur manière, des avantages.",
+            slots: [
+                {
+                    id: "Hangar",
+extends: ["Hangar"],
+                    description: "Placer un Adepte ici pour le convertir, de façon permanente, en prisonnier.",
+                    
+                    
+                    
+                },
+                {
+                    id: "funds",
+extends: ["funds"],
+                    label: "Fonds",
+                    description: "Placez des fonds ici pour accroître l'influence de la Forge.",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+        {
+            id: "hq.church.potential",
+extends: ["hq.church.potential"],
+            label: "Église sans surveillance",
+            
+            description: "Le prêtre a disparu, une nuit, de manière assez abrupte, avec son entourage et les principaux trésors de l'église. On pense généralement qu'il est allé dans un endroit meilleur : peut-être un endroit ensoleillé au bord d'une mer étincelante. Nous pourrions recruter ses fidèles, et en faire notre base d'opérations.",
+            slots: [
+                {
+                    id: "Ancien QG",
+extends: ["Ancien QG"],
+                    description: "Placer un ancien Quartier général ici pour l'abandonner et déménager dans ce nouveau lieu. Aucun retour ne sera possible.",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "hq.mithraeum.potential",
+extends: ["hq.mithraeum.potential"],
+            label: "Mithraeum abandonné",
+            
+            description: "C'était un lieu de culte, autrefois. Nous pourrions recommencer.",
+            slots: [
+                {
+                    id: "Ancien QG",
+extends: ["Ancien QG"],
+                    description: "Placer un ancien Quartier général ici pour l'abandonner et déménager dans ce nouveau lieu. Aucun retour ne sera possible.",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "hq.hospital.potential",
+extends: ["hq.hospital.potential"],
+            label: "Hôpital abandonné",
+            
+            description: "Des fantômes - disent les voisins - se promènent encore dans ses couloirs abandonnés. Si nous en prenons possession, bien sûr, ils partiront, ou nous les soumettrons.",
+            slots: [
+                {
+                    id: "Ancien QG",
+extends: ["Ancien QG"],
+                    description: "Placer un ancien Quartier général ici pour l'abandonner et déménager dans ce nouveau lieu. Aucun retour ne sera possible.",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+        {
+            id: "hq.warehouse.potential",
+extends: ["hq.warehouse.potential"],
+            label: "Entrepôt abandonné",
+            
+            description: "Une coquille en décomposition au bord d'une rivière en décomposition. Qui nous suivrait ici ?",
+            slots: [
+                {
+                    id: "Ancien QG",
+extends: ["Ancien QG"],
+                    description: "Placer un ancien Quartier général ici pour l'abandonner et déménager dans ce nouveau lieu. Aucun retour ne sera possible.",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "locationstreetsstrange",
+extends: ["locationstreetsstrange"],
+            label: "Rues étranges au clair de lune",
+            
+            description: "Parfois, la lumière de la lune est une clé pour d'autres espaces. J'ai trouvé un endroit où, pendant une nuit ou deux, les rues se courbent de manière inhabituelle. Si je me rends ici, je pourrais en avoir un aperçu, ou je pourrais être touché par la folie.",
+            
+        },
+
+        {
+            id: "location.gallery",
+extends: ["location.gallery"],
+            label: "La galerie Montmerenzi-McDonald",
+            comments: "actuellement utilisé uniquement pour le goût de la Goule, mais nous pourrions faire plus à l'avenir.",
+            
+            description: "Alistair Montmerenzi, Le troisième et dernier cartographe de Montmerenzi, et son énigmatique bienfaiteur Timothy McDonald, ont collectionné ce petit mais frappant recueil. Après leur disparition lors de leur dernière expédition polaire, la collection a été mise à la disposition du public dans un bâtiment gris à l'aspect neutre, à côté d'un parc tranquille... à condition qu'aucune oeuvre d'art qui s'y trouvait ne soit jamais photographiée, ni exposée à la lumière du jour."
+
+        },
+
+        {
+            id: "location.cemetery",
+extends: ["location.cemetery"],
+            label: "Cimetière",
+            slots: [
+                {
+                    id: "muscle",
+extends: ["muscle"],
+                    label: "Muscle",
+                    description: "Je peux engager une aide ou creuser moi-même.",
+                    
+                    
+                }
+            ],
+            description: "Dans le monde éveillé, comme dans les rêves, les morts se trouvent le plus souvent en bas.",
+            
+            
+            
+
+        },
+
+        {
+            id: "location.cemetery.closing",
+extends: ["location.cemetery.closing"],
+            label: "Cimetière bien surveillé",
+
+            description: "Les autorités ont remarqué une activité particulière dans cet endroit. Elles ont mis en place une surveillance. Les visites prennent plus de temps, et très bientôt elles ne seront plus possibles du tout.",
+            slots: [
+                {
+                    id: "muscle",
+extends: ["muscle"],
+                    label: "Muscle",
+                    description: "Je peux engager une aide ou creuser moi-même.",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+
+
+    ]
+}

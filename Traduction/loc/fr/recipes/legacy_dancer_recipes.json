@@ -1,0 +1,463 @@
+{
+    "recipes": [
+        {
+            id: "legacydancer_openstudy",
+extends: ["legacydancer_openstudy"],
+            label: "Un mystère écarté",
+            
+            startdescription: "Des centaines de danseurs sont passés par ce vestiaire. De temps en temps, on retrouve leurs traces comme des pétales de rose: un gant perdu, une photo décolorée, une note d'un admirateur...",
+            description: "Un poème froissé - d'une douzaine de pages - a été fourré dans une chaussure abandonnée. Ce n'est pas un poème d'amour. Je suis presque sûr que ce n'est pas un poème d'amour. Mais quand je le lis, ma respiration s'accélère et je me demande si je me souviens de quelque chose que j'avais perdu.",
+            
+
+            
+            comments: "Opened from initial work"
+        },
+
+        {
+            id: "legacydancer_study_plotitema_heart",
+extends: ["legacydancer_study_plotitema_heart"],
+            
+            label: "Considérer le poème froissé comme un défi Physique",
+            
+            startdescription: "Est-ce une sorte de code ? Y a-t-il ici des indices d'un ensemble de pas de danse inhabituel ?",
+            
+            description: "Les orientations se précisent. Il y a des pas, certainement - des pas que je commence à ressentir - et les pas se terminent quelque part - quelque part sous la vie éveillée. Quelque part, je suis différent. Je tourne les épaules: pourquoi ai-je l'impression que ma peau ne me va pas bien ?",
+            
+            
+            
+        },
+
+        {
+            id: "legacydancer_study_plotitema_moth",
+extends: ["legacydancer_study_plotitema_moth"],
+            
+            label: "Considérez le poème froissé comme un défi de Rêve",
+            
+            startdescription: "Je crois que j'ai fait un rêve comme celui-ci, une fois, une nuit où la lune a recouvert les draps de mon lit - quand j'ai rêvé que mes mains n'étaient pas exactement des mains, que quelque chose de plus que du sang pulsait sous ma peau - et que cette peau n'était pas celle que je portais. Et si je pouvais retrouver quelque chose de ce rêve ?",
+            description: "Je reste éveillé la moitié de la nuit, convaincu qu'il y a quelque chose dans ma chambre. Un peu après minuit, je me rends compte que je suis ce quelque chose; et je m'endors avec reconnaissance.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "legacydancer_opendream_heart",
+extends: ["legacydancer_opendream_heart"],
+            
+            label: "Un Rêve d'un autre Moi",
+            startdescription: "Dans mes rêves, c'est clair. C'est une danse que l'on ne peut pas exécuter seul, ni avec un partenaire. C'est une danse que l'on exécute avec une poupée.",
+            description: "J'ai suivi les étapes, avec une poupée de chiffon, mais ce n'était pas tout à fait correct. Quand j'ai pelé le tissu de la poupée comme de la peau, j'ai ressenti un soulagement, mais ensuite, bien sûr, elle s'est effondrée... Quelque chose ne va pas - la poupée, le monde, ou moi.",
+            
+            comments: "opened from studying about first plot object with health",
+            
+            
+            
+        },
+        {
+            id: "L_desire_addhearttrack",
+extends: ["L_desire_addhearttrack"],
+            
+            label: "Un Rêve d'un autre Moi",
+            
+        },
+
+
+
+        {
+            id: "legacydancer_opendream_moth",
+extends: ["legacydancer_opendream_moth"],
+            label: "Un Rêve d'un ancien Moi",
+            
+            startdescription: "Ce soir, je vais couper une mèche de mes cheveux avant de dormir. Je l'ai lu dans le poème.",
+            
+            description: "J'ai rêvé d'un grand Bois au coeur du premier continent où nous nous déplacions parmi les arbres, sombre et clair et sombre encore, de haut en bas et dans le feu. J'ai rêvé qu'une fois nous étions autre chose - ou que quelque chose d'autre était nous. Une fois, nous étions peut-être des choses avec des ailes. Parfois, maintenant, mes omoplates me démangent.",
+            comments: "opened from studying about first plot object with passion",
+            
+            
+            
+        },
+
+        {
+            id: "L_desire_addmothtrack",
+extends: ["L_desire_addmothtrack"],
+            
+            label: "Un Rêve d'un ancien Moi",
+            
+        },
+
+
+        {
+            id: "legacydancer_openexplore_heart",
+extends: ["legacydancer_openexplore_heart"],
+            
+            label: "Un nouveau partenaire",
+            startdescription: "Parfois, l'après-midi, je rôde dans les marchés de rue. J'ai exécuté la danse du poème, et j'ai ruiné ma poupée de chiffon. Il doit y avoir une meilleure poupée, pour que je puisse à nouveau marquer ces pas.",
+            description: "Je l'ai trouvé ! Vendu comme épave pour un demi-shilling. Ce n'est pas tout à fait exact, mais c'est proche. Sa surface, ses cicatrices, la forme de ses membres.",
+            
+            
+            comments: "opened from dreaming"
+        },
+        {
+            id: "legacydancer_openexplore_moth",
+extends: ["legacydancer_openexplore_moth"],
+            
+            label: "Un ancien partenaire",
+            startdescription: "Quand la lune est sortie, je me glisse par-dessus la clôture dans le parc fermé à clé, en regardant sous les branches dans les endroits creux. Je ne sais pas encore pourquoi.",
+            description: "J'ai trouvé un paquet jeté dans la boue. J'ai tout de suite su que c'était ce que je cherchais. Peut-être qu'il m'était destiné, peut-être que je l'ai volé, comme on peut voler un bébé abandonné. Dans le rêve ailé du Bois, j'ai dansé avec quelque chose qui lui ressemblait un peu.",
+            
+            
+            comments: "opened from dreaming"
+        },
+
+        {
+            id: "legacydancer_opentalk",
+extends: ["legacydancer_opentalk"],
+            
+            label: "Ce que nous disons et quand nous le disons",
+            comments: "opened from first audience interaction",
+            startdescription: "Ai-je quelque chose en commun avec certains de ceux qui me regardent ?",
+            
+            
+        },
+
+
+
+        {
+            id: "worklegacydancerjob_pleadforreinstatement",
+extends: ["worklegacydancerjob_pleadforreinstatement"],
+            label: "Plaidoyer pour la réintégration au théâtre Gaiety",
+            
+            
+            
+            startdescription: "J'ai besoin de retrouver mon emploi. Je leur dirai que ce sera différent cette fois-ci. Peut-être qu'ils comprendront.",
+            description: "Je n'ai pas supplié; pas vraiment.",
+            
+            
+        },
+
+        {
+            id: "worklegacydancerjob",
+extends: ["worklegacydancerjob"],
+            label: "Jouer au théâtre Gaiety",
+            
+            
+            
+            
+            startdescription: "La scène attend, chaude et propre, nue et lumineuse. Si je bouge comme il faut, ils me paieront.",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+            id: "worklegacydancerjob_more",
+extends: ["worklegacydancerjob_more"],
+            
+            label: "Une opportunité au théâtre Gaiety",
+            startdescription: "Ce soir, je sens une opportunité. Ce soir, je pourrais attirer l'attention, si je cesse de me retenir, si je me donne à fond.",
+            description: "Je suis resté à l'écart. J'ai fait les démarches nécessaires, et maintenant ils vont me payer.",
+            comments: "the better outcomes require heart or moth 2: enough for abilities or for restlessness, too much for fatigue",
+            slots: [
+                {
+                    id: "more",
+extends: ["more"],
+                    label: "Effort supplémentaire",
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "A_worklegacydancerjob_more_benefactorm",
+extends: ["A_worklegacydancerjob_more_benefactorm"],
+            
+            
+            label: "Un Bienfaiteur potentiel",
+            startdescription: ".",
+            description: "Un gentleman s'est imposé au régisseur pour me rencontrer en coulisses. Il est courtois; il dit tout ce qu'il faut sur mon travail; il m'a apporté un cadeau. Il espère que nous pourrons être amis.",
+            
+            
+            
+
+        },
+        {
+            id: "A_worklegacydancerjob_more_benefactorf",
+extends: ["A_worklegacydancerjob_more_benefactorf"],
+            
+            
+            label: "Un Bienfaiteur potentiel",
+            startdescription: "",
+            description: "Une dame s'est arrangée pour que nous soyons présentés dans le café scintillant de l'autre côté de la rue. Elle est très aimable; elle écoute attentivement tout ce que je dis; elle a apporté un cadeau. Elle espère que nous pourrons être amis.",
+            
+            
+            
+
+        },
+        {
+            id: "A_worklegacydancerjob_more_ecdysiast",
+extends: ["A_worklegacydancerjob_more_ecdysiast"],
+            
+            
+            label: "Un message d'un admirateur ?",
+            startdescription: ".",
+            description: "Une lettre remise en main propre, qui m'est adressée. Elle sent fortement la fumée de cigarette et le clou de girofle. C'est écrit: 'Si vous avez besoin de parler à quelqu'un de vos rêves, trouvez-moi ici. N'appelez pas avant d'être prêt.' Il y a un numéro de téléphone et un nom: Sulochana.",
+            
+            
+            
+
+        },
+        {
+            id: "A_worklegacydancerjob_more_heart",
+extends: ["A_worklegacydancerjob_more_heart"],
+            
+            
+            label: "Je suis un assemblage gracieux de chair et de sang.",
+            startdescription: "Ce soir, ils ne verront que moi.",
+            description: "J'ai senti tous leurs yeux sur moi. Par la suite, j'ai reçu un cadeau d'un admirateur - trop voyant à mon goût, mais je peux le vendre sur le marché de l'occasion.",
+            
+        },
+
+        {
+            id: "A_worklegacydancerjob_more_moth",
+extends: ["A_worklegacydancerjob_more_moth"],
+            
+            
+            label: "Je suis plus qu'un assemblage gracieux de chair et de sang.",
+            startdescription: "Ce soir, ils ne verront que moi.",
+            description: "J'ai senti tous leurs yeux sur moi. Par la suite, j'ai reçu un cadeau d'un admirateur - un peu trop personnel pour que je me sente à l'aise, mais je peux le vendre sur le marché de l'occasion.",
+            
+        },
+
+
+        {
+            id: "workdancerjobbenefactor",
+extends: ["workdancerjobbenefactor"],
+            label: "Jouer pour un Bienfaiteur",
+            
+            
+            
+            
+            
+            startdescription: "Mon Bienfaiteur serait ravi que je propose une représentation privée pour un public restreint et raffiné. Il m'invitera ensuite à dîner et m'offrira bien sûr des cadeaux appropriés en échange de mon temps.",
+            description: ".",
+            
+            
+        },
+
+
+        {
+            id: "L_workdancerjobbenefactor_more_health",
+extends: ["L_workdancerjobbenefactor_more_health"],
+            
+            label: "Mon bienfaiteur: Energie",
+            startdescription: "Ce soir, mon Bienfaiteur est plein d'énergie. Je devrais l'être aussi !",
+            description: ".",
+            slots: [
+                {
+                    id: "energy",
+extends: ["energy"],
+                    label: "Energie",
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "L_workdancerjobbenefactor_more_passion",
+extends: ["L_workdancerjobbenefactor_more_passion"],
+            
+            label: "Mon Bienfaiteur: Inventivité",
+            startdescription: "Ce soir, mon Bienfaiteur aimerait de l'inventivité; de l'enthousiasme; du brio. Passion.",
+            description: ".",
+            slots: [
+                {
+                    id: "vivacity",
+extends: ["vivacity"],
+                    label: "Vivacité",
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "L_workdancerjobbenefactor_more_funds",
+extends: ["L_workdancerjobbenefactor_more_funds"],
+            
+            label: "Mon Bienfaiteur: Couleurs fraîches",
+            startdescription: "Ce soir, mon Bienfaiteur préfèrera me voir dans quelque chose de nouveau. Je devrais m'acheter quelque chose, rapidement...",
+            description: ".",
+            slots: [
+                {
+                    id: "funds",
+extends: ["funds"],
+                    label: "Fonds",
+                    
+                }
+            ],
+            
+            
+        },
+
+
+
+        {
+            id: "L_workdancerjobbenefactor_more_reason",
+extends: ["L_workdancerjobbenefactor_more_reason"],
+            
+            label: "Mon Bienfaiteur: la vie de l'esprit",
+            startdescription: "Ce soir, l'humeur de mon Bienfaiteur est à la conversation.",
+            slots: [
+                {
+                    id: "L_conversation",
+extends: ["L_conversation"],
+                    label: "Conversation",
+                    
+                }
+            ],
+            
+            
+        },
+        {
+            id: "L_workdancerjobbenefactor_satisfactory_health",
+extends: ["L_workdancerjobbenefactor_satisfactory_health"],
+            
+            
+            label: "Mon Bienfaiteur me trouve engageante",
+            description: "Après la représentation, je suis rouge et en nage, mais mon Bienfaiteur semble aimer ça. Il m'a apporté un petit quelque chose d'étincelant.",
+            
+            
+        },
+
+        {
+            id: "L_workdancerjobbenefactor_satisfactory_passion",
+extends: ["L_workdancerjobbenefactor_satisfactory_passion"],
+            
+            
+            label: "Mon Bienfaiteur est ravi",
+            startdescription: "Tous les invités applaudissent avec une réelle conviction ! Ma performance s'est bien déroulée. Ensuite, mon Bienfaiteur se montre respectueux et affectueux. J'ai un souvenir de la soirée - assez coûteux.",
+            
+            
+        },
+
+        {
+            id: "L_workdancerjobbenefactor_satisfactory_funds",
+extends: ["L_workdancerjobbenefactor_satisfactory_funds"],
+            
+            
+            label: "Mon Bienfaiteur m'observe avec attention",
+            description: "J'ai bien choisi ma tenue pour la représentation. Mon Bienfaitrice me comble de compliments et de cadeaux.",
+            
+            
+            comments: "only 4 funds; 1 used up"
+        },
+
+        {
+            id: "L_workdancerjobbenefactor_satisfactory_reason",
+extends: ["L_workdancerjobbenefactor_satisfactory_reason"],
+            
+            
+            label: "Mon Bienfaiteur me trouve engageante",
+            description: "Le spectacle est plus court que d'habitude, mais les conversations - avec les autres invités, et plus tard, avec mon Bienfaiteur - se poursuivent jusque tard dans la nuit. Je repars avec un beau cadeau.",
+            
+            
+        },
+
+        {
+            id: "L_workdancerjobbenefactor_satisfactory_norequirement",
+extends: ["L_workdancerjobbenefactor_satisfactory_norequirement"],
+            
+            label: "Mon Bienfaiteur me trouve engageante",
+            startdescription: ".",
+            description: "Ce soir, j'ai dansé et ri, j'ai été charmant avec mon Bienfaiteur et charmant avec nos invités. Tout le monde est heureux. Et j'ai un petit quelque chose - de quoi vivre un bon moment.",
+            
+            
+        },
+
+
+        {
+            id: "L_workdancerjobbenefactor_bored",
+extends: ["L_workdancerjobbenefactor_bored"],
+            
+            label: "Mon Bienfaiteur s'agite",
+            description: "Pour une raison quelconque, malgré tous mes efforts, mon Bienfaiteur ne semble pas s'intéresser à moi ce soir. Il s'efforce de me faire des adieux courtois, mais son cadeau habituel semble être une pensée après coup.",
+            
+            
+            
+        },
+        {
+            id: "L_workdancerjobbenefactor_discardsme",
+extends: ["L_workdancerjobbenefactor_discardsme"],
+            
+            
+            label: "Mon Bienfaiteur en a-t-il assez de moi ?",
+            startdescription: "Je n'ai pas eu de nouvelles de mon Bienfaiteur depuis des jours...",
+            description: "Lorsque j'appelle, je suis informé que mon Bienfaiteur ne reçoit pas de visiteurs. Trois fois, on me l'assure. Enfin, je reçois un modeste cadeau accompagné d'une note de politesse me souhaitant bonne chance pour l'avenir. Il n'est pas signé. Peut-être que personne ne l'a envoyé.",
+            
+            
+        },
+
+        {
+            id: "L_workdancerjobbenefactor_proposes_always",
+extends: ["L_workdancerjobbenefactor_proposes_always"],
+            
+            
+            label: "Mon Bienfaiteur est-il sur le point de me faire une proposition ?",
+            startdescription: "Il a un air d'excitation refoulée ce soir.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "L_workdancerjobbenefactor_proposes_sometimes",
+extends: ["L_workdancerjobbenefactor_proposes_sometimes"],
+            
+            
+            label: "Mon Bienfaiteur est-il sur le point de me faire une proposition ?",
+            startdescription: "Il a un air d'excitation refoulée ce soir.",
+            description: ".",
+            
+            
+            comments: "Identical to proposes_always, but with a lower threshold"
+        },
+        {
+            id: "talk_benefactormarry",
+extends: ["talk_benefactormarry"],
+            
+            
+            slots: [
+                {
+                    id: "Yes",
+extends: ["Yes"],
+                    label: "Oui",
+                    
+                }
+            ],
+            label: "Accepter une proposition de mariage",
+            startdescription: "On m'a proposé le mariage - le mariage dans la noblesse. La paix, la prospérité, le confort et la compagnie affectueuse de mon Bienfaiteur pour le reste de ma vie. Je dois être sincère. Si je ne peux pas faire l'expérience de la sincérité, je dois la fabriquer.",
+            description: "Mon Bienfaiteur attend toujours, le visage brouillé.",
+            
+            
+            
+        },
+
+        {
+            id: "talk_benefactormarrycomplete",
+extends: ["talk_benefactormarrycomplete"],
+            
+            label: "'Oui !'",
+            
+            startdescription: "Now I will leave this place, and enter another state of being. A happy one, it is to be hoped - ",
+            
+        },
+
+    ]
+}

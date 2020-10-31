@@ -1,0 +1,141 @@
+{
+    "recipes": [
+        {
+            id: "auctionentry6",
+extends: ["auctionentry6"],
+            label: "Vendre quelque chose de grande valeur",
+            
+            
+            
+            
+            startdescription: "Peu de clients de l'Oriflamme sont des étudiants en arts invisibles. Mais même les profanes reconnaîtront que c'est quelque chose d'extraordinaire. [Vendez avec prudence. Il n'y a aucun moyen de le récupérer.]",
+            
+            
+        },
+        {
+            id: "auctionentry5",
+extends: ["auctionentry5"],
+            label: "Vendre quelque chose de valeur rare",
+            
+            
+            
+            
+            startdescription: "Peu de clients de l'Oriflamme sont des étudiants en arts invisibles. Ils achètent des outils de pouvoir comme des trophées ou des curiosités, sans avoir la moindre idée de leur véritable valeur. Mais c'est évidemment quelque chose de rare. [Vendez avec prudence. Il n'y a aucun moyen de le récupérer.]",
+            
+            
+        },
+        {
+            id: "auctionentry4",
+extends: ["auctionentry4"],
+            label: "Vendre quelque chose d'une valeur significative",
+            
+            
+            
+            
+            startdescription: "Peu de clients de l'Oriflamme sont des étudiants en arts invisibles. Ils achètent des outils de pouvoir comme des trophées ou des curiosités, sans avoir la moindre idée de leur véritable valeur. Mais cela va attirer leur attention. [Vendez avec prudence. Il n'y a aucun moyen de le récupérer.]",
+            
+            
+        },
+        {
+            id: "auctionentry3",
+extends: ["auctionentry3"],
+            label: "Vendre quelque chose de valeur réelle",
+            
+            
+            
+            
+            startdescription: "Cet objet inhabituel vous permettra certainement de gagner de l'argent. [Vendez avec prudence. Il n'y a aucun moyen de le récupérer.]",
+            
+            
+        },
+        {
+            id: "auctionentry2",
+extends: ["auctionentry2"],
+            label: "Vendre quelque chose d'une certaine valeur",
+            
+            
+            
+            
+            startdescription: "Cette curiosité vous fera gagner des fonds. [Vendez avec prudence. Il n'y a aucun moyen de le récupérer.]",
+            
+            
+        },
+        {
+            id: "auctionentry1",
+extends: ["auctionentry1"],
+            label: "Vendre quelque chose de valeur minime",
+            
+            
+            
+            
+            startdescription: "Cette bizarrerie vaut probablement quelque chose, mais il est difficile d'en être sûr.",
+            
+            
+        },
+        {
+            id: "auctionsell_worthless",
+extends: ["auctionsell_worthless"],
+            label: "Vente aux enchères: Un manque total d'intérêt",
+            
+            startdescription: "Personne n'est impressionné. Le coup de marteau du commissaire-priseur retentit. Mon objet s'est vendu, mais pour une somme si insignifiante qu'elle ne vaut pas la peine d'être enregistrée.",
+            
+            
+            
+        },
+        {
+            id: "auctionsell_increasepetty",
+extends: ["auctionsell_increasepetty"],
+            label: "Vente aux enchères: Murmures dans le public",
+            
+            startdescription: "Pour une raison improbable, mon article a attiré l'attention des enchérisseurs.",
+            
+            
+            
+        },
+
+        {
+            id: "auctionsell_increaseminor",
+extends: ["auctionsell_increaseminor"],
+            label: "Vente aux enchères: Enchères énergiques",
+            
+            startdescription: "Une partie du public est maintenant sur pied. Les passions se déchaînent..",
+            
+            
+            
+        },
+        {
+            id: "auctionsell_increasemajor",
+extends: ["auctionsell_increasemajor"],
+            label: "Vente aux enchères: Cris d'excitation",
+            
+            startdescription: "Le commissaire-priseur doit élever la voix face au brouhaha de la foule.",
+            
+            
+            
+        },
+        {
+            id: "auctionsell_increasegrand",
+extends: ["auctionsell_increasegrand"],
+            label: "Vente aux enchères: Duel d'enchérisseurs",
+            
+            startdescription: "Deux riches collectionneurs ferment les yeux sur le commissaire-priseur, signalant leurs intentions au moindre signe de tête. À l'exception des tons graves du commissaire-priseur, la salle est totalement silencieuse.",
+            
+            
+            
+        },
+
+
+        {
+            id: "auctioncleanup",
+extends: ["auctioncleanup"],
+            label: "La vente aux enchères est terminée",
+            
+            description: "Le coup de marteau du commissaire-priseur retentit. Mon objet s'est vendu.",
+            
+            
+        },
+
+
+
+    ]
+}

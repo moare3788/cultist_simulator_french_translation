@@ -1,0 +1,275 @@
+{
+    "elements": [
+        {
+            id: "ascensionchangea",
+extends: ["ascensionchangea"],
+            label: "Tentation: Changement",
+            
+            description: "Certains soirs, avant le public, je ressens l'envie d'être quelque chose d'autre. Que pourrais-je devenir de plus ? [Cette carte vous permettra de remporter une victoire du Changement, si vous l'améliorez suffisamment. Consacrez suffisamment d'efforts à vos danses, et vous trouverez l'étape suivante.]",
+            
+            
+        },
+        {
+            id: "ascensionchangeb",
+extends: ["ascensionchangeb"],
+            label: "Changement: Feuille",
+            
+            description: "Je tremble quand le vent arrive. Les veines sous ma surface sont apparentes. Je porte toujours une bille de malachite à côté de ma peau. [Cette carte vous permettra de remporter une victoire du Changement, si vous l'améliorez suffisamment. Consacrez assez d'efforts à vos danses, et vous trouverez la prochaine étape.]",
+            
+            
+        },
+        {
+            id: "ascensionchangec",
+extends: ["ascensionchangec"],
+            label: "Changement: Perle",
+            
+            description: "Ma peau pèle par endroits, et en dessous, je suis plus sombre, mais mes yeux sont plus clairs. Je transporte une perle de mer dans un endroit secret. Parfois, la nuit, j'entends la mer; parfois, le matin, mes draps sont tachés de sang. (Cette carte vous permettra de remporter une victoire de Changement, si vous l'améliorez suffisamment. Consacrez suffisamment d'efforts à vos danses, et vous trouverez l'étape suivante.]",
+            
+            
+        },
+        {
+            id: "ascensionchanged",
+extends: ["ascensionchanged"],
+            label: "Changement: Antumbra",
+            
+            description: "Je suis devenu aussi sombre que je le serai jamais. Les ombres sont ma compagnie, et mon pas est un murmure. Je porte une bague sertie de jais, mais je garde la pierre tournée vers l'intérieur, invisible dans ma paume. [This card will allow you to win a Change victory, if you upgrade it far enough. Devote enough effort to your dances, and you'll find the next step.]",
+            
+            
+        },
+        {
+            id: "ascensionchangee",
+extends: ["ascensionchangee"],
+            label: "Changement: Stigmate",
+            
+            description: "Mon obscurité a pâli et toutes mes couleurs sont décolorées. De nouveaux lobes bourgeonnent autour de mes éléments les plus réceptifs. Je suis couvert de secrets. Je porte un prisme en scolecite sous ma langue pâle. [Cette carte vous permettra de remporter une victoire du Changement, si vous l'améliorez suffisamment. Consacrez suffisamment d'efforts à vos danses, et vous trouverez l'étape suivante.]",
+            
+            
+        },
+        {
+            id: "ascensionchangef",
+extends: ["ascensionchangef"],
+            label: "Changement: Élève",
+            
+            description: "Le blanc de mes yeux est jaune, et un nouveau tégument s'est développé le long de mes membres pour me revêtir avant le changement final. En privé, je porte une bague d'orteil en or, et des boucles d'oreille en or et en topaze, mais elles ne sont pas visibles. [Cette carte vous permettra de remporter une victoire de changement, si vous l'améliorez suffisamment. Consacrez suffisamment d'efforts à vos danses, et vous trouverez l'étape suivante.]",
+            
+            
+
+        },
+
+        {
+            id: "ascensionchangeg",
+extends: ["ascensionchangeg"],
+            label: "Changement: Ivoire",
+            
+            description: "Mes os sont différents. Ils portent le récit de ce qui est perdu. Si je ne survis pas, ils seront mon histoire, et quelqu'un portera des fragments de mon ivoire pour les réchauffer contre sa peau. [This card will allow you to win a Change victory.]",
+            
+            
+
+        },
+        {
+            id: "sendingheartb",
+extends: ["sendingheartb"],
+            label: "Apparence: Vipère",
+            
+            description: "La Vipère s'enroule là où la mer se replie sur la terre. Je dois trouver un lieu de pouvoir au bord de l'eau. Peut-être que Sulochana pourra m'aider, si je lui apporte ses secrets sur d'autres endroits.  [Une partie de vous peut errer en forme de serpent. Envoyez-la pour accompagner vos disciples vers un endroit où elle pourra exécuter la danse que vous devez danser. Si vous avez des difficultés à trouver l'endroit, parlez à Sulochana des Histoires secrètes.]",
+            
+        },
+        {
+            id: "sendingheartc",
+extends: ["sendingheartc"],
+            label: "Apparence: Chat",
+            
+            description: "Le Chat se promène la nuit au bord de la rivière où pousse le lin noir. [Une partie de vous peut errer en forme de chat. Envoyez-la pour accompagner vos disciples vers un endroit où elle pourra exécuter la danse que vous devez danser. Si vous avez des problèmes pour trouver l'endroit, parlez à Sulochana des Histoires Secrètes.]",
+            
+        },
+        {
+            id: "sendingheartd",
+extends: ["sendingheartd"],
+            label: "Apparence: Renard",
+            
+            description: "Le Renard erre dans les prairies de le montagne, cherchant la marque du Fleuriste. [Une partie de vous peut errer en forme de renard. Envoyez-la pour accompagner vos disciples vers un endroit où elle pourra exécuter la danse que vous devez danser. Si vous avez des problèmes pour trouver l'endroit, parlez à Sulochana des Histoires Secrètes.]",
+            
+        },
+        {
+            id: "sendinghearte",
+extends: ["sendinghearte"],
+            label: "Apparence: Aigle",
+            
+            description: "L'Aigle parcourt la route du ciel, et voici ce qu'il voit: à Miah se trouve le premier Perchoir, où les puissances de l'air ont échangé leurs secrets pour la première fois. [Une partie de vous peut errer en forme d'aigle. Envoyez-la pour accompagner vos disciples vers un endroit où elle pourra exécuter la danse que vous devez danser. Si vous avez des problèmes pour trouver l'endroit, parlez à Sulochana des Histoires Secrètes.]",
+            
+        },
+
+        {
+            id: "sendingheartf",
+extends: ["sendingheartf"],
+            label: "Apparence: Colombe",
+            
+            description: "La colombe se souvient quand tous les autres oublient. [Une partie de vous peut errer comme un oiseau pâle. Envoyez-la pour accompagner vos disciples vers un endroit où elle pourra exécuter la danse que vous devez danser. Si vous avez des problèmes pour trouver l'endroit, parlez à Sulochana des Histoires Secrètes.]",
+            
+        },
+
+        {
+            id: "sendingheartg",
+extends: ["sendingheartg"],
+            label: "Apparence: Sanglier",
+            
+            description: "Sous cette forme, je me rendrai à celui qui détient la clé de la Porte de la Peau-du-Roi. [Une partie de vous peut errer comme une bête noire sauvage.]",
+            
+        },
+
+        {
+            id: "sendingmothb",
+extends: ["sendingmothb"],
+            label: "Instinct: Silencieux",
+            
+            description: "Dans une maison silencieuse au bord de la mer, dans une peau empruntée, nous chercherons le deuxième changement. Je dois trouver un lieu de pouvoir au bord de l'eau. Peut-être que Sulochana pourra m'aider, si je lui apporte ses secrets sur d'autres endroits. [Une partie de vous peut errer en forme de vipère. Envoyez-la pour accompagner vos disciples vers un endroit où elle pourra exécuter la danse que vous devez danser. Si vous avez des difficultés à trouver l'endroit, parlez à Sulochana des Histoires secrètes.]",
+            
+        },
+        {
+            id: "sendingmothc",
+extends: ["sendingmothc"],
+            label: "Instinct: Rampant",
+            
+            description: "Parmi les pierres où la bête noire s'enfouit, derrière le masque des yeux, nous chercherons le troisième changement. [Une partie de vous peut errer en forme de chat. Envoyez-la pour accompagner vos disciples vers un endroit où elle pourra exécuter la danse que vous devez danser. Si vous avez des problèmes pour trouver l'endroit, parlez à Sulochana des Histoires Secrètes.]",
+            
+        },
+        {
+            id: "sendingmothd",
+extends: ["sendingmothd"],
+            label: "Instinct: Roussâtre",
+            
+            description: "Dans les hauts lieux où l'air est tentation, nous chercherons le quatrième changement. [Une partie de vous peut se promener en forme de renard. Envoyez-le pour accompagner vos disciples vers un endroit où il pourra exécuter la danse que vous devez danser. Si vous avez des difficultés à trouver l'endroit, parlez à Sulochana des Histoires secrètes.]",
+            
+        },
+        {
+            id: "sendingmothe",
+extends: ["sendingmothe"],
+            label: "Instinct: Voyager au loin",
+            
+            description: "À Miah, où le Mille-Pattes a vu tout ce qui pouvait encore arriver, nous chercherons le cinquième changement. [Une partie de vous peut errer en forme d'aigle. Envoyez-le pour accompagner vos disciples vers un endroit où il pourra exécuter la danse que vous devez danser. Si vous avez des difficultés à trouver l'endroit, parlez à Sulochana des Histoires secrètes.]",
+            
+        },
+        {
+            id: "sendingmothf",
+extends: ["sendingmothf"],
+            label: "Instinct: Avide",
+            
+            description: "Au loin, là où ils se souviennent du Soleil, j'apporterai ma haine empruntée pour le sixième changement. [Une partie de vous peut errer en forme de loup. Envoyez-la pour accompagner vos disciples vers un endroit où elle pourra exécuter la danse que vous devez danser. Si vous avez des problèmes pour trouver l'endroit, parlez à Sulochana des Histoires Secrètes.]",
+            
+        },
+        {
+            id: "sendingmothg",
+extends: ["sendingmothg"],
+            label: "Imago",
+            
+            description: "Pour le dernier changement, je vais passer la Porte dans le Bois. Le sacrifice de Méduse est toujours un cerf rouge virginal, et je passerai donc la porte comme une biche. [Dans le cercle de la nuit, vous flottez.]",
+            
+        },
+
+        {
+            id: "sendingmothheartg",
+extends: ["sendingmothheartg"],
+            label: "Apparence: Imago",
+            
+            description: "Mon esprit quittera mon corps comme une grande bête à cornes. Pour être un sacrifice ? [Ce qui est dedans, dehors; ce qui est dehors, dedans.]",
+        },
+
+        {
+            id: "ascensionlessonhearta",
+extends: ["ascensionlessonhearta"],
+            label: "Vêtements, abandonnés",
+            
+            description: "Le Malachite m'a appris que le moi nu n'est pas le vrai moi, mais c'est moins un mensonge. [Dans la Saison des Ambitions, cela peut améliorer votre désir de Changement.]",
+            
+        },
+        {
+            id: "ascensionlessonheartb",
+extends: ["ascensionlessonheartb"],
+            label: "Téguments, abandonnés",
+            
+            description: "La guerre des Jumeaux et du Serpent, et dans cette guerre j'ai appris comment la douleur peut être une porte.",
+            
+        },
+        {
+            id: "ascensionlessonheartc",
+extends: ["ascensionlessonheartc"],
+            label: "Mes pas, abandonnés",
+            
+            description: "Le Velours m'a appris que ce qui est révélé doit d'abord être caché, pour que sa révélation ait une quelconque conséquence. J'ai abandonné mes pas.",
+            
+        },
+        {
+            id: "ascensionlessonheartd",
+extends: ["ascensionlessonheartd"],
+            label: "Nuances, abandonnés",
+            
+            description: "Le Fleuriste m'a donné tout ce que je désirais, et m'a pris mes couleurs.",
+            
+        },
+        {
+            id: "ascensionlessonhearte",
+extends: ["ascensionlessonhearte"],
+            label: "Vue, abandonnée",
+            
+            description: "J'ai donné mes yeux au Vagabond, et à travers eux je verrai ce qu'elle verrait: la route du changement rouge.",
+            
+        },
+        {
+            id: "ascensionlessonheartf",
+extends: ["ascensionlessonheartf"],
+            label: "Os, abandonnés",
+            
+            description: "L'Élégie m'a appris à me souvenir, dans la dernière partie de moi à changer. Je porterai cette leçon au-delà de la Porte de la Peau-du-Roi.",
+            
+        },
+
+        {
+            id: "ascensionlessonmotha",
+extends: ["ascensionlessonmotha"],
+            label: "Vêtements, abandonnés",
+            
+            description: "L'Anneau-d'If m'a ordonné de mettre ma chair à nu, et j'ai obéi. Je n'obéirai pas toujours à l'Anneau-d'If. [Dans la Saison des Ambitions, cela peut améliorer votre désir de Changement.]",
+            
+        },
+        {
+            id: "ascensionlessonmothb",
+extends: ["ascensionlessonmothb"],
+            label: "Téguments, abandonnés",            
+            description: "La Mère perce, la Sorcière exige, la Soeur dissout. Et ainsi  ma peau est mince comme la pluie",
+        },
+        {
+            id: "ascensionlessonmothc",
+extends: ["ascensionlessonmothc"],
+            label: "Mes pas, abandonnés",
+            
+            description: "I walked in the black-flax at the river's edge, and it tasted my feet with its hundred tongues until I could withstand the touch of it no longer, and then I was only shadow.",
+            
+        },
+        {
+            id: "ascensionlessonmothd",
+extends: ["ascensionlessonmothd"],
+            label: "Nuances, abandonnés",
+            
+            description: "Je suis venu voir les fleurs que le Fleuriste a faites et c'est ce que je suis devenu. Il garde mes couleurs pour moi maintenant.",
+            
+        },
+        {
+            id: "ascensionlessonmothe",
+extends: ["ascensionlessonmothe"],
+            label: "Vue, abandonnée",
+            
+            description: "Le Mille-Pattes m'a raconté ses blagues et en échange je la laisserai me sculpter des yeux d'or, jusqu'à ce que l'ommatidia se produise.",
+            
+        },
+        {
+            id: "ascensionlessonmothf",
+extends: ["ascensionlessonmothf"],
+            label: "Os, abandonnés",
+            
+            description: "Le Soleil a été divisé, et le Loup ne me laissera pas oublier la saveur salée de ses os - pas avant que le Mansus ne craque. Maintenant, le Loup exige que je porte cette saveur à travers la Porte dans le Bois.",
+            
+        },
+
+
+    ]
+}

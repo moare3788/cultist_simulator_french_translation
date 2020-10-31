@@ -1,0 +1,81 @@
+{
+    "verbs": [
+        {
+            "id": "work",
+            "label": "Travailler",
+            "description": "Gagner sa vie, ou pratiquer les arts invisibles.",
+            slot: 
+                {
+                    id: "work",
+extends: ["work"],
+                    label: "Travailler",
+                    description: "Quelque chose que je peux faire; quelque chose que je sais; ou quelque chose que je suis.",
+                    
+                    
+                },
+
+        },
+        {
+            "id": "dream",
+            "label": "Rêver",
+            "description": "Reposez-vous, reconsidérez vos priorités ou prenez le risque d'explorer les royaumes du sommeil.",
+            slot: 
+                {
+                    id: "dream",
+extends: ["dream"],
+                    label: "Rêver",
+                    description: "Une direction vers mes rêves; ou une difficulté à m'en remettre.",
+                    
+                }
+        },
+        {
+            "id": "study",
+            "label": "Étudier",
+            "description": "Débloquez des livres et d'autres trésors.",
+            slot: 
+                {
+                    id: "study",
+extends: ["study"],
+                    label: "Etudier",
+                    description: "Les arts invisibles pourraient occuper dix vies d'études.",
+                    
+                },
+        },
+        {
+            "id": "talk",
+            "label": "Parler",
+            "description": "Interroger, intimider, envoûter, instruire, recruter.",
+            slot: 
+                {
+                    id: "talk",
+extends: ["talk"],
+                    label: "Parler",
+                    description: "Un allié, un ennemi, ou quelque chose entre les deux.",
+                    
+                    
+                }
+
+        },
+
+        {
+            "id": "explore",
+            "label": "Explorer",
+            "description": "Explorez la ville avec de la Santé ou des Adeptes; explorez les lieux; ou étudiez les possibilités de l'histoire. L'exploration est souvent imprévisible.",
+            slot:
+                {
+                    id: "explore",
+extends: ["explore"],
+                    label: "Explorer",
+                    description: "Un lieu; une personne; un endroit; un secret.",
+                    
+                    
+                }
+        },
+        {
+            "id": "time",
+            "label": "Temps",
+            "description": "L'ombre du cadran solaire.",
+        }
+    ]
+
+}

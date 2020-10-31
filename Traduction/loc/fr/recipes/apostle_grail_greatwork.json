@@ -1,0 +1,289 @@
+{
+    "recipes": [
+
+        {
+            id: "ambition.apostlegrail.emitfuel",
+extends: ["ambition.apostlegrail.emitfuel"],
+            
+            label: "L'orientation de notre Délice",
+            
+            startdescription: "Un messager est arrivé de notre Délice, avec une seule fiole de leur très saint sang.",
+            
+        },
+
+        {
+            id: "work.apostlegrail.majorvictory.postbetrayal",
+extends: ["work.apostlegrail.majorvictory.postbetrayal"],
+            
+            label: "Néanmoins, la Vitulation",
+            
+            startdescription: "Pour rejoindre le Graal, notre Délice doit donner la vie et prendre la vie et ne pas être rassasié. C'est ainsi que je suis la pièce maîtresse de la Vitulation. Un enfant du corps du Délice remplirait cette condition, mais on ne peut pas entrer dans le Mansus en triomphe quand on a commis le Crime du Ciel. C'est donc moi, et après tout en dépit des tentations de Tryphon, je me soumets aux liens de Marinette, tandis que les Sept Grâces et les Trois Saveurs me submergent, et quand la première bouchée sera prise, je ne la sentirai presque pas; presque pas du tout.",
+
+        },
+
+
+        {
+            id: "work.apostlegrail.majorvictory",
+extends: ["work.apostlegrail.majorvictory"],
+            
+            label: "Les derniers éléments de la Vitulation",
+            
+            startdescription: "Pour rejoindre le Graal, notre Délice doit donner la vie et prendre la vie et ne pas être rassasié. C'est ainsi que je suis la pièce maîtresse de la Vitulation. Un enfant du corps du Délice remplirait cette condition, mais on ne peut pas entrer dans le Mansus en triomphe quand on a commis le Crime du Ciel. C'est donc moi, et je me soumets aux liens de Marinette, tandis que les Sept Grâces et les Trois Saveurs me submergent, et quand la première gorgée est prise, je ne la sens presque pas; je ne la sens presque pas du tout.",
+   
+        },
+
+
+
+        {
+            id: "explore.apostlegrail.purchase.apostlegrail.pillar3",
+extends: ["explore.apostlegrail.purchase.apostlegrail.pillar3"],
+            
+            label: "Enchère pour des épices rares",
+            startdescription: "Le sang de Notre Délice est un paiement pour certaines marchandises spéciales destinées à des connaisseurs particuliers. Tout doit être parfait pour la Vitulation.",
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "work.apostlegrail.upgrade.apostlegrail.pillar3.finished",
+extends: ["work.apostlegrail.upgrade.apostlegrail.pillar3.finished"],
+            
+            label: "Les Sept Grâces sont préparées",
+            startdescription: "Les Sept Grâces et les Trois Saveurs: le Sel, le Sucré, le Doux. Nous qui sommes le choix de l'Hostie, nous nous annoncerons ainsi.",
+            
+            
+            comments: "NB this is both craftable *and* linked, and precedes the main cooking recipe, in case the player tries to keep working on the Graces once it's done."
+        },
+
+        {
+            id: "work.apostlegrail.upgrade.apostlegrail.pillar3",
+extends: ["work.apostlegrail.upgrade.apostlegrail.pillar3"],
+            
+            label: "Préparer les Sept Grâces",
+            startdescription: "Les parfums et les saveurs doivent être exactement comme le dicte la recette. Ce n'est qu'ainsi que mes collègues et moi-même pourrons être suffisamment appétissants - suffisamment appétissants pour éveiller un appétit que l'on ne voit pas dans le monde éveillé.",
+            
+            description: "Je n'ai pas trouvé de parfum ou de saveur à ajouter.",
+            slots: [
+                {
+                    id: "enhancement",
+extends: ["enhancement"],
+                    label: "Amélioration",
+                    description: "Des additifs très spéciaux pour assurer la bonne marche de la Vitulation.",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+
+        {
+            id: "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail",
+extends: ["work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail"],
+            
+            label: "Le cadeau du Fleuriste",
+            startdescription: "Si nous mourons, nous continuerons à vivre avec ceux qui nous ont tués.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart",
+extends: ["work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart"],
+            
+            label: "La saveur de Janus",
+            startdescription: "Janus est le dieu qui ne s'est pas levé, mais qui règne. Janus est le saint qui n'est pas mort, mais qui est mort. Janus est la porte entre ce qui ne peut pas être et ce qui doit être.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth",
+extends: ["work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth"],
+            
+            label: "La saveur du lin noir",
+            startdescription: "Il est nécessaire que nous oubliions ce que nous étions.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "talk.apostlegrail.createpillar4",
+extends: ["talk.apostlegrail.createpillar4"],
+            
+            label: "Commencer les préparatifs pour la Vitulation",
+            startdescription: "Il y aura une grande fête lorsque notre Délice éprouvera leur appétit.",
+            description: "Nous ne pouvons pas connaître la date finale, tant que nous ne connaissons pas l'époque de la plus grande influence du Graal. Mais nous pouvons, nous devons, commencer à sélectionner ceux qui seront invités.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "talk.apostlegrail.upgradepillar4.attempt",
+extends: ["talk.apostlegrail.upgradepillar4.attempt"],
+            
+            label: "Convier notre dernier invité",
+            startdescription: "Sans le détenteur de la Clé, toute cette préparation sera vaine.",
+            description: "Nous n'avons pas encore notre détenteur de Clé",
+            
+            slots: [
+                {
+                    id: "finalguest",
+extends: ["finalguest"],
+                    label: "Le détenteur de la Clé",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+
+        {
+            id: "talk.apostlegrail.upgradepillar4.inprogress.attempt",
+extends: ["talk.apostlegrail.upgradepillar4.inprogress.attempt"],
+            
+            label: "Augmenter le nombre d'invités",
+            startdescription: "Nous cherchons à augmenter le nombre de participants. Nos alliés: l'avidité, la curiosité, la débauche, l'oisiveté pure.",
+            description: "Nous n'avons pas pu attiser l'excitation suffisament.",
+            
+            slots: [
+                {
+                    id: "more",
+extends: ["more"],
+                    label: "Plus",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "talk.apostlegrail.upgradepillar4.marinetteready",
+extends: ["talk.apostlegrail.upgradepillar4.marinetteready"],
+            
+            label: "Le détenteur de la Clé",
+            startdescription: "'<sprite name=winter>.'",
+            
+            
+            
+        },
+
+        {
+            id: "talk.apostlegrail.upgradepillar4.marinettenotready",
+extends: ["talk.apostlegrail.upgradepillar4.marinettenotready"],
+            
+            label: "Pas encore suffisamment",
+            startdescription: "'...<sprite name=grail>.' [Marinette n'est pas encore prête.]",
+            
+            
+        },
+
+
+
+        {
+            id: "talk.apostlegrail.upgradepillar4.succeed",
+extends: ["talk.apostlegrail.upgradepillar4.succeed"],
+            
+            label: "Le nombre d'invités grandit",
+            startdescription: "Plus de noms pour la liste qui est à parts égales sacrée et secrète; plus de visages pour la grande nuit.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "talk.apostlegrail.sulochanamarinette",
+extends: ["talk.apostlegrail.sulochanamarinette"],
+            
+            label: "Une introduction à Notre-Dame des Fils",
+            startdescription: "'Vous allez vraiment le faire ? Sulochana pose distraitement la semelle d'un pied botté sur le mégot de sa cigarette. Alors je m'en vais, maintenant. Ne t'inquiète pas. J'enverrai ton message à la soeur nécessaire. Je suis sûr qu'elle viendra... s'il y a assez de sang.'",
+            description: "",
+            
+            
+            
+        },
+
+        {
+            id: "talk.apostlegrail.marinette.ready.hint",
+extends: ["talk.apostlegrail.marinette.ready.hint"],
+            
+            label: "Marinette est saturée",
+            startdescription: "'<sprite name=heart>'. [Vous pouvez maintenant ajouter Marinette à vos invités.]",
+            
+            
+            
+        },
+
+        {
+            id: "talk.apostlegrail.marinette",
+extends: ["talk.apostlegrail.marinette"],
+            
+            label: "Requête adressée à Marinette des Fils",
+            startdescription: "'<sprite name=grail>?'",
+            description: "'<sprite name=grail>. <sprite name=grail>. <sprite name=grail>!'",
+            
+            slots: [
+                {
+                    id: "sacrifice",
+extends: ["sacrifice"],
+                    label: "Sang",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+
+        {
+            id: "talk.apostlegrail.marinettenext.hireling",
+extends: ["talk.apostlegrail.marinettenext.hireling"],
+            
+            label: "Sang",
+            startdescription: "Marinette laisse toujours la peau. Parfois, elle laisse les os. Elle consommera le fidèle avec assez d'empressement, mais celui-ci s'y oppose en général, et il y a alors une certaine agitation.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "talk.apostlegrail.marinettenext.follower",
+extends: ["talk.apostlegrail.marinettenext.follower"],
+            
+            label: "Sang",
+            startdescription: "Marinette laisse toujours la peau. Parfois, elle laisse les os. Si nous disons à nos fidèles de fermer les yeux, c'est très vite fini.",
+            
+            
+            
+            
+        }
+
+
+
+
+
+    ]
+}

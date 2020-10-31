@@ -1,0 +1,223 @@
+{
+    "recipes": [
+
+        {
+            id: "auctionbuy",
+extends: ["auctionbuy"],
+            label: "Enchérir dans une vente aux enchères",
+            
+            
+            slots: [
+                {
+                    id: "Bid",
+extends: ["Bid"],
+                    label: "Enchérir",
+                    
+                }
+            ],
+            startdescription: "Une foule de visages pincés, les yeux brillants. Qui va enchérir ? [L'objet mis aux enchères est visible sur la droite. Il disparaîtra à jamais si l'enchère est perdue..]",
+            description: ".",
+            
+            
+            
+            
+            comments: "The auction item should be inherited from the linking recipe. If this event completes, the auction has failed and the item is removed. NB the auctioncomplete aspect, which converts existing bids back into funds."
+        },
+        {
+            id: "playerincreasedbid",
+extends: ["playerincreasedbid"],
+            
+            label: "J'ai fait une offre !",
+            
+            startdescription: "J'ai levé la main. Le commissaire-priseur accuse de réception. Quelqu'un va t'il enchérir ?",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+            id: "auctionbidmatched.grailapostlepillar3",
+extends: ["auctionbidmatched.grailapostlepillar3"],
+            
+            
+            
+        },
+
+        {
+            id: "auctionbidmatched",
+extends: ["auctionbidmatched"],
+            label: "Un autre enchérisseur !",
+            
+            startdescription: "Quelqu'un d'autre a fait la même offre que moi ! Je dois enchérir, ou je renonce à mon prix.",
+            description: ".",
+            slots: [
+                {
+                    id: "Enchérir",
+extends: ["Enchérir"],
+                    
+                }
+            ],
+            
+            
+            
+        },
+        {
+            id: "auctionfailureclear",
+extends: ["auctionfailureclear"],
+            
+            
+            comments: "Tools and ingredients might subsequently be offered as purchases; in particular, ingredients are right now in a Grail Apostle plot recipe.",
+            
+            
+        },
+        {
+            id: "auctionfailure",
+extends: ["auctionfailure"],
+            
+            label: "Je n'ai pas gagné la vente aux enchères",
+            
+            startdescription: ".",
+            description: "La vente aux enchères est terminée. Le lot est parti ailleurs. Je garde mes fonds.",
+            
+        },
+        {
+            id: "auctionsuccess",
+extends: ["auctionsuccess"],
+            label: "J'ai gagné la vente aux enchères !",
+            
+            
+            startdescription: ".",
+            description: "Le commissaire-priseur prend note de mon nom et fait signe à l'un des préposés. J'ai mon prix. J'espère qu'il en vaut la peine.",
+            
+            
+            comments: "The auction item should be inherited from the linking recipe."
+        },
+
+
+
+        {
+            id: "expedition.corpse.find.vaultshires3",
+extends: ["expedition.corpse.find.vaultshires3"],
+            
+            label: "Un trésor de plus",
+            startdescription: "Les autres qui sont venus ici ont tous négligé les secrets enfermés dans le cadavre du roi guerrier. Je ne ferai pas la même erreur.",
+            
+            
+            
+        },
+
+        {
+            id: "expedition.corpse.find.vaultcapital5",
+extends: ["expedition.corpse.find.vaultcapital5"],
+            
+            label: "Un trésor de plus",
+            startdescription: "Je ne devrais pas négliger ce dernier morceau de prêtre. Il sera sans doute mâchouillé, mais il contient du pouvoir et du savoir.",
+            
+            
+            
+        },
+
+        {
+            id: "expedition.corpse.find.vaultloneandlevelsands2",
+extends: ["expedition.corpse.find.vaultloneandlevelsands2"],
+            
+            label: "Un trésor de plus",
+            startdescription: "Je vais rassembler ce que je peux des restes de Lagun. Je trouverai un moyen de débloquer les souvenirs qui s'y trouvent. Même si je dois l'infuser dans du thé.",
+            
+            
+            
+        },
+
+        {
+            id: "expedition.corpse.find.vaultrendingmountainsdefault",
+extends: ["expedition.corpse.find.vaultrendingmountainsdefault"],
+            
+            label: "Un trésor de plus",
+            startdescription: "Je garderai pour moi ce qui reste du roi.",
+            
+            
+            
+        },
+
+        {
+            id: "expedition.corpse.find.vaultshires4",
+extends: ["expedition.corpse.find.vaultshires4"],
+            
+            label: "Un trésor de plus",
+            startdescription: "'Caput gerat lupinum'. Lorsqu'un humain dépasse ce qui est permis, il était autrefois considéré comme étant devenu un loup.",
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "expedition.corpse.find.vaultshires3.ransackedbyrival",
+extends: ["expedition.corpse.find.vaultshires3.ransackedbyrival"],
+            
+            label: "Un trésor de plus",
+            startdescription: "Mon rival, comme tous les autres qui sont venus ici, a négligé les secrets enfermés dans le cadavre du roi guerrier. Je ne ferai pas la même erreur.",
+            
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "expedition.corpse.find.vaultcapital5.ransackedbyrival",
+extends: ["expedition.corpse.find.vaultcapital5.ransackedbyrival"],
+            
+            label: "Un trésor de plus",
+            startdescription: "Maintenant que mon rival est parti, nous pouvons nous faufiler et récupérer ce dernier morceau de prêtre. Ce sera sans doute difficile à mâcher, mais il y a du pouvoir et du savoir en lui.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "expedition.corpse.find.vaultloneandlevelsands2.ransackedbyrival",
+extends: ["expedition.corpse.find.vaultloneandlevelsands2.ransackedbyrival"],
+            
+            label: "Un trésor de plus",
+            startdescription: "Maintenant que mon rival est parti, nous pouvons nous faufiler et récupérer les restes une fois immortels dont j'ai besoin. Je vais rassembler ce que je peux des restes de Lagun. Je trouverai un moyen de débloquer les souvenirs qui s'y trouvent. Même si je dois l'infuser dans du thé.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "expedition.corpse.find.vaultrendingmountainsdefault.ransackedbyrival",
+extends: ["expedition.corpse.find.vaultrendingmountainsdefault.ransackedbyrival"],
+            
+            label: "Un trésor de plus",
+            startdescription: "Maintenant que mon rival est parti, nous pouvons nous faufiler et récupérer les restes à demi-mortels dont j'ai besoin. Je garderai pour moi ce qui reste du roi.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "expedition.corpse.find.vaultshires4.ransackedbyrival",
+extends: ["expedition.corpse.find.vaultshires4.ransackedbyrival"],
+            
+            label: "Un trésor de plus",
+            startdescription: "Maintenant que mon rival est parti, nous pouvons voler et récupérer les restes mortels dont nous avons besoin.",
+            
+            
+            
+            
+        },
+
+
+
+    ]
+}

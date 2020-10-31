@@ -1,0 +1,374 @@
+{
+    "elements": [
+        {
+            id: "aladim",
+extends: ["aladim"],
+            label: "Dr Ibn al-Adim",
+            
+            description: "Dr Ibn al-Adim, appelé l'Alep, s'intéresse à l'histoire oubliée. Il vous a proposé une commande.",
+            
+            
+            slots: [
+                {
+                    id: "Commission",
+extends: ["Commission"],
+                    label: "Commission",
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+        },
+        {
+            id: "aladimready",
+extends: ["aladimready"],
+            label: "Dr Ibn al-Adim",
+            
+            description: "Dr Ibn al-Adim, appelé l'Alep, s'intéresse à l'histoire oubliée. Il pourrait avoir besoin de votre aide.",
+            
+            
+        },
+        {
+            id: "bechet",
+extends: ["bechet"],
+            label: "Mme Bechet",
+            
+            description: "Mme Olympe Bechet dirige la Kerisham Review, qui publie des documents trop horribles ou trop passionnants pour d'autres magazines littéraires. Elle vous a proposé une commande.",
+            
+            
+            slots: [
+                {
+                    id: "Commission",
+extends: ["Commission"],
+                    label: "Commission",
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ]
+        },
+        {
+            id: "bechetready",
+extends: ["bechetready"],
+            label: "Mme Bechet",
+            
+            description: "Mme Olympe Bechet dirige la Kerisham Review, qui publie des documents trop horribles ou trop passionnants pour d'autres magazines littéraires. Elle pourrait avoir besoin de votre aide.",
+            
+            
+        },
+        {
+            id: "jannings",
+extends: ["jannings"],
+            label: "Comte Jannings",
+            
+            description: "Le comte Gottlob Jannings représente une confrérie continentale de médecins et de duellistes. Il vous propose une commande.",
+            
+            
+            slots: [
+                {
+                    id: "Commission",
+extends: ["Commission"],
+                    label: "Commission",
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ]
+        },
+        {
+            id: "janningsready",
+extends: ["janningsready"],
+            label: "Comte Jannings",
+            
+            description: "Le comte Gottlob Jannings représente une confrérie continentale de médecins et de duellistes. Il pourrait avoir besoin de votre aide.",
+            
+            
+        },
+        {
+            id: "poppyready",
+extends: ["poppyready"],
+            label: "Poppy Lascelles",
+            
+            description: "Une aimable femme de bonne famille. Elle aimerait vous parler.",
+            
+            
+        },
+        {
+            id: "poppy",
+extends: ["poppy"],
+            label: "Poppy Lascelles",
+            
+            description: "Une aimable femme de bonne famille.",
+            
+            
+        },
+        {
+            id: "poppycommissionready",
+extends: ["poppycommissionready"],
+            label: "Poppy Lascelles",
+            
+            description: "Une aimable femme de bonne famille. Elle aimerait votre aide pour quelque chose.",
+            
+            
+            
+        },
+        {
+            id: "poppycommission",
+extends: ["poppycommission"],
+            label: "Poppy Lascelles",
+            
+            description: "Une aimable femme de bonne famille. Elle vous propose une mission.",
+            
+            
+            slots: [
+                {
+                    id: "Commission",
+extends: ["Commission"],
+                    label: "Commission",
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            
+        },
+
+        {
+            id: "aladimaway",
+extends: ["aladimaway"],
+            label: "Dr Ibn al-Adim",
+            description: "Le Dr Ibn al-Adim, dit l'Alep, s'intéresse à l'histoire oubliée. Il se cache pour l'instant, mais il reviendra bientôt.",
+            
+            
+            
+        },
+        {
+            id: "bechetaway",
+extends: ["bechetaway"],
+            label: "Mme Bechet",
+            description: "Mme Olympe Bechet dirige la Kerisham Review, qui publie des documents trop horribles ou trop passionnants pour d'autres magazines littéraires. Elle est actuellement occupée à préparer sa publication, mais elle sera bientôt de nouveau disponible.",
+            
+            
+            
+        },
+        {
+            id: "janningsaway",
+extends: ["janningsaway"],
+            label: "Comte Jannings",
+            
+            description: "Le comte Gottlob Jannings représente une confrérie continentale de médecins et de duellistes. Il est actuellement à l'étranger, mais il sera bientôt de retour.",
+            
+            
+        },
+
+        {
+            id: "poppyaway",
+extends: ["poppyaway"],
+            label: "Poppy Lascelles",
+            description: "Une aimable femme de bonne famille. Elle ne reçoit pas de visiteurs actuellement.",
+            
+            
+            
+        },
+        {
+            id: "benefactorm",
+extends: ["benefactorm"],
+            label: "Lord Timothy Munday",
+            description: "Un homme élégant aux yeux tristes, au crane dégarni, à tendance aux crises de rire tout à la fois conviviaux, braillards et nerveux. Il ne touchera plus à la boisson forte.",
+            
+            
+            
+            slots: [
+                {
+                    id: "health",
+extends: ["health"],
+                    
+                    label: "Santé",
+                    
+                },
+                {
+                    id: "funds",
+extends: ["funds"],
+                    
+                    label: "Glamour",
+                    
+                }
+            ],
+        },
+        {
+            id: "benefactorf",
+extends: ["benefactorf"],
+            label: "Nicole, Quatrième Marquise de Stanford",
+            description: "Une femme prudente et intelligente, aux yeux étroits et à la peau excellente pour son âge. Elle gère depuis longtemps ses propres affaires financières et fait des dons réguliers à des associations caritatives.",
+            
+            
+            
+            slots: [
+                {
+                    id: "health",
+extends: ["health"],
+                    
+                    label: "Santé",
+                    
+                },
+                {
+                    id: "funds",
+extends: ["funds"],
+                    
+                    label: "Glamour",
+                    
+                }
+            ],
+        },
+
+        {
+            id: "benefactorm_rejectedplayer",
+extends: ["benefactorm_rejectedplayer"],
+            label: "Lord Timothy Munday",
+            description: "Lord Timothy ne m'envoie plus ses petites notes.",
+        },
+        {
+            id: "benefactorf_rejectedplayer",
+extends: ["benefactorf_rejectedplayer"],
+            label: "Nicole, Quatrième Marquise de Stanford",
+            description: "La Très Honorable Marquise de Stanford a été entendue dire qu'elle ne comprenait pas exactement ce qu'elle voyait en moi.",
+        },
+        {
+            id: "benefactorm_proposedtoplayer",
+extends: ["benefactorm_proposedtoplayer"],
+            label: "Lord Timothy Munday",
+            description: "Dans un moment de passion, Lord Timothy a proposé le mariage. Si je saisis l'occasion et que j'accepte, cela transformera ma vie... et fermera d'autres portes pour toujours. [Parlez à Sa Seigneurie avant que son enthousiasme ne s'estompe, ou il se sentira rejeté.]",
+        },
+        {
+            id: "benefactorf_proposedtoplayer",
+extends: ["benefactorf_proposedtoplayer"],
+            label: "Nicole, Quatrième Marquise de Stanford",
+            description: "Dans un moment de passion, la très honorable Nicole a proposé le mariage. Si je saisis l'occasion et que j'accepte, cela transformera ma vie... et fermera d'autres portes pour toujours. [Parlez à la Marquise avant que son enthousiasme ne s'estompe, ou elle se sentira rejetée.]",
+            
+        },
+
+        {
+            id: "benefactorwill",
+extends: ["benefactorwill"],
+            label: "Documents d'un cher disparu",
+            description: "Quelqu'un qui m'aimait est mort. Peut-être m'a t'il laissé quelque chose dans son testament. Je devrais parler à un avocat. [Prenez des mesures si vous souhaitez poursuivre l'affaire... mais il y a une petite chance que des soupçons vous tombent dessus.]",
+            slots: [
+                {
+                    id: "lawyerfees",
+extends: ["lawyerfees"],
+                    
+                    label: "rais d'avocat",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "sulochana",
+extends: ["sulochana"],
+            label: "Sulochana Amavasya",
+            description: "La propriétaire laconique, énergique, aux yeux brillants et immobile du Club Ecdysis.",
+            
+            
+            
+        },
+
+        {
+            id: "echidna.enroute",
+extends: ["echidna.enroute"],
+            label: "Mrs E. est en route",
+            description: "Mrs E., la 'soeur' de Sulochana, porte le titre improbable de 'Mère des Monstres'. On ne sait pas très bien où elle se cache habituellement, mais ce n'est pas de ce côté de la mer. Elle mettra un certain temps à arriver.",
+        },
+
+        {
+            id: "echidna",
+extends: ["echidna"],
+            label: "Mrs E.",
+            description: "La soi-disant Mère des Monstres. Une femme joyeuse et ronde, vêtue d'un vêtement gris-vert comme un sac de terre battue.",
+            
+            
+            
+        },
+
+        {
+            id: "marinette.enroute",
+extends: ["marinette.enroute"],
+            label: "Notre Dame des fils est en route",
+            description: "La 'soeur' de Sulochana, qui n'est généralement pas nommée, sauf 'Notre-Dame des fils'. Elle sera là, bientôt, de nuit.",
+        },
+
+        {
+            id: "marinette",
+extends: ["marinette"],
+            label: "Marinette, 'Notre Dame des fils'",
+            description: "Il pue le sang pourri, et il claque la mâchoire à chaque fois qu'il parle. Il y a peut-être une femme, blottie sous le tissu et les os. Peut-être est-ce le tour d'un marionnettiste.",
+            
+            
+            
+        },
+
+        {
+            id: "kleidouchos.enroute",
+extends: ["kleidouchos.enroute"],
+            label: "Frau Schlüssel est en route",
+            description: "La 'correspondante' de Teresa Galmier, la 'soeur' de Sulochana, la détentrice de la Clé des Jours, est en route depuis Vienne. Je devrais peut-être la rencontrer à la gare.",
+        },
+
+        {
+            id: "kleidouchos",
+extends: ["kleidouchos"],
+            label: "Frau Schlüssel",
+            description: "Une femme vive et énergique, en noir et blanc, sévèrement ridée. On ne la voit jamais cligner des yeux. Un petit chiot noir sort de ses jupes.",
+            
+        },
+
+        {
+            id: "naenia",
+extends: ["naenia"],
+            label: "'Miss Naenia'",
+            description: "Une peinture d'une femme à la peau sombre, aux yeux blancs et aux cheveux courts de couleur ivoire. Elle se tient devant un petit tombeau de marbre recouvert de jasmin étoilé. Le tableau est signé 'Jonas B. Munch, 1811'.",
+            slots: [
+                {
+                    id: "subject",
+extends: ["subject"],
+                    label: "Souvenir",
+                    description: "Mlle Naenia ne me parle jamais - elle n'est qu'un tableau - mais après, je me souviens toujours de ce qu'elle a dit.",
+                    
+                    
+                }
+            ],
+            
+        },
+
+
+
+
+    ]
+}

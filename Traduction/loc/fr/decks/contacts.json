@@ -1,0 +1,87 @@
+{
+    "decks": [
+        {
+            id: "acquaintances",
+extends: ["acquaintances"],
+            label: "Connaissances",
+            description: "Tant de personnes dans le monde, et si peu qui méritent d'être connues.",
+            
+            
+        },
+        {
+            id: "hirelings",
+extends: ["hirelings"],
+            label: "Le Brutal et le Rusé",
+            description: "Certains outils sont adaptés à certaines fins.",
+            
+            
+        },
+        {
+            id: "hunters",
+extends: ["hunters"],
+            label: "Chasseurs",
+            description: "Ceux qui me veulent du mal.",
+            
+            
+        },
+
+        {
+            id: "scholarpatrons",
+extends: ["scholarpatrons"],
+            label: "Mécènes",
+            description: "Ceux qui pourraient m'aider.",
+            
+            
+        },
+
+        {
+            id: "aladimcommissions",
+extends: ["aladimcommissions"],
+            label: "Les intérêts d'Al-Adim",
+            description: "",
+            
+            
+            
+        },
+
+        {
+            id: "bechetcommissions",
+extends: ["bechetcommissions"],
+            label: "Les intérêts de Bechet",
+            description: "",
+            
+            
+            
+        },
+
+        {
+            id: "janningscommissions",
+extends: ["janningscommissions"],
+            label: "Les intérêts de Jannings",
+            description: "",
+            
+
+            
+        },
+
+        {
+            id: "poppycommissions",
+extends: ["poppycommissions"],
+            label: "Les intérêts de Poppy",
+            description: "",
+            
+            
+        },
+
+        {
+            id: "randomvictim",
+extends: ["randomvictim"],
+            label: "L'Imprudent et l'Insouciant",
+            description: "Nous ferons d'eux ce que nous devons faire.",
+            
+            
+            
+        }
+
+    ]
+}

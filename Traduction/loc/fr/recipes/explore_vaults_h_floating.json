@@ -1,0 +1,38 @@
+{
+    "recipes": [
+
+        {
+
+            id: "explore_vaultfloating1_setup",
+extends: ["explore_vaultfloating1_setup"],
+            label: "Commencer une expédition: 'Hebe Stanton'",
+            
+            
+            
+
+            startdescription: "Il est rare que des bateaux de passagers visitent l'île sinistre où le 'Hebe Stanton' est à quai, mais nous pouvons affréter un bateau de pêche et avoir confiance dans la météo. Le vrai travail, celui de passer les gardes et les portes, commencera si nous montons à bord. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+
+        {
+            id: "explorevaultfloating1_success",
+extends: ["explorevaultfloating1_success"],
+            label: "Un nid douillet",
+            
+            
+            
+            
+            startdescription: "Il y a peu de passagers à bord, ce qui n'est pas étonnant puisque cette île glacée et sans gaieté était la destination du navire. Mais il y a au moins un passager - une personne qui avait protégé la porte de sa cabine avec plus que des verrous physiques. Les autres ont dû aller à terre. Ils pourraient revenir à tout moment - ",
+            description: "On vide les valises, on ouvre les livres pour les secouer, on tourne les photos pour vérifier les dos. Nous trouvons des vêtements, des billets, des cartes, rien d'extraordinaire... bien qu'il y ait un curieux matériau translucide comme une feuille de peau de serpent posée sur un dossier de chaise. Enfin, lorsque nous tailladons le matelas pour en fouiller le rembourrage, nous trouvons une petite collection d'étuis à parchemin en ivoire.",
+            
+            
+        },
+
+
+
+    ]
+}

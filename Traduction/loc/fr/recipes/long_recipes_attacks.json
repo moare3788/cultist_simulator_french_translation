@@ -1,0 +1,1954 @@
+{
+    "recipes": [
+
+
+
+        {
+            id: "long.executestrategy.assassination.begin",
+extends: ["long.executestrategy.assassination.begin"],
+            
+            label: "La fléchette dans l'obscurité",
+            startdescription: "Autrefois, les Tragulari - les hommes aux Fléchettes - étaient employés pour chasser les immortels et leurs biens. La Compagnie Troissaint est généralement censée les avoir fait disparaître après la première guerre des vers... mais peut-être pas dans toutes les histoires. [L'homme aux fléchettes pourrait vous détruire, vous ou un de vos Adeptes. Découvrez-le avec <sprite name=heart> <sprite name=lantern> adeptes pendant qu'ils se préparent, ou se défendent avec <sprite name=edge> <sprite name=forge> <sprite name=winter> Adeptes une fois qu'ils ont commencé leur assaut. Les défenseurs qui échouent meurent. L'homme aux fléchettes n'est pas protégé contre les invocations.] ",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Découvrir",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+
+        {
+            id: "longassault.assassination.uncovered.success",
+extends: ["longassault.assassination.uncovered.success"],
+            
+            
+            label: "Le Serpent, exposé",
+            startdescription: "Les Tragulari frappent à la dérobée. Ils ne prospèrent pas à la lumière du jour. Celui-ci s'est enfui. (Pour de bon ?) Notre ennemi en prendra note.",
+            
+            
+        },
+
+        {
+            id: "longassault.assassination.uncovered.failure",
+extends: ["longassault.assassination.uncovered.failure"],
+            
+            
+            label: "Le Serpent qui attend",
+            startdescription: "Notre Adepte ne reviendra jamais. Nous ne pouvons que supposer que le Tragulari l'a abattu avec ses petits javelots et ses poisons.",
+            
+            
+            
+        },
+
+        {
+            id: "longassault.assassination.continue",
+extends: ["longassault.assassination.continue"],
+            
+            label: "La première blessure",
+            startdescription: "Un homme aux fléchettes tuera même les plus forts à quelques centimètres près. [Défendre avec <sprite name=edge> <sprite name=forge> <sprite name=winter> Adeptes. Les défenseurs infructueux mourront. L'homme aux fléchettes n'est pas protégé contre les invocations.]",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "longassault.assassination.defenderdefeated",
+extends: ["longassault.assassination.defenderdefeated"],
+            
+            label: "Une mort injustifiée",
+            startdescription: "L'homme aux fléchettes a pris la vie d'un défenseur: mais le seul paiement qui les satisfera est la mort de leur cible, ou la leur.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "longassault.assassination.attack.defeated",
+extends: ["longassault.assassination.attack.defeated"],
+            
+            label: "Le paiement final",
+            startdescription: "Notre défenseur a triomphé, et l'homme aux fléchettes est mort. Peut-être est-ce suffisant pour les arrêter.",
+            
+            
+        },
+
+        {
+            id: "longassault.assassination.attack.player",
+extends: ["longassault.assassination.attack.player"],
+            
+            label: "Les poisons de l'homme aux fléchettes",
+            startdescription: "L'homme aux fléchettes va m'empoisonner et me saigner, goutte à goutte.",
+            slots: [
+                {
+                    id: "health",
+extends: ["health"],
+                    label: "Attaquer...",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "longassault.assassination.murderskill.succeed",
+extends: ["longassault.assassination.murderskill.succeed"],
+            
+            label: "La barbe brisée",
+            
+            startdescription: "Ils auraient dû savoir qu'il ne fallait pas opposer leur force à la mienne. On leur devait une mort, mais je les ai payés avec leur propre sang.",
+            
+            
+        },
+
+        {
+            id: "longassault.assassination.murderskill.failure",
+extends: ["longassault.assassination.murderskill.failure"],
+            
+            label: "Un répit marqué",
+            
+            startdescription: "J'ai gagné un répit, mais ils sont trop forts pour moi. Ma force est brisée.",
+            
+            
+            
+        },
+
+
+
+        {
+            id: "longassault.assassination.killplayer",
+extends: ["longassault.assassination.killplayer"],
+            
+            label: "La fin de la fléchette",
+            startdescription: "N'ai-je plus de force ? [Si vous n'avez pas de Santé disponible, les poisons de l'homme aux fléchettes mettront fin à votre jeu.]",
+            
+            
+            
+            comments: "The -1 to injury doesn't seem right, since the damagehealth in longassault.assassination.attack.player will always turn health/fatigue into an injury. To be checked."
+        },
+
+
+        {
+            id: "longassault.assassination.attack.follower",
+extends: ["longassault.assassination.attack.follower"],
+            
+            label: "La blessure qui tue",
+            startdescription: "L'homme aux fléchettes peut employer une seule fléchette, ou une douzaine; mais c'est toujours la dernière fléchette qui tue.[<sprite name=edge> <sprite name=forge> <sprite name=winter> Adeptes pourraient survivre. Les autres, ou les Adeptes malchanceux, mourront toujours.]",
+            slots: [
+                {
+                    id: "targetfollower",
+extends: ["targetfollower"],
+                    label: "Attaquer...",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "longassault.assassination.attack.follower.failure",
+extends: ["longassault.assassination.attack.follower.failure"],
+            
+            label: "Un revirement soudain",
+            startdescription: "Cette fois, l'homme aux fléchettes a relevé un défi qu'ils n'attendaient pas. Ils sont morts. Peut-être que cela les arrêtera.",
+            
+            
+        },
+
+
+
+
+        {
+            id: "longassault.assassination.attack.follower.success",
+extends: ["longassault.assassination.attack.follower.success"],
+            
+            label: "La mort qui est due",
+            startdescription: "Les victimes de l'homme aux fléchettes sont parfois retrouvées tordues par l'agonie, la nuque arquée, les yeux ouverts. Parfois, on les retrouve percées comme un navire qui a sombré. Celui-ci n'est pas retrouvé du tout. L'homme aux fléchettes a eu ce qu'il méritait.",
+            
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.assault.abduct.follower.begin",
+extends: ["long.executestrategy.assault.abduct.follower.begin"],
+            
+            label: "Un enlèvement !",
+            startdescription: "Notre ennemi prépare une tentative d'enlèvement !",
+            slots: [
+                {
+                    id: "target",
+extends: ["target"],
+                    label: "Cible",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.abduct.follower.begin.nonromancedfollower",
+extends: ["long.executestrategy.assault.abduct.follower.begin.nonromancedfollower"],
+            
+            label: "Un enlèvement !",
+            startdescription: "Notre ennemi prépare une tentative d'enlèvement !",
+            slots: [
+                {
+                    id: "target",
+extends: ["target"],
+                    label: "Cible",
+                    
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.abduct.follower.captured",
+extends: ["long.executestrategy.assault.abduct.follower.captured"],
+            
+            label: "Capturé !",
+            
+            startdescription: "Notre ennemi a enfermé notre Adepte dans une pièce verrouillée d'une maison gardée, derrière des murs invisibles pour tenir à distance les choses invisibles.",
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.abduct.follower.continue",
+extends: ["long.executestrategy.assault.abduct.follower.continue"],
+            
+            label: "Un sauvetage ?",
+            startdescription: "Notre ennemi a capturé un Adepte ! Il va essayer de s'échapper, et nous pourrions l'aider - mais ce pourrait être un piège. Et l'endroit est protégé contre les invocations. [Le total le plus élevé de <sprite name=edge> <sprite name=forge> or <sprite name=winter> déterminera si nos Adeptes s'en sortent indemnes.]",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                    
+                }
+            ],
+            
+                    
+                }
+            ],
+            
+        },
+
+
+        {
+            id: "long.executestrategy.assault.forge.greatwork.begin",
+extends: ["long.executestrategy.assault.forge.greatwork.begin"],
+            
+            label: "Un acte de sabotage !",
+            startdescription: "Notre ennemi immortel a envoyé des agents pour anéantir notre travail en cours.",
+            description: "Les agents de notre ennemi n'ont rien trouvé qui puisse convenir à leur travail de sape.",
+            slots: [
+                {
+                    id: "target",
+extends: ["target"],
+                    label: "Cible",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.assault.forge.greatwork.continue",
+extends: ["long.executestrategy.assault.forge.greatwork.continue"],
+            
+            label: "Défendre le Grand Oeuvre",
+            startdescription: "Notre salle de travail est assiégée ! Protégez le Grand Oeuvre !  [Un <sprite name=heart> ou <sprite name=forge> Adepte - le plus fort, le meilleur - pourrait se défendre contre cette action.]",
+            description: "",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.forge.greatwork.succeed",
+extends: ["long.executestrategy.assault.forge.greatwork.succeed"],
+            
+            label: "Sabotage !",
+            startdescription: "Notre ennemi a été fort occupé avec ses couteaux crochus et ses pieds-de-biche.",
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.setambush.expedition.begin",
+extends: ["long.executestrategy.assault.setambush.expedition.begin"],
+            
+            
+            label: "Une embuscade",
+            startdescription: "Notre ennemi a appris que nous envisagions une expédition. S'ils découvrent notre destination, ils enverront des complices pour préparer une embuscade.",
+            slots: [
+                {
+                    id: "vault",
+extends: ["vault"],
+                    label: "Chambre forte",
+                    
+                    
+                }
+            ],
+
+            
+                },
+
+                {
+                    id: "long.executestrategy.assault.setambush.expedition.continue.monks",
+extends: ["long.executestrategy.assault.setambush.expedition.continue.monks"],
+                    
+                    label: "Une complication supplémentaire",
+                    startdescription: "Notre ennemi a envoyé ses serviteurs dévoués pour garder les lieux.",
+                    
+                    
+                },
+
+                {
+                    id: "long.executestrategy.assault.setambush.expedition.continue.dead",
+extends: ["long.executestrategy.assault.setambush.expedition.continue.dead"],
+                    
+                    label: "Une complication supplémentaire",
+                    
+                    startdescription: "Notre ennemi a placé les Morts pour garder l'endroit.",
+                    
+                },
+
+                {
+                    id: "long.executestrategy.assault.setambush.expedition.continue.serpent",
+extends: ["long.executestrategy.assault.setambush.expedition.continue.serpent"],
+                    
+                    label: "Une complication supplémentaire",
+                    
+                    startdescription: "Notre ennemi a envoyé un Serpent pour garder l'endroit.",
+                    
+                    
+                }
+            ]
+        },
+
+
+        {
+            id: "long.executestrategy.assault.destroyhealth.begin",
+extends: ["long.executestrategy.assault.destroyhealth.begin"],
+            
+            label: "Un assaut écrasant !",
+            startdescription: "Notre ennemi a envoyé des hommes très dangereux avec l'ordre de tuer, ou du moins de mutiler. [Cela va détruire la Santé.]",
+            slots: [
+                {
+                    id: "health",
+extends: ["health"],
+                    label: "Santé",
+                    
+                    
+                }
+            ],
+            
+            comments: "Damaging health now so it doesn't figure into the Heart calculations",
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.health.nonefound",
+extends: ["long.executestrategy.assault.health.nonefound"],
+            label: "Cette attaque mettra fin à mes jours",
+            
+            
+            startdescription: "La maladie, l'épuisement ou la distraction m'empêchent de résister à cette attaque. [Fournissez de la santé immédiatement, ou mourrez.]",
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.destroyhealth.continue",
+extends: ["long.executestrategy.assault.destroyhealth.continue"],
+            
+            label: "Un assaut écrasant !",
+            startdescription: "Si cette attaque réussit, je serai gravement blessé. [Un <sprite name=heart> ou <sprite name=edge> Adepte - le plus fort, le meilleur - pourrait se défendre contre cette action.]",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.destroyhealth.succeed",
+extends: ["long.executestrategy.assault.destroyhealth.succeed"],
+            
+            label: "Les leçons de l'agonie",
+            startdescription: "Je souffre. J'endure.",
+            
+
+        },
+
+        {
+            id: "long.executestrategy.assault.injurefollower.begin",
+extends: ["long.executestrategy.assault.injurefollower.begin"],
+            
+            label: "Une attaque sur un Adepte !",
+            startdescription: "Notre ennemi a envoyé des agents pour infliger une raclée brutale à tous nos Adeptes qu'ils pourraient trouver.",
+            slots: [
+                {
+                    id: "follower",
+extends: ["follower"],
+                    label: "Adepte",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.assault.injurefollower.hireling.continue",
+extends: ["long.executestrategy.assault.injurefollower.hireling.continue"],
+            
+            label: "'Vous ne me payez pas assez pour cela'",
+            startdescription: "C'est la dernière fois que l'on a vu notre employé.",
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.injurefollower.spirit.continue",
+extends: ["long.executestrategy.assault.injurefollower.spirit.continue"],
+            
+            label: "La porte oscille dans les deux sens",
+            startdescription: "Notre ennemi a donné à ses agents les moyens d'expulser notre invocation du monde. Et il est parti.",
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.injurefollower.continue",
+extends: ["long.executestrategy.assault.injurefollower.continue"],
+            
+            label: "Des renforts ?",
+            
+            startdescription: "Un autre Adepte pourrait se précipiter pour apporter son aide - mais il risque lui aussi d'être blessé. Et il serait insensé d'envoyer des esprits contre les forces d'un ancien Long. [Le total le plus élevé de <sprite name=edge> <sprite name=forge> ou <sprite name=winter> déterminera si nos Adeptes s'en sortent indemnes.]",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                    
+                }
+            ],
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.assault.injurehealth.begin",
+extends: ["long.executestrategy.assault.injurehealth.begin"],
+            
+            label: "Un assaut !",
+            startdescription: "Notre ennemi a engagé un voyou pour me donner une raclée. Ils ne sont pas encore prêts à ordonner mon assassinat, mais ils ne pleureront pas si j'expire [Cela va nuire à votre Santé.]",
+            slots: [
+                {
+                    id: "health",
+extends: ["health"],
+                    label: "Santé",
+                    
+                    
+                }
+            ],
+            
+            comments: "Damaging health now so it doesn't figure into the Heart calculations",
+            
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.assault.injurehealth.continue",
+extends: ["long.executestrategy.assault.injurehealth.continue"],
+            
+            label: "Un assaut !",
+            startdescription: "Qui va me défendre ? [Un <sprite name=heart> ou <sprite name=edge> Adepte - le plus fort, le meilleur - pourrait être en mesure de se défendre contre cette action.]",
+            description: "",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.injurehealth.succeed",
+extends: ["long.executestrategy.assault.injurehealth.succeed"],
+            
+            label: "Une moindre épreuve",
+            startdescription: "Ils me laissent en sang, mais pas encore brisé.",
+        },
+
+        {
+            id: "long.executestrategy.assault.rob.begin",
+extends: ["long.executestrategy.assault.rob.begin"],
+            
+            label: "Vol mineur",
+            startdescription: "Notre ennemi a fait appel à un pickpocket pour me nuire.",
+            description: "Tant pis pour mon ennemi: je n'ai pas d'argent à voler.",
+            slots: [
+                {
+                    id: "funds",
+extends: ["funds"],
+                    label: "Fonds",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.assault.rob.continue",
+extends: ["long.executestrategy.assault.rob.continue"],
+            
+            label: "Un vol mineur, mais réussi",
+            startdescription: "On m'a volé mon portefeuille !",
+            
+        },
+
+
+
+
+        {
+            id: "long.executestrategy.assault.intimidate.begin",
+extends: ["long.executestrategy.assault.intimidate.begin"],
+            
+            label: "Un sentiment de menace",
+            startdescription: "Notre ennemi envoie des agents pour nous menacer et nous désarçonner. [Un <sprite name=heart> ou <sprite name=grail> Adepte - le plus fort, le meilleur - pourrait être en mesure de se défendre contre cette action.]",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.assault.intimidate.succeed",
+extends: ["long.executestrategy.assault.intimidate.succeed"],
+            
+            label: "Présages de douleur",
+            startdescription: "Malédictions griffonnées à la craie noire - animaux crucifiés dans le jardin - feux allumés dans des maisons non surveillées. Les petits tours d'une guerre secrète.",
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.assault.failure",
+extends: ["long.executestrategy.assault.failure"],
+            
+            label: "Un assaut raté",
+            startdescription: "Nous avons vaincu l'assaut de notre ennemi... mais ils ont appris quelque chose de nous, et ils prendront notre menace plus au sérieux maintenant. Je peux m'attendre à des attaques plus dangereuses à l'avenir.",
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.scandal.begin",
+extends: ["long.executestrategy.intrigue.scandal.begin"],
+            
+            label: "Un scandale!",
+            startdescription: "Notre ennemi a conçu un scandale, qui va rugir à travers toutes nos réalisations comme un feu de forêt. [Un Scandale produira de façon intermittente de la notoriété jusqu'à ce qu'il s'éteigne subitement.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "scandal.end",
+extends: ["scandal.end"],
+            
+            label: "Enfin le silence",
+            startdescription: "Le public est inconstant... heureusement. Ils nous oublient..",
+            
+            
+        },
+
+
+        {
+            id: "scandal.notoriety",
+extends: ["scandal.notoriety"],
+            
+            label: "Mensonges dégoûtants",
+            startdescription: "Il y a tant de choses dont nous sommes coupables, et ce n'est pas ça, pas du tout ! Et pourtant, c'est peut-être ce qui nous maudit.",
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.follower.seduce.begin",
+extends: ["long.executestrategy.intrigue.follower.seduce.begin"],
+            
+            label: "Un rendez-vous",
+            startdescription: "Notre ennemi immortel tente d'organiser une rencontre avec l'un de nos Adeptes - un de ceux qui nourrissent du ressentiment.",
+            slots: [
+                {
+                    id: "target",
+extends: ["target"],
+                    label: "Tenté",
+                    
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.follower.seduce.continue",
+extends: ["long.executestrategy.intrigue.follower.seduce.continue"],
+            
+            label: "Une Séduction",
+            startdescription: "Maintenant, les Long vont déployer toutes les formidables ruses qu'ils ont apprises au cours des siècles... et peut-être que notre Adepte quittera notre service. [Utilisez la Passion pour le garder fidèle. Ce n'est pas toujours facile, mais vous pouvez continuer à essayer tant que vous avez de la passion.]",
+            description: "",
+            
+            slots: [
+                {
+                    id: "passion",
+extends: ["passion"],
+                    label: "Argument passionné",
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.follower.seduce.defendpassion.try",
+extends: ["long.executestrategy.intrigue.follower.seduce.defendpassion.try"],
+            
+            label: "Une défense passionnée",
+            startdescription: "La Passion pourrait les influencer. [Si cela échoue, nous pouvons continuer à essayer.]",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.follower.seduce.defendpassion.succeed",
+extends: ["long.executestrategy.intrigue.follower.seduce.defendpassion.succeed"],
+            
+            label: "Un sursis",
+            startdescription: "Notre Adepte a choisi de rester avec nous... pour l'instant. [Mais son ressentiment s'est accru, et notre ennemi en a appris plus sur nous.]",
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "long.executestrategy.intrigue.follower.seduce.succeed",
+extends: ["long.executestrategy.intrigue.follower.seduce.succeed"],
+            
+            label: "Une trahison",
+            startdescription: "Notre Adepte a renié ses croyances sacrées. Maintenant, il va prêter sa force à la puissance croissante de notre ennemi.",
+            
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.intrigue.grail.greatwork.begin",
+extends: ["long.executestrategy.intrigue.grail.greatwork.begin"],
+            
+            label: "Un acte de sabotage !",
+            startdescription: "Notre ennemi immortel tente de convaincre notre Hôte que la Vitulation sera vile, périlleuse ou ennuyeuse.",
+            slots: [
+                {
+                    id: "target",
+extends: ["target"],
+                    label: "Cible",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.grail.greatwork.continue",
+extends: ["long.executestrategy.intrigue.grail.greatwork.continue"],
+            
+            label: "Défendre le Grand Oeuvre",
+            startdescription: "Je pourrais envoyer mon héraut pour séduire ou rassurer. [Un <sprite name=heart> ou <sprite name=grail> Adepte - le plus fort, le meilleur - pourrait être en mesure de se défendre contre cette action.]",
+            description: "",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.grail.greatwork.succeed",
+extends: ["long.executestrategy.intrigue.grail.greatwork.succeed"],
+            
+            label: "Le désarroi de l'hôte",
+            startdescription: "Notre hôte s'effondre. Sa foi avide est aigrie.",
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.poison.follower.resentment.begin",
+extends: ["long.executestrategy.intrigue.poison.follower.resentment.begin"],
+            
+            label: "Graines de ressentiment",
+            startdescription: "Notre ennemi s'efforce de dresser un Adepte contre nous.",
+            slots: [
+                {
+                    id: "follower",
+extends: ["follower"],
+                    label: "Cible",
+                    
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+
+
+
+
+
+        {
+            id: "long.executestrategy.intrigue.poison.follower.resentment.continue",
+extends: ["long.executestrategy.intrigue.poison.follower.resentment.continue"],
+            
+            label: "S'enraciner dans le noir",
+            
+            startdescription: "Que disent-ils ? [Utilisez la Passion pour les fidéliser. Ce n'est pas toujours facile, mais vous pouvez continuer à essayer tant que vous avez de la Passion.]",
+            slots: [
+                {
+                    id: "passionateargument",
+extends: ["passionateargument"],
+                    label: "Argument passionné",
+                    
+                }
+            ],
+            
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.intrigue.poison.follower.resentment.defendpassion.try",
+extends: ["long.executestrategy.intrigue.poison.follower.resentment.defendpassion.try"],
+            
+            label: "Une défense passionnée",
+            startdescription: "La Passion pourrait les influencer. [Si cela échoue, nous pouvons continuer à essayer.]",
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.intrigue.poison.follower.resentment.succeed",
+extends: ["long.executestrategy.intrigue.poison.follower.resentment.succeed"],
+            
+            label: "Le fruit de la frustration",
+            startdescription: "Nous en sommes maintenant au point où je crois que mes Adeptes ne me disent pas tout ce qu'ils ont entendu sur moi.",
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.poison.follower.resentment.hireling.continue",
+extends: ["long.executestrategy.intrigue.poison.follower.resentment.hireling.continue"],
+            
+            label: "Précaution professionnelle",
+            startdescription: "Ce mercenaire a été incité ou menacé de disparaître. Nous ne le reverrons plus.",
+            
+            
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.intrigue.detective.assist.begin",
+extends: ["long.executestrategy.intrigue.detective.assist.begin"],
+            
+            label: "Alliances improbables ?",
+            startdescription: "Notre ennemi immortel cherche à recruter un agent double.",
+            slots: [
+                {
+                    id: "hunter",
+extends: ["hunter"],
+                    label: "Une épine dans le pied",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.detective.assist.continue",
+extends: ["long.executestrategy.intrigue.detective.assist.continue"],
+            
+            
+            label: "L'ennemi de leur ennemi",
+            startdescription: "Le Bureau de répression leur apportera son aide là où ils la trouveront, et il ne fait aucun doute que notre Grand Oeuvre les préoccupe beaucoup. Quel mal notre ennemi immortel fera-t-il ici ?",
+
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.detective.assist.mystic",
+extends: ["long.executestrategy.intrigue.detective.assist.mystic"],
+            
+            
+            label: "Défense contre les arts invisibles",
+            startdescription: "Notre ennemi a appris à cet enquêteur comment se protéger contre les esprits. [L'enquêteur est maintenant Mystique.]",
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.detective.assist.idealist",
+extends: ["long.executestrategy.intrigue.detective.assist.idealist"],
+            
+            
+            label: "La nouvelle lumière",
+            startdescription: "Cet enquêteur a été formé à la nature de notre Grand Oeuvre. Par conséquent, son engagement à le faire échouer a été forgé, trempé, affirmé. [L'enquêteur est maintenant Idéaliste.]",
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.detective.assist.grim",
+extends: ["long.executestrategy.intrigue.detective.assist.grim"],
+            
+            
+            label: "Certitude de granit",
+            startdescription: "Cet enquêteur a reçu des leçons qu'il n'oubliera pas facilement. [L'enquêteur est maintenant Sinistre.]",
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.detective.assist.erratic",
+extends: ["long.executestrategy.intrigue.detective.assist.erratic"],
+            
+            
+            label: "Une nouvelle perspective",
+            startdescription: "Cet enquêteur a appris de nouvelles techniques et intuitions; même si, maintenant, ses mains tremblent parfois. [L'enquêteur est maintenant Erratique.]",
+            
+            
+        },
+        {
+            id: "long.executestrategy.intrigue.detective.assist.evidence",
+extends: ["long.executestrategy.intrigue.detective.assist.evidence"],
+            
+            
+            label: "Tricher franchement",
+            startdescription: "Notre ennemi immortel a murmuré à l'oreille de cet enquêteur. [L'ennemi Long lui a fourni des preuves.]",
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.adversary.assist.begin",
+extends: ["long.executestrategy.intrigue.adversary.assist.begin"],
+            
+            label: "Alliances improbables ?",
+            startdescription: "Notre ennemi immortel cherche un allié - quelqu'un qui a du potentiel. S'il ne trouve personne de convenable, son intrigue se soldera par un échec.]",
+            slots: [
+                {
+                    id: "rival",
+extends: ["rival"],
+                    label: "Un Rival",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.adversary.assist.continue",
+extends: ["long.executestrategy.intrigue.adversary.assist.continue"],
+            
+            
+            label: "Tutelle immortelle",
+            startdescription: "Notre ennemi entraîne notre rival vers une ascension plus rapide vers I'état de Long. S'il peut recruter un deuxième Long, notre défaite est assurée. [Un <sprite name=heart> ou <sprite name=moth> Adepte - le plus fort, le meilleur - pourrait être en mesure de se défendre contre cette action.]",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.adversary.assist.succeed",
+extends: ["long.executestrategy.intrigue.adversary.assist.succeed"],
+            
+            label: "Plus haut",
+            startdescription: "Notre ennemi a transmis à notre rival des secrets vitaux concernant l'ascension. Sans nul doute, si notre rival devient vraiment un Long, il sera un outil de notre ennemi: mais cela ne nous aidera pas beaucoup.",
+            
+
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.poison.follower.notoriety.begin",
+extends: ["long.executestrategy.intrigue.poison.follower.notoriety.begin"],
+            
+            label: "Les terreurs de la lumière du jour",
+            startdescription: "Notre ennemi s'efforce de dévoiler les secrets de nos Adeptes. [S'ils ne trouvent pas d'Adepte non exposé, cela se terminera en douceur.]",
+            slots: [
+                {
+                    id: "follower",
+extends: ["follower"],
+                    label: "Cible",
+                    
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.intrigue.poison.follower.notoriety.continue",
+extends: ["long.executestrategy.intrigue.poison.follower.notoriety.continue"],
+            
+            label: "Se défendre contre l'exposition ?",
+            startdescription: "Je peux essayer de donner au public quelque chose d'autre à penser. [Utilisez Mysticisme pour tenter une distraction, bien que cela ne soit pas toujours réussi, et peut générer de la Notoriété. Utiliser une faveur de l'Autorité pour l'arrêter immédiatement.]",
+            slots: [
+                {
+                    id: "defence",
+extends: ["defence"],
+                    label: "Distraction",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.poison.follower.notoriety.defendmystique.try",
+extends: ["long.executestrategy.intrigue.poison.follower.notoriety.defendmystique.try"],
+            
+            label: "Une distraction",
+            startdescription: "Trop d'étrangers ont déjà entendu le nom de cet Adepte. [Si la distraction échoue, nous pouvons continuer à essayer. Si elle réussit, elle générera de la notoriété.]",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.poison.follower.notoriety.succeed",
+extends: ["long.executestrategy.intrigue.poison.follower.notoriety.succeed"],
+            
+            label: "Le regard du public",
+            startdescription: "Notre Adepte n'est pas le bon type de célébrité.",
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.intrigue.mystiquetonotoriety.begin",
+extends: ["long.executestrategy.intrigue.mystiquetonotoriety.begin"],
+            
+            label: "Faits de chuchotements",
+            startdescription: "Notre ennemi s'emploie à amplifier les rumeurs qui existent déjà en quelque chose de plus grave.",
+            slots: [
+                {
+                    id: "mystique",
+extends: ["mystique"],
+                    label: "Mysticisme",
+                    
+                    
+                }
+            ],
+            comments: "If we can't find mystique, we go on trying to generate it",
+            
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.intrigue.mystiquetonotoriety.continue",
+extends: ["long.executestrategy.intrigue.mystiquetonotoriety.continue"],
+            
+            label: "Défendre notre réputation ?",
+            startdescription: "Je connais peut-être quelqu'un qui peut arranger l'histoire. [Un <sprite name=heart> Adepte - le plus fort, le meilleur - pourrait être en mesure de se défendre contre cette action.]",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.mystiquetonotoriety.succeed",
+extends: ["long.executestrategy.intrigue.mystiquetonotoriety.succeed"],
+            
+            label: "Nous sommes méprisés",
+            startdescription: "Ce n'est pas exactement vrai, mais ce n'est pas non plus un mensonge.",
+            description: "",
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.fraud.begin",
+extends: ["long.executestrategy.intrigue.fraud.begin"],
+            
+            label: "Le piège de papier",
+            startdescription: "Notre ennemi a porté un faux témoignage contre nous. Les autorités doivent être convaincues de notre innocence. [Si cela réussit, vous risquez de perdre un ou plusieurs fonds. Un <sprite name=heart> ou <sprite name=moth> Adepte - le plus fort, le meilleur - pourrait être en mesure de se défendre contre cette action.]",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.fraud.succeed",
+extends: ["long.executestrategy.intrigue.fraud.succeed"],
+            
+            label: "L'aiguillon de l'auditeur",
+            startdescription: "'Dans notre correspondance précédente, nous avons indiqué le degré probable de votre défaillance. Nous avons examiné la question plus en détail...'",
+            slots: [
+                {
+                    id: "funds",
+extends: ["funds"],
+                    label: "Fonds",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.intrigue.fraud.completed",
+extends: ["long.executestrategy.intrigue.fraud.completed"],
+            
+            label: "La miséricorde du contrôleur",
+            startdescription: "Le flux constant de lettres de menace a ralenti; jusqu'à cesser. C'est fini... pour l'instant.",
+        },
+
+        {
+            id: "long.executestrategy.intrigue.createmystique.begin",
+extends: ["long.executestrategy.intrigue.createmystique.begin"],
+            
+            label: "Rumeurs sans fondement",
+            startdescription: "Si notre ennemi répète l'histoire assez souvent, elle pourrait marcher. [Un <sprite name=heart> Adepte - le plus fort, le meilleur - pourrait être en mesure de se défendre contre cette action.]",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.intrigue.createmystique.succeed",
+extends: ["long.executestrategy.intrigue.createmystique.succeed"],
+            
+            label: "Brume de rumeur",
+            startdescription: "Ma réputation n'est plus tout à fait la mienne.",
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.intrigue.failure",
+extends: ["long.executestrategy.intrigue.failure"],
+            
+            label: "Le bénéfice du doute",
+            startdescription: "Notre réputation n'est pas plus mauvaise... mais notre ennemi va concentrer son attention sur nous, maintenant.",
+            
+        },
+
+
+        {
+            id: "long.executestrategy.dreams.drysoul.begin",
+extends: ["long.executestrategy.dreams.drysoul.begin"],
+            
+            label: "La malédiction de l'âme desséchée, se lève",
+            startdescription: "Notre ennemi lance contre nous une malédiction de l'Âme desséchée. Nous pourrions employer un Percussigant pour éviter la malédiction avec ses coups de gueule et ses membres joyeux, mais alors notre ennemi pourra l'interroger. [Un Percussigant peut empêcher la malédiction de se produire, mais cela renseignera notre ennemi.] ",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Percussigant",
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.dreams.drysoul.defeated",
+extends: ["long.executestrategy.dreams.drysoul.defeated"],
+            
+            label: "La défense du Percussigant",
+            startdescription: "sing those hymns of writhing limbs percussigant, rehearse the dry soul curse! the dry soul curse! a polymelian universe!",
+            
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "long.executestrategy.dreams.fiftheye.begin",
+extends: ["long.executestrategy.dreams.fiftheye.begin"],
+            
+            label: "La malédiction du cinquième oeil, se lève",
+            startdescription: "Notre ennemi lance contre nous une malédiction du Cinquième Oeil. Nous pourrions utiliser les fumées d'un Caligine pour brouiller ses préparatifs, mais alors notre ennemi pourra l'interroger. [Un Caligine peut empêcher la malédiction de se produire, mais cela renseignera notre ennemi.] ",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Percussigant",
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.dreams.fiftheye.defeated",
+extends: ["long.executestrategy.dreams.fiftheye.defeated"],
+            
+            label: "Le cinquième oeil perdu dans la fumée",
+            startdescription: "La malédiction du Cinquième Oeil a été vaincue avant d'être résolue. Notre Caligine a également disparu, ainsi que tous les secrets qu'il aurait pu apprendre de nous.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.dreams.poisonway.begin",
+extends: ["long.executestrategy.dreams.poisonway.begin"],
+            
+            comments: "unique verb, because it loops",
+            label: "Les Guetteurs sur le chemin",
+            startdescription: "Notre ennemi choisira un chemin que nous avons trouvé dans le Mansus, et y installera une surveillance.",
+            slots: [
+                {
+                    id: "way",
+extends: ["way"],
+                    label: "Chemin",
+                    
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.dreams.poisonway.continue",
+extends: ["long.executestrategy.dreams.poisonway.continue"],
+            
+            label: "Les Guetteurs sur le chemin",
+            
+            startdescription: "Notre ennemi a fait son choix. Nous ne pourrons plus jamais franchir cette porte sans risquer de nous faire tuer..",
+            
+        },
+
+
+        {
+            id: "long.executestrategy.dreams.lantern.greatwork.begin",
+extends: ["long.executestrategy.dreams.lantern.greatwork.begin"],
+            
+            label: "Un acte de sabotage !",
+            startdescription: "Notre ennemi immortel a attiré l'attention sur notre travail dans le Mansus. Un Nom inférieur du Loup-Divisé est sur sa piste.",
+            slots: [
+                {
+                    id: "target",
+extends: ["target"],
+                    label: "Cible",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.dreams.lantern.greatwork.continue",
+extends: ["long.executestrategy.dreams.lantern.greatwork.continue"],
+            
+            label: "Défendre le Grand Oeuvre",
+            startdescription: "Notre Grand Oeuvre est menacée par une malice grise et maigre. Si nous l'enveloppons de lumière, cela pourrait dissuader ce loup rôdeur. [Un <sprite name=heart> ou <sprite name=lantern> esprit - le plus fort, le meilleur - pourrait être en mesure de se défendre contre cette action.]",
+            description: "",
+            slots: [
+                {
+                    id: "defender",
+extends: ["defender"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.dreams.lantern.greatwork.succeed",
+extends: ["long.executestrategy.dreams.lantern.greatwork.succeed"],
+            
+            label: "La lumière qui s'éteint",
+            startdescription: "Un témoin s'est enfui, un autre s'est perdu à cause du Loup-Divisé. Qu'en est-il du troisième ? Parti dans un endroit non cartographié.",
+            
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.dreams.lantern.greatwork.failure",
+extends: ["long.executestrategy.dreams.lantern.greatwork.failure"],
+            
+            label: "La lumière enveloppante",
+            startdescription: "Nous avons détourné l'attention du loup rôdeur. Notre Grand Oeuvre est en sécurité pour l'instant.",
+            
+            
+        },
+
+
+
+
+        {
+            id: "long.executestrategy.dreams.poisonpassionwithdread.begin",
+extends: ["long.executestrategy.dreams.poisonpassionwithdread.begin"],
+            
+            label: "Le crépuscule qui s'intensifie",
+            slots: [
+                {
+                    id: "seeking",
+extends: ["seeking"],
+                    label: "Passion",
+                    
+                    
+                }
+            ],
+            
+            startdescription: "La mort, dit-on, est en baisse. Les racines du Mansus s'étendent bien en dessous de la lumière. C'est dans les rêves que mon ennemi s'adresse à moi.",
+            
+        },
+
+        {
+            id: "long.executestrategy.dreams.poisonpassionwithdread.continue",
+extends: ["long.executestrategy.dreams.poisonpassionwithdread.continue"],
+            
+            label: "Le crépuscule qui s'intensifie",
+            startdescription: "Dans mes rêves, je vois les escaliers qui descendent sans cesse, là où vont les morts quand le monde se transforme.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.dreams.poisonreasonwithfascination.begin",
+extends: ["long.executestrategy.dreams.poisonreasonwithfascination.begin"],
+            
+            label: "L'étincelle et la mèche",
+            startdescription: "Mon ennemi a saupoudré mes rêves d'images - chacune étant une facette différente de la promesse d'une Heure à venir.",
+            slots: [
+                {
+                    id: "seeking",
+extends: ["seeking"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+
+
+        {
+            id: "long.executestrategy.dreams.poisonreasonwithfascination.continue",
+extends: ["long.executestrategy.dreams.poisonreasonwithfascination.continue"],
+            
+            label: "L'étincelle et la mèche",
+            startdescription: "Qu'est-ce que la Chandelle ? Pourquoi vais-je rêver d'elle ? Qu'est-ce que la flamme, et quel est le combustible ? Mes pensées sont apaisantes.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.dreams.createfascination.poisoned.begin",
+extends: ["long.executestrategy.dreams.createfascination.poisoned.begin"],
+            
+            label: "Rêves savoureux",
+            startdescription: "Notre ennemi connaît mieux mes espoirs et mes craintes. Il n'a plus besoin d'alimenter ses messages avec ma Peur. Le rêve de cette nuit est de la cannelle dans l'ambre. Il arrive tout frais du Malleary, tentant comme un gâteau non coupé, auréolé d'une nostalgie enflammée.",
+            
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.dreams.dreadtofascination.poisoned.begin",
+extends: ["long.executestrategy.dreams.dreadtofascination.poisoned.begin"],
+            
+            label: "Rêves juteux",
+            startdescription: "Notre ennemi Long m'a envoyé un rêve du Verger des Lumières. Dans ce rêve, comme une poire juteuse dans un papier froissé, se trouve la promesse de la fin de la peur.",
+            slots: [
+                {
+                    id: "seeking",
+extends: ["seeking"],
+                    label: "Peur",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.dreams.dreadtofascination.poisoned.continue",
+extends: ["long.executestrategy.dreams.dreadtofascination.poisoned.continue"],
+            
+            label: "Rêves juteux",
+            startdescription: "Le rêve que j'ai reçu a englobé ma crainte comme un polype dévorant un élan de vie. À sa place, il offre le souvenir d'une conversation qui n'a jamais eu lieu, mûrie par un rire lumineux.",
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.dreams.applypoison.fascination.longlesson",
+extends: ["long.executestrategy.dreams.applypoison.fascination.longlesson"],
+            
+            label: "Rêves juteux",
+            
+        },
+
+
+        {
+            id: "long.executestrategy.dreams.createfascination.begin",
+extends: ["long.executestrategy.dreams.createfascination.begin"],
+            
+            label: "Lumières lointaines",
+            startdescription: "Notre ennemi a placé une bougie dans la haute fenêtre du Mansus. Sa lumière s'infiltrera dans nos rêves.",
+            description: "Voici cette lumière au bord du sommeil, sur laquelle Coseley et Heursault ont tous deux écrit, chacun à leur époque.",
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.dreams.learndreams.begin",
+extends: ["long.executestrategy.dreams.learndreams.begin"],
+            
+            label: "Un point de vue dévoilé",
+            startdescription: "Sous un certain angle, mes pensées reflètent la lumière du Mansus. Notre ennemi cherche à découvrir cet angle.",
+            description: "Notre ennemi a cherché dans les salles du Mansus l'étincelle de mes pensées réfléchies, et n'a rien trouvé.",
+            slots: [
+                {
+                    id: "impulses",
+extends: ["impulses"],
+                    label: "Impulsions",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+
+        {
+            id: "long.executestrategy.dreams.learndreams.continue",
+extends: ["long.executestrategy.dreams.learndreams.continue"],
+            
+            label: "Un point de vue dévoilé",
+            startdescription: "Notre ennemi a découvert l'angle de mes pensées. Notre vulnérabilité s'est accrue.",
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.dreams.learnfears.begin",
+extends: ["long.executestrategy.dreams.learnfears.begin"],
+            
+            label: "L'exposition des peurs",
+            startdescription: "Il y a une pièce dans mon coeur où mes peurs sont toutes affichées. Dans mes rêves, cette pièce a une porte. Si notre ennemi trouve cette porte, il pourrait la franchir.",
+            description: "Mes peurs se perdent dans les ténèbres. Notre ennemi n'a rien trouvé.",
+            slots: [
+                {
+                    id: "impulses",
+extends: ["impulses"],
+                    label: "Impulsions",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.dreams.learnfears.continue",
+extends: ["long.executestrategy.dreams.learnfears.continue"],
+            
+            label: "L'exposition des peurs",
+            startdescription: "Notre ennemi a vu les peurs s'afficher dans mon coeur. Notre vulnérabilité s'est accrue.",
+            
+            
+        },
+
+
+
+
+        {
+            id: "long.executestrategy.downtime.learn.begin",
+extends: ["long.executestrategy.downtime.learn.begin"],
+            
+            label: "Une puissance croissante",
+            startdescription: "Notre ennemi immortel a des alliés et des ressources dans de nombreux pays. Ils se déplacent lentement, mais au fil du temps, ils feront en sorte que de plus en plus de ces alliés et de ces ressources s'opposent à nous.",
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.downtime.learn.might",
+extends: ["long.executestrategy.downtime.learn.might"],
+            label: "Apprendre: Puissance",
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.downtime.learn.connections",
+extends: ["long.executestrategy.downtime.learn.connections"],
+            label: "Apprendre: Connexions",
+            
+            
+        },
+
+        {
+            id: "long.executestrategy.downtime.learn.dreamwork",
+extends: ["long.executestrategy.downtime.learn.dreamwork"],
+            label: "Apprendre: Rêve",
+            
+            
+        },
+
+
+
+
+
+        {
+            id: "long.executestrategy.downtime.rest.begin",
+extends: ["long.executestrategy.downtime.rest.begin"],
+            
+            label: "Un répit",
+            startdescription: "Pour l'instant, notre ennemi a choisi d'attendre.",
+            
+            
+        },
+
+        {
+            id: "long.intrigue.confrontation",
+extends: ["long.intrigue.confrontation"],
+            
+            label: "Préparatifs en vue d'un assaut",
+            startdescription: "Les connexions de notre ennemi sont si omniprésentes qu'ils sont maintenant sûrs de réussir un assaut ouvert. Nous pouvons nous attendre à un assaut, très bientôt.",
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "long.assault.confrontation",
+extends: ["long.assault.confrontation"],
+            
+            comments: "Note: this takes effect in the main verb. Once in an assault confrontation, we're in it until the end.",
+            label: "Un assaut direct !",
+            
+            slots: [
+                {
+                    id: "follower",
+extends: ["follower"],
+                    label: "Défenseur",
+                    
+                    
+                }
+            ],
+            startdescription: "Assez de feintes et de lutte par procuration. @#welland|Le capitaine Welland utilisera personnellement sa force de Forge contre nous.#tryphon|Lady Tryphon a choisi de souiller de sang ses mains soigneusement manucurées lors d'une agression personnelle. #julian|Cet ennemi glacial est venu nous achever personnellement.#|Notre ennemi est personnellement entré en lice.@ [Le Long dévorera ma Santé jusqu'à ce que je sois mort, bien que nos fidèles Adeptes puissent nous protéger pendant un certain temps. Et seuls les Adeptes mortels peuvent le faire - notre ennemi est sage dans les arts invisibles, et les esprits ne peuvent les assaillir.] ",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "long.assault.confrontation.vanquished",
+extends: ["long.assault.confrontation.vanquished"],
+            
+            label: "Le Long est mort !",
+            startdescription: "Ce géant aurait pu vivre éternellement, mais il devenait imprudent.",
+            description: "[Savourez votre victoire tant que vous le pouvez. Le travail continue. Si notre ennemi peut être détruit, notre mentor peut l'être aussi.]",
+            
+            
+            
+        },
+
+        {
+            id: "long.assault.confrontation.grabhealth",
+extends: ["long.assault.confrontation.grabhealth"],
+            label: "Une offensive sauvage",
+            
+            slots: [
+                {
+                    id: "injury",
+extends: ["injury"],
+                    label: "Blessure",
+                    
+                    
+                }
+            ],
+            
+            
+            startdescription: "Le Long frappe depuis l'ombre, et revient au silence ! [Quand je n'aurai plus de Santé, ce sera la mort.]",
+            
+            
+        },
+
+
+
+        {
+            id: "long.assault.confrontation.defender",
+extends: ["long.assault.confrontation.defender"],
+            
+            label: "Un sacrifice nécessaire",
+            
+            startdescription: "Celui-ci donnera sa vie pour la cause. [Seul un Adepte avec <sprite name=edge><sprite name=forge><sprite name=winter> d'au moins 5 a une chance de nuire au Long. Mais les autres pourront retarder l'inévitable, pendant un certain temps.]",
+            
+        },
+
+        {
+            id: "long.assault.confrontation.weakfollower",
+extends: ["long.assault.confrontation.weakfollower"],
+            
+            label: "Un sacrifice nécessaire",
+            startdescription: "Une bougie de plus s'éteint.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "long.assault.confrontation.murderskill",
+extends: ["long.assault.confrontation.murderskill"],
+            
+            label: "Dans la nuit",
+            startdescription: "Je vais affronter directement cette créature. Il a la force des siècles... mais je ne dois pas être sous-estimé.",
+            
+            
+        },
+
+
+        {
+            id: "long.assault.confrontation.murderskill.succeed",
+extends: ["long.assault.confrontation.murderskill.succeed"],
+            
+            label: "J'étais brisé, bien que mes Pointes soient blessés comme des couteaux",
+
+            startdescription: "J'ai lutté contre mon ennemi dans l'obscurité, et même s'il me dominait, j'ai sacrifié mes forces pour faire couler son sang. Il est blessé ! mais je suis brisé.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "long.assault.confrontation.murderskill.failure",
+extends: ["long.assault.confrontation.murderskill.failure"],
+            
+            label: "J'étais brisé",
+            startdescription: "Je me suis opposé à mon ennemi; j'ai opposé sa force à la mienne, et j'ai été brisé. Je suis peut-être plus qu'un être humain; mais il y a bien longtemps qu'il ne l'est plus.",
+            
+            
+            
+        },
+
+        {
+            id: "long.assault.confrontation.strongfollower",
+extends: ["long.assault.confrontation.strongfollower"],
+            
+            label: "Une fin noble",
+            startdescription: "Au plus profond de la nuit, on entend un cri qui secoue la ville. Le Long est blessé !",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "long.assault.confrontation.strongfollower.failure",
+extends: ["long.assault.confrontation.strongfollower.failure"],
+            
+            label: "Un noble échec",
+            startdescription: "Les minutes s'étirent sur des heures. La nuit a avalé notre camarade aussi facilement qu'un poisson prenant une mouche. Le Long, insatiable, continue l'assaut.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "long.dreams.confrontation",
+extends: ["long.dreams.confrontation"],
+            
+            comments: "Note: this takes effect in the main verb. Once in a dreams confrontation, we're in it until the end.",
+            label: "Une guerre de fantômes",
+            
+            slots: [
+                {
+                    id: "summoned",
+extends: ["summoned"],
+                    label: "Défenseur",
+                    
+                }
+            ],
+            startdescription: "@#welland|Le capitaine Welland a, de manière inhabituelle, choisi les limites du Mansus pour notre dernier champ de bataille.#tryphon|Lady Tryphon a choisi les limites du Mansus pour notre confrontation finale. #julian|Coseley mobilise des alliés dans les Limites du Mansus pour nous frapper.#diarist|Le Diariste a commencé une attaque totale contre nous, à travers les limites du Mansus qu'il connaît si bien.@ [Le Long dévorera ma Passion et ma Raison jusqu'à ce que je ne sois plus. Mais il s'est exposé à une contre-attaque... si je peux soulever une armée suffisante de choses du Mansus contre lui.] ",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "long.dreams.confrontation.vanquished",
+extends: ["long.dreams.confrontation.vanquished"],
+            
+            label: "Le Long est vaincu !",
+            startdescription: "Parmi les ombres roulantes, les fumées furieuses des Limites, le Long se contracte comme une lune en train de fondre. Ses armées se dissipent. Ses intentions s'effondrent. Son nom est perdu.",
+            description: "[Savourez votre victoire tant que vous le pouvez. Le travail continue. Si notre ennemi peut être détruit, notre mentor peut l'être aussi.]",
+            
+            
+            
+        },
+
+
+        {
+            id: "long.dreams.confrontation.defender",
+extends: ["long.dreams.confrontation.defender"],
+            
+            label: "A Battle in the Bounds",
+            
+            startdescription: "La bataille est imaginaire, la guerre ne l'est pas. Je peux mettre des protections dans mes rêves. [Seul un esprit avec <sprite name=edge><sprite name=lantern><sprite name=moth> d'au moins 5 a une chance de nuire au Long. Mais les autres pourront retarder l'inévitable, pendant un certain temps.]",
+            
+        },
+
+        {
+            id: "long.dreams.confrontation.lantern.maid",
+extends: ["long.dreams.confrontation.lantern.maid"],
+            
+            label: "Une entente avec le Soleil-en-Haillons",
+            startdescription: "Le Diariste est à l'image des présences qui jalonnent l'ascension des couteaux. Aucune servante dans le miroir ne lèvera la main contre lui.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "long.dreams.confrontation.winter.maid",
+extends: ["long.dreams.confrontation.winter.maid"],
+            
+            label: "Le froid de l'hiver",
+            startdescription: "Coseley est un Long de l'Hiver. Quel que soit l'état de froid qu'il a atteint, il l'a scellé contre les attaques des servantes dans le miroir.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "long.dreams.confrontation.lantern.hint",
+extends: ["long.dreams.confrontation.lantern.hint"],
+            
+            label: "La lumière du Meniscate",
+            startdescription: "En tant que Long de la Lanterne, le Diariste a un accord avec les épigones de la Gloire. Aucun indice ne lui fera de mal.",
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "long.dreams.confrontation.forge.caligine",
+extends: ["long.dreams.confrontation.forge.caligine"],
+            
+            label: "Une connaissance Long de la Forge",
+            startdescription: "Welland tenait le feu en laisse bien avant la naissance de notre fondateur. Aucun Caligine ne lui fera de mal.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "long.dreams.confrontation.grail.prophet",
+extends: ["long.dreams.confrontation.grail.prophet"],
+            
+            label: "Une certaine sympathie",
+            startdescription: "'Ne faites pas cela,' fait remarquer Lady Tryphon. Et le Prophète brut ne le fera pas. En fait, faites-le.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "long.dreams.confrontation.weakfollower",
+extends: ["long.dreams.confrontation.weakfollower"],
+            
+            label: "Un sacrifice nécessaire",
+            
+            startdescription: "Une bougie de plus s'éteint.",
+            
+            
+            
+        },
+
+        {
+            id: "long.dreams.confrontation.strongfollower",
+extends: ["long.dreams.confrontation.strongfollower"],
+            
+            label: "La blessure dans le Bois",
+            startdescription: "Le sang s'écoule des branches des arbres. Notre ennemi est blessé.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "long.dreams.confrontation.strongfollower.failure",
+extends: ["long.dreams.confrontation.strongfollower.failure"],
+            
+            label: "L'allongement de la lumière",
+            startdescription: "Notre ennemi est sain et sauf.",
+            
+            
+            
+        },
+
+
+        {
+            id: "long.dreams.confrontation.grabability",
+extends: ["long.dreams.confrontation.grabability"],
+            
+            label: "Crépuscule implacable",
+            startdescription: "Chaque fois que je dors, des cauchemars me déchiquettent l'âme. Même quand je me réveille, ils m'attendent dans chaque miroir.",
+            slots: [
+                {
+                    id: "wakingnightmares",
+extends: ["wakingnightmares"],
+                    label: "Cauchemars éveillés",
+                    
+                    
+                }
+            ],
+            
+            
+            startdescription: "Les cauchemars continuent d'arriver. Ils continuent à venir. Le jour ou la nuit, au réveil ou pendant le sommeil, les bruits des choses dans l'air, les racines de mes cheveux qui poussent vers l'intérieur, les portes ouvertes qui s'ouvrent tout le long du chemin et les migraines qui se cachent dans le froid et tout me parle, tout le temps tout, le tiraillement du réveil est le glissement de la gravité et la pression des Limites est la pression de la foule et je m'enfonce, c'est ainsi que vont les glaciers\n\n[ Lorsque je n'aurais plus ni Passion ni Raison, cela me détruira.]",
+        },
+
+        {
+            id: "long.dreams.confrontation.destroyedbynightmares",
+extends: ["long.dreams.confrontation.destroyedbynightmares"],
+            
+            label: "La miséricorde",
+            startdescription: "- pas plus -",
+        },
+
+        {
+            id: "long.dreams.confrontation.cleanup",
+extends: ["long.dreams.confrontation.cleanup"],
+            
+            comments: "We remove principle aspects on each run-through - any clutter left from killing spirits, we want to remove so it doesn't affect the attack calculation.",
+            label: "Une guerre de fantômes",
+            
+            
+            
+        }
+
+    ]
+}

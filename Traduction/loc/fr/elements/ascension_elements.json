@@ -1,0 +1,266 @@
+{
+    "elements": [
+
+        {
+            id: "ascensionpowera",
+extends: ["ascensionpowera"],
+            label: "Tentation: Pouvoir",
+            
+            description: "Il m'est venu à l'esprit que je détiens la clé du Pouvoir. [Cette carte vous permettra de remporter une victoire de Pouvoir, si vous l'améliorez suffisamment. Rêver de cette carte peut la faire progresser ou la transformer.]",
+            
+        },
+        {
+            id: "ascensionsensationa",
+extends: ["ascensionsensationa"],
+            label: "Tentation: Sensation",
+            
+            description: "Je pourrais réaliser des expériences d'une intensité que peu de gens pourraient imaginer. [Cette carte vous permettra de remporter une victoire de Sensation, si vous l'améliorez suffisamment. Rêver de cette carte peut la faire progresser ou la transformer.]",
+            
+        },
+        {
+            id: "ascensionenlightenmenta",
+extends: ["ascensionenlightenmenta"],
+            label: "Tentation: Illumination",
+            
+            description: "Il m'est apparu que je détenais la clé de la sagesse. [Cette carte vous permettra de remporter une victoire d'Illumination, si vous l'améliorez suffisamment. Rêver de cette carte peut la faire progresser ou la transformer.]",
+            
+        },
+        {
+            id: "ascensionpowerb",
+extends: ["ascensionpowerb"],
+            label: "Dévouement: Pouvoir",
+            
+            description: "Je me suis consacré à l'acquisition d'un Pouvoir immortel, à tout prix. [Améliorez encore cette carte pour rendre possible une victoire du Pouvoir. Je dois être un véritable initié de Mansus ; je dois travailler avec le respect de la Forge pour invoquer la Forge des Jours et commencer la transformation.]",
+            slots: [
+                {
+                    id: "Know",
+extends: ["Know"],
+                    label: "Savoir",
+                    
+                    
+                    description: "Seul un véritable adepte, un Initié, peut franchir ce seuil. Les Initiés sont ceux qui ont passé la Porte du cerf, en rêve."
+                },
+                {
+                    id: "Power",
+extends: ["Power"],
+                    label: "Pouvoir",
+                    
+                    
+                    description: "J'exigerai suffisamment de la furieuse incandescence de la Forge."
+                }
+            ],
+            
+
+        },
+        {
+            id: "ascensionsensationbm",
+extends: ["ascensionsensationbm"],
+            label: "Dévouement: Sensation",
+            
+            description: "Je me suis consacré à la poursuite immortelle de la Sensation. [Améliorez encore cette carte pour rendre possible une victoire de Sensation. Je dois être un véritable initié du Mansus ; je dois travailler avec l'aspect du Graal pour me rendre agréable au Graal Rouge.]",
+            slots: [
+                {
+                    id: "Know",
+extends: ["Know"],
+                    label: "Savoir",
+                    
+                    
+                    description: "Seul un véritable adepte, un Initié, peut franchir ce seuil. Les Initiés sont ceux qui ont passé la Porte du cerf, en rêve."
+                },
+                {
+                    id: "Power",
+extends: ["Power"],
+                    label: "Pouvoir",
+                    
+                    
+                    description: "J'aurai besoin de Graal d'une intensité suffisante."
+                }
+            ],
+            
+
+        },
+        {
+            id: "ascensionsensationbf",
+extends: ["ascensionsensationbf"],
+            label: "Dévouement: Sensation",
+            
+            description: "Je me suis consacré à la poursuite immortelle de la Sensation. [Améliorez encore cette carte pour rendre possible une victoire de Sensation. Je dois être un véritable initié du Mansus ; je dois travailler avec l'aspect du Graal pour me rendre agréable au Graal Rouge.]",
+            slots: [
+                {
+                    id: "Know",
+extends: ["Know"],
+                    label: "Savoir",
+                    
+                    
+                    description: "Seul un véritable adepte, un Initié, peut franchir ce seuil. Les Initiés sont ceux qui ont passé la Porte du cerf, en rêve."
+                },
+                {
+                    id: "Power",
+extends: ["Power"],
+                    label: "Pouvoir",
+                    
+                    
+                    description: "J'aurai besoin de Graal d'une intensité suffisante."
+                }
+            ],
+            
+
+        },
+        {
+            id: "ascensionenlightenmentb",
+extends: ["ascensionenlightenmentb"],
+            label: "Dévouement: Illumination",
+            
+            description: "Je me suis consacré à la recherche d'une meilleure compréhension. Je dois voir sous la peau, quel qu'en soit le prix. [Cela rend possible une victoire d'Illumination. Je dois être un véritable initié du Mansus ; je dois travailler avec l'aspect de la Lanterne pour permettre au Guetteur de me voir.]",
+            slots: [
+                {
+                    id: "Know",
+extends: ["Know"],
+                    
+                    
+                    description: "Seul un véritable adepte, un Initié, peut franchir ce seuil. Les Initiés sont ceux qui ont passé la Porte du cerf, en rêve."
+                },
+                {
+                    id: "Power",
+extends: ["Power"],
+                    label: "Pouvoir",
+                    
+                    
+                    description: "J'aurais besoin de l'implacable lumière du Mansus."
+                }
+            ],
+            
+        },
+        {
+            id: "ascensionpowerc",
+extends: ["ascensionpowerc"],
+            label: "Ascension: Pouvoir",
+            
+            
+            description: "La Forge a allumé une étincelle révélatrice dans ma chair. Je suis désespéré par la chaleur des feux. Je pense que très bientôt, je pourrais commencer à les allumer dans mon sommeil. C'est un besoin urgent, comme le besoin d'eau. Je sais que c'est la Troisième Marque.",
+            
+        },
+        {
+            id: "ascensionpowerd",
+extends: ["ascensionpowerd"],
+            label: "Ascension: Pouvoir",
+            
+            
+            description: "Je porte partout les cicatrices des incendies maintenant, mais il est chaque fois plus difficile de faire brûler ma chair. Je commence à m'habituer aux flammes, comme un dragon ou une pierre. C'est la Quatrième Marque.",
+            
+        },
+        {
+            id: "ascensionpowere",
+extends: ["ascensionpowere"],
+            label: "Ascension: Pouvoir",
+            
+            
+            description: "La Cinquième Marque : aucun poil ne reste sur mon corps. Je suis fort, diablement fort. Je frissonne toujours, à chaque fois que je suis loin du feu.",
+            
+        },
+        {
+            id: "ascensionpowerf",
+extends: ["ascensionpowerf"],
+            label: "Ascension: Pouvoir",
+            
+            
+            description: "Il est difficile de plier mes membres. J'ai tellement de cicatrices. Je préfère ne pas exposer mon visage au regard du public. Je peux tenir un charbon chaud dans ma main, et je ne sens rien, bien qu'il y ai une légère odeur et un léger grésillement. C'est la Sixième Marque. ",
+            
+        },
+        {
+            id: "ascensionsensationc",
+extends: ["ascensionsensationc"],
+            label: "Ascension: Sensation",
+            
+            
+            description: "Le Graal Rouge m'a réchauffé. Ses soifs ont commencé à m'assécher la bouche et à me démanger les mains. Je sais que c'est la Troisième Marque.",
+            
+        },
+        {
+            id: "ascensionsensationd",
+extends: ["ascensionsensationd"],
+            label: "Ascension: Sensation",
+            
+            
+            description: "La Quatrième Marque est l'amélioration irrégulière de ma peau. Par endroits, le long de mes bras ou le long de mes cuisses, elle est claire, douce, éclatante, comme la peau d'un enfant qui sort tout juste de l'eau. Mais seulement par endroits.",
+            
+        },
+        {
+            id: "ascensionsensatione",
+extends: ["ascensionsensatione"],
+            label: "Ascension: Sensation",
+            
+            
+            description: "'Extensions et éruptions' est le surnom de la Cinquième Marque. J'ai développé deux nouveaux doigts, et un seul est sur ma main. J'ai une fistule dans la pliure de mon genou. La pression sur ses bords est une douce lueur de plaisir. Je pense que le renflement au bas de mon dos est un nouvel organe.",
+            
+        },
+        {
+            id: "ascensionsensationf",
+extends: ["ascensionsensationf"],
+            label: "Ascension: Sensation",
+            
+            
+            description: "La sixième marque est identifiée comme le stade où mon corps grandit.  Je gonfle de tous mes membres et dans toutes les directions. Ma peau est un velours rayonnant. Des poches de chair protègent mes yeux. J'ai très soif.",
+            
+        },
+
+        {
+            id: "ascensionenlightenmentc",
+extends: ["ascensionenlightenmentc"],
+            label: "Ascension: Illuminationt",
+            
+            
+            description: "Le Guetteur, qui est la Porte dans l'œil, m'a touché. Chaque jour, ma curiosité se renforce : un besoin physique urgent, comme la faim qui me ronge. Je sais que c'est la Troisième Marque.",
+            
+        },
+        {
+            id: "ascensionenlightenmentd",
+extends: ["ascensionenlightenmentd"],
+            label: "Ascension: Illumination",
+            
+            
+            description: "La Quatrième Marque est la lumière que l'on trouve dans les yeux, mais elle est très subtile. La plupart ne peuvent la voir que lorsque les lampes sont éteintes ou que la nuit est très sombre, bien que lorsque j'ouvre très grand les yeux, davantage de lumière s'échappe. Je deviens plus mince.",
+            
+        },
+        {
+            id: "ascensionenlightenmente",
+extends: ["ascensionenlightenmente"],
+            label: "Ascension: Illumination",
+            
+            
+            description: "Lors de la Cinquième Marque, la lumière peut s'échapper partout où la peau est meurtrie ou effilochée. Et maintenant, la peau commence à s'accrocher à mon corps alors que le processus ronge ma chair. Je suis très mince maintenant. J'ai toujours faim.",
+            
+        },
+        {
+            id: "ascensionenlightenmentf",
+extends: ["ascensionenlightenmentf"],
+            label: "Ascension: Illumination",
+            
+            
+            description: "On dit que la Sixième Marque se produit lorsque la chair entre le doigt et le pouce peut être tirée jusqu'à la dernière articulation du doigt. Ma peau est très lâche maintenant. Je pense que mes os commencent à se ramollir. Mes yeux ne sont pas de couleur humaine.",
+            
+        },
+
+
+        {
+            id: "temptation.remembrance",
+extends: ["temptation.remembrance"],
+            label: "Tentation: Commémoration",
+            description: "Le vent frais qui soufflait alors que le soleil était rouge et bas. La voix que les vagues utilisaient autrefois. Les formes qui s'effondraient à côté de nous dans la neige. Toutes écrasées derrière la vitre du temps. Je dois retrouver ce qui a été perdu.",
+            
+            
+
+        },
+
+        {
+            id: "dedication.remembrance",
+extends: ["dedication.remembrance"],
+            label: "Dévouement: Commémoration",
+            description: "Le vent frais qui soufflait alors que le soleil était rouge et bas. La voix que les vagues utilisaient autrefois. Les formes qui s'effondraient à côté de nous dans la neige. Toutes écrasées derrière la vitre du temps. Je dois retrouver ce qui a été perdu... même si le goût en est mûr et étrange.",
+            
+
+        }
+
+
+    ]
+}

@@ -1,0 +1,881 @@
+{
+    "elements": [
+        {
+            id: "generic_r",
+extends: ["generic_r"],
+            label: "Un franc-tireur",
+            
+            description: "Quelqu'un qui a perdu tout sens de la mesure.",
+            
+            
+            
+        },
+        {
+            id: "auclair_r",
+extends: ["auclair_r"],
+            
+            label: "Auclair, un franc-tireur",
+            
+            description: "Auclair aime les échecs, maintenant plus que jamais. Le noir, le blanc.",
+            
+            
+            
+        },
+        {
+            id: "cat_r",
+extends: ["cat_r"],
+            
+            label: "Cat Caro, une franc-tireuse",
+            
+            description: "'Cat Caro', comme elle se fait appeler. Elle était autrefois diseuse de bonne aventure. Personne ne semble savoir exactement ce qu'elle est maintenant.",
+            
+            
+            
+        },
+
+        {
+            id: "clifton_r",
+extends: ["clifton_r"],
+            
+            label: "'Pope' Clifton, un franc-tireur",
+            
+            description: "Clifton aime qu'on l'appelle 'Votre Sainteté'. Lorsqu'on ne s'adresse pas à lui de cette façon, il peut y avoir une scène.",
+            
+            
+            
+        },
+
+        {
+            id: "clovette_r",
+extends: ["clovette_r"],
+            
+            label: "Clovette, une franc-tireuse",
+            
+            description: "Il est difficile de ne pas aimer Clovette, même quand on sait ce qu'elle a fait.",
+            
+            
+            
+        },
+
+        {
+            id: "dorothy_r",
+extends: ["dorothy_r"],
+            
+            label: "Dorothy, une franc-tireuse",
+            
+            description: "Dorothy ne cessera pas. Elle ne cessera jamais. Elle en a fait le serment.",
+            
+            
+            
+        },
+        {
+            id: "douglas_r",
+extends: ["douglas_r"],
+            
+            label: "Douglas, un franc-tireur",
+            
+            description: "Douglas ne s'en passe plus. Il est temps de voir de quoi il s'agit.",
+            
+            
+            
+        },
+        {
+            id: "elridge_r",
+extends: ["elridge_r"],
+            
+            label: "Elridge, un franc-tireur",
+            
+            description: "Les chaussures d'Elridge sont souvent tachées de sang.",
+            
+            
+        },
+        {
+            id: "enid_r",
+extends: ["enid_r"],
+            
+            label: "Enid, une franc-tireuse",
+            
+            description: "Enid voit toujours ses ennemis arriver. Tout le temps.",
+            
+            
+        },
+
+        {
+            id: "laidlaw_r",
+extends: ["laidlaw_r"],
+            
+            label: "Laidlaw, un franc-tireur",
+            
+            description: "Les projets de Laidlaw sont aussi complexes que l'ombre d'une fougère.",
+            
+            
+            
+
+        },
+        {
+            id: "leo_r",
+extends: ["leo_r"],
+            
+            label: "Leo, un franc-tireur",
+            
+            description: "Leo a choisi sa cause, et il fera le nécessaire pour la défendre.",
+            
+            
+            
+        },
+        {
+            id: "neville_r",
+extends: ["neville_r"],
+            
+            label: "Neville, un franc-tireur",
+            
+            description: "Neville sait que cela ne peut pas durer. Mais pendant ce temps, par Dieu, il ouvrira toutes les portes qui se présenteront.",
+            
+            
+            
+        },
+
+        {
+            id: "porter_r",
+extends: ["porter_r"],
+            
+            label: "Porter, un franc-tireur",
+            
+            description: "Porter a commencé à collecter des noms.",
+            
+            
+            
+        },
+        {
+            id: "renira_r",
+extends: ["renira_r"],
+            
+            label: "Renira, une franc-tireuse",
+            
+            description: "Renira aime convertir ses admirateurs en adorateurs.",
+            
+            
+            
+        },
+        {
+            id: "rose_r",
+extends: ["rose_r"],
+            
+            label: "Rose, une franc-tireuse",
+            
+            description: "Rose a depuis longtemps cessé de craindre ses ennemis.",
+            
+            
+            
+        },
+        {
+            id: "saliba_r",
+extends: ["saliba_r"],
+            
+            label: "Saliba, un franc-tireur",
+            
+            description: "Saliba ne tolère pas les ennuis.",
+            
+            
+            
+        },
+        {
+            id: "slee_r",
+extends: ["slee_r"],
+            
+            label: "Slee, un franc-tireur",
+            
+            description: "Slee est toujours avide de ressources pour mettre ses théories en pratique.",
+            
+            
+            
+        },
+        {
+            id: "sylvia_r",
+extends: ["sylvia_r"],
+            
+            label: "Sylvia, une franc-tireuse",
+            
+            description: "L'agenda de Sylvia n'est pas clair. On soupçonne qu'il n'est pas clair, même pour Sylvia.",
+            
+            
+            
+        },
+        {
+            id: "tristan_r",
+extends: ["tristan_r"],
+            
+            label: "Tristan, un franc-tireur",
+            
+            description: "Tristan est en train de se forger un petit royaume. Quand le feu est nécessaire, il utilise le feu.",
+            
+            
+            
+        },
+
+        {
+            id: "valciane_r",
+extends: ["valciane_r"],
+            
+            label: "Valciane, une franc-tireuse",
+            
+            description: "Valciane s'occupe de ses opposants avec le brio impitoyable d'une jeunesse qui casse des bouteilles.",
+            
+            
+            
+        },
+        {
+            id: "victor_r",
+extends: ["victor_r"],
+            
+            label: "Victor, un franc-tireur",
+            
+            description: "Victor est prêt pour ce qui pourrait arriver. Ses couteaux sont comme de nouveaux soldats enthousiastes.",
+            
+            
+            
+        },
+
+        {
+            id: "violet_r",
+extends: ["violet_r"],
+            
+            label: "Violet, une franc-tireuse",
+            
+            description: "Violet a trouvé de nouveaux passe-temps.",
+            
+            
+            
+        },
+        {
+            id: "ysabet_r",
+extends: ["ysabet_r"],
+            
+            label: "Ysabet, une franc-tireuse",
+            
+            description: "Ysabet attend là où elle ne peut être vue.",
+            
+            
+            
+        },
+
+        {
+            id: "generic_r_c",
+extends: ["generic_r_c"],
+            label: "Un Rival",
+            
+            description: "Quelqu'un qui a perdu tout sens de la mesure.",
+            
+            
+            
+        },
+        {
+            id: "auclair_r_c",
+extends: ["auclair_r_c"],
+            
+            label: "Auclair, un rival",
+            
+            description: "Auclair aime les échecs, maintenant plus que jamais. Le noir, le blanc.",
+            
+            
+            
+        },
+        {
+            id: "cat_r_c",
+extends: ["cat_r_c"],
+            
+            label: "Cat Caro, une rivale",
+            
+            description: "'Cat Caro', comme elle se fait appeler. Elle était autrefois diseuse de bonne aventure. Personne ne semble savoir exactement ce qu'elle est maintenant.",
+            
+            
+            
+        },
+
+        {
+            id: "clifton_r_c",
+extends: ["clifton_r_c"],
+            
+            label: "'Pope' Clifton, un rival",
+            
+            description: "Clifton aime qu'on l'appelle 'Votre Sainteté'. Lorsqu'on ne s'adresse pas à lui de cette façon, il peut y avoir une scène.",
+            
+            
+            
+        },
+
+        {
+            id: "clovette_r_c",
+extends: ["clovette_r_c"],
+            
+            label: "Clovette, une rivale",
+            
+            description: "Il est difficile de ne pas aimer Clovette, même quand on sait ce qu'elle a fait.",
+            
+            
+            
+        },
+        {
+            id: "connie_r_c",
+extends: ["connie_r_c"],
+            
+            label: "Connie, une renégate",
+            
+            description: "Connie's... Connie réfléchit à tout cela.",
+            
+            
+            
+        },
+
+        {
+            id: "dorothy_r_c",
+extends: ["dorothy_r_c"],
+            
+            label: "Dorothy, une rivale",
+            
+            description: "Dorothy ne cessera pas. Elle ne cessera jamais. Elle en a fait le serment.",
+            
+            
+            
+        },
+        {
+            id: "douglas_r_c",
+extends: ["douglas_r_c"],
+            
+            label: "Douglas, un rival",
+            
+            description: "Douglas ne s'en passe plus. Il est temps de voir de quoi il s'agit.",
+            
+            
+            
+        },
+
+        {
+            id: "elridge_r_c",
+extends: ["elridge_r_c"],
+            
+            label: "Elridge, un rival",
+            
+            description: "Les chaussures d'Elridge sont souvent tachées de sang.",
+            
+            
+        },
+        {
+            id: "enid_r_c",
+extends: ["enid_r_c"],
+            
+            label: "Enid, une rivale",
+            
+            description: "Enid voit toujours ses ennemis arriver. Tout le temps.",
+            
+            
+        },
+
+        {
+            id: "laidlaw_r_c",
+extends: ["laidlaw_r_c"],
+            
+            label: "Laidlaw, un rival",
+            
+            description: "Les projets de Laidlaw sont aussi complexes que l'ombre d'une fougère.",
+            
+            
+            
+
+        },
+        {
+            id: "leo_r_c",
+extends: ["leo_r_c"],
+            
+            label: "Leo, un rival",
+            
+            description: "Leo a choisi sa cause, et il fera le nécessaire pour la défendre.",
+            
+            
+            
+        },
+
+        {
+            id: "natalia_r_c",
+extends: ["natalia_r_c"],
+            
+            label: "Natalia, une renégate",
+            
+            description: "Natalia a appris des vérités qui ont été trop longtemps cachées. En conséquence, elle a ajusté son programme.",
+            
+            
+            
+        },
+
+        {
+            id: "neville_r_c",
+extends: ["neville_r_c"],
+            
+            label: "Neville, un rival",
+            
+            description: "Neville sait que cela ne peut pas durer. Mais pendant ce temps, par Dieu, il ouvrira toutes les portes qui se présenteront.",
+            
+            
+            
+        },
+
+        {
+            id: "porter_r_c",
+extends: ["porter_r_c"],
+            
+            label: "Porter, un rival",
+            
+            description: "Porter a commencé à collecter des noms.",
+            
+            
+            
+        },
+        {
+            id: "renira_r_c",
+extends: ["renira_r_c"],
+            
+            label: "Renira, une rivale",
+            
+            description: "Renira aime convertir ses admirateurs en adorateurs.",
+            
+            
+            
+        },
+        {
+            id: "rose_r_c",
+extends: ["rose_r_c"],
+            
+            label: "Rose, une rivale",
+            
+            description: "Rose a depuis longtemps cessé de craindre ses ennemis.",
+            
+            
+            
+        },
+        {
+            id: "saliba_r_c",
+extends: ["saliba_r_c"],
+            
+            label: "Saliba, un rival",
+            
+            description: "Saliba ne tolère pas les ennuis.",
+            
+            
+            
+        },
+        {
+            id: "slee_r_c",
+extends: ["slee_r_c"],
+            
+            label: "Slee, un rival",
+            
+            description: "Slee est toujours avide de ressources pour mettre ses théories en pratique.",
+            
+            
+            
+        },
+
+        {
+            id: "spencer_r_c",
+extends: ["spencer_r_c"],
+            
+            label: "Spencer, un renégat",
+            
+            description: "Pendant si longtemps, Spencer a flirté avec ces éventualités... et maintenant il a pris sa décision.",
+            
+            
+            
+        },
+        {
+            id: "sylvia_r_c",
+extends: ["sylvia_r_c"],
+            
+            label: "Sylvia, une rivale",
+            
+            description: "L'agenda de Sylvia n'est pas clair. On soupçonne qu'il n'est pas clair, même pour Sylvia.",
+            
+            
+            
+        },
+        {
+            id: "tristan_r_c",
+extends: ["tristan_r_c"],
+            
+            label: "Tristan, un rival",
+            
+            description: "Tristan est en train de se forger un petit royaume. Quand le feu est nécessaire, il utilise le feu.",
+            
+            
+            
+        },
+
+        {
+            id: "valciane_r_c",
+extends: ["valciane_r_c"],
+            
+            label: "Valciane, une rivale",
+            
+            description: "Valciane s'occupe de ses opposants avec le brio impitoyable d'une jeunesse qui casse des bouteilles.",
+            
+            
+            
+        },
+        {
+            id: "victor_r_c",
+extends: ["victor_r_c"],
+            
+            label: "Victor, un rival",
+            
+            description: "Victor est prêt pour ce qui pourrait arriver. Ses couteaux sont comme de nouveaux soldats enthousiastes.",
+            
+            
+            
+        },
+
+        {
+            id: "violet_r_c",
+extends: ["violet_r_c"],
+            
+            label: "Violet, une rivale",
+            
+            description: "Violet a trouvé de nouveaux passe-temps.",
+            
+            
+            
+        },
+        {
+            id: "ysabet_r_c",
+extends: ["ysabet_r_c"],
+            
+            label: "Ysabet, une rivale",
+            
+            description: "Ysabet attend là où elle ne peut être vue.",
+            
+            
+            
+        },
+
+        {
+            id: "zachary_r_c",
+extends: ["zachary_r_c"],
+            
+            label: "Zachary, un renégat",
+            
+            description: "Zachary a toujours suivi son raisonnement où qu'il mène: et maintenant, il l'a conduit hors du Bureau de la répression, dans une aube amère.",
+            
+            
+            
+        },
+
+
+
+        {
+            id: "generic_r_d",
+extends: ["generic_r_d"],
+            label: "Un Long en devenir",
+            
+            description: "Quelqu'un qui a perdu tout sens de la mesure.",
+            
+            
+            
+        },
+        {
+            id: "auclair_r_d",
+extends: ["auclair_r_d"],
+            
+            label: "Auclair, un Long en devenir",
+            
+            description: "Auclair aime les échecs, maintenant plus que jamais. Le noir, le blanc.",
+            
+            
+            
+        },
+        {
+            id: "cat_r_d",
+extends: ["cat_r_d"],
+            
+            label: "Cat Caro, une Long en devenir",
+            
+            description: "'Cat Caro', comme elle se fait appeler. Elle était autrefois diseuse de bonne aventure. Personne ne semble savoir exactement ce qu'elle est maintenant.",
+            
+            
+            
+        },
+
+        {
+            id: "clifton_r_d",
+extends: ["clifton_r_d"],
+            
+            label: "'Pope' Clifton, un Long en devenir",
+            
+            description: "Clifton aime qu'on l'appelle 'Votre Sainteté'. Lorsqu'on ne s'adresse pas à lui de cette façon, il peut y avoir une scène.",
+            
+            
+            
+        },
+
+        {
+            id: "clovette_r_d",
+extends: ["clovette_r_d"],
+            
+            label: "Clovette, une Long en devenir",
+            
+            description: "Il est difficile de ne pas aimer Clovette, même quand on sait ce qu'elle a fait.",
+            
+            
+            
+        },
+
+        {
+            id: "connie_r_d",
+extends: ["connie_r_d"],
+            
+            label: "Connie, une Long en devenir",
+            
+            description: "Connie n'a jamais pu résister à un défi.",
+            
+            
+            
+        },
+
+        {
+            id: "dorothy_r_d",
+extends: ["dorothy_r_d"],
+            
+            label: "Dorothy, une Long en devenir",
+            
+            description: "Dorothy ne cessera pas. Elle ne cessera jamais. Elle en a fait le serment.",
+            
+            
+            
+        },
+        {
+            id: "douglas_r_d",
+extends: ["douglas_r_d"],
+            
+            label: "Douglas, un Long en devenir",
+            
+            description: "Douglas a trouvé la flamme.",
+            
+            
+            
+        },
+        {
+            id: "elridge_r_d",
+extends: ["elridge_r_d"],
+            
+            label: "Elridge, un Long en devenir",
+            
+            description: "Les chaussures d'Elridge sont souvent tachées de sang.",
+            
+            
+        },
+        {
+            id: "enid_r_d",
+extends: ["enid_r_d"],
+            
+            label: "Enid, une Long en devenir",
+            
+            description: "Enid voit toujours ses ennemis arriver. Tout le temps.",
+            
+            
+        },
+
+        {
+            id: "laidlaw_r_d",
+extends: ["laidlaw_r_d"],
+            
+            label: "Laidlaw, un Long en devenir",
+            
+            description: "Les projets de Laidlaw sont aussi complexes que l'ombre d'une fougère.",
+            
+            
+            
+
+        },
+        {
+            id: "leo_r_d",
+extends: ["leo_r_d"],
+            
+            label: "Leo, un Long en devenir",
+            
+            description: "Leo a choisi sa cause, et il fera le nécessaire pour la défendre.",
+            
+            
+            
+        },
+        {
+            id: "natalia_r_d",
+extends: ["natalia_r_d"],
+            
+            label: "Natalia, une Long en devenir",
+            
+            description: "Natalia a beaucoup appris, et à un tel prix. Elle ne s'arrêtera pas maintenant.",
+            
+            
+            
+        },
+        {
+            id: "neville_r_d",
+extends: ["neville_r_d"],
+            
+            label: "Neville, un Long en devenir",
+            
+            description: "Neville sait que cela ne peut pas durer. Mais pendant ce temps, par Dieu, il ouvrira toutes les portes qui se présenteront.",
+            
+            
+            
+        },
+
+        {
+            id: "porter_r_d",
+extends: ["porter_r_d"],
+            
+            label: "Porter, un Long en devenir",
+            
+            description: "Porter a commencé à collecter des noms.",
+            
+            
+            
+        },
+        {
+            id: "renira_r_d",
+extends: ["renira_r_d"],
+            
+            label: "Renira, une Long en devenir",
+            
+            description: "Renira aime convertir ses admirateurs en adorateurs.",
+            
+            
+            
+        },
+        {
+            id: "rose_r_d",
+extends: ["rose_r_d"],
+            
+            label: "Rose, une Long en devenir",
+            
+            description: "Rose a depuis longtemps cessé de craindre ses ennemis.",
+            
+            
+            
+        },
+        {
+            id: "saliba_r_d",
+extends: ["saliba_r_d"],
+            
+            label: "Saliba, un Long en devenir",
+            
+            description: "Saliba ne tolère pas les ennuis.",
+            
+            
+            
+        },
+        {
+            id: "slee_r_d",
+extends: ["slee_r_d"],
+            
+            label: "Slee, un Long en devenir",
+            
+            description: "Slee est toujours avide de ressources pour mettre ses théories en pratique.",
+            
+            
+            
+        },
+        {
+            id: "spencer_r_d",
+extends: ["spencer_r_d"],
+            
+            label: "Spencer, un Long en devenir",
+            
+            description: "Spencer ne permettra plus qu'on lui cache quoi que ce soit. Il s'approche maintenant du dernier palier.",
+            
+            
+            
+        },
+
+        {
+            id: "sylvia_r_d",
+extends: ["sylvia_r_d"],
+            
+            label: "Sylvia, une Long en devenir",
+            
+            description: "L'agenda de Sylvia n'est pas clair. On soupçonne qu'il n'est pas clair, même pour Sylvia.",
+            
+            
+            
+        },
+        {
+            id: "tristan_r_d",
+extends: ["tristan_r_d"],
+            
+            label: "Tristan, un Long en devenir",
+            
+            description: "Tristan est en train de se forger un petit royaume. Quand le feu est nécessaire, il utilise le feu.",
+            
+            
+            
+        },
+
+        {
+            id: "valciane_r_d",
+extends: ["valciane_r_d"],
+            
+            label: "Valciane, une Long en devenir",
+            
+            description: "Valciane s'occupe de ses opposants avec le brio impitoyable d'une jeunesse qui casse des bouteilles.",
+            
+            
+            
+        },
+        {
+            id: "victor_r_d",
+extends: ["victor_r_d"],
+            
+            label: "Victor, un Long en devenir",
+            
+            description: "Victor est prêt pour ce qui pourrait arriver. Ses couteaux sont comme de nouveaux soldats enthousiastes.",
+            
+            
+            
+        },
+
+        {
+            id: "violet_r_d",
+extends: ["violet_r_d"],
+            
+            label: "Violet, une Long en devenir",
+            
+            description: "Violet a trouvé de nouveaux passe-temps.",
+            
+            
+            
+        },
+        {
+            id: "ysabet_r_d",
+extends: ["ysabet_r_d"],
+            
+            label: "Ysabet, une Long en devenir",
+            
+            description: "Ysabet attend là où elle ne peut être vue.",
+            
+            
+            
+        },
+
+        {
+            id: "zachary_r_d",
+extends: ["zachary_r_d"],
+            
+            label: "Zachary, un Long en devenir",
+            
+            description: "Zachary approche de son inévitable conclusion.",
+            
+            
+            
+        },
+
+
+
+    ]
+}

@@ -1,0 +1,1142 @@
+{
+    "elements": [
+        {
+            id: "commissionarticlesecrethistory",
+extends: ["commissionarticlesecrethistory"],
+            label: "Commission: Histoires Secrètes",
+            
+            description: "Je dois CHANGER",
+            
+
+        },
+        {
+            id: "commissionarticlesecrethistoryb",
+extends: ["commissionarticlesecrethistoryb"],
+            label: "Commission: Histoires Secrètes",
+            
+            description: "Je dois CHANGER",
+            
+            
+
+        },
+        {
+            id: "commissionarticlesecrethistoryc",
+extends: ["commissionarticlesecrethistoryc"],
+            label: "Commission: Histoires Secrètes",
+            
+            description: "Je dois CHANGER",
+            
+            
+
+        },
+
+
+        {
+            id: "commissionarticlesecrethistories",
+extends: ["commissionarticlesecrethistories"],
+            label: "Commission: Histoires Secrètes",
+            
+            description: "Le Dr Ibn al-Adim, dit l'Alep, vous a proposé une mission. Il aimerait que vous lui fournissiez toutes les informations que vous pouvez rassembler sur les histoires secrètes du monde. Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 2 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+            id: "commissionarticlesecrethistoriesb",
+extends: ["commissionarticlesecrethistoriesb"],
+            label: "Commission: Histoires Secrètes (Substantielle)",
+            
+            description: "Le Dr Ibn al-Adim, dit l'Alep, vous a proposé une mission. Il est à la recherche d'un traité substantiel sur les histoires secrètes du monde. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 4 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+            id: "commissionarticlesecrethistoriesc",
+extends: ["commissionarticlesecrethistoriesc"],
+            label: "Commission: Histoires Secrètes (Très Substantielle)",
+            
+            description: "Le Dr Ibn al-Adim, dit l'Alep, vous a proposé une mission. Il est à la recherche d'informations particulièrement obscures sur les histoires secrètes du monde. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 6 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                },
+                {
+                    id: "reason2",
+extends: ["reason2"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticlelantern",
+extends: ["commissionarticlelantern"],
+            label: "Commission: Lanterne",
+            
+            description: "Le Dr Ibn al-Adim, dit l'Alep, vous a proposé une mission. Il souhaite que vous lui fournissiez toutes les informations que vous pourrez rassembler sur les sombres mystères de la Lanterne. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 2 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticlelanternb",
+extends: ["commissionarticlelanternb"],
+            label: "Commission: Lanterne (Substantielle)",
+            
+            description: "Le Dr Ibn al-Adim, dit l'Alep, vous a proposé une mission. Il aimerait que vous lui rapportiez une discussion substantielle sur les sombres mystères de la Lanterne. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 4 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticlelanternc",
+extends: ["commissionarticlelanternc"],
+            label: "Commission: Lanterne (Très Substantielle)",
+            
+            description: "Le Dr Ibn al-Adim, dit l'Alep, vous a proposé une mission. Il aimerait que vous réalisiez une enquête très substantielle sur les sombres mystères de la Lanterne. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 6 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                },
+                {
+                    id: "reason2",
+extends: ["reason2"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+
+        {
+
+            id: "commissionarticleforge",
+extends: ["commissionarticleforge"],
+            label: "Commission: Forge",
+            
+            description: "Mme Olympe Bechet est à la recherche d'articles appropriés pour le 'Kerisham Review'. Elle aimerait quelque chose qui s'inspire du principe de la Forge. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 2 pour répondre à cette commande.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+
+            
+        },
+        {
+
+            id: "commissionarticleforgeb",
+extends: ["commissionarticleforgeb"],
+            label: "Commission: Forge (Substantielle)",
+            
+            description: "Mme Olympe Bechet est à la recherche d'articles appropriés pour le 'Kerisham Review'. Elle aimerait quelque chose de plus substantiel sur la Forge. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 4 pour répondre à cette commande.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticleforgec",
+extends: ["commissionarticleforgec"],
+            label: "Commission: Forge (Très Substantielle)",
+            
+            description: "Mme Olympe Bechet est à la recherche d'articles appropriés pour le 'Kerisham Review'. Elle aimerait quelque chose de très substantiel, voire d'intense, sur le changement et la souffrance que la Forge apporte. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 6 pour répondre à cette commande.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                },
+                {
+                    id: "reason2",
+extends: ["reason2"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+
+        {
+
+            id: "commissionarticlegrail",
+extends: ["commissionarticlegrail"],
+            label: "Commission: Graal",
+            
+            description: "Mme Olympe Bechet est à la recherche d'articles appropriés pour le 'Kerisham Review'. Elle aimerait quelque chose de passionnant sur le Graal rouge. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 2 pour répondre à cette commande.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticlegrailb",
+extends: ["commissionarticlegrailb"],
+            label: "Commission: Graal (Substantielle)",
+            
+            description: "Mme Olympe Bechet est à la recherche d'articles appropriés pour le 'Kerisham Review'. Elle est intéressée par une analyse plus substantielle du Graal rouge et de son attrait. Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 4 pour répondre à cette commande.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticlegrailc",
+extends: ["commissionarticlegrailc"],
+            label: "Commission: Graal (Très Substantielle)",
+            
+            description: "Mme Olympe Bechet est à la recherche d'articles appropriés pour le 'Kerisham Review'. Elle veut quelque chose de très substantiel et 'd'inébranlable' sur le Graal rouge. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 6 pour répondre à cette commande.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                },
+                {
+                    id: "passion1",
+extends: ["passion1"],
+                    label: "Passion",
+                    
+                    
+                }
+            ],
+            
+        },
+
+
+        {
+
+            id: "commissionarticlemoth",
+extends: ["commissionarticlemoth"],
+            label: "Commission: Phalène",
+            
+            description: "Mme Olympe Bechet est à la recherche d'articles appropriés pour le 'Kerisham Review'. Elle souhaite en particulier quelque chose d'intriguant sur le principe appelé Phalène. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 2 pour répondre à cette commande.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticlemothb",
+extends: ["commissionarticlemothb"],
+            label: "Commission: Phalène (Substantielle)",
+            
+            description: "Mme Olympe Bechet est à la recherche d'articles appropriés pour le 'Kerisham Review'. Elle veut un article substantiellement énigmatique sur la Phalène. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 4 pour répondre à cette commande.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticlemothc",
+extends: ["commissionarticlemothc"],
+            label: "Commission: Phalène (Très Substantielle)",
+            
+            description: "Mme Olympe Bechet est à la recherche d'articles appropriés pour le 'Kerisham Review'. Elle aimerait une élaboration très substantielle sur la Phalène et ses énigmes. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 6 pour répondre à cette commande.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                },
+                {
+                    id: "passion1",
+extends: ["passion1"],
+                    label: "Passion",
+                    
+                    
+                }
+            ],
+            
+        },
+
+
+        {
+
+            id: "commissionarticleheart",
+extends: ["commissionarticleheart"],
+            label: "Commission: Coeur",
+            
+            description: "Le comte paiera pour des informations présentant un intérêt. Cette fois, il aimerait avoir des notes sur les mystères corporels du Coeur. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 2 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticleheartb",
+extends: ["commissionarticleheartb"],
+            label: "Commission: Coeur (Substantielle)",
+            
+            description: "Le comte paiera pour des informations présentant un intérêt. Cette fois, il souhaite une recherche substantielle sur les mystères corporels du Coeur. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 4 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticleheartc",
+extends: ["commissionarticleheartc"],
+            label: "Commission: Coeur (Très Substantielle)",
+            
+            description: "Le comte paiera pour des informations présentant un intérêt. Cette fois, il aimerait des recherches très substantielles sur les mystères corporels du Coeur. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 6 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                },
+                {
+                    id: "passion1",
+extends: ["passion1"],
+                    label: "Passion",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticleedge",
+extends: ["commissionarticleedge"],
+            label: "Commission: Pointe",
+            
+            description: "Le comte paiera pour des informations présentant un intérêt. Cette fois, il aimerait tout ce que vous pouvez rassembler sur les usages de la Pointe. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 2 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticleedgeb",
+extends: ["commissionarticleedgeb"],
+            label: "Commission: Pointe (Substantielle)",
+            
+            description: "Le comte paiera pour des informations présentant un intérêt. Cette fois, il aimerait des notes substantielles sur les usages de la Pointe. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 4 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticleedgec",
+extends: ["commissionarticleedgec"],
+            label: "Commission: Pointe (Très Substantielle)",
+            
+            description: "Le comte paiera pour des informations présentant un intérêt. Cette fois, il souhaite un travail très substantiel sur les usages de la Pointe. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 6 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                },
+                {
+                    id: "reason2",
+extends: ["reason2"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+
+        {
+
+            id: "commissionarticleknock",
+extends: ["commissionarticleknock"],
+            label: "Commission: Clé",
+            
+            description: "Poppy paiera pour des informations qui l'intéressent. Cette fois, elle aimerait avoir des notes sur les mystères de la Clé. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 2 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticleknockb",
+extends: ["commissionarticleknockb"],
+            label: "Commission: Clé (Substantielle)",
+            
+            description: "Poppy paiera pour des informations qui l'intéressent. Cette fois, elle aimerait faire des recherches substantielles sur les mystères de la Clé. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 4 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticleknockc",
+extends: ["commissionarticleknockc"],
+            label: "Commission: Clé (Très Substantielle)",
+            
+            description: "Poppy paiera pour des informations qui l'intéressent. Cette fois, elle aimerait faire des recherches très substantielles sur les mystères de la Clé. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 6 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                },
+                {
+                    id: "reason2",
+extends: ["reason2"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+
+        {
+
+            id: "commissionarticlewinter",
+extends: ["commissionarticlewinter"],
+            label: "Commission: Hiver",
+            
+            description: "Poppy paiera pour des informations qui l'intéressent. Cette fois, elle aimerait avoir des notes sur les mystères de l'Hiver Winter. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 2 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticlewinterb",
+extends: ["commissionarticlewinterb"],
+            label: "Commission: Hiver (Substantielle)",
+            
+            description: "Poppy paiera pour des informations qui l'intéressent. Cette fois, elle aimerait faire des recherches substantielles sur les mystères de l'Hiver. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 4 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+        {
+
+            id: "commissionarticlewinterc",
+extends: ["commissionarticlewinterc"],
+            label: "Commission: Hiver (Très Substantielle)",
+            
+            description: "Poppy paiera pour des informations qui l'intéressent. Cette fois, elle aimerait faire des recherches très substantielles sur les mystères de l'Hiver. [Vous aurez besoin d'un fragment de Croyance correspondant d'au moins niveau 6 pour mener à bien cette mission.]",
+            slots: [
+                {
+                    id: "Patron",
+extends: ["Patron"],
+                    
+                    
+                },
+                {
+                    id: "Manuscript",
+extends: ["Manuscript"],
+                    label: "Manuscrit",
+                    
+                    
+                }
+            ],
+            slots: [
+                {
+                    id: "lore",
+extends: ["lore"],
+                    label: "Croyance",
+                    
+                    
+                },
+                {
+                    id: "reason1",
+extends: ["reason1"],
+                    label: "Raison",
+                    
+                    
+                },
+                {
+                    id: "reason2",
+extends: ["reason2"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+        },
+
+
+
+    ]
+}

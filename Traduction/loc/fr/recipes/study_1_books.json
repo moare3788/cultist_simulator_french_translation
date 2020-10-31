@@ -1,0 +1,1426 @@
+{
+    "recipes": [
+        {
+            id: "studydehoris1",
+extends: ["studydehoris1"],
+            label: "Lire De Horis, vol 1",
+            
+            
+            
+            startdescription: "Ce volume traite principalement des Heures du Bois: la Phalène, le Lin Noir, l'Anneau-d'If, entre autres.",
+            description: "'La Gloire est une question, et la Phalène répond toujours Oui. La réponse du Lin Noir est Non, et c'est toujours sa réponse.'",
+            
+            
+        },
+        {
+            id: "studydehoris2",
+extends: ["studydehoris2"],
+            label: "Lire De Horis, vol 2",
+            
+            
+            
+            startdescription: "Ce volume traite principalement du Lionsmith, du Tribun des Cicatrices, et de leurs inimitiés.",
+            description: "'Le Lionsmith fabrique des monstres pour vaincre le Tribun ; mais les cicatrices du Tribun sont chacune une arme.'",
+            
+            
+        },
+        {
+            id: "studytravellingatnight1",
+extends: ["studytravellingatnight1"],
+            label: "Lire ce volume de Voyager de nuit",
+            
+            
+            
+            startdescription: "'Le Bois se trouve à l'extérieur des murs du Mansus. Comme tout étudiant en histoire le sait, le Mansus n'a pas de murs.'",
+            description: "Illopoly décrit comment il en est venu à faire des visites répétées dans un Bois de rêve par le biais de ce qu'il appelle les rêves d'argent. 'Essayer de penser à son chemin vers le Bois,' explique-t-il, 'c'est comme penser à son chemin vers l'amour. Mais j'ai trouvé un Secret qui m'a aidé.'",
+            
+            
+        },
+        {
+            id: "studytravellingatnight2",
+extends: ["studytravellingatnight2"],
+            label: "Lire ce volume de Voyager de nuit",
+            
+            
+            
+            startdescription: "On discute longuement des similitudes entre les propres rêves d'Illopoly et ceux de l'empereur Elagabalus, qu'Illopoly considère comme un dupe ou un avatar du Soleil-en-Haillons. 'Le Blanc est à l'ouest du monde,' remarque Illopoly, 'et l'hiver n'attend pas éternellement.'",
+            description: "'Elagabalus a enfin trouvé son chemin vers la Porte Blanche, heureusement. La parole ne peut pas passer la Porte Blanche, et honnêtement, Elagabalus n'a jamais rien eu de très intéressant à dire. J'ai essayé de suivre ses traces, mais je n'ai jamais assez appris à connaître le Blanc. Je suppose que je lui en suis également reconnaissant. Mais voici ce que je sais...'",
+            
+            
+        },
+        {
+            id: "studytravellingatnight3",
+extends: ["studytravellingatnight3"],
+            label: "Lire ce volume de Voyager de nuit",
+            
+            
+            
+            startdescription: "Les disquisitions d'Illopoly sur le feu et le Dieu non brûlé sont interrompues par des passages de poésie érotique distrayants adressés à 'Baldomera'.'",
+            description: "'Pour atteindre la Porte du Cerf, je crois que tout ce dont vous avez besoin est de vouloir suffisamment quelque chose. Mais je n'ai jamais rien autant désiré, sauf bien sûr Baldomera, et j'ai bien peur que le noeud de l'histoire soit celui-ci: ce que Baldomera veut, c'est la Porte du Cerf. Mais voici ce que j'ai appris en Perse. Peut-être que cela vous apprendra ce que <i>vous</i> voulez.'",
+            
+            
+        },
+        {
+            id: "studysixlettersonnecessity",
+extends: ["studysixlettersonnecessity"],
+            label: "Lire Les six lettres sur la nécessité",
+            
+            
+            
+            startdescription: "Le ton de Coseley est urgent - comme s'il se doutait qu'il lui restait peu de temps.",
+            description: "'Même le Soleil peut être divisé, bien qu'il ait besoin de la Forge des Jours pour sa division.'",
+            
+            
+        },
+        {
+            id: "studylocksmithsdream1",
+extends: ["studylocksmithsdream1"],
+            label: "Lire ce volume du Rêve du Serrurier",
+            
+            
+            
+            startdescription: "Les parallèles entre les rêves mystiques des charpentiers, des maçons et autres artisans et ce qu'ils prétendent révéler sur l'architecture du monde. Parfois mordant, parfois drôle. Personne n'a jamais expliqué pourquoi Galmier s'est consacré à cette exploration chimérique des rêves des artisans.",
+            description: "'On entend souvent parler du Bois, qui s'élève des fondations du monde. Tous les arbres aspirent à la lumière. Qu'est-ce que le Bois cherche à atteindre ? Y a-t-il une différence entre la lumière et la Lumière ? Je pense que la clé des rêves du Bois pourrait être l'une d'entre elles - celle qui n'est pas exactement réelle.'",
+            
+            
+        },
+        {
+            id: "studylocksmithsdream2",
+extends: ["studylocksmithsdream2"],
+            label: "Lire ce volume du Rêve du Serrurier",
+            
+            
+            
+            startdescription: "Dans ce volume, Galmier consigne moins de rêves et explique davantage ses propres théories élaborées. 'Nous le voyons encore et encore: ce qui est en bas ne peut pas échapper à ce qui est en haut.'",
+            description: "'Les meilleurs artisans rêvent tous de la Porte Blanche à la fin. Je ne suis pas un artisan, seulement un érudit. Je pense que tous ces artisans connaissent un secret, mais je pense que ce secret n'est que la moitié de l'histoire.'",
+            
+            
+        },
+        {
+            id: "studylocksmithsdream3",
+extends: ["studylocksmithsdream3"],
+            label: "Lire ce volume du Rêve du Serrurier",
+            
+            
+            
+            startdescription: "Dans ce volume, manifestement, la prose de Galmier commence à se désintégrer, et il n'est pas clair quels rêves sont en fait les siens.",
+            description: "'La femme à la robe couleur sable m'a dit: les escaliers du Mansus ne cessent de monter. La mort est en bas. La Mère des Fourmis garde les deux sens avec chacune de ses têtes, et le passage doit donc toujours se faire par une blessure. Je pense que la Porte Blanche est peut-être une blessure. C'est une des raisons pour lesquelles les Morts la franchissent parfois. Je crois que j'ai l'autre moitié du Secret maintenant, et j'espère que mon lecteur pourra rassembler les deux moitiés.'",
+            
+            
+        },
+        {
+            id: "studylocksmithsdream4",
+extends: ["studylocksmithsdream4"],
+            label: "Lire ce volume du Rêve du Serrurier",
+            
+            
+            
+            startdescription: "'Janus est le Gardien des Portes, le dieu jumeau, le dieu qui blesse, le présage des changements, le soleil, la lune. On l'identifie donc au Guetteur, aux Jumeaux, à la Mère, à la Forge, au Meniscate et au Madrugad. Il ne peut pas être tout cela. Le peut-il ? Les <i>flamines</i> connaissaient l'Eglise, connaissaient la Terre Sèche, connaissaient Elagabalus. Est-il alors la synthèse ? Ou est-il autre chose ? En Gallaecia, on l'appelait Ianus Lamius, mais les Oubliés sont connus pour leurs calomnies.'",
+            description: "'Janus n'a pas, dit-on, un visage mais deux. Ce à quoi je réponds : pourquoi un seul ? Pourquoi seulement deux ? Hersault et Coseley - selon Thomas Love Denman - ont un jour convenu que Janus était 'tous les dieux et aucun'. Mais plus tard, Hersault a insisté sur le fait qu'il était 'tous les dieux', et Coseley a préféré simplement 'aucun'. Denman était un sinistre dilettante, mais cela sonne vrai pour les deux.'",
+            
+            
+        },
+        {
+            id: "studyorchidtransfigurations1",
+extends: ["studyorchidtransfigurations1"],
+            label: "Lire ce volume des Transfigurations de l'orchidée",
+            
+            
+            
+            startdescription: "Les illustrations sont assurément saisissantes. Elles rougissent la peau et brillent sous les paupières après la fermeture du livre.",
+            description: "'Il faut dévorer pour être dévoré. Nous ne pouvons pas être non dévorés, comme nous ne pouvons pas être non-nés.'",
+            
+            
+        },
+        {
+            id: "studyorchidtransfigurations2",
+extends: ["studyorchidtransfigurations2"],
+            label: "Lire ce volume des Transfigurations de l'orchidée",
+            
+            
+            
+            startdescription: "Fludd, ou pseudo-Fludd, suggère des alignements entre la tradition alchimique du rubedo et les traditions plus anciennes du Graal, à travers la quête du Chevalier du Pin pour la Coupe de Cinabre..",
+            description: "'Cherchez la Coupe dans le lit d'accouchement,' dit le Chevalier de Pin. La sage-femme au lit d'accouchement, à sa grande surprise, est la Mère de la Montagne. Dans un accès de crainte, il s'est figé et s'est évanoui. La tempête Vigilante éclate joyeusement des restes.'",
+            
+            
+        },
+        {
+            id: "studyorchidtransfigurations3",
+extends: ["studyorchidtransfigurations3"],
+            label: "Lire ce volume des Transfigurations de l'orchidée",
+            
+            
+            
+            startdescription: "Un long dialogue entre la Mère de la Montagne et la Tempête Vigilante décrit la façon dont les montagnes et les tempêtes se terminent, et les protections qu'elles utilisent à ces fins.",
+            description: "'Mais nous devons utiliser le couteau,' a déclaré le Trône du Lion, 'le noeud coulant, la flamme, la parole éveillée, contre ceux qui ont passé la Porte aux Trois-Gonds. Et ainsi personne ne peut passer: c'est notre Loi, et la Loi du Soleil.'",
+            
+            
+        },
+        {
+            id: "studyhumoursofagentleman",
+extends: ["studyhumoursofagentleman"],
+            label: "'Les humeurs d'un gentilhomme' de Peruse Savage",
+            
+            
+            
+            startdescription: "À la fin du premier acte, Maevelin a révélé à Leo une porte secrète dans les murs de la Maison, et Corvino s'est mis à consommer les Vers.",
+            description: "La pièce est scabreuse et parfois hilarante. Les personnages sont opposés et capricieux. Beaucoup des répliques les plus percutantes pourraient bien être des formules de puissance, déguisées à la vue de tous.",
+            
+            
+        },
+        {
+            id: "studyvictoryofcrowns",
+extends: ["studyvictoryofcrowns"],
+            label: "Étudier 'La Victoire des couronnes', par 'Arun'",
+            
+            
+            
+            startdescription: "Les assassins sont, selon 'Arun', les agents d'un pouvoir appelé le Coronel, un 'soldat des Maîtres du Secret'. Les récits remontent à l'époque romaine.",
+            description: "Les savoirs d'Arun sont douteux, mais il (elle ?) écrit avec beaucoup d'aisance. Les incidents de mort soudaine et violente sont entrecoupés d'aphorismes: 'Les heures ne rêvent pas. Les Long n'essaient pas.'",
+            
+            
+        },
+        {
+            id: "studyintroductiontohistories",
+extends: ["studyintroductiontohistories"],
+            label: "'Une introduction aux Histoires' de Hersault",
+            
+            
+            
+            startdescription: "Le prologue met longuement en garde contre les iniquités d'un certain Julian Coseley, un ancien collègue que Hersault décrit maintenant sombrement comme 'un Ver des Vers'. Il semble que Coseley ait conseillé Hersault au début de la rédaction du livre, mais Hersault s'en est ensuite méfié.",
+            description: "Hersault identifie le sang, l'argent, le dessin et les Vers comme les axes centraux de chacune des Histoires, et affirme que la soi-disant deuxième Histoire est la vraie.",
+            
+            
+        },
+        {
+            id: "studytreatiseonunderplaces",
+extends: ["studytreatiseonunderplaces"],
+            label: "Étudier 'le Traité sur les lieux souterrains' de 'Hersault'",
+            
+            
+            
+            startdescription: "'Les murs du Mansus,' commence Hersault, 'sont de la taille de la lumière des étoiles.' Nombre de ses orientations sont tout aussi peu utiles, mais des relations communes émergent.",
+            description: "Un récit picaresque d'un voyage à travers le cauchemar, entrecoupé de ce qui pourrait être des rites partiels. La dix-huitième ascension, c'est le bourgeon. À la trente-sixième ascension, la fleur.'",
+            
+            
+        },
+        {
+            id: "studyonthewhite",
+extends: ["studyonthewhite"],
+            label: "Étudier 'Sur le blanc'",
+            
+            
+            
+            startdescription: "En y regardant de plus près, l'oeuvre semble être une théorie de l'esthétique, ou peut-être un ensemble d'avertissements sur les dangers de la peinture.",
+            description: "Husher écrit de façon distraite sur sa haine des couleurs et son désir de mort. Il fait allusion à une grande oeuvre qu'il a envisagée, ou commencée, où la 'plus pâle des peintures' va captiver le monde. Il revient sans cesse sur certaines phrases convaincantes qui, selon lui, sont les 'mots secrets de l'hiver'.",
+            
+            
+        },
+        {
+            id: "studywaroftheroadscensored",
+extends: ["studywaroftheroadscensored"],
+            label: "Étudier une édition censurée de 'La guerre des routes, 1450-1580'",
+            
+            
+            
+            startdescription: "'Dans ce passé, une vingtaine de Longs ou plus ont été créés. Ils ont négocié la paix avec la Forge des Jours, assez longtemps pour mettre l'Angleterre sur le chemin de la conquête précoce et de la destruction éventuelle. La Forge elle-même a dévoré les plus grands d'entre eux.'",
+            description: "La royauté d'Angleterre, selon Willis-Ford, devint les Souverains de la Flamme maîtrisée, détruisant ou transformant leurs ennemis, conquérant l'Europe, établissant de grandes cathédrales à St-Spark. L'alliance avec la Forge commence à faire ses preuves. Les derniers chapitres sont entièrement manquants.",
+            
+            
+        },
+        {
+            id: "studyqueensoftherivers",
+extends: ["studyqueensoftherivers"],
+            label: "Étudier 'Les reines des rivières'",
+            
+            
+            
+            startdescription: "La reine de la Vistule est empoisonnée. La reine du Dniepr s'étouffe avec un hameçon. La reine du Tage est brûlée vive...",
+            description: "Il s'avère que le coupable, c'est le public. Les Reines survivantes ont pour mission d'exécuter tout spectateur qui ne s'échappe pas. Un épilogue étonnamment lucide suggère que la correspondance des noms des rivières avec les événements historiques fournit des indices sur les Histoires Secrètes.",
+            
+            
+        },
+        {
+            id: "studyapolloandmarsyas",
+extends: ["studyapolloandmarsyas"],
+            label: "Étudier 'Apollo et Marsyas'",
+            
+            
+            
+            startdescription: "Dans le mythe original, Marsyas a perdu un concours musical et a été écorché par Apollon, qui l'a regretté par la suite. Dans cette version, la peau de Marsyas a une autre histoire...",
+            description: "La peau de Marsyas a servie d'oracle et est ensuite passée clandestinement en Phrygie, où les prêtresses de Cybèle l'utilisent comme peau de tambour. Au point culminant de l'opéra, le martèlement du tambour conduit les futures prêtresses à la folie suicidaire. L'opéra se termine par un hymne nostalgique de la plus jeune prêtresse sur la beauté des pins de montagne.",
+            
+            
+        },
+        {
+            id: "studyskeletonsongs",
+extends: ["studyskeletonsongs"],
+            label: "Étudier Les Chansons du Squelette",
+            
+            
+            
+            startdescription: "Dans l'introduction d'Arabella, elle explique que le livre devait être illustré, mais que le Bureau de la répression ne le permettrait pas. Elle laisse entendre que les illustrations existent toujours quelque part. Le livre est dédié à 'Sir Parsival de la Coupe Rouge'.",
+            description: "Les vingt-six fruits délicieux; les sept châtiments; les neuf jardins; les quatre regrets.",
+            
+            
+        },
+        {
+            id: "studyingofuntgod",
+extends: ["studyingofuntgod"],
+            label: "Étudier 'Le bûcher du Dieu imbrûlé' par 'Tasmane'",
+            
+            
+            
+            startdescription: "Tasmane émet l'hypothèse d'une divinité du feu pré-zoroastrienne, dont les rites étaient ceux des forgerons.",
+            description: "Tasmane conclut finalement, avec une réticence apparente, que la divinité était une déesse. Il suggère que son sexe pourrait avoir été la cause de sa disparition. Les rites décrits sont souvent sinistres, parfois effrayants.",
+            
+            
+        },
+        {
+            id: "studydebellismurorum",
+extends: ["studydebellismurorum"],
+            label: "Étudier 'De Bellis Murorum', par 'Solipsistos'",
+            
+            
+            
+            startdescription: "Le poème décrit de manière elliptique une guerre entre les bêtes, les phénomènes météorologiques et des concepts obscurs. Il est assez précis sur leurs tactiques.",
+            description: "'Le Deux-qui-est-Un s'est joint, et le Cornu s'est distingué. En conséquence, le sang.'",
+            
+            
+        },
+        {
+            id: "studyonwhatiscontainedbysilver",
+extends: ["studyonwhatiscontainedbysilver"],
+            label: "Lire Poemander's 'Sur ce que l'argent contient'",
+            
+            
+            
+            startdescription: "Un bestiaire des horreurs que l'on trouve dans les miroirs. Il s'agit d'une édition récente d'un texte du IIIe siècle de 'Poemander'.",
+            description: "'Les vierges/maîtresses du miroir favorisent les orchidées. Les [derrière les coulisses ?] favorites sont les rhododendrons. Les fleurs coupées de l'une ou l'autre nature ne doivent pas être placées devant le bronze poli.' Un appendice contient un rite qui pourrait être utilisé pour invoquer certaines de ces entités, bien que les détails de son utilisation ne soient pas précisés.",
+            
+            
+        },
+        {
+            id: "studytruecompleteasclepian",
+extends: ["studytruecompleteasclepian"],
+            label: "Lire 'Un compte rendu fidèle et complet des mystères asclépiens des Racines de la Maison' par 'Grese'",
+            
+            
+            
+            startdescription: "Ce n'est évidemment pas un texte antique. Il a au moins été gravement mutilé. Mais il contient des éléments intrigants substantiels: en particulier, une comparaison convaincante de la Maison sans murs, sans portes sur le corps humain, avec ses nombreux portails.",
+            description: "'Le sens de la Mort est en baisse,' explique le livre. 'La Porte du Paon a été considérée comme une déchirure, ou une éraflure, mais à certains égards, elle ressemble plus à une bouche - sinon à un point d'entrée plus précieux.' Les discussions sur les Portes incluent un rite qui peut faire apparaître des créatures à travers ces portes, bien que les incantations clés manquent.",
+            
+            
+        },
+        {
+            id: "studywainscothistories",
+extends: ["studywainscothistories"],
+            label: "Lire 'Les histoires du lambris' par 'Gore'",
+            
+            
+            
+            startdescription: "Gore ne mentionne pas directement le Mansus, mais les références métaphoriques timides et constantes à 'Ascension de l'escalier des Ans', 'des Portes du Sommeil' et 'la Lumière bleue de I'Aube' suggèrent qu'il commerçait avec le monde invisible.",
+            description: "'Il était courant à cette époque de parler de la Division du Soleil; par laquelle les Contemporains comprenaient, l'irruption des Forces Barbares, et de leurs Dieux grossiers.'",
+            
+            
+        },
+        {
+            id: "studygeminiad",
+extends: ["studygeminiad"],
+            label: "Lire Les Gémeaux",
+            
+            
+            
+            startdescription: "Ces pages décrivent la nature, et les doctrines, d'une Heure qui exige l'union de ce qui est au repos, une Heure que l'on cherche au bord de l'eau et sous la lune: la Sorcière-et-la-Soeur. Le langage est noueux, poétique, volontaire. Cela prendra un peu de temps à déchiffrer.",
+            description: "Les Gémeaux nous rappellent que la Sorcière-et-la-Soeur est connue pour se manifester comme la Soeur-et-la-Sorcière - et que ce visage peut guérir, alors que l'autre visage a toujours faim. Il implique des liens entre la Sorcière-et-la-Soeur et les Heures du Bois - en particulier le gardien du secret appelé le Velours - mais il est ambigu sur le fait de savoir si la Sorcière-et-la-Soeur est une Heure du Bois proprement dite. Et elle parle longuement de la tristesse des Deux-qui-est-Un, la tristesse qui reste de leur temps de chair.",
+            
+            
+        },
+
+
+
+
+        {
+            id: "studychioneatabydos",
+extends: ["studychioneatabydos"],
+            label: "Lire 'Chione à Abydos'",
+            
+            
+            
+            
+            startdescription: "L'entité appelée 'Chione' arrive dans un blizzard et demande que les portes de la ville soient fermées. Alors qu'Abydos tombe sous son charme, les morts reviennent, mais ne parlent pas...",
+            description: "Pendant huit ans, la ville est un lieu de mort lente, d'extase glaciale et de beauté silencieuse, mais la neuvième année, une conspiration de cris est montée contre le silence que Chione exige. Les conspirateurs ouvrent les portes de la ville, et un homme balafré vient traîner Chione dehors par les cheveux. L'été revient, mais les conspirateurs meurent de remords.",
+            
+        },
+        {
+            id: "studyirreproachabletraditionssocietynobleendeavour",
+extends: ["studyirreproachabletraditionssocietynobleendeavour"],
+            label: "Lire 'Les traditions irréprochables de la société de la noble entreprise'",
+            
+            
+            
+            
+            startdescription: "Leur 'effort' n'était pas moins noble - une furieuse conflagration des arcanes qui allait les améliorer en quelque chose de plus qu'humain.  Mais de telles transformations sont rares, et elles se sont souvent terminées, moins noblement, en cendres.",
+            description: "Partridge prétend avoir identifié des caractéristiques constantes parmi les ascendants. Tous avaient franchi la Porte du cerf et étaient considérés comme 'Initié'. Ils ont tous prononcé l'Invocation Callidate, ou un rite plus important, au début de leur ascension. Et ils étaient tous riches.",
+            
+        },
+        {
+            id: "studyroseofnuriel",
+extends: ["studyroseofnuriel"],
+            label: "Lire 'La Rose de Nuriel'",
+            
+            
+            
+            
+            startdescription: "St Tryphon, explique Nuriel, a réalisé des miracles secrets au nom de 'Celle qui saigne et qui porte' et de 'Celle qui ouvre'. Ainsi, St Tryphon a ouvert le chemin de la Maison du Soleil; Ainsi, St Tryphon a subi la Grande Naissance, une ascension vers l'immortalité.",
+            description: "St Tryphon a commencé son ascension en passant la 'Porte Cornue'. Il la poursuivit en apprenant 'l'Invocation Thiatique', dont Nuriel ne rend pas compte ici, en raison de son extrême sainteté. Et, explique sinistrement Nuriel, pour atteindre les Sept Marques de la Grande Naissance, St Tryphon a consumé 'à la fois ceux dont l'âme les avait quittés, et même ceux en qui l'âme est restée.'",
+            
+        },
+        {
+            id: "studyroseofhypatia",
+extends: ["studyroseofhypatia"],
+            label: "Lire 'La Rose d'Hypatia'",
+            
+            
+            
+            
+            startdescription: "La Sainte Nymphe est décrite comme 'non pas née, mais cultivée'. La sentience qui est devenue la sainte, 'Hypatie', indique qu'elle a habité le corps d'un pécheur afin de permettre la rédemption de ce pécheur.",
+            description: "'Tous les Morts n'entrent pas dans le Mansus par la Porte de l'Hiver. Tous les Morts n'entrent pas du tout dans le Mansus.'",
+            
+        },
+        {
+            id: "studyroseofwaznei",
+extends: ["studyroseofwaznei"],
+            label: "Lire 'La Rose de Waznei'",
+            
+            
+            
+            
+            startdescription: "La branche favorisée par Waznei - 'la Vraie Sororité' - a suivi St Respicius en poursuivant son ascension au nom de la Porte dans l'Oeil, l'impitoyable Heure de la lumière. St Respicius a échoué, peut-être parce que la grande Sororité l'a traqué et l'a rituellement étranglé, mais Waznei décrit les étapes à suivre pour ceux qui espèrent réussir.",
+            description: "'Cherchez en rêve; cherchez le Mansus. La Troisième Marque ne peut être atteinte que lorsque l'on a franchi la Porte du Cerf. On doit passer le Bois. On doit s'élever jusqu'à la Porte Blanche. La Porte du Cerf attend le porteur de lumière, sous les yeux de Ghirbi.'",
+            
+        },
+        {
+            id: "studysunsetpassages",
+extends: ["studysunsetpassages"],
+            label: "Lire 'Passages du crépuscule'",
+            
+            
+            
+            
+            startdescription: "L'Église vénérait le Soleil-en-Splendeur avant qu'il ne soit divisé - mais même lorsqu'il était encore entier, ses membres ultérieurs ont été reconnus comme ses Noms. Le Madrugad, bien sûr, présidait à la mort et au passage dans la Maison.",
+            description: "La Cérémonie Blanche a été prononcée pour honorer le Madrugad, lors de funérailles tenues dans le froid avant l'aube. Le texte avertit que toutes les lames doivent rester dans leur étui pendant la cérémonie, 'de peur que le cadavre ne demeure immobile.'",
+            
+        },
+        {
+            id: "studygospelzacchaeus",
+extends: ["studygospelzacchaeus"],
+            label: "Lire 'L'Évangile de Zacchaeus'",
+            
+            
+            
+            
+            startdescription: "'Sept étaient les blessures de Son corps, sept les portes de la Maison. Sept les aspects inférieurs des Heures, et la Clé est l'aspect le plus important, car la Mère des Fourmis est la Mère du Salut.'",
+            description: "Le livre comprend une description d'un rite qui peut être utilisé pour ramener un cadavre à la demi-vie, 'en mémoire de Celui qui a saigné pour le Bois'. Il nécessite un cadavre et un pouvoir suffisant - l'auteur suggère une invocation de 'l'Hiver', et un assistant touché par les pouvoirs du Bois.",
+            
+        },
+        {
+            id: "studymatthiasamethystloss",
+extends: ["studymatthiasamethystloss"],
+            label: "Lire 'Sur Matthias et l'Imago d'Améthyste: Perte'",
+            
+            
+            
+            
+            startdescription: "'Les lois de la Chambre interdisaient à Matthias d'aimer. Les coutumes du Bois interdisaient aux Imago de rester. Il l'invoqua donc une dernière fois, lorsqu'elle avait découvert les cisailles d'Alakapura; et elle lui permit de lui couper les ailes du dos, afin qu'elle puisse rester; et il lui permit de couper les parties qui contiennent la semence de l'homme, pour les soustraire à l'acte détestable. C'était l'amour dans tout son sang et sa joie. Nous avons chassé Matthias de la Maison.'",
+            description: "'Le rite du Bord de la Carte nous a été donné par le Vagabond. C'est le rite que Matthias utilisait pour invoquer l'Imago Améthyste, mais comme beaucoup de rites d'invocation, il pouvait être utilisé pour invoquer presque n'importe quelle entité - à condition d'avoir l'outil approprié et l'influence appropriée. Utilisez-le doucement, en mémoire du Nom et du Long qui ont souffert ces agonies pour qu'ils puissent être rejoints.'",
+            
+        },
+        {
+            id: "studymatthiasamethysttransformation",
+extends: ["studymatthiasamethysttransformation"],
+            label: "Lire 'Sur Matthias et l'Imago d'Améthyste: Transformation'",
+            
+            
+            
+            
+            startdescription: "'Nous avons chassé Matthias, et nous avons lancé une malédiction sur l'Imago Améthyste, mais nous les avons observés en rêve. Nous les avons vus s'engager dans la Forge, pour se changer et s'élever à nouveau. Dans le feu, ils volent.'",
+            description: "C'est la première des pratiques que les Imago et Matthias ont utilisées, pour commencer leur ascension vers le pouvoir. Ils se sont élevés au-delà de nos yeux, mais leurs flammes peuvent encore brûler dans le Malleary.'",
+            
+        },
+        {
+            id: "studymatthiasamethystpursuit",
+extends: ["studymatthiasamethystpursuit"],
+            label: "Lire 'Sur Matthias et l'Imago d'Améthyste: Poursuite'",
+            
+            
+            
+            
+            startdescription: "'Matthias nous a défié de chasser les Noms des Phalènes dans les Bois, pour peupler sa collection d'épingles. L'Imago Améthyste, avait flirté avec la Sorcière-et-Soeur, mais elle était retournée dans le Bois pour plaider la grâce de la Phalène. La Phalène, par caprice ou par pénitence, l'envoya attirer le Long dans un bourbier de cauchemars.'",
+            description: "'Matthias aimait l'Imago. (Est-ce qu'il l'aimait ? Peut-il aimer longtemps, ou cet organe de son âme est-il desséché au point d'être irréparable ?) L'Imago aimait Matthias. (L'aimait-elle ? Ou bien n'a-t-elle fait qu'un caprice ?) Il la poursuivit à travers le Bois, mais elle finit par se détourner du bourbier de cauchemars et ils s'allongèrent ensemble là où les Frontières deviennent lumineuses. Ils ont donc appris les plaisirs du Graal, et ceci est la croyance qu'ils ont gagnée.'",
+            
+        },
+        {
+            id: "studyfranklinbancroftdiaries",
+extends: ["studyfranklinbancroftdiaries"],
+            label: "Lire 'Lord Franklin Bancroft: Journaux intimes, 1750-1790'",
+            
+            
+            
+            
+            startdescription: "Bancroft semble avoir été un adepte talentueux, mais il a consacré son énergie à des projets fantasques et frustrants: organiser des 'courses des vendanges' entre les esprits de Mansus, apprendre aux Percussigants à jongler, et conjurer des tempêtes de fleurs imaginaires pour la sorcière rose Ayrshire, qui a résolument refusé de s'accoupler avec lui. Bancroft passe vingt pages à déplorer cela.",
+            description: "Le mantra ici rapporté est une haute et exigeante magie qui peut être utilisée pour donner son esprit au Guetteur, en commençant une ascension vers la Maison. Bancroft se vante de sa capacité à le réciter lorsqu'il est dans ses coupes. Il l'a également fait mettre en musique pour un spectacle avec feux d'artifice aux jardins de Vauxhall.",
+            
+        },
+        {
+            id: "studyindignitiesobliviate",
+extends: ["studyindignitiesobliviate"],
+            label: "Lire 'Les indignités perpétrées par la fraternité sournoise des Oubliés'",
+            
+            
+            
+            
+            startdescription: "'CINQUANTE-HUIT. Qu'ils ont bien revendiqué l'héritage des traditions de la Maison du Léthé, mais qu'ils ont écarté ses cérémonies les plus sacrées et les plus belles qu'ils n'ont pas trouvées convenables. CINQUANTE-NEUF...'",
+            description: "'Maintenant, je partage le rite que l'Ordre utilisait pour invoquer un esprit Caligin. En DÉFIANCE CLAIRE de la tradition lethéenne, ils ne s'offrait pas à la croyance de la Clé avec un Initié de l'Hiver et impérativement un Marteau, MAIS PLUTÔT à la croyance de l'Hiver avec un Initié de la Clé et le Malleus Imperative ! -'",
+            
+        },
+        {
+            id: "studyfurioustantra",
+extends: ["studyfurioustantra"],
+            label: "Lire 'Le Tantra féroce'",
+            
+            
+            
+            
+            startdescription: "Ce tantra décrit les usages et les dangers de la colère. Il met en garde contre le fait que la colère ne survit pas toujours aux transformations.",
+            description: "'Une pleine lune apparaît, des créatures renaissent et même un lézard ne doit pas être tué, car cela pourrait être vous.'",
+            
+        },
+        {
+            id: "studydevouredtantra",
+extends: ["studydevouredtantra"],
+            label: "Lire 'Le Tantra dévoré'",
+            
+            
+            
+            
+            startdescription: "Le Tantra dévoré met en garde contre les usages et les dangers de l'appétit, mais consacre un passage entier aux 'annonciateurs affamés des branches de l'étoile', qu'il décrit avec une affection évidente.",
+            description: "'Un million de feux flamboyants dans le ventre engloutissent ce qui a été avalé par les bouches multiformes.'",
+            
+        },
+        {
+            id: "studyceaselesstantra",
+extends: ["studyceaselesstantra"],
+            label: "Lire 'Le Tantra inlassable'",
+            
+            
+            
+            
+            startdescription: "Le Tantra inlassable est principalement consacré aux avertissements concernant les créatures vivantes appelées Percussigants, mais se termine par un chant qui peut être utilisé pour les invoquer. Il observe que les Percussigants peuvent apprendre n'importe quelle danse, mais qu'ils n'en préfèrent qu'une.",
+            description: "'Ce qui ne cesse pas, ne cesse pas.'",
+            
+        },
+        {
+            id: "studyknownunknowntantra",
+extends: ["studyknownunknowntantra"],
+            label: "Lire 'Le Tantra Connu et Inconnu'",
+            
+            
+            
+            
+            startdescription: "Le Tantra Connu et Inconnu décrit un voyage jusqu'à la Porte blanche du Mansus, au-delà duquel la parole s'arrête. Il décrit un mantra qui peut être utilisé, au bon endroit et au bon moment, pour atteindre cette porte.",
+            description: "'La lumière d'une lanterne ne peut que révéler l'espace entre les ombres de la forêt.'",
+            
+        },
+        {
+            id: "studyencirclingtantra",
+extends: ["studyencirclingtantra"],
+            label: "Lire 'Le Tantra qui encercle'",
+            
+            
+            
+            
+            startdescription: "Le Tantra qui encercle parle de la Porte du Serpent, ce portail affamé parfois appelé Porte de l'Araignée, qui est sacré pour la Mère des Fourmis, par lequel passent les Princes encapuchonnés. ",
+            description: "Le tantra comprend une invocation, mais prévient utilement que l'invocation est d'une puissance insuffisante pour atteindre la Porte du Serpent depuis la Porte du Chasseur. 'Une route qui n'a pas de destination est elle-même une destination', ajoute-t-il utilement.",
+            
+        },
+        {
+            id: "studyshavenlocktantra",
+extends: ["studyshavenlocktantra"],
+            label: "Lire 'Le Tantra de la mèche rasée'/ 'Celui qui s'est rasé les cheveux'",
+            
+            
+            
+            
+            startdescription: "Le Tantra parle avec éclat de ceux qui sont prêts à abandonner leur ancien moi pour chercher un nouveau moi plus élevé. Il prévient qu'une fois que le changement a vraiment commencé - 'au-delà de la Troisième Marque' - un retour à l'ancien soi est dangereux et douloureux.",
+            description: "'Chuchotez vos secrets dans la terre, brûlez-les dans le feu, dispersez-les dans la mer. Mais ils s'accrocheront à vos cheveux,' prévient le Tantra. Il fournit une énigme occulte qui, selon lui, est parfois la réponse à l'énigme de la Porte du Chasseur.",
+            
+        },
+        {
+            id: "studytantraworms",
+extends: ["studytantraworms"],
+            label: "Lire 'Le Tantra des Vers'",
+            
+            
+            
+            
+            startdescription: "Le Tantra explique diverses contre-mesures peu pratiques contre les Vers, les 'serpents qui ne sont pas des serpents'. La Phalène et l'Hiver sont les plus proches d'eux et comprennent donc leurs faiblesses, mais tous deux ont leurs propres dangers. Le Lionsmith les écrase, mais ce n'est pas recommandé pour les mortels.",
+            description: "Les Vers ont toujours été désireux de nous habiter. Voici les pratiques qui nous rendent inhospitaliers à leur égard.' Il y a des diagrammes. Les diagrammes ne sont pas bons à regarder, et aucune des pratiques qu'ils décrivent ne permettrait au sujet de survivre.",
+            
+        },
+        {
+            id: "studybookofcentipede",
+extends: ["studybookofcentipede"],
+            label: "Lire 'Le livre du Mille-pattes'",
+            
+            
+            
+            
+            startdescription: "'Le Mille-Pattes trouvait toujours son chemin dans les endroits sombres. Lorsqu'elle était punie pour cela, elle réagissait mal, dans le Mansus comme dans le Miah.'",
+            description: "'La rivière coule à travers les sables, sortant du mythe et entrant dans la légende. La Rivière peinte coule dans l'autre sens. L'un d'eux est interdit aux Mille-Pattes maintenant, mais il trouve des moyens de revenir, parfois.'",
+            
+        },
+        {
+            id: "studyaccountkanishkspidersdoor",
+extends: ["studyaccountkanishkspidersdoor"],
+            label: "Lire 'Le récit de Kanishk à la porte de l'Araignée'",
+            
+            
+            
+            
+            startdescription: "Kanishk a cherché à devenir un Nom. Dans la quête de ce but, il fit de Lok Kahuli le réceptacle de ses appétits, promettant à Lok qu'ils feraient l'ascension ensemble. À la Porte de l'Araignée, il a trahi son amant...",
+            description: "Le Chiliarque a écouté la trahison, puis a forcé Kanishk à se mettre à son service. Le Chiliarque ne peut être nié. Lok Kahuli est resté pour écrire cet ouvrage et pour décrire la magie extérieure de la lutte et de la contestation.",
+            
+        },
+        {
+            id: "studystumm",
+extends: ["studystumm"],
+            label: "Watch 'STUMM'",
+            
+            
+            
+            
+            startdescription: "Le film passe dans le projecteur, brille silencieusement sur le mur. C'est l'histoire d'un étudiant idiot en sciences interdites, qui recrute une danseuse pour attirer les Morts dans le monde à travers un défaut de sa peau. C'est une fiction, mais ici, sur l'intertitre, figure l'Opération du Soleil Déclinant...",
+            description: "Le rite est décrit avec des détails effrayants. Ici, la faille dans le monde, une Influence chatoyante dans une peinture lumineuse. Ici, la danseuse impose un rythme irrésistible. Ici, l'érudit récite l'Opération; et maintenant, les morts brumeux tourbillonnent à travers la faille pour le consumer ! Le film se termine sur les yeux de la danseuse. Avait-elle tout prévu dès le début ?",
+            
+        },
+        {
+            id: "studyvinzantinscriptions",
+extends: ["studyvinzantinscriptions"],
+            label: "Lire 'Les inscriptions de Vinzant'",
+            
+            
+            
+            
+            startdescription: "Il y a longtemps, raconte la Sororité du Noeud, la Forge aimait l'Heure appelée le Soleil-en-Splendeur. Le Graal Rouge a longtemps anticipé leur union, et les prêtresses du Graal l'ont prophétisée...",
+            description: "Le reste du texte est constitué de remarques jubilatoires des Prêtresses du Graal sur le façonnage à venir, interpolées avec les avertissements et les lamentations de celles de la Confrérie qui servent l'Anneau-d'If et surtout la Hache Cornue. Néanmoins, une invocation à la Forge est incluse dans le cadre d'une tentative pour la pousser à aller au-delà.",
+            
+        },
+        {
+            id: "studylarquebinecodex",
+extends: ["studylarquebinecodex"],
+            label: "Lire 'Le Codex Larquebin'",
+            
+            
+            
+            
+            startdescription: "La Soeur-et-la-Sorcière viennent de l'Ouest, où elles sont nées dans deux ventres, l'un étant une princesse, l'autre un monstre. Néanmoins, elles s'aimaient dès leur naissance et se rencontraient en secret 'pour chercher l'union'.",
+            description: "Quand la grande sécheresse est arrivée, les rois de ce pays ont essayé de sacrifier la princesse et la sorcière, alors ils ont navigué sur la mer. Quand le désespoir les a pris, ils se sont jetés dans les eaux de la noyade... et ont ainsi trouvé la Rivière Peinte, où ils sont entrés dans le Mansus par les offices du Graal Rouge. Néanmoins, le Codex se termine par une condamnation du Graal.",
+            
+        },
+        {
+            id: "studyagainstsisterhoodknot",
+extends: ["studyagainstsisterhoodknot"],
+            label: "Lire 'Contre la Sororité du Noeud et la folie de leurs coutumes dépravées'",
+            
+            
+            
+            
+            startdescription: "Hieronymus prétend que les pouvoirs servis par la Sisterhood of the Knot ont conclu un arrangement : la Thunderskin aimait l'If, et le Graal l'a détruit, en guise de dédommagement pour la destruction des proches de la Hache. L'écriture de Hieronymus devient alors incohérente de rage.",
+            description: "Hieronymus retrouve finalement son calme pour décrire comment le Thunderskin est entré dans le Mansus par la Porte du Paon. Hieronymus insiste sur le fait qu'il s'agit d'une 'abomination sur l'abomination: mais la plus abominable des Portes a toujours été une abomination.'",
+            
+        },
+        {
+            id: "studymorphycodex",
+extends: ["studymorphycodex"],
+            label: "Lire 'Le Codex de Morphy'",
+            
+            
+            
+            
+            startdescription: "L'écrivain attribue au Graal Rouge, à l'Anneau-d'If et à la Hache Cornue - les pouvoirs que la Sororité vénère - le fait d'avoir conclu un traité final entre les Heures de la Maison et les Heures qu'elles avaient déplacées : Le Thunderskin aimait l'If, et le Graal l'a détruit, en guise de dédommagement pour le meurtre des sœurs et des frères de la Hache Cornue.",
+            description: "Le Thunderskin est entré dans le Mansus par la Porte du Paon, 'un privilège jamais accordé à la Sorcière-et-la-Soeur: mais leur mérite était alors bien moindre'. L'écrivain admet que l'entrée par la Porte du Paon est inconvenante, mais insiste sur le fait que selon les circonstances, il n'y avait pas d'autre moyen.",
+            
+        },
+        {
+            id: "studyleoninetantra",
+extends: ["studyleoninetantra"],
+            label: "Lire 'Le Tantra Léonin'",
+            
+            
+            
+            
+            startdescription: "Le Tantra décrit, en forme d'ellipse, les Princes encapuchonnés et les multiples façons dont ils ont influencé les guerres contre les envahisseurs étrangers du pays du Grand Fleuve, 'bien que dans un sens, ils étaient aussi des envahisseurs'.",
+            description: "'Les lions peuvent être créés, non pas comme des enfants, ni comme des mots, mais comme des armes. Les Princes encapuchonnés ont appris à créer des lions à partir de leurs espions pour les affaires des Heures, et tous les lions ne servent pas maintenant le Général d'Or.'",
+            
+        },
+        {
+            id: "studyincandescenttantra",
+extends: ["studyincandescenttantra"],
+            label: "Lire 'Le Tantra incandescent'",
+            
+            
+            
+            
+            startdescription: "Dialogues avec une entité appelée le Prince Creuset. Le Prince met en garde contre les appétits de sa maîtresse, la Reine Ardente, et le péril du désir nu qu'elle partage avec le Soleil, mais professe néanmoins sa loyauté.",
+            description: "'Un rite qui transforme est nécessairement un rite qui détruit. Mais un grand changement exige une destruction d'une ampleur sauvage.'",
+            
+        },
+        {
+            id: "studythirstingtantra",
+extends: ["studythirstingtantra"],
+            label: "Lire 'Le Tantra assoiffé'",
+            
+            
+            
+            
+            startdescription: "Une disquisition sur les nombreuses variétés de soif, leurs utilisations et leurs effets.",
+            description: "Le tantra décrit comment la satisfaction des soifs peut permettre à un mortel de se mettre au service de la Puissance Assoiffée, mais met en garde contre les conséquences du rejet de ces soifs plus rares pour les soifs communes. Un homme qui a soif, ô Puissant, dont l'esprit s'accroche aux actions de ce monde, retournera dans ce monde d'action à partir de cet autre endroit.'",
+            
+        },
+        {
+            id: "studyflayedtantra",
+extends: ["studyflayedtantra"],
+            label: "Lire 'Le Tantra écorché'",
+            
+            
+            
+            
+            startdescription: "'Peel' a été compté parmi les Princes encapuchonnés, mais il rompt avec ses frères et suit le Thunderskin dans la danse sans fin.",
+            description: "Une fois que Peel s'était pelé, il avait l'encre nécessaire pour écrire le Tantra. Il a dû faire face à la colère de ses semblables. Voici l'invocation qu'il a utilisée pour les repousser.",
+            
+        },
+        {
+            id: "studywatchfultantra",
+extends: ["studywatchfultantra"],
+            label: "Lire 'Le Tantra vigilant'",
+            
+            
+            
+            
+            startdescription: "Le Tantra décrit les processus d'illumination occulte, y compris une formule qui peut indiquer le chemin de la 'Porte du chasseur' à la 'Porte du Serpent' - qui en Occident est généralement appelée la Porte de l'Araignée.",
+            description: "'Le Soleil traverse la Maison à l'heure prévue. Depuis la division du Soleil, le moment est devenu incertain.'",
+            
+        },
+        {
+            id: "studytwinserpenttantra",
+extends: ["studytwinserpenttantra"],
+            label: "Lire 'Le Tantra des serpents jumeaux'",
+            
+            
+            
+            
+            startdescription: "Le Tantra décrit les Grands Princes encapuchonnés - une dynastie de princes d'origine incertaine - s'engageant dans des prières, des sacrifices et de la poésie en l'honneur de la Clé-Serpent, des Jumeaux-Croisés et de la Reine du Miroir. 'Nagi encercle; Nagi naît des blessures; Nagi épargne ceux qui sont déjà blessés.'",
+            description: "Les Princes encapuchonnés sont décrits comme ayant 'échappé à l'histoire de leur mort vers une histoire où ils vivent encore'. Le texte affirme qu'ils sont maintenant cent huit, mais - dans un des nombreux exemple de la gémellité - avant qu'ils ne passent à la chronique de leur mort, il n'y en avait que cinquante-quatre.",
+            
+        },
+        {
+            id: "studyfirecircletantra",
+extends: ["studyfirecircletantra"],
+            label: "Lire 'Le Tantra du cercle de feu'",
+            
+            
+            
+            
+            startdescription: "On y voit les Princes encapuchonnés implorer la forêt de se lever et de dévorer une armée timuride envahissante. Le 'Roi des Pommes', 'l'Arbre à Miel' et les 'Jumeaux-de-la-Mer' refusent tous leur requête, jusqu'à ce qu'ils s'assurent l'aide d'un gardien des secrets...",
+            description: "Grâce au chantage exercé par le 'gardien des secrets', les Grands Princes encapuchonnés font appel aux pouvoirs de la Forêt pour la deuxième fois et obtiennent gain de cause. Un quart de l'armée timuride est dévoré par les abeilles, un quart se noie et un quart 'se dévetisse jusqu'à ce qu'il ne reste plus rien.'",
+            
+        },
+        {
+            id: "studyasthesunhiscourse",
+extends: ["studyasthesunhiscourse"],
+            label: "Lire 'Le soleil, sa course'",
+            
+            
+            
+            
+            startdescription: "Alexandre rencontre Darius, Roi des Rois, à Issus pendant trois jours et trois nuits. Le premier jour, les deux hommes échangent des menaces, le second des promesses, le troisième des secrets. Darius raconte à Alexandre quelque chose de si bouleversant qu'il se retire dans sa tente pour réfléchir à 'des questions de force et de maîtrise'.",
+            description: "À l'aube du quatrième jour, Alexandre annonce: Le Soleil a son cap, sur lequel il revient, et moi aussi. Il retourne en Macédoine, exécutant deux de ses capitaines lorsqu'ils contestent sa décision. Il apporte avec lui les 'noms d'un Dieu aveugle' et un 'rite de trahison sacrée': car, selon Joël, sans trahison, la guerre serait terminée.",
+            
+        },
+        {
+            id: "studyconcursumdiaries",
+extends: ["studyconcursumdiaries"],
+            label: "Lire 'Les journaux du Concursum'",
+            
+            
+            
+            
+            startdescription: "'Il y a des cartes légendaires, il y a des cartes de légendes, et il y a des légendes de cartes. Des aspects du Mansus subsistent dans tout cela, un peu comme on trouve de l'eau dans un marécage, dans une tasse et dans le ciel.'",
+            description: "Westergren décrit une série d'expéditions dans le Mansus. Il se concentre sur les détails de l'expérience - les couleurs, les perspectives, les textures - plutôt que sur les aspects pratiques. Il prévient que le Mansus change chaque année, bien qu'il assure au lecteur que les Portes ont été les mêmes. 'Les Portes peuvent se fermer, mais elles ne disparaissent jamais. Du moins, pas tant qu'il y a eu des mortels dans le Mansus. Nous sommes comme des souris.'",
+            
+        },
+        {
+            id: "studyironbook",
+extends: ["studyironbook"],
+            label: "Lire 'TLe livre de fer'",
+            
+            
+            
+            
+            startdescription: "Les membres de l'Ordo ont prêté un serment, la Chaîne de fer, qui les obligeait à rester cachés du monde. Ce manuel contient des allocutions et des formules probablement obsolètes depuis longtemps, qui auraient pu être utilisées pour prendre contact avec l'Ordo dans la ville d'Iria.",
+            description: "La dernière partie du manuel décrit les sanctions pour les membres de l'Ordo qui rompent leur serment de secret. Cela inclut une invocation utilisée pour invoquer l'esprit appelé Roi Creuset comme agent de vengeance. Yivni prévient que cela doit être un dernier recours puisque le briseur de serment resterait autrement impuni: l'invocation du Roi Creuset pourrait attirer l'attention personnelle de la Forge des Jours.",
+            
+        },
+        {
+            id: "studysilverbook",
+extends: ["studysilverbook"],
+            label: "Lire 'Le livre d'argent'",
+            
+            
+            
+            
+            startdescription: "Les membres de l'Ordo ont prêté un serment, la Chaîne d'argent, qui interdisait aux hommes de coucher avec une femme, ou aux femmes de coucher avec des hommes: 'car ce qui peut arriver n'est pas toujours le Crime du Ciel, et pourtant c'est un danger furieux'. Il était apparemment permis aux hommes de coucher avec des hommes, et aux femmes avec des femmes - en fait, Burzghash suggère que cela devrait être encouragé, pour détourner l'attention d'autres tentations.",
+            description: "Le manuel prescrit des contre-mesures potentielles pour protéger ceux qui pourraient être tentés d'aller à l'encontre du serment: masques, défiguration, disciplines poétiques sévères. Ceux qui le rompent doivent être punis de mort, bien qu'il existe des peines moins sévères pour divers actes qui n'impliquent pas de coït réel. Une invocation est incluse, qui a été utilisée pour incorporer ces punitions dans les rites d'invocation.",
+            
+        },
+        {
+            id: "studyivorybook",
+extends: ["studyivorybook"],
+            label: "Lire 'Le livre d'ivoire'",
+            
+            
+            
+            
+            startdescription: "Les membres de l'Ordo ont prêté serment, la Chaîne d'Ivoire, de ne pas commercer avec les Heures. Respecté littéralement, ce serait presque impossible pour un adepte, aussi le manuel contient-il de nombreuses clarifications, exceptions et procédés d'indulgence.",
+            description: "Kurenai décrit les rites funéraires de l'Ordre, qui comprennent des sorts pour s'assurer - en théorie - que les âmes des Longs morts ne soient pas données aux Heures. L'Heure appelée la Colombe d'Ivoire, qui commémore, doit être invoquée, en secret, dans ces rites, 'car avec cette Heure nous avons fait un accord'.",
+            
+        },
+        {
+            id: "studyworlddoesnotweep",
+extends: ["studyworlddoesnotweep"],
+            label: "Lire 'Le monde ne pleure pas'",
+            
+            
+            
+            
+            startdescription: "L'adepte inconnu qui a écrit cela proclame: le monde oublie, mais pas la Colombe d'Ivoire. Le texte contient un certain nombre de prescriptions pour assurer le souvenir de certains actes, dont un rite qui exige un sacrifice particulièrement monstrueux...",
+            description: "Les Heures ont tenté d'enterrer le souvenir de ce qui est arrivé à la Roue, au Silex, à la Marée et aux Sept Spirales, mais la Colombe ne le permet pas. Il ne permettra pas non plus que l'on oublie ce qui est arrivé au Premier Oeuf, bien que ce soit peut-être la seule chose que le Guetteur pourrait jamais pardonner...",
+            
+        },
+        {
+            id: "studydeedsofthescarredcaptain",
+extends: ["studydeedsofthescarredcaptain"],
+            label: "Lire 'Les Exploits du capitaine à la cicatrice'",
+            
+            
+            
+            
+            startdescription: "Un récit de la fondation de Mycènes par un 'Capitaine balafré' qui a d'abord tué sept monstres pour rendre la terre sûre.",
+            description: "À mesure que le capitaine détruit chaque monstre, un flot de sang monte de plus en plus haut, jusqu'à ce qu'enfin une prêtresse se noie et renaisse sous la forme d'une déesse-serpent. Elle bénit le capitaine, et celui-ci part pour la 'Maison au-dessus de la forêt', laissant Mycènes régner en maître après la fin du flot de sang.",
+            
+        },
+        {
+            id: "studybookofdissolution",
+extends: ["studybookofdissolution"],
+            label: "Lire 'Le Livre de la Dissolution'",
+            
+            
+            
+            
+            startdescription: "Le Livre consiste principalement en des prières au Dieu imbrûlé, la Forge des Jours qui consomme et transforme. Il suggère que le pouvoir de la Forge découle en partie de sa nature, et en partie de ses outils.",
+            description: "Le Livre décrit une ancienne Maison du Soleil, dont les portes et les chemins étaient différents. Il loue la Forge des Jours pour avoir ouvert les voies d'accès à la maison, et pour avoir transformé ce qui était en ce qui est, malgré les cris de la pierre...",
+            
+        },
+        {
+            id: "studycatalogueofunchartedpleasures",
+extends: ["studycatalogueofunchartedpleasures"],
+            label: "Lire 'un catalogue de plaisirs inexplorés'",
+            
+            
+            
+            
+            startdescription: "'Certains plaisirs,' attestent le Formulae Voluptueux, 'sont si intenses qu'ils peuvent corrompre les lois du monde physique'. Ce texte répertorie certains de ces plaisirs.",
+            description: "La naissance se produit à la conjonction du plaisir et du tourment. Ainsi, les premiers Actes Interdits de la Forge ont fait naître des étincelles de plaisir qui ont pris racine dans la Gloire ou dans Nulle-Part: qui peut le dire ? Les graines du Fleuriste furent donc plantées, bien que pendant de longues années, il ne fut qu'un mal inassouvi.",
+            
+        },
+        {
+            id: "studythosewhodonotsleep",
+extends: ["studythosewhodonotsleep"],
+            label: "Lire 'Ceux qui ne dorment pas'",
+            
+            
+            
+            
+            startdescription: "'La Soeur-et-la-Sorcière sont nées dans deux ventres, l'un pauvre et l'autre riche, de l'autre côté de la mer. La Soeur était plus forte dans l'aspect du Coeur, et donc leur survie était assurée; la Sorcière était plus forte dans l'aspect du Graal, et donc ils n'étaient pas satisfaits...'",
+            description: "'Lorsque la Soeur-et-la-Sorcière sont arrivées de l'Ouest, le Graal Rouge a permis leur ascension, mais elles sont devenues jalouses de leur pouvoir. Cela attira un grand musicien au sein de ses Noms, et le fit renaître du sang comme une Heure du Coeur, afin que le Graal puisse également y maintenir sa domination. Mais sa victoire n'est pas assurée.'",
+            
+        },
+        {
+            id: "studytheskythesoul",
+extends: ["studytheskythesoul"],
+            label: "Lire 'Le ciel, l'âme'",
+            
+            
+            
+            
+            startdescription: "Les vers de Kalle sont brefs, obscurs et souvent dominés par des images de violence. 'Une étoile est une piqûre d'épingle, mais le Soleil est une blessure.'",
+            description: "'Il est toujours possible d'être plus mort,' déclare Kalle. 'Le Guetteur précède; mais sept seulement peuvent suivre.' 'Mais nous sommes nés pour la gloire, alors que les étincelles montent dans le ciel.'",
+            
+        },
+        {
+            id: "studyonthematterandthedeedsofserpents",
+extends: ["studyonthematterandthedeedsofserpents"],
+            label: "Lire 'Sur les affaires et les agissements des serpents'",
+            
+            
+            
+            
+            startdescription: "Les serpents, appelés les Princes encapuchonnés, ont connu l'ordre appelé la Maison de Léthé, et ont fait la guerre avec eux sur des kilomètres. Ils s'allièrent avec la Mère des fourmis, 'dont ils avaient été les enfants'...",
+            description: "Le texte décrit comment les princes encapuchonnés ont échappé (ou échapperont) à la Cinquième Histoire, où ils étaient morts (ou étaient condamnés à mourir). Ils se sont engagés dans une conquête secrète de la 'terre du Grand Fleuve', appelée Inde dans certaines histoires, et ont fait en sorte que toutes les autres conquêtes de cette terre soient de fausses conquêtes.",
+            
+        },
+        {
+            id: "studyserenityofblackwood",
+extends: ["studyserenityofblackwood"],
+            label: "Lire 'La sérénité de la Forêt-Noire'",
+            
+            
+            
+            
+            startdescription: "Le 'proverbial Pieds-libres' rassemble les voyageurs dans un bois, et les mène à travers, mais les abandonne à mi-chemin. Ils se retrouvent assaillis par de 'glorieux monstres'.",
+            description: "Les voyageurs découvrent qu'ils peuvent survivre s'ils ferment les yeux (ils adoptent un oeil fermé comme signe) et qu'ils peuvent passer inaperçus s'ils boivent dans les ruisseaux clairs et froids. Ils n'oublient jamais 'cette proverbiale bête de somme, le Mille-pattes', mais ils ne lui pardonnent pas non plus.",
+            
+        },
+        {
+            id: "studybookofthrones",
+extends: ["studybookofthrones"],
+            label: "Lire 'Le Livre des Trônes'",
+            
+            
+            
+            
+            startdescription: "Dans 'la première et la plus grande histoire', un sujet de l'Empire sans ombre de Perse se rend en Occident, au royaume des Perséides. Là, il devient un protégé de la divinité tutélaire des Perséides, l'Homme balafré qui vit dans l'obscurité. Il revient au bout de sept ans pour mettre ses compétences au service de l'Empire sans ombre, dont il devient le Général d'Or...",
+            description: "Après de nombreuses années de paix, les héritiers des Perséides s'opposent au Roi des Rois et à l'Empire sans ombre. Le Général d'Or ne prendra pas les armes contre le sang de son mentor, jusqu'à ce que le Roi des Rois lui murmure à l'oreille 'un grand secret de trahison'. Il brise son épée, renonce à son serment envers l'Empire et l'Homme blessé et entre dans 'le Temple derrière le monde', laissant sa vie derrière lui.",
+            
+        },
+        {
+            id: "studysecondglory",
+extends: ["studysecondglory"],
+            label: "Lire 'Une seconde Gloire'",
+            
+            
+            
+            
+            startdescription: "Juceh s'excuse de la destruction des Heures: elles étaient vieilles, lâches, viles, leur temps avait passé, et c'était le brillant destin de l'humanité de s'emparer de la Maison par une glorieuse bataille.",
+            description: "Juceh raconte comment l'Heure dite des sept spirales a été tuée au combat par le Colonel, comment le Graal a dévoré l'Heure dite de la marée, et comment l'Oeuf non éclos a 'fui comme un lâche'. Il est assez virulent à propos de l'Oeuf non éclos. Il met en garde sombrement contre son retour.",
+            
+        },
+        {
+            id: "studybookoftrueblood",
+extends: ["studybookoftrueblood"],
+            label: "Lire 'Le livre du Vrai Sang'",
+            
+            
+            
+            
+            startdescription: "Le Légat de la Légion répondait directement à l'Heure appelée le Tribun des Cicatrices, et on lui promettait l'immortalité s'il mourait au combat...",
+            description: "Dans la dernière partie, Cassius avoue être un ancien Légat. Il raconte sa terreur envers le Tribun, et divulgue les secrets du Général d'Or, le champion de l'Empire sans ombre, l'ennemi du Tribun, dans l'espoir que le Tribun soit un jour anéanti.",
+            
+        },
+        {
+            id: "studyingwoman",
+extends: ["studyingwoman"],
+            label: "Lire 'La Femme en feu'",
+            
+            
+            
+            
+            startdescription: "La pièce décrit un pèlerinage de forgerons et d'adeptes sur les traces de la Femme en feu, qui est apparue dans tous leurs rêves et a donné à chacun une Blessure et un Mot.",
+            description: "Les forgerons et les adeptes renoncent à trouver la Femme en feu et décident de construire leur propre royaume, 'où notre force sera suffisante pour briser le monde.'",
+            
+        },
+        {
+            id: "studytwentysixenticementsseventorments",
+extends: ["studytwentysixenticementsseventorments"],
+            label: "Lire 'Vingt-six incitations, sept tourments'",
+            
+            
+            
+            
+            startdescription: "'Les attraits du Graal sont plus nombreux que ses tourments, mais ses tourments sont sa nature finale. La naissance est le premier tourment, et la soif le septième'.",
+            description: "À travers l'énumération des attraits et des tourments du Graal se déroule la triste histoire des Sorcières de la terre sèche: l'épreuve de la naissance dans deux ventres, leur lutte et leur supplication du Graal, le désir d'union qui les anime toutes.",
+            
+        },
+
+        {
+            id: "studyhistoryofshadowlesskings",
+extends: ["studyhistoryofshadowlesskings"],
+            label: "Lire 'Une histoire vraie et précise des Rois sans ombre'",
+            
+            
+            
+            
+            startdescription: "'La première et la plus grande histoire' est décrite ici. L'Empire persan - 'les fils d'Achéménes', 'les Rois sans ombre', 'le plus glorieux des empires' - survit aux assauts d'Alexandre le Grand et s'épanouit jusqu'au cinquième siècle. ",
+            description: "Après la chute de Rome, l'Empire sans ombre prend Byzance sous son aile, et se déplace vers l'Est contre le pays du Grand Fleuve. Isaac commence à raconter l'invasion qui a lutté contre 'les armées sans peau des serpents encapuchonnés', mais se termine brusquement par une série d'incantations qui, selon lui, ont permis à l'Empire sans ombre de persister.",
+            
+        },
+
+        {
+            id: "studyhighmysterieschurchsolar",
+extends: ["studyhighmysterieschurchsolar"],
+            label: "Lire 'Les Grands Mystères de la Chambre Intime de notre Église Solaire'",
+            
+            
+            
+            
+            startdescription: "L'Église vénérait principalement le Soleil-en-Splendeur, le soleil original indivisible, mais ce texte inclut également les dévotions de ses aspects comme l'aube froide de l'hiver et le coucher du soleil au crépuscule, ainsi que le Meniscate, le 'moi nocturne' du Soleil. Les prêtres de l'Église étaient tous des hommes, mais des rites sont également inclus qui permettaient aux femmes de passer cérémonieusement à l'âge adulte.",
+            description: "Les rites les plus élevés de l'Église étaient accomplis dans le Concursum, la salle au coeur du Mansus où l'on savait que les Heures passaient. Ces rites comprennent des salutations aux Heures non solaires: le Graal, l'Anneau-d'if, la Hache Cornue et Thunderskin.",
+            
+        },
+
+        {
+            id: "studymedusaslament",
+extends: ["studymedusaslament"],
+            label: "Lire 'La complainte de Méduse'",
+            
+            
+            
+            
+            startdescription: "La première partie du poème décrit l'embuscade des Sept Couronnes par un guerrier 'balafré de toutes parts par les dieux traîtres, lacéré jusqu'aux yeux, afin que la vue des grandes couronnes ne le détruise pas'.",
+            description: "La bataille fait rage jusqu'à ce que les sept spirales se noient dans leur propre sang, et le récit devient alors mystique et allusif. Une déesse à sept titres naît de l'écume de son sang: elle est une reine en armure, une fille-serpent, une clé, une guérisseuse, une meurtrière, un oracle, mais son septième titre ne sera pas révélé.",
+            
+        },
+
+        {
+            id: "studybookofmasks",
+extends: ["studybookofmasks"],
+            label: "Lire 'Le Livre des Masques'",
+            
+            
+            
+            
+            startdescription: "Le Masque de la Grive Rieuse, dit Athéna Vana, était très ami avec le Soleil-en-Splendeur, l'Heure suprême du Mansus (maintenant divisé et parti). Le Masque du voleur de vue a peint la rivière dans le Mansus. Le Masque du vagabond fut interdit au Mansus, non pas pour ce qu'elle avait fait, mais pour ce qui allait se passer...",
+            description: "Le Masque du Mille-Pattes se rappelle son lieu de naissance, Miah, qui l'avait punie pour s'être introduite dans le temple. Ce Masque a maudit Miah pour qu'elle ne boive que de la poussière et qu'on ne se souvienne d'elle que par le vent - 'car elle ne pardonne sous aucun Masque, et la faim du Mille-Pattes ne doit pas être oubliée'.'",
+            
+        },
+
+        {
+            id: "studyinthemountainsasupontheplain",
+extends: ["studyinthemountainsasupontheplain"],
+            label: "Lire 'Dans les montagnes comme dans la plaine, il ne peut y avoir de chemin là où aucun n'est passé'",
+            
+            
+            
+            
+            startdescription: "Ninegala raconte un certain nombre d'histoires vivifiantes sur le massacre des ogres et les guerres entre tribus montagnardes, mais devient morose dans le récit du Chasseur aux mains vides: un amoureux du Graal qui a cherché à satisfaire ses appétits et à la rejoindre en tant qu'Heure, mais qui a fini par se ronger et se dévorer, donnant son nom aux montagnes qu'il avait autrefois parcourues.",
+            description: "Ninegala affirme que les Heures qui se manifestent parfois sous forme d'oiseaux - la Grive Rieuse, la Colombe d'Ivoire, le Corbeau-de-plage et la Sorcière-et-la-Soeur - se rencontrent dans un endroit secret au sommet d'une montagne pour échanger des ragots non entendus par leurs pairs. De temps à autre, un mortel les entend. Le mortel est toujours anéanti, et le lieu de rencontre toujours changé.",
+            
+        },
+
+        {
+            id: "studymemoryofgods",
+extends: ["studymemoryofgods"],
+            label: "Lire 'En mémoire des Dieux'",
+            
+            
+            
+            
+            startdescription: "Le Barrowchild condamne tout particulièrement le Tribun des cicatrices, le Graal Rouge, la Forge et la Phalène pour avoir assassiné les premiers dieux. 'Nous vivons dans l'ombre de leur crime', écrit-elle, 'et nous devons nous y soustraire ou le répéter.'",
+            description: "Le Barrowchild décrit comment le Graal a drainé l'Heure appelée Marée, comment la Phalène a 'usurpé la Roue de l'intérieur', lui volant sa peau, et comment la Forge a d'abord éclipsé puis brisé le Silex. 'Ce sont peut-être là des gloires,' observe-t-elle, mais il est impossible que la Gloire soit miséricordieuse.'",
+            
+        },
+
+        {
+            id: "studysevenfoldslayingsevencoiled",
+extends: ["studysevenfoldslayingsevencoiled"],
+            label: "Lire 'Le septuple massacre des sept Spirales'",
+            
+            
+            
+            
+            startdescription: "Il y a douze versets. Dans le premier, une Heure ascendante identifiée comme le Balafré énumère ses justifications pour la destruction des Sept Spirales: ses appétits, sa croissance, son inimitié envers l'humanité. Dans le second, une prêtresse lui creuse les yeux et entaille sa peau pour le protéger contre la magie des Sept Spirales. Dans chacun des sept versets suivants, il détruit un aspect de la magie des Sept Spirales....",
+            description: "Dans le dixième verset, le Scarran baigne sa prêtresse protectrice dans le sang des Sept Spirales, pour lui prêter son pouvoir. Au onzième verset, ils attaquent le 'temple derrière le monde' et y pénètrent par la force. Au douzième, ils prêtent le serment tripartite de protéger leurs ancêtres, leurs descendants et eux-mêmes.",
+            
+        },
+
+        {
+            id: "studybighuff",
+extends: ["studybighuff"],
+            label: "Lire 'Mes actions, mes pouvoirs, mes réalisations et les injustices commises à mon égard'",
+            
+            
+            
+            
+            startdescription: "Hokobald se vante de sa descendance royale, et insiste sur le fait que la magie de la Forge est plus efficace lorsqu'elle est pratiquée par des personnes de sang noble.",
+            description: "Pocsind se plaint de sa condamnation par l'Ordo Limiae. Il reconnaît qu'il a 'subi des modifications' après 'la consommation de ce plaisir particulier', mais insiste sur le fait que ces changements sont à la fois élégants et inévitables. 'Qui est le feu et qui est le combustible ?' demande-t-il rhétoriquement.",
+            
+        },
+
+        {
+            id: "studydreamconspiracyskies",
+extends: ["studydreamconspiracyskies"],
+            label: "Lire 'Le rêve de la conspiration du Ciel inférieur'",
+            
+            
+            
+            
+            startdescription: "Damaon insiste sur le fait que les Heures, bien plus que les mortels, sont soumises à leurs passions - à la haine, et même à l'amour. Les saisons de famine et d'abondance, la rotation de la Terre, les transformations de la fournaise - tout cela n'est que le résultat de la mise en oeuvre des passions moindres des Heures.'",
+            description: "Damaon suggère que les Heures ont limité leur rivalité pour éviter une guerre au sein de la Maison du Soleil. Il identifie la 'peur du crime du ciel' comme étant la raison pour laquelle les Heures ne satisfont pas les autres passions. Il spécule sur l'horrible possibilité que les Heures soient devenues alukites. 'Que dévoreraient-elles alors ?'",
+            
+        },
+
+        {
+            id: "studybookwhitecat",
+extends: ["studybookwhitecat"],
+            label: "Lire 'Le Livre du Chat Blanc'",
+            
+            
+            
+            
+            startdescription: "Les Heures aviformes - le Corbeau, la Grive Rieuse, la Colombe et les Cerfs-volants jumeaux - sont connues pour se rencontrer dans les montagnes au nord de Gordion, à un endroit appelé le Perchoir, pour échanger des ragots. Pénélope indique que les mortels qui entendent directement leurs paroles sont anéantis, mais affirme que son chat passe inaperçu et revient vers elle avec les rumeurs des rencontres des Heures.",
+            description: "Les récits que Pénélope revendique comme des rumeurs sur les Heures sont fragmentaires et déroutants: récits de concours où l'Espoir et la Peur et l'Empire sans ombre sont utilisés comme pièces de jeu, agendas de ruine et de souvenir d'une histoire inconnue. L'élément le plus intéressant est l'incantation protectrice qu'elle consigne à la fin du livre, après s'être inquiétée que les Heures puissent en fait apprendre qu'elle les espionnait.",
+            
+        },
+
+        {
+            id: "studyfocusamber",
+extends: ["studyfocusamber"],
+            label: "Lire 'Le sujet de l'Ambre'",
+            
+            
+            
+            
+            startdescription: "Omar affirme que l'Heure appelée Guetteur est à la fois un dieu-qui-était-de-chair - une Heure qui était mortelle - et un dieu de la Lumière - une Heure qui descend de la Gloire - mais ajoute, enfin, que l'origine du Guetteur est triple, et qu'en 'substance, il est Ambre.'",
+            description: "Le Guetteur, selon Omar, était autrefois une Heure entièrement différente, qui est montée dans la Gloire pour échapper aux efforts des autres Heures pour l'envoyer vers Nulle-Part. Il se peut que le sentiment de persécution d'Omar s'insinue dans le récit à ce stade: il devient certainement moins cohérent, et la dernière partie est consacrée aux tentatives de prouver que les yeux, les oeufs et le Soleil sont tous, d'une certaine manière, conjoncturels.",
+            
+        },
+
+        {
+            id: "studysongscarapacecross",
+extends: ["studysongscarapacecross"],
+            label: "Lire 'Les chants de la Croix de Carapace'",
+            
+            
+            
+            
+            startdescription: "Xi décrit les rites des dieux-qui-étaient-pierre, les premières Heures, tels qu'ils étaient pratiqués avant l'existence de la civilisation humaine par la 'Croix de Carapace'. Il affirme qu'un dernier survivant de la Croix lui a fait part de l'information.",
+            description: "Les rites sont aujourd'hui largement obsolètes. Peu d'entre eux ont été observés, du moins au cours des mille dernières années, pour avoir un quelconque effet. Néanmoins, Xi identifie au moins une invocation d'un pouvoir particulier. Il avertit qu'elle doit être utilisée avec prudence, de peur que les dieux-qui-étaient-pierre ne retrouvent leur chemin depuis Nulle-Part.",
+            
+        },
+        {
+            id: "studyoriginsofhours",
+extends: ["studyoriginsofhours"],
+            label: "Lire 'Les Origines des Heures'",
+            
+            
+            
+            
+            startdescription: "Les écrits de Soham passent de la poésie à la confession. Il identifie les dieux de la chair (ceux qui étaient mortels), du sang (ceux qui sont nés d'un sacrifice), de la lumière (entrée de la Gloire) et de la pierre (ceux qui sont nés avant sa connaissance.) Il insiste sur le fait que la Phalène était le premier dieu-qui-était-de-sang, mais se contredit ensuite et affirme que c'était le Graal Rouge.",
+            description: "'Le Mansus était différent avant que le premier dieu ne vienne de la Lumière, mais il n'a jamais douté de son existence, même à cette époque.'",
+            
+        },
+        {
+            id: "studywherehasshegone",
+extends: ["studywherehasshegone"],
+            label: "Lire 'Où est-elle allée ?'",
+            
+            
+            
+            
+            startdescription: "Le Vagabond est reconnu pour avoir parcouru non seulement le Mansus et le Bois, non seulement les neuf continents, mais aussi des endroits interdits aux autres Heures...",
+            description: "A partir des rumeurs et des croyances invisibles de l'Heure, Speeth déduit que le Vagabond a visité Nulle-Part, mais qu'il ne reviendra pas. Il affirme également qu'elle n'a pas encore visité la Gloire, mais que, inévitablement, ce doit être son objectif.",
+            
+        },
+        {
+            id: "studybookextinguishedheart",
+extends: ["studybookextinguishedheart"],
+            label: "Lire 'Le Livre du Coeur éteint'",
+            
+            
+            
+            
+            startdescription: "Lazali indique que le Soleil sera divisé dans le Malleary, par la Forge des Jours, armé de l'amour dans son coeur.",
+            description: "'L'amour ne sera pas la cause de la mort du Soleil, mais plutôt l'envie. L'envie ne sera pas la cause de la mort du Soleil, mais plutôt la soif. La soif ne sera pas la cause de sa mort, mais la curiosité. La curiosité ne sera pas sa fin; mais plutôt l'amour.'",
+            
+        },
+        {
+            id: "studyhowendwillbegin",
+extends: ["studyhowendwillbegin"],
+            label: "Lire 'Comment la Fin va commencer'",
+            
+            
+            
+            
+            startdescription: "Dans la guerre annoncée, les Enfants de la Flamme Enlacée marchent sur les villes du Continent, mais les 'Enactes de la Loi Solaire' et la 'Triple Sororité' s'allient pour les retenir... à un prix énorme.",
+            description: "'Dans cette bataille entre les légions impérissables et la flamme Enlacée, les légions périront et la flamme sera libérée.'",
+            
+        },
+        {
+            id: "studymanneralchemistspared",
+extends: ["studymanneralchemistspared"],
+            label: "Lire 'La manière dont l'Alchimiste a été épargné'",
+            
+            
+            
+            
+            startdescription: "À l'époque de la Croix de la Carapace, quand l'humanité vivait dans l'obscurité et mangeait à genoux, les humains pouvaient entrer dans le Mansus comme de la vermine. On y apprenait les arts de la Pierre, les arts du changement et du remodelage...",
+            description: "'À travers le Noir, le Jaune, le Rouge, le Mortel imprudent s'est élevé à l'ombre de l'Oeuf non éclos, et est resté à son service. Il est peut-être encore là aujourd'hui.'",
+            
+        },
+        {
+            id: "studyfivecreations",
+extends: ["studyfivecreations"],
+            label: "Lire 'Cinq créations'",
+            
+            
+            
+            
+            startdescription: "'L'ORIGINE DE LA CARAPACE: nous sommes nés de la carapace, comme les enfants de la guêpe proviennent de l'araignée. L'ORIGINE GLORIEUSE : nos particules de vie sont descendus de la Lumière. L'ORIGINE DE LA SOUILLURE: nous avons été retrouvés nus et barbouillés de boue dans les racines du Bois...'",
+            description: "Les théories préférées de Shohei sont que nous sommes les enfants de singes qui marchaient debout, bien que son ton soit ici satirique; ou que nous avons consommé non seulement nos parents, 'ce qui n'est pas le crime du ciel', mais aussi notre origine, de sorte que nous sommes venus de Nulle-Part.",
+            
+        },
+        {
+            id: "studycommandspreservationallexists",
+extends: ["studycommandspreservationallexists"],
+            label: "Lire 'Commandements pour la préservation de tout ce qui existe'",
+            
+            
+            
+            
+            startdescription: "Elie décrit de puissantes incantations protectrices à utiliser dans diverses circonstances.",
+            description: "'Il est essentiel que ces Protections soient complétées tous les quatre ans, pour se défendre contre l'entrée des Vers et contre l'avidité de la Vague et de la Plaie.' Dans l'Histoire actuelle du moins, rien n'indique que ces Protections ont été effectuées régulièrement depuis au moins le dernier millénaire.",
+            
+        },
+        {
+            id: "studytimedivision",
+extends: ["studytimedivision"],
+            label: "Lire 'Le Temps de la Division'",
+            
+            
+            
+            
+            startdescription: "Le Soleil sera divisé afin de ne pas engendrer d'enfants. Ses enfants seront toujours au nombre de quatre, et leurs enfants au nombre de sept, et leurs enfants seront innombrables. L'Infini ouvrira la voie au Sept, et le Sept consommera le Quatre...'",
+            description: "Amira prophétise quatre grandes guerres avant la Seconde Aube, lorsque le Soleil-en-Splendeur se lèvera à nouveau. Elle met en garde: 'Le lever du soleil est couleur de sang, et je prédis maintenant que le soleil se lèvera du sang, mais pas la couleur du sang, ni l'heure de la nuit. Elle mentionne un rite qui, selon elle, sera nécessaire pour la Seconde Aube.",
+            
+        },
+        {
+            id: "studymanualdeparture",
+extends: ["studymanualdeparture"],
+            label: "Lire 'Un Manuel pour le départ'",
+            
+            
+            
+            
+            startdescription: "Non, ces portes ne devraient pas être répertoriées, mais si nous avions seulement consigné certaines choses avant de devoir quitter la Cinquième Histoire, nous serions dans une bien meilleure situation. Alors me voici en train de l'écrire, et si vous n'aimez pas ça, vous pouvez me le reprocher.'",
+            description: "Le 'Manuel pour le départ' énumère un certain nombre de stratégies - occultes, martiales et politiques - pour les évasions rapides. Beaucoup sont hors de propos, obsolètes ou énigmatiques, mais le Manuel comprend un certain nombre de techniques puissantes pour ouvrir les portails.",
+            
+        },
+        {
+            id: "studybirdsong",
+extends: ["studybirdsong"],
+            label: "Lire 'Chant d'oiseau'",
+            
+            
+            
+            
+            startdescription: "INAAM: Le Corbeau-de-Plage n'a-t-il pas partagé ses trésors ? GARKIE: Pas le plus rare. Il prend les choses les plus précieuses, qu'il prétend avoir trouvées, et non volées.",
+            description: "Le Corbeau-de-Plage, suggère Kapigiginlupir, n'est pas seulement un voleur, mais aussi un espion et même un voyeur. Il a caché le souvenir des accouplements secrets entre les Heures et leurs Noms dans les recoins de la Maison, comme des trésors sur lesquels on pourrait jubiler. Les spéculations sont particulièrement fébriles sur une liaison entre l'Anneau-d'If, cette fervente Heure du Bois, et la Jument dans l'Arbre, qui a parfois été la Soeur de la Sorcière.",
+            
+        },
+        {
+            id: "studyvoyagesfo",
+extends: ["studyvoyagesfo"],
+            label: "Lire 'Les voyages de Ferninshun d'Oreol'",
+            
+            
+            
+            
+            startdescription: "Ferninshun a clairement visité le Mansus, naviguant le long de la rivière peinte. Il prétend également avoir traversé une mer de sable fin, avoir bravé les vagues brûlantes de la surface du Soleil et être descendu dans un océan souterrain éclairé par des lampes de néphrite noir...",
+            description: "Le dernier voyage de Ferninshun consiste à se retirer sur une île paisible, de l'autre côté d'une mer nocturne, où il identifie une source dont les eaux le garderont en sécurité. 'Je serai oublié,' déclare-t-il, 'et cette oeuvre sera ma seule trace.'",
+            
+        },
+        {
+            id: "studyscarsky",
+extends: ["studyscarsky"],
+            label: "Lire 'La cicatrice dans le ciel'",
+            
+            
+            
+            
+            startdescription: "Chaque page de ce livre ne contient qu'un seul mot, mais au fur et à mesure que l'on tourne les pages, un savoir s'insinue.",
+            description: "La dernière page est pleine. Chaque lecteur du livre y a inscrit le même mot. Maintenant, c'est mon tour.",
+            
+        },
+        {
+            id: "studykitlingripe",
+extends: ["studykitlingripe"],
+            label: "Lire 'La jeune vieille chatte et la tombe de Moldywarp (et autres histoires)'",
+            
+            
+            
+            
+            startdescription: "La protagoniste, un chat sans voix appelé le Jeune Vieux Chat, accomplit une série de rites élaborés pour sauver les membres de sa famille élargie, dont le point culminant est la résurrection de son 'autre grand-mère', Moldywarp.",
+            description: "'Quand la Sorcière-Serpent a tué le cerf, le Jeune Vieux Chat a arraché un de ses yeux. Quand la Sorcière desséchée a tué la truie, le Jeune Vieux Chat a volé une tasse de son sang. Puis elle les a emmenés à l'endroit où Moldywarp était enterrée, et elle a secoué ses cheveux, et elle s'est mise à danser...'",
+            
+        },
+        {
+            id: "studyraptintheking",
+extends: ["studyraptintheking"],
+            label: "Lire 'Extasié par le Roi'",
+            
+            
+            
+            
+            startdescription: "Les danses s'inspirent des traditions des Mystères, des cultes d'Isis et de Cybèle, mais comportent des écorchures symboliques et littérales, et le coeur humain est toujours au centre des rites. L'auteur ponctue ses récits par des descriptions d'une sensualité déconcertante de ses propres festins interrompus.",
+            description: "'Lors de ces grandes fêtes, un cochon noir est toujours couronné comme roi avant d'être tué. À cette occasion, son cœur est pesé dans la balance contre des plumes et sa peau devient une cape pour l'Officiant. Sa chair a été laissée aux Corbeaux, mais je dois avouer que mon intérêt n'était pas pour sa carcasse, mais pour la chair parfumée du chapelier, fraîchement déposée sur la terre.'",
+            
+        },
+        {
+            id: "studyvienneseconundra",
+extends: ["studyvienneseconundra"],
+            label: "Lire 'Le dilemme viennois'",
+            
+            
+            
+            
+            startdescription: "'Lorsque l'individu K. assiste aux réunions, les chiens noirs sont sacrifiés et écartelés. Lorsque l'individu M. assiste aux réunions, les juments noires sont retrouvées la gorge tranchée. Je propose que ces sacrifices ne soient pas nécessaires, mais que nos amis ligériens puissent les considérer comme 'appropriés'. Voici les schémas des mutilations'",
+            description: "'L'énigme de Méduse, donc, je choisis de la rendre sous la forme de 'Qu'est-ce qu'on ne voit pas ?' Il y a une autre énigme, que j'ai entendue sous le titre 'Qu'est-ce qui peut être perdu ?' Je vais vous présenter quelques tentatives historiques pour y répondre - ce sont, dans un certain sens, des sacrifices'",
+            
+        },
+
+
+
+
+        {
+            id: "studytextbooklatin",
+extends: ["studytextbooklatin"],
+            label: "Améliorer mon latin",
+            
+            
+            
+            startdescription: "Je me souviens de certaines choses de mes journées d'école, mais je dois me remettre à niveau.",
+            description: "Les portes du palais de la mémoire sont ouvertes.",
+            
+            
+        },
+        {
+            id: "studytextbookgreek",
+extends: ["studytextbookgreek"],
+            label: "Améliorer mon grec",
+            
+            
+            
+            startdescription: "Bien sûr, je connais déjà un peu le grec. Mais j'aurai besoin d'en savoir un peu plus.",
+            description: "Une langue déterminée et distinctive. Mais c'est à ma portée.",
+            
+            
+        },
+        {
+            id: "studytextbookaramaic",
+extends: ["studytextbookaramaic"],
+            label: "Améliorer mon araméen",
+            
+            
+            
+            startdescription: "Bien sûr, il n'y a pas qu'une seule langue 'araméenne', mais je vais apprendre ce que je peux.",
+            description: "J'ai acquis une compréhension de base.",
+            
+            
+        },
+
+        {
+            id: "studytextbooksanskrit",
+extends: ["studytextbooksanskrit"],
+            label: "Améliorer mon sanskrit",
+            
+            
+            
+            startdescription: "Le nom a été traduit par 'la langue raffinée'.",
+            description: "Tant de mots, si peu de temps. Je garderai mes ouvrages de référence à portée de main.",
+            
+            
+        },
+
+        {
+            id: "studytextbookfucine",
+extends: ["studytextbookfucine"],
+            label: "Développer une compréhension de la langue fucine, disparue depuis longtemps",
+            
+            
+            
+            startdescription: "Elle a un point commun avec le latin et un autre avec les griffures des rats enragés.",
+            description: "Dans certains cas, il y a des similitudes avec les langues que je connais. Dans d'autres cas... je vois pourquoi on l'appelle 'la langue des sorcières'. Mais je la comprends assez bien, maintenant...",
+            
+            
+        },
+
+
+        {
+            id: "studytextbookphrygian",
+extends: ["studytextbookphrygian"],
+            label: "Apprendre les bases du phrygien",
+            
+            
+            
+            startdescription: "Le phrygien, la langue de Midas, de Tecmessa, des prêtres de Cybele.",
+            description: "Quelque chose dans cette langue remue le sang. Il est peut-être heureux que personne ne se souvienne plus de ses sonorités perdues.",
+            
+            
+        },
+
+        {
+            id: "studytextbookmandaic",
+extends: ["studytextbookmandaic"],
+            label: "Apprenez quelque chose sur le mandaïque profond",
+            
+            
+            
+            startdescription: "Le mandaïque est la langue d'une secte Gnostique située dans la partie la plus reculée de la Perse. Le Mandaïque profond est la langue d'une secte au sein même de cette secte, parlé autrefois par ses adeptes.",
+            description: "Cette langue a juste assez de points communs avec l'araméen pour rendre mes études possibles; mais pas pour les faciliter.",
+            
+            
+        },
+
+
+        {
+            id: "studytextbookvak",
+extends: ["studytextbookvak"],
+            label: "Acquérir une certaine connaissance de la langue Vak",
+            
+            
+            
+            startdescription: "Les Heures parlent-elles ? Si c'est le cas, il se peut que ce soit le langage utilisé.",
+            description: "On dit qu'on n'apprend pas la langue Vak, mais qu'on la connaît. Eh bien, maintenant, elle et moi nous connaissons un peu mieux.",
+            
+            
+        },
+
+
+
+        {
+            id: "studytextbookreason",
+extends: ["studytextbookreason"],
+            label: "Améliorer ma Raison",
+            
+            
+            
+            startdescription: "Exercice pour l'intellect.",
+            description: "Possibilités",
+            
+            
+        },
+        {
+            id: "studytextbookpassion",
+extends: ["studytextbookpassion"],
+            label: "Lire de la poésie",
+            
+            
+            
+            startdescription: "J'alimenterai les feux de mon imagination.",
+            description: "Aperçus",
+            
+            
+        },
+    ]
+}

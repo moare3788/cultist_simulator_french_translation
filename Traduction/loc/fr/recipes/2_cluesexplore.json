@@ -1,0 +1,90 @@
+{
+    "recipes": [
+
+        {
+            id: "explore_movehq_hint",
+extends: ["explore_movehq_hint"],
+            label: "Un changement de locaux ?",
+            
+            
+            startdescription: "Nous pourrions déplacer notre base d'opérations ici, si nous le souhaitons.",
+            
+            
+        },
+        {
+            id: "explorevault_hint_sending",
+extends: ["explorevault_hint_sending"],
+            label: "Un deuxième soi ?",
+            
+            
+            startdescription: "Si cette expédition réussit, le Je-ne-sais-plus-qui sera là pour remplir les formulaires. [Si vous réussissez, vous récolterez les récompenses habituelles, et vous progresserez également dans votre ascension du Changement.]",
+            
+            
+        },
+        {
+            id: "explorevault_hint_addfunds",
+extends: ["explorevault_hint_addfunds"],
+            label: "Préparation d'une expédition ?",
+            
+            
+            startdescription: "Si j'ajoute au moins un Fonds, je peux commencer l'expédition. [Les expéditions ont besoin d'au moins un fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            
+            
+        },
+        {
+            id: "explorevault_hint_addfollower",
+extends: ["explorevault_hint_addfollower"],
+            label: "Préparation d'une expédition ?",
+            
+            
+            startdescription: "Si j'ajoute un Adepte, je peux commencer l'expédition. [Les expéditions ont besoin d'au moins un fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            
+            
+        },
+        {
+            id: "explorevault_hint",
+extends: ["explorevault_hint"],
+            label: "Préparation d'une expédition ?",
+            
+            
+            startdescription: "Je pourrais envoyer une expédition ici pour trouver des livres, des trésors, des outils de pouvoir. Mais j'aurai besoin d'Adeptes à envoyer, et de Fonds pour les approvisionner.",
+            
+            
+        },
+
+        {
+            id: "exploresulochanacabaret_hint",
+extends: ["exploresulochanacabaret_hint"],
+            label: "L'Ancienne Forme et la Nouvelle",
+            
+            
+            startdescription: "[Si vous avez l'extension Danseur, vous pouvez utiliser cette combinaison pour trouver un emploi au club Ecdysis, et poursuivre les ascensions du Changement.]",
+            
+            
+        },
+
+        {
+            id: "explore.searchgraveyard.hint",
+extends: ["explore.searchgraveyard.hint"],
+            
+            
+            label: "Une exhumation ?",
+            startdescription: "Je vais devoir déployer ma propre force, ou celle d'un ami.",
+            
+            
+        },
+
+
+        {
+            id: "explore.searchgraveyard.closing.hint",
+extends: ["explore.searchgraveyard.closing.hint"],
+            
+            
+            label: "Une exhumation prudente ?",
+            startdescription: "Je vais devoir déployer ma propre force, ou celle d'un ami.",
+            
+            
+        },
+
+    ]
+}

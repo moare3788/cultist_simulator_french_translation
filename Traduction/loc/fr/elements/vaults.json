@@ -1,0 +1,1775 @@
+{
+    "elements": [
+        {
+            id: "vaultcapital1",
+extends: ["vaultcapital1"],
+            label: "Résidence de Strathcoyne",
+            
+
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "La maison de M. Strathcoyne, un collectionneur d'objets rares. Strathcoyne ne vendra pas ses trésors. Mais un complice suffisamment rusé pourrait entrer.",
+            
+        },
+        {
+            id: "vaultcapital2",
+extends: ["vaultcapital2"],
+            label: "Mithraeum oublié",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Les amateurs de curiosité ont ratissé cet ancien temple, mais il y a peut-être une porte cachée quelque part.",
+            
+        },
+        {
+            id: "vaultcapital3",
+extends: ["vaultcapital3"],
+            label: "Cater & Hero Limited",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Il est abandonné depuis l'explosion, lorsque les deux propriétaires sont morts. Les machines sont silencieuses, le bâtiment est une coquille vide. M. Cater était connu pour exposer des babioles particulières dans son bureau. Il en reste peut-être encore. ",
+            
+        },
+        {
+            id: "vaultcapital4",
+extends: ["vaultcapital4"],
+            label: "Hôpital St Agnes",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Ils ont fait du bon travail ici, autrefois. Certes, il y a eu quelques amputations de trop, mais il y a des personnes que l'on préférerait ne pas voir dans les rues de la ville.",
+            
+        },
+        {
+            id: "vaultcapital5",
+extends: ["vaultcapital5"],
+            label: "Congrégation de St Félix de Schüren",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Une enclave non-conformiste d'une secte hétérodoxe issue d'une branche calviniste, cachée dans un coin bizarre de la ville. Ils chantent des hymnes avec un enthousiasme malsain, dans une langue qui n'est pas tout à fait du latin, mais qui est plutôt un raclement de gorge.",
+            
+        },
+        {
+            id: "vaultcapitaldefault",
+extends: ["vaultcapitaldefault"],
+            label: "Le terrain vague",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Le long des rives grises de la rivière en décomposition, les entrepôts attendent. J'en ai peut-être identifié un où était entreposée une cargaison inhabituelle. [Vous avez trouvé toutes les Expéditions dans la Capitale, bien que vous puissiez trouver et visiter le terrain vague plusieurs fois.]"
+        },
+        {
+            id: "vaultshires1",
+extends: ["vaultshires1"],
+            label: "Lac Gladwyn",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Sous les pentes abruptes des montagnes, la surface brumeuse du lac attend. Il y avait un autel jumeau ici avant l'arrivée des Romains ; et une légende d'un serpent envoyé pour souiller cet autel.",
+            
+        },
+        {
+            id: "vaultshires2",
+extends: ["vaultshires2"],
+            label: "Le marais de Lockwood",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Le murmure puant des marais est empli de vie clandestine. Les habitants taciturnes surveillent toujours les lieux sacrés des petits dieux secrets, ceux qui <i>répondent</i> aux prières.",
+            
+        },
+        {
+            id: "vaultshires3",
+extends: ["vaultshires3"],
+            label: "La colline de Crowkiss",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Les anciennes tribus réservaient ce lieu de repos à celui qui, à la fin, au service d'une certaine Heure impitoyable, était plus balafré que l'homme. Ils ont scellé l'entrée avec des incantations rituelles et du mortier mêlé de sang. ",
+            
+        },
+        {
+            id: "vaultshires4",
+extends: ["vaultshires4"],
+            label: "L'éraflure de Keglin",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Ici, les Romains ont creusé pour trouver de l'argent, jusqu'à ce qu'ils atteignent l'espace non autorisé où les Noms cachaient des choses qui ne supportaient pas la lumière du soleil. Beaucoup d'autres sont venus depuis lors, même si les tunnels s'effondrent. Certains ne sont jamais partis.",
+            
+        },
+        {
+            id: "vaultshires5",
+extends: ["vaultshires5"],
+            label: "Auberge Gwaer",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Sur une falaise qui s'effondre au-dessus d'une mer grise, l'auberge Gwaer se tient accroupie, jusqu'au jour où la mer vient la chercher. Elle reçoit peu d'invités - moins nombreux depuis que le propriétaire a fermé sa célèbre bibliothèque aux érudits de passage.",
+            
+        },
+        {
+            id: "vaultshiresdefault",
+extends: ["vaultshiresdefault"],
+            label: "Kerisham",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+                {
+                    id: "sending",
+extends: ["sending"],
+                    label: "Expédier",
+                    description: "Now and then, the expedition might have another purpose.",
+                    
+                    
+                },
+
+            ],
+            description: "Descendez vers la côte, où la terre verte et grise rencontre la terre grise de l'Atlantique. Cherchez le long de la route les panneaux indiquant la ville de Kerisham. Vous la trouverez rarement, même si vous l'avez déjà visitée. Ses habitants gardent leurs secrets à l'aide de malédictions, de gourdins et de portes verrouillées [Vous avez trouvé toutes les expéditions en province, bien que vous puissiez trouver et visiter Kerisham plusieurs fois.]"
+        },
+
+        {
+            id: "vaultcontinent1",
+extends: ["vaultcontinent1"],
+            label: "Chateau Raveline",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Les histoires préférées des Comtes des Raveline affirment qu'ils descendent du <i>premier</i> Roi-Soleil. D'autres histoires les font rôder dans la forêt en forme de loup. Ils sont partis depuis longtemps. Leur château en ruine est toujours là. Toutes ses abominations n'ont pas été découvertes.",
+            
+        },
+        {
+            id: "vaultcontinent2",
+extends: ["vaultcontinent2"],
+            label: "L'abbaye de Fermier",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Robert Fermier a dépensé une grande partie de sa fortune peu recommandable pour la dotation de cette abbaye monumentale entourée de forêts. Les moines n'aiment pas les visiteurs. Leurs manières ne sont pas tout à fait orthodoxes. Ils célèbrent une certaine fête des moissons avec une vigueur douteuse.",
+            
+        },
+        {
+            id: "vaultcontinent3",
+extends: ["vaultcontinent3"],
+            label: "Le bois Orthos",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Les pins poussent comme des poils sur le dos d'un chien. Les airs du bois intérieur sont étouffés par la résine et la poussière. Selon la source qui vous a amené ici, à l'aube des temps, le plus grand arbre, au coeur noir du bois, servait de perchoir à un grand corbeau masqué.",
+            
+        },
+        {
+            id: "vaultcontinent4",
+extends: ["vaultcontinent4"],
+            label: "La collection Vanderschaaf",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Un petit musée exigu dans une ville de province, longtemps fermé au public depuis un étrange enlèvement dans la pièce où ils gardent les fleurs écrasées. Seuls les très curieux pouvaient s'intéresser à cet endroit et à son magasin fermé aux trésors maudits.",
+            
+        },
+
+        {
+            id: "vaultcontinent5",
+extends: ["vaultcontinent5"],
+            label: "La maison Forman",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Filip Forman, l'helminthologue et antiquaire, a réalisé son meilleur travail ici, dans la maison familiale, jusqu'au jour où ses sujets se sont échappés. L'infestation a été détruite, mais Forman, dit-on, parcourt encore aujourd'hui les couloirs, veillant sur sa bibliothèque et sa honte.",
+            
+        },
+
+        {
+            id: "vaultcontinent6",
+extends: ["vaultcontinent6"],
+            label: "Le grenier du chasseur de clés",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+
+            description: "Vienne est l'une des rares villes qui porte le même nom dans toutes les histoires, bien que les adeptes la connaissent comme la Ville Blanche, ou peut-être la Ville des Blancs. Dans une rue enneigée, dans une maison de travers, dans un grenier haut et bruyant, nous avons appris qu'un chasseur excentrique de clés imaginaires s'est constitué une minuscule réserve de livres bizarres.",
+            
+        },
+        {
+            id: "vaultcontinentdefault",
+extends: ["vaultcontinentdefault"],
+            label: "Les Pierres immémoriales",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+                {
+                    id: "sending",
+extends: ["sending"],
+                    label: "Expédier",
+                    description: "Now and then, the expedition might have another purpose.",
+                    
+                    
+                },
+
+            ],
+            description: "Des mégalithes placés en rangs obsédants et inertes par une caste de prêtres morts depuis longtemps. Le temps a depuis longtemps effacé les taches de sang originelles, mais les nuits sans lune, les habitants complètent ce qui reste. Des chambres secrètes pourraient garder des trésors cachés. [Vous avez trouvé toutes les Expéditions sur le Continent, bien que vous puissiez trouver et visiter les Pierres plusieurs fois.]"
+        },
+
+        {
+            id: "vaultlandbeyondforest1",
+extends: ["vaultlandbeyondforest1"],
+            label: "La grotte aux bougies",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Tous les sept couchers de soleil, l'homme rusé vient du village d'en bas pour renouveler les bougies. Le sol de la chambre d'entrée est une nappe de cire puante. Il prétend que la lumière garde la créature en dessous à distance ; mais il est plus probable que les sacrifices qu'il apporte la gardent trop rassasiée pour en sortir.",
+            
+        },
+        {
+            id: "vaultlandbeyondforest2",
+extends: ["vaultlandbeyondforest2"],
+            label: "La citadelle de Voïvode",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "À l'époque de la grande puissance des Turcs, un homme de pouvoir régnait ici. Pendant de nombreuses années, il a nourri de nombreuses soifs, jusqu'à ce que sa propre soif l'emporte. J'ai appris que ses trésors, ainsi que ses victimes, pourraient se trouver dans un caveau intact sous le château.",
+            
+        },
+        {
+            id: "vaultlandbeyondforest3",
+extends: ["vaultlandbeyondforest3"],
+            label: "Le cirque permanent de Grunewald",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Une petite ville de tentes rapiécées autour d'une ferme blanchie à la chaux. Les artistes voutés frissonnent sous la pluie battante. Mme Grunewald a consacré une fortune considérable à l'entretien de cette institution : qui sait pourquoi ? Les artistes de cirque n'aiment pas les intrus dans les coulisses.",
+            
+        },
+        {
+            id: "vaultlandbeyondforest4",
+extends: ["vaultlandbeyondforest4"],
+            label: "La tour Revek",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "La carcasse d'un bâtiment. L'air s'en mêle. Quelle que soit la puissance qui a détruit cet endroit, elle s'accroche toujours. Il ne reste qu'un étage au-dessus du sol, mais on soupçonne qu'il y a plus d'espace en dessous.",
+            
+        },
+        {
+            id: "vaultlandbeyondforest5",
+extends: ["vaultlandbeyondforest5"],
+            label: "La fondation Kusnetsov",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Le prince Kusnetsov a donné un quart de sa fortune maculée de sang à la création d'un département d'eschatologie dans cette université provinciale. Le personnel est devenu particulier, maintenant, et les bâtiments croupissent dans un marécage glacé, mais une partie du legs de Kusnetsov a peut-être été consacrée à la recherche de trésors.",
+            
+        },
+        {
+            id: "vaultlandbeyondforestdefault",
+extends: ["vaultlandbeyondforestdefault"],
+            label: "Les prairies des lys érémures",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+                {
+                    id: "sending",
+extends: ["sending"],
+                    label: "Expédier",
+                    description: "Now and then, the expedition might have another purpose.",
+                    
+                    
+                },
+
+            ],
+            description: "L'odeur des lys érémures inspire des appétits féroces. Il est probablement heureux qu'elles ne poussent qu'à cette altitude. Les paysans se sont organisés pour éloigner les chercheurs de trésors, mais certains d'entre eux sont victimes de la faim de lys. Leurs propres trésors se trouvent parmi leurs os ; et ainsi le cycle continue. [Vous avez trouvé toutes les Expéditions dans le pays au-delà de la forêt, bien que vous puissiez trouver et visiter les prés plusieurs fois.]"
+        },
+
+
+        {
+            id: "vaultrendingmountains1",
+extends: ["vaultrendingmountains1"],
+            label: "Les tanières du chasseur",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Les tribus déchiquetées ont agrandi ce réseau de grottes, creusant des puits, préparant des pièges. C'était peut-être un lieu d'exécution, ou un terrain destiné aux procès. Dans les deux cas, c'est sacré, et les tribus ne veulent pas de nous ici. Si nous leur survivons, il y a encore une autre menace dans ces tunnels étroits.",
+            
+        },
+        {
+            id: "vaultrendingmountains2",
+extends: ["vaultrendingmountains2"],
+            label: "Le gardien de la neige",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Un temple au sommet d'une montagne d'aspect maléfique. Des lamelles de champignons brillantes comme des joyaux brillent dans la neige. Aucun n'est venu ici depuis une génération, mais quelque chose bouge encore à l'intérieur.",
+            
+        },
+        {
+            id: "vaultrendingmountains3",
+extends: ["vaultrendingmountains3"],
+            label: "L'oeil d'Ikirmawi",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Nous avons lu l'histoire d'un sultan qui, il y a huit cents ans, ne pouvait dormir que sous les étoiles. Il a ordonné la construction de cet observatoire, afin que les étoiles puissent être représentées avec précision sur le plafond de sa chambre à coucher. Malheureusement, les étoiles qu'il voyait n'étaient pas sûres pour l'esprit humain dépourvu de protection. Le successeur du sultan a ordonné que l'observatoire soit scellé.",
+            
+        },
+        {
+            id: "vaultrendingmountains4",
+extends: ["vaultrendingmountains4"],
+            label: "Le mausolée des loups",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Ce monument froid a été construit bien avant la chute de Rome. Des loups de pierre surveillent la porte. Une chambre à l'intérieur a été creusée dans la roche, pour attendre les fragments du Soleil lors de son cortège funèbre prophétique. Ce cortège n'est jamais venu, mais les morts sont néanmoins présents ici.",
+            
+        },
+        {
+            id: "vaultrendingmountainsdefault",
+extends: ["vaultrendingmountainsdefault"],
+            label: "Les tombeaux des rois sans ombre",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Dans un affleurement de roche couleur de lion, des ouvriers ont sculpté des tombes pour les premiers rois de ce pays. Ces rois avaient espéré être immortels, et l'un d'entre eux l'est peut-être. Les autres reposent parmi leurs bibelots. Un ordre héréditaire de gardiens les surveille de près. [Vous avez trouvé toutes les Expéditions dans les Montagnes déchirées, bien que vous puissiez trouver et visiter les Tombeaux plusieurs fois.]"
+        },
+        {
+            id: "vaultloneandlevelsands1",
+extends: ["vaultloneandlevelsands1"],
+            label: "Étoile brisée",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "C'était un lieu sacré pour les dieux de la terre, jusqu'à ce qu'un météore tombe par une nuit d'hiver. Avec le temps, les adorateurs sont revenus en rampant vers les ruines brisées. Avec le temps, la météorite elle-même est devenue un objet de culte, porteur de rêves. L'ancien autel pourrait encore exister, quelque part sous le repaire de la météorite.",
+            
+        },
+        {
+            id: "vaultloneandlevelsands2",
+extends: ["vaultloneandlevelsands2"],
+            label: "Le tombeau de Lagun",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Un rectangle de briques de terre cuite à flanc de coteau, dans un obscur repli du désert. Il n'est pas remarquable à regarder, mais Lagun a été compté parmi les immortels Long, et aucun brigand n'a jamais ouvert de brèche dans sa tombe.",
+            
+        },
+        {
+            id: "vaultloneandlevelsands3",
+extends: ["vaultloneandlevelsands3"],
+            label: "Messana",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Un village tranquillement prospère repose au creux de la rivière : un étonnant éclat de verdure contraste avec la terre poussiéreuse des alentours. La longévité des villageois surpasse la nature. Que cachent-ils ?",
+            
+        },
+        {
+            id: "vaultloneandlevelsands4",
+extends: ["vaultloneandlevelsands4"],
+            label: "Le temple des sept spirales",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Un temple qui s'effondre dans une obscurité souillée. Il a été construit, semble-t-il, au cours de la Troisième Histoire, celle où, bien plus tard, les Vers ont envahi l'Europe, mais il existe maintenant dans toutes les Histoires.",
+            
+        },
+        {
+            id: "vaultloneandlevelsandsdefault",
+extends: ["vaultloneandlevelsandsdefault"],
+            label: "Miah",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+                {
+                    id: "sending",
+extends: ["sending"],
+                    label: "Expédier",
+                    description: "Now and then, the expedition might have another purpose.",
+                    
+                    
+                },
+
+            ],
+            description: "Il y avait une ville ici. Nous pouvons en récupérer les restes comme des chacals sur de vieux os : murs de palais, routes enterrées, fontaines détruites. Parfois, nous pouvons trouver le savoir des morts, et parfois les morts peuvent nous trouver. [Vous avez trouvé toutes les Expéditions dans les Sables, bien que vous puissiez trouver et visiter Miah plusieurs fois.]"
+        },
+
+        {
+            id: "vaulteveningisles1",
+extends: ["vaulteveningisles1"],
+            label: "L'île du corbeau",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Un volcan éteint se hisse au-dessus d'un enchevêtrement de jungle émeraude. Des immortels tombés au cours du plus vil des crimes de leur espèce se sont exilés ici pour se réfugier, engloutissant le sang et brisant les os des voyageurs imprudents. Ils ont dû acquérir des jouets intéressants au fil des ans.",
+            
+        },
+        {
+            id: "vaulteveningisles2",
+extends: ["vaulteveningisles2"],
+            label: "Fort Geryk",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Il y a trois cents ans, un empire avide a revendiqué une île pleine de tourmalines. Ni l'empire ni l'île ne sont mentionnés dans aucune histoire réputée. Mais la forteresse du gouverneur demeure. Peut-être ses trésors restent-ils. D'ailleurs, peut-être que lui aussi.",
+            
+        },
+        {
+            id: "vaulteveningisles3",
+extends: ["vaulteveningisles3"],
+            label: "L'épave du Christabel",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Un monstre marin en est venu à aimer ce navire, mais comme il ne voulait pas lui rendre ses affections, le monstre marin l'a écrasé. Même maintenant, la bête ne quittera pas le cadavre du navire, couvert de trésors occultes. Nous devons plonger avec précaution.",
+            
+        },
+        {
+            id: "vaulteveningisles4",
+extends: ["vaulteveningisles4"],
+            label: "St Tentreto de la Porte Profonde",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+            ],
+            description: "Un monastère est sinistrement accroché au bord d'une falaise. Il aurait déjà dû tomber à la mer, mais - nous l'avons lu - les moines noient leurs victimes dans une cuvette profonde en dessous, pour gagner la protection de la Soeur et de la Sorcière contre la mer, une année de plus, une année de plus.",
+            
+        },
+        {
+            id: "vaulteveningislesdefault",
+extends: ["vaulteveningislesdefault"],
+            label: "Port Noon",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                },
+                {
+                    id: "sending",
+extends: ["sending"],
+                    label: "Expédier",
+                    description: "De temps à autre, l'expédition peut avoir un autre but.",
+                    
+                    
+                },
+
+            ],
+            description: "Tout immortel doit faire un choix : entrer au service d'une Heure, ou retourner dans les rangs des mortels, ou bien s'éteindre. Le port ensoleillé de la petite île de Noon est le lieu d'exil des immortels qui ont refusé toutes ces options. [Vous avez trouvé toutes les Expéditions dans les îles du Couchant, bien que vous puissiez trouver et visiter Noon plusieurs fois.]"
+        },
+        {
+            id: "vaultfloating1",
+extends: ["vaultfloating1"],
+            label: "Le 'Hebe Stanton'",
+            
+            slots: [
+                {
+                    id: "expeditionmember",
+extends: ["expeditionmember"],
+                    label: "Leader",
+                    description: "Je dois avoir au moins un Adepte pour commencer l'expédition. Je peux en envoyer d'autres plus tard.",
+                    
+                    
+                },
+                {
+                    id: "expeditionmember2",
+extends: ["expeditionmember2"],
+                    label: "Assistant",
+                    description: "Eventuellement, je peux ajouter un Adepte supplémentaire maintenant, si je pense qu'il sera utile.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds",
+extends: ["expeditionfunds"],
+                    label: "Fonds",
+                    description: "Je dois disposer d'au moins un Fonds pour commencer l'expédition.",
+                    
+                    
+                },
+                {
+                    id: "expeditionfunds2",
+extends: ["expeditionfunds2"],
+                    label: "Autres Fonds",
+                    description: "Eventuellement, je peux ajouter d'autres Fonds maintenant, si je crains que cela ne suffise pas.",
+                    
+                    
+                }
+
+            ],
+            description: "Un navire à vapeur délabré mais étonnamment luxueux, très utilisé par les acteurs fuyant le scandale, par les millionnaires timides, par les érudits occultes qui se sentent plus en sécurité avec l'eau en mouvement sous eux ; il fut affrété une seule fois, par le Ligeia Club, qui réserva le navire entier pour l'utilisation de sept cabines.",
+            
+        },
+
+    ]
+}

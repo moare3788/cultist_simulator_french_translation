@@ -1,0 +1,88 @@
+{
+    "elements": [
+        {
+            id: "rumour",
+extends: ["rumour"],
+            label: "Rumeur particulière",
+            description: "Cela peut me conduire à quelqu'un dont j'ai besoin, ou cela peut signifier autre chose. [Explorez avec une Rumeur pour y donner suite.]",
+            
+            
+        },
+        {
+            id: "favour",
+extends: ["favour"],
+            label: "Une Faveur de l'autorité",
+            description: "J'ai appris quelque chose qui me permettra de gagner une faveur, une seule fois. [Cela vous préservera, vous ou un de vos Adeptes, de l'emprisonnement... mais on ne peut pas s'y fier.] ",
+            
+            
+        },
+        {
+            id: "mistakenidentity",
+extends: ["mistakenidentity"],
+            label: "Un cas d'erreur d'identité",
+            
+            description: "Ce n'est pas celui que vous espériez, après tout. Ils ne sont pas d'une importance particulière, et ils finiront par disparaître de votre mémoire. Peut-être n'y a-t-il personne d'autre que vous aimeriez rencontrer.",
+            
+            comments: "This xtrigger is here specifically in case someone runs through all the possible rivals as a Detective",
+            
+        },
+        {
+            id: "funds",
+extends: ["funds"],
+            label: "Fonds",
+            
+            description: "Assez pour me soutenir pendant un certain temps dans un confort adéquat.",
+        },
+        {
+            id: "compensation",
+extends: ["compensation"],
+            label: "Spintria de fer",
+            
+            description: "Les initiés du monde caché utilisent des spintriae pour payer leurs services. Les spintriae en fer sont la plus petite coupure, et affichent des scènes de meurtre au revers. [Les spintriae peuvent être vendus pour des sommes plus traditionnelles dans une maison de vente aux enchères.]"
+        },
+        {
+            id: "compensationb",
+extends: ["compensationb"],
+            label: "Spintria de bronze",
+            
+            description: "Les initiés du monde caché utilisent des spintriae pour payer leurs services. Les spintriae en bronze présentent généralement l'acte de façonner au revers. [Les spintriae peuvent être vendus pour des fonds plus traditionnels dans une maison de vente aux enchères.]"
+        },
+        {
+            id: "compensationc",
+extends: ["compensationc"],
+            label: "Spintria d'argent",
+            
+            description: "Les initiés du monde caché utilisent des spintriae pour payer leurs services. Ils peuvent facilement être vendus pour des fonds plus traditionnels. Les spintriae en argent ont plus de valeur et présentent généralement des scènes de débauche au revers. [Les spintriae peuvent être vendus pour des fonds plus traditionnels dans une maison de vente aux enchères.]"
+        },
+        {
+            id: "compensationd",
+extends: ["compensationd"],
+            label: "Spintria d'or",
+            
+            description: "Les initiés du monde caché utilisent des spintriae pour payer leurs services. Ils peuvent facilement être vendus pour des fonds plus traditionnels. Les spintriae en or présentent des scènes invisibles pour des mortels au revers. [Les spintriae peuvent être vendus pour des fonds plus traditionnels dans une maison de vente aux enchères.]"
+
+        },
+        {
+            id: "mapbookdealer",
+extends: ["mapbookdealer"],
+            label: "En route pour Morland",
+            
+            description: "Des indications cryptiques vers l'adresse obscure d'un certain Morland, un marchand de livres plus rares."
+        },
+        {
+            id: "jumble",
+extends: ["jumble"],
+            label: "Melting-pot",
+            
+            description: "Vieux vêtements, accessoires presque sans valeur. Il y a peut-être quelques centimes quelque part, mais cela ne m'est pas très utile."
+        },
+        {
+            id: "snare",
+extends: ["snare"],
+            label: "Piège",
+            
+            description: "J'ai préparé une embuscade pour un rival. [Un piège peut être utilisé sur n'importe quel rival, ou pour faire échouer la tentative d'un rival sur n'importe quelle chambre forte.]",
+            
+        }
+    ]
+}

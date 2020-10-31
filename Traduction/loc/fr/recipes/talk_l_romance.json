@@ -1,0 +1,448 @@
+{
+    "recipes": [
+
+
+
+
+
+
+        {
+            id: "L_talk_roseopportunity",
+extends: ["L_talk_roseopportunity"],
+            label: "Une liaison ?",
+            
+            slots: [
+                {
+                    id: "ascension",
+extends: ["ascension"],
+                    label: "Des âmes soeurs ?",
+                    
+                }
+            ],
+            
+            startdescription: ".",
+            description: "La soirée va dans une direction que je n'avais pas prévue. Ai-je dit quelque chose de mal ? Ou bien sommes-nous tout simplement incompatibles ?",
+            
+            
+        },
+
+        {
+            id: "A_startrose_power_initiate",
+extends: ["A_startrose_power_initiate"],
+            
+            label: "S'élever ensemble",
+            
+            startdescription: "@#uqtristan|Tristan se lève avant que je n'aie fini de parler. 'Nous devrions y aller maintenant,' dit-il très calmement, mais lorsqu'il pose une main sur mon épaule, la main tremble. #uqvalciane|Valciane se rapproche de plus en plus alors que nous parlons ensemble. Lorsqu'elle prend ma main, la force de ses doigts n'a d'égale que la chaleur de sa peau. 'Je ne suis pas légère, ' me prévient-elle. Nous devrions fixer des limites.' #uqelridge|Elridge écoute attentivement chaque mot. Ses yeux ne quittent jamais les miens. La seule chose qu'il dit est 'Oui', mais quand nous arrivons chez moi, il a commencé à le dire avant même que je n'aie posé la question. #uqlaidlaw|Les yeux de Laidlaw brillent pendant que je parle. Il ne semble pas pouvoir détourner le regard. Ses mains sont sur moi avant que l'un de nous ne comprenne comment c'est arrivé. Juste un instant, il hésite. Nous partons ensemble avant d'attirer les commentaires.@",
+            description: ".",
+            
+            
+        },
+
+
+        {
+            id: "A_startrose_sensation_initiate",
+extends: ["A_startrose_sensation_initiate"],
+            
+            label: "Compagnons de route",
+            
+            startdescription: "@#uqrose|Rose se prélasse dans le creux de mon bras, souriant avec contentement. 'Comme au bon vieux temps,' dit-elle. 'Quand vas-tu me ramener à la maison ?' #uqsaliba|Saliba a passé ses doigts dans mes cheveux, en rêvant. 'Cela va mal finir,' dit-il, avec une certaine satisfaction.. #uqvictor|Au-dessus de la table, Victor est un parfait gentleman. La main qu'il garde au-dessus de la table est placée paume vers le haut. Une Phalène atterrit sur la paume tendue: il ferme sa main pour l'écraser. 'De bons souvenirs,' dit-il. 'Allons-y.' #uqviolet|Violet s'est, d'une certaine manière, arrangée pour se placer contre moi, et a commencé à me donner des baisers fondants comme des flocons de neige momentanés. 'Je ne vais pas attendre,' me prévient-elle. 'Ramène-moi à la maison si tu sais ce qui est bon pour toi.' #uqrenira|Renira se trouve au centre de l'attention. Certains membres du public lui prêtent plus d'attention qu'aux danseurs. Nous bougeons ensemble comme une goutte de cire chaude qui s'écoule dans une autre. 'J'espère que vous n'allez pas être idiot,' respire-t-elle, juste avant que nos lèvres ne se rencontrent. @",
+            description: ".",
+            
+            
+        },
+
+
+
+        {
+            id: "A_startrose_enlightenment_initiate",
+extends: ["A_startrose_enlightenment_initiate"],
+            
+            label: "Lumière partagée",
+            
+            startdescription: "@#uqenid|Enid s'approche de plus en plus près de moi, comme le reflet d'une vague, jusqu'à ce qu'elle s'appuie sur mon côté. Elle ne dit rien du tout, ni à ce moment-là, ni plus tard.#uqauclair|Parler avec Auclair, c'est toujours un peu comme de l'escrime etun peucomme dela comptabilité,alors c'est une surprise quand elle hésite et laisse l'hésitations'éloigner de façon inélégante. 'Je neveux paste toucher,' dit-elle enfin, 'mais jeveux êtredans tonlit. Cesoir.' #uqcat|CatCaro écoutependant queje parle.Elle relieson brasau mien.'Ce n'est pasce dontj'ai rêvé,' remarque-t-elle,'mais j'aime quece soitcomme ça.' Elle sourit. 'J'ai rêvé que je te ramenais chez toi. Peut-être que tu devrais plutôt me ramener chez moi.'#uqclifton|Clifton sebalance plusprès demoi. 'Je n'airien bu,' assure-t-il, 'mais jesuis quandmême soûl.Peut-être quec'est la lune.' Ilpose unemain expertesur mahanche. 'Peut-être que c'esttoi. Onrentre àla maisonmaintenant ?'#uqneville|Neville n'arrête pas de sourire. Il s'accrocheà chacunde vosmots. 'Je n'auraisjamais imaginé-' souffle-t'il. #uqslee|Slee,il paraît,a préparéun poèmequi m'est dédié. C'esttrès flatteur.Mais çan'en finit pas. L'embrasser estun moyenefficace dele fairetaire. @ ",
+            description: ".",
+            
+
+            
+        },
+
+        {
+            id: "A_startrose_change_initiate",
+extends: ["A_startrose_change_initiate"],
+            
+            label: "Ceux qui seront différents",
+            
+            startdescription: "@#uqporter|Porter est assis recroquevillé sur son siège, immobile, mais ses yeux brillent lorsqu'il regarde la scène, et ils brillent de la même façon lorsque je me penche pour l'embrasser. 'Ton goût,' dit-il. Nous sommes pareils. Il glousse, puis il pose à nouveau ses mains sur moi. #uqysabet|Ysabet applaudit avec enthousiasme à la fin de chaque représentation. À chaque cocktail qu'elle boit, ses applaudissements se font plus vigoureux. Après notre premier baiser, elle se penche en arrière, me considère et commence, une fois de plus, à applaudir. #uqclovette|Clovette me serre le bras dans l'excitation. 'Je commence à comprendre quelque chose. Je ne sais pas quoi, mais il y a quelque chose. Et c'est toi aussi, c'est toi !' Elle ne dit rien pendant un certain temps, puis, bien plus tard, longtemps après que nous ayons quitté le club, elle dit à nouveau, très doucement, 'C'est toi aussi.' #uqdorothy|Dorothy fredonne en même temps que la musique. Dorothy bouge inconsciemment au rythme des actions des danseurs. Quand j'embrasse Dorothy, elle m'embrasse en retour dans la même mesure. Elle respire lourdement en se retirant. 'Nous allons être différents, maintenant,' dit-elle.. #uqsylvia|Sylvia porte des olives à sa bouche alors qu'elle regarde la scène, en mâchant bruyamment. Quand elle m'embrasse, elle me mord la lèvre supérieure assez fort pour faire couler le sang, et je peux goûter les olives pendant des heures. 'Je vais rentrer dans tes vêtements,' dit-elle avidement, 'jusqu'à l'intérieur. Si on rentre.' #uqleo|Leo est assis très droit, pour commencer, mais au fur et à mesure que l'excitation et les cocktails le submergent, il commence à se détendre, jusqu'à ce qu'il se détende en moi. 'Je veux être différent, ' chuchote-t-il, 'mais je ne sais pas comment.' Ses yeux sont grands, sa bouche est souple.@",
+            description: ".",
+            
+            
+        },
+
+
+        {
+            id: "L_checkjealousy",
+extends: ["L_checkjealousy"],
+            label: "Un autre ?",
+            
+            
+            comments: "re requirements: can't be another if there isn't even one. Also people don't *currently* get jealous of the dead. They're either non-viable, or kept somewhere extremely private",
+            slots: [
+                {
+                    id: "Who?",
+extends: ["Who?"],
+                    label: "Qui ?",
+                    description: "Palm to palm and eye to eye.",
+                    
+                    
+                    
+                }
+            ],
+            startdescription: "Y en a-t-il un autre ?",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "L_activatejealousy",
+extends: ["L_activatejealousy"],
+            label: "Ô Rose tu es malade",
+            
+            
+            comments: "careful: this is a potential weak spot if we ever start making romantic interest additive not binary",
+            
+            startdescription: "Deux de mes amis proches ont choisi de me rendre visite à la même heure. La conversation est guindée.",
+            description: "Au fur et à mesure que la soirée avance, les esprits s'échauffent, et la situation devient difficile.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "A_roseend_expulsion",
+extends: ["A_roseend_expulsion"],
+            
+            comments: "allows us to have only one of a jealous lover break up with the player",
+            label: "Conséquences !",
+            startdescription: "@#uqauclair|Auclair#uqcat|Cat#uqclovette|Clovette#uqclifton|Clifton#uqdorothy|Dorothy#uqelridge|Elridge #uqenid|Enid#uqlaidlaw|Laidlaw#uqleo|Leo#uqneville|Neville#uqporter|Porter#uqrenira|Renira#uqrose|Rose #uqsaliba|Saliba#uqslee|Slee#uqsylvia|Sylvia#uqtristan|Tristan #uqvalciane|Valciane#uqvictor|Victor#uqviolet|Violet#uqysabet|Ysabet#|Mon amant@ ne tolérera plus ma négligence.",
+            description: "Aucun de nous ne se souviendra de ce moment avec plaisir.",
+            slots: [
+                {
+                    id: "glummer",
+extends: ["glummer"],
+                    label: "Ce qui reste",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+        {
+            id: "L_continuerose_corpse",
+extends: ["L_continuerose_corpse"],
+            
+            label: "Triste et malade d'une vieille passion",
+            
+            startdescription: "Je ne peux pas; pas encore. Le deuil aura son dû.",
+            description: "Avec le temps, leur corps aura disparu comme leur esprit aujourd'hui, et j'oublierai.\nUnless...",
+            
+            
+            
+        },
+
+        {
+            id: "L_continuerose_risen",
+extends: ["L_continuerose_risen"],
+            
+            label: "Ne me laisse jamais partir",
+            
+            slots: [
+                {
+                    id: "Blood?",
+extends: ["Blood?"],
+                    label: "Sang ?",
+                    description: "Les forces du corps",
+                    
+                }
+            ],
+            startdescription: "Celui qui m'a aimé n'est plus comme avant. Si je lui donne un peu de mon sang - juste un peu, mais parfois ils sont avides... si je lui en donne un peu, il se souviendra, pour un temps.",
+            description: "Non. Il était vivant, et maintenant il est mort, et avec le temps, ce sera tout ce qu'il est.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "A_continuerose_risen_success",
+extends: ["A_continuerose_risen_success"],
+            
+            label: "Ne me laisse jamais partir",
+            
+            startdescription: "Les nuances de la peau de mon ancien amant - ce qui reste - s'approfondissent et s'enrichissent. Cette vieille lumière s'allume à nouveau dans les yeux.",
+            description: "@#spirit_wintera_edge|La douleur, le froid, la misère. C'est tout ce qui nous reste, et parce qu'ils nous restent, peut-être sont-ils précieux. #spirit_wintera_moth|Leurs mains, leurs lèvres, sont mûres de vie, mais c'est la vie froide de la pelure de pomme et du pétale de lys. Pourtant, ce sont leurs mains et leurs lèvres.@",
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "L_continuerose_power",
+extends: ["L_continuerose_power"],
+            
+            label: "Une liaison: l'utilisation de la force",
+            
+            slots: [
+                {
+                    id: "What?",
+extends: ["What?"],
+                    label: "Santé",
+                    description: "Les forces du corps",
+                    
+                }
+            ],
+            startdescription: "Mon amant n'est pas facilement satisfait - mais moi non plus.",
+            description: "À l'instant même... J'ai besoin d'énergie.",
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "A_continuerose_power_success",
+extends: ["A_continuerose_power_success"],
+            
+            label: "Une liaison: l'utilisation de la force",
+            
+            startdescription: "Quand j'aurai fini, nous dormirons tous les deux profondément. Mais je n'ai pas encore fini.",
+			description: "@#uqtristan|Tristan ne touchera pas à la boisson forte, sauf avec moi. Il ne laissera pas l'horloge en marche, sauf les nuits où je lui rends visite. Il se méfie toujours de fermer les yeux, mais parfois, lorsque nous sommes ensemble, il ne peut que les fermer. #uqvalciane|La peau de Valciane brille sous la chaleur du feu. Sa force est délicieusement mise à l'épreuve. Chaque fois que je pars, elle me suit dans les escaliers pour un dernier baiser. #uqelridge|Elridge agit sans hésitation avec élégance et économie, en anticipant précisément mes préférences. #uqlaidlaw|Laidlaw est ingénieux et infatigable. Il aime m'apporter de petits cadeaux: des horloges, des liqueurs, des amusements en cage.@",
+            
+            
+            
+            
+        },
+
+
+
+
+
+        {
+            id: "L_continuerose_sensation",
+extends: ["L_continuerose_sensation"],
+            
+            label: "Une liaison: les impératifs du plaisir",
+            
+            slots: [
+                {
+                    id: "What?",
+extends: ["What?"],
+                    label: "Passion",
+                    description: "L'impératif le plus profond.",
+                    
+                }
+            ],
+            startdescription: "Les expériences de mon amant en matière de plaisir sont infinies dans leur ingéniosité - mais jusqu'à présent, je peux les égaler.",
+            description: "À l'instant même... J'ai besoin de temps.",
+            
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "A_continuerose_sensation_success",
+extends: ["A_continuerose_sensation_success"],
+            
+            label: "Une liaison: les impératifs du plaisir",
+            
+            startdescription: "Pendant des jours - pendant des jours - les souvenirs de ceci interrompent mes pensées comme un éclair dans une nuit d'été.",
+            description: "@#uqrose|Rose est sur moi, dévorante, dès que J'ai franchis le seuil. Une fois seulement, elle m'a appelé 'Victor'. Nous n'en avons jamais parlé après. #uqsaliba|Saliba est toujours implacable, toujours infatigable. Il ne sourit jamais. Parfois, après coup, sa voix craque comme s'il était près des larmes, mais ses yeux restent secs. #uqvictor|Victor m'apporte toujours une seule rose. Il hésite toujours quand il me la tend. Il n'hésite jamais après. #uqviolet|L'enthousiasme de Violet est aussi profond qu'un puits sombre. Ses plaisirs ont quelque chose d'implacable, mais elle ne cause jamais de douleur durable. #uqrenira|Quand j'arrive, Renira est embrumée de parfums. Quand je la quitte, elle gît dans un glorieux entrelacs de membres. Je la porterai avec moi pendant des jours.@", 
+            
+            
+            
+        },
+
+
+
+
+        {
+            id: "L_continuerose_enlightenment",
+extends: ["L_continuerose_enlightenment"],
+            
+            label: "Une liaison: des élans de compréhension",
+            
+            slots: [
+                {
+                    id: "What?",
+extends: ["What?"],
+                    label: "Raison",
+                    description: "La vraie lumière de l'esprit.",
+                    
+                }
+            ],
+            startdescription: "Mon amant et moi nous disputons les espaces au-dessus et au-dessous de la chair. Je dois égaler leur intensité.",
+            description: "À l'instant même... J'ai besoin d'attention.",
+            
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "A_continuerose_enlightenment_success",
+extends: ["A_continuerose_enlightenment_success"],
+            
+            label: "Une liaison: des élans de compréhension",
+            
+            startdescription: "Ensemble, nous sommes plus brillants.",
+            description: "@#uqenid|Enid préfère fermer les yeux plutôt que de me regarder. Elle dit que ça fait mal de regarder. Elle le dit avec un tel désir que je ne peux pas m'en offenser. #uqauclair|Auclair met en place l'échiquier. Les règles sont un peu différentes chaque soir. À la fin de la soirée, nous avons toujours été distraits. #uqcat|Cat Caro connaît le chemin; Cat Caro connaît tant de chemins. Nous les parcourons ensemble, quand la lune ouvre les rideaux pour regarder dans l'obscurité. #uqclifton|Quand je viens chez Clifton, ses chambres sont toujours illuminées par des bougies, des lampes à arc et même des lampes à huile. Il insiste. Au fil de la soirée, les lumières s'éteignent, une par une, jusqu'à ce que notre dernière affaire soit menée dans l'obscurité la plus totale. #uqneville|Neville m'accueille avec du thé et des fleurs. Il s'assied, les jambes croisées, à mes pieds et attend que je parle. Il faut toujours faire un effort pour l'inciter à prendre des initiatives, mais je n'ai jamais été déçu. #uqslee|Invariablement, Slee vient armé de poésie. Parfois, je suis d'humeur à faire de la poésie. Parfois, je suis d'humeur pour autre chose.@",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "L_continuerose_change",
+extends: ["L_continuerose_change"],
+            
+            label: "Une liaison: Quand nous étions...",
+            
+            slots: [
+                {
+                    id: "What?",
+extends: ["What?"],
+                    description: "Une urgence.",
+                    
+                }
+            ],
+            startdescription: "Mon amant et moi partageons un désir, même si nous ne le comprenons pas encore tout à fait.",
+            description: "À l'instant même... Je ne peux pas.",
+            
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "A_continuerose_change_success",
+extends: ["A_continuerose_change_success"],
+            
+            label: "Une liaison: Quand nous étions...",
+            
+            startdescription: "Ensemble, nous devenons autre chose.", description: " @#uqporter|Porter a pris la peine de se baigner avant notre rencontre. Il a également pris la peine de se raser, méticuleusement. #uqysabet|Ysabet se déplace si rapidement et avec tant de subtilité qu'elle ne semble jamais être au même endroit. Mais, d'une certaine manière, elle est toujours là où elle devrait être. #uqclovette|Clovette rit aux moments les plus étranges, mais son rire est toujours juste. Sa joie est presque une chose physique. On pourrait s'y perdre, on n'en sortirait pas inchangé. #uqdorothy|Dorothy insiste sur le fait que le gramophone doit jouer, à partir du moment où nous touchons jusqu'au moment où nous nous séparons. Cela provoque des interruptions. Mais elle compense ces interruptions, et le souvenir de la musique est tissé dans la mémoire du soir comme un fil brillant dans le satin. #uqsylvia|Sylvia coupe vos vêtements avec ses ciseaux, puis elle coupe ses vêtements avec ses ciseaux, puis elle choisit un endroit pour ce que vous ferez ensuite. Ce n'est pas un endroit pratique. #uqleo|Leo est heureux de me voir - si heureux - si heureux parfois que sa forme semble visible à travers sa peau fragile. Je vais tracer sa forme avec mes doigts, l'exalter, le calmer, alors que nous devenons ce que nous sommes ensemble.@",
+            
+            
+            
+            
+        },
+
+        {
+            id: "L_continuerose_noone",
+extends: ["L_continuerose_noone"],
+            label: "Solitude",
+            
+            
+            startdescription: "Je suis seul, mais la paix est aussi là.",
+            description: "Certains jours sont meilleurs que d'autres. Parfois, le ciel n'est rien d'autre qu'un drap sale. Parfois, la rivière devient limpide.",
+            
+            
+        },
+
+
+        {
+            id: "L_roseend",
+extends: ["L_roseend"],
+            
+            
+            label: "Conséquences !",
+            startdescription: "@#uqauclair|Auclair#uqcat|Cat#uqclovette|Clovette#uqclifton|Clifton#uqdorothy|Dorothy#uqelridge|Elridge#uqenid|Enid#uqlaidlaw|Laidlaw#uqleo|Leo#uqneville|Neville#uqporter|Porter#uqrenira|Renira#uqrose|Rose#uqsaliba|Saliba#uqslee|Slee#uqsylvia|Sylvia#uqtristan|Tristan#uqvalciane|Valciane#uqvictor|Victor#uqviolet|Violet#uqysabet|Ysabet#uq|Mon amant@ ne tolérera plus ma négligence.",
+            description: "Aucun de nous ne se souviendra de ce moment avec plaisir.",
+            slots: [
+                {
+                    id: "glummer",
+extends: ["glummer"],
+                    label: "Ce qui reste",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+        {
+            id: "L_roseend_risen",
+extends: ["L_roseend_risen"],
+            
+            
+            label: "Conséquences !",
+            startdescription: "La mémoire survit même à la mort. La rage aussi, le mépris aussi. L'amour aussi ? Je ne trouverai pas cette réponse ici.",
+            description: "Ce sont les derniers moments d'une fin longtemps commencée. [Même les morts ne pardonneront pas la négligence.]",
+            slots: [
+                {
+                    id: "glummer",
+extends: ["glummer"],
+                    label: "Ce qui reste",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+        {
+            id: "A_rose_binoff_dread",
+extends: ["A_rose_binoff_dread"],
+            
+            
+            label: "Mettre un terme à cette aventure",
+            startdescription: "'Il n'y a pas d'avenir pour nous. Peut-être même pas séparés, mais certainement pas ensemble.'",
+            description: "Mon ex amant part. Le silence s'épaissit.",
+            
+            
+        },
+        {
+            id: "A_rose_binoff_funds",
+extends: ["A_rose_binoff_funds"],
+            
+            
+            label: "Mettre fin à cette liaison, de manière insultante",
+            startdescription: "'Voilà pour vous. Achetez-vous quelque chose de beau avec.'",
+            description: "La porte claque derrière mon ex amant.",
+            
+            
+        }
+
+
+
+
+
+    ]
+}

@@ -1,0 +1,375 @@
+{
+    "recipes": [
+        {
+            id: "work.poison.fascination.longlesson.trap",
+extends: ["work.poison.fascination.longlesson.trap"],
+            
+            label: "Un ennemi toujours vigilant",
+            startdescription: "Notre ennemi observe nos opérations depuis une fenêtre élevée du Mansus. Ils en savent plus sur nous.",
+            
+            
+            
+            
+            
+        },
+        {
+            label: "La Gloire de la Raison [Grandiose]",
+            id: "arcane_lantern_edge_grand",
+extends: ["arcane_lantern_edge_grand"],
+            
+            
+            
+            startdescription: "Comme le haut et le bas: La Raison et la Passion s'affrontent dans l'âme humaine, tandis que la Gloire éclaire les ténèbres du Bois. Cette discipline mystique va transformer la Passion en Raison. [Vous faites appel à un grand degré de Lanterne, et cela réussira presque certainement, mais il y a toujours un risque.] ",
+            description: "Mon esprit est sillonné de lumière. Je suis devenu plus serein et plus aiguisé.  J'ai changé. [La Passion s'est transformée en Raison.]",
+            slots: [
+                {
+                    id: "passion",
+extends: ["passion"],
+                    label: "Abandonner ma Passion",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+        {
+            label: "La Gloire de la Raison [Majeure]",
+            id: "arcane_lantern_edge_major",
+extends: ["arcane_lantern_edge_major"],
+            
+            
+            
+            startdescription: "Comme le haut et le bas: La Raison et la Passion s'affrontent dans l'âme humaine, tandis que la Gloire éclaire les ténèbres du Bois. Cette discipline mystique va transformer la Passion en Raison. [Vous faites appel à un grand degré de Lanterne, et cela réussira presque certainement. Augmentez le niveau de Lanterne à au moins 15 pour améliorer encore vos chances.] ",
+            description: "Mon esprit est sillonné de lumière. Je suis devenu plus serein et plus aiguisé.  J'ai changé. [La Passion s'est transformée en Raison.]",
+            slots: [
+                {
+                    id: "passion",
+extends: ["passion"],
+                    label: "Abandonner ma Passion",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+        {
+            label: "La Gloire de la Raison [Mineure]",
+            id: "arcane_lantern_edge_minor",
+extends: ["arcane_lantern_edge_minor"],
+            
+            
+            
+            startdescription: "Comme le haut et le bas: La raison et la passion s'affrontent dans l'âme humaine, tandis que la Gloire éclaire les ténèbres du Bois. Cette discipline mystique va transformer la Passion en Raison. [Vous ne faites appel à qu'un degré mineur de la Lanterne, de sorte que le rite échouera souvent. Augmentez le niveau de Lanterne à au moins 10 pour améliorer vos chances.] ",
+            description: "Mon esprit est sillonné de lumière. Je suis devenu plus serein et plus aiguisé.  J'ai changé. [La Passion s'est transformée en Raison.]",
+            slots: [
+                {
+                    id: "passion",
+extends: ["passion"],
+                    label: "Abandonner ma Passion",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+        },
+
+        {
+            id: "arcane_lantern_edge_failure",
+extends: ["arcane_lantern_edge_failure"],
+            label: "La Gloire de la Raison [Échec !]",
+            
+            description: "Ce sort a mal tourné. Une lumière invisible m'a pris au piège.",
+            
+        },
+        {
+            label: "Les Tourments de la Passion [Grandiose]",
+            id: "arcane_moth_edge_grand",
+extends: ["arcane_moth_edge_grand"],
+            
+            
+            
+            startdescription: "Comme le haut et le bas: La Passion et la Raison s'affrontent dans l'âme humaine, tandis que le Bois engloutit la lumière de la Gloire. Cette pratique extatique transformera la Raison en Passion... mais elle risque d'échapper à tout contrôle.  [Vous faites appel à un Grand Degré de Phalène, et cela réussira presque certainement, mais il y a toujours un risque.] ",
+            description: "Mes passions s'élèvent comme le vent, comme la marée, comme le déluge. Il est difficile de penser clairement. J'ai changé. [La Raison a été transformée en Passion.]",
+            slots: [
+                {
+                    id: "reason",
+extends: ["reason"],
+                    label: "Abandonner ma Raison",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+            
+        },
+
+        {
+            label: "Les Tourments de la Passion [Majeure]",
+            id: "arcane_moth_edge_major",
+extends: ["arcane_moth_edge_major"],
+            
+            
+            
+            startdescription: "Comme le haut et le bas: La Passion et la Raison s'affrontent dans l'âme humaine, tandis que le Bois engloutit la lumière de la Gloire. Cette pratique extatique transformera la Raison en Passion... mais elle risque d'échapper à tout contrôle.[Vous faites appel à un degré majeur de Phalène, de sorte le rite réussira probablement. Augmentez le niveau de la Phalène à au moins 15 pour améliorer vos chances.] ",
+            description: "Mes passions s'élèvent comme le vent, comme la marée, comme le déluge. Il est difficile de penser clairement. J'ai changé. [La Raison a été transformée en Passion.]",
+            slots: [
+                {
+                    id: "reason",
+extends: ["reason"],
+                    label: "Abandonner ma Raison",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+            
+        },
+        {
+            label: "Les Tourments de la Passion [Mineure]",
+            id: "arcane_moth_edge_minor",
+extends: ["arcane_moth_edge_minor"],
+            
+            
+            
+            startdescription: "Comme le haut et le bas: La Passion et la Raison s'affrontent dans l'âme humaine, tandis que le Bois engloutit la lumière de la Gloire. Cette pratique extatique transformera la Raison en Passion. [Vous ne faites appel à qu'un degré mineur de la Phalène, de sorte que le rite échouera souvent. Augmentez le niveau de Phalène à au moins 10 pour améliorer vos chances.] ",
+            description: "Mes passions s'élèvent comme le vent, comme la marée, comme le déluge. Il est difficile de penser clairement. J'ai changé. [La Raison a été transformée en Passion.]",
+            slots: [
+                {
+                    id: "reason",
+extends: ["reason"],
+                    label: "Abandonner ma Raison",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "arcane_moth_edge_failure",
+extends: ["arcane_moth_edge_failure"],
+            label: "Les Tourments de la Passion [Échec !]",
+            
+            description: "Ce sort a mal tourné. La Peur a engloutie ma joie.",
+            
+        },
+
+        {
+            id: "arcane_moth_edge_runaway_link",
+extends: ["arcane_moth_edge_runaway_link"],
+            label: "Les Tourments de la Passion [INCESSANT !]",
+            
+            
+            
+        },
+        {
+            id: "arcane_moth_edge_runaway",
+extends: ["arcane_moth_edge_runaway"],
+            label: "Les Tourments de la Passion [INCESSANT !]",
+            
+            
+            startdescription: "La Phalène me possède ! La Tourmente gagne du terrain ! Ma Raison peut être entièrement engloutie !",
+            description: "La tourmente est enfin arrivée à son terme, mais il est difficile d'y voir clair. J'ai changé. [La Raison s'est transformée en Passion.]",
+            slots: [
+                {
+                    id: "reason",
+extends: ["reason"],
+                    label: "Abandonner ma Raison",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+            
+            
+        },
+        {
+            label: "La Rédemption de la Forge [Grandiose]",
+            id: "arcane_forge_grail_grand",
+extends: ["arcane_forge_grail_grand"],
+            
+            
+            
+            startdescription: "La Forge des Jours détruit et renouvelle. Je l'invoquerai avec le Graal pour renouveler ma chair défaillante avec des sortilèges interdits. [Vous faites appel à un grand degré de Forge, et cela réussira presque certainement, mais il y a toujours un risque.] ",
+            description: "J'ai été renouvelé par la flamme, tempéré par le sang. Ma chair est à nouveau forte, mais le rayonnement de la Forge a ébloui mon âme... et les gens parleront. [La Décrépitude a été transformée en Santé, mais vous avez gagné en Fascination et en Notoriété.]",
+            slots: [
+                {
+                    id: "decrepitude",
+extends: ["decrepitude"],
+                    label: "Decrepitude",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+            
+        },
+        {
+            label: "La Rédemption de la Forge [Majeure]",
+            id: "arcane_forge_grail_major",
+extends: ["arcane_forge_grail_major"],
+            
+            
+            
+            startdescription: "La Forge des Jours détruit et renouvelle. Je l'invoquerai avec le Graal pour renouveler ma chair défaillante avec des sortilèges interdits. [Vous faites appel à un degré majeur de la Forge, de sorte le rite réussira probablement. Augmentez le niveau de Forge à au moins 15 pour améliorer encore vos chances.] ",
+            description: "J'ai été renouvelé par la flamme, tempéré par le sang. Ma chair est à nouveau forte, mais le rayonnement de la Forge a ébloui mon âme... et les gens parleront. [La Décrépitude a été transformée en Santé, mais vous avez gagné en Fascination et en Notoriété.]",
+            slots: [
+                {
+                    id: "decrepitude",
+extends: ["decrepitude"],
+                    label: "Decrepitude",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+            
+        },
+
+        {
+            label: "La Rédemption de la Forge [Mineure]",
+            id: "arcane_forge_grail_minor",
+extends: ["arcane_forge_grail_minor"],
+            
+            
+            
+            startdescription: "La Forge des Jours détruit et renouvelle. Je l'invoquerai avec le Graal pour renouveler ma chair défaillante avec des sortilèges interdits. [Vous ne faites appel qu'à un degré mineur de la Forge, et cela échouera souvent. Augmentez le niveau de Forge à au moins 10 pour améliorer encore vos chances.] ",
+            description: "J'ai été renouvelé par la flamme, tempéré par le sang. Ma chair est à nouveau forte, mais le rayonnement de la Forge a ébloui mon âme... et les gens parleront. [La Décrépitude a été transformée en Santé, mais vous avez gagné en Fascination et en Notoriété.]",
+            slots: [
+                {
+                    id: "decrepitude",
+extends: ["decrepitude"],
+                    label: "Decrepitude",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "arcane_forge_grail_failure",
+extends: ["arcane_forge_grail_failure"],
+            label: "La Rédemption de la Forge [Échec !]",
+            
+            description: "La Forge des Jours m'a fait défaut, ou je n'ai pas réussi. Ce sort ne m'a apporté que des cauchemars, et le péril.",
+            
+        },
+
+        {
+            label: "La Fin est belle [Grandiose]",
+            id: "arcane_winter_lantern_grand",
+extends: ["arcane_winter_lantern_grand"],
+            
+            
+            startdescription: "Le Soleil-en-Haillons apporte de belles fins. Ce sortilège aussi soudain que périlleux va mettre fin à quelqu'un ou à quelque chose, mais il est impossible de savoir quoi. Elle tuera également tout mortel ou esprit qui participe au rituel. [Vous faites appel à un grand degré d'Hiver, et cela réussira presque certainement, bien que ce serait plus sûr si cela échouait.] ",
+            description: "La neige s'est déposée sur toutes les surfaces de ma chambre de travail. Le feu ne donne pas de chaleur, mais je ne peux pas l'éteindre, ni les bougies, qui brûlent nimbé de rouge, d'une flamme d'or et d'un coeur noir. Lorsque le rituel atteindra son point culminant, quelqu'un, quelque part, s'achèvera.",
+            slots: [
+                {
+                    id: "conclusion",
+extends: ["conclusion"],
+                    label: "A Conclusion",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+            
+        },
+
+        {
+            label: "La Fin est belle [Majeure]",
+            id: "arcane_winter_lantern_major",
+extends: ["arcane_winter_lantern_major"],
+            
+            
+            startdescription: "Le Soleil-en-Haillons apporte de belles fins. Ce sortilège aussi soudain que périlleux va mettre fin à quelqu'un ou à quelque chose, mais il est impossible de savoir quoi. Il tuera également tout mortel ou esprit qui participe au rituel. [Vous faites appel à un degré majeur d'Hiver, de sorte cela va probablement réussir. Augmentez le niveau d'Hiver à au moins 15 pour améliorer vos chances, bien que ce serait plus sûr si cela échouait.] ",
+            description: "La neige s'est déposée sur toutes les surfaces de ma chambre de travail. Le feu ne donne pas de chaleur, mais je ne peux pas l'éteindre, ni les bougies, qui brûlent nimbé de rouge, d'une flamme d'or et d'un coeur noir. Lorsque le rituel atteindra son point culminant, quelqu'un, quelque part, s'achèvera.",
+            slots: [
+                {
+                    id: "conclusion",
+extends: ["conclusion"],
+                    label: "A Conclusion",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+            
+        },
+        {
+            label: "La Fin est belle [Mineure]",
+            id: "arcane_winter_lantern_minor",
+extends: ["arcane_winter_lantern_minor"],
+            
+            
+            startdescription: "Le Soleil-en-Haillons apporte de belles fins. Ce sortilège aussi soudain que périlleux va mettre fin à quelqu'un ou à quelque chose, mais il est impossible de savoir quoi. Il tuera également tout mortel ou esprit qui participe au rituel. [Vous faites appel à un degré mineur d'Hiver, de sorte que cela échouera souvent. Augmentez le niveau d'Hiver à au moins 10 pour améliorer vos chances, bien que ce serait plus sûr si cela échouait.] ",
+            description: "La neige s'est déposée sur toutes les surfaces de ma chambre de travail. Le feu ne donne pas de chaleur, mais je ne peux pas l'éteindre, ni les bougies, qui brûlent nimbé de rouge, d'une flamme d'or et d'un coeur noir. Lorsque le rituel atteindra son point culminant, quelqu'un, quelque part, s'achèvera.",
+            slots: [
+                {
+                    id: "conclusion",
+extends: ["conclusion"],
+                    label: "A Conclusion",
+                    
+                    
+                }
+            ],
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "arcane_winter_lantern_failure",
+extends: ["arcane_winter_lantern_failure"],
+            label: "La Fin est belle [Échec !]",
+            
+            description: "Le Soleil-en-Haillons ne répondra pas à mon appel. Ce sortilège ne m'a apporté que la préscience de l'Hiver.",
+            
+        },
+    ]
+}

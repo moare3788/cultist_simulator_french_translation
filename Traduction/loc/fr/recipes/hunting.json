@@ -1,0 +1,408 @@
+{
+    "recipes": [
+        {
+            id: "suspicion",
+extends: ["suspicion"],
+            label: "Une attention mal placée",
+            
+            
+            slots: [
+                {
+                    id: "Suspicion",
+extends: ["Suspicion"],
+                    label: "Un adversaire ?",
+                    
+                    
+                }
+            ],
+            startdescription: "La ville regorge de journalistes, de détectives et d'autres personnes qui se mêlent de tout. Combien de temps vont-ils me laisser en paix ?",
+            description: "Je suis en sécurité pour l'instant. L'attention des indiscrets doit se porter ailleurs. Quel soulagement.",
+            
+            
+            
+        },
+
+        {
+            id: "suspiciongrabreputation",
+extends: ["suspiciongrabreputation"],
+            label: "À la recherche d'indices...",
+            
+            
+            startdescription: "Un adversaire pose des questions sur mes activités.",
+            description: "",
+            slots: [
+                {
+                    id: "Clues",
+extends: ["Clues"],
+                    label: "Indices",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "suspiciongrabevidence",
+extends: ["suspiciongrabevidence"],
+            
+            label: "Examiner les preuves...",
+            startdescription: "Si un chasseur trouve de la Notoriété, il essaiera de l'utiliser pour créer ou améliorer les Preuves. S'il est méticuleux, il réussira toujours. S'il est érratique, il a plus de chances d'échouer... mais il peut parfois créer des Preuves même sans Notoriété.",
+            description: "Je suis en sécurité, pour l'instant. Mon adversaire n'a pas assez de preuves pour m'incriminer et il n'a pas trouvé de nouveaux indices.",
+            slots: [
+                {
+                    id: "Evidence",
+extends: ["Evidence"],
+                    label: "Preuves",
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+        {
+            id: "suspicionerratic_alwaysfail",
+extends: ["suspicionerratic_alwaysfail"],
+            
+            label: "Des habitudes curieuses",
+            
+            startdescription: "Mon adversaire se comporte de manière excentrique. [Cela n'arrive qu'occasionnellement.]",
+            description: "Mon adversaire a-t-il pratiqué un instrument de musique au lieu de poursuivre l'enquête ? Jeter des fléchettes sur une planche de liège ? Ou fait de très longues siestes ? Ses rapports sont incohérents, mais son comportement l'est aussi. Il n'a fait aucun progrès..",
+            
+        },
+        {
+            id: "suspicionerratic_alwayssucceed",
+extends: ["suspicionerratic_alwayssucceed"],
+            
+            label: "Des succès déconcertants",
+            
+            
+            startdescription: "Une rumeur prétend que mon adversaire s'est mis à faire l'oracle avec le I Ching. Une autre prétend qu'il cherche des réponses dans ses rêves. Une autre encore, qu'il choisit les questions à poser en lançant des dés. Ils ont trouvé des preuves là où il ne devrait pas y en avoir. [Cela n'arrive qu'occasionnellement.]",
+            
+            
+        },
+
+
+        {
+            id: "suspicion_searchlongerforevidence",
+extends: ["suspicion_searchlongerforevidence"],
+            
+            
+            label: "Les périls de la renommée",
+            startdescription: "Mon mysticisme a attiré l'attention de ce chasseur. Ils ne peuvent encore rien prouver, mais ils vont continuer à chercher plus attentivement, maintenant.",
+            
+            slots: [
+                {
+                    id: "Clues",
+extends: ["Clues"],
+                    label: "Indices",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+        {
+            id: "suspicionpromoteevidencemeticulous",
+extends: ["suspicionpromoteevidencemeticulous"],
+            
+            label: "Créer des preuves accablantes",
+            
+            
+        },
+
+
+        {
+            id: "suspicionpromoteevidence",
+extends: ["suspicionpromoteevidence"],
+            
+            
+            label: "Créer des preuves accablantes",
+            startdescription: "Ce chasseur met la touche finale à son enquête.",
+            description: "Si jamais ce procès a lieu, je serai en grave danger. Même si ce chasseur est éliminé, un autre peut trouver ses notes.",
+            
+            
+        },
+
+        {
+            id: "suspicioncreateevidencemeticulous",
+extends: ["suspicioncreateevidencemeticulous"],
+            
+            label: "Transformer les indices en preuves",
+            
+            
+        },
+
+        {
+            id: "suspicioncreateevidence",
+extends: ["suspicioncreateevidence"],
+            
+            
+            label: "Transformer les indices en preuves",
+            startdescription: "La rumeur court sur les toits et flotte dans les gouttières. Ce chasseur progresse dans son enquête.",
+            description: "Je suis certain que mon adversaire a déposé une copie de ses notes ailleurs - chez son avocat, chez son supérieur, ou même chez un contact dans la presse. C'est troublant.",
+            
+            
+        },
+
+
+        {
+            id: "suspiciontrycreatehunter",
+extends: ["suspiciontrycreatehunter"],
+            label: "De rares curieux",
+            
+            startdescription: "Une mauvaise réputation pourrait éveiller l'intérêt des curieux, des puritains ou des vengeurs. [Une Réputation peut inciter un adversaire à émerger.]",
+            slots: [
+                {
+                    id: "Clues",
+extends: ["Clues"],
+                    label: "Indices",
+                    
+                    
+                }
+            ],
+            
+            description: "Mon nom, pour l'instant, est sans-tâche. Les observateurs éventuels restent dans l'ombre.",
+            
+            
+        },
+
+        {
+            id: "suspicioncreatefirsthunter",
+extends: ["suspicioncreatefirsthunter"],
+            
+            label: "Un Adversaire !",
+            
+            startdescription: "Quelqu'un se mêle de tout.",
+            description: "Il y a toujours quelqu'un qui ne comprend pas, ou qui comprend trop bien. Ce fauteur de troubles peut chercher des preuves de mes activités pour les partager avec les autorités.",
+            
+            
+            
+        },
+
+
+        {
+            id: "suspicioncreatehunter",
+extends: ["suspicioncreatehunter"],
+            
+            label: "Un Adversaire !",
+            
+            startdescription: "Quelqu'un se mêle de tout.",
+            description: "Il y a toujours quelqu'un qui ne comprend pas, ou qui comprend trop bien. Ce fauteur de troubles peut chercher des preuves de mes activités pour les partager avec les autorités.",
+            
+            
+            
+        },
+
+
+        {
+            id: "suspicionpretrial",
+extends: ["suspicionpretrial"],
+            label: "Le Bureau examine mon cas",
+            
+            
+            startdescription: "Mon adversaire a convaincu le Bureau de la répression d'examiner mon cas. Le Bureau est chargé de punir la forme la moins habituelle de criminalité - celle dont les crimes n'existent peut-être que dans les rêves.",
+            description: ".",
+            
+            
+            
+            
+        },
+        {
+            id: "suspicion_questionme",
+extends: ["suspicion_questionme"],
+            label: "Je dois être jugé devant un tribunal !",
+            
+            startdescription: "Le Bureau de la répression m'a convoqué pour un interrogatoire.",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "suspicion_questionfollower",
+extends: ["suspicion_questionfollower"],
+            label: "Un procès !",
+            
+            slots: [
+                {
+                    id: "Suspect",
+extends: ["Suspect"],
+                    label: "Suspect",
+                    
+                    
+                    description: "Le Bureau a soif de suspects.",
+                    
+                }
+            ],
+            startdescription: "Le Bureau de la répression recherche un de mes associés pour l'interroger. S'ils ne peuvent pas en trouver un, ils s'en prendront directement à moi.",
+            description: ".",
+            
+            
+            
+
+        },
+        {
+            id: "suspicion_attemptmitigation_me",
+extends: ["suspicion_attemptmitigation_me"],
+            
+            label: "Le Bureau de la répression me traduit en justice !",
+            startdescription: "Il y a des crimes que l'État ne reconnaît pas ouvertement. Je suis accusé de l'un d'entre eux. Le Bureau de la répression tient ses procès à huis clos, et ils ne sont pas cléments. Si je ne peux faire jouer mes relations, je risque l'emprisonnement !",
+            description: ".",
+            slots: [
+                {
+                    id: "favour",
+extends: ["favour"],
+                    label: "Une Faveur",
+                    
+                }
+            ],
+            
+            
+        },
+        {
+            id: "suspicion_attemptmitigation_follower",
+extends: ["suspicion_attemptmitigation_follower"],
+            label: "Le Bureau de la répression poursuit un associé en justice !",
+            
+            
+            startdescription: "Il y a des crimes que l'État ne reconnaît pas ouvertement. Mon associé a été impliqué dans l'un d'entre eux. Le Bureau de la répression tient ses procès à huis clos, et ils ne sont pas cléments. Si je ne peux faire jouer mes relations, mon associé risque de disparaître à jamais... ",
+            description: ".",
+            slots: [
+                {
+                    id: "favour",
+extends: ["favour"],
+                    label: "Une Faveur",
+                    
+                }
+            ],
+            
+            
+        },
+        {
+            id: "suspicion_attemptmitigation_rival",
+extends: ["suspicion_attemptmitigation_rival"],
+            label: "Le Bureau de la répression traduit un rival en justice !",
+            
+            
+            startdescription: "Il y a des crimes que l'État ne reconnaît pas ouvertement. Mon rival a été impliqué dans l'un d'entre eux. Le Bureau de la répression tient ses procès à huis clos, et ils ne sont pas cléments. C'est peut-être la fin pour mon rival... bien que je puisse essayer d'intervenir.",
+            description: ".",
+            slots: [
+                {
+                    id: "favour",
+extends: ["favour"],
+                    label: "Une Faveur",
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "suspicion_favourused",
+extends: ["suspicion_favourused"],
+            
+            label: "Un allié dans l'ombre",
+            
+            
+            startdescription: "J'ai demandé une Faveur à une personne de confiance. Cela me protégera probablement, mais rien n'est sûr.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "suspicion_favourused_failure",
+extends: ["suspicion_favourused_failure"],
+            
+            label: "Ce n'est pas suffisant !",
+            startdescription: "J'ai tiré toutes les ficelles que je pouvais, et ce n'était pas suffisant. Le Bureau n'a pas de remords. Si j'ai un autre contact, je pourrai peut-être l'utiliser. Sinon, nous devrons tenter notre chance au procès.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "suspicion_followerimprisoned",
+extends: ["suspicion_followerimprisoned"],
+            
+            label: "Une victoire pour le Bureau",
+            description: "Mon associé a été enfermé dans une prison où il n'y a pas de droit de visite, et même la date de sa libération est obscure. L'appétit du Bureau est satisfait pour l'instant ; mais qu'ont-ils appris ?",
+            
+            
+        },
+        {
+            id: "suspicion_meimprisoned",
+extends: ["suspicion_meimprisoned"],
+            
+            label: "Une victoire pour le Bureau",
+            startdescription: "J'ai été reconnu coupable ! Tous mes projets s'arrêtent là. Je dois me préparer.",
+            description: ".",
+
+        },
+
+        {
+            id: "suspicion_followerexonerated",
+extends: ["suspicion_followerexonerated"],
+            
+            
+            label: "La fureur du Bureau",
+            startdescription: "Mon associé a été disculpé ! Les preuves n'étaient pas suffisamment convaincantes pour les condamner, et il est libre de partir... bien qu'il puisse m'en vouloir. Le Bureau a été freiné pour le moment.",
+            
+            
+        },
+        {
+            id: "suspicion_meexonerated",
+extends: ["suspicion_meexonerated"],
+            
+            label: "La fureur du Bureau",
+            startdescription: "J'ai été disculpé ! Les preuves n'étaient pas suffisamment convaincantes pour me faire condamner, et je suis libre de partir.",
+            
+            
+        },
+        {
+            id: "suspiciontrial",
+extends: ["suspiciontrial"],
+            comments: "Ici pour la compatibilité avec l'héritage",
+            
+            description: "ARRESTATION !",
+            
+            
+        },
+
+        {
+            id: "suspicion_rivalimprisoned",
+extends: ["suspicion_rivalimprisoned"],
+            
+            label: "Une victoire pour le Bureau",
+            description: "Mon rival ne sera pas revu à la lumière du jour. L'appétit du Bureau est satisfait pour le moment ; mais qu'ont-ils appris ?",
+            
+            
+        },
+        {
+            id: "suspicion_rivalexonerated",
+extends: ["suspicion_rivalexonerated"],
+            
+            
+            label: "La fureur du Bureau",
+            startdescription: "Mon rival a été disculpé ! Les preuves n'étaient pas suffisamment convaincantes pour le condamner, et il est libre de partir... mais il me reprochera sans doute ses épreuves.",
+            
+            
+        },
+
+
+        {
+            id: "scapegoat",
+extends: ["scapegoat"],
+            
+            comments: "Ici pour la compatibilité avec l'héritage",
+            
+
+        },
+
+    ]
+}

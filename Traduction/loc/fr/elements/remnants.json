@@ -1,0 +1,59 @@
+{
+    "elements": [
+        {
+            id: "corpse",
+extends: ["corpse"],
+            label: "Un cadavre humain",
+            description: "L'esprit est parti. A terme, l'odeur sera si mauvaise qu'il faudra se débarrasser du corps. Cela peut attirer l'attention mais il faut faire avec pour le moment; Le corps peut être utilisée pour ébranler les personnes impressionnables. [Même après la disparition du cadavre, la notoriété restera.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "corpse.furious",
+extends: ["corpse.furious"],
+            label: "Fragment d'os cicatrisé",
+            
+            
+            description: "Dans ce fragment se trouvent des souvenirs d'une Heure plus ancienne.",
+        },
+        {
+            id: "corpse.luxurious",
+extends: ["corpse.luxurious"],
+            label: "Restes de cuir",
+            
+            
+            description: "Souvenirs et nostalgies, les secrets du noeud, dans un vieux morceau de soi peu prometteur.",
+        },
+
+        {
+            id: "corpse.liminal",
+extends: ["corpse.liminal"],
+            label: "Flocon de Long",
+            
+            
+            description: "Il n'en reste que très peu, mais le goût... - le goût inavoué - ",
+        },
+
+        {
+            id: "corpse.horizon",
+extends: ["corpse.horizon"],
+            label: "Segment sans ombre",
+            
+            
+            description: "Les Rois ont-ils jamais connu la vraie Gloire ?",
+        },
+
+        {
+            id: "corpse.splendid",
+extends: ["corpse.splendid"],
+            label: "Tête de loup",
+            
+            
+            description: "Connaissait-elle le Soleil tel qu'il était ?",
+        },
+
+    ]
+}

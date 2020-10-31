@@ -1,0 +1,38 @@
+{
+    "recipes": [
+        {
+            id: "deathofthebody",
+extends: ["deathofthebody"],
+            label: "Non la santé, c'est du passé",
+            
+            
+            
+            startdescription: "Ma vie m'échappe -",
+            description: "Où me trouveront-ils ? Je ne suis pas ici.",
+        },
+        {
+            id: "forlornblooddeathofthebody",
+extends: ["forlornblooddeathofthebody"],
+            label: "Non La santé, c'est du passé",
+            
+            
+            
+            startdescription: "Le malaise dans mes os m'a vaincu. A moins que je ne puisse rassembler mes forces ou goûter au sang de notre Délice, c'est fini.",
+            description: "Où me trouveront-ils ? Je ne suis pas ici.",
+        },
+        {
+            id: "workvictory",
+extends: ["workvictory"],
+            label: "Je vais m'installer dans une existence confortable",
+            
+            
+            
+            startdescription: "J'ai renoncé à mes rêves, je vivrai assez bien.",
+            description: "C'est terminé",
+            
+            
+            
+            
+        }
+    ]
+}

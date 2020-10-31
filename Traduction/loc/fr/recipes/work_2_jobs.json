@@ -1,0 +1,693 @@
+{
+    "recipes": [
+        {
+            id: "findclericalwork",
+extends: ["findclericalwork"],
+            label: "Trouver un emploi de bureau",
+            
+            
+            
+            startdescription: "Trouver un travail qui épargne mon corps, sinon mon esprit.",
+            description: "Glover & Glover m'ont offert un poste de débutant. Je commence à huit heures pile, demain matin !",
+            
+            
+            
+            
+        },
+        {
+            id: "job_plead_hint",
+extends: ["job_plead_hint"],
+            label: "Supplier de garder mon emploi ?",
+            
+            
+            
+            startdescription: "Mes supérieurs doivent croire en ma contrition. [Utilisez la Passion pour convaincre la direction de vous laisser reprendre le travail.]",
+            
+            
+
+        },
+        {
+            id: "job_plead",
+extends: ["job_plead"],
+            label: "Supplier de garder mon emploi",
+            
+            
+            
+            startdescription: "Ce n'est pas une conversation agréable, mais elle peut être nécessaire.",
+            description: "On m'a offert une autre chance. On attend de moi, apparemment, que je sois reconnaissant.",
+            
+            
+
+        },
+        {
+            id: "gloverandgloverjuniorwork",
+extends: ["gloverandgloverjuniorwork"],
+            label: "Poste de débutant chez Glover & Glover",
+            
+            
+            
+            
+            
+            startdescription: "Le grattage des stylos, l'aigreur de la poussière, les soupirs du jeune Glover, le ventre gargouillant du vieux.",
+            description: "Les greffiers s'enfuient en silence. Je suis libre pour l'instant.",
+            
+            slots: [
+                {
+                    id: "Diligence",
+extends: ["Diligence"],
+                    label: "Diligence",
+                    
+                    
+                    description: "Un effort supplémentaire. Cela peut aider, parfois."
+                }
+            ],
+            
+        },
+        {
+            id: "gloverandglover_diligence",
+extends: ["gloverandglover_diligence"],
+            label: "Effort supplémentaire chez Glover & Glover",
+            
+            
+            
+            
+            
+            startdescription: "Je ferai un effort supplémentaire. Peut-être apprécieront-ils.",
+            description: "La fin de la journée. Mon cou me fait mal. Il y a toujours autant de travail à faire demain.",
+            
+            
+        },
+        {
+            id: "gloverandgloverjunior_diligence_promotion",
+extends: ["gloverandgloverjunior_diligence_promotion"],
+            label: "Une Promotion !",
+            
+            
+            
+            
+            startdescription: "",
+            description: "M. Alden, le superviseur des archives, m'a convoqué dans son bureau pour reconnaître ma diligence. Je regarde la tâche sur son cou quand il parle ; et parle ; et parle. Mais à la fin, j'ai une promotion ! Mon nouveau poste est mieux payé et le bureau se trouve près de la fenêtre de la rue. Mais je travaille maintenant directement pour M. Alden. M. Alden est connu pour être exigeant.",
+            
+        },
+
+
+        {
+            id: "gloverandgloverjuniorwork_again",
+extends: ["gloverandgloverjuniorwork_again"],
+            label: "Poste junior chez Glover & Glover",
+            
+            
+            
+            
+            
+            startdescription: "Le grattage des stylos, l'aigreur de la poussière, les soupirs du jeune Glover, le ventre gargouillant du vieux.",
+            description: "Les greffiers s'enfuient en silence. Je suis libre pour l'instant.",
+            
+            slots: [
+                {
+                    id: "Diligence",
+extends: ["Diligence"],
+                    label: "Diligence",
+                    
+                    
+                    description: "Un effort supplémentaire. Cela peut aider, parfois."
+                }
+            ],
+            
+        },
+        {
+            id: "gloverandglover_diligence_again",
+extends: ["gloverandglover_diligence_again"],
+            label: "Effort supplémentaire chez Glover & Glover",
+            
+            
+            
+            
+            
+            startdescription: "Je ferai un effort supplémentaire. Peut-être l'apprécieront-ils ; peut-être retrouverai-je une position plus élevée.",
+            description: "La fin de la journée. Mon cou me fait mal. Il y a autant de travail à faire demain qu'il n'y en a jamais eu.",
+            
+            
+        },
+
+        {
+            id: "gloverandgloverjunior_diligence_promotion_again",
+extends: ["gloverandgloverjunior_diligence_promotion_again"],
+            label: "Une Promotion !",
+
+            
+            
+            
+            
+            startdescription: "",
+            description: "J'ai retrouvé une position plus élevée.",
+            
+        },
+
+        {
+            id: "gloverandgloverwork_difficultbossa",
+extends: ["gloverandgloverwork_difficultbossa"],
+            
+            
+            label: "Travailler chez Glover & Glover",
+            
+            startdescription: "Je suis mieux payé que je ne l'étais. Mais M. Alden s'est intéressé à moi. M. Alden est très particulier. M. Alden aime que les choses soient faites comme il l'entends. Et M. Alden n'a jamais cru que j'étais qualifié pour ce poste.",
+            description: ".",
+            
+            
+            
+            
+        },
+        {
+            id: "gloverandglover_difficultbossa_no_overtime",
+extends: ["gloverandglover_difficultbossa_no_overtime"],
+            
+            
+            label: "Travailler chez Glover & Glover",
+            startdescription: ".",
+            description: "M. Alden n'a rien trouvé à critiquer dans mon travail, aujourd'hui. Il ne lève pas les yeux au moment où je pars."
+        },
+
+        {
+            id: "gloverandglover_difficultbossa_patienceisavirtue",
+extends: ["gloverandglover_difficultbossa_patienceisavirtue"],
+            
+            label: "M. Alden prend sa retraite !",
+            startdescription: "'Je quitterai Glover & Glover demain. Quand vous aurez fini votre travail de la journée, venez me voir.'",
+            description: "'Vous <i>avez</i> montré une certaine amélioration, sous ma direction. Je vous ai recommandé comme mon remplaçant. Souvenez-vous de ce que je vous ai enseigné, et vous pourriez un jour faire honneur à ce département. Vous pouvez y aller.' 'Une dernière chose! Que j'ai presque oublé - ' 'Soyez extremement ponctuel demain, s'il vous plait.' ",
+            
+            
+            
+        },
+        {
+            id: "gloverandglover_difficultbossa_overtime_initial",
+extends: ["gloverandglover_difficultbossa_overtime_initial"],
+            comments: "Le joueur devra subir cette procédure au moins une dizaine de fois. Après cela, les chances de faire des heures supplémentaires sont réduites et il y a une petite possibilité qu'Alden prenne sa retraite.",
+            
+            
+            label: "Faire des heures supplémentaires, sur l'insistance de M. Alden",
+            startdescription: "'Le travail est terminé lorsque j'ai estimé qu'il était achevé, et pas avant. J'espère que nous nous comprenons.'",
+            slots: [
+                {
+                    id: "Attention",
+extends: ["Attention"],
+                    label: "Attention",
+                    
+                    description: "Un effort supplémentaire. Cela pourrait aider, si je suis très chanceux."
+                }
+            ],
+            description: "'À cette occasion, j'ai déterminé que votre travail est d'un niveau acceptable. Vous pouvez y aller. Soyez ponctuel demain, s'il vous plaît.'[ Il y a peut-être moyen de négocier avec M. Alden. ]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "gloverandglover_difficultbossa_overtime",
+extends: ["gloverandglover_difficultbossa_overtime"],
+            
+            
+            label: "Faire des heures supplémentaires, sur l'insistance de M. Alden",
+            startdescription: "'Le travail est terminé lorsque j'ai estimé qu'il était achevé, et pas avant. J'espère que nous nous comprenons.'",
+            slots: [
+                {
+                    id: "Attention",
+extends: ["Attention"],
+                    label: "Attention",
+                    
+                    description: "Un effort supplémentaire. Cela pourrait aider, si je suis très chanceux."
+                }
+            ],
+            description: "'Une fois encore, j'ai constaté que votre travail est d'un niveau acceptable. Vous pouvez partir. Soyez ponctuel demain, s'il vous plaît.'[ Il y a peut-être moyen de négocier avec M. Alden. ]",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "gloverandglover_difficultbossa_overtime_fail",
+extends: ["gloverandglover_difficultbossa_overtime_fail"],
+            
+            
+            label: "Faire des heures supplémentaires, sur l'insistance de M. Alden",
+            startdescription: "'Je ne pense pas que vous ayez bien compris l'importance de notre travail ici. Cette tâche exigera votre <i>pleine</i> attention'. [Ajoutez de la Raison pour satisfaire M. Alden.]",
+            description: "'Je voudrais dire que je suis déçu, mais mes attentes à votre égard étaient déjà faibles. Je n'ai pas d'autre choix que de retenir une partie de votre salaire. Vous pouvez partir, mais soyez ponctueldemain, s'il vous plaît.'\n\n[ Il y a peut-être moyen de négocier avec M. Alden. ]",
+            
+            
+            
+        },
+
+
+        {
+            id: "gloverandgloverwork_difficultbossa_gone",
+extends: ["gloverandgloverwork_difficultbossa_gone"],
+            
+            
+            label: "Travailler chez Glover & Glover",
+            
+            startdescription: "Le bureau crépite avec la nouvelle de l'absence inattendue d'Alden. Un homme maigre et nerveux du quatrième étage a été nommé superviseur des archives (temporaire). Contrairement à Alden, il n'interfère pas dans mon travail.",
+            description: "L'encre, le papier, et le grésillement des lumières électriques. Le bureau est sombre quand je pars. Mais je pars à l'heure prévue.",
+            
+            
+            
+        },
+
+        {
+            id: "gloverandgloverwork",
+extends: ["gloverandgloverwork"],
+            label: "Travailler chez Glover & Glover",
+            
+            
+            
+            
+            
+            startdescription: "Le travail est plus exigeant, maintenant, mais il est mieux payé.",
+            description: "L'encre, le papier, et le grésillement des lumières électriques. Le bureau est sombre quand je pars. Dehors, sur le trottoir, je remonte mon col.",
+            
+            slots: [
+                {
+                    id: "Devotion",
+extends: ["Devotion"],
+                    label: "Dévouement",
+                    
+                    description: "Un effort supplémentaire. Cela pourrait aider, si je suis très chanceux."
+                }
+            ],
+            
+        },
+
+        {
+            id: "gloverandglover_diligence_promotion",
+extends: ["gloverandglover_diligence_promotion"],
+            label: "Heures supplémentaires chez Glover & Glover",
+            
+            
+            
+            
+            
+            startdescription: "",
+            description: "Le jeune Glover m'a emmené déjeuner dans son club. Je dois faire plus de choses que je fais, plus attentivement, et en retour, il me donnera un peu plus de l'argent que je gagne pour son père.",
+            
+        },
+
+        {
+            id: "gloverandgloverwork_again",
+extends: ["gloverandgloverwork_again"],
+            label: "Travailler chez Glover & Glover",
+            
+            
+            
+            
+            
+            startdescription: "Le travail est plus exigeant, maintenant, mais il est mieux payé.",
+            description: "L'encre, le papier, et le grésillement des lumières électriques. Le bureau est sombre quand je pars. Dehors, sur le trottoir, je remonte mon col.",
+            
+            slots: [
+                {
+                    id: "Devotion",
+extends: ["Devotion"],
+                    label: "Dévouement",
+                    
+                    description: "Un effort supplémentaire. Cela pourrait aider, si je suis très chanceux."
+                }
+            ],
+            
+        },
+
+
+        {
+            id: "gloverandglover_diligence_promotion_again",
+extends: ["gloverandglover_diligence_promotion_again"],
+            label: "Heures supplémentaires chez Glover & Glover",
+            
+            
+            
+            
+            startdescription: "",
+            description: "J'ai retrouvé mon poste de direction.",
+            
+        },
+        {
+            id: "gloverandgloverseniorwork_retirementoption",
+extends: ["gloverandgloverseniorwork_retirementoption"],
+            label: "Travailler chez Glover & Glover",
+            
+            
+            
+
+            
+            startdescription: "Je me relève les manches et je commence.",
+            description: "Je suis toujours le dernier à partir, même après le vieux Glover.",
+
+            
+            slots: [
+                {
+                    id: "Acceptance",
+extends: ["Acceptance"],
+                    label: "Acceptation",
+                    
+                    description: "Je pourrais y consacrer ma vie."
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "gloverandgloverseniorwork",
+extends: ["gloverandgloverseniorwork"],
+            label: "Travailler chez Glover & Glover",
+            
+            
+            
+            
+            startdescription: "Je me relève les manches et je commence.",
+            description: "Je suis toujours le dernier à partir, même après le vieux Glover. Je suis en bons termes avec le jeune Glover. Il aime bien plaisanter sur le fait que je pourrais prendre son poste ensuite. Je ne le ferai pas, bien sûr. Son père y veillera. Il me remet à ma place en plaisantant. Il commence à m'ennuyer.",
+            
+            
+        },
+        {
+            id: "gloverandgloverseniorwork_hint",
+extends: ["gloverandgloverseniorwork_hint"],
+            label: "Travailler chez Glover & Glover ?",
+            
+            
+            startdescription: "Mon travail est exigeant. Je devrai y consacrer un peu de Raison.",
+            
+            
+        },
+
+        {
+            id: "gloverandgloverseniorworkyoungerglovergone",
+extends: ["gloverandgloverseniorworkyoungerglovergone"],
+            label: "Travailler chez Glover & Glover",
+            
+            
+            
+
+            
+            startdescription: "Je me relève les manches et je commence.",
+            description: "Quand je ferme les yeux, des personnages défilent derrière mes paupières. Quand je les ouvre, la lumière me fait mal.",
+            
+            slots: [
+                {
+                    id: "Ambition",
+extends: ["Ambition"],
+                    label: "Ambition",
+                    
+                    description: "Le siège du jeune Glover au conseil d'administration reste inoccupé..."
+                }
+            ],
+            
+            
+        },
+        {
+            id: "gloverandgloverseniorwork_youngerglovergone_hint",
+extends: ["gloverandgloverseniorwork_youngerglovergone_hint"],
+            label: "Travailler chez Glover & Glover ?",
+            
+            
+            startdescription: "Mon travail est exigeant. Je devrai y consacrer une partie de ma Raison.",
+            
+            
+        },
+
+        {
+            id: "gloverandgloversenior_diligence_promotion",
+extends: ["gloverandgloversenior_diligence_promotion"],
+            label: "Une Promotion !",
+            
+            
+            
+            
+            startdescription: ".",
+            description: "'Mon fils,' confie le vieux Glover, 'était un garçon très cher, mais il manquait d'ambition. Vous, en revanche, vous en débordez. Je me vois en vous, vous le savez ? Oui, je le sais. Eh bien, je pense que nous pouvons vous trouver une place au conseil d'administration.'",
+        },
+        {
+            id: "gloverandglovertopwork",
+extends: ["gloverandglovertopwork"],
+            label: "Travailler chez Glover & Glover",
+            
+            
+            
+            slots: [
+                {
+                    id: "Scandal",
+extends: ["Scandal"],
+                    label: "Scandale",
+                    
+                    
+                    description: "Ma haute position me permet maintenant de me protéger des scandales. Mais si l'entreprise s'inquiète trop, je pourrais être licencié."
+                }
+            ],
+            startdescription: "Les heures de la journée de travail attendent en rang devant moi. Je pourrais rentrer chez moi après le déjeuner...",
+            description: "Si Glover et Glover avaient un coeur, ce serait le service des comptes, où l'argent circule comme les marées du printemps. Ses membres seraient ses administrateurs et ses employés à l'esprit vif et discret. Mais je suis assis avec les autres directeurs au sommet de son crâne, à l'abri (pour l'instant) des scandales et des soucis financiers.",
+            
+
+            
+            
+            
+        },
+        {
+            id: "gloverandglovertopwork_scandal_a",
+extends: ["gloverandglovertopwork_scandal_a"],
+            
+            label: "Une expression d'inquiétude",
+            
+            
+            startdescription: ".",
+            description: "J'ai été convoqué en présence du vieux Glover - le seul Glover, maintenant. Il se déplace inconfortablement dans son siège. 'J'ai entendu dire' commence-t-il. Il hésite. Il me regarde dans les yeux. 'Je ne veux plus entendre parler de ça - de ça. Pas un mot de plus. Pas un mot.'",
+            
+        },
+        {
+            id: "gloverandglovertopjob_tainted",
+extends: ["gloverandglovertopjob_tainted"],
+            
+            label: "Travailler chez Glover & Glover",
+            
+            
+            slots: [
+                {
+                    id: "Scandal",
+extends: ["Scandal"],
+                    label: "Scandale",
+                    
+                    
+                    description: "Ma haute position peut me protéger un peu plus longtemps. Mais je risque maintenant de perdre mon poste."
+                }
+            ],
+            startdescription: "L'époque où je pouvais rentrer chez moi après le déjeuner est révolue. Mes collègues ont commencé à se douter de ce que je suis. Ils ne savent rien de ce que je pourrais être.",
+            description: "Je passe en revue des colonnes de chiffres bien rangées dans une salle bien rangée du cinquième étage. De la fenêtre de mon bureau, je peux voir la rivière. Ma secrétaire m'apporte une boisson chaude toutes les cinquante-neuf minutes. La rivière est de la couleur de la pluie.",
+            
+
+            
+            
+            
+        },
+        {
+            id: "gloverandglovertopwork_scandal_b",
+extends: ["gloverandglovertopwork_scandal_b"],
+            label: "En disgrâce !",
+            
+            
+            startdescription: ".",
+            description: "J'ai reçu une lettre officielle (mais étrangement craintive), remise en main propre par la société Glover and Glover. Mes services en tant que directeur ne sont plus requis, mais j'ai reçu une indemnité de départ assez généreuse. Le cabinet espère vivement qu'il n'y aura pas de malaise. La signature sur la lettre est un peu chancelante... ",
+            
+        },
+
+
+        {
+            id: "institutephysicianwork",
+extends: ["institutephysicianwork"],
+            label: "Travailler à l'Institut",
+            
+            
+            
+            startdescription: "Les salles de l'Institut dégagent une odeur humide et tenace qui ne quitte jamais les lieux. C'est peut-être la peinture. Peut-être que ce sont les patients. C'est peut-être quelque chose dans les murs.",
+            description: "J'ai fait de bonnes choses. Mes patients sont plus tranquilles que lorsque j'ai commencé.",
+            
+            
+        },
+        {
+            id: "workbeg",
+extends: ["workbeg"],
+            label: "Mendier dans les rues",
+            
+            
+            
+            
+            startdescription: "J'afficherai mes infirmités, et j'espérerai de la compassion de la part des passants.",
+            description: "Une longue journée. Quelques pièces jetées, la plupart rejetées. Il est difficile de voir autant de personnes m'éviter pendant tant d'heures.",
+            
+            
+        },
+        {
+            id: "workbeg_lucky",
+extends: ["workbeg_lucky"],
+            label: "Mendier dans les rues",
+            
+            
+            
+            description: "Une longue journée. Quelques pièces jetées, la plupart rejetées. Mais il y a un souverain en or dans mon bol ! Un don généreux, ou un accident ?",
+            
+        },
+
+        {
+            id: "workhealthskilld_edge",
+extends: ["workhealthskilld_edge"],
+            label: "Main d'oeuvre non qualifiée: Comme la montagne",
+            
+            
+            
+            
+            startdescription: "Une fois de plus, j'ai mis ma force à profit.",
+            description: "Ils disent que je peux faire le travail de deux autres personnes ensemble. Ce n'est pas vrai ; pas tout à fait.",
+            
+            
+
+
+        },
+        {
+            id: "workhealthskillc",
+extends: ["workhealthskillc"],
+            label: "Main d'oeuvre non qualifiée: Bras d'acier",
+            
+            
+            
+            
+            startdescription: "Une fois de plus, j'ai mis ma force à profit.",
+            description: "Ma force attire les commentaires. Tous les commentaires ne sont pas des compliments. Je retire mon salaire et je pars.",
+            
+            
+        },
+        {
+            id: "workhealthskillb",
+extends: ["workhealthskillb"],
+            label: "Main d'oeuvre non qualifiée: Bras de fer",
+            
+            
+            
+            
+            startdescription: "Je vais travailler avec rapidité et en silence. Je ne crains pas les blessures.",
+            description: "Les autres me parlent peu, mais maintenant ils hochent la tête quand je passe. Voici ma paie.",
+            
+            
+        },
+        {
+            id: "workhealthskilla",
+extends: ["workhealthskilla"],
+            label: "Main d'oeuvre non qualifiée: Bras de bronze",
+            
+            
+            
+            
+            
+            startdescription: "Au travail, donc.",
+            description: "J'ai fini tôt. Voici ma paie.",
+            
+            
+
+        },
+
+        {
+            id: "workhealth_noinjurychance",
+extends: ["workhealth_noinjurychance"],
+            label: "Travail non qualifié",
+            
+            
+            
+            
+            
+            startdescription: "Un travail éreintant pour un maigre salaire. Est-ce le mieux que je puisse faire ?",
+            description: "La journée est achevée, et moi aussi ; mais j'ai gagné ma paie.",
+            
+            
+            
+            comments: "garantie de trois jours sans blessure"
+        },
+        {
+            id: "workhealth",
+extends: ["workhealth"],
+            label: "Travail non qualifié",
+            
+            
+            
+            
+            
+            startdescription: "Un travail éreintant pour un maigre salaire. Est-ce le mieux que je puisse faire ?",
+            description: "La journée est achevée, et moi aussi ; mais j'ai gagné ma paie.",
+            
+            
+        },
+        {
+            id: "workhealthinjury",
+extends: ["workhealthinjury"],
+            label: "Un accident du travail !",
+
+            
+            
+            
+            startdescription: ".",
+            description: "Je suis blessé ! Je rentrerai péniblement chez moi avec ma misérable paye.",
+            
+            
+        },
+
+
+        {
+            id: "workinvestmentjobc",
+extends: ["workinvestmentjobc"],
+            label: "Gérer mes affaires",
+            
+            
+            
+            
+            startdescription: "Mes investissements me procureront d'excellents résultats, si j'y prête attention.",
+            description: "Un chèque bien blanc dans une enveloppe bien blanche, pour une bien belle somme.",
+            
+            
+        },
+        {
+            id: "workinvestmentjobb",
+extends: ["workinvestmentjobb"],
+            label: "Gérer mes affaires",
+            
+            
+            
+            
+            startdescription: "Mes investissements me procureront de bons résultats, si j'y prête attention.",
+            description: "Un chèque blanc dans une belle enveloppe blanche, pour une somme raisonnablement intéressante.",
+            
+            
+        },
+        {
+            id: "workinvestmentjoba",
+extends: ["workinvestmentjoba"],
+            label: "Gérer mes affaires",
+            
+            
+            
+            
+            startdescription: "Mes investissements me permettront de subvenir à mes besoins, si j'y prête attention.",
+            description: "Un chèque blanc dans une enveloppe blanche, pour une somme modeste.",
+            
+            
+        },
+        {
+            id: "investmentsjobdecline",
+extends: ["investmentsjobdecline"],
+            label: "Un déclin de circonstances",
+            
+            
+            startdescription: ".",
+            description: "J'ai reçu le chèque habituel, mais il est accompagné de nouvelles inquiétantes. Mes investissements en ont souffert : malchance ou, peut-être, malveillance d'un ennemi.",
+            
+            
+        }
+
+
+    ]
+}

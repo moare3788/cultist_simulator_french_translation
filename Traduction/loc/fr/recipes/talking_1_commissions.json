@@ -1,0 +1,437 @@
+{
+    "recipes": [
+        {
+            id: "getcommissionaladim",
+extends: ["getcommissionaladim"],
+            label: "Obtenir une commande du Dr al-Adim",
+            
+            
+            startdescription: "Le médecin aimerait que je l'aide dans ses recherches.",
+            description: "Ce qu'il lui faut.",
+            
+            
+            
+            
+
+        },
+
+        {
+            id: "getcommissionbechet",
+extends: ["getcommissionbechet"],
+            label: "Obtenir une commande de Mme Bechet",
+            
+            
+            startdescription: "Elle cherche des articles pour le célèbre 'Kerisham Review'.",
+            description: "Ce qu'il lui faut.",
+            
+            
+            
+            
+
+        },
+
+        {
+            id: "getcommissionjannings",
+extends: ["getcommissionjannings"],
+            label: "Obtenir une commande du Comte Jannings",
+            
+            
+            startdescription: "La confrérie du bon Comte en Europe demande une recherche particulière.",
+            description: "Ce qu'il lui faut.",
+            
+            
+            
+            
+
+        },
+        {
+            id: "getcommissionpoppy",
+extends: ["getcommissionpoppy"],
+            label: "Obtenir une commande de Poppy Lascelles",
+            
+            
+            startdescription: "'Je suis,' dit Poppy avec un rire de fille, 'curieuse sur, oh vous savez, les arts du sang et de la glace. C'est idiot, mais permettez à une vieille femme ses lubies. M'aiderez-vous ?'",
+            description: "Ce qu'il lui faut.",
+            
+            
+            
+            
+
+        },
+
+        {
+            id: "fulfilcommissionaladimsecrethistoriesc",
+extends: ["fulfilcommissionaladimsecrethistoriesc"],
+            label: "Réaliser une mission pour le Dr al-Adim",
+            
+            
+            
+            startdescription: "J'ai ce que le médecin a demandé.",
+            description: "j'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+        {
+            id: "fulfilcommissionaladimsecrethistoriesb",
+extends: ["fulfilcommissionaladimsecrethistoriesb"],
+            label: "Réaliser une mission pour le Dr al-Adim",
+            
+            
+            
+            startdescription: "J'ai ce que le médecin a demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionaladimsecrethistories",
+extends: ["fulfilcommissionaladimsecrethistories"],
+            label: "Réaliser une mission pour le Dr al-Adim",
+            
+            
+            
+            startdescription: "J'ai ce que le médecin a demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+
+        {
+            id: "fulfilcommissionaladimlanternc",
+extends: ["fulfilcommissionaladimlanternc"],
+            label: "Réaliser une mission pour le Dr al-Adim",
+            
+            
+            
+            startdescription: "J'ai ce que le médecin a demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+        {
+            id: "fulfilcommissionaladimlanternb",
+extends: ["fulfilcommissionaladimlanternb"],
+            label: "Réaliser une mission pour le Dr al-Adim",
+            
+            
+            
+            startdescription: "J'ai ce que le médecin a demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionaladimlantern",
+extends: ["fulfilcommissionaladimlantern"],
+            label: "Réaliser une mission pour le Dr al-Adim",
+            
+            
+            
+            startdescription: "J'ai ce que le médecin a demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+
+        {
+            id: "fulfilcommissionbechetforgec",
+extends: ["fulfilcommissionbechetforgec"],
+            label: "Réaliser une mission pour Mme Bechet",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionbechetforgeb",
+extends: ["fulfilcommissionbechetforgeb"],
+            label: "Réaliser une mission pour Mme Bechet",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionbechetforge",
+extends: ["fulfilcommissionbechetforge"],
+            label: "Réaliser une mission pour Mme Bechet",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+
+        {
+            id: "fulfilcommissionbechetgrailc",
+extends: ["fulfilcommissionbechetgrailc"],
+            label: "Réaliser une mission pour Mme Bechet",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionbechetgrailb",
+extends: ["fulfilcommissionbechetgrailb"],
+            label: "Réaliser une mission pour Mme Bechet",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionbechetgrail",
+extends: ["fulfilcommissionbechetgrail"],
+            label: "Réaliser une mission pour Mme Bechet",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+
+        {
+            id: "fulfilcommissionbechetmothc",
+extends: ["fulfilcommissionbechetmothc"],
+            label: "Réaliser une mission pour Mme Bechet",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionbechetmothb",
+extends: ["fulfilcommissionbechetmothb"],
+            label: "Réaliser une mission pour Mme Bechet",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionbechetmoth",
+extends: ["fulfilcommissionbechetmoth"],
+            label: "Réaliser une mission pour Mme Bechet",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+
+        {
+            id: "fulfilcommissionjanningsheartc",
+extends: ["fulfilcommissionjanningsheartc"],
+            label: "Réaliser une mission pour le Comte Jannings",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionjanningsheartb",
+extends: ["fulfilcommissionjanningsheartb"],
+            label: "Réaliser une mission pour le Comte Jannings",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionjanningsheart",
+extends: ["fulfilcommissionjanningsheart"],
+            label: "Réaliser une mission pour le Comte Jannings",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+
+
+        {
+            id: "fulfilcommissionjanningsedgec",
+extends: ["fulfilcommissionjanningsedgec"],
+            label: "Réaliser une mission pour le Comte Jannings",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionjanningsedgeb",
+extends: ["fulfilcommissionjanningsedgeb"],
+            label: "Réaliser une mission pour le Comte Jannings",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionjanningsedge",
+extends: ["fulfilcommissionjanningsedge"],
+            label: "Réaliser une mission pour le Comte Jannings",
+            
+            
+            
+            startdescription: "J'ai ce qui a été demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+
+        {
+            id: "fulfilcommissionpoppycommissionwinterc",
+extends: ["fulfilcommissionpoppycommissionwinterc"],
+            label: "Réaliser une mission pour Poppy Lascelles",
+            
+            
+            
+            startdescription: "J'ai ce que Poppy a demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+        {
+            id: "fulfilcommissionpoppycommissionwinterb",
+extends: ["fulfilcommissionpoppycommissionwinterb"],
+            label: "Réaliser une mission pour Poppy Lascelles",
+            
+            
+            
+            startdescription: "J'ai ce que Poppy a demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionpoppycommissionwinter",
+extends: ["fulfilcommissionpoppycommissionwinter"],
+            label: "Réaliser une mission pour Poppy Lascelles",
+            
+            
+            
+            startdescription: "J'ai ce que Poppy a demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+
+        {
+            id: "fulfilcommissionpoppycommissionknockc",
+extends: ["fulfilcommissionpoppycommissionknockc"],
+            label: "Réaliser une mission pour Poppy Lascelles",
+            
+            
+            
+            startdescription: "J'ai ce que Poppy a demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+        {
+            id: "fulfilcommissionpoppycommissionknockb",
+extends: ["fulfilcommissionpoppycommissionknockb"],
+            label: "Réaliser une mission pour Poppy Lascelles",
+            
+            
+            
+            startdescription: "J'ai ce que Poppy a demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+        {
+            id: "fulfilcommissionpoppycommissionknock",
+extends: ["fulfilcommissionpoppycommissionknock"],
+            label: "Réaliser une mission pour Poppy Lascelles",
+            
+            
+            
+            startdescription: "J'ai ce que Poppy a demandé.",
+            description: "J'ai reçu la monnaie du monde secret, et mon mécène a laissé échapper des informations alléchantes.",
+            
+            
+            
+        },
+
+
+    ]
+}

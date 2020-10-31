@@ -1,0 +1,151 @@
+{
+    "elements": [
+        {
+            id: "memorybittersweet",
+extends: ["memorybittersweet"],
+            label: "Souvenirs doux-amers",
+            description: "Je pourrais me souvenir d'une époque complexe.",
+            
+            
+        },
+        {
+            id: "memorypleasant",
+extends: ["memorypleasant"],
+            label: "Un souvenir agréable",
+            description: "Je me souviens d'une époque plus heureuse.",
+            
+            
+        },
+        {
+            id: "memorypassionate",
+extends: ["memorypassionate"],
+            label: "Un souvenir passionné",
+            description: "Je me souviens d'une époque plus chaude.",
+            
+            
+        },
+        {
+            id: "memory.shameful",
+extends: ["memory.shameful"],
+            label: "Quelque chose de honteux",
+            
+            description: "Tous les plaisirs privés ne se prêtent pas à une discussion publique.",
+            
+        },
+
+        {
+            id: "memory.profitable",
+extends: ["memory.profitable"],
+            label: "Quelque chose de profitable",
+            
+            description: "Un coup de projecteur commercial ; une opportunité miniature ; un billet de cinq livres au sens figuré sur le trottoir.",
+            
+        },
+
+        {
+            id: "memory.joyful",
+extends: ["memory.joyful"],
+            label: "Quelque chose de joyeux",
+            
+            description: "Le plaisir ne dure pas longtemps, mais parfois, il dure plus longtemps que nous.",
+            
+        },
+
+        {
+            id: "memory.menacing",
+extends: ["memory.menacing"],
+            label: "Quelque chose de menaçant",
+            
+            description: "La grande miséricorde des rêves est qu'ils ne s'immiscent pas souvent dans la vie éveillée.",
+            
+        },
+
+        {
+            id: "memory.unexpected",
+extends: ["memory.unexpected"],
+            label: "Quelque chose d'inattendu",
+            
+            description: "Chaque vie a ses coins impossibles.",
+            
+        },
+        {
+
+            id: "memory.furious",
+extends: ["memory.furious"],
+            label: "Souvenir fâcheux",
+            
+            description: "Bien après que la cause de la rage soit passée, la rage perdure. Voici le souvenir d'un tort commis avant même que le fer ne soit apprivoisé. [Peignez avec ce souvenir pour en prendre pleinement conscience.]"
+        },
+        {
+
+            id: "memory.luxurious",
+extends: ["memory.luxurious"],
+            label: "Un souvenir luxueux",
+            
+            description: "Le plaisir, comme la mer, est ancien ; le plaisir, comme la mer, précède l'âme humaine consciente ; mais comme la mer, le plaisir est différent à chaque époque et à chaque heure. [Peignez avec cette mémoire pour la rendre pleinement consciente.]"
+        },
+        {
+
+            id: "memory.liminal",
+extends: ["memory.liminal"],
+            label: "Souvenir liminaire",
+            
+            description: "'Nous avons tous le souvenir d'un moment où les choses ont changé pour toujours, même si à l'époque nous ne le savions pas. Peut-être que le monde a aussi ces souvenirs.' [Peindre avec ce Souvenir pour en prendre pleinement conscience.]"
+        },
+        {
+
+            id: "memory.horizon",
+extends: ["memory.horizon"],
+            label: "Un souvenir glorieux",
+            
+            description: "Le soleil était plus chaud autrefois - pas plus brillant, mais son toucher était une sorte de pitié. [Peignez avec cette mémoire pour lui donner une pleine conscience.]"
+        },
+
+        {
+
+            id: "memory.splendid",
+extends: ["memory.splendid"],
+            label: "Souvenir splendide",
+            
+            description: "Le soleil était autrefois plus brillant - pas plus chaud, mais sa lumière contenait des couleurs que nous ne voyons plus. [Peignez avec cette mémoire pour lui faire prendre pleinement conscience.]"
+        },
+
+        {
+
+            id: "memory.endless",
+extends: ["memory.endless"],
+            label: "Un souvenir sans fin",
+            
+            description: "Il existe une roue qui ne tourne que sous la Lune, alors qu'elle tournait autrefois sous le Soleil. Mais pourquoi une seule ? Pourquoi seulement deux ? [Peignez avec cette mémoire pour lui donner une pleine conscience.]"
+        },
+
+
+        {
+
+            id: "memory.wildering",
+extends: ["memory.wildering"],
+            label: "Souvenir sauvage",
+            
+            description: "Parfois, nous nous souvenons de ce qui a été perdu, même si nous avons oublié qu'il a disparu. [Peindre avec cette mémoire pour en prendre pleinement conscience.]"
+        },
+        {
+
+            id: "memory.golden",
+extends: ["memory.golden"],
+            label: "Souvenir doré",
+            
+            description: "Dans le feu se révèlent tous les trésors de la terre. [Peignez avec cette mémoire pour lui faire prendre pleinement conscience.]"
+        },
+        {
+
+            id: "memory.honeyed",
+extends: ["memory.honeyed"],
+            label: "Souvenir de miel",
+            
+            description: "Quand nous marchions dans les chemins du bois, nous étions ailés et vigilants, et nous n'avions pas besoin de nectar. [Peignez avec cette mémoire pour la rendre pleinement consciente.]"
+        },
+
+
+
+    ]
+}

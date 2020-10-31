@@ -1,0 +1,49 @@
+{
+    "recipes": [
+
+        {
+            id: "translatevakh1int",
+extends: ["translatevakh1int"],
+            comments: "here to prevent possible legacy save issues only - orig hint misnamed",
+            
+            
+            
+            
+        },
+
+        {
+            id: "studyincreasehealthskillc",
+extends: ["studyincreasehealthskillc"],
+            comments: "Compatibilité à posteriori uniquement",
+            
+            description: "Mes efforts ont été vains.",
+            
+            
+
+        },
+
+        {
+            id: "studyincreasereasonskillc",
+extends: ["studyincreasereasonskillc"],
+            comments: "Compatibilité à posteriori uniquement",
+            
+            description: "Mes efforts ont été vains.",
+            
+            
+
+        },
+
+        {
+            id: "studyincreasepassionskillc",
+extends: ["studyincreasepassionskillc"],
+            comments: "Compatibilité à posteriori uniquement",
+            
+            description: "Mes efforts ont été vains.",
+            
+            
+
+        },
+
+
+    ]
+}

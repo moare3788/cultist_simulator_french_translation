@@ -1,0 +1,246 @@
+{
+    "recipes": [
+        {
+            id: "drawseason",
+extends: ["drawseason"],
+            
+            
+            
+            
+        },
+
+        {
+            id: "needs",
+extends: ["needs"],
+            label: "Le temps passe",
+            
+            
+            
+            startdescription: "Le temps, comme l'ombre du cadran solaire, passe. Je dois avoir des fonds pour vivre, sinon je tomberai malade.",
+            description: ".",
+            
+            slots: [
+                {
+                    id: "Expenses",
+extends: ["Expenses"],
+                    label: "Dépenses",
+                    
+                    
+                    
+                    description: "Les commerçants auront leur dû. Je dois le payer ou mourir de faim."
+                }
+            ],
+        },
+        {
+            id: "discardseason",
+extends: ["discardseason"],
+            
+            
+            
+            
+        },
+        {
+            id: "presickness",
+extends: ["presickness"],
+            label: "Le prix du bonheur",
+            
+            comments: "conduit à une véritable maladie due à l'abus d'opium, ce qui nécessite une saison entière",
+            startdescription: "Ma respiration a été difficile, mes pensées confuses. Peut-être n'aurais-je pas dû me laisser aller aussi librement à ce remède contre la douleur.",
+            
+            
+            
+        },
+
+
+        {
+            id: "sickness",
+extends: ["sickness"],
+            label: "Maladie",
+            
+            startdescription: "Je suis tombé malade !",
+            description: "Cette maladie a porté atteinte à ma santé. J'aurai besoin de me reposer avant de me rétablir complètement. [Traitez votre maladie avec des Fonds ou de la Vitalité.]",
+            
+            
+            comments: "Nous ne voulons pas doubler la maladie normale et la maladie du Graal",
+            slots: [
+                {
+                    id: "Affliction",
+extends: ["Affliction"],
+                    label: "Santé",
+                    
+                    
+                    
+                }
+            ],
+            
+            
+
+
+            
+            
+        },
+
+        {
+            id: "signalupcomingsicknessdeath",
+extends: ["signalupcomingsicknessdeath"],
+            
+            label: "Maladie",
+            
+            startdescription: "Je suis tombé malade ! [Si une maladie ne peut pas consumer de la Santé, elle vous tuera... sauf si vous bénéficiez d'une protection spéciale.]",
+            comments: "nous avons besoin de cela ici pour pouvoir avoir un avertissement s'il n'y a pas de santé ; ensuite nous relions à la tentative de sursis pour avoir un nouveau créneau.",
+            
+            
+        },
+
+        {
+            id: "sickness.nohealthavailable.tryforstayofexecution",
+extends: ["sickness.nohealthavailable.tryforstayofexecution"],
+            
+            label: "Péril mortel",
+            slots: [
+                {
+                    id: "sicknessprotection",
+extends: ["sicknessprotection"],
+                    label: "Protection",
+                    
+                    
+                }
+            ],
+            startdescription: "La maladie mettra un terme à mon existence, à moins que je n'aie pris des dispositions extraordinaires pour protéger ma santé...",
+                    
+                },
+                {
+                    id: "mareendingsickness",
+extends: ["mareendingsickness"],
+                    
+                    label: "J'aperçois la Faucheuse dans mes rêves",
+                    startdescription: "ELLE VIENT",
+                    description: "--",
+                    
+                },
+            ]
+        },
+
+
+        {
+            id: "forlornbloodsickness",
+extends: ["forlornbloodsickness"],
+            label: "Maladie",
+            
+            
+            slots: [
+                {
+                    id: "Affliction",
+extends: ["Affliction"],
+                    label: "Affliction",
+                    
+                    
+                }
+            ],
+            
+            
+            startdescription: "La maladie a pris le dessus. Pour survivre, je dois goûter le sang de notre Délice, et bientôt. [Si cette maladie ne peut consommer de la Santé, ou le Sang Délicieux, elle vous tuera.]",
+            description: "Je diminue et je deviens pâle. La fatigue étrangle ma gorge. Je dois m'assurer que ma mort a un sens.",
+            
+        },
+
+        {
+            id: "savorousbloodrespite",
+extends: ["savorousbloodrespite"],
+            
+            label: "Un répit",
+            
+            startdescription: "Le sang de notre Délice me réchauffe. Il fait naître des fleurs rouges sur mes joues, il déverse du vin dans mon cœur, il fait tinter mes cordes au rythme que le Graal a enseigné à Thunderskin. Je vivrai un peu plus longtemps, je l'ai décidé.",
+            
+        },
+
+        {
+            id: "deathofthewoundedfollower",
+extends: ["deathofthewoundedfollower"],
+            
+            label: "Mon adepte est en train de mourir !",
+            
+            startdescription: "Ces blessures sont mortelles. Il n'y a rien à faire.",
+            description: "Peut-être que son esprit se promène dans la maison. Peut-être est-il perdu dans le Bois, pour s'enfoncer toujours plus bas. Leurs dépouilles mortelles pareilles à des coquilles vides.",
+            
+            
+        },
+        {
+            id: "rosenext",
+extends: ["rosenext"],
+            label: "Rencontres et interludes",
+            
+            
+            slots: [
+                {
+                    id: "Who?",
+extends: ["Who?"],
+                    label: "Qui ?",
+                    description: "De la main à la main et de l'oeil à l'oeil.",
+                    
+                    
+                    
+                }
+            ],
+            startdescription: "Si j'ai un ami en particulier, c'est le moment de renouer avec lui.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "pleasantday",
+extends: ["pleasantday"],
+            label: "Une journée agréable",
+            
+            
+            
+            comments: "actuellement inutilisé",
+            startdescription: "Ce matin, ma démarche est pleine de vigueur. Je ne sais pas pourquoi.",
+            description: "Certains jours sont meilleurs que d'autres. Parfois, le ciel n'est rien d'autre qu'un rideau sale. Parfois, la rivière coule claire.",
+            
+            
+        },
+        {
+            id: "despairrisklink",
+extends: ["despairrisklink"],
+            label: "Risque de désespoir",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "visionsrisklink",
+extends: ["visionsrisklink"],
+            label: "Risques de visions",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "starvation",
+extends: ["starvation"],
+            label: "Famine",
+            
+            
+            
+            
+            startdescription: ".",
+            description: "Sans argent, je vais bientôt mourir de faim. [Si une maladie ne peut pas consommer de la Santé, elle vous tuera.]",
+            
+            slots: [
+                {
+                    id: "starvation",
+extends: ["starvation"],
+                    label: "Starvation",
+                    
+                    
+                }
+            ]
+        },
+
+    ]
+}

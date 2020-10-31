@@ -1,0 +1,14 @@
+{
+    "decks": [
+        {
+            id: "randominfluencelow",
+extends: ["randominfluencelow"],
+            label: "Augures",
+            description: "Les temps et les lieux de pouvoir, bientôt. Ils pourraient être liés à presque tous les aspects.",
+            
+            
+            
+        },
+
+    ]
+}

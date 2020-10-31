@@ -1,0 +1,43 @@
+{
+    "elements": [
+
+        {
+            id: "mystique",
+extends: ["mystique"],
+            label: "Mysticisme",
+            
+            description: "L'inquiétude persiste. [Le mysticisme peut attirer l'attention des chasseurs. Ils ne peuvent pas l'utiliser pour monter un dossier contre vous, mais cela les encouragera à chercher plus loin.]",
+            
+        },
+        {
+            id: "notoriety",
+extends: ["notoriety"],
+            label: "Notoriété",
+            
+            description: "Certains actes ne sont pas rapidement oubliés. [La notoriété peut permettre aux chasseurs de monter un dossier contre vous.]",
+            
+            
+        },
+        {
+            id: "evidence",
+extends: ["evidence"],
+            
+            label: "Preuves provisoires",
+            description: "Un chasseur a trouvé des preuves - réelles ou imaginaires - de mes péchés. [Les chasseurs ayant des preuves d'activités occultes deviennent plus dangereux. Les preuves peuvent survivre à la mort du chasseur qui les a créées.]",
+            
+            
+
+        },
+        {
+            id: "evidenceb",
+extends: ["evidenceb"],
+            
+            label: "Des preuves accablantes",
+            description: "'Terre, regarde !  O, non, elle ne m'hébergera pas ! [Avec des preuves accablantes d'activités occultes dans la ville, le Bureau de répression pourra vous condamner. Les preuves peuvent survivre à la mort du chasseur qui les a créées.]",
+            
+            
+            
+        },
+
+    ]
+}

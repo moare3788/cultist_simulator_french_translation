@@ -1,0 +1,217 @@
+{
+    "recipes": [
+
+        {
+            id: "ambition.apostlelantern.emitfuel",
+extends: ["ambition.apostlelantern.emitfuel"],
+            
+            label: "Une vision de l'illuminé",
+            
+            startdescription: "Le rêve, à nouveau.",
+            
+        },
+
+        {
+            id: "work.apostlelantern.majorvictory.postbetrayal",
+extends: ["work.apostlelantern.majorvictory.postbetrayal"],
+            
+            label: "Et maintenant, la Porte s'ouvre sur l'extérieur",
+            
+            startdescription: "Le Guetteur est ici dans tout son éclat, mais même lui se tiendra à l'écart pour la Clé des Jours. J'ai fermé la porte de mon oeil, mais je ne peux pas oublier. Mon chemin a été ordonné avant même que je ne voie la vraie lumière.  Les Témoins et moi sommes prêts - prêts à ce que la Gloire entre dans le Mansus par l'autre côté. Les rêves des innocents ne sont pas aussi préparés. Des centaines d'âmes ne se réveilleront jamais. Il y a toujours un prix à payer, et il est essentiel que notre Illuminé navigue, qu'il illumine, qu'il ne soit pas compatissant.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "work.apostlelantern.majorvictory",
+extends: ["work.apostlelantern.majorvictory"],
+            
+            label: "La Porte s'ouvre vers l'extérieur",
+            
+            startdescription: "Le Guetteur est ici dans tout son éclat, mais même lui se tiendra à l'écart pour la Clé des Jours. Les Témoins et moi sommes prêts - prêts à ce que la Gloire entre dans le Mansus par l'autre côté. Les rêves des innocents ne sont pas aussi bien préparés. Des centaines d'âmes ne se réveilleront jamais. Il y a toujours un prix à payer, et il est essentiel que notre Illuminé navigue, qu'il illumine, qu'il ne soit pas compatissant.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "apostlelantern.createpillar2",
+extends: ["apostlelantern.createpillar2"],
+            
+            label: "Localiser la Croisée des Chemins",
+            startdescription: "Derrière la Porte du Paon, en face de la Chambre des Chemins, deux routes se croisent à l'ombre d'un chêne.",
+            description: "Ici, la lumière bleue du Mansus s'approfondit jusqu'à atteindre presque le bleu du crépuscule. Les routes s'étirent dans la muraille et sont oubliées, mais ici où elles se croisent, l'ombre du corbeau dans l'ombre du chêne se souvient.",
+            
+            
+            
+        },
+
+        {
+            id: "apostlelantern.createpillar3.hint2",
+extends: ["apostlelantern.createpillar3.hint2"],
+            
+            label: "Planter le Charme ?",
+            startdescription: "Enfoncez le rêve de la Clé dans le sol meuble à la croisée des chemins. Baignez-la du plus vif éclat que l'on puisse trouver. Que va-t-il pousser ?",
+            
+            
+        },
+
+        {
+            id: "apostlelantern.createpillar3.hint1",
+extends: ["apostlelantern.createpillar3.hint1"],
+            
+            label: "Planter le Charme ?",
+            startdescription: "Quand le rêve de la Clé viendra, je l'apporterai à la croisée des chemins.",
+            
+            
+        },
+
+        {
+            id: "apostlelantern.createpillar3",
+extends: ["apostlelantern.createpillar3"],
+            
+            label: "Planter le Charme",
+            startdescription: "Enfoncez le rêve de la Clé dans le sol meuble à la Croisée des Chemins. Baignez-le dans la lumière du Guetteur. Un arbre brillant se déploiera, avec une floraison radieuse dans ses branches.",
+            description: "C'est la plus grande illumination dont notre Illuminé a besoin pour la mise en oeuvre du Guetteur, mais elle a un autre but. Comme les phalènes à la bougie, comme les poissons à l'appât, ainsi les âmes à la lumière.",
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "apostlelantern.maintainpillar3.hint",
+extends: ["apostlelantern.maintainpillar3.hint"],
+            
+            label: "Maintenir le Charme ?",
+            startdescription: "Le Charme se flétrit... à moins qu'il ne soit arrosé avec les bonnes couleurs.",
+            
+            
+        },
+
+        {
+            id: "apostlelantern.maintainpillar3",
+extends: ["apostlelantern.maintainpillar3"],
+            
+            label: "Maintenir le charme",
+            startdescription: "Dans le rêve bleu du Mansus, il est parfois possible de porter la lumière en tenant ses mains en forme de coupe.",
+            description: "J'ouvre mes mains au-dessus des racines du Charme, où il s'accroche au sol. De nouveaux fruits gonflent dans ses branches, et la Croisée des Chemins est à nouveau plus pâle.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "apostlelantern.usepillar3",
+extends: ["apostlelantern.usepillar3"],
+            
+            label: "Envoyer une Servante-dans-le-miroir attirer un Témoin",
+            startdescription: "Ma Servante conduira l'âme endormie à travers la Porte Blanche, et la portera lors de l'Ascension des Couteaux, jusqu'à que ce qu'il en reste voit le Charme à la Croisée des Chemins.",
+            
+            
+        },
+
+
+
+        {
+            id: "apostlelantern.trycreatepillar4",
+extends: ["apostlelantern.trycreatepillar4"],
+            
+            label: "Envoyer une Servante-dans-le-miroir attirer un Témoin",
+            startdescription: "La Servante murmure les éléments mineurs du Mantra de l'Ascension. Elle pose soigneusement ses pieds pâles sur les pierres de la route: ils ne laissent aucune empreinte. Les pieds du témoin sont tachés de sang.",
+            description: "La Servante part, le Témoin reste, se balançant comme l'ombre de l'arbre, les yeux fixés sur le Charme, la bouche cicatrisant doucement. Un des sept. Il ne se réveillera jamais; cela intéressera le Bureau de la répression.",
+            
+            slots: [
+                {
+                    id: "pillar4",
+extends: ["pillar4"],
+                    label: "Témoin",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "apostlelantern.upgradepillar4",
+extends: ["apostlelantern.upgradepillar4"],
+            
+            label: "Envoyer une Servante-dans-le-miroir attirer un témoin",
+            startdescription: "La Servante murmure les éléments mineurs du Mantra de l'Ascension. Elle pose soigneusement ses pieds pâles sur les pierres de la route: ils ne laissent aucune empreinte. Les pieds du témoin sont tachés de sang.",
+            description: "La Servante part, le Témoin reste, se balançant comme l'ombre de l'arbre, les yeux fixés sur le Charme, la bouche cicatrisant doucement. Un de plus. Il ne se réveillera jamais; cela intéressera le Bureau de la répression.",
+            
+            
+            
+        },
+
+
+        {
+            id: "apostlelantern.pillar4.chat",
+extends: ["apostlelantern.pillar4.chat"],
+            
+            label: "Parler avec le Témoin",
+            startdescription: "Leurs bouches sont fermées, mais leurs oreilles sont ouvertes.",
+            description: "Parfois, ils me regardent. La plupart du temps, ils regardent la lumière. Je les vois soupirer, je les vois se toucher doucement. Ils sont encore humains. La lumière s'infiltre en eux et en moi. Peut-être ai-je contribué à maintenir leur attention.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "apostlelantern.attemptrecruitkleidouchos.sulochana",
+extends: ["apostlelantern.attemptrecruitkleidouchos.sulochana"],
+            
+            label: "Interroger Sulochana sur la Clé",
+            startdescription: "'La Clé des Jours.' Sulochana se mordille les lèvres. Ses dents brillent à la lueur de la lampe. Oui, j'ai une soeur qui me correspond. Mais je ne vais pas faire cette présentation. Demandez à quelqu'un de l'autre côté du Bois - quelqu'un qui se soucie de la Gloire.'",
+            
+        },
+
+        {
+            id: "apostlelantern.recruitkleidouchos.teresa",
+extends: ["apostlelantern.recruitkleidouchos.teresa"],
+            
+            label: "Interroger Teresa sur le Rêve de la Clé",
+            startdescription: "'Mon camarade d'ascension a donc visé encore plus haut, hm ? Il pourrait le regretter.' Teresa tourne la clé imaginaire dans ses mains. 'Un rêve de la Clé des Jours. Le rêve est faux; la Clé est réelle. Mais ce n'est pas une chose que vous ou moi devons toucher.'",
+            description: "'Je connais le détenteur de la Clé - celui que vous cherchez. Je ne lui ai pas parlé depuis un certain temps - je ne parle pas souvent aux Ligeians - mais en tant que Long de la Lanterne, je me dois d'être courtoise envers votre mentor. J'enverrai chercher votre porteur de Clé.'",
+            
+            
+        },
+
+        {
+            id: "apostlelantern.persuadekleidouchos",
+extends: ["apostlelantern.persuadekleidouchos"],
+            
+            label: "Parler à la femme en noir et blanc",
+            startdescription: "'Vous avez besoin de moi pour vous aider avec la Porte Tricuspide, oui, c'est exact ? Dans son mode ultime ? Avec ma Clé des Jours ? Oui, oui, je suis au courant. Je n'aime pas voyager dans l'ignorance.'",
+            description: "'Les occasions de cette nature sont rares - si rares. Je serai ravi d'assister à votre Ascension de Long, petite marionnette. Dites-moi où. Dis-moi quand. D'ici là, je profiterai de votre ville.'",
+            
+            
+            
+            
+        },
+
+        {
+            id: "apostlelantern.kleidouchos.persuaded.hint",
+extends: ["apostlelantern.kleidouchos.persuaded.hint"],
+            
+            label: "Parler à la femme en noir et blanc",
+            startdescription: "'Quand vous serez prêt. Prenez votre temps. J'ai encore des peaux à glaner.'",
+            
+            
+        }
+
+
+
+    ]
+}

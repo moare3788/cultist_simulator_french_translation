@@ -1,0 +1,354 @@
+{
+    "elements": [
+
+        {
+            id: "apostleforge.mentor",
+extends: ["apostleforge.mentor"],
+            label: "#PREVIOUSCHARACTERNAME#, notre Façonneur",
+            description: "Celui qui nous a élevés; celui qui a fait de nous ce que nous sommes; celui qui attend en exil, et qui se lèvera quand nous apporterons l'Aube.",
+            comments: "Est une connaissance qui nous permet de dérober la recette pour la fondation de la secte.",
+            
+
+        },
+
+        {
+            id: "legacyapostleforgejob",
+extends: ["legacyapostleforgejob"],
+            label: "Un lieu privilégié",
+            description: "Pendant si longtemps, j'ai attendu à la main gauche de notre Façonneur. Maintenant, le temps est venu pour moi de diriger le Grand Oeuvre.",
+            
+
+        },
+
+        {
+            id: "apostleforge.pillarfuel",
+extends: ["apostleforge.pillarfuel"],
+            label: "Conseils du Façonneur",
+            description: "Nous aurons besoin des conseils de notre Façonneur pour forger le Noyau du Briseur d'Aube à partir d'une Étincelle de Carcasse; pour affiner les ingrédients de la Forge jusqu'à leur forme finale; pour faire d'un Adepte la Boussole du Façonneur; pour apprendre la Clé de la Ligeian, Sulochana; et pour achever l'Oeuvre. Mais si nous ne faisons pas rapidement ce qu'ils nous demandent, la Peur viendra.",
+   
+        },
+
+        {
+            id: "apostleforge.pillar1",
+extends: ["apostleforge.pillar1"],
+            label: "Technique du Briseur d'Aube",
+            description: "LE FAÇONNEUR PARLE: 'Je dois mettre en scène la Forge. Mettez une étincelle de Carcasse au coeur du moteur. Réveillez-la avec les plus grands mystères. Préparez l'alchimie la plus puissante pour l'alimenter. Trouvez la faille à l'endroit au bout de la terre qui porte le même nom dans toutes les histoires. Apportez l'appareil là-bas, avec la clé mordante que connaît Sulochana la Ligeian. Evoquez la plus grande chaleur de la Forge, employez les plus puissants Mystères de l'Ouverture, et j'assisterai à votre dissolution'"
+        },
+        {
+            id: "apostleforge.pillar2.dormant",
+extends: ["apostleforge.pillar2.dormant"],
+            label: "Noyau dormant du Briseur d'Aube",
+            description: "Une cage brillante de métal courbé, renfermant un fragment de lumière ancienne qui brille doucement. Cela pourrait déclencher notre Aube, si nous pouvons la raviver et la purifier avec le concours de l'alchimie la plus puissante.",
+            
+        },
+        {
+            id: "apostleforge.pillar2",
+extends: ["apostleforge.pillar2"],
+            label: "Noyau du Briseur d'Aube",
+            description: "Une cage rayonnante de métal courbé, emprisonnant une particule flamboyante de feu solaire. Si nous pouvons la transporter à l'endroit où la faille du monde colore l'air, nous pourrons déclencher l'Aube.",
+            
+            
+        },
+        {
+            id: "apostleforge.pillar3",
+extends: ["apostleforge.pillar3"],
+            label: "Or bleu",
+            description: "C'est le summum de l'alchimie sauvage: le bleu mortel du feu devançant la lumière. Touchez-la et mourez.",
+            
+            
+        },
+
+        {
+            id: "apostleforge.pillar5",
+extends: ["apostleforge.pillar5"],
+            label: "L'assistance de Mme E.",
+            description: "Une petite tête de chimère en laiton donnée par Mme E. en guise de preuve. Lorsque nous aurons préparé le rite approprié, elle apportera sa Clé de la faille du monde, de sorte que lorsque je déclencherai l'Aube, le Mansus s'ouvrira pour notre Façonneur. Mais elle n'attendra pas éternellement.",
+            
+            
+            
+        },
+
+        {
+            id: "apostleforge.pillar2.dormant.sabotaged",
+extends: ["apostleforge.pillar2.dormant.sabotaged"],
+            label: "Sabotage du noyau dormant du Briseur d'Aube",
+            description: "Un enchevêtrement de métal plié, contenant une particule de lumière qui s'agite de manière étrange. Nous devons le réparer avant qu'il ne s'effondre complètement !",
+            
+            
+        },
+        {
+            id: "apostleforge.pillar2.sabotaged",
+extends: ["apostleforge.pillar2.sabotaged"],
+            label: "Sabotage du noyau du Briseur d'Aube",
+            description: "Un enchevêtrement de métal plié. Une particule de feu solaire flamboyant frémit à l'intérieur. Nous devons le réparer avant qu'il ne s'effondre complètement !",
+            
+            
+        },
+        {
+            id: "apostleforge.pillar3.sabotaged",
+extends: ["apostleforge.pillar3.sabotaged"],
+            label: "Or bleu instable",
+            description: "Un lingot empoisonné et bégayant d'alchimie énergétique. Nous devons apaiser sa rage, et vite !",
+            
+            
+        },
+
+
+        {
+            id: "apostlegrail.mentor",
+extends: ["apostlegrail.mentor"],
+            label: "#PREVIOUSCHARACTERNAME#, notre Délice",
+            description: "Notre fontaine, notre joie, qui repose en exil jusqu'à la plus grande des Fêtes, la Vitulation.",
+            comments: "Is an acquaintance so we can hijack the cult foundation recipe.",
+            
+
+        },
+
+        {
+            id: "legacyapostlegrailjob",
+extends: ["legacyapostlegrailjob"],
+            label: "Devoir et Délice",
+            description: "Notre Délice m'a sauvé de la mort, et aussi de l'ennui. Nous lui donnerons tout.",
+           
+        },
+
+
+
+        {
+            id: "apostlegrail.pillarfuel",
+extends: ["apostlegrail.pillarfuel"],
+            label: "Sang délicieux",
+            description: "J'ai reçu une petite fiole du sang de notre Délice, par courrier. Les instructions de notre Délice sont écrites ici, dans les minuscules enchevêtrements de l'écriture cellulaire. Nous pouvons les goûter, comme ils nous goûteront. Si nous le gaspillons, notre Délice sera furieux.",
+           
+        },
+
+
+        {
+            id: "apostlegrail.pillar1",
+extends: ["apostlegrail.pillar1"],
+            label: "Recette de la Vitulation",
+            description: "'Le Délice donne la vie; le Délice prend la vie; le Délice ne se rassasie pas. Nous devons acheter les saveurs secrètes et les infuser avec les cadeaux des Heures; assembler l'Hôte; au moment le plus propice, faire retentir le cri irrésistible des Mystères incessants et le partager du Calice Murmurant.'",
+            
+        },
+
+
+
+        {
+            id: "apostlegrail.pillar2.dormant",
+extends: ["apostlegrail.pillar2.dormant"],
+            label: "Sang perdu",
+            description: "J'ai une maladie. Mon sang est malsain. Mes os sont malades. Je vais mourir. Mais peut-être que je peux me préserver, assez longtemps, avec le sang sacré de notre Délice.",
+            
+            slots: [
+                {
+                    id: "blood",
+extends: ["blood"],
+                    
+                    label: "Sang",
+                    
+                }
+            ]
+        },
+
+        {
+            id: "apostlegrail.pillar2",
+extends: ["apostlegrail.pillar2"],
+            label: "Sang savoureux",
+            description: "Je suis du même sang que le Délice, maintenant. Aussi longtemps que sa saveur coule dans mes veines, ma maladie ne peut me faire du mal. Sans sa bénédiction, je mourrai.",
+        },
+
+        {
+            id: "apostlegrail.pillar3",
+extends: ["apostlegrail.pillar3"],
+            label: "Les sept grâces",
+            description: "Le département 'Épices et Saveurs' de l'entreprise excentrique T.R.N. Ltd s'occupe d'entreprises comme la nôtre. Ils ont fourni ces parures tentantes, avec lesquelles nous allons nous coucher et nous préparer... une fois qu'elles auront été correctement préparées dans une cuisine fermée et plongée dans l'obscurité.",
+            
+        },
+
+        {
+            id: "apostlegrail.pillar4.inprogress1",
+extends: ["apostlegrail.pillar4.inprogress1"],
+            label: "Les premiers fragments de l'Hôte",
+            description: "Nous avons attiré quelques gourmands et pervers. Ils s'attendront à un festin des sens.",
+            
+            
+            
+            
+        },
+        {
+            id: "apostlegrail.pillar4.inprogress2",
+extends: ["apostlegrail.pillar4.inprogress2"],
+            label: "Les seconds fragments de l'Hôte",
+            description: "Les mots se répandent. La curiosité et l'appétit pousseront des étrangers à assister à notre Vitulation.",
+            
+        },
+        {
+            id: "apostlegrail.pillar4.inprogress3",
+extends: ["apostlegrail.pillar4.inprogress3"],
+            label: "Les troisième fragments de l'Hôte",
+            description: "Immondices attirés par la morbidité et de la curiosité.",
+            
+        },
+        {
+            id: "apostlegrail.pillar4.inprogress4",
+extends: ["apostlegrail.pillar4.inprogress4"],
+            label: "Les quatrièmes fragments de l'Hôte",
+            description: "Les affamés, les avides, les curieux: tous ont reçu notre invitation.",
+            
+        },
+        {
+            id: "apostlegrail.pillar4.inprogress5",
+extends: ["apostlegrail.pillar4.inprogress5"],
+            label: "Les cinquièmes fragments de l'Hôte",
+            description: "Aujourd'hui, le nom de la Vitulation est murmuré partout où la bouche embrasse de la viande.",
+            
+        },
+        {
+            id: "apostlegrail.pillar4.inprogress6",
+extends: ["apostlegrail.pillar4.inprogress6"],
+            label: "Les sixièmes fragments de l'Hôte",
+            description: "Quand le moment sera venu, nos invités se presseront comme des rats.",
+
+            
+        },
+
+        {
+            id: "apostlegrail.pillar4.inprogress7",
+extends: ["apostlegrail.pillar4.inprogress7"],
+            label: "L'Hôte, assemblé",
+            description: "Nous n'attendons que le détenteur de la clé, qui doit ouvrir la porte en Peau de Roi lorsque notre Délice activera le Graal.",
+            
+        },
+
+        {
+            id: "apostlegrail.pillar4",
+extends: ["apostlegrail.pillar4"],
+            label: "L'hôte et les invités",
+            description: "Lorsque le signal sera donné, un grand Hôte sera assemblé, les yeux si grands - la bouche si grande - pour festoyer et être festoyée - pour tirer de moi le sang de notre Délice. Notre joie les conduira dans leur festin, et la Dame des Fils fera tourner sa Clé.",
+            
+        },
+
+        {
+            id: "apostlelantern.mentor",
+extends: ["apostlelantern.mentor"],
+            label: "#PREVIOUSCHARACTERNAME#, notre Illuminé",
+            description: "Notre source, notre inspiration, qui réside maintenant dans le Mansus.",
+            comments: "Is an acquaintance so we can hijack the cult foundation recipe.",
+            
+
+        },
+
+        {
+            id: "legacyapostlelanternjob",
+extends: ["legacyapostlelanternjob"],
+            label: "Le premier Rêve",
+            description: "Les rêves m'ont creusé comme un chêne flétri, et maintenant je suis presque prêt.",
+            
+            
+        },
+
+        {
+            id: "apostlelantern.pillarfuel",
+extends: ["apostlelantern.pillarfuel"],
+            label: "Un Rêve d'une Clé",
+            description: "Le rêve, encore une fois. Des instructions pour moi, et pour quelqu'un d'autre, si je peux les trouver. Cela me guidera dans le Mansus. Cela me montrera ce que je dois faire. C'est un pressentiment de la véritable Clé, pour ceux qui connaissent un peu de la Gloire.",
+        },
+
+        {
+            id: "apostlelantern.pillar1",
+extends: ["apostlelantern.pillar1"],
+            label: "Le troisième mode",
+            description: "'Nous naviguerons; nous éclairerons; nous ne serons pas compatissants. Cherchez le carrefour derrière la Porte des Yeux. Augmentez l'Attrait. Envoyez les morts argentés pour ramener les âmes endormies des mortels. Lorsqu'il y a suffisamment de Témoins, faites venir la Clé des Jours, pour ouvrir la porte trilobée vers l'extérieur, dans son troisième mode.'",
+            
+        },
+        {
+            id: "apostlelantern.pillar2",
+extends: ["apostlelantern.pillar2"],
+            label: "Le petit Carrefour",
+            slots: [
+                {
+                    id: "keydream",
+extends: ["keydream"],
+                    label: "Un Rêve d'une Clé",
+                },
+                {
+                    id: "lanterninfluence",
+extends: ["lanterninfluence"],
+                    label: "Un rêve de Lumière",
+                }
+            ],
+            description: "Une paire de routes entrelacées à l'ombre d'un arbre, et l'oeil de la Porte des Tricuspides, près de la tête de l'ascension des Couteaux. L'ombre du Concursum ? Son reflet ? Sa soeur ?",
+            
+            
+        },
+        {
+            id: "apostlelantern.pillar3",
+extends: ["apostlelantern.pillar3"],
+            label: "L'Attrait",
+            slots: [
+                {
+                    id: "fascination",
+extends: ["fascination"],
+                    label: "L'appât",
+                }
+            ],
+            description: "Une fois vue, l'Attrait reste accrochée. Peu d'âmes vivantes s'aventureront jamais aussi loin dans le Mansus. Je dois employer une servante dans le miroir et lui montrer l'Attrait, afin qu'elle sache comment les amener ici.",
+            
+            
+            
+        },
+
+
+        {
+            id: "apostlelantern.pillar4.inprogress1",
+extends: ["apostlelantern.pillar4.inprogress1"],
+            label: "Les témoins: Un des Sept",
+            description: "Une figure solitaire, se balançant au Carrefour dans la lumière dorée de l'Attrait, le bleu du Mansus.",
+        },
+        {
+            id: "apostlelantern.pillar4.inprogress2",
+extends: ["apostlelantern.pillar4.inprogress2"],
+            label: "Les témoins: Deux des Sept",
+            description: "Un couple de témoins, se balançant au Carrefour dans la lumière dorée de l'Attrait, le bleu du Mansus.",
+        },
+        {
+            id: "apostlelantern.pillar4.inprogress3",
+extends: ["apostlelantern.pillar4.inprogress3"],
+            label: "Les témoins: Trois des Sept",
+            description: "Leurs visages sont plus blancs que jamais, mais ils se tiennent par la main.",
+        },
+        {
+            id: "apostlelantern.pillar4.inprogress4",
+extends: ["apostlelantern.pillar4.inprogress4"],
+            label: "Les témoins: Quatre des Sept",
+            description: "La lumière les blanchit, mais de par leur nature, ils pâlissent à mesure que le moment approche.",
+        },
+        {
+            id: "apostlelantern.pillar4.inprogress5",
+extends: ["apostlelantern.pillar4.inprogress5"],
+            label: "Les témoins: Cinq des Sept",
+            description: "Cinq témoins attendent le fruit qui va gonfler, mais qui ne mûrit jamais.",
+        },
+        {
+            id: "apostlelantern.pillar4.inprogress6",
+extends: ["apostlelantern.pillar4.inprogress6"],
+            label: "Les témoins: Six des Sept",
+            description: "L'air est à l'agonie. Ils ne peuvent pas détourner le regard.",
+        },
+
+
+        {
+            id: "apostlelantern.pillar4",
+extends: ["apostlelantern.pillar4"],
+            label: "Le nuage de témoins",
+            description: "Sept âmes silencieuses supplient doucement la source brillante.",
+            
+        },
+
+
+
+
+
+
+    ]
+}

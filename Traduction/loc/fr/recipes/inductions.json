@@ -1,0 +1,168 @@
+{
+    "recipes": [
+        {
+            id: "heartinduction",
+extends: ["heartinduction"],
+            label: "L'évolution du Coeur",
+            
+            
+            startdescription: "Chaque fois que le principe du Coeur est impliqué, je peux gagner de la Vitalité.",
+            description: "Mon propre cœur bat plus fort, aujourd'hui.",
+            
+            
+        },
+        {
+            id: "lanterninduction",
+extends: ["lanterninduction"],
+            label: "Une Lumière dans le Crâne",
+            
+            
+            startdescription: "Chaque fois que le principe de la Lanterne éclaire de sa lumière, je peux me rappeler d'autres bribes de connaissance.",
+            description: "Des faits poussiéreux sont apparus clairement dans mon cerveau. Pour l'instant, au moins.",
+            
+            
+        },
+        {
+            id: "mothinduction",
+extends: ["mothinduction"],
+            label: "De vieilles Choses malheureuses et lointaines",
+            
+            
+            startdescription: "La Phalène trouve la lumière dans l'obscurité, et moi aussi.",
+            description: "Une nostalgie à moitié oubliée m'a touché.",
+            
+            
+        },
+        {
+            id: "mothglimmeringinduction",
+extends: ["mothglimmeringinduction"],
+            label: "L'Obscurité, la Lumière",
+            
+            
+            startdescription: "La Phalène trouve la lumière dans l'obscurité, et moi aussi.",
+            description: "Que pourrais-je être si je ne pouvais pas être cela ?",
+            
+            
+        },
+        {
+            id: "grailinduction",
+extends: ["grailinduction"],
+            label: "L'envers du désir",
+            
+            
+            startdescription: "Y a-t-il quelque chose à apprendre de la satisfaction du désir ?",
+            description: "C'est une sorte d'illumination.",
+            
+            
+        },
+        {
+            id: "dreadinduction",
+extends: ["dreadinduction"],
+            label: "Terreurs nocturnes",
+            
+            
+            startdescription: "Je me réveille dans la nuit. Mes paumes, mon visage, sont perlés de sueur.",
+            description: "Lentement, mes poings serrés se détendent. Je me rendormirai. Mais quelque chose va rester, comme des toiles d'araignée dans le coin de la pièce.",
+            
+            
+        },
+        {
+            id: "dreadinduction_ifdread",
+extends: ["dreadinduction_ifdread"],
+            label: "Terreurs nocturnes",
+            
+            
+            
+            comments: "Only triggers if there's already Dread in whatever called this.",
+            startdescription: "Je me réveille dans la nuit. Mes paumes, mon visage, sont perlés de sueur.",
+            description: "Lentement, mes poings serrés se détendent. Je me rendormirai. Mais quelque chose va rester, comme des toiles d'araignée dans le coin de la pièce.",
+            
+            
+        },
+
+        {
+            id: "fascinationinduction",
+extends: ["fascinationinduction"],
+            label: "Nouvelles couleurs",
+            
+            
+            startdescription: "J'ai commencé à remarquer des couleurs dans le monde pour lesquelles je n'ai pas de nom.",
+            description: "Je vois des choses que je ne devrais pas voir. Je sais que c'est dangereux. Mais il est difficile de ne pas s'en languir.",
+            
+            
+        },
+        {
+            id: "fascinationinduction_iffascination",
+extends: ["fascinationinduction_iffascination"],
+            label: "Nouvelles couleurs",
+            
+            
+            
+            startdescription: "J'ai commencé à remarquer des couleurs dans le monde pour lesquelles je n'ai pas de nom.",
+            description: "Je vois des choses que je ne devrais pas voir. Je sais que c'est dangereux. Mais il est difficile de ne pas s'en languir.",
+            
+            
+        },
+
+
+        {
+            id: "poison.notoriety.induction",
+extends: ["poison.notoriety.induction"],
+            
+            label: "Le regard du public",
+            startdescription: "J'ai fait appel à un Adepte trop connu. Le Bureau de la répression pourrait en entendre parler.",
+            
+            
+        },
+
+        {
+            id: "poison.passion.dread.induction",
+extends: ["poison.passion.dread.induction"],
+            
+            label: "La Couleur rampante",
+            startdescription: "Mes passions sont empoisonnées. Chaque bouffée d'émotion apporte en réponse une sensation de grisaille.",
+            
+            
+        },
+        {
+            id: "poison.reason.fascination.induction",
+extends: ["poison.reason.fascination.induction"],
+            
+            label: "La lumière implacable",
+            startdescription: "Une bougie, lorsqu'elle est allumée, apporte de la lumière. Quand mes pensées s'enflamment, que se passe-t-il alors ?",
+            
+            
+        },
+        {
+            id: "poison.health.dread.induction",
+extends: ["poison.health.dread.induction"],
+            
+            label: "L'hospitalité de l'Agonie",
+            startdescription: "J'ai invité un vieil ami à se réfugier dans mes muscles pour un jour de plus.",
+            
+            
+        },
+
+
+        {
+            id: "secret.induction",
+extends: ["secret.induction"],
+            
+            label: "Les avantages du droit à la vie privée",
+            startdescription: "Nous avons pris soin de situer notre Quartier Général à un endroit éloigné...",
+            description: "...Il sera peut-être plus difficile pour le Bureau de la répression de suivre les pistes jusqu'à notre porte. Il sera peut-être aussi plus difficile de maintenir une réputation.",
+            slots: [
+                {
+                    id: "reputation",
+extends: ["reputation"],
+                    label: "Réputation",
+                    
+                    
+                }
+            ],
+            
+            
+        }
+
+    ]
+}

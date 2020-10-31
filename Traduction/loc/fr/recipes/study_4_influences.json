@@ -1,0 +1,412 @@
+{
+    "recipes": [
+        {
+            id: "studyugradeknockinfluence",
+extends: ["studyugradeknockinfluence"],
+            label: "Accélérer les fractures",
+            
+            
+            
+
+            
+            startdescription: "Appliquez une pression sur la peau du monde, et elle se séparera comme la peau d'un fruit mûr. [Toute influence étudiée avec la Clé devient de la Clé.]",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "studyupgradeinfluence_edge",
+extends: ["studyupgradeinfluence_edge"],
+            label: "Trouver le moment de l'opposition la plus intense",
+            
+            
+            
+            
+            
+            startdescription: "Toutes les grandes luttes se terminent par la mort. [Cela augmentera votre influence de la Pointe.]",
+            description: ".",
+            
+            
+        },
+        {
+            id: "studysubvertinfluence_edgetowinter",
+extends: ["studysubvertinfluence_edgetowinter"],
+            label: "Corrompre l'influence de la Pointe",
+            
+            
+            
+            
+            
+            startdescription: "Toutes les choses ont une fin. Je méditerai sur le triomphe de la patience sur la force. [Cela créera de l'influence de l'Hiver au lieu de la Pointe.]",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "studyforgeinfluence",
+extends: ["studyforgeinfluence"],
+            label: "Créer une plus grande chaleur",
+            
+            
+            
+
+            
+            startdescription: "Les feux se développent lorsqu'on les nourrit. [Cela augmentera votre influence de la Forge.]",
+
+            
+            
+        },
+
+        {
+            id: "studysubvertinfluence_forgetoedge",
+extends: ["studysubvertinfluence_forgetoedge"],
+            label: "Corrompre l'influence de la Forge",
+            
+            
+            
+
+            
+            startdescription: "L'Heure appelée Lionsmith a brisé sa propre épée pour échapper à la domination de son maître. Tout peut être surmonté, avec une force suffisante. [Cela créera de l'influence de la Pointe au lieu de la Forge.]",
+
+            
+            
+        },
+
+        {
+            id: "studygrailinfluence",
+extends: ["studygrailinfluence"],
+            label: "Unir les appétits",
+            
+            
+            
+
+            
+            startdescription: "Lorsque nous suivons les désirs jusqu'à leurs racines, nous trouvons les désirs qui se cachent en dessous. [Ceci augmentera votre influence du Graal.]",
+
+            
+            
+        },
+
+
+        {
+            id: "studysubvertinfluence_grailtomoth",
+extends: ["studysubvertinfluence_grailtomoth"],
+            label: "Corrompre l'influence du Graal",
+            
+            
+            
+
+            
+            startdescription: "On prétend que le Graal est né du premier sacrifice. Mais la Pahlène sait mieux que quiconque. [Cela va créer une influence de la Phalène au lieu du Graal.]",
+
+            
+            
+        },
+
+
+        {
+            id: "studyheartinfluence",
+extends: ["studyheartinfluence"],
+            label: "Entrelacer les rythmes incessants",
+            
+            
+            
+
+            
+            startdescription: "L'anatomiste, le danseur et le chaman y apprennent tous des leçons. [Cela augmentera votre influence du Coeur.]",
+
+            
+            
+        },
+
+        {
+            id: "studysubvertinfluence_hearttograil",
+extends: ["studysubvertinfluence_hearttograil"],
+            label: "Corrompre l'influence du Coeur",
+            
+            
+            
+
+            
+            startdescription: "Ce qui ne cesse pas succombera, enfin, à la tentation. [Cela créera une influence du Graal au lieu du Coeur.]",
+
+            
+            
+        },
+        {
+            id: "studylanterninfluence",
+extends: ["studylanterninfluence"],
+            label: "Aligner les luminosités",
+            
+            
+            
+
+            
+            startdescription: "Là où les miroirs se croisent, là où les ombres se séparent, là où le sang doré du Soleil s'accumule le plus. [Cela augmentera votre influence de la Lanterne.]",
+
+            
+            
+        },
+        {
+            id: "studysubvertinfluence_lanterntoforge",
+extends: ["studysubvertinfluence_lanterntoforge"],
+            label: "Corrompre l'influence de la Lanterne",
+            
+            
+            
+
+            
+            startdescription: "Le mage Julian Coseley prétend que la Forge des Jours a fendu le Soleil. Il avait peut-être raison. [Cela va créer de l'influence de la Forge au lieu de la Lanterne.]",
+
+            
+            
+        },
+        {
+            id: "studymothinfluence",
+extends: ["studymothinfluence"],
+            label: "Embrasser les possibilités du péril",
+            
+            
+            
+            
+
+            
+            startdescription: "Maintenant, je tourne le dos aux choses que je comprends. [Cela renforcera votre influence sur la Phalène.]",
+
+            
+            
+        },
+
+        {
+            id: "studysubvertinfluence_mothtolantern",
+extends: ["studysubvertinfluence_mothtolantern"],
+            label: "Corrompre l'influence de la Phalène",
+            
+            
+            
+            
+
+            
+            startdescription: "La Gloire est une question, et la Phalène répond toujours, Oui [Cela va créer une influence de la Lanterne au lieu de la Phalène.]",
+
+            
+            
+        },
+
+        {
+            id: "studywinterinfluence",
+extends: ["studywinterinfluence"],
+            label: "Approfondir le silence",
+            
+            
+            
+
+            
+            startdescription: "Le silence attend à l'ouest du monde, mais pas indéfiniment. [Cela renforcera votre influence de l'Hiver.]",
+
+            
+            
+        },
+        {
+            id: "subvertwinterinfluence",
+extends: ["subvertwinterinfluence"],
+            label: "Corrompre l'influence de l'Hiver",
+            
+            
+            
+
+            
+            startdescription: "Même dans la neige, dans le silence, dans le blanc sans couleurs, la vie ne cessera jamais tout à fait. [Cela créera de l'influence du Coeur au lieu de l'Hiver.]",
+
+            
+            
+        },
+
+        {
+            id: "studyinfluence_effectproject",
+extends: ["studyinfluence_effectproject"],
+
+            label: "Le moment des conséquences",
+            
+            
+            startdescription: "Les puissances et les potentialités s'alignent maintenant -",
+            
+            
+        },
+        {
+            id: "studyproject_influence_upgrade_edge",
+extends: ["studyproject_influence_upgrade_edge"],
+            label: "L'intensité de l'opposition",
+            
+            
+            
+            
+            description: "J'ai intensifié cette influence de la Pointe."
+        },
+
+
+
+        {
+            id: "studyproject_influence_upgrade_forge",
+extends: ["studyproject_influence_upgrade_forge"],
+            label: "Créer une plus grande chaleur",
+            
+            
+            
+            
+            description: "J'ai intensifié cette influence de la Forge."
+        },
+        {
+            id: "studyproject_influence_upgrade_grail",
+extends: ["studyproject_influence_upgrade_grail"],
+            label: "Un appétit plus vif",
+            
+            
+            
+            
+            description: "J'ai intensifié cette influence du Graal."
+        },
+        {
+            id: "studyproject_influence_upgrade_heart",
+extends: ["studyproject_influence_upgrade_heart"],
+            label: "Les rythmes incessants",
+            
+            
+            
+            
+            description: "J'ai intensifié cette influence du Coeur."
+        },
+        {
+            id: "studyproject_influence_upgrade_lantern",
+extends: ["studyproject_influence_upgrade_lantern"],
+            label: "Luminosités alignées",
+            
+            
+            
+            
+            description: "J'ai intensifié cette influence de la Lanterne."
+        },
+        {
+            id: "studyproject_influence_upgrade_moth",
+extends: ["studyproject_influence_upgrade_moth"],
+            label: "Plus près, plus près",
+            
+            
+            
+            
+            description: "J'ai intensifié cette influence de la Phalène."
+        },
+
+        {
+            id: "studyproject_influence_upgrade_winter",
+extends: ["studyproject_influence_upgrade_winter"],
+            label: "Un lieu silencieux",
+            
+            
+            
+            
+            description: "J'ai intensifié cette influence de l'Hiver."
+        },
+
+
+
+        {
+            id: "studyproject_influence_subvert_edgetowinter",
+extends: ["studyproject_influence_subvert_edgetowinter"],
+            label: "Toutes les choses ont une fin",
+            
+            
+            
+            
+            description: "La patience l'emporte sur la force."
+        },
+
+        {
+            id: "studyproject_influence_subvert_forgetoedge",
+extends: ["studyproject_influence_subvert_forgetoedge"],
+            label: "La force l'emporte sur tout",
+            
+            
+            
+            
+            description: "J'ai brisé ce qui a été façonné."
+        },
+        {
+            id: "studyproject_influence_subvert_grailtomoth",
+extends: ["studyproject_influence_subvert_grailtomoth"],
+            label: "La faim est une folie",
+            
+            
+            
+            
+            description: "Même le Graal Rouge est en proie au bourdonnement dans le cerveau."
+        },
+        {
+            id: "studyproject_influence_subvert_hearttograil",
+extends: ["studyproject_influence_subvert_hearttograil"],
+            label: "Ce qui ne cesse pas doit finir par céder",
+            
+            
+            
+            
+            description: "Tout ce qui bouge doit succomber à la faim."
+        },
+        {
+            id: "studyproject_influence_subvert_lanterntoforge",
+extends: ["studyproject_influence_subvert_lanterntoforge"],
+            label: "Sunset at midi",
+            
+            
+            
+            
+            description: "La lumière cède la place à la chaleur."
+        },
+        {
+            id: "studyproject_influence_subvert_mothtolantern",
+extends: ["studyproject_influence_subvert_mothtolantern"],
+            label: "La lumière d'en haut",
+            
+            
+            
+            
+            description: "La Gloire est une question, et la Phalène répond toujours Oui."
+        },
+
+        {
+            id: "studyproject_influence_subvert_wintertoheart",
+extends: ["studyproject_influence_subvert_wintertoheart"],
+            label: "La vie en dessous",
+            
+            
+            
+            
+            description: "L'Hiver qui arrive doit enfin céder le pas au printemps."
+        },
+
+        {
+            id: "studyproject_influence_upgrade_subvert_knock",
+extends: ["studyproject_influence_upgrade_subvert_knock"],
+            label: "La Peau du Monde",
+            
+            
+            
+            
+            description: "Faire pression sur une faiblesse, et déchirer la peau du monde.",
+            
+        },
+        {
+            id: "studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
+extends: ["studyproject_influence_upgrade_subvert_knock_remove_spare_knock"],
+            label: "Tout doit être ouvert",
+            comments: "Cela existe pour supprimer une influence de la Clé, si nous combinions des influences de clé plutôt que de CLé + une autre. Dangit Kennedy, vous n'auriez pas besoin de ce genre de hacks si vous aviez mis en place des conditions OU. Certains aspects ne sont pas toujours suffisants.",
+            
+            
+            
+            description: "."
+        },
+
+
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "elements": [
+        {
+            id: "bequestintro",
+extends: ["bequestintro"],
+            label: "Un legs",
+            
+            description: "Un paquet de papiers provenant de l'exécuteur testamentaire de mon correspondant. Je dois l'ÉTUDIER, en utilisant soit la Passion soit la Raison.",
+            slots: [
+                {
+                    id: "Approach",
+extends: ["Approach"],
+                    label: "Approche",
+                    
+                    
+                    description: "Suis-je une personne passionnée ou raisonnable ?"
+                }
+            ]
+        },
+        {
+            id: "introjob",
+extends: ["introjob"],
+            label: "Emplois subalternes",
+            description: "Une position précaire de brancardier. Misérable, mais c'est tout ce que vous pouvez trouver pour l'instant.",
+            
+        },
+        {
+            id: "contactintro",
+extends: ["contactintro"],
+            
+            label: "Notes sur un éventuel collaborateur",
+            description: "Mon correspondant avait enregistré ses observations sur moi. Il pensait que j'avais un 'potentiel'. Il a également enregistré ses observations sur quelqu'un d'autre. Avec du temps et de l'étude, je pourrai peut-être trouver cette personne.",
+        }
+    ]
+}

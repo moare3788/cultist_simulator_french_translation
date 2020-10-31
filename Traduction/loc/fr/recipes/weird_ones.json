@@ -1,0 +1,62 @@
+{
+    "recipes": [
+
+
+        {
+            id: "health_expel_to_scar",
+extends: ["health_expel_to_scar"],
+            label: "Santé: Cicatrices",
+            
+            startdescription: "Mon corps est en train de changer...",
+            description: "Certains mouvements laissent une marque plus profonde que d'autres. [La Santé est devenue une Cicatrice permanente. Faites attention : La maladie et la famine ne sont pas satisfaites par les cicatrices.]",
+            
+            
+            
+        },
+
+        {
+            id: "passion_expel_to_scar",
+extends: ["passion_expel_to_scar"],
+            label: "Passion: Meurtrie",
+            
+            startdescription: "Mes sentiments me changent...",
+            description: "Mes pensées lient ma chair et mon esprit plus étroitement qu'il n'est sûr. [La Passion s'est transformée en Cicatrice de façon permanente.]",
+            
+            
+            
+        },
+
+        {
+            id: "expel_independent",
+extends: ["expel_independent"],
+            label: "En toute sécurité",
+            
+            startdescription: "Mon rival ne peut pas savoir ce qui l'attend.",
+            
+        },
+
+        {
+            id: "expel_corpses",
+extends: ["expel_corpses"],
+            label: "Une ombre frêle",
+            
+            
+            startdescription: "C'est là que ça se passe.",
+            
+        },
+
+
+        {
+            id: "expel_injury",
+extends: ["expel_injury"],
+            label: "Une traînée de sang",
+            
+            
+            startdescription: "La douleur est le dernier cadeau.",
+            
+        },
+
+
+
+    ]
+}

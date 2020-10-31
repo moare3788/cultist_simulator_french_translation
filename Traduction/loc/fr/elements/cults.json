@@ -1,0 +1,357 @@
+{
+    "elements": [
+        {
+            id: "cultedge_1",
+extends: ["cultedge_1"],
+            label: "L'Eglise de la Pointe étincellante",
+            
+            slots: [
+                {
+                    id: "Associate",
+extends: ["Associate"],
+                    label: "Associé",
+                    
+                    
+                    
+                    description: "Une nouvelle recrue, ou un disciple endurci."
+                },
+                {
+                    id: "Ceremony",
+extends: ["Ceremony"],
+                    label: "Ceremonie",
+                    
+                    
+                    description: "Pour recruter un novice, je n'ai besoin que d'un petit secret. Les plus grands mystères nécessitent des serments plus profonds."
+                },
+                {
+                    id: "Trappings",
+extends: ["Trappings"],
+                    label: "Croyance",
+                    
+                    
+                    description: "Pour un évènement particulier. Consume des Ingrédients et de l'Influence; utilise, mais ne consume pas d'Outils."
+                }
+            ],
+            description: "Une société occulte dédiée aux Heures de lutte et de conquête. [Vous pouvez utiliser les Cultes avec le verbe Parler pour recruter ou promouvoir des adeptes, et pour les envoyer en mission afin de rassembler des ressources. Un Adepte peut être promu au rang de Disciple; quelques Disciples doués peuvent être exaltés encore plus haut, au rang d'Assassins.]",
+            
+        },
+        {
+            id: "cultforge_1",
+extends: ["cultforge_1"],
+            label: "Ordre inébranlable",
+            
+            slots: [
+                {
+                    id: "Associate",
+extends: ["Associate"],
+                    label: "Associé",
+                    
+                    
+                    
+                    description: "Une nouvelle recrue, ou un disciple endurci."
+                },
+                {
+                    id: "Ceremony",
+extends: ["Ceremony"],
+                    label: "Ceremonie",
+                    
+                    
+                    description: "Pour recruter un novice, je n'ai besoin que d'un petit secret. Les plus grands mystères nécessitent des serments plus profonds."
+                },
+                {
+                    id: "Trappings",
+extends: ["Trappings"],
+                    label: "Croyance",
+                    
+                    
+                    description: "Pour un évènement particulier. Consume des Ingrédients et de l'Influence; utilise, mais ne consume pas d'Outils."
+                }
+            ],
+            description: "Une société occulte dédiée au feu qui change et qui façonne. [Vous pouvez utiliser les Cultes avec le verbe Parler pour recruter ou promouvoir des adeptes, et pour les envoyer en mission afin de rassembler des ressources.Un Fidèle peut être promu au rang de Disciple; quelques Disciples doués peuvent être exaltés encore plus haut, au rang d'Évolué.]",
+            
+        },
+        {
+            id: "cultgrail_1",
+extends: ["cultgrail_1"],
+            label: "Ordre de la Coupe de sang",
+            
+            slots: [
+                {
+                    id: "Associate",
+extends: ["Associate"],
+                    label: "Associé",
+                    
+                    
+                    
+                    description: "Une nouvelle recrue, ou un disciple endurci."
+                },
+                {
+                    id: "Ceremony",
+extends: ["Ceremony"],
+                    label: "Ceremonie",
+                    
+                    
+                    description: "Pour recruter un novice, je n'ai besoin que d'un petit secret. Les plus grands mystères nécessitent des serments plus profonds."
+                },
+                {
+                    id: "Trappings",
+extends: ["Trappings"],
+                    label: "Croyance",
+                    
+                    
+                    description: "Pour un évènement particulier. Consume des Ingrédients et de l'Influence; utilise, mais ne consume pas d'Outils."
+                }
+            ],
+            description: "Une société occulte dédiée aux mystères de la naissance, du sang et de l'appétit. [Vous pouvez utiliser les Cultes avec le verbe Parler pour recruter ou promouvoir des Adeptes, et pour les envoyer en mission afin de rassembler des ressources. Un Adepte peut être promu au rang de Disciple; quelques Disciples doués peuvent être exaltés encore plus, en Hédonistes.]",
+            
+        },
+        {
+            id: "cultheart_1",
+extends: ["cultheart_1"],
+            label: "Temple éternel",
+            
+            slots: [
+                {
+                    id: "Associate",
+extends: ["Associate"],
+                    label: "Associé",
+                    
+                    
+                    
+                    description: "Une nouvelle recrue, ou un disciple endurci."
+                },
+                {
+                    id: "Ceremony",
+extends: ["Ceremony"],
+                    label: "Ceremonie",
+                    
+                    
+                    description: "Pour recruter un novice, je n'ai besoin que d'un petit secret. Les plus grands mystères nécessitent des serments plus profonds."
+                },
+                {
+                    id: "Trappings",
+extends: ["Trappings"],
+                    label: "Croyance",
+                    
+                    
+                    description: "Pour un évènement particulier. Consume des Ingrédients et de l'Influence; utilise, mais ne consume pas d'Outils."
+                }
+            ],
+            description: "Une société occulte dédiée au battement du tambour qui est éternel. [Vous pouvez utiliser les Cultes avec le verbe Parler pour recruter ou promouvoir des Adeptes, et pour les envoyer en mission afin de rassembler des ressources. Un Adepte peut être promu au rang de Disciple; quelques Disciples doués peuvent être exaltés encore plus haut, au rang de Tarentellistes.]",
+            
+        },
+        {
+            id: "cultknock_1",
+extends: ["cultknock_1"],
+            label: "Société de la Sainte Blessure",
+            
+            slots: [
+                {
+                    id: "Associate",
+extends: ["Associate"],
+                    label: "Associé",
+                    
+                    
+                    
+                    description: "Une nouvelle recrue, ou un disciple endurci."
+                },
+                {
+                    id: "Ceremony",
+extends: ["Ceremony"],
+                    label: "Ceremonie",
+                    
+                    
+                    description: "Pour recruter un novice, je n'ai besoin que d'un petit secret. Les plus grands mystères nécessitent des serments plus profonds."
+                },
+                {
+                    id: "Trappings",
+extends: ["Trappings"],
+                    label: "Croyance",
+                    
+                    
+                    description: "Pour un évènement particulier. Consume des Ingrédients et de l'Influence; utilise, mais ne consume pas d'Outils."
+                }
+            ],
+            description: "Une société occulte dédiée aux Heures qui ouvrent des portes. [Vous pouvez utiliser les Cultes avec le verbe Parler pour recruter ou promouvoir des Adeptes, et pour les envoyer en mission afin de rassembler des ressources. Un Adepte peut être promu au rang de Disciple; quelques Disciples doués peuvent être exaltés encore plus haut, en Clés.]",
+            
+        },
+        {
+            id: "cultlantern_1",
+extends: ["cultlantern_1"],
+            label: "Miroir de la Gloire",
+            
+            slots: [
+                {
+                    id: "Associate",
+extends: ["Associate"],
+                    label: "Associé",
+                    
+                    
+                    
+                    description: "Une nouvelle recrue, ou un disciple endurci."
+                },
+                {
+                    id: "Ceremony",
+extends: ["Ceremony"],
+                    label: "Ceremonie",
+                    
+                    
+                    description: "Pour recruter un novice, je n'ai besoin que d'un petit secret. Les plus grands mystères nécessitent des serments plus profonds."
+                },
+                {
+                    id: "Trappings",
+extends: ["Trappings"],
+                    label: "Croyance",
+                    
+                    
+                    description: "Pour un évènement particulier. Consume des Ingrédients et de l'Influence; utilise, mais ne consume pas d'Outils."
+                }
+            ],
+            description: "Une société occulte dédiée à la compréhension de la Lumière qui s'échappe d'un lieu ardent. [Vous pouvez utiliser les Cultes avec le verbe Parler pour recruter ou promouvoir des Adeptes, et pour les envoyer en mission afin de rassembler des ressources. Un Adepte peut être promu au rang de Disciple; quelques Disciples doués peuvent être exaltés encore plus haut, au rang de Sages.]",
+            
+        },
+        {
+            id: "cultmoth_1",
+extends: ["cultmoth_1"],
+            label: "Club du Bois sauvage",
+            
+            slots: [
+                {
+                    id: "Associate",
+extends: ["Associate"],
+                    label: "Associé",
+                    
+                    
+                    
+                    description: "Une nouvelle recrue, ou un disciple endurci."
+                },
+                {
+                    id: "Ceremony",
+extends: ["Ceremony"],
+                    label: "Ceremonie",
+                    
+                    
+                    description: "Pour recruter un novice, je n'ai besoin que d'un petit secret. Les plus grands mystères nécessitent des serments plus profonds."
+                },
+                {
+                    id: "Trappings",
+extends: ["Trappings"],
+                    label: "Croyance",
+                    
+                    
+                    description: "Pour un évènement particulier. Consume des Ingrédients et de l'Influence; utilise, mais ne consume pas d'Outils."
+                }
+            ],
+            description: "Une société occulte dédiée au chaos, et aux Heures inattendues. [Vous pouvez utiliser les sectes avec le verbe Parler pour recruter ou promouvoir des Adeptes, et les envoyer en mission pour rassembler des ressources. Un Adepte peut être promu au rang de Disciple; quelques Disciples doués peuvent être exaltés encore plus haut, au rang de Contorsionnistesr.]",
+            
+        },
+        {
+            id: "cultsecrethistories_1",
+extends: ["cultsecrethistories_1"],
+            label: "Société de St Hydra",
+            
+            slots: [
+                {
+                    id: "Associate",
+extends: ["Associate"],
+                    label: "Associé",
+                    
+                    
+                    
+                    description: "Une nouvelle recrue, ou un disciple endurci."
+                },
+                {
+                    id: "Ceremony",
+extends: ["Ceremony"],
+                    label: "Ceremonie",
+                    
+                    
+                    description: "Pour les plus grands mystères, des serments plus profonds sont nécessaires."
+                },
+                {
+                    id: "Trappings",
+extends: ["Trappings"],
+                    label: "Croyance",
+                    
+                    
+                    description: "Pour un évènement particulier. Consume des Ingrédients et de l'Influence; utilise, mais ne consume pas d'Outils."
+                }
+            ],
+            description: "Une société occulte dédiée à l'étude des cinq Histoires et de leurs mille branches semi-réelles. St Hydra, exceptionnellement, vous permet d'utiliser n'importe quel aspect pour promouvoir les Adeptes; mais elle ne peut pas les exalter.]",
+            
+        },
+        {
+            id: "cultwinter_1",
+extends: ["cultwinter_1"],
+            label: "Enfants du Silence",
+            
+            slots: [
+                {
+                    id: "Associate",
+extends: ["Associate"],
+                    label: "Associé",
+                    
+                    
+                    
+                    description: "Une nouvelle recrue, ou un disciple endurci."
+                },
+                {
+                    id: "Ceremony",
+extends: ["Ceremony"],
+                    label: "Ceremonie",
+                    
+                    
+                    description: "Pour recruter un novice, je n'ai besoin que d'un petit secret. Les plus grands mystères nécessitent des serments plus profonds."
+                },
+                {
+                    id: "Trappings",
+extends: ["Trappings"],
+                    label: "Croyance",
+                    
+                    
+                    description: "For a proper sense of occasion. Pour un évènement particulier. Consume des Ingrédients et de l'Influence; utilise, mais ne consume pas d'Outils."
+                }
+            ],
+            description: "Une société occulte dédiée au silence qui vient et au froid qui finit. [Vous pouvez utiliser les Cultes avec le verbe Parler pour recruter ou promouvoir des Adeptes, et pour les envoyer en mission afin de rassembler des ressources. Un Adepte peut être promu au rang de Disciple; quelques Disciples doués peuvent être exaltés encore plus haut, dans un état de silence mortel.]",
+            
+        },
+
+        {
+            id: "cultwinter_2",
+extends: ["cultwinter_2"],
+            label: "Les Tours de la Colombe",
+            
+            slots: [
+                {
+                    id: "Associate",
+extends: ["Associate"],
+                    label: "Associé",
+                    
+                    
+                    
+                    description: "Une nouvelle recrue, ou un disciple endurci."
+                },
+                {
+                    id: "Ceremony",
+extends: ["Ceremony"],
+                    label: "Ceremonie",
+                    
+                    
+                    description: "Pour recruter un novice, je n'ai besoin que d'un petit secret. Les plus grands mystères nécessitent des serments plus profonds."
+                },
+                {
+                    id: "Trappings",
+extends: ["Trappings"],
+                    label: "Croyance",
+                    
+                    
+                    description: "Pour un évènement particulier. Consume des Ingrédients et de l'Influence; utilise, mais ne consume pas d'Outils."
+                }
+            ],
+            description: "Une société occulte dédiée à tout ce qui a été perdu, et à ce qui peut encore revenir. [Vous pouvez utiliser les sectes avec le verbe Parler pour recruter ou promouvoir des Adeptes, et pour les envoyer en mission afin de rassembler des ressources. Un Adepte peut être promu au rang de Disciple; quelques Disciples doués peuvent être exaltés encore plus haut, dans un état de silence mortel.]",
+            
+            
+        },
+
+    ]
+}

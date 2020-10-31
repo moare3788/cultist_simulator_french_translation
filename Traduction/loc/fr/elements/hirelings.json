@@ -1,0 +1,67 @@
+{
+    "elements": [
+        {
+            id: "thugedgeminor",
+extends: ["thugedgeminor"],
+            label: "Une brute",
+            
+            description: "'Je fais le travail'. [Cette recrue peut être utile pour certaines Expéditions, et peut aider contre les Chasseurs et les Gêneurs.]",
+            
+            
+        },
+        {
+            id: "thugmothminor",
+extends: ["thugmothminor"],
+            label: "Une femme sournoise",
+            
+            description: "'Je fais le travail.' [Cette recrue peut être utile pour certaines Expéditions, et peut aider contre les Chasseurs et les Gêneurs.]",
+            
+            
+        },
+        {
+            id: "thugedge",
+extends: ["thugedge"],
+            label: "Muscle professionnel",
+            
+            description: "'Je vais les briser en deux.' [Cette recrue peut être utile pour certaines Expéditions, et peut aider contre les Chasseurs et les Gêneurs.]",
+            
+            
+        },
+        {
+            id: "thugforgeedge",
+extends: ["thugforgeedge"],
+            label: "Un fabricant de bombes",
+            
+            description: "'Peut-être ne devrions-nous pas encore parler de politique.' [Cette recrue peut être utile pour certaines Expéditions, et peut aider contre les Chasseurs et les Gêneurs.]",
+            
+            
+        },
+        {
+            id: "thugknock",
+extends: ["thugknock"],
+            label: "Un cambrioleur",
+            
+            description: "'Je suis bon avec les portes. [Cette recrue peut être utile pour certaines Expéditions.]'",
+            
+            
+        },
+        {
+            id: "thuglanternmoth",
+extends: ["thuglanternmoth"],
+            label: "Une diseuse de bonne aventure",
+            
+            description: "'Je vois des choses. Je vois que vous êtes différent.' [Cette recrue peut être utile pour certaines Expéditions, et peut aider contre les Chasseurs et les Gêneurs.]",
+            
+            
+        },
+        {
+            id: "thugmoth",
+extends: ["thugmoth"],
+            label: "Un escroc expérimenté",
+            
+            description: "'Quel plaisir de travailler avec vous !' [Cette recrue peut être utile pour certaines Expéditions, et peut aider contre les Chasseurs et les Gêneurs.]",
+            
+            
+        },
+    ]
+}

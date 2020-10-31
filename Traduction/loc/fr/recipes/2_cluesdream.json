@@ -1,0 +1,115 @@
+{
+    "recipes": [
+        {
+            id: "temptationremembrancehintdream",
+extends: ["temptationremembrancehintdream"],
+            label: "Tentations ?",
+            
+            
+            startdescription: "Il y a des couleurs dans le monde, il y a des couleurs dans le Mansus, et puis il y a des couleurs perdues. Leur absence est le couteau que je ne peux pas libérer. [La tentation du Souvenir a ses dents en vous, et aucune autre tentation ne vous touchera.]",
+            
+            
+        },
+        {
+            id: "vitalityhintdream",
+extends: ["vitalityhintdream"],
+            label: "Vitalité",
+            
+            
+            startdescription: "Cela ne provoque aucun rêve; mais je pourrais l'étudier pour améliorer ma santé.",
+            
+            
+
+            comments: "Not currently possible with restrictions on Dream primary slot"
+        },
+        {
+            id: "eruditionhintdream",
+extends: ["eruditionhintdream"],
+            label: "Erudition",
+            
+            
+            startdescription: "Cela ne provoque pas de rêves; mais je pourrais l'étudier pour augmenter ma Raison.",
+            
+            
+            comments: "Not currently possible with restrictions on Dream primary slot"
+        },
+        {
+            id: "glimmeringhintdream",
+extends: ["glimmeringhintdream"],
+            label: "Scintillement",
+            
+            
+            startdescription: "Cela ne provoque aucun rêve, pour l'instant; mais je pourrais l'étudier pour accroître ma passion.",
+            
+            
+            comments: "Not currently possible with restrictions on Dream primary slot"
+        },
+        {
+            id: "contentmenthintdream",
+extends: ["contentmenthintdream"],
+            label: "Contentement",
+            
+            
+            startdescription: "Le contentement n'est pas la clé des rêves, même si les rêves peuvent parfois me rendre heureux.",
+            
+            
+            comments: "Not currently possible with restrictions on Dream primary slot"
+        },
+        {
+            id: "dedicationtoobsession_power_hint",
+extends: ["dedicationtoobsession_power_hint"],
+            label: "La prochaine étape",
+            
+            
+            startdescription: "Je suis allé aussi loin que je le pouvais dans le rêve. Je dois continuer à <b>Travailler</b>.",
+            
+            
+
+        },
+
+        {
+            id: "dedicationtoobsession_enlightenment_hint",
+extends: ["dedicationtoobsession_enlightenment_hint"],
+            label: "La prochaine étape",
+            
+            
+            startdescription: "Je suis allé aussi loin que je le pouvais dans le rêve. Je dois <b>Travailler</b>.",
+            
+            
+        },
+        {
+            id: "tryreducefascination",
+extends: ["tryreducefascination"],
+            label: "A la recherche de la sérénité ?",
+            
+            
+            startdescription: "Les portes de la vision sont grandes ouvertes. Un peu d'obscurité adoucira ma lumière. Même la Peur a son utilité.",
+            
+            
+        },
+        {
+            id: "tryrecoverreason",
+extends: ["tryrecoverreason"],
+            label: "Me vider l'esprit ?",
+            
+            
+            startdescription: "Je me souviens que j'étais différent: mais je ne sais pas encore comment. [La peur peut être calmée avec la bonne ressource.]",
+            
+            
+        },
+        {
+            id: "tryrecoverillhealth",
+extends: ["tryrecoverillhealth"],
+            label: "Récupérer ?",
+            
+            
+            startdescription: "Le repos me restaurera - si je dispose des ressources nécessaires.",
+            
+            
+            comments: "This one's generic."
+        },
+
+
+
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "recipes": [
+        {
+            id: "worktemplatejob",
+extends: ["worktemplatejob"],
+            label: "Démarrer le modèle d'emploi",
+            
+            
+            
+            
+            
+            startdescription: "",
+            description: "",
+            
+            
+        },
+
+        {
+            id: "worktemplatejob_matured",
+extends: ["worktemplatejob_matured"],
+            label: "",
+            
+            
+            
+            
+
+            startdescription: "",
+            description: "",
+            
+            
+        },
+
+
+        {
+            id: "worktemplatejob_epilogue",
+extends: ["worktemplatejob_epilogue"],
+            label: "",
+            
+            
+            startdescription: "",
+            description: "",
+            
+        },
+
+        {
+            id: "templateopendream",
+extends: ["templateopendream"],
+            label: "RÊVE OUVERT",
+            
+            startdescription: "",
+            description: "",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "templateopenstudy",
+extends: ["templateopenstudy"],
+            label: "ÉTUDE OUVERTE",
+            
+            startdescription: "",
+            description: "",
+            
+            description: "",
+            
+            
+            
+        },
+
+
+        {
+            id: "templateopenexplore",
+extends: ["templateopenexplore"],
+            label: "EXPLORER OUVERT",
+            
+            startdescription: "",
+            description: "",
+            
+            
+            
+        },
+
+        {
+            id: "templateopentalk",
+extends: ["templateopentalk"],
+            label: "",
+            
+            startdescription: "",
+            description: "",
+            
+            
+            
+        },
+
+
+        {
+            id: "templatestudy_plotitem",
+extends: ["templatestudy_plotitem"],
+            label: "",
+            
+            
+
+            
+            
+            startdescription: "",
+            description: "",
+            
+            
+        },
+
+
+
+    ]
+}

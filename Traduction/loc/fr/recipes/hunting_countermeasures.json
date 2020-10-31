@@ -1,0 +1,514 @@
+{
+    "recipes": [
+        {
+            id: "huntermysticsurvives",
+extends: ["huntermysticsurvives"],
+            
+            label: "Gardes et scellés",
+            
+            description: "'Notre ennemi possède l'arme la plus dangereuse de toutes: la connaissance.'\n Votre invocation est devenue la proie des contre-mesures de votre adversaire. Les Chasseurs Mystiques connaissent les protections adéquates et survivent généralement aux attaques des serviteurs invoqués.\nMais tôt ou tard, ils feront une erreur.",
+            
+            
+        },
+        {
+            id: "huntertenacioussurvives",
+extends: ["huntertenacioussurvives"],
+            
+            label: "Tenacité",
+            
+            description: "'Mais - personne n'aurait pu survivre à cela !\nDe temps en temps, les Chasseurs Tenaces survivent d'une manière ou d'une autre à des attaques qui auraient dû les tuer. Mais leur chance finit toujours par tourner; et il existe d'autres moyens de détruire un Chasseur que l'agression physique.",
+            
+        },
+        {
+            id: "huntersurvives_becomestenacious",
+extends: ["huntersurvives_becomestenacious"],
+            
+            label: "Cicatrices",
+            
+            description: "'Il est plus dur qu'il n'en a l'air.\n Un Chasseur qui survit à une attaque physique peut parfois devenir Tenace. Les Chasseurs tenaces sont plus difficiles à tuer.",
+            
+            
+        },
+        {
+            id: "huntersurvives_becomesmystic",
+extends: ["huntersurvives_becomesmystic"],
+            
+            label: "Des leçons difficiles",
+            
+            description: "'Ce qui ne les tue pas les rend parfois plus étranges.'\n Lorsqu'un Chasseur survit à une attaque d'une créature invoquée, cela lui inspire parfois l'apprentissage de contre-mesures contre les choses du Mansus, devenant ainsi Mystique. Les chasseurs Mystiques survivent généralement à d'autres attaques de créatures invoquées.",
+            
+            
+            
+        },
+
+        {
+            id: "hunterfitewithextraswole",
+extends: ["hunterfitewithextraswole"],
+            label: "Une attaque surprise contre un Adversaire",
+            
+            
+            startdescription: "Mon adversaire exige un lieu de rencontre public. Il a pris toutes les précautions raisonnables. Mais il n'y a pas de précautions raisonnables contre une personne comme moi. Une attaque personnelle directe serait un risque considérable... mais c'est peut-être ce à quoi nous sommes arrivés. [Cela pourrait réussir, contre toute attente.]",
+            description: "I have their head between my hands. I snap their neck. I'm gone before the body hits the ground.",
+            
+            
+            
+            
+        },
+        {
+            id: "hunterfitewithswole",
+extends: ["hunterfitewithswole"],
+            label: "Une attaque surprise contre un Adversaire",
+            
+            
+            startdescription: "Mon adversaire exige un lieu de rencontre public. Il a pris toutes les précautions raisonnables, et une attaque personnelle directe serait un risque considérable... mais c'est peut-être ce à quoi nous sommes arrivés. [Les chances sont très minces.]",
+            description: "J'ai sa tête entre les mains. Je lui brise la nuque. Je suis parti avant que le corps ne touche le sol.",
+            
+            
+            
+            
+        },
+        {
+            id: "hunterfitewithswole_failure",
+extends: ["hunterfitewithswole_failure"],
+            label: "Une attaque surprise a échoué !",
+            
+            startdescription: ".",
+            description: "Avec un cri, mon adversaire bondit en arrière, en donnant un coup de pied sur la table ! Tout autour de nous, les têtes se tournent. Personne ne m'a vu bouger. Le seul vrai témoin est mon adversaire. Mais je dois partir immédiatement.",
+            
+            
+            
+        },
+
+        {
+            id: "hunterspeakpoison_glassfinger",
+extends: ["hunterspeakpoison_glassfinger"],
+            label: "Employer la toxine 'doigt de verre' contre un Chasseur",
+            
+            
+            startdescription: "'Vous appréciez votre thé ?'",
+            description: "La fin n'est pas belle, mais elle est rapide et presque indolore. Lorsque la dissolution est terminée, il ne reste rien de visible.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "hunterspeakpoison",
+extends: ["hunterspeakpoison"],
+            label: "Employer un poison redoutable contre un Chasseur",
+            
+            
+            startdescription: "'Vous appréciez votre thé ?'",
+            description: "La fin n'est pas belle, mais elle est rapide et presque indolore. Il y a des façons bien pires de mourir.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "hunterattackhighwinter",
+extends: ["hunterattackhighwinter"],
+            label: "Envoyer un serviteur discret résoudre le problème avec un chasseur",
+            
+            startdescription: "Cela permettra sûrement de s'assurer que le Chasseur cesse de nous déranger. [Cela a moins de chances de réussir qu'une attaque de type Pointe, et le succès ou l'échec attirera l'attention, mais le serviteur survivra généralement.]",
+            
+            
+            
+        },
+        {
+            id: "hunterattackmidwinter",
+extends: ["hunterattackmidwinter"],
+            label: "Envoyer un serviteur patient résoudre le problème avec un chasseur",
+            
+            startdescription: "Mon serviteur surveillera et attendra. Si nous sommes chanceux, il aura peut-être l'occasion de se débarrasser de notre ennemi. [Cela a moins de chances de réussir qu'une attaque de type Pointe, et le succès ou l'échec attirera l'attention, mais le serviteur survivra généralement.]",
+            description: ".",
+            
+            
+        },
+        {
+            id: "hunterattacklowwinter",
+extends: ["hunterattacklowwinter"],
+            label: "Envoyer un serviteur prudent résoudre le problème avec un chasseur",
+            
+            startdescription: "Mon serviteur attendra le bon moment, même s'il est fort probable que ce moment n'arrivera jamais. [Cela a moins de chances de réussir qu'une attaque de type Pointe, et le succès ou l'échec attirera l'attention, mais le serviteur survivra généralement.]",
+            description: ".",
+            
+            
+        },
+
+
+        {
+            id: "hunterstealthattacksuccess",
+extends: ["hunterstealthattacksuccess"],
+            label: "Patience...",
+            
+            startdescription: "J'attends des nouvelles....",
+            description: "Mon serviteur est revenu, avec un trophée.",
+            
+            
+            
+            comments: "No summoned creatures currently attack with Winter. This is in case I add one later.",
+            
+        },
+
+        {
+            id: "hunterstealthattackfailure",
+extends: ["hunterstealthattackfailure"],
+            label: "Patience...",
+            
+            startdescription: "J'attends des nouvelles....",
+            description: "Mon serviteur est revenu. Il n'y avait aucune possibilité de tuer le Chasseur; et il se peut que le Chasseur soit maintenant conscient du danger.",
+            
+            
+        },
+
+
+        {
+            id: "hunterattackhighedge",
+extends: ["hunterattackhighedge"],
+            label: "Envoyer une force imparable assassiner un Chasseur",
+            
+            startdescription: "A moins que ce Chasseur n'ait une protection inhabituelle, il est déjà mort. Mais sa disparition va attirer l'attention.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "hunterattackmidedge",
+extends: ["hunterattackmidedge"],
+            label: "Envoyer un puissant serviteur pour assassiner un Chasseur",
+            
+            startdescription: "Mon serviteur est puissant. Ce chasseur a peu de chances de survivre. Mais la tentative va attirer l'attention. [L'échec tuera votre serviteur.]",
+            description: ".",
+            
+            
+        },
+        {
+            id: "hunterattacklowedge",
+extends: ["hunterattacklowedge"],
+            label: "Envoyer un serviteur assassiner un Chasseur",
+            
+            startdescription: "Les compétences de mon serviteur sont limitées. Ce Chasseur survivra probablement, et la tentative attirera l'attention. [L'échec tuera votre serviteur.]",
+            description: ".",
+            
+            
+        },
+        {
+            id: "hunterattacknoedge",
+extends: ["hunterattacknoedge"],
+            label: "Envoyer quelqu'un d'inapte assassiner un Chasseur",
+            
+            startdescription: "Mon serviteur n'a pas l'aspect Pointe, et est terriblement inadapté pour attaquer le Chasseur. Il y a une petite chance qu'il réussisse. [Un échec tuera votre serviteur.]",
+            description: ".",
+            
+            
+        },
+
+
+        {
+            id: "hunterattacksuccess",
+extends: ["hunterattacksuccess"],
+            label: "Chasser un Chasseur...",
+            
+            startdescription: "J'attends des nouvelles....",
+            description: "Mon serviteur est revenu, avec un trophée.",
+            
+            
+            
+        },
+
+        {
+            id: "huntercapturesuccess",
+extends: ["huntercapturesuccess"],
+            label: "Chasser un Chasseur...",
+            
+            startdescription: "J'attends des nouvelles....",
+            description: "Mon serviteur est revenu, avec un prisonnier !",
+            
+            
+            
+        },
+
+
+        {
+            id: "hunterattackfailure",
+extends: ["hunterattackfailure"],
+            label: "Chasser un Chasseur...",
+            
+            startdescription: "J'attends des nouvelles....",
+            description: "Mon serviteur n'est pas revenu. Il a dû échouer.",
+            
+            
+            
+        },
+
+
+        {
+            id: "evidencedestroymidmoth",
+extends: ["evidencedestroymidmoth"],
+            label: "Envoyer un serviteur sournois détruire des preuves",
+            
+            startdescription: "Mon projet a toutes les chances de réussir. Mais il y a toujours un risque que quelque chose tourne mal.",
+            description: ".",
+            
+            
+            comments: "We don't want a 100% chance because there's no downside. This could easily change later."
+        },
+        {
+            id: "evidencedestroylowmoth",
+extends: ["evidencedestroylowmoth"],
+            label: "Envoyer un serviteur détruire des preuves",
+            
+            startdescription: "Le talent de mon serviteur pour la tromperie est limité, et c'est une tâche difficile. Il échouera probablement.",
+            description: ".",
+            
+            
+        },
+        {
+            id: "evidencedestroynomoth",
+extends: ["evidencedestroynomoth"],
+            label: "Envoyer quelqu'un d'inapte détruire des preuves",
+            
+            startdescription: "Mon serviteur n'a pas l'aspect Phalène, et sera hors de leur portée. Il y a une petite chance qu'il réussisse.",
+            description: ".",
+            
+            
+        },
+
+        {
+            id: "evidencedestroysuccess",
+extends: ["evidencedestroysuccess"],
+            label: "Falsification de documents...",
+            
+            startdescription: "J'attends des nouvelles....",
+            description: "Mon serviteur est revenu. Les preuves ont été détruites. Je suis un peu plus en sécurité.",
+            
+            
+        },
+        {
+            id: "evidencedestroyfailure",
+extends: ["evidencedestroyfailure"],
+            label: "Falsification de documents...",
+            
+            startdescription: "J'attends des nouvelles...",
+            description: "Mon serviteur n'est pas revenu. Il a échoué, et sa maladresse a peut-être attiré l'attention...",
+            
+            
+        },
+
+        {
+            id: "evidencedestroyfailure_mortalfollower",
+extends: ["evidencedestroyfailure_mortalfollower"],
+            label: "Falsification de documents...",
+            
+            
+            startdescription: "J'attends des nouvelles...",
+            description: "Mon serviteur est revenu, trébuchant, marmonnant, gauchement bandé. Il a été pris dans les pièges de son propre plan. [Guérissez un Disciple blessé avec Parler.]",
+            
+            
+            
+        },
+
+        {
+            id: "hunterspeakwinterg",
+extends: ["hunterspeakwinterg"],
+            
+            label: "Partager un terrible mystère de la croyance en haillons",
+            startdescription: "'Lorsque la Forge est froide, que la Gloire est sombre et que le Bois est poussière, peut-être que le Loup divisé se reposera, mais seulement jusqu'à ce qu'il puisse se dévorer. Écoutez-moi maintenant...  [Cela écartera probablement le Chasseur de son chemin, mais cela augmentera toujours votre propre Peur.]",
+            
+            
+            
+        },
+
+        {
+            id: "hunterspeakwinterd",
+extends: ["hunterspeakwinterd"],
+            
+            label: "Partagez les invocations plus froides de la croyance en haillons",
+            startdescription: "'Il existe un pouvoir qui commémore et pleure, à qui rien n'est pris, mais qui ne peut être trompé. Je vais vous dire le nom de ce pouvoir. Écoutez-moi... [Cela pourrait détourner le Chasseur de son chemin, surtout s'il est déjà sinistre, mais cela augmentera toujours votre propre Peur.]",
+            
+            
+        },
+
+        {
+            id: "hunterspeakwinter",
+extends: ["hunterspeakwinter"],
+            
+            label: "Allusion à la croyance en haillons",
+            startdescription: "'Parlons de la fin. Parlons du déclin du soleil. Parlons des choses qui ne sont pas tout à fait mortes, et qui ne mourront pas tout à fait... (Cela peut faire dévier le Chasseur de son chemin, mais cela augmentera toujours votre propre Peur.]",
+            
+            
+        },
+
+
+        {
+            id: "hunterspeakdread",
+extends: ["hunterspeakdread"],
+            
+            label: "Décrivez les horreurs qui attendent un adversaire",
+            
+            startdescription: "'Quelque chose à quoi penser, chaque fois que vous fermez les yeux.' [Cela peut faire dévier le Chasseur de son chemin, mais cela augmentera toujours votre propre Peur.]",
+            description: "",
+            
+
+        },
+        {
+            id: "hunterspeakdread_resistant",
+extends: ["hunterspeakdread_resistant"],
+            
+            
+            label: "Les Horreurs sous la Peau du Monde",
+            startdescription: "'D'accord, ça pourrait mal se terminer pour moi, mais ça vaut le sacrifice. Et d'autres continueront la lutte. Nous nous retrouverons. [Les idéalistes ne peuvent être démoralisés.]",
+            
+
+        },
+        {
+            id: "hunterspeakdread_vulnerable_demoralised",
+extends: ["hunterspeakdread_vulnerable_demoralised"],
+            
+            
+            label: "Les Horreurs sous la Peau du Monde",
+            startdescription: "Votre témoignage constitue un trop gros fardeau pour le Chasseur. Ses yeux se gonflent. Sa mâchoire se resserre. Dans les jours à venir, il sombrera inexorablement dans le désespoir... à moins qu'il ne trouve une nouvelle vérité à laquelle s'accrocher.",
+            description: "",
+            
+            
+
+        },
+        {
+            id: "hunterspeakdread_demoralised",
+extends: ["hunterspeakdread_demoralised"],
+            
+            
+            label: "Les Horreurs sous la Peau du Monde",
+            startdescription: "Le Chasseur grogne de défi, mais vous pouvez voir que vos paroles l'ont affecté. [Ce chasseur est devenu Sinistre.] ",
+            description: "",
+            
+            
+
+        },
+        {
+            id: "hunterspeakdread_survives",
+extends: ["hunterspeakdread_survives"],
+            
+            label: "Les Horreurs sous la Peau du Monde",
+            
+            startdescription: "",
+            description: "'Oui, il y a des choses terribles dans le monde, mais c'est une raison de plus pour y résister. Je dois vous remercier. Vous m'avez montré ce que je dois faire.' [Ce Chasseur est devenu un Idéaliste.]",
+            
+            
+
+        },
+        {
+            id: "hunterspeakdread_survives_becometenacious",
+extends: ["hunterspeakdread_survives_becometenacious"],
+            
+            label: "Les Horreurs sous la Peau du Monde",
+            
+            startdescription: "",
+            description: "'Oui, il y a des choses terribles dans le monde, mais c'est une raison de plus pour y résister. Je dois vous remercier. Vous m'avez montré ce que je dois faire.' [Ce chasseur est devenu Tenace, et un Idéaliste.]",
+            
+            
+
+        },
+
+        {
+            id: "hunterspeaklanterng",
+extends: ["hunterspeaklanterng"],
+            
+            label: "Partagez un terrible mystère de la glorieuse croyance",
+            startdescription: "'C'est la doctrine secrète de la Porte-dans-l'Oeil. Ouvrez vos oreilles... [Cela risque de détourner le Chasseur de son chemin, mais augmentera toujours votre propre Fascination.]",
+            
+            
+            
+        },
+
+        {
+            id: "hunterspeaklanternd",
+extends: ["hunterspeaklanternd"],
+            
+            label: "Partagez les plus brillantes invocations de la glorieuse croyance",
+            startdescription: "'La Porte-dans-l'Oeil gouverne; il n'est pas miséricordieux; mais d'abord et toujours, il illumine. Écoutez, et soyez illuminés...' [Cela peut tenter le Chasseur de s'écarter de son chemin, surtout s'il est déjà un Idéaliste, mais augmentera toujours votre propre Fascination.]",
+            
+            
+        },
+
+        {
+            id: "hunterspeaklantern",
+extends: ["hunterspeaklantern"],
+            
+            label: "Allusion à la glorieuse croyance",
+            startdescription: "'Il y a des choses plus belles que ce que nous voyons. Vous avez dû le sentir. Considérez les possibilités de l'éternité...' [Cela pourrait détourner le Chasseur de son chemin, mais augmentera toujours votre propre Fascination.]",
+            
+            
+        },
+
+        {
+            id: "hunterspeakfascination",
+extends: ["hunterspeakfascination"],
+            
+            label: "Décrivez vos visions à votre adversaire",
+            
+            startdescription: "Plus vous vous élèverez, plus vous verrez.' [Cela pourrait détourner le Chasseur de son chemin, mais augmentera toujours votre propre Fascination.]",
+            description: "",
+            
+
+        },
+        {
+            id: "hunterspeakfascination_resistant",
+extends: ["hunterspeakfascination_resistant"],
+            
+            
+            label: "Visions de la Gloire",
+            startdescription: "'Cela semble joli. Mais j'ai un travail à faire. Vous aurez de mes nouvelles. [Les Chasseurs Sinistre ne peuvent pas être Fascinés.]",
+            
+
+        },
+        {
+            id: "hunterspeakfascination_vulnerable_fascinated",
+extends: ["hunterspeakfascination_vulnerable_fascinated"],
+            
+            
+            label: "Visions de la Gloire",
+            startdescription: "Votre témoignage constitue un trop gros fardeau pour le Chasseur. Ses yeux deviennent larges et brillants. Son sourire devient rêveur. Dans les jours à venir, il abandonnera tout ce qu'il a connu.",
+            description: "",
+            
+            
+
+        },
+        {
+            id: "hunterspeakfascination_fascinated",
+extends: ["hunterspeakfascination_fascinated"],
+            
+            
+            label: "Visions de la Gloire",
+            startdescription: "Le chasseur se moque, mais vous pouvez voir que l'urgence de votre témoignage a fait mouche. [Ce chasseur est devenu un Idéaliste.] ",
+            description: "",
+            
+            
+
+        },
+        {
+            id: "hunterspeakfascination_survives",
+extends: ["hunterspeakfascination_survives"],
+            
+            label: "Visions de la Gloire",
+            
+            description: "'Oui, je pourrais devenir quelque chose de mieux, mais ce que nous sommes est moins important que ce que nous faisons. Le monde est l'endroit où nous vivons, et je le défendrai jusqu'à ma mort. Vous pouvez garder vos visions.' [Ce Chasseur est devenu Sinistre.]",
+            
+            
+        },
+        {
+            id: "hunterspeakfascination_survives_becometenacious",
+extends: ["hunterspeakfascination_survives_becometenacious"],
+            
+            label: "Visions de la Gloire",
+            
+            description: "'Oui, je pourrais devenir quelque chose de mieux, mais ce que nous sommes est moins important que ce que nous faisons. Le monde est l'endroit où nous vivons, et je le défendrai jusqu'à ma mort. Vous pouvez garder vos visions.' [Ce Chasseur est devenu Sinistre et Tenace.]",
+            
+            
+        },
+
+    ]
+}

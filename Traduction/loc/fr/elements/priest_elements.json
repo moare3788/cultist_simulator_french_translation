@@ -1,0 +1,206 @@
+{
+    "elements": [
+        {
+            id: "fervour",
+extends: ["fervour"],
+            label: "Ferveur",
+            
+            description: "Les passions de ma congrégation sont fortes, voire profondes. [Gardez votre congrégation satisfaite. La ferveur, si elle n'est pas utilisée, se décomposera en Peur.]",
+        },
+
+
+        {
+            id: "lockscaredge",
+extends: ["lockscaredge"],
+            label: "Cicatrice fermée de la Pointe",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvre au contact d'une lame.",
+            
+            
+        },
+        {
+            id: "lockscarforge",
+extends: ["lockscarforge"],
+            label: "Cicatrice fermée de la Forge",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvre au contact fer chaud.",
+            
+            
+        },
+        {
+            id: "lockscargrail",
+extends: ["lockscargrail"],
+            label: "Cicatrice fermée du Graal",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvre d'un baiser fervent.",
+            
+            
+        },
+        {
+            id: "lockscarheart",
+extends: ["lockscarheart"],
+            label: "Cicatrice fermée du Coeur",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvre au battement du tambour.",
+            
+            
+        },
+        {
+            id: "lockscarlantern",
+extends: ["lockscarlantern"],
+            label: "Cicatrice fermée de la Lanterne",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvre à l'aube.",
+            
+            
+        },
+        {
+            id: "lockscarmoth",
+extends: ["lockscarmoth"],
+            label: "Cicatrice fermée de la Phalène",
+            description: "Quand je suis le Seuil, cette cicatrice répondra aux ciseaux.",
+            
+            
+        },
+        {
+            id: "lockscarwinter",
+extends: ["lockscarwinter"],
+            label: "Cicatrice fermée de l'Hiver",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvrira en dernier.",
+            
+            
+        },
+
+
+
+        {
+            id: "openedlockscaredge",
+extends: ["openedlockscaredge"],
+            label: "Cicatrice fermée de la Pointe",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvrira au contact d'une lame.",
+            
+        },
+        {
+            id: "openedlockscarforge",
+extends: ["openedlockscarforge"],
+            label: "Cicatrice fermée de la Forge",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvrira au contact du fer chaud.",
+            
+        },
+        {
+            id: "openedlockscargrail",
+extends: ["openedlockscargrail"],
+            label: "Cicatrice fermée du Graal",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvrira d'un baiser fervent.",
+            
+        },
+        {
+            id: "openedlockscarheart",
+extends: ["openedlockscarheart"],
+            label: "Cicatrice fermée du Coeur",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvrira au rythme du tambour.",
+            
+        },
+        {
+            id: "openedlockscarlantern",
+extends: ["openedlockscarlantern"],
+            label: "Cicatrice fermée de la Lanterne",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvrira à l'aube.",
+            
+        },
+        {
+            id: "openedlockscarmoth",
+extends: ["openedlockscarmoth"],
+            label: "Cicatrice fermée de la Phalène",
+            description: "Quand je suis le Seuil, cette cicatrice répondra aux ciseaux.",
+            
+        },
+        {
+            id: "openedlockscarwinter",
+extends: ["openedlockscarwinter"],
+            label: "Cicatrice fermée de l'Hiver",
+            description: "Quand je suis le Seuil, cette cicatrice s'ouvrira en dernier.",
+            
+        },
+
+        {
+            id: "devotee_edge",
+extends: ["devotee_edge"],
+            label: "Un adorateur robuste",
+            
+            
+            description: "Parfois, la ferveur pousse les laïcs à se consacrer à des tâches plus inhabituelles. [Lorsque l'enthousiasme de celui-ci s'estompe, il retourne à la congrégation.]",
+            
+            
+        },
+        {
+            id: "devotee_forge",
+extends: ["devotee_forge"],
+            label: "Un adorateur efficace",
+            
+            
+            description: "Parfois, la ferveur pousse les laïcs à se consacrer à des tâches plus inhabituelles. [Lorsque l'enthousiasme de celui-ci s'estompe, il retourne à la congrégation.]",
+            
+            
+        },
+        {
+            id: "devotee_grail",
+extends: ["devotee_grail"],
+            label: "Un adorateur avide",
+            
+            
+            description: "Parfois, la ferveur pousse les laïcs à se consacrer à des tâches plus inhabituelles. [Lorsque l'enthousiasme de celui-ci s'estompe, il retourne à la congrégation.]",
+            
+            
+        },
+        {
+            id: "devotee_heart",
+extends: ["devotee_heart"],
+            label: "Un adorateur dynamique",
+            
+            
+            description: "Parfois, la ferveur pousse les laïcs à se consacrer à des tâches plus inhabituelles. [Lorsque l'enthousiasme de celui-ci s'estompe, il retourne à la congrégation.]",
+            
+            
+        },
+        {
+            id: "devotee_knock",
+extends: ["devotee_knock"],
+            label: "Un adorateur habile",
+            
+            
+            description: "Parfois, la ferveur pousse les laïcs à se consacrer à des tâches plus inhabituelles. [Lorsque l'enthousiasme de celui-ci s'estompe, il retourne à la congrégation.]",
+            
+            
+        },
+
+        {
+            id: "devotee_lantern",
+extends: ["devotee_lantern"],
+            label: "Un adorateur perspicace",
+            
+            
+            description: "Parfois, la ferveur pousse les laïcs à se consacrer à des tâches plus inhabituelles. [Lorsque l'enthousiasme de celui-ci s'estompe, il retourne à la congrégation.]",
+            
+            
+        },
+        {
+            id: "devotee_moth",
+extends: ["devotee_moth"],
+            label: "Un adorateur erratique",
+            
+            
+            description: "Parfois, la ferveur pousse les laïcs à se consacrer à des tâches plus inhabituelles. [Lorsque l'enthousiasme de celui-ci s'estompe, il retourne à la congrégation.]",
+            
+            
+        },
+        {
+            id: "devotee_winter",
+extends: ["devotee_winter"],
+            label: "Un adorateur silencieux",
+            
+            
+            description: "Parfois, la ferveur pousse les laïcs à se consacrer à des tâches plus inhabituelles. [Lorsque l'enthousiasme de celui-ci s'estompe, il retourne à la congrégation.]",
+            
+            
+        },
+
+
+
+    ]
+}

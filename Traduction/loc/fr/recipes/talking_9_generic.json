@@ -1,0 +1,408 @@
+{
+    "recipes": [
+
+        {
+            id: "speakpublicly",
+extends: ["speakpublicly"],
+            label: "Parler de sujets ésotériques",
+            
+            
+            
+            startdescription: "Parler publiquement des arts invisibles attirera l'attention. C'est peut-être ce que je veux.",
+            description: ".",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "talkfindacquaintance",
+extends: ["talkfindacquaintance"],
+            label: "Une Connaissance ?",
+            
+            
+            slots: [
+                {
+                    id: "escalation",
+extends: ["escalation"],
+                    label: "Passion",
+                    description: "Je dois être fervent et convaincant.",
+                    
+                    
+                }
+            ],
+            startdescription: "J'ai trouvé quelqu'un qui est peut-être une âme soeur - mais je dois le convaincre. [Convaincre une Connaissance requiert de la Passion.]",
+            
+            description: "Je n'ai pas su rassembler la Passion pour les amener dans mon cercle. Peut-être qu'une autre fois.",
+            
+            
+        },
+        {
+            id: "talkfindpatron",
+extends: ["talkfindpatron"],
+            label: "Un Mécène ?",
+            
+            
+            slots: [
+                {
+                    id: "escalation",
+extends: ["escalation"],
+                    label: "Raison",
+                    description: "Je dois être éloquent et crédible.",
+                    
+                    
+                }
+            ],
+            startdescription: "J'ai trouvé quelqu'un qui peut avoir des ressources utiles pour moi - mais je dois l'impressionner. [Impressionner un mécène exige de la Raison.]",
+            
+            description: "Je n'ai pas su rassembler l'énergie mentale nécessaire pour leur montrer ce que je suis. Peut-être qu'une autre fois.",
+            
+            
+        },
+
+        {
+            id: "talkmeetacquaintance",
+extends: ["talkmeetacquaintance"],
+            label: "Une Connaissance",
+            
+            
+            startdescription: "'Venez avec moi.'",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "talkmeetpatron",
+extends: ["talkmeetpatron"],
+            label: "Un Mécène",
+            
+            
+            startdescription: "'Nous pouvons apprendre les uns des autres.'",
+            description: ".",
+            
+            
+            
+        },
+
+
+        {
+            id: "talktotroublemaker",
+extends: ["talktotroublemaker"],
+            label: "Organiser une rencontre en terrain neutre.",
+            
+            
+            slots: [
+                {
+                    id: "Subject",
+extends: ["Subject"],
+                    label: "Sujet",
+                    description: "Un sujet de conversation."
+                }
+            ],
+            
+            startdescription: "'Sommes-nous ennemis ? Peut-être n'avons-nous pas à l'être.'",
+            description: "Une conversation prudente dans un café, sous la pluie balayée par le vent, au frémissement de l'aube. Je n'ai rien appris.",
+            
+            
+            
+        },
+
+        {
+            id: "independentloreconversation",
+extends: ["independentloreconversation"],
+            label: "Organiser une rencontre en terrain neutre.",
+            
+            
+            startdescription: "'Il semble que nous <i>ayons</i> quelque chose à discuter...'",
+            description: "Une conversation feutrée et tortueuse à la lumière d'une lampe, avec des reflets de vérité semblables à l'or dans la vase. Qui sait ? Peut-être, un jour, parlerons-nous avec moins de prudence.",
+            
+
+        },
+
+        {
+            id: "independentdesireconversation",
+extends: ["independentdesireconversation"],
+            label: "Organiser une rencontre en terrain neutre.",
+            
+            
+            startdescription: "'Proposez-vous de faire cause commune ? Êtes-vous sérieux ?'",
+            description: "'Peut-être. Eventuellement. Prouvez-moi votre valeur. Parlons...' [Si vous avez une secte, il est possible, bien que difficile, de rallier un Franc-tireur à votre cause.]",
+            
+        },
+
+        {
+            id: "independentfitewithextraswole",
+extends: ["independentfitewithextraswole"],
+            label: "Attaque surprise d'un rival",
+            
+            
+            startdescription: "Nous nous réunissons en terrain neutre. Ils ont pris toutes les précautions raisonnables. Mais il n'y a pas de précautions raisonnables contre une personne comme moi. Une attaque personnelle directe serait un risque considérable... mais nous en sommes peut-être arrivés là. [Cela pourrait réussir, contre toute attente.]",
+            description: "J'ai sa tête entre les mains. Je lui brise la nuque. Je suis parti avant que le corps ne touche le sol.",
+            
+            
+            
+            
+        },
+        {
+            id: "independentfitewithswole",
+extends: ["independentfitewithswole"],
+            label: "Attaque surprise d'un rival",
+            
+            
+            startdescription: "Nous nous réunissons en terrain neutre. Ils ont pris toutes les précautions raisonnables, et une attaque personnelle directe serait un risque considérable... mais nous en sommes peut-être arrivés là. [Il y a peu de chances que cela arrive.]",
+            description: "J'ai sa tête entre les mains. Je lui brise la nuque. Je suis parti avant que le corps ne touche le sol.",
+            
+            
+            
+            
+        },
+        {
+            id: "independentfitewithswole_failure",
+extends: ["independentfitewithswole_failure"],
+            label: "Une attaque surprise a échoué !",
+            
+            startdescription: ".",
+            description: "D'un cri, ils bondissent en arrière, donnant des coups de pied sur la table ! Tout autour de nous, les têtes tournent. Personne ne m'a vu bouger. Le seul vrai témoin est mon rival. Mais je dois partir immédiatement.",
+            
+            
+            
+        },
+
+        {
+            id: "independentspeakpoison",
+extends: ["independentspeakpoison"],
+            label: "Utiliser un poison redoutable contre un rival",
+            
+            
+            startdescription: "'Aimez-vous le thé ?'",
+            description: "Votre rival secoue la tête de déception. 'Vraiment ?' Il part sans dire un mot de plus, laissant son thé intact sur la table.",
+            
+            
+        },
+
+        {
+            id: "talktohunter",
+extends: ["talktohunter"],
+            label: "Organiser une rencontre avec un adversaire",
+            
+            
+            slots: [
+                {
+                    id: "Subject",
+extends: ["Subject"],
+                    label: "Sujet",
+                    description: "Un sujet de conversation... ou un serviteur qui l'éliminera."
+                }
+            ],
+            
+            startdescription: "Nous pourrions peut-être parlementer. Ou peut-être pourrais-je envoyer quelque chose pour les piéger.",
+            description: "C'était irréfléchi. Peut-être que je n'aurais pas dû m'exposer autant.",
+            
+            
+            
+        },
+
+
+        {
+            id: "talktospirit",
+extends: ["talktospirit"],
+            label: "Parler à quelque chose que j'ai invoqué",
+            
+            
+            slots: [
+                {
+                    id: "Subject",
+extends: ["Subject"],
+                    label: "Subject",
+                    description: "Un sujet de conversation... ou un objectif."
+                }
+            ],
+            comments: "Nous avons des indications préalables pour le recrutement/la promotion, et nous ne voulons pas passer outre, d'où les restrictions de notre société.",
+            
+            startdescription: "Tout ce qui vient du Mansus ne peut parler, mais tout peut comprendre le discours des mortels, même une fois qu'il a passé la Porte Blanche.",
+            description: "Rien; mes paroles n'ont aucun effet.",
+            
+            
+        },
+
+
+        {
+            id: "discusspassionsacrifice",
+extends: ["discusspassionsacrifice"],
+            
+            label: "Leçons de vie", startdescription: "Si j'écoute assez attentivement les histoires racontées par le soleil d'hiver, je pourrais apprendre quelque chose, au prix du flétrissement de mon âme. (Cela enseignera la parabole de l'Ecdysiaste, mais convertira de la Passion en Décrépitude... quoique cela pourrait ouvrir une petite porte.]", description: "@#spirit_winterb_heart|'Vous me regardez, et vous voyez que je suis mort. Vous pourriez penser à ce que j'ai perdu. Mais si c'est tout, pourquoi me le demander ? Mais je ne lui demanderai rien. Les morts ne parlent pas d'habitude. #spirit_winterd_edge|La voix de la domestique est brillante et aiguisée comme des pierres précieuses fraîchement taillées. Qu'est-ce qui peut être perdu ? Chaque choix ferme une porte... et le Mansus n'en a que sept.' #spirit_lanterne_secret|'Qu'est-ce qui peut être perdu ? Mon enfance. Mes fardeaux. Mes illusions. Ma fierté. Ma réputation. Mon ombre. Mon coeur...'@",
+            
+            
+        },
+
+        {
+            id: "discussreasonsacrifice",
+extends: ["discussreasonsacrifice"],
+            
+            label: "Leçons sauvages",
+            startdescription: "Si je me laisse aller à la frénésie, j'en tirerai une folle leçon. (Cela enseignera le Consentement des Blessures, mais convertira de la Raison en Décrépitude... quoique cela pourrait ouvrir une petite porte.]",
+            description: "@#spirit_grailc_moth|Le Prophète mettra ses prédictions en pratique sur ma peau, et sous ses déclamations, mes pensées se déchireront comme un vieux tissu. #spirit_heartc_edge|Le Percussigant me guidera dans les mouvements que mon corps ne supportera pas, et si je dois à la fois changer et évoluer, ensuite alors, ma peau portera le récit, le récit ; o ma peau, la porte, le récit. #spirit_graile_edge|'Je l'ai connue dans le Réveil. Ses bras étaient moins nombreux, ses bras étaient plus chauds, mais sa bouche était toujours froide. Traitez-moi de menteur. Je vous mets au défi. Ou bien venez ici, et j'embrasserai la Cinquième Histoire au plus profond de vous, là où personne ne la verra, pas même vous - '@",
+            
+            
+        },
+
+        {
+            id: "discusssicknessprotectionspirit",
+extends: ["discusssicknessprotectionspirit"],
+            label: "Demander un Sursis",
+            
+            
+            startdescription: "Les habitants du Mansus ne sont pas soumis aux maux de la chair. Certains d'entre eux, parfois, peuvent étendre leur protection à ceux d'entre nous qui sont piégés ici dans le Réveil.",
+            description: "@#spirit_wintera_moth|Je mettrai une mèche de mes cheveux sur la poitrine de celui-ci, et avec de la chance, un jour, la maladie viendra le chercher à ma place.#spirit_grailc_moth|Le Prophète véritable m'embrassera de tous ses bras et m'embrassera de sa bouche ou de toute autre manière qu'il jugera appropriée, et peut-être cela me protégera-t-il des maladies, et peut-être sera-t-il simplement surpassé.#spirit_heartc_edge|Le Percussigant mêlera les battements de mon coeur aux pas de sa danse sans fin, et cela pourrait être suffisant, suffisant, suffisant. #spirit_graile_edge|'Ouvrez la bouche. Inclinez la tête en arrière. Nous allons laisser tomber une goutte. Avalez. Oui. Vous irez mieux maintenant.'#spirit_lanterne_secret|'Je vais parler avec votre ombre, et bientôt, elle pourrait faire disparaître une plus grande ombre encore. C'est tout ce que je peux vous promettre maintenant.'@",
+            
+            
+        },
+
+        {
+            id: "discussfucinespirit",
+extends: ["discussfucinespirit"],
+            label: "La question de l'apprentissage du Fucine",
+            
+            
+            startdescription: "'Fucine ? Oui, je me débrouille en Fucine. Je peux vous l'enseigner, si vous avez le latin comme base. Mais si j'entends un bruit de 'langue de sorcières', c'est terminé. [Utilisez <b>ÉTUDIER</b> avec Baldomerian pour apprendre le Fucine].",
+            description: ".",
+            
+        },
+        {
+            id: "discussphrygianspirit",
+extends: ["discussphrygianspirit"],
+            label: "La question de l'apprentissage du Phrygien",
+            
+            
+            startdescription: "'Phrygien ! La langue de la Grande Mère ! Bien sûr. Si vous connaissez suffisamment le grec, je vous garantis que l'expérience de l'apprentissage du Phrygien sera <i> très</i> agréable. [Utilisez <b>ÉTUDIER</b> avec Ezeem pour apprendre le Phrygien].'",
+            description: ".",
+            
+        },
+
+        {
+            id: "discussmandaicspirit",
+extends: ["discussmandaicspirit"],
+            label: "La question de l'apprentissage du Mandaïque profond",
+            
+            
+            startdescription: "'ENSEMBLE, NOUS COMMÉMORERONS LA LANGUE DU DIEU NON BRÛLÉ.' [Utilisez <b>ETUDIER</b> avec le Roi du Creuset pour apprendre le Mandaïque profond].'",
+            description: ".",
+            
+        },
+
+        {
+            id: "teresadiscusslocksmithsdream1",
+extends: ["teresadiscusslocksmithsdream1"],
+            label: "Discuter du rêve du Serrurier, Volume 1",
+            
+            
+            startdescription: "'Dois-je le signer ? Je pense que ce serait plutôt amusant, n'est-ce pas ?'",
+            description: "'J'habitais près de Camden Lock, quand j'ai commencé à écrire ces choses. Si ce n'est pas une farce des Heures, je ne sais pas ce que c'est. Laissez-moi vous parler de mes sources -'",
+            
+            
+        },
+        {
+            id: "teresadiscusslocksmithsdream2",
+extends: ["teresadiscusslocksmithsdream2"],
+            label: "Discuter du rêve du Serrurier, Volume 2",
+            
+            
+            startdescription: "'Dois-je le signer ? Serait-ce un peu excessif ? De toute façon, personne ne croira que c'est un vrai. Je suis censé être mort.'",
+            description: "'Je pense toujours que les Portes ont un rapport avec le travail des artisans - avec la fabrication. Je pense que c'est ainsi que nous avons commencé à nous frayer un chemin dans la Maison. Mais bien sûr, nos ascensions ont toujours été limitées, jusqu'à ce que nous apprenions à parler. Je vais essayer de vous expliquer...'",
+            
+            
+        },
+        {
+            id: "teresadiscusslocksmithsdream3",
+extends: ["teresadiscusslocksmithsdream3"],
+            label: "Discuter du rêve du Serrurier, Volume 3",
+            
+            
+            startdescription: "'J'y inscris mon nom, d'accord ? Seulement le nom que Christopher m'a donné. Pas le nom que j'utilise ici.'",
+            description: "'J'étais dans tous mes états quand j'ai écrit ça, n'est-ce pas ? Je suis désolé. Mais j'avais raison de dire que la mort est arrivée. C'est une des raisons pour lesquelles je reste d'habitude assez loin dans le Mansus. Je vais essayer de vous expliquer ce que je veux dire, un peu tout au moins -'",
+            
+            
+        },
+        {
+            id: "teresadiscusslocksmithsdream4",
+extends: ["teresadiscusslocksmithsdream4"],
+            label: "Discuter du rêve du Serrurier, Volume 4",
+            
+            
+            startdescription: "'Je vais sûrement signer celui-là. Mais j'ai bien peur que personne ne voie la signature à moins de rêver du livre.'",
+            description: "'J'étais très enthousiaste à propos de Janus, à l'époque. Maintenant, je pense que si Janus est quelqu'un, ce doit être le Gardien ou le Meniscate. Les énigmes ont tendance à se développer, les puzzles à se résoudre.'",
+            
+            
+        },
+
+        {
+            id: "teresadiscusslocksmithsdream5",
+extends: ["teresadiscusslocksmithsdream5"],
+            label: "Discuter du rêve du Serrurier, Volume 5",
+            
+            
+            startdescription: "'Où avez-vous trouvé cela exactement ?'",
+            description: "'Je vais le signer. Mais pas avec mon nom. Pas encore, ni même jamais.'",
+            
+            
+        },
+
+        {
+            id: "begincultfoundation",
+extends: ["begincultfoundation"],
+            label: "Un nouveau départ ?",
+            
+            
+            
+            
+            startdescription: "Ensemble, nous pourrions être plus.",
+            comments: "This is hijacked by links from the Apostle open-talk verbs, to prevent apostles founding a second cult. This is why all the content is in the followup recipe.",
+            
+        },
+
+        {
+            id: "begincultfoundation_createcult",
+extends: ["begincultfoundation_createcult"],
+            label: "Fonder une organisation mystique",
+            
+            
+            
+            
+            startdescription: "Voici quelqu'un avec qui je pourrais travailler. Un compagnon, ou un Adepte. Mais d'abord, je dois lui donner quelque chose à suivre. Une société, une communauté, un ordre, un culte.",
+            description: "J'ai commencé mon véritable travail. Les autorités vont s'y intéresser. Je dois être en mesure de les accueillir. [Vous avez commencé à établir votre culte. Ca va prendre un peu plus de temps, avant que vous puissiez recruter des Adeptes.]",
+            
+        },
+
+
+
+        {
+            id: "inspiremystique",
+extends: ["inspiremystique"],
+            
+            label: "Attirer l'attention",
+            
+            startdescription: "Il y a des heures et il y a les heures. Cette heure est la mienne.",
+            description: "Lèvres fendues; yeux brillants.",
+            
+            
+        },
+
+
+        {
+            id: "findacquaintanceopentalk",
+extends: ["findacquaintanceopentalk"],
+            label: "Une Connaissance",
+            
+            startdescription: "J'attends une réponse à une lettre.",
+            description: "La réponse à votre lettre est courtoise, voire prudente. l'intéressé est intrigué par la façon dont vous avez trouvé son nom: assez intrigué pour vous rencontrer.",
+            
+            
+            comments: "this runs as an additional, and is how Talk is opened. I'd like to remove maxexecutions, but it's in here now for safety.",
+            
+            
+        }
+    ]
+}

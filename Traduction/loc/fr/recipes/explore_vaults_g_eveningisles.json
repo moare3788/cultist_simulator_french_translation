@@ -1,0 +1,151 @@
+{
+    "recipes": [
+
+        {
+            id: "explore_vaulteveningisles1_setup",
+extends: ["explore_vaulteveningisles1_setup"],
+            label: "Une expédition à l'île du Corbeau",
+            
+            
+            
+
+            startdescription: "Le plus grand danger de l'île du Corbeau, ce sont les soucouyants, les immortels déchus. Mais le chemin de l'autre côté de la mer sera difficile, et l'île est pleine de voix qui apportent la malédiction des visions. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+
+        {
+            id: "explore_vaulteveningisles2_setup",
+extends: ["explore_vaulteveningisles2_setup"],
+            label: "Une expédition à Fort Geryk",
+            
+            
+            
+
+            startdescription: "Une forteresse de grès en ruine couve au-dessus d'une baie vide. La nuit, les morts marchent. Le jour, ils sont à l'affût. Dans une chambre forte scellée, le trésor du vieux gouverneur attend son pilleur. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+            id: "explore_vaulteveningisles3_setup",
+extends: ["explore_vaulteveningisles3_setup"],
+            label: "Une expédition sur l'épave du Christabel",
+            
+            
+            
+
+            startdescription: "Des tempêtes ont soulevé le Christabel de la mer pour le déposer sur un récif, mais une épave avec une fin aussi triste est porteuse d'une malédiction. Et la bête que l'on vénérait autrefois reste toujours là. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+            id: "explore_vaulteveningisles4_setup",
+extends: ["explore_vaulteveningisles4_setup"],
+            label: "Une expédition à St Tentreto de la Porte Profonde",
+            
+            
+            
+
+            startdescription: "Les moines de St Tentreto ne seront pas enclins à nous laisser passer. Ils cacheront bien leurs trésors, et si nous parvenons à les saisir, ils nous poursuivront sans doute avec des malédictions. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+
+        {
+            id: "explore_vaulteveningislesdefault_setup",
+extends: ["explore_vaulteveningislesdefault_setup"],
+            label: "Une expédition à Port Midi",
+            
+            
+            
+
+            startdescription: "Si nous pouvons traverser la mer jusqu'à Port Midi, si nous pouvons vaincre les Long qui ne meurent pas, si nous pouvons percer leurs caveaux privés, encore faut-il résister à la tentation des visions. [Les expéditions ont besoin d'au moins un Fonds par obstacle. Les Adeptes vaincront les obstacles. Si vous n'avez plus de Fonds ou d'Adeptes, l'expédition se termine.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "explorevaulteveningisles1_success",
+extends: ["explorevaulteveningisles1_success"],
+            label: "Plumes de corbeau",
+            
+            
+            
+            
+            startdescription: "Une grotte de montagne souillée par les soucouyants. Sur les murs, ils ont griffonné leurs tristes histoires, en une centaine de langues, dans une écriture d'une élégance saisissante: les créatures qu'ils étaient, les histoires qu'ils possédaient, les enfants qu'ils pleurent.",
+            description: "Au fond de la grotte, les soucouyants ont fait une sorte de nid-musée. Les beaux vêtements qu'ils portaient autrefois, ornés maintenant de plumes de corbeau. Un petit florilège de camées et d'albums de famille pourris. Quelques objets de pouvoir.",
+            
+            
+        },
+        {
+            id: "explorevaulteveningisles2_success",
+extends: ["explorevaulteveningisles2_success"],
+            label: "Le dernier geste du gouverneur",
+            
+            
+            
+            
+            startdescription: "Le caveau du Fort Geryk. Une mosaïque a été disposée sous la forme d'un plateau de jeu d'une taille et d'une complexité stupéfiantes: une carte des îles du soir. Les carreaux de mer sont en lapis; les îles sont en néphrite et en obsidienne. Il y a des bateaux-jouets et des soldats de plomb. L'île de Saint-Thomas est assiégée. L'île du Corbeau est peuplée de reines d'échecs noires.",
+            description: "Parmi les pièces de jeu, des objets de pouvoir véritable ont été utilisés comme marqueurs temporaires. Était-ce une tentative pour les cacher ? Ou le gouverneur ne savait-il rien de leur véritable valeur ?",
+            
+            
+        },
+
+        {
+            id: "explorevaulteveningisles3_success",
+extends: ["explorevaulteveningisles3_success"],
+            label: "Un oeil fermé",
+            
+            
+            
+            
+            startdescription: "Le navire pue encore la mer. Une pieuvre léthargique rampe à la lueur de notre lampe. Le bois est à moitié corallien. Où sont les corps de l'équipage ? Un seul survivant a été enregistré. Le serpent a-t-il dévoré les autres ?",
+            description: "Nous avons trouvé la cabine du capitaine. Le journal de bord est ici, mais ses pages sont une bouillie de papier. Quelqu'un a gratté un symbole de l'oeil fermé sur le bureau où il était enchaîné. Sous ce symbole se trouve un tiroir caché dans le bureau, que l'on peut ouvrir à l'aide d'une clé pour en piller les trésors...",
+            
+            
+        },
+
+
+        {
+            id: "explorevaulteveningisles4_success",
+extends: ["explorevaulteveningisles4_success"],
+            label: "Les premières secousses",
+            
+            
+            
+            
+            startdescription: "Nous voici dans la grotte sous-marine, sous le monastère. L'eau sombre frissonne à la lumière de nos lampes. À notre approche, le niveau de l'eau baisse soudainement. Il n'y a pas de marées dans cette mer. Qu'est-ce qui se passe ?",
+            description: "Nous avons profané la grotte ! Déjà les Heures retirent leur bénédiction. L'eau s'écoule, laissant la cavité vide. Les offrandes reposent sur son lit. Nous devons les récupérer rapidement. Les premières secousses ont déjà commencé, précurseurs du tremblement de terre que les moines ont si longtemps tenu à distance.",
+            
+            
+        },
+        {
+            id: "explorevaulteveningislesdefault_success",
+extends: ["explorevaulteveningislesdefault_success"],
+            label: "Tout le chemin depuis la Gallaecia",
+            
+            
+            
+            
+            startdescription: "C'est la sous-cave secrète de l'hôtel Ciervo. Les murs sont blanchis à la chaux, le sol est fraîchement nettoyé, les étagères regorgent de bizarreries. Un homme en cage avec une barbe sauvage vous regarde avec morosité depuis le coin. 'Encore ?' dit-il. 'Ou bien êtes-vous différent ? Non, je n'ai pas besoin d'être secouru, merci. C'est bien pire dehors.' ",
+            description: "'Attrapez ce que vous pouvez, vite !' siffle l'homme en cage. Ils vont bientôt revenir. Mais s'il vous plaît, laissez le gladius. J'ai apporté ça de Gallaecia, à l'époque. Là, cette étagère est bien. Vite, ils arrivent ! Vous pouvez vous échapper par l'escalier de livraison.'",
+            
+            
+            
+        },
+
+
+    ]
+}

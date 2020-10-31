@@ -1,0 +1,482 @@
+{
+    "recipes": [
+
+        {
+            id: "despairrisk",
+extends: ["despairrisk"],
+            label: "Sombres pensées",
+            
+            
+            
+            slots: [
+                {
+                    id: "Shadows",
+extends: ["Shadows"],
+                    label: "Ombres",
+                    
+                    
+                }
+            ],
+            startdescription: "Des jours sombres. Je dois faire attention à ne pas laisser le doute s'installer. [La Peur peut provoquer un Désespoir complet.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "despairactive",
+extends: ["despairactive"],
+            label: "DÉSESPOIR",
+            
+            
+            startdescription: "Le Désespoir est le loup qui dévore la pensée. Vous pouvez vaincre le Désespoir en le nourrissant de Contentement; sinon, il vous détruira lorsqu'il atteindra 3 Peur.]",
+            description: ".",
+            
+            slots: [
+                {
+                    id: "Thoughts",
+extends: ["Thoughts"],
+                    label: "Réflexions",
+                    
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "despairwarning",
+extends: ["despairwarning"],
+            label: "DÉSESPOIR",
+            
+            
+            startdescription: "Le Désespoir ne me lâche pas. Le monde est privé de lumière. Vous pouvez vaincre le Désespoir en le nourrissant de Contentement; sinon, il vous détruira lorsqu'il atteindra 3 Peur.]",
+            description: ".",
+            comments: "This exists specifically for the  image at 2 Dread.",
+            
+            
+        },
+
+        {
+            id: "despairabate",
+extends: ["despairabate"],
+            label: "Le désespoir s'atténue",
+            
+            
+            
+            startdescription: "Les souvenirs des temps meilleurs éloignent le loup de la porte. [Chaque Contentement détruit une Peur.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "despairdeath",
+extends: ["despairdeath"],
+            label: "LE DÉSESPOIR ME SUBMERGE",
+            
+            
+            slots: [
+                {
+                    id: "Thoughts",
+extends: ["Thoughts"],
+                    label: "Réflexions",
+                    
+                    
+                }
+            ],
+            
+            startdescription: "C'est presque la fin - [Trouvez du Contentement maintenant, ou c'est fini.]",
+            description: "Où me trouveront-ils ? Je ne suis pas ici.",
+            
+            
+            
+            
+            
+            comments: "Consider (1) allowing the threshold to grab Dread too. (2) allowing the active step to have a low-risk possibility of increasing Dread (3) providing a reward when Despair is defeated."
+
+        },
+        {
+            id: "despairdefeated",
+extends: ["despairdefeated"],
+            label: "Les nuages se dissipent",
+            
+            
+            startdescription: ".",
+            description: "Le loup rôde ailleurs. [Aucune Peur n'alimente ce Désespoir. C'est fini, pour l'instant.]",
+            
+        },
+
+        {
+            id: "visionsrisk",
+extends: ["visionsrisk"],
+            label: "Un tremblement dans l'air",
+            
+            
+            slots: [
+                {
+                    id: "Shadows",
+extends: ["Shadows"],
+                    label: "Réflexions",
+                    
+                    
+                }
+            ],
+            startdescription: "Le soleil scintille comme une ombre. Les rêves ondulent derrière la surface des miroirs. Je dois faire attention à ne pas dériver du monde éveillé. [La Fascination peut provoquer des Visions]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "visionsactive",
+extends: ["visionsactive"],
+            label: "Je vois des choses",
+            
+            
+            startdescription: "Les peintures murmurent. Les fenêtres clignotent. Je sais que ces choses ne sont pas vraies, mais comment puis-je en être certain ? [Vous pouvez vaincre les Visions avec de la Peur ou par un Souvenir Fugace; autrement, vous vous perdrez complètement à la troisième Fascination.]",
+            description: ".",
+            
+            slots: [
+                {
+                    id: "Thoughts",
+extends: ["Thoughts"],
+                    label: "Réflexions",
+                    
+                    
+                    
+                }
+            ],
+            
+            
+            
+        },
+
+        {
+            id: "visionswarning",
+extends: ["visionswarning"],
+            label: "Je vois des choses !",
+            
+            
+            startdescription: "Le monde est dangereusement lumineux. [Vous pouvez vaincre les Visions avec de la Peur ou par un Souvenir Fugace; autrement, vous vous perdrez complètement à la troisième Fascination.]",
+            description: ".",
+            comments: "Cela existe spécifiquement pour l'image de la brûlure à 2 Fascination.",
+            
+            
+        },
+
+        {
+            id: "visionsdeath",
+extends: ["visionsdeath"],
+            label: "Aidez-moi !",
+            
+            
+            slots: [
+                {
+                    id: "Thoughts",
+extends: ["Thoughts"],
+                    label: "Réflexions",
+                    
+                    
+                }
+            ],
+            
+            startdescription: "Quelle est la lumière qui éclaire la surface de toute chose ? La Gloire arrive, mais je ne peux pas être là pour la voir - [Si vous ne trouvez pas de la Peur ou un Souvenir Fugace maintenant, c'est fini.]",
+            description: "Où me trouveront-ils ? Je ne suis pas ici.",
+            
+            
+            
+            
+            
+
+        },
+        {
+            id: "visionsabate",
+extends: ["visionsabate"],
+            label: "Les visions s'atténuent",
+            
+            
+            
+            startdescription: "Les ombres sont à l'abri de la lumière. Le désespoir est un fardeau. Même la misère a son utilité. [Chaque Peur réprime une Fascination.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "visionsabatefleeting",
+extends: ["visionsabatefleeting"],
+            label: "Les visions s'atténuent",
+            
+            
+            
+            startdescription: "La solidité du quotidien bannit les fantômes. Je m'attache au quotidien. [Chaque Souvenir Fugace répare une Fascination.]",
+            description: ".",
+            
+            
+            
+        },
+        {
+            id: "visionsdefeated",
+extends: ["visionsdefeated"],
+            label: "Le monde tel qu'il est",
+            
+            
+            startdescription: ".",
+            description: "Les miroirs sont calmes. Le soleil est stable. La Gloire recule. Je suis sain d'esprit, si cela signifie quelque chose. [Aucune Fascination ne commande vos Visions. C'est fini, pour l'instant.]",
+            
+        },
+        {
+            id: "curse_dread_dormant",
+extends: ["curse_dread_dormant"],
+            label: "Malédiction de l'âme desséchée en sommeil",
+            
+            startdescription: "La Malédiction de l'âme desséchée n'a pas encore pris effet.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "curse_dread_active",
+extends: ["curse_dread_active"],
+            label: "Malédiction de l'âme desséchée",
+            
+            
+            startdescription: "La Malédiction de l'âme sèche s'installe doucement, comme une main flétrie sur l'épaule.",
+            slots: [
+                {
+                    id: "Reason",
+extends: ["Reason"],
+                    label: "Raison",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "curse_dread_attempt_mitigation",
+extends: ["curse_dread_attempt_mitigation"],
+            label: "Malédiction de l'âme desséchée: Une Dernière Chance",
+            
+            slots: [
+                {
+                    id: "Protection",
+extends: ["Protection"],
+                    label: "Protection",
+                    
+                }
+            ],
+            
+            startdescription: "La Malédiction s'est installée. Maintenant, le tunnel se resserre autour de tout ce que je vois. [Ce n'est que si vous avez suffisamment d'Influence du Coeur qu'il sera possible d'écarter la Malédiction.]",
+            description: "Mon crâne craque. La lumière devient grise.",
+            
+            
+        },
+        {
+            id: "curse_dread_mitigation_successful",
+extends: ["curse_dread_mitigation_successful"],
+            label: "La Faveur de Thunderskin",
+            
+            
+            
+            startdescription: "Tapez sur le tambour et prononcez les mots. Gardez l'espoir jusqu'à ce que le chant soit terminé.",
+            description: "Mon âme se remplit à nouveau. La malédiction est passée. Au loin, à l'horizon, la tempête se déplace comme un animal vigilant.",
+        },
+        {
+            id: "curse_visions_dormant",
+extends: ["curse_visions_dormant"],
+            label: "La Malédiction du Cinquième Oeil en sommeil",
+            
+            startdescription: "La Malédiction du Cinquième Oeil n'a pas encore pris effet.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "curse_visions_active",
+extends: ["curse_visions_active"],
+            label: "La Malédiction du Cinquième Oeil",
+            
+            
+            startdescription: "Le Troisième Oeil est un mythe, ou la glande pinéale. Le Quatrième Oeil est une marque dans certains processus d'ascension. Le Cinquième Oeil s'ouvre maintenant devant moi.",
+
+            slots: [
+                {
+                    id: "Passion",
+extends: ["Passion"],
+                    label: "Passion",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "curse_visions_attempt_mitigation",
+extends: ["curse_visions_attempt_mitigation"],
+            label: "La Malédiction du Cinquième Oeil: Une dernière Chance",
+            
+            slots: [
+                {
+                    id: "Protection",
+extends: ["Protection"],
+                    label: "Protection",
+                    
+                }
+            ],
+            
+            startdescription: "La Malédiction s'est installée. Maintenant, le monde, qui pourrit, laisse échapper la lumière. [Avec suffisamment d'Influence du Coeur, il sera possible d'écarter la Malédiction.]",
+            description: "Je ne peux pas m'empêcher de voir. Si je regarde assez longtemps, je ne le souhaite pas.",
+            
+            
+        },
+        {
+            id: "curse_visions_mitigation_successful",
+extends: ["curse_visions_mitigation_successful"],
+            label: "La Faveur de Thunderskin",
+            
+            
+            
+            startdescription: "Tapez sur le tambour et prononcez les mots. Je fermerai tous mes yeux jusqu'à ce que le chant soit terminé.",
+            description: "Mes yeux sont clairs. La malédiction est passée. Au loin, à l'horizon, la tempête se déplace comme une créature vigilante.",
+        },
+        {
+            id: "curse_affliction_dormant",
+extends: ["curse_affliction_dormant"],
+            label: "La Malédiction du Souffle Rampant en sommeil",
+            
+            startdescription: "La Malédiction du Souffle Rampant n'est pas encore arrivée à son terme.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "curse_affliction_active",
+extends: ["curse_affliction_active"],
+            label: "La Malédiction du Souffle Rampant",
+            
+            
+            startdescription: "La Malédiction du Souffle Rampant commence par une toux - une toux qui s'attarde dans la gorge comme un créancier.",
+
+            slots: [
+                {
+                    id: "Health",
+extends: ["Health"],
+                    label: "Santé",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "curse_affliction_attempt_mitigation",
+extends: ["curse_affliction_attempt_mitigation"],
+            label: "La Malédiction du Souffle Rampant: Une Dernière Chance",
+            
+            slots: [
+                {
+                    id: "Protection",
+extends: ["Protection"],
+                    label: "Protection",
+                    
+                }
+            ],
+            
+            startdescription: "La Malédiction s'est installée. Maintenant, la pulsion vitale ralentit. [La Malédiction n'est pas une maladie ordinaire, mais avec suffisamment d'Influence du Coeur, il sera possible de l'écarter.]",
+            description: "Chaque souffle que nous prenons dans cette vie est plus faible que le dernier, jusqu'à ce que nous arrivions au dernier souffle de tous. Le processus est si lent qu'il est imperceptible... jusqu'à ce que l'on soit touché par la Malédiction du Souffle Rampant.",
+            
+            
+        },
+        {
+            id: "curse_affliction_mitigation_successful",
+extends: ["curse_affliction_mitigation_successful"],
+            label: "La Faveur de Thunderskin",
+            
+            
+            
+            startdescription: "Tapez sur le tambour et prononcez les mots. Supprimez la toux jusqu'à ce que le chant soit terminé.",
+            description: "Mes poumons sont clairs. La malédiction est passée. Au loin, à l'horizon, la tempête se déplace comme un animal vigilant.",
+        },
+
+
+        {
+            id: "curse_nowhere_dormant",
+extends: ["curse_nowhere_dormant"],
+            label: "Quelque chose est revenu avec nous",
+            
+            startdescription: "J'entrevois des mouvements subtils dans le monde - du coin de l'oeil, mais ils sont trompeurs. Parfois aussi, je les entends.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "curse_nowhere_active",
+extends: ["curse_nowhere_active"],
+            label: "Les Vers dans ce monde",
+            
+            
+            startdescription: "Il y a des Vers dans la ville. On ne voit pas les Vers, mais on ne les oublie pas non plus. Ils vont chercher jusqu'à ce qu'ils trouvent quelqu'un qu'ils peuvent pénétrer par les interstices de la peau, puis ils font ce que les Vers font.",
+            slots: [
+                {
+                    id: "Someone",
+extends: ["Someone"],
+                    label: "Quelqu'un",
+                    
+                    
+                }
+            ],
+            
+            
+        },
+
+        {
+            id: "curse_nowhere_attempt_mitigation",
+extends: ["curse_nowhere_attempt_mitigation"],
+            label: "Les Vers dans ce monde: Une Dernière Chance",
+            
+            slots: [
+                {
+                    id: "Protection",
+extends: ["Protection"],
+                    label: "Protection",
+                    
+                }
+            ],
+            
+            startdescription: "Les Vers ont trouvé leur chemin sous la peau. C'est la fin. [Il n'est possible de sauver celui-ci que si vous disposez d'un énorme pouvoir d'Influence du Coeur.]",
+            description: "Lorsque les Vers prennent racine, il n'y a rien à faire, sauf détruire ce qui reste - brûler et tamiser avec le plus grand soin.",
+            
+            
+        },
+        {
+            id: "curse_nowhere_mitigation_successful",
+extends: ["curse_nowhere_mitigation_successful"],
+            label: "La Faveur de Thunderskin",
+            
+            
+            
+            startdescription: "Implore la foudre. Seul le souffle de l'orage peut sauver celui-ci maintenant.",
+            description: "L'absence des Vers est comme un rideau qui s'ouvre. L'air est parfumé d'odeur de pluie et d'ozone. Nos doigts tapent encore aux rythmes de Thunderskin.",
+        },
+
+    ]
+}

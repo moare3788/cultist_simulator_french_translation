@@ -1,0 +1,33 @@
+{
+    "recipes": [
+
+        {
+            id: "studymapbookdealer",
+extends: ["studymapbookdealer"],
+            label: "Trouver la boutique de Morland",
+            
+            
+            
+            
+            startdescription: "Les indications pour se rendre à la boutique de Morland sont énigmatiques. Lorsqu'on s'intéresse au genre de livres que mon correspondant a étudiés, il faut être prudent.",
+            description: "Une rue mal éclairée à un carrefour mal fréquenté près d'une petite rivière. Une faible lumière jaune filtre à travers une fenêtre sale. Mlle Morland hoche la tête quand j'entre, mais ne se lève pas. 'Je ne demande jamais les noms de mes clients,' me dit-elle, avant d'avoir eu le temps de me présenter.[ <b>Explorer</b> est déverrouillé. ]",
+            
+            
+            comments: "Voici une façon d'ouvrir le verbe Explore."
+        },
+
+        {
+            id: "openexplore",
+extends: ["openexplore"],
+            label: "Explorer",
+            
+            
+            
+            startdescription: ".",
+            description: "Maintenant que j'ai trouvé un emplacement, je peux l'EXPLORER.",
+            
+            
+            
+        }
+    ]
+}

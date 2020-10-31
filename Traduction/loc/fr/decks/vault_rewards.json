@@ -1,0 +1,62 @@
+{
+    "decks": [
+
+        {
+            id: "vaultrewardsa",
+extends: ["vaultrewardsa"],
+            label: "Récompenses de la Capitale",
+            description: "",
+            
+            
+        },
+        {
+            id: "vaultrewardsb",
+extends: ["vaultrewardsb"],
+            label: "Récompenses en province",
+            description: "",
+            
+            
+        },
+        {
+            id: "vaultrewardsc",
+extends: ["vaultrewardsc"],
+            label: "Récompenses du Continent",
+            description: "",
+            
+            
+        },
+        {
+            id: "vaultrewardsd",
+extends: ["vaultrewardsd"],
+            label: "Récompenses de la Terre par-delà la Forêt",
+            description: "",
+            
+            
+        },
+        {
+            id: "vaultrewardse",
+extends: ["vaultrewardse"],
+            label: "Récompenses de la Montagne en ruine",
+            description: "",
+            
+            
+        },
+        {
+            id: "vaultrewardsf",
+extends: ["vaultrewardsf"],
+            label: "Récompenses des Dunes solitaires et des Sables uniformes",
+            description: "",
+            
+            
+        },
+        {
+            id: "vaultrewardsg",
+extends: ["vaultrewardsg"],
+            label: "Récompenses des îles du soir",
+            description: "",
+            
+            
+        },
+
+    ]
+}

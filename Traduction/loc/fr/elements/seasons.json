@@ -1,0 +1,132 @@
+{
+    "elements": [
+        {
+            id: "dayacquaintances",
+extends: ["dayacquaintances"],
+            label: "Une journée pour les nouvelles rencontres",
+            description: "Je pourrais trouver une âme soeur.",
+            
+            
+        },
+
+        {
+            id: "daypatrons",
+extends: ["daypatrons"],
+            label: "Une journée pour les nouveaux mécènes",
+            description: "Je pourrais trouver quelqu'un qui pourrait m'aider.",
+            
+            
+        },
+        {
+            id: "daycriminals",
+extends: ["daycriminals"],
+            label: "Une journée pour les connexions douteuses",
+            description: "Je pourrais trouver quelqu'un prêt à se salir les mains.",
+            
+            
+        },
+        {
+            id: "dayplaces",
+extends: ["dayplaces"],
+            label: "Une journée pour les cartographes",
+            description: "Je pourrais tomber sur un endroit intéressant.",
+            
+            
+        },
+
+        {
+            id: "seasonsickness",
+extends: ["seasonsickness"],
+            label: "Une saison de maladie",
+            description: "Des influences malveillantes entachent l'air de la nuit. [Ma santé pourrait bientôt en souffrir. Les adeptes blessés peuvent mourir.]",
+            
+            
+        },
+        {
+            id: "seasonserenities",
+extends: ["seasonserenities"],
+            label: "Une saison de sérénité",
+            description: "Demain sera peut-être un jour meilleur.",
+            comments: "currently unused",
+            
+            
+        },
+        {
+            id: "seasonsuspicion",
+extends: ["seasonsuspicion"],
+            label: "Une saison de suspicion",
+            description: "Suis-je surveillé ?",
+            
+            
+        },
+        {
+            id: "seasondespair",
+extends: ["seasondespair"],
+            label: "Une saison de désespoir",
+            description: "La nuit m'attend.",
+            
+            
+        },
+        {
+            id: "seasonvisions",
+extends: ["seasonvisions"],
+            label: "Une saison de visions",
+            description: "De telles vues.",
+            
+            
+        },
+        {
+            id: "seasonambitions",
+extends: ["seasonambitions"],
+            label: "Une saison d'ambitions",
+            description: "C'est la saison où les vents du Bois s'inversent : un temps où les appétits et les mortels se lèvent tous les deux.",
+            
+            
+        },
+        {
+            id: "seasonsilence",
+extends: ["seasonsilence"],
+            label: "Une saison de silence",
+            description: "Ce sont les jours de l'anticipation.",
+            
+            
+        },
+        {
+            id: "seasonardours",
+extends: ["seasonardours"],
+            label: "Une saison d'ardeurs",
+            description: "Nous sommes tous à la fois un singe et un ange.",
+            
+            
+        },
+        {
+            id: "schememurder",
+extends: ["schememurder"],
+            label: "Un projet meurtrier",
+            
+            description: "Traces laissées par la décision d'un rival de se déplacer contre un ennemi.",
+            
+            
+        },
+
+        {
+            id: "schemeexpedition",
+extends: ["schemeexpedition"],
+            label: "Un projet audacieux",
+            
+            description: "Traces laissées par la décision d'un rival d'agir avec audace.",
+            
+            
+        },
+        {
+            id: "schemeactivities",
+extends: ["schemeactivities"],
+            label: "Un projet prudent",
+            
+            
+            description: "Traces laissées par la décision d'un rival d'agir avec prudence.",
+            
+        },
+
+    ]
+}

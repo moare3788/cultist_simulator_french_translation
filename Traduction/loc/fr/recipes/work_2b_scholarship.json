@@ -1,0 +1,17 @@
+{
+    "recipes": [
+        {
+            id: "scholar_language",
+extends: ["scholar_language"],
+            label: "",
+            
+            
+            startdescription: "",
+            description: "",
+            
+            
+        },
+
+
+    ]
+}

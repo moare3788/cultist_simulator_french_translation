@@ -1,0 +1,853 @@
+{
+    "recipes": [
+
+        {
+            id: "paintbasic",
+extends: ["paintbasic"],
+            label: "Peindre",
+            
+            
+            startdescription: "Je peignais. Je pouvais peindre ces paysages dont je me souviens à moitié dans mes rêves. Je pourrais vendre quelque chose. Je ne le ferai probablement pas..",
+            description: "J'ai terminé un tableau, à la grande joie de personne : personne d'autre que moi. [Parfois, la peinture vous fera gagner des Scintillements. <b>Étudiez-les</b> pour débloquer des options de peinture plus avancées.]",
+            slots: [
+                {
+                    id: "Yearning",
+extends: ["Yearning"],
+                    label: "Aspiration",
+                    
+                    
+                    description: "Si je suis nerveux, c'est peut-être ce que je veux.",
+                }
+            ],
+            
+            
+            
+            
+            
+        },
+        {
+            id: "paintbasicsuccess",
+extends: ["paintbasicsuccess"],
+            label: "J'ai vendu un tableau !",
+            
+            description: "J'ai trouvé un client ! Elle l'accrochera probablement dans sa chambre d'amis et ne le regardera plus jamais. Mais son argent est bon. [Parfois, la peinture vous fera gagner des Scintillements. <b>Étudiez les</b> pour débloquer des options de peinture plus avancées.]",
+            
+            
+            
+        },
+
+        {
+
+            id: "paintwithskill",
+extends: ["paintwithskill"],
+            label: "Peindre",
+            
+            
+            slots: [
+                {
+                    id: "Inspiration",
+extends: ["Inspiration"],
+                    label: "Inspiration",
+                    
+                    description: "Un thème valable n'est pas essentiel, mais il est utile. Certains thèmes attireront l'attention des autorités, mais ne sont-ils pas les plus intéressants ?",
+                }
+            ],
+            startdescription: "On ne sait jamais. C'est peut-être un gagne-pain. [Ajoutez de la Passion pour faire des tableaux originaux. Ajoutez du Mysticisme et surtout de la Notoriété pour attirer l'attention et gagner plus d'argent. Attention : si vous utilisez de la Notoriété, le fait d'exposer des peintures vous permettra de rester dans l'oeil du public.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "painthasgrandmemory.nocanvas",
+extends: ["painthasgrandmemory.nocanvas"],
+            
+            label: "Couleurs oubliées",
+            startdescription: "Je me souviens de couleurs qui ont disparu du monde. Je n'ose pas les reproduire fidèlement - même si je le pouvais. Mais je pourrais leur rendre hommage... si j'avais une toile digne de cette tâche.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.prepareforcanvas.pale",
+extends: ["paint.prepareforcanvas.pale"],
+            
+            label: "Préparer la toile pour la peinture blême",
+            startdescription: "L'un est l'artiste, l'autre est la toile. Aujourd'hui, je suis l'artiste. [Cela prendra un certain temps, et occupera le verbe Travailler pendant que vous préparerez la toile.]",
+            description: "Le monde peut attendre un peu plus longtemps pour le tableau blême. Il a déjà attendu si longtemps.",
+            slots: [
+                {
+                    id: "corpse",
+extends: ["corpse"],
+                    label: "Matériel",
+                    description: "Le processus sera long et complexe, mais quand j'aurai terminé, l'odeur sera presque imperceptible.",
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "paint.createcanvas.pale",
+extends: ["paint.createcanvas.pale"],
+            
+            label: "Une toile pâle",
+            
+            startdescription: "Les préparatifs doivent être faits en secret, dans une pièce sans fenêtre... mais qui doit néanmoins être extrêmement bien ventilée.",
+            description: "Il est complet. On ne le saura jamais, à moins d'y regarder de très près. Il serait préférable que les autorités ne voient jamais cette toile. [Utilisez à nouveau votre Mémoire la prochaine fois que vous peindrez, et vous pourrez commencer à travailler sur la toile.]",
+            
+            
+        },
+
+
+        {
+            id: "painthasgrandmemory",
+extends: ["painthasgrandmemory"],
+            
+            label: "Une couleur oubliée",
+            startdescription: "@#memory.furious|Sur un lit de dunes, sous un soleil bas et rouge, un monstre se débat tandis que des gardiens se pressent sur ses flancs. Il est flasque et énorme, de la couleur du soufre sale... #memory.luxurious|Auréolé de bleu nuit, dans la brume du Mansus nage un palais couronnée d'une couronne de corail qui cède de temps en temps à la lune... #memory.liminal|Un ciel de soirée violet, recouvert d'or rouge... #memory.horizon|Un or blanc pâle décoloré que l'on voit dans certaines parties du ciel, lorsque la brume se dissipe lorsque le soleil peut être confondu avec la lune... #memory.splendid|La rose de l'aurore rivalise avec le bleu électrique. Il n'y a ni nuit ni matin, mais seulement les heures de midi prévues et persistantes... #memory.endless|C'est peut-être laid mais c'est beau comme le reflux du sang dans les labyrinthes de verre... #memory.wildering|Le bois avant son obscurcissement, ses fruits vert poison, ses racines cornalines... #memory.golden|Chacune de ses facettes montre un point de lumière unique. Il peut s'agir de la lumière d'un feu... #memory.honeyed|Nos ailes déployées et brillantes, nos écailles lambinent comme de l'obsidienne... @",
+            
+            
+            
+        },
+
+        {
+            id: "paint.palestpainting.continue",
+extends: ["paint.palestpainting.continue"],
+            
+            label: "Continuer la peinture blême",
+            startdescription: "J'ai traqué l'image comme un chasseur, sans jamais la regarder dans les yeux. Aucun pigment que je possède ne peut exprimer ces couleurs perdues, et je dois donc les atténuer.",
+            description: "Le monde peut attendre un peu plus longtemps pour le tableau blême. Il a déjà attendu si longtemps.",
+            slots: [
+                {
+                    id: "canvas.pale",
+extends: ["canvas.pale"],
+                    label: "Toile",
+                    
+                    description: "Lentement, doucement.",
+                    
+                }
+            ],
+            
+            
+        },
+
+
+        {
+            id: "paint.palestpainting.furious",
+extends: ["paint.palestpainting.furious"],
+            
+            label: "Les couleurs à sept spirales",
+            startdescription: "Sur un lit de dunes, sous un soleil bas et rouge, un monstre se débat tandis que des gardiens se pressent sur ses flancs. Il est flasque et énorme, de la couleur du soufre sale. Les tentacules acérés se battent comme des chatons. Il se déchire gaiement sur sa propre chair, et le sang qui coule est doré. Il s'effondre dans un cataclysme de chair enchevêtrée, écrasant un noyau de serviteurs, et les autres crient et acclament.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.palestpainting.luxurious",
+extends: ["paint.palestpainting.luxurious"],
+            
+            label: "Les couleurs de la marée",
+            startdescription: "Aurolé de bleu nuit, dans la brume du Mansus nage un palais couronnée d'une couronne de corail de corail. Sur son bord avant, elle absorbe les petits Noms, les enrobant de ses minéraux et de ses jus, et sur son bord arrière, elle en expulse certains, polis comme des bijoux. Les autres vont nourrir son coeur épineux de la marée.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.palestpainting.liminal",
+extends: ["paint.palestpainting.liminal"],
+            
+            label: "Les couleurs du double seuil",
+            startdescription: "Quand je me souviens de la Hache à cornes, je me rappelle l'odeur de l'aubépine. Je me souviens d'un ciel de soirée violet, avec de l'or rouge. Je me souviens que ses bords dégoulinaient là où elle avait récemment opéré..",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.palestpainting.horizon",
+extends: ["paint.palestpainting.horizon"],
+            
+            label: "Les couleurs de l'horizon",
+            startdescription: "Un or blanc pâle décoloré que l'on voit dans certaines parties du ciel, lorsque la brume se dissipe lorsque l'on peut confondre le soleil avec la lune. Nous retenons notre souffle et le regardons s'éclaircir, jusqu'à ce que chaque couleur se sépare de la suivante comme un alphabet moderne. L'oeuf éclot.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.palestpainting.splendid",
+extends: ["paint.palestpainting.splendid"],
+            
+            label: "Les couleurs qui étaient",
+            startdescription: "La rose de l'aurore rivalise avec le bleu électrique. Il n'y a ni nuit ni matin, mais seulement les heures de midi prévues et qui s'attardent. Chacun de nous ouvre son coeur à l'aiguille dorée du ciel. Toutes les couleurs magnifiées sous  la splendeur du Soleil.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.palestpainting.endless",
+extends: ["paint.palestpainting.endless"],
+            
+            label: "Les couleurs qui tournent",
+            startdescription: "À chaque tour, ses cils battent et se tortillent et son corps devient translucide et pourpre. C'est peut-être laid, mais c'est beau comme le reflux du sang des labyrinthes de verre. Elle ne cesse pas et toutes ses involutions sont infinies. La Roue.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.palestpainting.wildering",
+extends: ["paint.palestpainting.wildering"],
+            
+            label: "Les couleurs qui ne sont pas noires",
+            startdescription: "Le Bois avant son obscurcissement, ses fruits vert poison, ses racines cornalines. Les yeux du papillon de nuit sont gais de faim. Il est en train de chasser.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.palestpainting.golden",
+extends: ["paint.palestpainting.golden"],
+            
+            label: "Les couleurs du vieux feu",
+            startdescription: "Ce n'est qu'une pierre, bien qu'elle soit lissée et aiguisée jusqu'à minuit, mais regardez de plus près. Chacune de ses facettes montre un seul point de lumière. Il peut s'agir de la lumière d'un feu. Il se peut que chacune soit une étoile différente...",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.palestpainting.honeyed",
+extends: ["paint.palestpainting.honeyed"],
+            
+            label: "Les couleurs qui seront",
+            startdescription: "Nos ailes déployées et brillantes, nos écailles lambinant comme de l'obsidienne, nos yeux facettés comme des joyaux, nos griffes d'une noirceur irréprochable.",
+            
+            
+            
+            
+            
+        },
+
+
+
+        {
+            id: "paint.palestpainting.complete",
+extends: ["paint.palestpainting.complete"],
+            
+            label: "Neuf couleurs suggérées",
+            startdescription: "C'est presque terminé. Les colombes s'entassent sur le toit au-dessus de moi. Le crépuscule attend à bout de souffle.",
+            description: "Le tableau n'est pas une porte. Ces Heures sont passées. Même leurs échos sont vides. Mais je les ai commémorées. Celui à qui on ne peut plus rien prendre, qui ne peut être trompé, qui appelle chacun des Morts par son nom - que l'on puisse être satisfait de l'oeuvre.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "painthaslore",
+extends: ["painthaslore"],
+            
+            label: "Art ésotérique",
+            startdescription: "Ceux qui savent comprendront. [Comme le fera le Bureau de la répression.]",
+            
+            
+
+            
+            
+        },
+        {
+            id: "painthasinfluence",
+extends: ["painthasinfluence"],
+            
+            label: "Une pièce d'humeur",
+            startdescription: "Cela devrait avoir un impact.",
+            
+            
+            
+            
+        },
+        {
+            id: "painthasmemory",
+extends: ["painthasmemory"],
+            
+            label: "Une vie racontée",
+            startdescription: "Ces souvenirs auraient été perdus pour la terre en dessous de nous, et maintenant ils vont continuer à vivre.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.memory.menacing.once",
+extends: ["paint.memory.menacing.once"],
+            
+            label: "Secrets de l'âme",
+            startdescription: "J'ai entrevu la mort des sept spirales. [Le Bureau de la répression pourrait en avoir connaissance.]",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.memory.shameful.once",
+extends: ["paint.memory.shameful.once"],
+            
+            label: "Secrets de l'âme",
+            startdescription: "J'ai entrevu la forme de la Grande Mère. [Le Bureau de la répression pourrait en avoir connaissance.]",
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "paint.memory.unexpected.once",
+extends: ["paint.memory.unexpected.once"],
+            
+            label: "Secrets de l'âme",
+            startdescription: "J'ai entrevu le sacrifice de la Hache Cornue. [Le Bureau de la répression pourrait en avoir connaissance.]",
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "paint.memory.joyful.once",
+extends: ["paint.memory.joyful.once"],
+            
+            label: "Secrets de l'âme",
+            startdescription: "J'ai entrevu la rotation de la Roue, bien que les adeptes aient appris que la rotation a cessé il y a longtemps. [Le Bureau de la répression pourrait en avoir connaissance.]",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paint.memory.profitable.once",
+extends: ["paint.memory.profitable.once"],
+            
+            label: "Secrets de l'âme",
+            startdescription: "J'ai entrevu comment le feu a changé, même dans les jours qui ont suivi les aspects du feu. [Le Bureau de la répression pourrait en avoir connaissance.]",
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "paint.memory.generic",
+extends: ["paint.memory.generic"],
+            
+            label: "Scènes d'une vie",
+            startdescription: "Je ne pense pas que c'était ma propre vie, mais peut-être que c'était le cas après tout. Un jour, je ne pourrai plus du tout le dire.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "painthasfollower",
+extends: ["painthasfollower"],
+            
+            label: "Un portrait",
+            startdescription: "Quelque chose pour se souvenir d'eux, peut-être.",
+            
+            
+            
+            
+        },
+        {
+            id: "painthassummoned",
+extends: ["painthassummoned"],
+            
+            label: "Un Portrait inhabituel",
+            startdescription: "Je vais les peindre dans notre monde, et peut-être qu'ils resteront un peu plus longtemps.  [Le Bureau de la répression va probablement s'y intéresser.]",
+            
+            
+            
+            
+        },
+
+        {
+            id: "paintaddpigment",
+extends: ["paintaddpigment"],
+            
+            label: "Les couleurs de la nuit",
+            
+            startdescription: "Je pourrais dépenser de l'argent pour de meilleures peintures. Ou, peut-être que je pourrais trouver des pigments plus exotiques...",
+            slots: [
+                {
+                    id: "Paints",
+extends: ["Paints"],
+                    label: "Peintures",
+                    
+                }
+            ],
+            
+            
+        },
+        {
+            id: "paintluck",
+extends: ["paintluck"],
+            
+            
+            label: "Une bonne journée",
+            startdescription: "Le résultat est meilleur que d'habitude.",
+            
+            comments: "Passionless painting never does better than usual.",
+            
+        },
+        {
+            id: "paintfourpassion",
+extends: ["paintfourpassion"],
+            label: "Focus absolu",
+            startdescription: "Tout ce que je suis, est ici.",
+            
+            
+            
+            
+            
+            
+        },
+        {
+            id: "paintthreepassion",
+extends: ["paintthreepassion"],
+            
+            label: "Convictions totales",
+            startdescription: "Le monde s'en va.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "painttwopassion",
+extends: ["painttwopassion"],
+            
+            label: "Intensité passionnée",
+            startdescription: "Je vois les erreurs, mais je peux aussi voir la fin.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paintonepassion",
+extends: ["paintonepassion"],
+            
+            label: "Une journée de travail",
+            startdescription: "Je ne me suis pas dérobé.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "paintnopassion",
+extends: ["paintnopassion"],
+            
+            label: "Un effort de grande envergure",
+            startdescription: "Honnêtement, je ne fais que passer en revue les propositions. La qualité de mon travail en souffrira sans doute.",
+            
+            
+            
+            
+            
+        },
+        {
+            id: "paintcheckpigment",
+extends: ["paintcheckpigment"],
+            
+            
+        },
+        {
+            id: "painthasfunds",
+extends: ["painthasfunds"],
+            
+            
+            
+            label: "Matériaux de qualité...",
+            startdescription: "...pour un travail de qualité ?",
+            
+            
+        },
+        {
+            id: "painthaspigment",
+extends: ["painthaspigment"],
+            
+            
+            
+            label: "Pigments intenses",
+            startdescription: "Ce pigment est dangereux. Il peut même être illégal.",
+            
+            
+        },
+        {
+            id: "matchedge",
+extends: ["matchedge"],
+            
+            
+            label: "Un médium digne d'intérêt",
+            startdescription: "Le printemps se dispute, toujours, avec l'hiver.",
+            
+            
+            
+        },
+        {
+            id: "matchforge",
+extends: ["matchforge"],
+            
+            
+            label: "Un médium digne d'intérêt",
+            startdescription: "Les grains sombres, correctement traités, donnent des couleurs vives.",
+            
+            
+            
+        },
+
+        {
+            id: "matchgrail",
+extends: ["matchgrail"],
+            
+            
+            label: "Un médium digne d'intérêt",
+            startdescription: "Cela ne sera jamais tout à fait sec. Parfait.",
+            
+            comments: "Extra notoriety for Grail",
+            
+            
+        },
+
+        {
+            id: "matchheart",
+extends: ["matchheart"],
+            
+            
+            label: "Un médium digne d'intérêt",
+            startdescription: "La douce aube de la mer, la teinte de la renaissance.",
+            
+            
+            
+        },
+
+        {
+            id: "matchknock",
+extends: ["matchknock"],
+            
+            
+            label: "Un médium digne d'intérêt",
+            startdescription: "Tôt ou tard, cette toile sera tailladée, mais sa couleur ne fera que s'enrichir.",
+            
+            
+            
+        },
+
+        {
+            id: "matchlantern",
+extends: ["matchlantern"],
+            
+            
+            label: "Un médium digne d'intérêt",
+            startdescription: "Cela sera d'autant plus utile dans l'obscurité totale, comme nous tous.",
+            
+            
+            
+        },
+
+        {
+            id: "matchmoth",
+extends: ["matchmoth"],
+            
+            
+            label: "Un médium digne d'intérêt",
+            startdescription: "Laissons les critiques se disputer sur la couleur réelle. Ils en viendront peut-être aux mains.",
+            
+            
+            
+        },
+
+        {
+            id: "matchwinter",
+extends: ["matchwinter"],
+            
+            
+            
+            label: "Un médium digne d'intérêt",
+            startdescription: "Qu'est-ce que je fais ? Qu'est-ce que j'ai fait ? Cela va briser le coeur de quelqu'un. Peut-être de tout le monde.",
+            
+            
+        },
+
+
+        {
+            id: "paintresults",
+extends: ["paintresults"],
+            label: "Fini !",
+            startdescription: " ",
+            
+            
+            
+            
+        },
+
+        {
+            id: "paintingqualitymaster_unique",
+extends: ["paintingqualitymaster_unique"],
+            
+            
+            label: "Quelque chose d'unique",
+            startdescription: "J'ai fait quelque chose d'unique - quelque chose d'extraordinaire - quelque chose que je n'oserai jamais exposer publiquement. [Cela ne pourra jamais voir la lumière du jour. Cela ne rapportera pas de Fonds.]",
+            
+            
+        },
+
+
+        {
+            id: "paintingqualityglorious",
+extends: ["paintingqualityglorious"],
+            
+            
+            label: "Travail glorieux",
+            startdescription: "Même si je ne touche jamais une autre toile, j'ai gagné ma place dans l'histoire.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paintingqualitymagnificent",
+extends: ["paintingqualitymagnificent"],
+            
+            
+            label: "Travail magnifique",
+            startdescription: "J'ai créé quelque chose à la fois de différent et de beau. Cela va très probablement améliorer ma réputation.",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paintingqualityexceptional",
+extends: ["paintingqualityexceptional"],
+            
+            
+            label: "Travail exceptionnel",
+            startdescription: "C'est quelque chose de spécial. Cela peut provoquer une réaction.",
+            
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "paintingqualitygood",
+extends: ["paintingqualitygood"],
+            
+            
+            label: "Bon travail",
+            startdescription: "C'est un travail dont je peux être fier. Avec suffisamment de publicité, il se vendra.",
+            
+            
+            
+            
+        },
+
+        {
+            id: "paintingqualitycompetent",
+extends: ["paintingqualitycompetent"],
+            
+            
+            label: "Travail compétent",
+            startdescription: "Il n'y a pas de quoi avoir honte.",
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "paintingqualityfailure",
+extends: ["paintingqualityfailure"],
+            
+            
+            label: "Sans valeur !",
+            startdescription: "Je n'ai rien produit d'utile ou de significatif du tout. Je devrais avoir honte de moi. Pourtant, si j'ai une réputation, cela pourrait quand même se vendre...",
+            
+            
+            
+            
+        },
+
+        {
+            id: "paintingreputationcheck",
+extends: ["paintingreputationcheck"],
+            
+            
+            
+        },
+
+        {
+            id: "paintingreputation_celebrated",
+extends: ["paintingreputation_celebrated"],
+            label: "La récompense de l'artiste ?",
+            description: "Mon travail récent est célébré ! Mon nom est connu, et mon travail est bien fait.",
+
+            
+            
+            
+            
+        },
+
+        {
+            id: "paintingreputation_famed",
+extends: ["paintingreputation_famed"],
+            label: "La récompense de l'artiste ?",
+            description: "Mes travaux récents ont acquis une modeste renommée ! Mes peintures ont été bien accueillies.",
+
+            
+            
+            
+            
+        },
+        {
+            id: "paintingreputation_notable",
+extends: ["paintingreputation_notable"],
+            label: "La récompense de l'artiste ?",
+            description: "Mon travail récent est considéré comme remarquable ! J'ai exposé mes dernières peintures. Quelqu'un va sûrement acheter quelque chose.",
+
+            
+            
+            
+            
+        },
+        {
+            id: "paintingreputation_significant",
+extends: ["paintingreputation_significant"],
+            label: "La récompense de l'artiste ?",
+            description: "Mon travail récent est considéré comme important ! Je peux maintenant en vivre, mais rien n'est certain.",
+
+            
+            
+            
+            
+        },
+
+
+        {
+            id: "paintingreputation_known",
+extends: ["paintingreputation_known"],
+            label: "La récompense de l'artiste ?",
+            description: "Mes travaux récents ont attiré l'attention. Quelque chose devrait se vendre.",
+
+            
+            
+            
+        },
+
+
+        {
+            id: "paintingreputation_noticed",
+extends: ["paintingreputation_noticed"],
+            comments: "No links to over-exposure risk. The overexposure cards will happily decay to funds.",
+            label: "La récompense de l'artiste ?",
+            description: "Mon travail récent a attiré quelques personnes. Avec de la chance, quelque chose se vendra.",
+
+            
+            
+            
+        },
+
+
+        {
+            id: "paintingreputation_unknown",
+extends: ["paintingreputation_unknown"],
+            comments: "No links to over-exposure risk. The overexposure cards will happily decay to funds.",
+            label: "La récompense de l'artiste ?",
+            description: "Mon travail récent est passé inaperçu. Rien ne s'est vendu. Peut-être que le travail est sa propre récompense. Je l'espère.",
+
+            
+            
+        },
+
+
+
+        {
+            id: "painting.reputation.overexposure",
+extends: ["painting.reputation.overexposure"],
+            label: "La récompense de l'artiste ?",
+            
+            
+            
+            
+            
+        },
+
+        {
+            id: "paintmansus",
+extends: ["paintmansus"],
+            label: "Dépeindre le Mansus",
+            
+            
+            
+            startdescription: "Je me rappelle quelque chose de l'architecture des rêves...",
+            description: "La lumière du jour ne doit pas toucher cette toile. Je vais avoir des ennuis.",
+            
+            
+        },
+
+
+    ]
+}
